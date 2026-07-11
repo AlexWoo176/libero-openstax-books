@@ -171,13 +171,11 @@ Dạng tổng quát của một khoảng tin cậy
 
 Để tìm sai số biên khi bạn biết khoảng tin cậy
 
-sai số biên = giá trị cao hơn – ước lượng điểm HOẶC sai số biên = 
-
-upper value−lower value
+−
 
 2
 
-upper value−lower value
+−
 
 2
 

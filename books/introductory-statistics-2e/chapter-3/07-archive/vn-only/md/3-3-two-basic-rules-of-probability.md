@@ -8,7 +8,7 @@ Khi tính xác suất, có hai quy tắc cần xem xét để xác định xem h
 
 Nếu *A* và *B* là hai biến cố được xác định trên một Không gian mẫu, thì: *P*(*A* VÀ *B*) = *P*(*B*)*P*(*A*|*B*).
 
-Quy tắc này cũng có thể được viết là: *P*(*A*|*B*) = 𝑃⁡(𝐴 AND 𝐵)𝑃⁡(𝐵)P⁡(A AND B)P⁡(B)P(A AND B)P(B)
+*P*(*A*|*B*𝑃⁡(𝐴 AND 𝐵)𝑃⁡(𝐵)P⁡(AB)P⁡(B)P(AB)P(B)
 
 (Xác suất của *A* với điều kiện *B* bằng xác suất của *A* và *B* chia cho xác suất của *B*.)
 
@@ -20,12 +20,12 @@ Nếu *A* và *B* được xác định trên một không gian mẫu, thì: *P*
 
 Nếu *A* và *B* là Xung khắc (Loại trừ lẫn nhau), thì *P*(*A* VÀ *B*) = 0. Khi đó *P*(*A* HOẶC *B*) = *P*(*A*) + *P*(*B*) - *P*(*A* VÀ *B*) trở thành *P*(*A* HOẶC *B*) = *P*(*A*) + *P*(*B*).
 
-Klaus đang cố gắng chọn nơi để đi nghỉ mát. Hai lựa chọn của anh ấy là: *A* = New Zealand và *B* = Alaska
+Klaus đang cố gắng chọn nơi để đi nghỉ mát. Hai lựa chọn của anh ấy là: A = New Zealand và B = Alaska
 
 - Klaus chỉ đủ khả năng cho một kỳ nghỉ. Xác suất anh ấy chọn *A* là *P*(*A*) = 0.6 và xác suất anh ấy chọn *B* là *P*(*B*) = 0.35.
 - *P*(*A* và *B*) = 0 vì Klaus chỉ đủ khả năng cho một kỳ nghỉ
 - Do đó, xác suất anh ấy chọn New Zealand hoặc Alaska là *P*(*A* hoặc *B*) = *P*(*A*) + *P*(*B*) = 0.6 + 0.35 = 0.95. Lưu ý rằng xác suất anh ấy không chọn đi nghỉ ở bất cứ đâu phải là 0.05.
-Anna phải mua một chiếc xe hơi mới. Cô ấy có hai lựa chọn, xe A và xe B. Anna chỉ có đủ khả năng mua một chiếc xe. Xác suất Anna sẽ mua xe A là 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25, và xác suất Anna sẽ mua xe B là 𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65. Hãy tìm:
+𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65
 
 - 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A AND B)
 - 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A OR B)

@@ -101,11 +101,9 @@ In an issue of *U. S. News and World Report*, an article on school standards sta
 
 *H_a*: *p* > 0.066
 
-Trong một số của tạp chí *U. S. News and World Report*, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
-
-*H_0*: *p* ≤ 0.066
-
-*H_a*: *p* > 0.066
+Trong một số của tạp chí U. S. News and World Report, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
+H0: p ≤ 0.066
+Ha: p > 0.066
 
 On a state driver’s test, about 40% pass the test on the first try. We want to test if more than 40% pass on the first try. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.
 

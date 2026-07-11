@@ -190,13 +190,13 @@ Theo ngôn ngữ thông thường, *S*|*Z* là gì?
 
 Tìm 𝑃⁡(𝑍 𝐴⁢𝑁⁢𝐷 𝑆)P⁡(Z A⁢N⁢D S)P(Z AND S).
 
-Theo ngôn ngữ thông thường, 𝑍 𝐴⁢𝑁⁢𝐷 𝑆Z A⁢N⁢D SZ AND S là gì?
+𝑍 𝐴⁢𝑁⁢𝐷 𝑆Z A⁢N⁢D SZ AND S
 
 *P* và *S* có phải là các biến cố độc lập không? Hãy giải thích tại sao có hoặc tại sao không.
 
 Tìm 𝑃⁡(𝑍 𝑂⁢𝑅 𝑆)P⁡(Z O⁢R S)P(Z OR S).
 
-Theo ngôn ngữ thông thường, 𝑍 𝑂⁢𝑅 𝑆Z O⁢R SZ OR S là gì?
+𝑍 𝑂⁢𝑅 𝑆Z O⁢R SZ OR S
 
 *Z* và *S* có phải là các biến cố xung khắc không? Hãy giải thích tại sao có hoặc tại sao không.
 

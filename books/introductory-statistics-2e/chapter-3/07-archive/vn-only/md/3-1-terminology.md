@@ -34,7 +34,7 @@ Khi đó 𝐴 ∩𝐵A∩BA∩B= {4, 5}.
 
 Biến cố bù của A được ký hiệu là *A′* (đọc là "*A* phẩy"). *A′* bao gồm tất cả các kết quả **KHÔNG** nằm trong *A*. Lưu ý rằng *P*(*A*) + *P*(*A′*) = 1. Ví dụ, gọi *S* = {1, 2, 3, 4, 5, 6} và gọi *A* = {1, 2, 3, 4}. Khi đó, *A′* = {5, 6}. *P*(*A*) = 464646, *P*(*A′*) = 262626, và *P*(*A*) + *P*(*A′*) = 46+2646+2646 + 26 = 1
 
-Xác suất có điều kiện của *A* với điều kiện *B* được viết là *P*(*A*|*B*). *P*(*A*|*B*) là xác suất để biến cố *A* xảy ra với điều kiện biến cố *B* đã xảy ra. **Một điều kiện làm giảm không gian mẫu**. Chúng ta tính xác suất của *A* từ không gian mẫu đã thu hẹp *B*. Công thức để tính *P*(*A*|*B*) là *P*(*A*|*B*) = 𝑃⁡(𝐴AND𝐵)𝑃⁡(𝐵)P⁡(AANDB)P⁡(B)P(A AND B)P(B) trong đó *P*(*B*) lớn hơn không.
+*A**B**P*(*A*|*B*). *P*(*A*|*B**A**B******A**B**P*(*A*|*B**P*(*A*|*B*𝑃⁡(𝐴AND𝐵)𝑃⁡(𝐵)P⁡(AB)P⁡(B)P(AB)P(B)*P*(*B*
 
 Ví dụ, giả sử chúng ta gieo một con xúc xắc sáu mặt cân đối. Không gian mẫu *S* = {1, 2, 3, 4, 5, 6}. Gọi *A* = mặt là 2 hoặc 3 và *B* = mặt là số chẵn (2, 4, 6). Để tính *P*(*A*|*B*), chúng ta đếm số lượng kết quả 2 hoặc 3 trong không gian mẫu *B* = {2, 4, 6}. Sau đó, chúng ta chia số đó cho số lượng kết quả *B* (thay vì *S*).
 

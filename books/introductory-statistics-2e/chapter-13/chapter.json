@@ -3,7 +3,7 @@
   "chapter": 13,
   "title_en": "",
   "title_vi": "",
-  "status": "archive_completed",
+  "status": "prep_completed",
   "qa": {
     "integrity": "pending",
     "glossary": "pending",
@@ -27,7 +27,7 @@
   "phases": {
     "prep": {
       "status": "completed",
-      "timestamp": "2026-07-11T01:13:32Z",
+      "timestamp": "2026-07-11T11:47:17Z",
       "files_processed": 13,
       "files_skipped": 0
     },
@@ -54,6 +54,12 @@
         },
         "review_gate_forced": true
       }
+    },
+    "scrape": {
+      "status": "completed",
+      "timestamp": "2026-07-11T11:46:50Z",
+      "pages_downloaded": 0,
+      "pages_skipped": 13
     }
   }
 }

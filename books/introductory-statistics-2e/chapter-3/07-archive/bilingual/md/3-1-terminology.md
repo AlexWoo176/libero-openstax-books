@@ -72,7 +72,7 @@ Biến cố bù của A được ký hiệu là *A′* (đọc là "*A* phẩy")
 
 The conditional probability of *A* given *B* is written *P*(*A*|*B*). *P*(*A*|*B*) is the probability that event *A* will occur given that the event *B* has already occurred. **A conditional reduces the sample space**. We calculate the probability of *A* from the reduced sample space *B*. The formula to calculate *P*(*A*|*B*) is *P*(*A*|*B*) = 𝑃⁡(𝐴AND𝐵)𝑃⁡(𝐵)P⁡(AANDB)P⁡(B)P(A AND B)P(B) where *P*(*B*) is greater than zero.
 
-Xác suất có điều kiện của *A* với điều kiện *B* được viết là *P*(*A*|*B*). *P*(*A*|*B*) là xác suất để biến cố *A* xảy ra với điều kiện biến cố *B* đã xảy ra. **Một điều kiện làm giảm không gian mẫu**. Chúng ta tính xác suất của *A* từ không gian mẫu đã thu hẹp *B*. Công thức để tính *P*(*A*|*B*) là *P*(*A*|*B*) = 𝑃⁡(𝐴AND𝐵)𝑃⁡(𝐵)P⁡(AANDB)P⁡(B)P(A AND B)P(B) trong đó *P*(*B*) lớn hơn không.
+*A**B**P*(*A*|*B*). *P*(*A*|*B**A**B******A**B**P*(*A*|*B**P*(*A*|*B*𝑃⁡(𝐴AND𝐵)𝑃⁡(𝐵)P⁡(AB)P⁡(B)P(AB)P(B)*P*(*B*
 
 For example, suppose we toss one fair, six-sided die. The sample space *S* = {1, 2, 3, 4, 5, 6}. Let *A* = face is 2 or 3 and *B* = face is even (2, 4, 6). To calculate *P*(*A*|*B*), we count the number of outcomes 2 or 3 in the sample space *B* = {2, 4, 6}. Then we divide that by the number of outcomes *B* (rather than *S*).
 

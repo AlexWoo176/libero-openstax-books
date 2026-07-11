@@ -49,11 +49,9 @@ Chúng ta muốn kiểm tra xem có mất ít hơn 45 phút để dạy một gi
 
 1. *H_0*: *μ* __ 45
 1. *H_a*: *μ* __ 45
-Trong một số của tạp chí *U. S. News and World Report*, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
-
-*H_0*: *p* ≤ 0.066
-
-*H_a*: *p* > 0.066
+Trong một số của tạp chí U. S. News and World Report, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
+H0: p ≤ 0.066
+Ha: p > 0.066
 
 Trong một bài kiểm tra lái xe của tiểu bang, khoảng 40% đỗ ngay lần thử đầu tiên. Chúng ta muốn kiểm tra xem có nhiều hơn 40% đỗ ngay lần thử đầu tiên hay không. Điền ký hiệu đúng (=, ≠, ≥, <, ≤, >) cho giả thuyết không và đối thuyết.
 

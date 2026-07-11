@@ -125,7 +125,7 @@ Giả sử một phép thử có các kết quả 1, 2, 3, ... , 12 trong đó m
 
 Giả sử một phép thử có các kết quả đen, trắng, đỏ, cam, vàng, xanh lá, xanh dương và tím, trong đó mỗi kết quả có cơ hội xảy ra như nhau. Gọi biến cố *C* = {xanh lá, xanh dương, tím} và biến cố *P* = {đỏ, vàng, xanh dương}. Khi đó *C* VÀ *P* = {xanh dương} và *C* HOẶC *P* = {xanh lá, xanh dương, tím, đỏ, vàng}. Hãy vẽ một sơ đồ Venn biểu diễn tình huống này.
 
-Gieo hai đồng xu cân đối. Gọi *A* = mặt ngửa xuất hiện ở đồng xu thứ nhất. Gọi *B* = mặt ngửa xuất hiện ở đồng xu thứ hai. Khi đó *A* = {*TT*, *TH*} và *B* = {*TT*, *HT*}. Do đó, *A* VÀ *B* = {*TT*}. *A* HOẶC *B* = {*TH*, *TT*, *HT*}.
+Gieo hai đồng xu cân đối. Gọi A = mặt ngửa xuất hiện ở đồng xu thứ nhất. Gọi B = mặt ngửa xuất hiện ở đồng xu thứ hai. Khi đó A = {HT, HH} và B = {TH, HH}. Do đó, A VÀ B = {HH}. A HOẶC B = {HT, HH, TH}.
 
 Không gian mẫu khi bạn gieo hai đồng xu cân đối là *X* = {*HH*, *HT*, *TH*, *TT*}. Kết quả *HH* KHÔNG nằm trong *A* CŨNG KHÔNG nằm trong *B*. Sơ đồ Venn như sau:
 
@@ -144,7 +144,7 @@ Nếu một sinh viên được chọn ngẫu nhiên, hãy tìm
 - xác suất sinh viên đó tham gia một câu lạc bộ. *P*(*C*) = 0.40
 - xác suất sinh viên đó làm việc bán thời gian. *P*(*PT*) = 0.50
 - xác suất sinh viên đó tham gia một câu lạc bộ VÀ làm việc bán thời gian. *P*(*C* VÀ *PT*) = 0.05
-- xác suất sinh viên đó tham gia một câu lạc bộ **với điều kiện** sinh viên đó làm việc bán thời gian. 𝑃⁡(𝐶|𝑃⁡𝑇)⁢ = ⁢𝑃⁡(𝐶 AND 𝑃⁡𝑇)𝑃⁡(𝑃⁡𝑇)⁢ = ⁢0.050.50⁢ = ⁢0.1P⁡(C|P⁡T)⁢ = ⁢P⁡(C AND P⁡T)P⁡(P⁡T)⁢ = ⁢0.050.50⁢ = ⁢0.1P(C|PT) = P(C AND PT)P(PT) = 0.050.50 = 0.1
+- ****𝑃⁡(𝐶|𝑃⁡𝑇)⁢ = ⁢𝑃⁡(𝐶 AND 𝑃⁡𝑇)𝑃⁡(𝑃⁡𝑇)⁢ = ⁢0.050.50⁢ = ⁢0.1P⁡(C|P⁡T)⁢ = ⁢P⁡(CP⁡T)P⁡(P⁡T)⁢ = ⁢⁢ = ⁢P(C|PT) = P(CPT)P(PT) =  =
 - xác suất sinh viên đó tham gia một câu lạc bộ **HOẶC** làm việc bán thời gian. *P*(*C* HOẶC *PT*) = *P*(*C*) + *P*(*PT*) - *P*(*C* VÀ *PT*) = 0.40 + 0.50 - 0.05 = 0.85
 Năm mươi phần trăm công nhân tại một nhà máy làm công việc thứ hai, 25% có vợ/chồng cũng đang đi làm, 5% làm công việc thứ hai và có vợ/chồng cũng đang đi làm. Hãy vẽ sơ đồ Venn thể hiện các mối quan hệ này. Gọi *W* = làm công việc thứ hai và *S* = vợ/chồng cũng đi làm.
 

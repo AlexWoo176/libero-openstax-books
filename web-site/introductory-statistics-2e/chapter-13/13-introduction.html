@@ -2,10 +2,7 @@
 
 <html><head>
 <meta charset="utf-8"/>
-<link href="../css/style.css" rel="stylesheet"/><style>
-.eng.hidden { display: none; }
-.vn.visible { color: #000; }
-</style><script src="../book-reader/book-pages.js"></script>
+<link href="../css/style.css" rel="stylesheet"/><script src="../book-reader/book-pages.js"></script>
 <link rel="stylesheet" href="../book-reader/book-reader.css">
 <script src="../book-reader/book-reader.js"></script>
 </head>
@@ -14,32 +11,24 @@
 <span data-alt="This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture." data-type="media" id="fs-idp104097120">
 <button aria-label="Click to enlarge image of This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture." class="image-button-wrapper" type="button"><img alt="This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture." data-media-type="image/jpg" height="651" loading="lazy" src="assets/img-13-1.webp" width="1401"/></button>
 </span>
-<figcaption class="os-caption-container eng hidden">
-<span class="os-title-label">Figure </span>
-<span class="os-number">13.1</span>
-<span class="os-divider"> </span>
-<span class="os-caption">One-way ANOVA is used to measure information from several groups. (credit: modification of work “Magazine Stack” by thebittenword.com/ Flickr, CC BY 2.0)</span>
-</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
 <span class="os-number">13.1</span>
 <span class="os-divider"> </span>
 <span class="os-caption">ANOVA một chiều được sử dụng để đo lường thông tin từ nhiều nhóm. (nguồn ảnh: chỉnh sửa từ tác phẩm “Magazine Stack” của thebittenword.com/ Flickr, CC BY 2.0)</span></figcaption></figure></div>
 <div class="intro-body">
-<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp90615904"><header><h2 class="os-title eng hidden" data-type="title">
-<span class="os-title-label">Chapter Objectives</span>
-</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp90615904"><header><h2 class="os-title" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
 <div class="os-note-body">
-<p class="eng hidden" id="element-672"> By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-672-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
+<p id="element-672-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
 <ul id="fs-idp124304720">
-<li class="eng hidden">Interpret the <em data-effect="italics">F</em> probability distribution as the number of groups and the sample size change.</li><li class="vn visible">Giải thích phân phối xác suất <em data-effect="italics">F</em> khi số lượng nhóm và kích thước mẫu thay đổi.</li>
-<li class="eng hidden">Discuss two uses for the <em data-effect="italics">F</em> distribution: one-way ANOVA and the test of two variances.</li><li class="vn visible">Thảo luận về hai công dụng của phân phối <em data-effect="italics">F</em>: ANOVA một chiều và kiểm định hai phương sai.</li>
-<li class="eng hidden">Conduct and interpret one-way ANOVA.</li><li class="vn visible">Thực hiện và giải thích ANOVA một chiều.</li>
-<li class="eng hidden">Conduct and interpret hypothesis tests of two variances.</li><li class="vn visible">Thực hiện và giải thích các kiểm định giả thuyết về hai phương sai.</li>
+<li>Giải thích phân phối xác suất <em data-effect="italics">F</em> khi số lượng nhóm và kích thước mẫu thay đổi.</li>
+<li>Thảo luận về hai công dụng của phân phối <em data-effect="italics">F</em>: ANOVA một chiều và kiểm định hai phương sai.</li>
+<li>Thực hiện và giải thích ANOVA một chiều.</li>
+<li>Thực hiện và giải thích các kiểm định giả thuyết về hai phương sai.</li>
 </ul>
 </div></section></div>
 <div class="intro-text">
-<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_a2af1354-4528-4f2c-b7ec-100678e2fb47_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
-</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_a2af1354-4528-4f2c-b7ec-100678e2fb47_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
-<p class="eng hidden" id="fs-idp61515728">Many statistical applications in psychology, social science, business administration, and the natural sciences involve several groups. For example, an environmentalist is interested in knowing if the average amount of pollution varies in several bodies of water. A sociologist is interested in knowing if the amount of income a person earns varies according to their upbringing. A consumer looking for a new car might compare the average gas mileage of several models.</p><p class="vn visible" id="fs-idp61515728-vn">Nhiều ứng dụng thống kê trong tâm lý học, khoa học xã hội, quản trị kinh doanh và khoa học tự nhiên liên quan đến nhiều nhóm. Ví dụ, một nhà môi trường học quan tâm đến việc liệu lượng ô nhiễm trung bình có thay đổi ở nhiều vùng nước khác nhau hay không. Một nhà xã hội học quan tâm đến việc liệu mức thu nhập mà một người kiếm được có thay đổi tùy theo quá trình nuôi dạy của họ hay không. Một người tiêu dùng đang tìm kiếm một chiếc xe hơi mới có thể so sánh mức tiêu thụ nhiên liệu trung bình của một vài mẫu xe.</p><p class="eng hidden" id="fs-idp105761984">For hypothesis tests comparing averages between more than two groups, statisticians have developed a method called "<span data-type="term" group-by="A" id="term-00001">Analysis of Variance</span>" (abbreviated ANOVA). In this chapter, you will study the simplest form of ANOVA called single factor or <span data-type="term" group-by="o" id="term-00002">one-way ANOVA</span>. You will also study the <em data-effect="italics">F</em> distribution, used for one-way ANOVA, and the test of two variances. This is just a very brief overview of one-way ANOVA. You will study this topic in much greater detail in future statistics courses. One-Way ANOVA, as it is presented here, relies heavily on a calculator or computer.</p><p class="vn visible" id="fs-idp105761984-vn">Đối với các kiểm định giả thuyết so sánh các giá trị trung bình giữa hơn hai nhóm, các nhà thống kê đã phát triển một phương pháp gọi là "<span data-type="term" group-by="A" id="term-00001">Phân tích phương sai</span>" (viết tắt là ANOVA). Trong chương này, bạn sẽ nghiên cứu dạng đơn giản nhất của ANOVA được gọi là yếu tố đơn hoặc <span data-type="term" group-by="o" id="term-00002">Phân tích phương sai một chiều</span>. Bạn cũng sẽ nghiên cứu phân phối <em data-effect="italics">F</em>, được sử dụng cho ANOVA một chiều và kiểm định hai phương sai. Đây chỉ là một cái nhìn tổng quan rất ngắn gọn về ANOVA một chiều. Bạn sẽ nghiên cứu chủ đề này chi tiết hơn nhiều trong các khóa học thống kê tương lai. ANOVA một chiều, như được trình bày ở đây, phụ thuộc rất nhiều vào máy tính cầm tay hoặc máy tính cá nhân.</p>
+<h2 data-rex-keep="true" data-type="document-title" id="page_a2af1354-4528-4f2c-b7ec-100678e2fb47_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
+<p id="fs-idp61515728-vn">Nhiều ứng dụng thống kê trong tâm lý học, khoa học xã hội, quản trị kinh doanh và khoa học tự nhiên liên quan đến nhiều nhóm. Ví dụ, một nhà môi trường học quan tâm đến việc liệu lượng ô nhiễm trung bình có thay đổi ở nhiều vùng nước khác nhau hay không. Một nhà xã hội học quan tâm đến việc liệu mức thu nhập mà một người kiếm được có thay đổi tùy theo quá trình nuôi dạy của họ hay không. Một người tiêu dùng đang tìm kiếm một chiếc xe hơi mới có thể so sánh mức tiêu thụ nhiên liệu trung bình của một vài mẫu xe.</p><p id="fs-idp105761984-vn">Đối với các kiểm định giả thuyết so sánh các giá trị trung bình giữa hơn hai nhóm, các nhà thống kê đã phát triển một phương pháp gọi là "<span data-type="term" group-by="A" id="term-00001">Phân tích phương sai</span>" (viết tắt là ANOVA). Trong chương này, bạn sẽ nghiên cứu dạng đơn giản nhất của ANOVA được gọi là yếu tố đơn hoặc <span data-type="term" group-by="o" id="term-00002">Phân tích phương sai một chiều</span>. Bạn cũng sẽ nghiên cứu phân phối <em data-effect="italics">F</em>, được sử dụng cho ANOVA một chiều và kiểm định hai phương sai. Đây chỉ là một cái nhìn tổng quan rất ngắn gọn về ANOVA một chiều. Bạn sẽ nghiên cứu chủ đề này chi tiết hơn nhiều trong các khóa học thống kê tương lai. ANOVA một chiều, như được trình bày ở đây, phụ thuộc rất nhiều vào máy tính cầm tay hoặc máy tính cá nhân.</p>
 </div>
 </div>
 </body></html>

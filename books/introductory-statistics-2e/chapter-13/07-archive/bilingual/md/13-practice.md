@@ -263,7 +263,7 @@ Nhập dữ liệu vào máy tính cầm tay hoặc máy tính của bạn.
 
 *State the decisions and conclusions (in complete sentences) for the following preconceived levels of α*.
 
-*State the decisions and conclusions (in complete sentences) for the following preconceived levels of α*.
+Hãy nêu các quyết định và kết luận (bằng các câu hoàn chỉnh) cho các mức α đã định trước sau đây.
 
 *α* = 0.05
 

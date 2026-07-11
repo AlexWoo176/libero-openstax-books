@@ -274,13 +274,13 @@ Hướng dẫn: Sử dụng Bộ tạo số ngẫu nhiên để chọn các mẫ
 1. Create a stratified sample by column. Pick three quiz scores randomly from each column.
 Đánh số mỗi hàng từ một đến mười.
 Trên máy tính của bạn, nhấn Math và di chuyển mũi tên sang PRB.
-Đối với cột 1, nhấn 5:`randInt( and enter 1,10)`. Nhấn ENTER. Ghi lại số đó. Nhấn ENTER thêm 2 lần nữa (kể cả các số lặp lại). Ghi lại các số này. Ghi lại ba điểm bài kiểm tra trong cột một tương ứng với ba số này.
+Đối với cột 1, nhấn 5:randInt( và nhập 1,10). Nhấn ENTER. Ghi lại số đó. Nhấn ENTER thêm 2 lần nữa (kể cả các số lặp lại). Ghi lại các số này. Ghi lại ba điểm bài kiểm tra trong cột một tương ứng với ba số này.
 Lặp lại cho các cột từ hai đến sáu.
 18 điểm bài kiểm tra này là một mẫu phân tầng.
 1. Create a cluster sample by picking two of the columns. Use the column numbers: one through six.
 
 Nhấn `MATH` và dùng phím mũi tên di chuyển đến PRB.
-Nhấn 5:`randInt( and enter 1,6)`. Nhấn ENTER. Ghi lại con số đó. Nhấn ENTER và ghi lại con số tiếp theo.
+Nhấn 5:randInt( và nhập 1,6). Nhấn ENTER. Ghi lại con số đó. Nhấn ENTER và ghi lại con số tiếp theo.
 Hai con số này tương ứng với hai trong số các cột.
 Các điểm số bài kiểm tra (20 điểm số) trong 2 cột này chính là mẫu cụm.
 1. Create a simple random sample of 15 quiz scores.

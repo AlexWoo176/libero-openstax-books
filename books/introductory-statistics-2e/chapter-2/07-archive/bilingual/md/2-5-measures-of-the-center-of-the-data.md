@@ -274,11 +274,11 @@ Một **trị thống kê** là một con số được tính toán từ một m
 
 When only grouped data is available, you do not know the individual data values (we only know intervals and interval frequencies); therefore, you cannot compute an exact mean for the data set. What we must do is estimate the actual mean by calculating the mean of a frequency table. A frequency table is a data representation in which grouped data is displayed along with the corresponding frequencies. To calculate the mean from a grouped frequency table we can apply the basic definition of mean: *mean* = data sumnumber of data valuesdata sumnumber of data valuesdata sumnumber of data values We simply need to modify the definition to fit within the restrictions of a frequency table.
 
-Khi chỉ có dữ liệu đã được nhóm, bạn không biết các giá trị dữ liệu riêng lẻ (chúng ta chỉ biết các khoảng và tần số của khoảng); do đó, bạn không thể tính toán số trung bình chính xác cho tập dữ liệu. Những gì chúng ta phải làm là ước tính số trung bình thực tế bằng cách tính số trung bình của một bảng tần số. Một Bảng tần số là một cách biểu diễn dữ liệu trong đó dữ liệu đã được nhóm được hiển thị cùng với các tần số tương ứng. Để tính số trung bình từ một bảng tần số đã nhóm, chúng ta có thể áp dụng định nghĩa cơ bản về số trung bình: *số trung bình* = data sumnumber of data valuesdata sumnumber of data valuesdata sumnumber of data values Chúng ta chỉ cần sửa đổi định nghĩa để phù hợp với các hạn chế của một bảng tần số.
+** = data sumnumber of data values
 
 Since we do not know the individual data values we can instead find the midpoint of each interval. The midpoint is lower boundary+upper boundary2lower boundary+upper boundary2lower boundary+upper boundary2. We can now modify the mean definition to be Mean of Frequency Table =∑𝑓⁡𝑚∑𝑓Mean of Frequency Table=∑f⁡m∑fMean of Frequency Table=∑fm∑f where *f* = the frequency of the interval and *m* = the midpoint of the interval.
 
-Vì chúng ta không biết các giá trị dữ liệu riêng lẻ, thay vào đó chúng ta có thể tìm Điểm giữa của mỗi khoảng. Trung điểm là lower boundary+upper boundary2lower boundary+upper boundary2lower boundary+upper boundary2. Bây giờ chúng ta có thể sửa đổi định nghĩa số trung bình thành Mean of Frequency Table =∑𝑓⁡𝑚∑𝑓Mean of Frequency Table=∑f⁡m∑fMean of Frequency Table=∑fm∑f trong đó *f* = tần số của khoảng và *m* = trung điểm của khoảng.
+lower boundary+upper boundary2+2+2Mean of Frequency Table =∑𝑓⁡𝑚∑𝑓=∑f⁡m∑f=∑fm∑f*f**m*
 
 #### Problem
 

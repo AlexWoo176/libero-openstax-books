@@ -260,9 +260,9 @@ X
 
 )
 
-Điểm *z* và độ lệch chuẩn cho các Tổng trong Định lý Giới hạn Trung tâm cho các Tổng: 
+*z*
 
-z for the sample mean = 
+z
 
 Σx–(n)(
 μ
@@ -279,7 +279,7 @@ X
 
 )
 
-z for the sample mean = 
+z
 
 Σx–(n)(
 μ

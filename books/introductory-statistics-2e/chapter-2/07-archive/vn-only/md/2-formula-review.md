@@ -18,4 +18,4 @@ trong đó *x* = số lượng các giá trị đếm từ dưới cùng của d
 
 𝜇=∑𝑓⁡𝑚∑𝑓μ=∑f⁡m∑fμ=∑fm∑f Trong đó *f* = tần số các khoảng và *m* = trung điểm các khoảng.
 
-𝑠𝑥=√∑𝑓⁡𝑚2𝑛−̅̅̅̅̅𝑥2sx=∑f⁡m2n−x¯2sx=∑fm2n−x¯2 trong đó 𝑠𝑥= sample standard deviation̅̅̅̅̅𝑥 = sample meansx= sample standard deviationx¯ = sample meansx= sample standard deviationx¯ = sample mean
+𝑠𝑥=√∑𝑓⁡𝑚2𝑛−̅̅̅̅̅𝑥2sx=∑f⁡m2n−x¯2sx=∑fm2n−x¯2𝑠𝑥= sample standard deviation̅̅̅̅̅𝑥 = sample meansx=x¯sx=x¯

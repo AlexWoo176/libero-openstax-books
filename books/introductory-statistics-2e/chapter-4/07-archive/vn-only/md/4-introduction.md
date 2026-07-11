@@ -24,7 +24,7 @@ Hai ví dụ này minh họa hai loại bài toán xác suất khác nhau liên 
 
 Các chữ cái in hoa như *X* hoặc *Y* biểu thị một biến ngẫu nhiên. Các chữ cái thường như *x* hoặc *y* biểu thị giá trị của một biến ngẫu nhiên. Nếu ***X* là một biến ngẫu nhiên, thì *X* được viết bằng lời, và *x* được đưa ra dưới dạng một con số.**
 
-Ví dụ, gọi *X* = số mặt ngửa bạn nhận được khi tung ba đồng xu cân đối. Không gian mẫu cho việc tung ba đồng xu cân đối là *TTT*; *THH*; *HTH*; *HHT*; *HTT*; *THT*; *TTH*; *HHH*. Khi đó, *x* = 0, 1, 2, 3. *X* được viết bằng lời và *x* là một con số. Lưu ý rằng đối với ví dụ này, các giá trị *x* là các kết quả có thể đếm được. Vì bạn có thể đếm các giá trị khả dĩ mà *X* có thể nhận và các kết quả là ngẫu nhiên (các giá trị *x* là 0, 1, 2, 3), nên *X* là một biến ngẫu nhiên rời rạc.
+Ví dụ, gọi X = số mặt ngửa bạn nhận được khi tung ba đồng xu cân đối. Không gian mẫu cho việc tung ba đồng xu cân đối là TTT; THH; HTH; HHT; HTT; THT; TTH; HHH. Khi đó, x = 0, 1, 2, 3. X được viết bằng lời và x là một con số. Lưu ý rằng đối với ví dụ này, các giá trị x là các kết quả có thể đếm được. Vì bạn có thể đếm các giá trị khả dĩ mà X có thể nhận và các kết quả là ngẫu nhiên (các giá trị x là 0, 1, 2, 3), nên X là một biến ngẫu nhiên rời rạc.
 
 Tung một đồng xu mười lần và ghi lại số mặt ngửa. Sau khi tất cả các thành viên trong lớp đã hoàn thành phép thử (tung một đồng xu mười lần và đếm số mặt ngửa), hãy điền vào [Bảng 4.1](4-introduction#M01_Ch04_tbl001). Gọi *X* = số mặt ngửa trong mười lần tung đồng xu.
 

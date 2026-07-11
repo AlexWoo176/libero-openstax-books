@@ -104,24 +104,13 @@ Một cuộc khảo sát ma túy gần đây cho thấy sự gia tăng sử dụ
 
 Chúng ta quan tâm đến việc liệu tỷ lệ bằng cấp khoa học vật lý được cấp cho những người từ 21 đến 24 tuổi có giống nhau đối với người da trắng và người da đen ở Hoa Kỳ hay không. Số lượng bằng cấp được cấp cho người da trắng trong một năm nhất định là 4.930. Năm trăm tám mươi người trong độ tuổi từ 21 đến 24. Ước tính cho người da đen là 330. Bốn mươi người trong độ tuổi từ 21 đến 24. Chúng ta sẽ để những người có bằng khoa học vật lý được cấp là quần thể của chúng ta.
 
-Elizabeth Mjelde, một giáo sư lịch sử nghệ thuật, quan tâm đến việc liệu giá trị từ công thức Tỷ lệ vàng, 
-
 (
-
-larger + smaller dimension
-
-larger dimension
 
 )
 
 (
 
-larger + smaller dimension
-
-larger dimension
-
 )
- có giống nhau trong Triển lãm Whitney cho các tác phẩm từ năm 1900 đến 1919 như đối với các tác phẩm từ năm 1920 đến 1942 hay không. Ba mươi bảy tác phẩm đầu tiên đã được lấy mẫu, trung bình là 1,74 với độ lệch chuẩn là 0,11. Sáu mươi lăm tác phẩm sau đó đã được lấy mẫu, trung bình là 1,746 với độ lệch chuẩn là 0,1064. Bạn có nghĩ rằng có sự khác biệt đáng kể trong tính toán Tỷ lệ vàng không?
 
 Một năm gần đây đã được chọn ngẫu nhiên từ năm 1985 đến nay. Trong năm đó, có 2.051 sinh viên gốc Tây Ban Nha/Latino tại Cao đẳng Cabrillo trong tổng số 12.328 sinh viên. Tại Cao đẳng Lake Tahoe, có 321 sinh viên gốc Tây Ban Nha/Latino trong tổng số 2.441 sinh viên. Nói chung, bạn có nghĩ rằng tỷ lệ sinh viên gốc Tây Ban Nha/Latino tại hai trường cao đẳng về cơ bản là giống nhau hay khác nhau?
 

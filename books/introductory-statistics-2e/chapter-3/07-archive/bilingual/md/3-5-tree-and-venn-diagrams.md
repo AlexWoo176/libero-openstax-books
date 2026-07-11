@@ -254,7 +254,7 @@ Giả sử một phép thử có các kết quả đen, trắng, đỏ, cam, và
 
 Flip two fair coins. Let *A* = tails on the first coin. Let *B* = tails on the second coin. Then *A* = {*TT*, *TH*} and *B* = {*TT*, *HT*}. Therefore, *A* AND *B* = {*TT*}. *A* OR *B* =  {*TH*, *TT*, *HT*}.
 
-Gieo hai đồng xu cân đối. Gọi *A* = mặt ngửa xuất hiện ở đồng xu thứ nhất. Gọi *B* = mặt ngửa xuất hiện ở đồng xu thứ hai. Khi đó *A* = {*TT*, *TH*} và *B* = {*TT*, *HT*}. Do đó, *A* VÀ *B* = {*TT*}. *A* HOẶC *B* = {*TH*, *TT*, *HT*}.
+Gieo hai đồng xu cân đối. Gọi A = mặt ngửa xuất hiện ở đồng xu thứ nhất. Gọi B = mặt ngửa xuất hiện ở đồng xu thứ hai. Khi đó A = {HT, HH} và B = {TH, HH}. Do đó, A VÀ B = {HH}. A HOẶC B = {HT, HH, TH}.
 
 The sample space when you flip two fair coins is *X* = {*HH*, *HT*, *TH*, *TT*}. The outcome *HH* is in NEITHER *A* NOR *B*. The Venn diagram is as follows:
 
@@ -291,7 +291,7 @@ Nếu một sinh viên được chọn ngẫu nhiên, hãy tìm
 - the probability that the student belongs to a club AND works part time. *P*(*C* AND *PT*) = 0.05
 - xác suất sinh viên đó tham gia một câu lạc bộ VÀ làm việc bán thời gian. *P*(*C* VÀ *PT*) = 0.05
 - the probability that the student belongs to a club **given** that the student works part time. 𝑃⁡(𝐶|𝑃⁡𝑇)⁢ = ⁢𝑃⁡(𝐶 AND 𝑃⁡𝑇)𝑃⁡(𝑃⁡𝑇)⁢ = ⁢0.050.50⁢ = ⁢0.1P⁡(C|P⁡T)⁢ = ⁢P⁡(C AND P⁡T)P⁡(P⁡T)⁢ = ⁢0.050.50⁢ = ⁢0.1P(C|PT) = P(C AND PT)P(PT) = 0.050.50 = 0.1
-- xác suất sinh viên đó tham gia một câu lạc bộ **với điều kiện** sinh viên đó làm việc bán thời gian. 𝑃⁡(𝐶|𝑃⁡𝑇)⁢ = ⁢𝑃⁡(𝐶 AND 𝑃⁡𝑇)𝑃⁡(𝑃⁡𝑇)⁢ = ⁢0.050.50⁢ = ⁢0.1P⁡(C|P⁡T)⁢ = ⁢P⁡(C AND P⁡T)P⁡(P⁡T)⁢ = ⁢0.050.50⁢ = ⁢0.1P(C|PT) = P(C AND PT)P(PT) = 0.050.50 = 0.1
+- ****𝑃⁡(𝐶|𝑃⁡𝑇)⁢ = ⁢𝑃⁡(𝐶 AND 𝑃⁡𝑇)𝑃⁡(𝑃⁡𝑇)⁢ = ⁢0.050.50⁢ = ⁢0.1P⁡(C|P⁡T)⁢ = ⁢P⁡(CP⁡T)P⁡(P⁡T)⁢ = ⁢⁢ = ⁢P(C|PT) = P(CPT)P(PT) =  =
 - the probability that the student belongs to a club **OR** works part time. *P*(*C* OR *PT*) = *P*(*C*) + *P*(*PT*) - *P*(*C* AND *PT*) = 0.40 + 0.50 - 0.05 = 0.85
 - xác suất sinh viên đó tham gia một câu lạc bộ **HOẶC** làm việc bán thời gian. *P*(*C* HOẶC *PT*) = *P*(*C*) + *P*(*PT*) - *P*(*C* VÀ *PT*) = 0.40 + 0.50 - 0.05 = 0.85
 Fifty percent of the workers at a factory work a second job, 25% have a spouse who also works, 5% work a second job and have a spouse who also works. Draw a Venn diagram showing the relationships. Let *W* = works a second job and *S* = spouse also works.

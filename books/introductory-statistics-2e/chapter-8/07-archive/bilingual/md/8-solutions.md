@@ -99,7 +99,6 @@ x
 
 x
 ¯
- = 2,2
 1. *σ* = 0.2
 1. *σ* = 0.2
 1. *n* = 20
@@ -213,7 +212,6 @@ x
 
 x
 ¯
- = 151
 1. s
 x
 
@@ -226,8 +224,6 @@ x
 
 s
 x
-
- = 32
 1. *n* = 108
 1. *n* = 108
 1. *n* – 1 = 107
@@ -406,7 +402,6 @@ P
 80
 
 )
-. (0.72171, 0.87829).
 
 0.04
 
@@ -529,7 +524,6 @@ x
 
 x
 ¯
- = $568,873
 1. *CL* = 0.95 *α* = 1 – 0.95 = 0.05 
 
 z
@@ -658,7 +652,7 @@ x
 
 x
 ¯
-: 568,873
+
 *n*: 40*n*: 40
 *CL*: 0.95*CL*: 0.95
 
@@ -882,7 +876,6 @@ x
 
 x
 ¯
- = 2.51
 
 s
 x
@@ -898,7 +891,6 @@ x
 s
 x
 
- = 0.318
 *n* = 9*n* = 9
 *n* - 1 = 8 *n* - 1 = 8
 1. the effective length of time for a tranquilizer
@@ -1014,8 +1006,6 @@ t
 
 0.02
 
- = 2,150
-
 EBM=
 t
 
@@ -1110,7 +1100,7 @@ x
 x
 ¯
 
- - *EBM* = $251.854,23 - $204.561,66 = $47.292,57
+*EBM*
 
 x
 ¯
@@ -1126,7 +1116,7 @@ x
 x
 ¯
 
- + *EBM* = $251.854,23 + $204.561,66 = $456.415,89
+*EBM*
 
 We estimate with 96% confidence that the mean amount of money raised by all Leadership PACs during the specific election cycle lies between $47,292.57 and $456,415.89.
 
@@ -1192,7 +1182,6 @@ x
 
 x
 ¯
- = 11.6
 
 s
 x
@@ -1208,7 +1197,6 @@ x
 s
 x
 
- = 4.1
 *n* = 225*n* = 225
 *n* - 1 = 224*n* - 1 = 224
 1. *X* is the number of unoccupied seats on a single flight. 
@@ -1383,7 +1371,7 @@ a
 2
 
  = 0.52; *EBP* = 0.55 - 0.52 = 0.03
-1. p′p′ = 
+1. p′p′
 
 (0.55 + 0.49)
 
@@ -1393,7 +1381,7 @@ a
 
 2
 
- = 0.52; *EBP* = 0.55 - 0.52 = 0.03
+*EBP*
 1. No, the confidence interval includes values less than or equal to 0.50. It is possible that less than half of the population believe this.
 1. Không, khoảng tin cậy bao gồm các giá trị nhỏ hơn hoặc bằng 0.50. Có khả năng là ít hơn một nửa dân số tin vào điều này.
 1. *CL* = 0.75, so *α* = 1 – 0.75 = 0.25 and 
@@ -1443,7 +1431,7 @@ Alternate SolutionCách giải thay thế
 Using the TI-83, 83+, 84, 84+ Calculator
 Sử dụng máy tính TI-83, 83+, 84, 84+
 
-STAT TESTS `A: 1-PropZinterval` with *x* = (0.52)(1,000), *n* = 1,000, CL = 0.75.STAT TESTS `A: 1-PropZinterval` với *x* = (0,52)(1.000), *n* = 1.000, CL = 0,75.
+STAT TESTS `A: 1-PropZinterval` with *x* = (0.52)(1,000), *n* = 1,000, CL = 0.75.STAT TESTS A: 1-PropZinterval với x = (0,52)(1.000), n = 1.000, CL = 0,75.
 Answer is (0.502, 0.538)Đáp án là (0,502, 0,538)
 1. Yes – this interval does not fall less than 0.50 so we can conclude that at least half of all American adults believe that major sports programs corrupt education – but we do so with only 75% confidence.
 1. Có – khoảng này không rơi xuống dưới 0.50 nên chúng ta có thể kết luận rằng ít nhất một nửa số người Mỹ trưởng thành tin rằng các chương trình thể thao lớn làm tha hóa giáo dục – nhưng chúng ta chỉ có thể kết luận với mức tin cậy 75%.

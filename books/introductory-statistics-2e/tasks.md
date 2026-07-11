@@ -5,7 +5,7 @@ This file tracks the translation progress of each chapter in the textbook.
 ## Book Summary Progress
 - [x] Initialize workspace
 - [ ] Complete chapters 1–8 baseline verification
-- [/] Complete chapters translation (12/13 chapters archived)
+- [/] Complete chapters translation (11/13 chapters archived)
 
 ## Chapter Progress Checklist
 

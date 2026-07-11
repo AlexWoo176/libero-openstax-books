@@ -55,16 +55,16 @@
       "last_updated": "2026-07-11T00:59:54Z"
     },
     "chapter-13": {
-      "status": "archive_completed",
-      "last_updated": "2026-07-11T01:17:50Z"
+      "status": "prep_completed",
+      "last_updated": "2026-07-11T11:47:17Z"
     }
   },
   "build": {
     "status": "completed",
-    "timestamp": "2026-07-11T01:18:46Z",
+    "timestamp": "2026-07-11T13:27:30Z",
     "total_pages": 199,
     "first_page": "/_book-level/a-review-exercises-ch-3-13.html",
-    "mode": "bilingual",
+    "mode": "vn-only",
     "copy_to_web": true
   }
 }

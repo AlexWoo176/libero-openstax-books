@@ -115,7 +115,7 @@ Di chuyển mũi tên sang PRB
 Nhấn 5:randInt(
 Nhập 51,1,8)
 
-Tám số được tạo ra (sử dụng phím mũi tên phải để cuộn qua các số). Các số tương ứng với các tiểu bang được đánh số (cho ví dụ này: {47 21 9 23 51 13 25 4}. Nếu có bất kỳ số nào bị lặp lại, hãy tạo một số khác bằng cách sử dụng 5:randInt(51,1)). Ở đây, các tiểu bang (và Washington DC) là {Arkansas, Washington DC, Idaho, Maryland, Michigan, Mississippi, Virginia, Wyoming}.
+Eight numbers are generated (use the right arrow key to scroll through the numbers). The numbers correspond to the numbered states (for this example: {47 21 9 23 51 13 25 4}). If any numbers are repeated, generate another number using 5:randInt(51,1). Here, the states (and Washington DC) are {Arkansas, Washington DC, Idaho, Maryland, Michigan, Mississippi, Virginia, Wyoming}.
 Các tỷ lệ phần trăm tương ứng là {30,1, 22,2, 26,5, 27,1, 30,9, 34,0, 26,0, 25,1}.
 
 ![A bar graph showing 8 states on the x-axis and corresponding obesity rates on the y-axis.](../../../assets/img-2-8.webp)

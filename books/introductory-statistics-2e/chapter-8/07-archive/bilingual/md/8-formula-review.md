@@ -354,13 +354,11 @@ upper value−lower value
 
 2
 
-sai số biên = giá trị cao hơn – ước lượng điểm HOẶC sai số biên = 
-
-upper value−lower value
+−
 
 2
 
-upper value−lower value
+−
 
 2
 

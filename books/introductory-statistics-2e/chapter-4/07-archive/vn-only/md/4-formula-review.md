@@ -45,7 +45,7 @@ Số trung bình là *μ* = 1𝑝1p1p.
 
 *n**r**b*
 
-Số trung bình của *X* được cho bởi công thức *μ* = 𝑛⁢𝑟𝑟 + 𝑏n⁢rr + bnrr + b và độ lệch chuẩn là = √𝑟⁢𝑏⁢𝑛⁡(𝑟 + 𝑏−𝑛)(𝑟 + 𝑏)2(𝑟 + 𝑏−1)r⁢b⁢n⁡(r + b−n)(r + b)2(r + b−1)rbn(r + b−n)(r + b)2(r + b−1).
+*X**μ* = 𝑛⁢𝑟𝑟 + 𝑏n⁢rr + bnrr + b√𝑟⁢𝑏⁢𝑛⁡(𝑟 + 𝑏−𝑛)(𝑟 + 𝑏)2(𝑟 + 𝑏−1)r⁢b⁢n⁡(r + b−n)(r + b)2(r + b−1)rbn(r + b−n)(r + b)2(r + b−1).
 
 *X* ~ *P*(*μ*) có nghĩa là *X* có phân phối xác suất Poisson trong đó *X* = số lần xuất hiện trong khoảng quan tâm.
 

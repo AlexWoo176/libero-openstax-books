@@ -311,11 +311,9 @@ Recall that for grouped data we do not know individual data values, so we cannot
 
 where 𝑓=f=f= interval frequencies and *m* = interval midpoints.
 
-Hãy nhớ rằng đối với dữ liệu đã nhóm, chúng ta không biết các giá trị dữ liệu riêng lẻ, vì vậy chúng ta không thể mô tả giá trị điển hình của dữ liệu một cách chính xác. Nói cách khác, chúng ta không thể tìm thấy chính xác số trung bình, trung vị hoặc yếu vị. Tuy nhiên, chúng ta có thể xác định ước lượng tốt nhất cho các số đo trung tâm bằng cách tìm số trung bình của dữ liệu đã nhóm với công thức:
-
 𝑀⁢𝑒⁢𝑎⁢𝑛 𝑜⁢𝑓 𝐹⁡𝑟⁢𝑒⁢𝑞⁢𝑢⁢𝑒⁢𝑛⁢𝑐⁢𝑦 𝑇⁢𝑎⁢𝑏⁢𝑙⁢𝑒=∑𝑓⁡𝑚∑𝑓M⁢e⁢a⁢n o⁢f F⁡r⁢e⁢q⁢u⁢e⁢n⁢c⁢y T⁢a⁢b⁢l⁢e=∑f⁡m∑fMean of Frequency Table=∑fm∑f
 
-trong đó 𝑓=f=f= là tần số khoảng và *m* = trung điểm khoảng.
+𝑓=f=f=*m*
 
 Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how “unusual” individual data is compared to the mean.
 

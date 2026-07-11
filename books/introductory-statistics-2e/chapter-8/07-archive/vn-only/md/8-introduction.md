@@ -1,7 +1,7 @@
-*Hình 
+*Figure 
 8.1
  
-Bạn đã bao giờ tự hỏi số trung bình các viên kẹo M&M trong một túi tại cửa hàng tạp hóa là bao nhiêu chưa? Bạn có thể sử dụng các khoảng tin cậy để trả lời câu hỏi này. (nguồn: chỉnh sửa từ tác phẩm “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean” / Pxhere, Phạm vi công cộng)*
+Have you ever wondered about the average number of M&M candies in a bag at the grocery store? You can use confidence intervals to answer this question. (credit: modification of work by “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean” / Pxhere, Public Domain)*
 
 Đến cuối chương này, sinh viên sẽ có thể:
 

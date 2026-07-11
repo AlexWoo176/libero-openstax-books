@@ -107,7 +107,7 @@ b. Xác suất để Alissa không bắt được Muddy là bao nhiêu?
 
 c. Xác suất để Muddy chọn Cửa Một HOẶC Cửa Hai với điều kiện Muddy bị Alissa bắt là bao nhiêu?
 
-Anna phải mua một chiếc xe mới. Cô ấy có hai lựa chọn, xe A và xe B. Anna chỉ có thể mua một chiếc xe. Xác suất Anna sẽ mua xe A là 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25, và xác suất Anna sẽ mua xe B là 𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65. Hãy tìm:
+𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65
 
 - 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A VÀ B)
 - 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A HOẶC B)

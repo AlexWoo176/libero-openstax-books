@@ -94,7 +94,7 @@ The standard deviation is *σ* = √1 – 𝑝𝑝21 – pp21 – pp2
 
 The mean of *X* is given by the formula *μ* = 𝑛⁢𝑟𝑟 + 𝑏n⁢rr + bnrr + b and the standard deviation is = √𝑟⁢𝑏⁢𝑛⁡(𝑟 + 𝑏−𝑛)(𝑟 + 𝑏)2(𝑟 + 𝑏−1)r⁢b⁢n⁡(r + b−n)(r + b)2(r + b−1)rbn(r + b−n)(r + b)2(r + b−1).
 
-Số trung bình của *X* được cho bởi công thức *μ* = 𝑛⁢𝑟𝑟 + 𝑏n⁢rr + bnrr + b và độ lệch chuẩn là = √𝑟⁢𝑏⁢𝑛⁡(𝑟 + 𝑏−𝑛)(𝑟 + 𝑏)2(𝑟 + 𝑏−1)r⁢b⁢n⁡(r + b−n)(r + b)2(r + b−1)rbn(r + b−n)(r + b)2(r + b−1).
+*X**μ* = 𝑛⁢𝑟𝑟 + 𝑏n⁢rr + bnrr + b√𝑟⁢𝑏⁢𝑛⁡(𝑟 + 𝑏−𝑛)(𝑟 + 𝑏)2(𝑟 + 𝑏−1)r⁢b⁢n⁡(r + b−n)(r + b)2(r + b−1)rbn(r + b−n)(r + b)2(r + b−1).
 
 *X* ~ *P*(*μ*) means that *X* has a Poisson probability distribution where *X* = the number of occurrences in the interval of interest.
 

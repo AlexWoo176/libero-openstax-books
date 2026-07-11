@@ -384,7 +384,7 @@ Tìm 𝑃⁡(𝑍 𝐴⁢𝑁⁢𝐷 𝑆)P⁡(Z A⁢N⁢D S)P(Z AND S).
 
 In words, what is 𝑍 𝐴⁢𝑁⁢𝐷 𝑆Z A⁢N⁢D SZ AND S?
 
-Theo ngôn ngữ thông thường, 𝑍 𝐴⁢𝑁⁢𝐷 𝑆Z A⁢N⁢D SZ AND S là gì?
+𝑍 𝐴⁢𝑁⁢𝐷 𝑆Z A⁢N⁢D SZ AND S
 
 Are *P* and *S* independent events? Show why or why not.
 
@@ -396,7 +396,7 @@ Tìm 𝑃⁡(𝑍 𝑂⁢𝑅 𝑆)P⁡(Z O⁢R S)P(Z OR S).
 
 In words, what is 𝑍 𝑂⁢𝑅 𝑆Z O⁢R SZ OR S?
 
-Theo ngôn ngữ thông thường, 𝑍 𝑂⁢𝑅 𝑆Z O⁢R SZ OR S là gì?
+𝑍 𝑂⁢𝑅 𝑆Z O⁢R SZ OR S
 
 Are *Z* and *S* mutually exclusive events? Show why or why not.
 

@@ -160,11 +160,9 @@ Tính trung bình mẫu và độ lệch chuẩn mẫu đến một chữ số t
 
 ### Độ lệch chuẩn của bảng tần số ghép nhóm
 
-Hãy nhớ rằng đối với dữ liệu đã nhóm, chúng ta không biết các giá trị dữ liệu riêng lẻ, vì vậy chúng ta không thể mô tả giá trị điển hình của dữ liệu một cách chính xác. Nói cách khác, chúng ta không thể tìm thấy chính xác số trung bình, trung vị hoặc yếu vị. Tuy nhiên, chúng ta có thể xác định ước lượng tốt nhất cho các số đo trung tâm bằng cách tìm số trung bình của dữ liệu đã nhóm với công thức:
-
 𝑀⁢𝑒⁢𝑎⁢𝑛 𝑜⁢𝑓 𝐹⁡𝑟⁢𝑒⁢𝑞⁢𝑢⁢𝑒⁢𝑛⁢𝑐⁢𝑦 𝑇⁢𝑎⁢𝑏⁢𝑙⁢𝑒=∑𝑓⁡𝑚∑𝑓M⁢e⁢a⁢n o⁢f F⁡r⁢e⁢q⁢u⁢e⁢n⁢c⁢y T⁢a⁢b⁢l⁢e=∑f⁡m∑fMean of Frequency Table=∑fm∑f
 
-trong đó 𝑓=f=f= là tần số khoảng và *m* = trung điểm khoảng.
+𝑓=f=f=*m*
 
 Cũng giống như việc chúng ta không thể tìm thấy số trung bình chính xác, chúng ta cũng không thể tìm thấy độ lệch chuẩn chính xác. Hãy nhớ rằng độ lệch chuẩn mô tả bằng số độ lệch kỳ vọng mà một giá trị dữ liệu có so với số trung bình. Nói một cách đơn giản, độ lệch chuẩn cho phép chúng ta so sánh mức độ "bất thường" của dữ liệu cá nhân so với số trung bình.
 

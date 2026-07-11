@@ -205,24 +205,13 @@ larger dimension
 )
  was the same in the Whitney Exhibit for works from 1900 to 1919 as for works from 1920 to 1942. Thirty-seven early works were sampled, averaging 1.74 with a standard deviation of 0.11. Sixty-five of the later works were sampled, averaging 1.746 with a standard deviation of 0.1064. Do you think that there is a significant difference in the Golden Ratio calculation?
 
-Elizabeth Mjelde, một giáo sư lịch sử nghệ thuật, quan tâm đến việc liệu giá trị từ công thức Tỷ lệ vàng, 
-
 (
-
-larger + smaller dimension
-
-larger dimension
 
 )
 
 (
 
-larger + smaller dimension
-
-larger dimension
-
 )
- có giống nhau trong Triển lãm Whitney cho các tác phẩm từ năm 1900 đến 1919 như đối với các tác phẩm từ năm 1920 đến 1942 hay không. Ba mươi bảy tác phẩm đầu tiên đã được lấy mẫu, trung bình là 1,74 với độ lệch chuẩn là 0,11. Sáu mươi lăm tác phẩm sau đó đã được lấy mẫu, trung bình là 1,746 với độ lệch chuẩn là 0,1064. Bạn có nghĩ rằng có sự khác biệt đáng kể trong tính toán Tỷ lệ vàng không?
 
 A recent year was randomly picked from 1985 to the present. In that year, there were 2,051 Hispanic/Latino students at Cabrillo College out of a total of 12,328 students. At Lake Tahoe College, there were 321 Hispanic/Latino students out of a total of 2,441 students. In general, do you think that the percent of Hispanic/Latino students at the two colleges is basically the same or different?
 

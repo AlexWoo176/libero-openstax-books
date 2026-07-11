@@ -5,4 +5,6 @@ no-such-book-xyz/
 test-glossary-book/
 test-math-book/
 test-review-book/
-libero-workspace
+libero-workspace.code-workspace
+**/reports/
+**/snapshots/
