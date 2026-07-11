@@ -1,0 +1,7 @@
+﻿key,translation,options,desc_en,desc_vi,chapter,status,notes
+"conditional probability"               , "xác suất có điều kiện"   , "", "approved", "", 5, "approved", ""
+"continuous random variable"            , "biến ngẫu nhiên liên tục", "", "approved", "", 5, "approved", ""
+"cumulative distribution function (cdf)", "hàm phân phối tích lũy"  , "", "approved", "", 5, "approved", ""
+"equally likely"                        , "đồng khả năng"           , "", "approved", "", 5, "approved", ""
+"exponential distribution"              , "phân phối mũ"            , "", "approved", "", 5, "approved", ""
+"probability density function"          , "hàm mật độ xác suất"     , "", "approved", "", 5, "approved", ""

@@ -1,0 +1,59 @@
+<html><head>
+<meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body class="book-reader"><div class="os-figure has-splash" id="fs-idm115405360"><figure class="splash ui-has-child-figcaption" data-id="fs-idm115405360">
+<span data-alt="This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." data-type="media" id="fs-idm115166448">
+<button aria-label="Click to enlarge image of This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." class="image-button-wrapper" type="button"><img alt="This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." data-media-type="image/jpg" height="424" loading="lazy" src="assets/img-3-1.webp" width="975"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">3.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Meteor showers are rare, but the probability of them occurring can be calculated. (credit: modification of work “A meteor during the peak of the 2009 Leonid Meteor Shower” by Navicore/ Wikimedia Commons, CC BY 3.0)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">3.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Mưa sao băng rất hiếm, nhưng xác suất xảy ra của chúng có thể được tính toán. (nguồn: chỉnh sửa từ tác phẩm “Một ngôi sao băng trong thời điểm cực đại của trận mưa sao băng Leonid năm 2009” bởi Navicore/ Wikimedia Commons, CC BY 3.0)</span></figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm7161872"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm75575520">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="fs-idm75575520-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list1523423">
+<li class="eng hidden">Understand and use the terminology of probability.</li><li class="vn visible">Hiểu và sử dụng thuật ngữ về xác suất.</li>
+<li class="eng hidden">Determine whether two events are mutually exclusive and whether two events are independent.</li><li class="vn visible">Xác định xem hai biến cố có xung khắc hay không và liệu hai biến cố có độc lập hay không.</li>
+<li class="eng hidden">Calculate probabilities using the Addition Rules and Multiplication
+Rules.</li><li class="vn visible">Tính xác suất bằng cách sử dụng các Quy tắc Cộng và Quy tắc Nhân.</li>
+<li class="eng hidden">Construct and interpret Contingency Tables.</li><li class="vn visible">Xây dựng và diễn giải các bảng ngẫu nhiên.</li>
+<li class="eng hidden">Construct and interpret Venn Diagrams.</li><li class="vn visible">Xây dựng và diễn giải các sơ đồ Venn.</li>
+<li class="eng hidden">Construct and interpret Tree Diagrams.</li><li class="vn visible">Xây dựng và diễn giải các sơ đồ cây.</li>
+</ul>
+</div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_326ee2e0-0ccd-46ae-a776-f8857a5dad4c_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_326ee2e0-0ccd-46ae-a776-f8857a5dad4c_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
+<p class="eng hidden" id="intro01">It is often necessary to "guess" about the outcome of an event in order to make a decision. Politicians study polls to guess their likelihood of winning an election. Teachers choose a particular course of study based on what they think students can comprehend. Doctors choose the treatments needed for various diseases based on their assessment of likely results. You may have visited a casino where people play games chosen because of the belief that the likelihood of winning is good. You may have chosen your course of study based on the probable availability of jobs.</p><p class="vn visible" id="intro01-vn">Việc "đoán" kết quả của một biến cố thường là cần thiết để đưa ra quyết định. Các chính trị gia nghiên cứu các cuộc thăm dò để đoán khả năng thắng cử của họ. Các giáo viên chọn một khóa học cụ thể dựa trên những gì họ nghĩ rằng sinh viên có thể hiểu được. Các bác sĩ chọn các nghiệm thức cần thiết cho các loại bệnh khác nhau dựa trên đánh giá của họ về các kết quả có khả năng xảy ra. Bạn có thể đã từng đến sòng bạc, nơi mọi người chơi các trò chơi được chọn vì tin rằng khả năng thắng là cao. Bạn có thể đã chọn khóa học của mình dựa trên khả năng có việc làm trong tương lai.</p><p class="eng hidden" id="element-209">You have, more than likely, used probability. In fact, you probably have an intuitive sense of probability. Probability deals with the chance of an event occurring. Whenever you weigh the odds of whether or not to do your homework or to study for an exam, you are using probability. In this chapter, you will learn how to solve probability problems using a systematic approach. </p><p class="vn visible" id="element-209-vn">Rất có thể bạn đã từng sử dụng xác suất. Trên thực tế, bạn có lẽ đã có một cảm nhận trực giác về xác suất. Xác suất đề cập đến cơ hội xảy ra của một biến cố. Bất cứ khi nào bạn cân nhắc khả năng có nên làm bài tập về nhà hay ôn thi hay không, bạn đang sử dụng xác suất. Trong chương này, bạn sẽ học cách giải các bài toán xác suất bằng cách sử dụng một phương pháp hệ thống.</p><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm8566848"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Bài tập hợp tác</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-663">Your instructor will survey your class. Count the number of students in the class today.</p><p class="vn visible" id="element-663-vn">Giảng viên của bạn sẽ khảo sát lớp học. Hãy đếm số lượng sinh viên trong lớp hôm nay.</p>
+<ul id="element-577">
+<li class="eng hidden">Raise your hand if you have any change in your pocket or purse. Record the number of raised hands.</li><li class="vn visible">Hãy giơ tay nếu bạn có tiền lẻ trong túi hoặc ví. Ghi lại số lượng cánh tay giơ lên.</li>
+<li class="eng hidden">Raise your hand if you rode a bus within the past month. Record the number of raised hands.</li><li class="vn visible">Hãy giơ tay nếu bạn đã đi xe buýt trong tháng vừa qua. Ghi lại số lượng cánh tay giơ lên.</li>
+<li class="eng hidden">Raise your hand if you answered "yes" to BOTH of the first two questions. Record the number of raised hands.</li><li class="vn visible">Hãy giơ tay nếu bạn trả lời "có" cho CẢ HAI câu hỏi đầu tiên. Ghi lại số lượng cánh tay giơ lên.</li>
+</ul>
+<p class="eng hidden" id="element-352">Use the class data as estimates of the following probabilities. <em data-effect="italics">P</em>(change) means the probability that a randomly chosen person in your class has change in his/her pocket or purse. <em data-effect="italics">P</em>(bus) means the probability that a randomly chosen person in your class rode a bus within the last month and so on. Discuss your answers.</p><p class="vn visible" id="element-352-vn">Sử dụng dữ liệu của lớp làm ước tính cho các xác suất sau. <em data-effect="italics">P</em>(tiền lẻ) có nghĩa là xác suất một người được chọn ngẫu nhiên trong lớp của bạn có tiền lẻ trong túi hoặc ví của họ. <em data-effect="italics">P</em>(xe buýt) có nghĩa là xác suất một người được chọn ngẫu nhiên trong lớp của bạn đã đi xe buýt trong vòng một tháng qua, v.v. Hãy thảo luận về các câu trả lời của bạn.</p>
+<ul id="element-204"><li class="eng hidden">Find <em data-effect="italics">P</em>(change).</li><li class="vn visible">Tìm <em data-effect="italics">P</em>(tiền lẻ).</li>
+<li class="eng hidden">Find <em data-effect="italics">P</em>(bus).</li><li class="vn visible">Tìm <em data-effect="italics">P</em>(xe buýt).</li>
+<li class="eng hidden">Find <em data-effect="italics">P</em>(change AND bus). Find the probability that a randomly chosen student in your class has change in their pocket or purse and rode a bus within the last month.</li><li class="vn visible">Tìm <em data-effect="italics">P</em>(tiền lẻ VÀ xe buýt). Tìm xác suất để một sinh viên được chọn ngẫu nhiên trong lớp của bạn có tiền lẻ trong túi hoặc ví và đã đi xe buýt trong tháng vừa qua.</li>
+<li class="eng hidden">Find <em data-effect="italics">P</em>(change|bus). Find the probability that a randomly chosen student has change given that they rode a bus within the last month. Count all the students that rode a bus. From the group of students who rode a bus, count those who have change. The probability is equal to those who have change and rode a bus divided by those who rode a bus.</li><li class="vn visible">Tìm <em data-effect="italics">P</em>(tiền lẻ|xe buýt). Tìm xác suất để một sinh viên được chọn ngẫu nhiên có tiền lẻ với điều kiện là họ đã đi xe buýt trong tháng vừa qua. Đếm tất cả các sinh viên đã đi xe buýt. Từ nhóm sinh viên đã đi xe buýt, hãy đếm những người có tiền lẻ. Xác suất bằng số người có tiền lẻ và đã đi xe buýt chia cho số người đã đi xe buýt.</li>
+</ul>
+</div></section></div>
+</div>
+</div>
+</body></html>

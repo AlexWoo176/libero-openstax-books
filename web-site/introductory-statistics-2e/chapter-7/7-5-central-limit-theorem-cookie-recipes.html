@@ -1,0 +1,852 @@
+<html><head>
+<meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body class="book-reader"><h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_92e5097b-a96a-4d0f-b6b5-265617f78bb8_titlecreatedbycookbook"><span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Central Limit Theorem (Cookie Recipes)</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_92e5097b-a96a-4d0f-b6b5-265617f78bb8_titlecreatedbycookbook-vn"><span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Định lý giới hạn trung tâm (Công thức làm bánh quy)</span></h2>
+<div class="statistics lab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-id1171897709330"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Stats Lab </span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Phòng thí nghiệm thống kê </span></h3></header><section>
+<div class="os-note-body"><h4 class="os-subtitle eng hidden" data-type="title">
+<span class="os-subtitle-label">Central Limit Theorem (Cookie Recipes)</span>
+</h4><h4 class="os-subtitle vn visible" data-type="title"><span class="os-subtitle-label">Định lý giới hạn trung tâm (Công thức làm bánh quy)</span></h4>
+<p class="eng hidden" id="id5609695">Class Time: </p><p class="vn visible" id="id5609695-vn">Thời gian học:</p>
+<p class="eng hidden" id="id5609702">Names:</p><p class="vn visible" id="id5609702-vn">Tên:</p>
+<div data-type="list" id="list-2397864897"><div data-type="title">Student Learning Outcomes</div><ul>
+<li class="eng hidden">The student will demonstrate and compare properties of the central limit theorem.</li><li class="vn visible">Sinh viên sẽ chứng minh và so sánh các tính chất của định lý giới hạn trung tâm.</li></ul></div>
+<p class="eng hidden" id="element-743"><span data-type="title">Given</span><em data-effect="italics">X</em> = length of time (in days) that a cookie recipe lasted at the Olmstead Homestead. (Assume that each of the different recipes makes the same quantity of cookies.)</p><p class="vn visible" id="element-743-vn"><span data-type="title">Cho</span><em data-effect="italics">X</em> = khoảng thời gian (tính bằng ngày) mà một công thức làm bánh quy tồn tại tại Olmstead Homestead. (Giả sử rằng mỗi công thức khác nhau tạo ra cùng một lượng bánh quy.)</p>
+<div class="os-table" id="tableones23"><table data-id="tableones23" data-summary="This table presents recipe data in the first column and X length of days data in the second column of 15 rows. These two columns repeat three more times in the same table."><thead>
+<tr>
+<th class="eng hidden" data-align="center" scope="col">Recipe #</th><th class="vn visible" data-align="center" scope="col">Công thức số</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">X</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th class="eng hidden" scope="col">
+</th><th class="vn visible" scope="col">
+</th><th class="eng hidden" data-align="center" scope="col">Recipe #</th><th class="vn visible" data-align="center" scope="col">Công thức số</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">X</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th class="eng hidden" scope="col">
+</th><th class="vn visible" scope="col">
+</th><th class="eng hidden" data-align="center" scope="col">Recipe #</th><th class="vn visible" data-align="center" scope="col">Công thức số</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">X</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th class="eng hidden" scope="col">
+</th><th class="vn visible" scope="col">
+</th><th class="eng hidden" data-align="center" scope="col">Recipe #</th><th class="vn visible" data-align="center" scope="col">Công thức số</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">X</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">X</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">16</td><td class="vn visible" data-align="center">16</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">31</td><td class="vn visible" data-align="center">31</td>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">46</td><td class="vn visible" data-align="center">46</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">17</td><td class="vn visible" data-align="center">17</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">32</td><td class="vn visible" data-align="center">32</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">47</td><td class="vn visible" data-align="center">47</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">18</td><td class="vn visible" data-align="center">18</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">33</td><td class="vn visible" data-align="center">33</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">48</td><td class="vn visible" data-align="center">48</td>
+<td class="eng hidden" data-align="center">11</td><td class="vn visible" data-align="center">11</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">19</td><td class="vn visible" data-align="center">19</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">34</td><td class="vn visible" data-align="center">34</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">49</td><td class="vn visible" data-align="center">49</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">20</td><td class="vn visible" data-align="center">20</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">35</td><td class="vn visible" data-align="center">35</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">50</td><td class="vn visible" data-align="center">50</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">21</td><td class="vn visible" data-align="center">21</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">36</td><td class="vn visible" data-align="center">36</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">51</td><td class="vn visible" data-align="center">51</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">7</td><td class="vn visible" data-align="center">7</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">22</td><td class="vn visible" data-align="center">22</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">37</td><td class="vn visible" data-align="center">37</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">52</td><td class="vn visible" data-align="center">52</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">8</td><td class="vn visible" data-align="center">8</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">23</td><td class="vn visible" data-align="center">23</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">38</td><td class="vn visible" data-align="center">38</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">53</td><td class="vn visible" data-align="center">53</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">9</td><td class="vn visible" data-align="center">9</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">24</td><td class="vn visible" data-align="center">24</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">39</td><td class="vn visible" data-align="center">39</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">54</td><td class="vn visible" data-align="center">54</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">10</td><td class="vn visible" data-align="center">10</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">25</td><td class="vn visible" data-align="center">25</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">40</td><td class="vn visible" data-align="center">40</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">55</td><td class="vn visible" data-align="center">55</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">11</td><td class="vn visible" data-align="center">11</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">26</td><td class="vn visible" data-align="center">26</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">41</td><td class="vn visible" data-align="center">41</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">56</td><td class="vn visible" data-align="center">56</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">12</td><td class="vn visible" data-align="center">12</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">27</td><td class="vn visible" data-align="center">27</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">42</td><td class="vn visible" data-align="center">42</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">57</td><td class="vn visible" data-align="center">57</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">13</td><td class="vn visible" data-align="center">13</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">28</td><td class="vn visible" data-align="center">28</td>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">43</td><td class="vn visible" data-align="center">43</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">58</td><td class="vn visible" data-align="center">58</td>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">14</td><td class="vn visible" data-align="center">14</td>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">29</td><td class="vn visible" data-align="center">29</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">44</td><td class="vn visible" data-align="center">44</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">59</td><td class="vn visible" data-align="center">59</td>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">15</td><td class="vn visible" data-align="center">15</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">30</td><td class="vn visible" data-align="center">30</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">45</td><td class="vn visible" data-align="center">45</td>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden" data-align="center">60</td><td class="vn visible" data-align="center">60</td>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">7.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Bảng </span>
+<span class="os-number">7.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><p class="eng hidden" id="element-538">Calculate the following:
+</p><p class="vn visible" id="element-538-vn">Tính các giá trị sau:</p><ol id="list-2396953" type="a">
+<li class="eng hidden"><em data-effect="italics">μ<sub>x</sub></em> = _______</li><li class="vn visible"><em data-effect="italics">μ<sub>x</sub></em> = _______</li>
+<li class="eng hidden"><em data-effect="italics">σ<sub>x</sub></em> = _______</li><li class="vn visible"><em data-effect="italics">σ<sub>x</sub></em> = _______</li>
+</ol>
+<p class="eng hidden" id="element-453"><span data-type="title">Collect the Data</span>Use a random number generator to randomly select four samples of size <em data-effect="italics">n</em> = 5 from the given population. Record your samples in <a aria-label="View Table 7.5" class="autogenerated-content" href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl002">Table 7.5</a>. Then, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.</p><p class="vn visible" id="element-453-vn"><span data-type="title">Thu thập dữ liệu</span>Sử dụng trình tạo số ngẫu nhiên để chọn ngẫu nhiên bốn mẫu có kích thước <em data-effect="italics">n</em> = 5 từ quần thể đã cho. Ghi lại các mẫu của bạn vào <a aria-label="View Table 7.5" class="autogenerated-content" href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl002">Bảng 7.5</a>. Sau đó, đối với mỗi mẫu, hãy tính số trung bình làm tròn đến chữ số thập phân thứ nhất. Ghi lại chúng vào các khoảng trống được cung cấp. Ghi lại các số trung bình mẫu cho phần còn lại của lớp.</p>
+<ol id="list-98698565"><li> Complete the table:
+<div class="os-table" id="Ch07_lab2_tbl002"><table data-id="Ch07_lab2_tbl002" data-summary="Partially filled table with samples (4) in columns and 5 blank rows plus a blank Means row."><thead>
+<tr>
+<th class="eng hidden" scope="col">
+</th><th class="vn visible" scope="col">
+</th><th class="eng hidden" scope="col">Sample 1</th><th class="vn visible" scope="col">Mẫu 1</th>
+<th class="eng hidden" scope="col">Sample 2</th><th class="vn visible" scope="col">Mẫu 2</th>
+<th class="eng hidden" scope="col">Sample 3</th><th class="vn visible" scope="col">Mẫu 3</th>
+<th class="eng hidden" scope="col">Sample 4</th><th class="vn visible" scope="col">Mẫu 4</th>
+<th class="eng hidden" scope="col">Sample means from other groups:</th><th class="vn visible" scope="col">Các số trung bình mẫu từ các nhóm khác:</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">Means:</td><td class="vn visible">Số trung bình:</td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Bảng </span>
+<span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div></li>
+<li>Calculate the following:
+<ol id="eip-idp136101696" type="a">
+<li class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = _______</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></li>
+<li class="eng hidden">
+<em data-effect="italics">s</em><sub><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></sub> = _______</li><li class="vn visible"><em data-effect="italics">s</em> = _______</li></ol>
+</li>
+<li>Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size <em data-effect="italics">n</em> = 10. Record the samples in <a aria-label="View Table 7.6" class="autogenerated-content" href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl003">Table 7.6</a>. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
+<div class="os-table" id="Ch07_lab2_tbl003"><table data-id="Ch07_lab2_tbl003" data-summary="Same as the above table except with 10 blank rows and a means row."><thead>
+<tr>
+<th class="eng hidden" scope="col">
+</th><th class="vn visible" scope="col">
+</th><th class="eng hidden" scope="col">Sample 1</th><th class="vn visible" scope="col">Mẫu 1</th>
+<th class="eng hidden" scope="col">Sample 2</th><th class="vn visible" scope="col">Mẫu 2</th>
+<th class="eng hidden" scope="col">Sample 3</th><th class="vn visible" scope="col">Mẫu 3</th>
+<th class="eng hidden" scope="col">Sample 4</th><th class="vn visible" scope="col">Mẫu 4</th>
+<th class="eng hidden" scope="col">Sample means from other groups</th><th class="vn visible" scope="col">Các số trung bình mẫu từ các nhóm khác</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">Means:</td><td class="vn visible">Các số trung bình:</td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ____</td><td class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">7.6</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Bảng </span>
+<span class="os-number">7.6</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div></li>
+<li>Calculate the following:
+<ol id="element-8475643" type="a">
+<li class="eng hidden"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> = ______</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></li>
+<li class="eng hidden"><em data-effect="italics">s</em><sub><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></sub> = ______</li><li class="vn visible"><em data-effect="italics">s</em> = ______</li></ol></li>
+<li>For the original population, construct a histogram. Make intervals with a bar width of one day. Sketch the graph using a ruler and pencil. Scale the axes.<span data-type="newline"><br/></span>
+<div class="os-figure" id="id6597795"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597795"><span data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-type="media" id="id6597799"><button aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper" type="button"><img alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-media-type="image/png" height="363" loading="lazy" src="assets/img-7-5-1.webp" width="688"/></button>
+</span><figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">7.13</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">7.13</span></figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong trơn qua các đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol><div data-type="list" id="list-2646"><div data-type="title">Repeat the Procedure for <em data-effect="italics">n</em> = 5</div><ol><li>For the sample of <em data-effect="italics">n</em> = 5 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math> a day. Sketch the graph using a ruler and pencil. Scale the axes.
+<div class="os-figure" id="id6597892"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597892"><span data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-type="media" id="id6597897"><button aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper" type="button"><img alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-media-type="image/png" height="363" loading="lazy" src="assets/img-7-5-2.webp" width="688"/></button></span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">7.14</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">7.14</span></figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong trơn qua các đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol></div><div data-type="list" id="list-2764646"><div data-type="title">Repeat the Procedure for <em data-effect="italics">n</em> = 10</div><ol><li>For the sample of <em data-effect="italics">n</em> = 10 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math> a day. Sketch the graph using a ruler and pencil. Scale the axes.<div class="os-figure" id="id6597991"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597991"><span data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-type="media" id="id6597997">
+<button aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper" type="button"><img alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." data-media-type="image/png" height="363" loading="lazy" src="assets/img-7-5-3.webp" width="688"/></button>
+</span><figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">7.15</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">7.15</span></figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong trơn qua các đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol></div><div data-type="list" id="list-2937597532"><div data-type="title">Discussion Questions</div><ol data-mark-suffix="."><li class="eng hidden" data-mark-suffix=".">Compare the three histograms you have made, the one for the population and the two for the sample means. In three to five sentences, describe the similarities and differences.</li><li class="vn visible" data-mark-suffix=".">So sánh ba biểu đồ histogram mà bạn đã tạo, một cho quần thể và hai cho các số trung bình mẫu. Trong ba đến năm câu, hãy mô tả những điểm tương đồng và khác biệt.</li>
+<li data-mark-suffix=".">State the theoretical (according to the clt) distributions for the sample means.
+<ol id="list-239875697325" type="a">
+<li class="eng hidden"><em data-effect="italics">n</em> = 5: <math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> ~ _____(_____,_____)</li><li class="vn visible"><em data-effect="italics">n</em><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></li>
+<li class="eng hidden"><em data-effect="italics">n</em> = 10: <math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> ~ _____(_____,_____)</li><li class="vn visible"><em data-effect="italics">n</em><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></li>
+</ol></li>
+<li class="eng hidden" data-mark-suffix=".">Are the sample means for <em data-effect="italics">n</em> = 5 and <em data-effect="italics">n</em> = 10 “close” to the theoretical mean, <em data-effect="italics">μ<sub>x</sub></em>? Explain why or why not.</li><li class="vn visible" data-mark-suffix=".">Các số trung bình mẫu cho <em data-effect="italics">n</em> = 5 và <em data-effect="italics">n</em> = 10 có "gần" với số trung bình lý thuyết, <em data-effect="italics">μ<sub>x</sub></em> không? Giải thích tại sao có hoặc tại sao không.</li>
+<li class="eng hidden" data-mark-suffix=".">Which of the two distributions of sample means has the smaller standard deviation? Why?</li><li class="vn visible" data-mark-suffix=".">Phân phối nào trong hai phân phối của các số trung bình mẫu có độ lệch chuẩn nhỏ hơn? Tại sao?</li>
+<li class="eng hidden" data-mark-suffix=".">As <em data-effect="italics">n</em> changed, why did the shape of the distribution of the data change? Use one to two complete sentences to explain what happened.</li><li class="vn visible" data-mark-suffix=".">Khi <em data-effect="italics">n</em> thay đổi, tại sao hình dạng của phân phối dữ liệu lại thay đổi? Sử dụng một đến hai câu hoàn chỉnh để giải thích điều gì đã xảy ra.</li>
+</ol></div></div></section></div>
+</body></html>

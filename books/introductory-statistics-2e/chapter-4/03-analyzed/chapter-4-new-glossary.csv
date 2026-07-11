@@ -1,0 +1,11 @@
+﻿key,translation,options,desc_en,desc_vi,chapter,status,notes
+"bernoulli trial"                  , "phép thử Bernoulli"         , "", "approved", "", 4, "approved", ""
+"binomial probability distribution", "phân phối xác suất nhị thức", "", "approved", "", 4, "approved", ""
+"expected value"                   , "giá trị kỳ vọng"            , "", "approved", "", 4, "approved", ""
+"geometric distribution"           , "phân phối hình học"         , "", "approved", "", 4, "approved", ""
+"hypergeometric experiment"        , "phép thử siêu bội"          , "", "approved", "", 4, "approved", ""
+"hypergeometric probability"       , "xác suất siêu bội"          , "", "approved", "", 4, "approved", ""
+"mean"                             , "số trung bình"              , "", "approved", "", 4, "approved", ""
+"poisson probability distribution" , "phân phối xác suất Poisson" , "", "approved", "", 4, "approved", ""
+"probability distribution function", "hàm phân phối xác suất"     , "", "approved", "", 4, "approved", ""
+"random variable"                  , "biến ngẫu nhiên"            , "", "approved", "", 4, "approved", ""

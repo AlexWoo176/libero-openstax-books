@@ -1,0 +1,1352 @@
+<html><head>
+<meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body class="book-reader"><h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_fda17024-5770-4f8f-b3fd-26217c74bd4b_titlecreatedbycookbook"><span class="os-number">8.2</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">A Single Population Mean using the Student t Distribution</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_fda17024-5770-4f8f-b3fd-26217c74bd4b_titlecreatedbycookbook-vn"><span class="os-number">8.2</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Số trung bình của một quần thể sử dụng phân phối Student t</span></h2>
+<p class="eng hidden" id="element-6432">In practice, we rarely know the population <span data-type="term" group-by="s" id="term-00001">standard deviation</span>. In the past, when the sample size was large, this did not present a problem to statisticians. They used the sample standard deviation <em data-effect="italics">s</em> as an estimate for <em data-effect="italics">σ</em> and proceeded as before to calculate a <span data-type="term" group-by="c" id="term-00002">confidence interval</span> with close enough results. However, statisticians ran into problems when the sample size was small. A small sample size caused inaccuracies in the confidence interval. </p><p class="vn visible" id="element-6432-vn">Trong thực tế, chúng ta hiếm khi biết <span data-type="term" group-by="s" id="term-00001">Độ lệch chuẩn</span> của quần thể. Trước đây, khi kích thước mẫu lớn, điều này không gây khó khăn cho các nhà thống kê. Họ sử dụng độ lệch chuẩn mẫu <em data-effect="italics">s</em> làm ước lượng cho <em data-effect="italics">σ</em> và tiến hành tính toán <span data-type="term" group-by="c" id="term-00002">Khoảng tin cậy</span> như trước với kết quả đủ gần. Tuy nhiên, các nhà thống kê gặp vấn đề khi kích thước mẫu nhỏ. Kích thước mẫu nhỏ gây ra sự thiếu chính xác trong khoảng tin cậy.</p>
+<p class="eng hidden" id="element-643">William S. Gosset (1876–1937) of the Guinness brewery in Dublin, Ireland ran into this  problem. His experiments with hops and barley produced very few samples. Just replacing <em data-effect="italics">σ</em> with <em data-effect="italics">s</em> did not produce accurate results when he tried to calculate a confidence interval. He realized that he could not use a normal distribution for the calculation; he found that the actual distribution depends on the sample size. This problem led him to "discover" what is called the <span data-type="term" group-by="S" id="term-00003">Student's t-distribution</span>. The name comes from the fact that Gosset wrote under the pen name "Student."</p><p class="vn visible" id="element-643-vn">William S. Gosset (1876–1937) làm việc tại nhà máy bia Guinness ở Dublin, Ireland đã gặp phải vấn đề này. Các thí nghiệm của ông với hoa bia và lúa mạch tạo ra rất ít mẫu. Việc chỉ thay thế <em data-effect="italics">σ</em> bằng <em data-effect="italics">s</em> không mang lại kết quả chính xác khi ông cố gắng tính toán khoảng tin cậy. Ông nhận ra rằng mình không thể sử dụng phân phối chuẩn cho việc tính toán; ông phát hiện ra rằng phân phối thực tế phụ thuộc vào kích thước mẫu. Vấn đề này đã dẫn ông đến việc "khám phá" ra cái gọi là <span data-type="term" group-by="S" id="term-00003">Phân phối Student (phân phối t)</span>. Tên gọi này xuất phát từ việc Gosset viết dưới bút danh "Student".</p><p class="eng hidden" id="eip-254">Up until the mid-1970s, some statisticians used the <span data-type="term" group-by="n" id="term-00004">normal distribution</span> approximation for large sample sizes and used the Student's t-distribution only for sample sizes of at most 30. With graphing calculators and computers, the practice now is to use the Student's t-distribution whenever <em data-effect="italics">s</em> is used as an estimate for <em data-effect="italics">σ</em>.</p><p class="vn visible" id="eip-254-vn">Cho đến giữa những năm 1970, một số nhà thống kê đã sử dụng phép xấp xỉ <span data-type="term" group-by="n" id="term-00004">Phân phối chuẩn</span> cho các kích thước mẫu lớn và chỉ sử dụng phân phối Student's t cho các kích thước mẫu tối đa là 30. Với máy tính cầm tay đồ họa và máy tính cá nhân, thực tế hiện nay là sử dụng phân phối Student's t bất cứ khi nào <em data-effect="italics">s</em> được sử dụng làm ước lượng cho <em data-effect="italics">σ</em>.</p><p class="eng hidden" id="eip-449">If you draw a simple random sample of size <em data-effect="italics">n</em> from a population that has an approximately normal distribution with mean <em data-effect="italics">μ</em> and unknown population standard deviation <em data-effect="italics">σ</em> and calculate the <em data-effect="italics">t</em>-score <em data-effect="italics">t</em> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>–</mo><mi>μ</mi>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>–</mo><mi>μ</mi>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>, then the <em data-effect="italics">t</em>-scores follow a <strong>Student's t-distribution with <em data-effect="italics">n</em> – 1 degrees of freedom</strong>. The <em data-effect="italics">t</em>-score has the same interpretation as the <span data-type="term" group-by="z" id="term-00005"><em data-effect="italics">z</em>-score</span>. It measures how far <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is from its mean <em data-effect="italics">μ</em>. For each sample size <em data-effect="italics">n</em>, there is a different Student's t-distribution.</p><p class="vn visible" id="eip-449-vn">Nếu bạn lấy một mẫu ngẫu nhiên đơn giản có kích thước <em data-effect="italics">n</em> từ một quần thể có phân phối xấp xỉ chuẩn với số trung bình <em data-effect="italics">μ</em> và độ lệch chuẩn quần thể chưa biết <em data-effect="italics">σ</em>, sau đó tính điểm <em data-effect="italics">t</em> theo công thức <em data-effect="italics">t</em> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>–</mo><mi>μ</mi>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>–</mo><mi>μ</mi>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>, thì các điểm <em data-effect="italics">t</em> sẽ tuân theo <strong>phân phối Student's t với <em data-effect="italics">n</em> – 1 bậc tự do</strong>. Điểm <em data-effect="italics">t</em> có cùng cách diễn giải như <span data-type="term" group-by="z" id="term-00005">Điểm chuẩn z (z-score)</span>. Nó đo lường khoảng cách từ <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> đến số trung bình <em data-effect="italics">μ</em> của nó. Với mỗi kích thước mẫu <em data-effect="italics">n</em>, sẽ có một phân phối Student's t khác nhau.</p><p class="eng hidden" id="eip-490">The <span data-type="term" group-by="d" id="term-00006">degrees of freedom</span>, <strong><em data-effect="italics">n</em> – 1</strong>, come from the calculation of the sample standard deviation <strong><em data-effect="italics">s</em></strong>. This calculation requires <em data-effect="italics">n</em> deviations <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>–</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> values</mtext><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>–</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> values</mtext><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math></span>. Because the sum of the deviations is zero, we can find the last deviation once we know the other <strong><em data-effect="italics">n</em> – 1</strong> deviations. The other <strong><em data-effect="italics">n</em> – 1</strong> deviations can change or vary freely. <strong>We call the number <em data-effect="italics">n</em> – 1 the degrees of freedom (df).</strong></p><p class="vn visible" id="eip-490-vn"><span data-type="term" group-by="d" id="term-00006">Bậc tự do</span>, <strong><em data-effect="italics">n</em> – 1</strong>, xuất phát từ việc tính toán độ lệch chuẩn mẫu <strong><em data-effect="italics">s</em></strong>. Phép tính này yêu cầu <em data-effect="italics">n</em> độ lệch <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>–</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> values</mtext><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>–</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> values</mtext><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math></span>. Vì tổng các độ lệch bằng không, chúng ta có thể tìm độ lệch cuối cùng khi đã biết <strong><em data-effect="italics">n</em> – 1</strong> độ lệch còn lại. <strong><em data-effect="italics">n</em> – 1</strong> độ lệch còn lại có thể thay đổi hoặc biến thiên tự do. <strong>Chúng ta gọi số <em data-effect="italics">n</em> – 1 là bậc tự do (df).</strong></p><div data-type="list" id="eip-418"><div data-type="title">Properties of the Student's t-Distribution</div><ul>
+<li class="eng hidden">The graph for the Student's t-distribution is similar to the standard normal curve.</li><li class="vn visible">Đồ thị cho phân phối t của Student tương tự như đường cong chuẩn tắc.</li>
+<li class="eng hidden">The mean for the Student's t-distribution is zero and the distribution is symmetric about zero.</li><li class="vn visible">Số trung bình cho phân phối t của Student là bằng không và phân phối này đối xứng qua không.</li>
+<li class="eng hidden">The Student's t-distribution has more probability in its tails than the standard normal distribution because the spread of the t-distribution is greater than the spread of the standard normal. So the graph of the Student's t-distribution will be thicker in the tails and shorter in the center than the graph of the standard normal distribution.</li><li class="vn visible">Phân phối t của Student có nhiều xác suất hơn ở các đuôi so với phân phối chuẩn tắc vì độ phân tán của phân phối t lớn hơn độ phân tán của phân phối chuẩn tắc. Vì vậy, đồ thị của phân phối t của Student sẽ dày hơn ở các đuôi và thấp hơn ở trung tâm so với đồ thị của phân phối chuẩn tắc.</li>
+<li class="eng hidden">The exact shape of the Student's t-distribution depends on the degrees of freedom. As the degrees of freedom increases, the graph of Student's t-distribution becomes more like the graph of the standard normal distribution.</li><li class="vn visible">Hình dạng chính xác của phân phối t của Student phụ thuộc vào bậc tự do. Khi bậc tự do tăng lên, đồ thị của phân phối t của Student trở nên giống với đồ thị của phân phối chuẩn tắc hơn.</li>
+<li class="eng hidden">The underlying population of individual observations is assumed to be normally distributed with unknown population mean <em data-effect="italics">μ</em> and unknown population standard deviation <em data-effect="italics">σ</em>. The size of the underlying population is generally not relevant unless it is very small. If it is bell shaped (normal) then the assumption is met and doesn't need discussion. Random sampling is assumed, but that is a completely separate assumption from normality.</li><li class="vn visible">Quần thể gốc của các quan sát cá biệt được giả định là phân phối chuẩn với số trung bình quần thể <em data-effect="italics">μ</em> chưa biết và độ lệch chuẩn quần thể <em data-effect="italics">σ</em> chưa biết. Kích thước của quần thể gốc thường không liên quan trừ khi nó rất nhỏ. Nếu nó có hình chuông (chuẩn) thì giả định đã được đáp ứng và không cần thảo luận thêm. Lấy mẫu ngẫu nhiên được giả định, nhưng đó là một giả định hoàn toàn tách biệt với tính chuẩn tắc.</li>
+</ul></div>
+<p class="eng hidden" id="eip-231">Calculators and computers can easily calculate any Student's t-probabilities. The TI-83,83+, and 84+ have a tcdf function to find the probability for given values of <em data-effect="italics">t</em>. The grammar for the tcdf command is tcdf(lower bound, upper bound, degrees of freedom). However for confidence intervals, we need to use <strong>inverse</strong> probability to find the value of <em data-effect="italics">t</em> when we know the probability.</p><p class="vn visible" id="eip-231-vn">Máy tính và máy tính cá nhân có thể dễ dàng tính toán bất kỳ xác suất Student's t nào. Các dòng TI-83, 83+ và 84+ có hàm tcdf để tìm xác suất cho các giá trị <em data-effect="italics">t</em> cho trước. Cú pháp cho lệnh tcdf là tcdf(cận dưới, cận trên, bậc tự do). Tuy nhiên, đối với khoảng tin cậy, chúng ta cần sử dụng xác suất <strong>nghịch đảo</strong> để tìm giá trị của <em data-effect="italics">t</em> khi đã biết xác suất.</p><p class="eng hidden" id="eip-980">For the TI-84+ you can use the invT command on the DISTRibution menu. The invT command works similarly to the invnorm. The invT command requires two inputs: <strong> invT(area to the left, degrees of freedom)</strong> The output is the t-score that corresponds to the area we specified. <span data-type="newline"><br/></span>
+<span data-type="newline"><br/></span> The TI-83 and 83+ do not have the invT command. (The TI-89 has an inverse T command.)</p><p class="vn visible" id="eip-980-vn">Đối với TI-84+, bạn có thể sử dụng lệnh invT trên menu DISTRibution. Lệnh invT hoạt động tương tự như invnorm. Lệnh invT yêu cầu hai đầu vào: <strong>invT(diện tích bên trái, bậc tự do)</strong>. Đầu ra là điểm <em data-effect="italics">t</em> tương ứng với diện tích mà chúng ta đã chỉ định. <span data-type="newline"><br/></span>
+<span data-type="newline"><br/></span> Các dòng TI-83 và 83+ không có lệnh invT. (TI-89 có lệnh inverse T.)</p>
+<p class="eng hidden" id="eip-647">A probability table for the Student's t-distribution can also be used.  The table gives t-scores that correspond to the confidence level (column) and degrees of freedom (row). (The TI-86 does not have an invT program or command, so if you are using that calculator, you need to use a probability table for the Student's t-Distribution.) When using a <em data-effect="italics">t</em>-table, note that some tables are formatted to show the confidence level in the column headings, while the column headings in some tables may show only corresponding area in one or both tails.<span data-type="newline"><br/></span>
+<span data-type="newline"><br/></span>A Student's t table (See <a aria-label="Go to Appendix H Tables" class="autogenerated-content" data-page-fragment="" data-page-slug="h-tables" data-page-uuid="dcec5517-4e51-42f5-9b11-8cb11c02d8ae" href="h-tables">Appendix H Tables</a>) gives <em data-effect="italics">t</em>-scores given the degrees of freedom and the right-tailed probability. The table is very limited. <strong>Calculators and computers can easily calculate any Student's  t-probabilities.</strong><span data-type="newline"><br/></span></p><p class="vn visible" id="eip-647-vn">Một bảng xác suất cho phân phối Student's t cũng có thể được sử dụng. Bảng này cung cấp các điểm <em data-effect="italics">t</em> tương ứng với mức tin cậy (cột) và bậc tự do (hàng). (TI-86 không có chương trình hoặc lệnh invT, vì vậy nếu bạn đang sử dụng máy tính đó, bạn cần sử dụng bảng xác suất cho phân phối Student's t.) Khi sử dụng bảng <em data-effect="italics">t</em>, lưu ý rằng một số bảng được định dạng để hiển thị mức tin cậy trong tiêu đề cột, trong khi tiêu đề cột ở một số bảng khác có thể chỉ hiển thị diện tích tương ứng ở một hoặc cả hai đuôi.<span data-type="newline"><br/></span>
+<span data-type="newline"><br/></span>Bảng Student's t (Xem <a aria-label="Go to Appendix H Tables" class="autogenerated-content" data-page-fragment="" data-page-slug="h-tables" data-page-uuid="dcec5517-4e51-42f5-9b11-8cb11c02d8ae" href="h-tables">Phụ lục H Các bảng</a>) cung cấp các điểm <em data-effect="italics">t</em> dựa trên bậc tự do và xác suất đuôi phải. Bảng này rất hạn chế. <strong>Máy tính và máy tính cá nhân có thể dễ dàng tính toán bất kỳ xác suất Student's t nào.</strong><span data-type="newline"><br/></span></p><div data-type="list" id="eip-752"><div data-type="title"><strong>The notation for the Student's t-distribution (using <em data-effect="italics">T</em> as the random variable) is:</strong></div><ul><li class="eng hidden"><em data-effect="italics">T ~ t<sub>df</sub></em> where <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 1.</li><li class="vn visible"><em data-effect="italics">T ~ t<sub>df</sub></em> trong đó <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 1.</li>
+<li class="eng hidden">For example, if we have a sample of size <em data-effect="italics">n</em> = 20 items, then we calculate the degrees of freedom as <em data-effect="italics">df</em> = <em data-effect="italics">n</em> - 1 = 20 - 1 = 19 and we write the distribution as <em data-effect="italics">T ~ t<sub>19</sub></em>.</li><li class="vn visible">Ví dụ, nếu chúng ta có một mẫu với kích thước <em data-effect="italics">n</em> = 20 phần tử, thì chúng ta tính bậc tự do là <em data-effect="italics">df</em> = <em data-effect="italics">n</em> - 1 = 20 - 1 = 19 và chúng ta viết phân phối là <em data-effect="italics">T ~ t<sub>19</sub></em>.</li></ul></div><p class="eng hidden" id="eip-737"><strong>If the population standard deviation is  not known</strong>,  the <span data-type="term" group-by="e" id="term-00007">error bound for a population mean</span> is:</p><p class="vn visible" id="eip-737-vn"><strong>Nếu độ lệch chuẩn của quần thể không được biết</strong>, <span data-type="term" group-by="e" id="term-00007">Giới hạn sai số cho trung bình tổng thể</span> là:</p>
+<ul id="eip-168">
+<li class="eng hidden"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>,</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math> is the <em data-effect="italics">t</em>-score with area to the right equal to <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math>,</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math> là điểm <em data-effect="italics">t</em> với diện tích bên phải bằng <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math>,</li>
+<li class="eng hidden">use <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 1 degrees of freedom, and</li><li class="vn visible">sử dụng <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 1 bậc tự do, và</li>
+<li class="eng hidden"><em data-effect="italics">s</em> = sample standard deviation.</li><li class="vn visible"><em data-effect="italics">s</em> = độ lệch chuẩn mẫu.</li></ul>
+<p class="eng hidden" id="eip-819"><strong>The format for the confidence interval is:</strong>
+<span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo>,</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover><mo>+</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo>,</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover><mo>+</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="eip-819-vn"><strong>Định dạng cho khoảng tin cậy là:</strong>
+<span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo>,</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover><mo>+</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo>,</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover><mo>+</mo><mi>E</mi><mi>B</mi><mi>M</mi><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math></span>.</p><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm181176784"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-881">To calculate the confidence interval directly:
+<span data-type="newline"><br/></span>Press <code data-type="code">STAT</code>.
+<span data-type="newline"><br/></span>Arrow over to <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">8:TInterval</code> and press <code data-type="code">ENTER</code> (or just press 8).</p><p class="vn visible" id="eip-881-vn">Để tính khoảng tin cậy trực tiếp:
+<span data-type="newline"><br/></span>Nhấn <code data-type="code">STAT</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên sang <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">8:TInterval</code> và nhấn <code data-type="code">ENTER</code> (hoặc chỉ cần nhấn 8).</p>
+</div></section></div><div class="ui-has-child-title" data-type="example" id="eip-51"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">8.8</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">8.8</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-632"><header></header><section><div data-type="problem" id="id1171101195216"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-866">Suppose you do a study of acupuncture to determine how effective it is in relieving pain. You measure sensory rates for 15 subjects with the results given. Use the sample data to construct a 95% confidence interval for the mean sensory rate for the population (assumed normal) from which you took the data.
+<span data-type="newline"><br/></span>The solution is shown step-by-step and by using the TI-83, 83+, or 84+ calculators.</p><p class="vn visible" id="element-866-vn">Giả sử bạn thực hiện một nghiên cứu về châm cứu để xác định mức độ hiệu quả của nó trong việc giảm đau. Bạn đo tỷ lệ cảm giác cho 15 đối tượng với các kết quả được đưa ra. Sử dụng dữ liệu mẫu để xây dựng khoảng tin cậy 95% cho số trung bình tỷ lệ cảm giác của quần thể (giả định là phân phối chuẩn) mà bạn đã lấy dữ liệu.
+<span data-type="newline"><br/></span>Lời giải được trình bày từng bước và sử dụng máy tính TI-83, 83+ hoặc 84+.</p><div id="id1171109556457"><span data-display="inline" data-list-type="labeled-item" data-type="list" id="set-328"><span data-type="item">8.6<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9.4<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">7.9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">6.8<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">8.3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">7.3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9.2<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9.6<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">8.7<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">11.4<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">10.3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">5.4<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">8.1<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">5.5<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">6.9</span></span></div>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1171108330127">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<ul id="eip-id1169415158393">
+<li class="eng hidden">The first solution is step-by-step.</li><li class="vn visible">Lời giải đầu tiên là từng bước một.</li>
+<li class="eng hidden">The second solution uses the TI-83+ and TI-84 calculators.</li><li class="vn visible">Lời giải thứ hai sử dụng máy tính TI-83+ và TI-84.</li>
+</ul>
+<p class="eng hidden" id="element-835">To find the confidence interval, you need the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, and the <em data-effect="italics">EBM</em>.</p><p class="vn visible" id="element-835-vn">Để tìm khoảng tin cậy, bạn cần số trung bình mẫu, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, và <em data-effect="italics">EBM</em>.</p>
+<p class="eng hidden" id="element-809"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow></annotation-xml></semantics></math></span> = 8.2267 <em data-effect="italics">s</em> = 1.6722 <em data-effect="italics">n</em> = 15</p><p class="vn visible" id="element-809-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow></annotation-xml></semantics></math></span><em data-effect="italics">s</em><em data-effect="italics">n</em></p>
+<p class="eng hidden" id="element-152"><em data-effect="italics">df</em> = 15 – 1 = 14 <em data-effect="italics">CL</em> so <em data-effect="italics">α</em> = 1 – <em data-effect="italics">CL</em> = 1 – 0.95 = 0.05</p><p class="vn visible" id="element-152-vn"><em data-effect="italics">df</em> = 15 – 1 = 14 <em data-effect="italics">CL</em> nên <em data-effect="italics">α</em> = 1 – <em data-effect="italics">CL</em> = 1 – 0.95 = 0.05</p>
+<p class="eng hidden" id="element-471"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> = 0.025 <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="element-471-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-331">The area to the right of <em data-effect="italics">t</em><sub>0.025</sub> is 0.025, and the area to the left of <em data-effect="italics">t</em><sub>0.025</sub> is 1 – 0.025 = 0.975</p><p class="vn visible" id="element-331-vn">Diện tích bên phải của <em data-effect="italics">t</em><sub>0.025</sub> là 0.025, và diện tích bên trái của <em data-effect="italics">t</em><sub>0.025</sub> là 1 – 0.025 = 0.975</p><p class="eng hidden" id="element-995"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+<mo>=</mo><mn>2.14</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+<mo>=</mo><mn>2.14</mn>
+</mrow></annotation-xml></semantics></math></span> using invT(.975,14) on the TI-84+ calculator.</p><p class="vn visible" id="element-995-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+<mo>=</mo><mn>2.14</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.025</mn>
+</mrow>
+</msub>
+<mo>=</mo><mn>2.14</mn>
+</mrow></annotation-xml></semantics></math></span> sử dụng invT(.975,14) trên máy tính TI-84+.</p>
+<p class="eng hidden" id="fs-idm31388048">
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="fs-idm31388048-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-522">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mn>2.14</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>1.6722</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>15</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>0.924</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mn>2.14</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>1.6722</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>15</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>0.924</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="element-522-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mn>2.14</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>1.6722</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>15</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>0.924</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mn>2.14</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>1.6722</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>15</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>0.924</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="element-218"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> – <em data-effect="italics">EBM</em> = 8.2267 – 0.9240 = 7.3</p><p class="vn visible" id="element-218-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span><em data-effect="italics">EBM</em></p>
+<p class="eng hidden" id="element-947"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> + <em data-effect="italics">EBM</em> = 8.2267 + 0.9240 = 9.15</p><p class="vn visible" id="element-947-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span><em data-effect="italics">EBM</em></p><p class="eng hidden" id="element-430">The 95% confidence interval is (7.30, 9.15).</p><p class="vn visible" id="element-430-vn">Khoảng tin cậy 95% là (7.30, 9.15).</p>
+<p class="eng hidden" id="element-273">We estimate with 95% confidence  that the true population mean sensory rate is between 7.30 and 9.15.</p><p class="vn visible" id="element-273-vn">Chúng ta ước tính với độ tin cậy 95% rằng số trung bình tỷ lệ cảm giác thực sự của quần thể nằm trong khoảng từ 7.30 đến 9.15.</p></div>
+</section>
+</details>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idp148096976">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm8032736"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm125793568">Press <code data-type="code">STAT</code> and arrow over to <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">8:TInterval</code> and press <code data-type="code">ENTER</code> (or you can just press <code data-type="code">8</code>).
+<span data-type="newline"><br/></span>Arrow to <code data-type="code">Data</code> and press <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">List</code> and enter the list name where you put the data.
+<span data-type="newline"><br/></span>There should be a 1 after <code data-type="code">Freq</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">C-level</code> and enter 0.95
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">Calculate</code> and press <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>The 95% confidence interval is (7.3006, 9.1527)</p><p class="vn visible" id="fs-idm125793568-vn">Nhấn <code data-type="code">STAT</code> và di chuyển mũi tên sang <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">8:TInterval</code> và nhấn <code data-type="code">ENTER</code> (hoặc bạn có thể chỉ cần nhấn <code data-type="code">8</code>).
+<span data-type="newline"><br/></span>Di chuyển mũi tên đến <code data-type="code">Data</code> và nhấn <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">List</code> và nhập tên danh sách nơi bạn đã lưu dữ liệu.
+<span data-type="newline"><br/></span>Sẽ có số 1 sau <code data-type="code">Freq</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">C-level</code> và nhập 0.95
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">Calculate</code> và nhấn <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Khoảng tin cậy 95% là (7.3006, 9.1527)</p>
+</div></section></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-406"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm137079696">When calculating the error bound, a probability table for the Student's t-distribution can also be used to find the value of <em data-effect="italics">t</em>. The table gives <em data-effect="italics">t</em>-scores that correspond to the confidence level (column) and degrees of freedom (row); the <em data-effect="italics">t</em>-score is found where the row and column intersect in the table.</p><p class="vn visible" id="fs-idm137079696-vn">Khi tính toán giới hạn sai số, bảng xác suất cho phân phối Student's t cũng có thể được sử dụng để tìm giá trị của <em data-effect="italics">t</em>. Bảng này cung cấp các điểm <em data-effect="italics">t</em> tương ứng với mức tin cậy (cột) và bậc tự do (hàng); điểm <em data-effect="italics">t</em> được tìm thấy tại nơi hàng và cột giao nhau trong bảng.</p></div></section></div>
+</div>
+</section>
+</details>
+</section></div></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm181001040"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">8.8</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
+<span class="os-number">8.8</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-496"><header></header><section><div data-type="problem" id="eip-247"><div class="os-problem-container">
+<p class="eng hidden" id="eip-331">You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95% confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p><p class="vn visible" id="eip-331-vn">Bạn thực hiện một nghiên cứu về liệu pháp thôi miên để xác định mức độ hiệu quả của nó trong việc tăng số giờ ngủ mà các đối tượng có được mỗi đêm. Bạn đo số giờ ngủ của 12 đối tượng với các kết quả sau. Hãy xây dựng khoảng tin cậy 95% cho số trung bình giờ ngủ của quần thể (giả định là phân phối chuẩn) mà bạn đã lấy dữ liệu.</p><p class="eng hidden" id="eip-idm108202576">8.2; 9.1; 7.7; 8.6; 6.9; 11.2; 10.1; 9.9; 8.9; 9.2; 7.5; 10.5</p><p class="vn visible" id="eip-idm108202576-vn">8.2; 9.1; 7.7; 8.6; 6.9; 11.2; 10.1; 9.9; 8.9; 9.2; 7.5; 10.5</p></div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="eip-804"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">8.9</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">8.9</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><div class="unnumbered has-problem-title" data-type="exercise" id="eip-821"><header></header><section><div data-type="problem" id="eip-957"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="eip-645">The Human Toxome Project (HTP) is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. The scientists at HTP tested cord blood samples for 20 newborn infants in the United States. The cord blood of the "In utero/newborn" group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous system toxicity, immune system toxicity, and reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <a aria-label="View Table 8.3" class="autogenerated-content" href="8-2-a-single-population-mean-using-the-student-t-distribution#eip-222">Table 8.3</a> shows how many of the targeted chemicals were found in each infant’s cord blood.</p><p class="vn visible" id="eip-645-vn">Dự án Human Toxome Project (HTP) đang nỗ lực tìm hiểu phạm vi ô nhiễm công nghiệp trong cơ thể con người. Các hóa chất công nghiệp có thể xâm nhập vào cơ thể thông qua ô nhiễm hoặc dưới dạng thành phần trong các sản phẩm tiêu dùng. Các nhà khoa học tại HTP đã kiểm tra các mẫu máu cuống rốn của 20 trẻ sơ sinh tại Hoa Kỳ. Máu cuống rốn của nhóm "Trong tử cung/trẻ sơ sinh" đã được kiểm tra 430 hợp chất công nghiệp, chất ô nhiễm và các hóa chất khác, bao gồm các hóa chất liên quan đến độc tính đối với não và hệ thần kinh, độc tính đối với hệ miễn dịch, độc tính đối với hệ sinh sản và các vấn đề về khả năng sinh sản. Có những lo ngại về sức khỏe đối với tác động của một số hóa chất lên não và hệ thần kinh. <a aria-label="View Table 8.3" class="autogenerated-content" href="8-2-a-single-population-mean-using-the-student-t-distribution#eip-222">Bảng 8.3</a> cho thấy có bao nhiêu hóa chất mục tiêu được tìm thấy trong máu cuống rốn của mỗi trẻ sơ sinh.</p><div class="os-table" id="eip-222"><table data-id="eip-222" data-summary=".." role="presentation"><tbody>
+<tr><td class="eng hidden">79</td><td class="vn visible">79</td> <td class="eng hidden">145</td><td class="vn visible">145</td> <td class="eng hidden">147</td><td class="vn visible">147</td> <td class="eng hidden">160</td><td class="vn visible">160</td> <td class="eng hidden">116</td><td class="vn visible">116</td> <td class="eng hidden">100</td><td class="vn visible">100</td> <td class="eng hidden">159</td><td class="vn visible">159</td> <td class="eng hidden">151</td><td class="vn visible">151</td> <td class="eng hidden">156</td><td class="vn visible">156</td> <td class="eng hidden">126</td><td class="vn visible">126</td></tr>
+<tr><td class="eng hidden">137</td><td class="vn visible">137</td> <td class="eng hidden">83</td><td class="vn visible">83</td> <td class="eng hidden">156</td><td class="vn visible">156</td> <td class="eng hidden">94</td><td class="vn visible">94</td> <td class="eng hidden">121</td><td class="vn visible">121</td> <td class="eng hidden">144</td><td class="vn visible">144</td> <td class="eng hidden">123</td><td class="vn visible">123</td> <td class="eng hidden">114</td><td class="vn visible">114</td> <td class="eng hidden">139</td><td class="vn visible">139</td> <td class="eng hidden">99</td><td class="vn visible">99</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">8.3</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Bảng </span>
+<span class="os-number">8.3</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p class="eng hidden" id="eip-idp159676448">Use this sample data to construct a 90% confidence interval for the mean number of targeted industrial chemicals to be found in an in infant’s blood.</p><p class="vn visible" id="eip-idp159676448-vn">Sử dụng dữ liệu mẫu này để xây dựng khoảng tin cậy 90% cho số trung bình các hóa chất công nghiệp mục tiêu được tìm thấy trong máu của trẻ sơ sinh.</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="eip-262">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="eip-78">From the sample, you can calculate <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> = 127.45 and <em data-effect="italics">s</em> = 25.965. There are 20 infants in the sample, so <em data-effect="italics">n</em> = 20, and <em data-effect="italics">df</em> = 20 – 1 = 19. </p><p class="vn visible" id="eip-78-vn">Từ mẫu, bạn có thể tính được <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> = 127.45 và <em data-effect="italics">s</em> = 25.965. Có 20 trẻ sơ sinh trong mẫu, vì vậy <em data-effect="italics">n</em> = 20, và <em data-effect="italics">df</em> = 20 – 1 = 19.</p>
+<p class="eng hidden" id="eip-idm108372720">You are asked to calculate a 90% confidence interval: <em data-effect="italics">CL</em> = 0.90, so <em data-effect="italics">α</em> = 1 – <em data-effect="italics">CL</em> = 1 – 0.90 = 0.10
+<span data-display="inline" data-list-type="labeled-item" data-type="list" id="eip-idm108372304">
+<span data-type="item"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+<mo>=</mo><mn>0.05,</mn><mspace width="2pt"></mspace><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.05</mn>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+<mo>=</mo><mn>0.05,</mn><mspace width="2pt"></mspace><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.05</mn>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math></span></span>
+</span>
+</p><p class="vn visible" id="eip-idm108372720-vn">Bạn được yêu cầu tính khoảng tin cậy 90%: <em data-effect="italics">CL</em> = 0.90, nên <em data-effect="italics">α</em> = 1 – <em data-effect="italics">CL</em> = 1 – 0.90 = 0.10
+<span data-display="inline" data-list-type="labeled-item" data-type="list" id="eip-idm108372304">
+<span data-type="item"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+<mo>=</mo><mn>0.05,</mn><mspace width="2pt"></mspace><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.05</mn>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+<mo>=</mo><mn>0.05,</mn><mspace width="2pt"></mspace><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mn>0.05</mn>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math></span></span>
+</span></p><p class="eng hidden" id="eip-idm186375552">By definition, the area to the right of <em data-effect="italics">t</em><sub>0.05</sub> is 0.05 and so the area to the left of <em data-effect="italics">t</em><sub>0.05</sub> is 1 – 0.05 = 0.95.</p><p class="vn visible" id="eip-idm186375552-vn">Theo định nghĩa, diện tích bên phải của <em data-effect="italics">t</em><sub>0.05</sub> là 0.05 và do đó diện tích bên trái của <em data-effect="italics">t</em><sub>0.05</sub> là 1 – 0.05 = 0.95.</p>
+<p class="eng hidden" id="eip-idm38662128">Use a table, calculator, or computer to find that <em data-effect="italics">t</em><sub>0.05</sub> = 1.729.</p><p class="vn visible" id="eip-idm38662128-vn">Sử dụng bảng, máy tính hoặc máy tính cá nhân để tìm ra <em data-effect="italics">t</em><sub>0.05</sub> = 1.729.</p>
+<p class="eng hidden" id="eip-idm126306320">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>1.729</mn><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>25.965</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>20</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo> </mo><mo>≈</mo><mo> </mo><mn>10.038</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>1.729</mn><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>25.965</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>20</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo> </mo><mo>≈</mo><mo> </mo><mn>10.038</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="eip-idm126306320-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>1.729</mn><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>25.965</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>20</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo> </mo><mo>≈</mo><mo> </mo><mn>10.038</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mi>E</mi><mi>B</mi><mi>M</mi><mo>=</mo><msub>
+<mi>t</mi>
+<mrow>
+<mfrac>
+<mi>α</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msub>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mi>s</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo>=</mo><mn>1.729</mn><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>25.965</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>20</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mo> </mo><mo>≈</mo><mo> </mo><mn>10.038</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span></p><p class="eng hidden" id="eip-idm123738016"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> – <em data-effect="italics">EBM</em> = 127.45 – 10.038 = 117.412</p><p class="vn visible" id="eip-idm123738016-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span><em data-effect="italics">EBM</em></p>
+<p class="eng hidden" id="eip-idm1765136"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> + <em data-effect="italics">EBM</em> = 127.45 + 10.038 = 137.488</p><p class="vn visible" id="eip-idm1765136-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span><em data-effect="italics">EBM</em></p>
+<p class="eng hidden" id="eip-idm27533168">We estimate with 90% confidence that the mean number of all targeted industrial chemicals found in cord blood in the United States is between 117.412 and 137.488.</p><p class="vn visible" id="eip-idm27533168-vn">Chúng ta ước tính với độ tin cậy 90% rằng số trung bình của tất cả các hóa chất công nghiệp mục tiêu được tìm thấy trong máu cuống rốn tại Hoa Kỳ nằm trong khoảng từ 117.412 đến 137.488.</p>
+</div>
+</section>
+</details>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idp111080464">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="eip-idp189552432">
+</p><p class="vn visible" id="eip-idp189552432-vn">
+</p><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm115636704"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm150426592">Enter the data as a list.
+<span data-type="newline"><br/></span>Press <code data-type="code">STAT</code> and arrow over to <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">8:TInterval</code> and press <code data-type="code">ENTER</code> (or you can just press <code data-type="code">8</code>). Arrow to Data and press <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">List</code> and enter the list name where you put the data.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">Freq</code> and enter 1.
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">C-level</code> and enter 0.90
+<span data-type="newline"><br/></span>Arrow down to <code data-type="code">Calculate</code> and press <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>The 90% confidence interval is (117.41, 137.49).</p><p class="vn visible" id="fs-idm150426592-vn">Nhập dữ liệu dưới dạng một danh sách.
+<span data-type="newline"><br/></span>Nhấn <code data-type="code">STAT</code> và di chuyển mũi tên sang <code data-type="code">TESTS</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">8:TInterval</code> và nhấn <code data-type="code">ENTER</code> (hoặc bạn chỉ cần nhấn <code data-type="code">8</code>). Di chuyển mũi tên đến Data và nhấn <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">List</code> và nhập tên danh sách nơi bạn đã đặt dữ liệu.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">Freq</code> và nhập 1.
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">C-level</code> và nhập 0.90
+<span data-type="newline"><br/></span>Di chuyển mũi tên xuống <code data-type="code">Calculate</code> và nhấn <code data-type="code">ENTER</code>.
+<span data-type="newline"><br/></span>Khoảng tin cậy 90% là (117.41, 137.49).</p>
+</div></section></div>
+</div>
+</section>
+</details>
+</section></div></div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm12320384"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">8.9</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
+<span class="os-number">8.9</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-467"><header></header><section>
+<div data-type="problem" id="eip-272"><div class="os-problem-container">
+<p class="eng hidden" id="eip-636">A random sample of statistics students were asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <a aria-label="View Table 8.4" class="autogenerated-content" href="8-2-a-single-population-mean-using-the-student-t-distribution#eip-672">Table 8.4</a>. Use this sample data to construct a 98% confidence interval for the mean number of hours statistics students will spend watching television in one week.
+</p><p class="vn visible" id="eip-636-vn">Một mẫu ngẫu nhiên các sinh viên thống kê được yêu cầu ước tính tổng số giờ họ dành ra để xem truyền hình trong một tuần trung bình. Các phản hồi được ghi lại trong <a aria-label="View Table 8.4" class="autogenerated-content" href="8-2-a-single-population-mean-using-the-student-t-distribution#eip-672">Bảng 8.4</a>. Sử dụng dữ liệu mẫu này để xây dựng khoảng tin cậy 98% cho số trung bình các giờ mà sinh viên thống kê sẽ dành ra để xem truyền hình trong một tuần.</p><div class="os-table" id="eip-672"><table data-id="eip-672" data-summary=".." role="presentation"><tbody>
+<tr><td class="eng hidden">0</td><td class="vn visible">0</td> <td class="eng hidden">3</td><td class="vn visible">3</td> <td class="eng hidden">1</td><td class="vn visible">1</td> <td class="eng hidden">20</td><td class="vn visible">20</td> <td class="eng hidden">9</td><td class="vn visible">9</td></tr>
+<tr><td class="eng hidden">5</td><td class="vn visible">5</td> <td class="eng hidden">10</td><td class="vn visible">10</td> <td class="eng hidden">1</td><td class="vn visible">1</td> <td class="eng hidden">10</td><td class="vn visible">10</td> <td class="eng hidden">4</td><td class="vn visible">4</td></tr>
+<tr><td class="eng hidden">14</td><td class="vn visible">14</td> <td class="eng hidden">2</td><td class="vn visible">2</td> <td class="eng hidden">4</td><td class="vn visible">4</td> <td class="eng hidden">4</td><td class="vn visible">4</td> <td class="eng hidden">5</td><td class="vn visible">5</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">8.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Bảng </span>
+<span class="os-number">8.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+</body></html>

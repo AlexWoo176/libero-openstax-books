@@ -1,0 +1,85 @@
+<html><head>
+<meta charset="utf-8"/><link href="../../../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head><body><div class="os-figure has-splash" id="fs-idm16905488"><figure class="splash ui-has-child-figcaption" data-id="fs-idm16905488"><span data-alt="This is a photo of change a set of keys in a pile. There appear to be five pennies, three quarters, four dimes, and two nickels. The key ring has a bronze whale on it and holds eleven keys." data-type="media" id="fs-idm70194688">
+<button aria-label="Click to enlarge image of This is a photo of change a set of keys in a pile. There appear to be five pennies, three quarters, four dimes, and two nickels. The key ring has a bronze whale on it and holds eleven keys." class="image-button-wrapper" type="button"><img alt="This is a photo of change a set of keys in a pile. There appear to be five pennies, three quarters, four dimes, and two nickels. The key ring has a bronze whale on it and holds eleven keys." data-media-type="image/jpg" height="651" loading="lazy" src="../../../assets/img-7-1.webp" width="1401"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">7.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">If you want to figure out the distribution of the change people carry in their pockets, using the central limit theorem and assuming your sample is large enough, you will find that the  distribution is normal and bell-shaped. (credit: modification of work “american coins” by Paula R. Lively/ Flickr, CC BY 2.0)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">7.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Nếu bạn muốn tìm ra phân phối của số tiền lẻ mà mọi người mang theo trong túi, sử dụng định lý giới hạn trung tâm và giả định mẫu của bạn đủ lớn, bạn sẽ thấy rằng phân phối đó là phân phối chuẩn và có hình chuông. (nguồn: sửa đổi từ tác phẩm “american coins” của Paula R. Lively/ Flickr, CC BY 2.0)</span></figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp26371136"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-745">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-745-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list6234"><li class="eng hidden">Recognize central limit theorem problems.</li><li class="vn visible">Nhận biết các bài toán về định lý giới hạn trung tâm.</li>
+<li class="eng hidden">Classify continuous word problems by their distributions.</li><li class="vn visible">Phân loại các bài toán đố liên tục theo phân phối của chúng.</li>
+<li class="eng hidden">Apply and interpret the central limit theorem for means.</li><li class="vn visible">Áp dụng và diễn giải định lý giới hạn trung tâm cho số trung bình.</li>
+<li class="eng hidden">Apply and interpret the central limit theorem for sums.</li><li class="vn visible">Áp dụng và diễn giải định lý giới hạn trung tâm cho tổng.</li>
+</ul></div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_3156cbd2-f14e-4bac-bb76-07d69213dfb8_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_3156cbd2-f14e-4bac-bb76-07d69213dfb8_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
+<p class="eng hidden" id="element-7452">Why are we so concerned with means? Two reasons are: they give us a middle ground for comparison, and they are easy to calculate. In this chapter, you will study means and the <strong>central limit theorem</strong>.</p><p class="vn visible" id="element-7452-vn">Tại sao chúng ta lại quan tâm nhiều đến số trung bình? Có hai lý do: chúng cung cấp cho chúng ta một cơ sở chung để so sánh và chúng dễ tính toán. Trong chương này, bạn sẽ nghiên cứu về số trung bình và <strong>định lý giới hạn trung tâm</strong>.</p><p class="eng hidden" id="element-164">The <span data-type="term" group-by="c" id="term-00001">central limit theorem</span> (clt for short) is one of the most powerful and useful ideas in all of statistics. There are two alternative forms of the theorem, and both alternatives are concerned with drawing finite samples size <em data-effect="italics">n</em> from a population with a known mean, <em data-effect="italics">μ</em>, and a known standard deviation, <em data-effect="italics">σ</em>. The first alternative says that if we collect samples of size <em data-effect="italics">n</em> with a "large enough <em data-effect="italics">n</em>," calculate each sample's mean, and create a histogram of those means, then the resulting histogram will tend to have an approximate normal bell shape. The second alternative says that if we again collect samples of size <em data-effect="italics">n</em> that are "large enough," calculate the sum of each sample and create a histogram, then the resulting histogram will again tend to have a normal bell-shape.</p><p class="vn visible" id="element-164-vn"><span data-type="term" group-by="c" id="term-00001">Định lý giới hạn trung tâm</span> (viết tắt là clt) là một trong những ý tưởng mạnh mẽ và hữu ích nhất trong toàn bộ thống kê học. Có hai dạng thay thế của định lý này, và cả hai đều liên quan đến việc lấy các mẫu hữu hạn có kích thước <em data-effect="italics">n</em> từ một quần thể có số trung bình đã biết, <em data-effect="italics">μ</em>, và độ lệch chuẩn đã biết, <em data-effect="italics">σ</em>. Dạng thay thế thứ nhất cho biết rằng nếu chúng ta thu thập các mẫu có kích thước <em data-effect="italics">n</em> với một "<em data-effect="italics">n</em> đủ lớn", tính số trung bình của mỗi mẫu và tạo một biểu đồ histogram của các số trung bình đó, thì biểu đồ thu được sẽ có xu hướng mang hình dạng chuông chuẩn xấp xỉ. Dạng thay thế thứ hai cho biết rằng nếu chúng ta tiếp tục thu thập các mẫu có kích thước <em data-effect="italics">n</em> "đủ lớn", tính tổng của mỗi mẫu và tạo một biểu đồ histogram, thì biểu đồ thu được cũng sẽ có xu hướng mang hình dạng chuông chuẩn.</p><p class="eng hidden" id="element-17">The size of the sample, <em data-effect="italics">n</em>, that is required in order to be "large enough" depends on the original population from which the samples are drawn (the sample size should be at least 30 or the data should come from a normal distribution). If the original population is far from normal, then more observations are needed for the sample means or sums to be normal. <strong>Sampling is done with replacement.</strong></p><p class="vn visible" id="element-17-vn">Kích thước mẫu <em data-effect="italics">n</em> cần thiết để được coi là "đủ lớn" phụ thuộc vào quần thể gốc mà các mẫu được lấy ra (kích thước mẫu nên ít nhất là 30 hoặc dữ liệu nên đến từ một phân phối chuẩn). Nếu quần thể gốc không gần với phân phối chuẩn, thì cần nhiều quan sát hơn để các số trung bình hoặc tổng của mẫu có phân phối chuẩn. <strong>Việc lấy mẫu được thực hiện có hoàn lại.</strong></p><p class="eng hidden" id="eip-536">It would be difficult to overstate the importance of the central limit theorem in statistical theory. Knowing that data, even if its distribution is not normal, behaves in a predictable way is a powerful tool.</p><p class="vn visible" id="eip-536-vn">Thật khó để nói quá về tầm quan trọng của định lý giới hạn trung tâm trong lý thuyết thống kê. Việc biết rằng dữ liệu, ngay cả khi phân phối của nó không phải là phân phối chuẩn, vẫn hoạt động theo một cách có thể dự đoán được là một công cụ mạnh mẽ.</p><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp64638656"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Bài tập hợp tác</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-332">Suppose eight of you roll one fair die ten times, seven of you roll two fair dice ten times, nine of you roll five fair dice ten times, and 11 of you roll ten fair dice ten times.</p><p class="vn visible" id="element-332-vn">Giả sử tám bạn trong số các bạn gieo một con xúc xắc cân đối mười lần, bảy bạn gieo hai con xúc xắc cân đối mười lần, chín bạn gieo năm con xúc xắc cân đối mười lần, và 11 bạn gieo mười con xúc xắc cân đối mười lần.</p><p class="eng hidden" id="element-42">Each time a person rolls more than one die, they calculate the sample <span data-type="term" group-by="m" id="term-00002">mean</span> of the faces showing. For example, one person might roll five fair dice and get 2, 2, 3, 4, 6 on one roll.</p><p class="vn visible" id="element-42-vn">Mỗi lần một người gieo nhiều hơn một con xúc xắc, họ sẽ tính <span data-type="term" group-by="m" id="term-00002">Trung bình</span> mẫu của các mặt hiển thị. Ví dụ, một người có thể gieo năm con xúc xắc cân đối và nhận được 2, 2, 3, 4, 6 trong một lần gieo.</p>
+<p class="eng hidden" id="element-994">The mean is <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mtext>2 + 2 + 3 + 4 + 6</mtext>
+</mrow>
+<mn>5</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mtext>2 + 2 + 3 + 4 + 6</mtext>
+</mrow>
+<mn>5</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> = 3.4. The 3.4 is one mean when five fair dice are rolled. This same person would roll the five dice nine more times and calculate nine more means for a total of ten means.</p><p class="vn visible" id="element-994-vn">Số trung bình là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mtext>2 + 2 + 3 + 4 + 6</mtext>
+</mrow>
+<mn>5</mn>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mtext>2 + 2 + 3 + 4 + 6</mtext>
+</mrow>
+<mn>5</mn>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> = 3.4. Con số 3.4 là một số trung bình khi gieo năm con xúc xắc cân đối. Người này sẽ gieo năm con xúc xắc đó thêm chín lần nữa và tính thêm chín số trung bình nữa để có tổng cộng mười số trung bình.</p>
+<p class="eng hidden" id="element-200">Your instructor will pass out the dice to several people. Roll your dice ten times. For each roll, record the faces, and find the mean. Round to the nearest 0.5.</p><p class="vn visible" id="element-200-vn">Giảng viên của bạn sẽ phát xúc xắc cho một vài người. Hãy gieo xúc xắc của bạn mười lần. Với mỗi lần gieo, hãy ghi lại các mặt và tìm số trung bình. Làm tròn đến 0.5 gần nhất.</p>
+<p class="eng hidden" id="element-73">Your instructor (and possibly you) will produce one graph (it might be a histogram) for one die, one graph for two dice, one graph for five dice, and one graph for ten dice. Since the "mean" when you roll one die is just the face on the die, what distribution do these <strong>means</strong> appear to be representing?</p><p class="vn visible" id="element-73-vn">Giảng viên của bạn (và có thể là cả bạn) sẽ tạo ra một biểu đồ (có thể là biểu đồ histogram) cho một con xúc xắc, một biểu đồ cho hai con xúc xắc, một biểu đồ cho năm con xúc xắc và một biểu đồ cho mười con xúc xắc. Vì "số trung bình" khi bạn gieo một con xúc xắc chỉ là mặt trên con xúc xắc đó, các <strong>số trung bình</strong> này dường như đại diện cho phân phối nào?</p>
+<p class="eng hidden" id="element-938"><strong>Draw the graph for the means using two dice.</strong> Do the sample means show any kind of pattern?</p><p class="vn visible" id="element-938-vn"><strong>Vẽ biểu đồ cho các số trung bình sử dụng hai con xúc xắc.</strong> Các số trung bình mẫu có cho thấy bất kỳ loại mô hình nào không?</p>
+<p class="eng hidden" id="element-182"><strong>Draw the graph for the means using five dice.</strong> Do you see any pattern emerging?</p><p class="vn visible" id="element-182-vn"><strong>Vẽ biểu đồ cho các số trung bình sử dụng năm con xúc xắc.</strong> Bạn có thấy mô hình nào xuất hiện không?</p>
+<p class="eng hidden" id="element-131"><strong>Finally, draw the graph for the means using ten dice.</strong> Do you see any pattern to the graph? What can you conclude as you increase the number of dice?</p><p class="vn visible" id="element-131-vn"><strong>Cuối cùng, vẽ biểu đồ cho các số trung bình sử dụng mười con xúc xắc.</strong> Bạn có thấy mô hình nào trên biểu đồ không? Bạn có thể kết luận gì khi tăng số lượng xúc xắc?</p>
+<p class="eng hidden" id="element-368">As the number of dice rolled increases from one to two to five to ten, the following is happening:</p><p class="vn visible" id="element-368-vn">Khi số lượng xúc xắc được gieo tăng từ một lên hai, năm và mười, những điều sau đây đang xảy ra:</p>
+<ol id="list-1">
+<li class="eng hidden">The mean of the sample means remains approximately the same.</li><li class="vn visible">Số trung bình của các số trung bình mẫu vẫn xấp xỉ như cũ.</li>
+<li class="eng hidden">The spread of the sample means (the standard deviation of the sample means) gets smaller.</li><li class="vn visible">Độ phân tán của các số trung bình mẫu (độ lệch chuẩn của các số trung bình mẫu) trở nên nhỏ hơn.</li>
+<li class="eng hidden">The graph appears steeper and thinner.</li><li class="vn visible">Biểu đồ trông có vẻ dốc hơn và mỏng hơn.</li>
+</ol>
+<p class="eng hidden" id="element-730">You have just demonstrated the central limit theorem (clt).</p><p class="vn visible" id="element-730-vn">Bạn vừa chứng minh định lý giới hạn trung tâm (clt).</p>
+<p class="eng hidden" id="element-266">The central limit theorem tells you that as you increase the number of dice, <strong>the sample means  tend toward a normal distribution (the sampling distribution).</strong></p><p class="vn visible" id="element-266-vn">Định lý giới hạn trung tâm cho bạn biết rằng khi bạn tăng số lượng xúc xắc, <strong>các số trung bình mẫu có xu hướng tiến về một phân phối chuẩn (phân phối mẫu).</strong></p>
+</div></section></div>
+</div>
+</div>
+</body></html>

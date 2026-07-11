@@ -1,0 +1,12 @@
+key,translation,options,desc_en,desc_vi,chapter,status,notes
+"analysis of variance"     , "Phân tích phương sai"            , "", "approved", "", 13, "approved", ""
+"balanced design"          , "Thiết kế cân bằng"             , "", "approved", "", 13, "approved", ""
+"equal standard deviations", "Các độ lệch chuẩn bằng nhau"   , "", "approved", "", 13, "approved", ""
+"f distribution"           , "Phân phối F"                   , "", "approved", "", 13, "approved", ""
+"f ratio"                  , "Tỷ số F"                       , "", "approved", "", 13, "approved", ""
+"mean square"              , "Bình phương trung bình"        , "", "approved", "", 13, "approved", ""
+"one-way anova"            , "Phân tích phương sai một chiều", "", "approved", "", 13, "approved", ""
+"sum of squares"           , "Tổng các bình phương"          , "", "approved", "", 13, "approved", ""
+"variance between samples" , "Phương sai giữa các mẫu"       , "", "approved", "", 13, "approved", ""
+"variance within samples"  , "Phương sai trong nội bộ mẫu"   , "", "approved", "", 13, "approved", ""
+"variances"                , "Các phương sai"                , "", "approved", "", 13, "approved", ""

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head>
+<body>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_c0a340ad-4816-43f1-bddf-cf2b281deb43_titlecreatedbycookbook"><span class="os-number">11.7</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Lab 1: Chi-Square Goodness-of-Fit</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_c0a340ad-4816-43f1-bddf-cf2b281deb43_titlecreatedbycookbook-vn"><span class="os-number">11.7</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Phòng thí nghiệm 1: Kiểm định mức độ phù hợp Khi bình phương</span></h2>
+<div class="statistics lab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-id1170646469482"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Stats Lab </span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Phòng thí nghiệm Thống kê </span></h3></header><section>
+<div class="os-note-body"><h4 class="os-subtitle eng hidden" data-type="title">
+<span class="os-subtitle-label">Lab 1: Chi-Square Goodness-of-Fit</span>
+</h4><h4 class="os-subtitle vn visible" data-type="title"><span class="os-subtitle-label">Phòng thí nghiệm 1: Kiểm định mức độ phù hợp Khi bình phương</span></h4>
+<p class="eng hidden" id="id5380446">Class Time: </p><p class="vn visible" id="id5380446-vn">Thời gian trên lớp:</p>
+<p class="eng hidden" id="id5380454">Names:</p><p class="vn visible" id="id5380454-vn">Họ và tên:</p>
+<div data-type="list" id="id5380464"><div data-type="title">Student Learning Outcome</div><ul><li class="eng hidden">The student will evaluate data collected to determine if they fit either the uniform or exponential distributions. </li><li class="vn visible">Sinh viên sẽ đánh giá dữ liệu đã thu thập để xác định xem chúng có phù hợp với phân phối đều hay phân phối mũ hay không.</li>
+</ul></div><p class="eng hidden" id="element-875862734"><span data-type="title">Collect the Data</span>
+    Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. (Or, ask three cashiers for the last ten amounts. Be sure to include the express lane, if it is open.)</p><p class="vn visible" id="element-875862734-vn"><span data-type="title">Thu thập dữ liệu</span>
+    Hãy đến siêu thị địa phương của bạn. Hỏi 30 người khi họ rời đi về tổng số tiền trên biên lai mua sắm của họ. (Hoặc, hỏi ba nhân viên thu ngân về mười số tiền cuối cùng. Hãy chắc chắn bao gồm cả làn thanh toán nhanh, nếu nó đang mở.)</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-665"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">You may need to combine two categories so that each cell has an expected value of at least five.
+ </div></section></div><ol data-mark-suffix="." id="list-87585">
+<li data-mark-suffix=".">Record the values.
+     <div class="os-table" id="table023865"><table data-id="table023865" data-summary="Blank table with 30 empty cells." role="presentation"><tbody>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.23</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.23</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</li>
+<li data-mark-suffix=".">Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes. <div class="os-figure" id="id42008923"><figure class="scaled-down ui-has-child-figcaption" data-id="id42008923"><span data-alt="Blank graph with relative frequency on vertical" data-type="media" id="id42008927"><button aria-label="Click to enlarge image of Blank graph with relative frequency on vertical" class="image-button-wrapper" type="button"><img alt="Blank graph with relative frequency on vertical" data-media-type="image/png" height="700" loading="lazy" src="../../../assets/img-11-7-1.webp" width="1316"/></button></span><figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.9</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.9</span></figcaption></figure></div></li>
+<li data-mark-suffix="."> Calculate the following: <ol id="list3242" type="a">
+<li class="eng hidden"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow></annotation-xml></semantics></math>________</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow></annotation-xml></semantics></math>________</li>
+<li class="eng hidden"><em data-effect="italics">s</em> = ________</li><li class="vn visible"><em data-effect="italics">s</em> = ________</li>
+<li class="eng hidden"><em data-effect="italics">s</em><sup>2</sup> = ________</li><li class="vn visible"><em data-effect="italics">s</em><sup>2</sup> = ________</li>
+</ol>
+</li>
+</ol>
+<p class="eng hidden" id="element-755"><span data-type="title">Uniform Distribution</span>
+    Test to see if grocery receipts follow the uniform distribution.</p><p class="vn visible" id="element-755-vn"><span data-type="title">Phân phối đều</span>
+    Kiểm tra xem biên lai mua sắm có tuân theo phân phối đều hay không.</p>
+<ol data-mark-suffix="." id="list-897576324"><li class="eng hidden" data-mark-suffix=".">Using your lowest and highest values, <em data-effect="italics">X</em> ~ <em data-effect="italics">U</em> (_______, _______)</li><li class="vn visible" data-mark-suffix=".">Sử dụng các giá trị thấp nhất và cao nhất của bạn, <em data-effect="italics">X</em> ~ <em data-effect="italics">U</em> (_______, _______)</li>
+<li class="eng hidden" data-mark-suffix=".">Divide the distribution into fifths.</li><li class="vn visible" data-mark-suffix=".">Chia phân phối thành năm phần bằng nhau.</li>
+<li data-mark-suffix=".">Calculate the following:
+     <ol id="list45865" type="a"><li class="eng hidden">lowest value = _________</li><li class="vn visible">giá trị thấp nhất = _________</li>
+<li class="eng hidden">20<sup>th</sup> percentile = _________</li><li class="vn visible">Bách phân vị thứ 20 = _________</li>
+<li class="eng hidden">40<sup>th</sup> percentile = _________</li><li class="vn visible">Bách phân vị thứ 40 = _________</li>
+<li class="eng hidden">60<sup>th</sup> percentile = _________</li><li class="vn visible">Bách phân vị thứ 60 = _________</li>
+<li class="eng hidden">80<sup>th</sup> percentile = _________</li><li class="vn visible">Bách phân vị thứ 80 = _________</li>
+<li class="eng hidden">highest value = _________</li><li class="vn visible">giá trị cao nhất = _________</li>
+</ol></li>
+<li data-mark-suffix=".">For each fifth, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
+     <div class="os-table" id="id58758asdfa533062"><table data-id="id58758asdfa533062" data-summary="The partially filled table presents each fifth in the first column, observed in the blank second column, and expected in the blank third column. There are 5 rows."><thead>
+<tr>
+<th class="eng hidden" scope="col">Fifth </th><th class="vn visible" scope="col">Thứ năm</th>
+<th class="eng hidden" scope="col">Observed</th><th class="vn visible" scope="col">Quan sát</th>
+<th class="eng hidden" scope="col">Expected</th><th class="vn visible" scope="col">Kỳ vọng</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">1<sup>st</sup></td><td class="vn visible">Thứ 1<sup>st</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">2<sup>nd</sup></td><td class="vn visible">Thứ 2<sup>nd</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">3<sup>rd</sup></td><td class="vn visible">Thứ 3<sup>rd</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">4<sup>th</sup></td><td class="vn visible">Thứ 4<sup>th</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">5<sup>th</sup></td><td class="vn visible">Thứ 5<sup>th</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.24</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.24</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div></li>
+<li class="eng hidden" data-mark-suffix="."><em data-effect="italics">H<sub>0</sub></em>: ________</li><li class="vn visible" data-mark-suffix="."><em data-effect="italics">H<sub>0</sub></em>: ________</li>
+<li class="eng hidden" data-mark-suffix="."><em data-effect="italics">H<sub>a</sub></em>: ________</li><li class="vn visible" data-mark-suffix="."><em data-effect="italics">H<sub>a</sub></em>: ________</li>
+<li class="eng hidden" data-mark-suffix=".">What distribution should you use for a hypothesis test?</li><li class="vn visible" data-mark-suffix=".">Bạn nên sử dụng phân phối nào cho kiểm định giả thuyết?</li>
+<li class="eng hidden" data-mark-suffix=".">Why did you choose this distribution?</li><li class="vn visible" data-mark-suffix=".">Tại sao bạn chọn phân phối này?</li>
+<li class="eng hidden" data-mark-suffix=".">Calculate the test statistic.</li><li class="vn visible" data-mark-suffix=".">Tính toán thống kê kiểm định.</li>
+<li class="eng hidden" data-mark-suffix=".">Find the <em data-effect="italics">p</em>-value.</li><li class="vn visible" data-mark-suffix=".">Tìm <em data-effect="italics">p</em>-giá trị.</li>
+<li data-mark-suffix=".">Sketch a graph of the situation. Label and scale the <em data-effect="italics">x</em>-axis. Shade the area corresponding to the <em data-effect="italics">p</em>-value. <div class="os-figure" id="id40469669"><figure class="scaled-down ui-has-child-figcaption" data-id="id40469669"><span data-alt="Blank graph with vertical and horizontal axes." data-type="media" id="id40469674"><button aria-label="Click to enlarge image of Blank graph with vertical and horizontal axes." class="image-button-wrapper" type="button"><img alt="Blank graph with vertical and horizontal axes." data-media-type="image/png" height="627" loading="lazy" src="../../../assets/img-11-7-2.webp" width="1252"/></button></span><figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.10</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.10</span></figcaption></figure></div></li>
+<li class="eng hidden" data-mark-suffix=".">State your decision.</li><li class="vn visible" data-mark-suffix=".">Nêu quyết định của bạn.</li>
+<li class="eng hidden" data-mark-suffix=".">State your conclusion in a complete sentence.</li><li class="vn visible" data-mark-suffix=".">Nêu kết luận của bạn bằng một câu hoàn chỉnh.</li>
+</ol><p class="eng hidden" id="element-875"><span data-type="title">Exponential Distribution</span>
+    Test to see if grocery receipts follow the exponential distribution with decay parameter <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mfrac>
+<mrow>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mover accent="true"><mi>x</mi><mo>¯</mo></mover>
+</mrow>
+</mfrac>
+</mrow><annotation-xml encoding="MathML-Content"><mfrac>
+<mrow>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mover accent="true"><mi>x</mi><mo>¯</mo></mover>
+</mrow>
+</mfrac></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="element-875-vn"><span data-type="title">Phân phối mũ</span>
+    Kiểm tra xem biên lai mua sắm có tuân theo phân phối mũ với tham số suy giảm <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mfrac>
+<mrow>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mover accent="true"><mi>x</mi><mo>¯</mo></mover>
+</mrow>
+</mfrac>
+</mrow><annotation-xml encoding="MathML-Content"><mfrac>
+<mrow>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mover accent="true"><mi>x</mi><mo>¯</mo></mover>
+</mrow>
+</mfrac></annotation-xml></semantics></math></span> hay không.</p>
+<ol data-mark-suffix="." id="list-86872534"><li class="eng hidden" data-mark-suffix=".">Using <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mn>1</mn>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mfrac>
+</mrow></annotation-xml></semantics></math> as the decay parameter, <em data-effect="italics">X</em> ~ <em data-effect="italics">Exp</em>(_________).</li><li class="vn visible" data-mark-suffix=".">Sử dụng <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mn>1</mn>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mfrac>
+</mrow></annotation-xml></semantics></math> làm tham số suy giảm, <em data-effect="italics">X</em> ~ <em data-effect="italics">Exp</em>(_________).</li>
+<li data-mark-suffix=".">Calculate the following:
+     <ol id="list3248" type="a">
+<li class="eng hidden">lowest value = ________</li><li class="vn visible">giá trị thấp nhất = ________</li>
+<li class="eng hidden">first quartile = ________</li><li class="vn visible">tứ phân vị thứ nhất = ________</li>
+<li class="eng hidden">37<sup>th</sup> percentile = ________</li><li class="vn visible">Bách phân vị thứ 37 = ________</li>
+<li class="eng hidden">median = ________</li><li class="vn visible">trung vị = ________</li>
+<li class="eng hidden">63<sup>rd</sup> percentile = ________</li><li class="vn visible">Bách phân vị thứ 63 = ________</li>
+<li class="eng hidden">3<sup>rd</sup> quartile = ________</li><li class="vn visible">tứ phân vị thứ ba = ________</li>
+<li class="eng hidden">highest value = ________</li><li class="vn visible">giá trị cao nhất = ________</li>
+</ol>
+</li>
+<li data-mark-suffix=".">For each cell, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.<div class="os-table" id="id5asd875fasssff533783"><table data-id="id5asd875fasssff533783" data-summary="The partially filled table presents the cell in the first column, observed in the blank second column, and the expected in the blank third column. There are 6 rows."><thead>
+<tr>
+<th class="eng hidden" scope="col">Cell</th><th class="vn visible" scope="col">Ô</th>
+<th class="eng hidden" scope="col">Observed</th><th class="vn visible" scope="col">Quan sát</th>
+<th class="eng hidden" scope="col">Expected</th><th class="vn visible" scope="col">Kỳ vọng</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">1<sup>st</sup></td><td class="vn visible">Thứ 1<sup>st</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">2<sup>nd</sup></td><td class="vn visible">Thứ 2<sup>nd</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">3<sup>rd</sup></td><td class="vn visible">Thứ 3<sup>rd</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">4<sup>th</sup></td><td class="vn visible">Thứ 4<sup>th</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">5<sup>th</sup></td><td class="vn visible">Thứ 5<sup>th</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">6<sup>th</sup></td><td class="vn visible">Thứ 6<sup>th</sup></td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.25</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.25</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</li>
+<li class="eng hidden" data-mark-suffix="."><em data-effect="italics">H<sub>0</sub></em>: ________</li><li class="vn visible" data-mark-suffix="."><em data-effect="italics">H<sub>0</sub></em>: ________</li>
+<li class="eng hidden" data-mark-suffix="."><em data-effect="italics">H<sub>a</sub></em>: ________</li><li class="vn visible" data-mark-suffix="."><em data-effect="italics">H<sub>a</sub></em>: ________</li>
+<li class="eng hidden" data-mark-suffix=".">What distribution should you use for a hypothesis test? </li><li class="vn visible" data-mark-suffix=".">Bạn nên sử dụng phân phối nào cho kiểm định giả thuyết?</li>
+<li class="eng hidden" data-mark-suffix=".">Why did you choose this distribution? </li><li class="vn visible" data-mark-suffix=".">Tại sao bạn chọn phân phối này?</li>
+<li class="eng hidden" data-mark-suffix=".">Calculate the test statistic.</li><li class="vn visible" data-mark-suffix=".">Tính toán thống kê kiểm định.</li>
+<li class="eng hidden" data-mark-suffix=".">Find the <em data-effect="italics">p</em>-value.</li><li class="vn visible" data-mark-suffix=".">Tìm <em data-effect="italics">p</em>-giá trị.</li>
+<li data-mark-suffix=".">Sketch a graph of the situation. Label and scale the <em data-effect="italics">x</em>-axis. Shade the area corresponding to the <em data-effect="italics">p</em>-value. <div class="os-figure" id="id42004364"><figure class="scaled-down ui-has-child-figcaption" data-id="id42004364"><span data-alt="Blank graph with vertical and horizontal axes." data-type="media" id="id42004370"><button aria-label="Click to enlarge image of Blank graph with vertical and horizontal axes." class="image-button-wrapper" type="button"><img alt="Blank graph with vertical and horizontal axes." data-media-type="image/png" height="627" loading="lazy" src="../../../assets/img-11-7-3.webp" width="1252"/></button></span><figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.11</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.11</span></figcaption></figure></div></li>
+<li class="eng hidden" data-mark-suffix=".">State your decision.</li><li class="vn visible" data-mark-suffix=".">Nêu quyết định của bạn.</li>
+<li class="eng hidden" data-mark-suffix=".">State your conclusion in a complete sentence.</li><li class="vn visible" data-mark-suffix=".">Nêu kết luận của bạn bằng một câu hoàn chỉnh.</li>
+</ol><div data-type="list" id="list-8658234"><div data-type="title">Discussion Questions</div><ol>
+<li class="eng hidden">Did your data fit either distribution? If so, which?</li><li class="vn visible">Dữ liệu của bạn có phù hợp với phân phối nào không? Nếu có, thì phân phối nào?</li>
+<li class="eng hidden">In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</li><li class="vn visible">Nhìn chung, bạn có nghĩ rằng dữ liệu có khả năng phù hợp với nhiều hơn một phân phối không? Hãy giải thích tại sao hoặc tại sao không bằng các câu hoàn chỉnh.</li>
+</ol></div>
+</div></section></div>
+</body></html>

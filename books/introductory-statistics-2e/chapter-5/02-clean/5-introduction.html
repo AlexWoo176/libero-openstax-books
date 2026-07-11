@@ -1,0 +1,73 @@
+<html><head>
+  <meta charset="utf-8"><link href="../../css/style.css" rel="stylesheet"/></head><body><div class="os-figure has-splash" id="fs-idp107728704"><figure class="splash ui-has-child-figcaption" data-id="fs-idp107728704"><span data-alt="The image shows radish plants of various heights sprouting out of dirt." data-type="media" id="fs-idp88279424">
+<button aria-label="Click to enlarge image of The image shows radish plants of various heights sprouting out of dirt." class="image-button-wrapper" type="button"><img alt="The image shows radish plants of various heights sprouting out of dirt." data-media-type="image/jpeg" height="651" loading="lazy" src="../assets/img-5-1.webp" width="1401"/></button>
+</span>
+<figcaption class="os-caption-container">
+<span class="os-title-label">Figure </span>
+<span class="os-number">5.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The heights of these radish plants are continuous random variables. (credit: modification of work “Radish (Raphanus sativus): White rust caused by Albugo candida” by Scot Nelson/ Flickr, Public Domain)</span>
+</figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp13104688"><header><h2 class="os-title" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2></header><section>
+<div class="os-note-body">
+<p id="element-103">By the end of this chapter, the student should be able to:</p>
+<ul id="list1">
+<li>Recognize and understand continuous probability density functions in general.</li>
+<li>Recognize the uniform probability distribution and apply it appropriately.</li>
+<li>Recognize the exponential probability distribution and apply it appropriately.</li>
+</ul>
+</div></section></div>
+<div class="intro-text">
+<h2 data-rex-keep="true" data-type="document-title" id="page_5b21fe4f-2515-4a5b-9935-f862434c88ed_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2>
+<p id="eip-idp101194160">Continuous random variables have many applications. Baseball batting averages, IQ scores, the length of time a long distance telephone call lasts, the amount of money a person carries, the length of time a computer chip lasts, and SAT scores are just a few. The field of reliability depends on a variety of continuous random variables.</p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp89655056"><header><h3 class="os-title" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm83037888">The values of discrete and continuous random variables can be ambiguous. For example, if <em data-effect="italics">X</em> is equal to the number of miles (to the nearest mile) you drive to work, then <em data-effect="italics">X</em> is a discrete random variable. You count the miles. If <em data-effect="italics">X</em> is the distance you drive to work, then you measure values of <em data-effect="italics">X</em> and <em data-effect="italics">X</em> is a continuous random variable. For a second example, if <em data-effect="italics">X</em> is equal to the number of books in a backpack, then <em data-effect="italics">X</em> is a discrete random variable. If <em data-effect="italics">X</em> is the weight of a book, then <em data-effect="italics">X</em> is a continuous random variable because weights are measured. How the random variable is defined is very important.</p>
+</div></section></div><section data-depth="1" id="eip-606"><h3 data-type="title">Properties of Continuous Probability Distributions</h3>
+<p id="eip-60">The graph of a continuous probability distribution is a curve. Probability is represented by area under the curve.</p>
+<p id="eip-33">The curve is called the <span data-type="term" group-by="p" id="term-00001">probability density function</span> (abbreviated as <strong>pdf</strong>). We use the symbol <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) to represent the curve. <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) is the function that corresponds to the graph; we use the density function <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) to draw the graph of the probability distribution. </p><p id="eip-474"><strong>Area under the curve</strong> is given by a different function called the  <strong>cumulative distribution function </strong> (abbreviated as <strong>cdf</strong>). The cumulative distribution function is used to evaluate probability as area.</p>
+<ul id="eip-id1170587055152"><li>The outcomes are measured, not counted.</li>
+<li>The entire area under the curve and above the x-axis is equal to one.</li>
+<li>Probability is found for intervals of <em data-effect="italics">x</em> values rather than for individual <em data-effect="italics">x</em> values.</li>
+<li><em data-effect="italics">P(c &lt; x &lt; d)</em> is the probability that the random variable <em data-effect="italics">X</em> is in the interval between the values <em data-effect="italics">c</em> and <em data-effect="italics">d</em>. <em data-effect="italics">P(c &lt; x &lt; d)</em> is the area under the curve, above the <em data-effect="italics">x</em>-axis, to the right of <em data-effect="italics">c</em> and the left of <em data-effect="italics">d</em>.</li>
+<li><em data-effect="italics">P(x = c) =</em> 0 The probability that <em data-effect="italics">x</em> takes on any single individual value is zero. The area below the curve, above the <em data-effect="italics">x</em>-axis, and between <em data-effect="italics">x</em> = <em data-effect="italics">c</em> and <em data-effect="italics">x</em> = <em data-effect="italics">c</em> has no width, and therefore no area (area = 0). Since the probability is equal to the area, the probability is also zero.</li>
+<li><em data-effect="italics">P(c &lt; x &lt; d)</em> is the same as <em data-effect="italics">P(c ≤ x ≤ d)</em> because probability is equal to area.</li>
+</ul>
+<p id="eip-423">We will find the area that represents probability by using geometry, formulas, technology, or probability tables.  In general, calculus is needed to find the area under the curve for many probability density functions.  When we use formulas to find the area in this textbook, the formulas were found by using the techniques of integral calculus.  However, because most students taking this course have not studied calculus, we will not be using calculus in this textbook.</p>
+<p id="eip-335">There are many continuous probability distributions. When using a continuous probability distribution to model probability, the distribution used is selected to model and fit the particular situation in the best way.</p>
+<p id="eip-94">In this chapter and the next, we will study the uniform distribution, the exponential distribution, and the normal distribution. The following graphs illustrate these distributions.</p><div class="os-figure" id="id4131243"><figure class="scaled-down ui-has-child-figcaption" data-id="id4131243">
+<span data-alt="This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x &lt; 6)." data-type="media" id="id1164320264037">
+<button aria-label="Click to enlarge image of This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x &lt; 6)." class="image-button-wrapper" type="button"><img alt="This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x &lt; 6)." data-media-type="image/png" height="515" loading="lazy" src="../assets/img-5-2.webp" width="981"/></button>
+</span>
+<figcaption class="os-caption-container">
+<span class="os-title-label">Figure </span>
+<span class="os-number">5.2</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The graph shows a Uniform Distribution with the area between <em data-effect="italics">x</em> = 3 and <em data-effect="italics">x</em> = 6 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between three and six.</span>
+</figcaption></figure></div><div class="os-figure" id="id3243513"><figure class="scaled-down ui-has-child-figcaption" data-id="id3243513"><span data-alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4)." data-type="media" id="id1164323972015">
+<button aria-label="Click to enlarge image of This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4)." class="image-button-wrapper" type="button"><img alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4)." data-media-type="image/png" height="491" loading="lazy" src="../assets/img-5-3.webp" width="978"/></button>
+</span>
+<figcaption class="os-caption-container">
+<span class="os-title-label">Figure </span>
+<span class="os-number">5.3</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The graph shows an Exponential Distribution with the area between <em data-effect="italics">x</em> = 2 and <em data-effect="italics">x</em> = 4 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between two and four.</span>
+</figcaption></figure></div><div class="os-figure" id="eip-id1164898429541"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-id1164898429541">
+<span data-alt="This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 &lt; x &lt; 2).”" data-type="media" id="id1164323801239">
+<button aria-label="Click to enlarge image of This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 &lt; x &lt; 2).”" class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 &lt; x &lt; 2).”" data-media-type="image/png" height="317" loading="lazy" src="../assets/img-5-4.webp" width="983"/></button>
+</span>
+<figcaption class="os-caption-container">
+<span class="os-title-label">Figure </span>
+<span class="os-number">5.4</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The graph shows the Standard Normal Distribution with the area between <em data-effect="italics">x</em> = 1 and <em data-effect="italics">x</em> = 2 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between one and two.</span>
+</figcaption></figure></div>
+</section>
+</div>
+</div>
+</body></html>

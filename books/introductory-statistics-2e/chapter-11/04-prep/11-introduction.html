@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head>
+<body>
+<div class="os-figure has-splash" id="fs-idm45331472"><figure class="splash ui-has-child-figcaption" data-id="fs-idm45331472"><span data-alt="This is a photo of a pile of grocery store receipts. The items and prices are blurred." data-type="media" id="CNX_Stats_C11_CO.jpg">
+<button aria-label="Click to enlarge image of This is a photo of a pile of grocery store receipts. The items and prices are blurred." class="image-button-wrapper" type="button"><img alt="This is a photo of a pile of grocery store receipts. The items and prices are blurred." data-media-type="image/jpg" height="650" loading="lazy" src="../assets/img-11-1.webp" width="975"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The chi-square distribution can be used to find relationships between two things, like grocery prices at different stores. (credit: modification of work “The first few times I used my Asda 'bag for life' I left the receipts in the bottom of the bag” by Pete/ Flickr, Public domain)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The chi-square distribution can be used to find relationships between two things, like grocery prices at different stores. (credit: modification of work “The first few times I used my Asda 'bag for life' I left the receipts in the bottom of the bag” by Pete/ Flickr, Public domain)</span>
+</figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm151065040"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-335">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-335-vn">By the end of this chapter, the student should be able to:</p>
+<ul data-bullet-style="bullet" id="element-377"><li class="eng hidden">Interpret the chi-square probability distribution as the sample size
+changes.</li><li class="vn visible">Interpret the chi-square probability distribution as the sample size
+changes.</li>
+<li class="eng hidden">Conduct and interpret chi-square goodness-of-fit hypothesis tests.</li><li class="vn visible">Conduct and interpret chi-square goodness-of-fit hypothesis tests.</li>
+<li class="eng hidden">Conduct and interpret chi-square test of independence hypothesis
+tests.</li><li class="vn visible">Conduct and interpret chi-square test of independence hypothesis
+tests.</li>
+<li class="eng hidden">Conduct and interpret chi-square homogeneity hypothesis tests.</li><li class="vn visible">Conduct and interpret chi-square homogeneity hypothesis tests.</li>
+<li class="eng hidden">Conduct and interpret chi-square single variance hypothesis tests.</li><li class="vn visible">Conduct and interpret chi-square single variance hypothesis tests.</li>
+</ul></div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_6c29742a-166b-45b5-b303-317472ead41a_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_6c29742a-166b-45b5-b303-317472ead41a_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2>
+<p class="eng hidden" id="element-3815">Have you ever wondered if lottery numbers were evenly distributed or if some numbers occurred with a greater frequency? How about if the types of movies people preferred were different across different age groups? What about if a coffee machine was dispensing approximately the same amount of coffee each time? You could answer these questions by conducting a hypothesis test.</p><p class="vn visible" id="element-3815-vn">Have you ever wondered if lottery numbers were evenly distributed or if some numbers occurred with a greater frequency? How about if the types of movies people preferred were different across different age groups? What about if a coffee machine was dispensing approximately the same amount of coffee each time? You could answer these questions by conducting a hypothesis test.</p><p class="eng hidden" id="element-8">You will now study a new distribution, one that is used to determine the answers to such questions. This distribution is called the chi-square distribution.</p><p class="vn visible" id="element-8-vn">You will now study a new distribution, one that is used to determine the answers to such questions. This distribution is called the chi-square distribution.</p><p class="eng hidden" id="element-213">In this chapter, you will learn the three major applications of the chi-square distribution:
+</p><p class="vn visible" id="element-213-vn">In this chapter, you will learn the three major applications of the chi-square distribution:
+</p><ol id="list-9872341">
+<li class="eng hidden">the goodness-of-fit test, which determines if data fit a particular distribution, such as in the lottery example</li><li class="vn visible">the goodness-of-fit test, which determines if data fit a particular distribution, such as in the lottery example</li>
+<li class="eng hidden">the test of independence, which determines if events are independent, such as in the movie example</li><li class="vn visible">the test of independence, which determines if events are independent, such as in the movie example</li>
+<li class="eng hidden">the test of a single variance, which tests variability, such as in the coffee example</li><li class="vn visible">the test of a single variance, which tests variability, such as in the coffee example</li>
+</ol><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="id17641525"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm100257904">Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <a aria-label="Go to Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators" class="autogenerated-content" data-page-fragment="" data-page-slug="g-notes-for-the-ti-83-83-84-84-calculators" data-page-uuid="d0ba1833-f0d2-4195-8765-3c436745f0fb" href="g-notes-for-the-ti-83-83-84-84-calculators">Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators</a>). TI-83+ and TI-84 calculator instructions are included in the text.</p><p class="vn visible" id="fs-idm100257904-vn">Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <a aria-label="Go to Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators" class="autogenerated-content" data-page-fragment="" data-page-slug="g-notes-for-the-ti-83-83-84-84-calculators" data-page-uuid="d0ba1833-f0d2-4195-8765-3c436745f0fb" href="g-notes-for-the-ti-83-83-84-84-calculators">Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators</a>). TI-83+ and TI-84 calculator instructions are included in the text.</p></div></section></div><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm94608208"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-747">Look in the sports section of a newspaper or on the Internet for some sports data (baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like). Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</p><p class="vn visible" id="element-747-vn">Look in the sports section of a newspaper or on the Internet for some sports data (baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like). Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</p></div></section></div>
+</div>
+</div>
+</body></html>

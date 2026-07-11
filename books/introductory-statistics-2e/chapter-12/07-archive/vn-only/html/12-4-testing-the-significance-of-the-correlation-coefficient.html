@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/></head>
+<body>
+<h2 data-rex-keep="true" data-type="document-title" id="page_0d551ce0-f934-4743-b7c1-b60fa4d19cbc_titlecreatedbycookbook-vn"><span class="os-number">12.4</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Kiểm định ý nghĩa của hệ số tương quan</span></h2>
+<p id="eip-298-vn">Hệ số tương quan, <em data-effect="italics">r</em>, cho chúng ta biết về độ mạnh và hướng của mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>. Tuy nhiên, độ tin cậy của mô hình tuyến tính cũng phụ thuộc vào số lượng điểm dữ liệu quan sát được trong mẫu. Chúng ta cần xem xét cả giá trị của hệ số tương quan <em data-effect="italics">r</em> và kích thước mẫu <em data-effect="italics">n</em> cùng nhau.</p>
+<p id="element-3884-vn">Chúng ta thực hiện kiểm định giả thuyết về <strong>"ý nghĩa của hệ số tương quan"</strong> để quyết định xem liệu mối quan hệ tuyến tính trong dữ liệu mẫu có đủ mạnh để sử dụng làm mô hình cho mối quan hệ trong quần thể hay không.</p>
+<p id="eip-413-vn">Dữ liệu mẫu được sử dụng để tính toán <em data-effect="italics">r</em>, hệ số tương quan cho mẫu. Nếu chúng ta có dữ liệu cho toàn bộ quần thể, chúng ta có thể tìm được hệ số tương quan quần thể. Nhưng vì chúng ta chỉ có dữ liệu mẫu, chúng ta không thể tính toán hệ số tương quan quần thể. Hệ số tương quan mẫu, <em data-effect="italics">r</em>, là ước lượng của chúng ta về hệ số tương quan quần thể chưa biết.</p>
+<ul data-labeled-item="true" id="eip-560">
+<li>Ký hiệu cho hệ số tương quan quần thể là <em data-effect="italics">ρ</em>, chữ cái Hy Lạp "rho."</li>
+<li><em data-effect="italics">ρ</em> = hệ số tương quan quần thể (chưa biết)</li>
+<li><em data-effect="italics">r</em> = hệ số tương quan mẫu (đã biết; được tính từ dữ liệu mẫu)</li>
+</ul>
+<p id="eip-137-vn">Kiểm định giả thuyết cho phép chúng ta quyết định xem giá trị của hệ số tương quan quần thể <em data-effect="italics">ρ</em> là "gần bằng không" hay "khác biệt đáng kể so với không". Chúng ta quyết định điều này dựa trên hệ số tương quan mẫu <em data-effect="italics">r</em> và kích thước mẫu <em data-effect="italics">n</em>.</p>
+<p id="fs-idm38597088-vn"><span data-type="title">Nếu kiểm định kết luận rằng hệ số tương quan khác biệt đáng kể so với không, chúng ta nói rằng hệ số tương quan là "có ý nghĩa".</span></p><ul id="eip-9">
+<li>Kết luận: Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> vì hệ số tương quan khác biệt đáng kể so với không.</li>
+<li>Ý nghĩa của kết luận: Có một mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>. Chúng ta có thể sử dụng đường hồi quy để mô hình hóa mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong quần thể.</li>
+</ul>
+<p id="fs-idp40539792-vn"><span data-type="title">Nếu kiểm định kết luận rằng hệ số tương quan không khác biệt đáng kể so với không (nó gần bằng không), chúng ta nói rằng hệ số tương quan là "không có ý nghĩa".</span></p><ul id="eip-663">
+<li>Kết luận: "Không có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> vì hệ số tương quan không khác biệt đáng kể so với không."</li>
+<li>Ý nghĩa của kết luận: Không có mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>. Do đó, chúng ta KHÔNG THỂ sử dụng đường hồi quy để mô hình hóa mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong quần thể.</li>
+</ul>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-939"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<ul id="eip-id1164926616686">
+<li>Nếu <em data-effect="italics">r</em> có ý nghĩa và biểu đồ phân tán cho thấy xu hướng tuyến tính, đường này có thể được sử dụng để dự đoán giá trị của <em data-effect="italics">y</em> đối với các giá trị của <em data-effect="italics">x</em> nằm trong miền của các giá trị <em data-effect="italics">x</em> đã quan sát được.</li>
+<li>Nếu <em data-effect="italics">r</em> không có ý nghĩa HOẶC nếu biểu đồ phân tán không cho thấy xu hướng tuyến tính, thì không nên sử dụng đường này để dự đoán.</li>
+<li>Nếu <em data-effect="italics">r</em> có ý nghĩa và nếu biểu đồ phân tán cho thấy xu hướng tuyến tính, đường này có thể KHÔNG phù hợp hoặc không đáng tin cậy để dự đoán BÊN NGOÀI miền của các giá trị <em data-effect="italics">x</em> đã quan sát được trong dữ liệu.</li>
+</ul>
+</div></section></div>
+<section data-depth="1" id="fs-idm115676240"><h3 data-type="title">THỰC HIỆN KIỂM ĐỊNH GIẢ THUYẾT</h3>
+<ul id="eip-375"><li><strong> Giả thuyết không: <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">ρ</em> = 0 </strong></li>
+<li><strong>Đối thuyết: <em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">ρ</em> ≠ 0</strong></li>
+</ul>
+<p id="eip-422-vn"><span data-type="title">Ý NGHĨA CỦA CÁC GIẢ THUYẾT BẰNG LỜI:</span></p><ul id="eip-761"><li><strong>Giả thuyết không <em data-effect="italics">H<sub>0</sub></em>:</strong> Hệ số tương quan quần thể KHÔNG khác biệt đáng kể so với không. KHÔNG CÓ mối quan hệ tuyến tính (tương quan) đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong quần thể.</li>
+<li><strong>Đối thuyết <em data-effect="italics">H<sub>a</sub></em>:</strong> Hệ số tương quan quần thể KHÁC BIỆT ĐÁNG KỂ so với không. CÓ MỘT MỐI QUAN HỆ TUYẾN TÍNH ĐÁNG KỂ (tương quan) giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong quần thể.</li>
+</ul><p id="fs-idm162949504-vn"><span data-type="title">RÚT RA KẾT LUẬN:</span>Có hai phương pháp để đưa ra quyết định. Hai phương pháp này tương đương nhau và cho cùng một kết quả.</p>
+<ul id="eip-40">
+<li><strong>Phương pháp 1: Sử dụng p-giá trị <em data-effect="italics">p</em></strong></li>
+<li><strong>Phương pháp 2: Sử dụng bảng các giá trị tới hạn</strong></li>
+</ul>
+<p id="eip-870-vn">Trong chương này của cuốn sách, chúng ta sẽ luôn sử dụng mức ý nghĩa 5%, <em data-effect="italics">α</em> = 0.05</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-128"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp138109680-vn">Sử dụng phương pháp <em data-effect="italics">p</em>-giá trị, bạn có thể chọn bất kỳ mức ý nghĩa phù hợp nào bạn muốn; bạn không bị giới hạn trong việc sử dụng <em data-effect="italics">α</em> = 0.05. Nhưng bảng các giá trị tới hạn được cung cấp trong cuốn sách này giả định rằng chúng ta đang sử dụng mức ý nghĩa 5%, <em data-effect="italics">α</em> = 0.05. (Nếu chúng ta muốn sử dụng một mức ý nghĩa khác 5% với phương pháp giá trị tới hạn, chúng ta sẽ cần các bảng giá trị tới hạn khác không được cung cấp trong cuốn sách này.)</p>
+</div></section></div><section data-depth="2" id="fs-idp18638240"><h4 data-type="title">PHƯƠNG PHÁP 1: Sử dụng <em data-effect="italics">p</em>-giá trị để đưa ra quyết định</h4><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp16405840"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp82841104-vn">Để tính <em data-effect="italics">p</em>-giá trị sử dụng <code data-type="code">LinRegTTEST</code>:<span data-type="newline"><br/></span>
+Trên màn hình nhập liệu <code data-type="code">LinRegTTEST</code>, tại dòng nhắc cho <em data-effect="italics">β</em> hoặc <em data-effect="italics">ρ</em>, hãy làm nổi bật "<strong>≠ 0</strong>"<span data-type="newline"><br/></span>
+Màn hình kết quả hiển thị p-value trên dòng ghi "p =".<span data-type="newline"><br/></span>
+(Hầu hết các phần mềm thống kê máy tính đều có thể tính được <em data-effect="italics">p</em>-giá trị.)</p></div></section></div>
+<div data-type="list" id="eip-297"><div data-type="title">If the <em data-effect="italics">p</em>-value is less than the significance level (<em data-effect="italics">α</em> = 0.05):</div><ul>
+<li>Quyết định: Bác bỏ giả thuyết không.</li>
+<li>Kết luận: "Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> vì hệ số tương quan khác biệt đáng kể so với không."</li>
+</ul></div>
+<div data-type="list" id="eip-981"><div data-type="title">If the <em data-effect="italics">p</em>-value is NOT less than the significance level (<em data-effect="italics">α</em> = 0.05)</div><ul>
+<li>Quyết định: KHÔNG BÁC BỎ giả thuyết không.</li>
+<li>Kết luận: "Không có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> vì hệ số tương quan KHÔNG khác biệt đáng kể so với không."</li>
+</ul></div>
+<div data-type="list" id="eip-335"><div data-type="title">Calculation Notes:</div><ul data-labeled-item="true">
+<li>Bạn sẽ sử dụng công nghệ để tính toán p-giá trị <em data-effect="italics">p</em>. Phần sau đây mô tả các phép tính để tính toán các thống kê kiểm định và p-giá trị <em data-effect="italics">p</em>:</li>
+<li>p-giá trị <em data-effect="italics">p</em> được tính toán bằng cách sử dụng phân phối <em data-effect="italics">t</em> với <em data-effect="italics">n</em> - 2 bậc tự do.</li>
+<li>Công thức cho thống kê kiểm định là <math display="inline"><semantics><mrow>
+<mrow>
+<mi>t</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>r</mi><msqrt>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</msqrt>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>1</mn><mo>−</mo><msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>t</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>r</mi><msqrt>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</msqrt>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>1</mn><mo>−</mo><msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>. Giá trị của thống kê kiểm định, <em data-effect="italics">t</em>, được hiển thị trong kết quả đầu ra của máy tính hoặc phần mềm cùng với p-giá trị <em data-effect="italics">p</em>. Thống kê kiểm định <em data-effect="italics">t</em> có cùng dấu với hệ số tương quan <em data-effect="italics">r</em>.</li>
+<li>p-giá trị <em data-effect="italics">p</em> là tổng diện tích ở cả hai đuôi.</li>
+</ul></div>
+<p id="fs-idp203218208-vn">Một cách thay thế để tính <em data-effect="italics">p</em>-giá trị <strong>(p)</strong> được đưa ra bởi LinRegTTest là lệnh 2*tcdf(abs(t),10^99, n-2) trong 2nd DISTR.</p>
+<div data-type="list" id="eip-76"><div data-type="title">THIRD-EXAM vs FINAL-EXAM EXAMPLE: <em data-effect="italics">p</em>-value method</div><ul><li>Hãy xem xét <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>.</li>
+<li>Đường phù hợp nhất là: ŷ = -173.51 + 4.83<em data-effect="italics">x</em> với <em data-effect="italics">r</em> = 0.6631 và có <em data-effect="italics">n</em> = 11 điểm dữ liệu.</li>
+<li>Đường hồi quy có thể được sử dụng để dự đoán không? <strong>Với điểm bài thi thứ ba (giá trị <em data-effect="italics">x</em>), chúng ta có thể sử dụng đường này để dự đoán điểm bài thi cuối kỳ (giá trị <em data-effect="italics">y</em> được dự đoán) không?</strong></li></ul></div><p id="eip-714-vn"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">ρ</em> = 0</p><p id="eip-222-vn"><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">ρ</em> ≠ 0</p><p id="eip-719-vn"><em data-effect="italics">α</em> = 0.05</p>
+<ul id="eip-933"><li>p-giá trị <em data-effect="italics">p</em> là 0.026 (từ LinRegTTest trên máy tính của bạn hoặc từ phần mềm máy tính).</li>
+<li>p-giá trị <em data-effect="italics">p</em>, 0.026, nhỏ hơn mức ý nghĩa <em data-effect="italics">α</em> = 0.05.</li>
+<li>Quyết định: Bác bỏ Giả thuyết không <em data-effect="italics">H<sub>0</sub></em></li>
+<li>Kết luận: Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa điểm bài thi thứ ba (<em data-effect="italics">x</em>) và điểm bài thi cuối kỳ (<em data-effect="italics">y</em>) vì hệ số tương quan khác biệt đáng kể so với không.</li>
+</ul><p id="eip-385-vn"><strong>Vì <em data-effect="italics">r</em> có ý nghĩa và biểu đồ phân tán cho thấy xu hướng tuyến tính, đường hồi quy có thể được sử dụng để dự đoán điểm thi cuối kỳ.</strong></p>
+</section><section data-depth="2" id="fs-idp201258800"><h4 data-type="title">PHƯƠNG PHÁP 2: Sử dụng bảng Giá trị tới hạn để đưa ra quyết định</h4>
+<p id="fs-idm167281024-vn">Bảng <a aria-label="Go to 95% Critical Values of the Sample Correlation Coefficient Table" data-page-fragment="eip-idm31993488" data-page-slug="12-6-outliers" data-page-uuid="d1c162aa-f63f-4466-9efd-27b902bf22d0" href="12-6-outliers">Giá trị tới hạn 95% của Hệ số tương quan mẫu</a> có thể được sử dụng để giúp bạn có ý tưởng tốt về việc liệu giá trị tính toán được của <strong><span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>r</mi></mrow><annotation-xml encoding="MathML-Content"><mi>r</mi></annotation-xml></semantics></math></span> có ý nghĩa hay không</strong>. So sánh <em data-effect="italics">r</em> với giá trị tới hạn thích hợp trong bảng. Nếu <em data-effect="italics">r</em> không nằm giữa các giá trị tới hạn dương và âm, thì hệ số tương quan là có ý nghĩa. Nếu <em data-effect="italics">r</em> có ý nghĩa, thì bạn có thể muốn sử dụng đường thẳng để dự đoán.</p><div class="ui-has-child-title" data-type="example" id="element-684"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.7</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-798-vn">Giả sử bạn đã tính được <em data-effect="italics">r</em> = 0.801 sử dụng <em data-effect="italics">n</em> = 10 điểm dữ liệu. <em data-effect="italics">df</em> = <em data-effect="italics">n</em> - 2 = 10 - 2 = 8. Các giá trị tới hạn liên quan đến <em data-effect="italics">df</em> = 8 là -0.632 và + 0.632. Nếu <em data-effect="italics">r</em> &lt; giá trị tới hạn âm hoặc <em data-effect="italics">r</em> &gt; giá trị tới hạn dương, thì <em data-effect="italics">r</em> là có ý nghĩa. Vì <em data-effect="italics">r</em> = 0.801 và 0.801 &gt; 0.632, <em data-effect="italics">r</em> là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán. Nếu bạn xem ví dụ này trên một trục số, nó sẽ giúp ích cho bạn.</p>
+<div class="os-figure" id="id1165447908809"><figure class="scaled-down ui-has-child-figcaption" data-id="id1165447908809"><span data-alt="Horizontal number line with values of -1, -0.632, 0, 0.632, 0.801, and 1. A dashed line above values -0.632, 0, and 0.632 indicates not significant values." data-type="media" id="id1165447908813"><button aria-label="Click to enlarge image of Horizontal number line with values of -1, -0.632, 0, 0.632, 0.801, and 1. A dashed line above values -0.632, 0, and 0.632 indicates not significant values." class="image-button-wrapper" type="button"><img alt="Horizontal number line with values of -1, -0.632, 0, 0.632, 0.801, and 1. A dashed line above values -0.632, 0, and 0.632 indicates not significant values." data-media-type="image/png" height="189" loading="lazy" src="../../../assets/img-12-4-1.webp" width="1455"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.16</span>
+<span class="os-divider"> </span>
+<span class="os-caption"><em data-effect="italics">r</em> không có ý nghĩa giữa -0.632 và +0.632. <em data-effect="italics">r</em> = 0.801 &gt; +0.632. Do đó, <em data-effect="italics">r</em> có ý nghĩa.</span></figcaption></figure></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp24557360"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.7</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-97"><header></header><section>
+<div data-type="problem" id="eip-646"><div class="os-problem-container">
+<p id="eip-154-vn">Đối với một đường phù hợp nhất đã cho, bạn tính được <em data-effect="italics">r</em> = 0.6501 sử dụng <em data-effect="italics">n</em> = 12 điểm dữ liệu và giá trị tới hạn là 0.576. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?</p>
+</div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-358"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.8</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-206-vn">Giả sử bạn đã tính được <em data-effect="italics">r</em> = –0.624 với 14 điểm dữ liệu. <em data-effect="italics">df</em> = 14 – 2 = 12. Các giá trị tới hạn là –0.532 và 0.532. Vì –0.624 &lt; –0.532, <em data-effect="italics">r</em> là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán</p><div class="os-figure" id="id1165447908929"><figure class="scaled-down ui-has-child-figcaption" data-id="id1165447908929"><span data-alt="Horizontal number line with values of -0.624, -0.532, and 0.532." data-type="media" id="id1165447908933"><button aria-label="Click to enlarge image of Horizontal number line with values of -0.624, -0.532, and 0.532." class="image-button-wrapper" type="button"><img alt="Horizontal number line with values of -0.624, -0.532, and 0.532." data-media-type="image/png" height="101" loading="lazy" src="../../../assets/img-12-4-2.webp" width="1458"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.17</span>
+<span class="os-divider"> </span>
+<span class="os-caption">r = –0.624 &lt; -0.532. Do đó, <em data-effect="italics">r</em> có ý nghĩa.</span></figcaption></figure></div></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp165498288"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.8</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-847"><header></header><section>
+<div data-type="problem" id="eip-834"><div class="os-problem-container">
+<p id="eip-262-vn">Đối với một đường phù hợp nhất đã cho, bạn tính được <em data-effect="italics">r</em> = 0.5204 sử dụng <em data-effect="italics">n</em> = 9 điểm dữ liệu, và giá trị tới hạn là 0.666. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?</p>
+</div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-719"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.9</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-446-vn">Giả sử bạn đã tính được <em data-effect="italics">r</em> = 0.776 và <em data-effect="italics">n</em> = 6. <em data-effect="italics">df</em> = 6 – 2 = 4. Các giá trị tới hạn là –0.811 và 0.811. Vì –0.811 &lt; 0.776 &lt; 0.811, <em data-effect="italics">r</em> không có ý nghĩa, và đường thẳng không nên được sử dụng để dự đoán.</p><div class="os-figure" id="linrgs_facts5"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_facts5"><span data-alt="Horizontal number line with values -0.924, -0.532, and 0.532." data-type="media" id="id1165447912701"><button aria-label="Click to enlarge image of Horizontal number line with values -0.924, -0.532, and 0.532." class="image-button-wrapper" type="button"><img alt="Horizontal number line with values -0.924, -0.532, and 0.532." data-media-type="image/png" height="100" loading="lazy" src="../../../assets/img-12-4-3.webp" width="1455"/></button></span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.18</span>
+<span class="os-divider"> </span>
+<span class="os-caption">-0.811 &lt; <em data-effect="italics">r</em> = 0.776 &lt; 0.811. Do đó, <em data-effect="italics">r</em> không có ý nghĩa.</span></figcaption></figure></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp121877392"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.9</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-610"><header></header><section>
+<div data-type="problem" id="eip-276"><div class="os-problem-container">
+<p id="eip-396-vn">Đối với một đường phù hợp nhất đã cho, bạn tính được <em data-effect="italics">r</em> = –0.7204 sử dụng <em data-effect="italics">n</em> = 8 điểm dữ liệu, và giá trị tới hạn là = 0.707. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?</p></div></div>
+</section></div>
+</div></section></div></section>
+</section>
+<section data-depth="1" id="fs-idm89842304"><h3 data-type="title">VÍ DỤ KỲ THI THỨ BA vs KỲ THI CUỐI KỲ: phương pháp giá trị tới hạn</h3><p id="eip-666-vn">Hãy xem xét <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về kỳ thi thứ ba/kỳ thi cuối kỳ</a>.
+Đường phù hợp nhất là: <em data-effect="italics">ŷ</em> = –173.51+4.83<em data-effect="italics">x</em> với <em data-effect="italics">r</em> = 0.6631 và có <em data-effect="italics">n</em> = 11 điểm dữ liệu. Đường hồi quy có thể được sử dụng để dự đoán không? <strong>Với điểm thi thứ ba (giá trị <em data-effect="italics">x</em>), chúng ta có thể sử dụng đường thẳng để dự đoán điểm thi cuối kỳ (giá trị <em data-effect="italics">y</em> được dự đoán) không?</strong></p><ul data-labeled-item="true" id="eip-830">
+<li><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">ρ</em> = 0</li>
+<li><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">ρ</em> ≠ 0</li>
+<li><em data-effect="italics">α</em> = 0.05</li>
+</ul>
+<ul data-bullet-style="bullet" id="eip-557"><li>Sử dụng bảng "Giá trị tới hạn 95%" cho <em data-effect="italics">r</em> với <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 2 = 11 – 2 = 9.</li>
+<li>Các giá trị tới hạn là –0.602 và +0.602</li>
+<li>Vì 0.6631 &gt; 0.602, <em data-effect="italics">r</em> có ý nghĩa.</li>
+<li>Quyết định: Bác bỏ giả thuyết không.</li>
+<li>Kết luận: Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa điểm bài thi thứ ba (<em data-effect="italics">x</em>) và điểm bài thi cuối kỳ (<em data-effect="italics">y</em>) vì hệ số tương quan khác biệt đáng kể so với không.</li>
+</ul><p id="eip-138-vn"><strong>Vì <em data-effect="italics">r</em> có ý nghĩa và biểu đồ phân tán cho thấy xu hướng tuyến tính, đường hồi quy có thể được sử dụng để dự đoán điểm thi cuối kỳ.</strong></p>
+<div class="ui-has-child-title" data-type="example" id="element-433"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.10</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><p id="element-294-vn">Giả sử bạn đã tính được các hệ số tương quan sau đây. Sử dụng bảng ở cuối chương, hãy xác định xem <em data-effect="italics">r</em> có ý nghĩa hay không và đường phù hợp nhất liên quan đến mỗi <em data-effect="italics">r</em> có thể được sử dụng để dự đoán giá trị <em data-effect="italics">y</em> hay không. Nếu cần, hãy vẽ một trục số.</p>
+<ol id="element-467" type="a"><li><em data-effect="italics">r</em> = –0.567 và kích thước mẫu, <em data-effect="italics">n</em>, là 19. <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 2 = 17. Giá trị tới hạn là –0.456. –0.567 &lt; –0.456 nên <em data-effect="italics">r</em> có ý nghĩa.</li>
+<li><em data-effect="italics">r</em> = 0.708 và kích thước mẫu, <em data-effect="italics">n</em>, là chín. <em data-effect="italics">df</em> = <em data-effect="italics">n</em> – 2 = 7. Giá trị tới hạn là 0.666. 0.708 &gt; 0.666 nên <em data-effect="italics">r</em> có ý nghĩa.</li>
+<li><em data-effect="italics">r</em> = 0.134 và kích thước mẫu, <em data-effect="italics">n</em>, là 14. <em data-effect="italics">df</em> = 14 – 2 = 12. Giá trị tới hạn là 0.532. 0.134 nằm giữa –0.532 và 0.532 nên <em data-effect="italics">r</em> không có ý nghĩa.</li>
+<li><em data-effect="italics">r</em> = 0 và kích thước mẫu, <em data-effect="italics">n</em>, là năm. Bất kể bậc tự do là bao nhiêu, <em data-effect="italics">r</em> = 0 nằm giữa hai giá trị tới hạn nên <em data-effect="italics">r</em> không có ý nghĩa.</li>
+</ol></div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp56886288"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.10</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-316"><header></header><section>
+<div data-type="problem" id="eip-112"><div class="os-problem-container">
+<p id="eip-483-vn">Đối với một đường phù hợp nhất đã cho, bạn tính được <em data-effect="italics">r</em> = 0 sử dụng <em data-effect="italics">n</em> = 100 điểm dữ liệu. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?</p>
+</div></div>
+</section></div>
+</div></section></div>
+</section><section data-depth="1" id="eip-570"><h3 data-type="title">Các giả định trong kiểm định ý nghĩa của hệ số tương quan</h3>
+<p id="eip-485-vn">Kiểm định ý nghĩa của hệ số tương quan đòi hỏi một số giả định nhất định về dữ liệu phải được thỏa mãn. Tiền đề của kiểm định này là dữ liệu là một mẫu các điểm quan sát được lấy từ một quần thể lớn hơn. Chúng ta chưa kiểm tra toàn bộ quần thể vì điều đó không thể hoặc không khả thi. Chúng ta đang kiểm tra mẫu để rút ra kết luận về việc liệu mối quan hệ tuyến tính mà chúng ta thấy giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong dữ liệu mẫu có cung cấp bằng chứng đủ mạnh để chúng ta có thể kết luận rằng có một mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em> trong quần thể hay không.</p>
+<p id="eip-953-vn">Phương trình đường hồi quy mà chúng ta tính toán từ dữ liệu mẫu đưa ra đường phù hợp nhất cho mẫu cụ thể của chúng ta. Chúng ta muốn sử dụng đường phù hợp nhất này cho mẫu như một ước lượng cho đường phù hợp nhất cho quần thể. Việc kiểm tra biểu đồ phân tán và kiểm định ý nghĩa của hệ số tương quan giúp chúng ta xác định xem liệu có phù hợp để làm điều này hay không.</p>
+<div data-type="list" id="eip-873"><div data-type="title">The assumptions underlying the test of significance are:</div><ul><li>Mối quan hệ giữa các biến đang được tương quan nên là tuyến tính. Các điểm dữ liệu nên nằm dọc theo một mô hình đường thẳng xấp xỉ khi được vẽ dưới dạng các điểm dữ liệu (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) trên biểu đồ phân tán.</li>
+<li>Các giá trị <em data-effect="italics">y</em> cho bất kỳ giá trị <em data-effect="italics">x</em> cụ thể nào đều được phân phối chuẩn quanh đường thẳng. Điều này ngụ ý rằng có nhiều giá trị <em data-effect="italics">y</em> nằm gần đường thẳng hơn là nằm xa hơn. Giả định (1) ngụ ý rằng các phân phối chuẩn này tập trung trên đường thẳng: số trung bình của các phân phối chuẩn này của các giá trị <em data-effect="italics">y</em> nằm trên đường thẳng.</li>
+<li>Các độ lệch chuẩn của các giá trị <em data-effect="italics">y</em> quần thể quanh đường thẳng là bằng nhau cho mỗi giá trị của <em data-effect="italics">x</em>. Nói cách khác, mỗi phân phối chuẩn này của các giá trị <em data-effect="italics">y</em> đều có cùng hình dạng và độ phân tán quanh đường thẳng.</li>
+<li>Các sai số phần dư độc lập với nhau (không có mô hình).</li>
+<li>Dữ liệu được tạo ra từ một mẫu ngẫu nhiên hoặc thực nghiệm ngẫu nhiên được thiết kế tốt.</li>
+</ul></div><div class="os-figure" id="linrgs_facts_normal"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_facts_normal"><span data-alt="The left graph shows three sets of points. Each set falls in a vertical line. The points in each set are normally distributed along the line — they are densely packed in the middle and more spread out at the top and bottom. A downward sloping regression line passes through the mean of each set. The right graph shows the same regression line plotted. A vertical normal curve is shown for each line." data-type="media" id="id9999999999999">
+<button aria-label="Click to enlarge image of The left graph shows three sets of points. Each set falls in a vertical line. The points in each set are normally distributed along the line — they are densely packed in the middle and more spread out at the top and bottom. A downward sloping regression line passes through the mean of each set. The right graph shows the same regression line plotted. A vertical normal curve is shown for each line." class="image-button-wrapper" type="button"><img alt="The left graph shows three sets of points. Each set falls in a vertical line. The points in each set are normally distributed along the line — they are densely packed in the middle and more spread out at the top and bottom. A downward sloping regression line passes through the mean of each set. The right graph shows the same regression line plotted. A vertical normal curve is shown for each line." data-media-type="image/png" height="699" loading="lazy" src="../../../assets/img-12-4-4.webp" width="1463"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.19</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Các giá trị <em data-effect="italics">y</em> cho mỗi giá trị <em data-effect="italics">x</em> được phân phối chuẩn quanh đường thẳng với cùng độ lệch chuẩn. Đối với mỗi giá trị <em data-effect="italics">x</em>, số trung bình của các giá trị <em data-effect="italics">y</em> nằm trên đường hồi quy. Nhiều giá trị <em data-effect="italics">y</em> nằm gần đường thẳng hơn là nằm xa đường thẳng hơn.
+</span></figcaption></figure></div>
+</section>
+</body></html>

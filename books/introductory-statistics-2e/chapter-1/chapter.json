@@ -1,0 +1,71 @@
+{
+  "book": "introductory-statistics-2e",
+  "chapter": 1,
+  "title_en": "",
+  "title_vi": "",
+  "status": "archive_completed",
+  "qa": {
+    "integrity": "passed",
+    "glossary": "failed",
+    "html_structure": "pending",
+    "untranslated": "pending",
+    "review_gate": "failed",
+    "review_gate_forced": true
+  },
+  "archive": {
+    "bilingual": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    },
+    "vn-only": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    }
+  },
+  "phases": {
+    "prep": {
+      "status": "completed",
+      "timestamp": "2026-07-10T03:27:43Z",
+      "files_processed": 14,
+      "files_skipped": 0
+    },
+    "translate": {
+      "status": "completed",
+      "timestamp": "2026-07-10T03:28:10Z",
+      "files_processed": 1,
+      "files_skipped": 0,
+      "files_failed": 1,
+      "provider": "gemini-api",
+      "files_untranslated": 13
+    },
+    "archive": {
+      "status": "completed",
+      "timestamp": "2026-07-10T03:28:25Z",
+      "formats": {
+        "bilingual": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "vn-only": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "review_gate_forced": true
+      }
+    },
+    "review": {
+      "status": "failed",
+      "timestamp": "2026-07-08T11:08:36Z",
+      "error": "Review gate failed check(s)",
+      "checks": {
+        "integrity": "passed",
+        "glossary": "failed",
+        "review_gate": "failed"
+      }
+    }
+  }
+}

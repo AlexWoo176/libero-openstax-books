@@ -1,0 +1,671 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  
+</head>
+<body>
+<h2 data-type="document-title" id="page_38f9ef8b-6a38-4503-9f1b-95cade736687_titlecreatedbycookbook" data-rex-keep="true"><span class="os-number">11.3</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Test of Independence</span>
+</h2>
+
+<p id="element-834">Tests of independence involve using a <span data-type="term" id="term-00001" group-by="c">contingency table</span> of observed (data) values.</p>
+
+<p id="element-230">The test statistic for a <span data-type="term" id="term-00002" group-by="t">test of independence</span> is similar to that of a goodness-of-fit test:</p>
+
+<div data-type="equation" class="unnumbered" id="element-164" data-label=""><math display="block"><semantics><mrow>
+ <mrow>
+  <munder>
+   <mi>Σ</mi>
+   <mrow>
+    <mo stretchy="false">(</mo><mi>i</mi><mo>⋅</mo><mi>j</mi><mo stretchy="false">)</mo>
+   </mrow>
+  </munder>
+  <mfrac>
+   <mrow>
+    <msup>
+     <mrow>
+      <mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+   <mi>E</mi>
+  </mfrac>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <munder>
+   <mi>Σ</mi>
+   <mrow>
+    <mo stretchy="false">(</mo><mi>i</mi><mo>⋅</mo><mi>j</mi><mo stretchy="false">)</mo>
+   </mrow>
+  </munder>
+  <mfrac>
+   <mrow>
+    <msup>
+     <mrow>
+      <mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+   <mi>E</mi>
+  </mfrac>
+ </mrow></annotation-xml></semantics></math></div><p id="element-874">where:</p>
+
+<ul id="element-12123"><li><em data-effect="italics">O</em> = observed values</li>
+<li><em data-effect="italics">E</em> = expected values</li>
+<li><em data-effect="italics">i</em> = the number of rows in the table</li>
+<li><em data-effect="italics">j</em> = the number of columns in the table</li>
+</ul><p id="element-575">There are <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>i</mi><mo>⋅ </mo><mi>j</mi></mrow><annotation-xml encoding="MathML-Content"><mi>i</mi><mo>⋅ </mo><mi>j</mi></annotation-xml></semantics></math></span> terms of the form <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+  <mfrac>
+   <mrow>
+    <msup>
+     <mrow>
+      <mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+   <mi>E</mi>
+  </mfrac>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mfrac>
+   <mrow>
+    <msup>
+     <mrow>
+      <mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+   <mi>E</mi>
+  </mfrac>
+ </mrow></annotation-xml></semantics></math></span>. </p><p id="element-518"><strong>A test of independence determines whether two factors are independent or not.</strong> You first encountered the term independence in <a href="3-introduction" aria-label="Go to Probability Topics" data-page-slug="3-introduction" data-page-uuid="326ee2e0-0ccd-46ae-a776-f8857a5dad4c" data-page-fragment="">Probability Topics</a>. As a review, consider the following example.</p><div data-type="note" data-has-label="true" id="eip-155" data-label="" class="ui-has-child-title"><header><h3 class="os-title" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3></header><section>
+<div class="os-note-body">
+<p id="eip-idp140445076868880">The expected value for each cell needs to be at least five in order for you to use this test.</p></div></section></div><div data-type="example" id="element-54" class="ui-has-child-title"><header><h3 class="os-title">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">11.5</span>
+  <span class="os-divider"> </span>
+</h3></header><section>
+<div class="body">
+<p id="element-904">Suppose <em data-effect="italics">A</em> = a speeding violation in the last year and <em data-effect="italics">B</em> = a cell phone user while driving. If <em data-effect="italics">A</em> and <em data-effect="italics">B</em> are independent then <em data-effect="italics">P</em>(<em data-effect="italics">A</em> AND <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). <em data-effect="italics">A</em> AND <em data-effect="italics">B</em> is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phone while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.</p><p id="element-427">Let <em data-effect="italics">y</em> = expected number of drivers who used a cell phone while driving and received speeding violations.</p>
+ <p id="element-367">If <em data-effect="italics">A</em> and <em data-effect="italics">B</em> are independent, then <em data-effect="italics">P</em>(<em data-effect="italics">A</em> AND <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). By substitution,</p>
+ <p id="element-329"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+  <mrow>
+   <mfrac>
+    <mi>y</mi>
+    <mrow>
+     <mn>755</mn>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mrow><mo>(</mo>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mn>70</mn>
+      </mrow>
+      <mrow>
+       <mn>755</mn>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mo>)</mo></mrow><mrow><mo>(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>305</mn>
+       </mrow>
+       <mrow>
+        <mn>755</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo>)</mo></mrow>
+  </mrow>
+ </mrow><annotation-xml encoding="MathML-Content"><mrow>
+   <mfrac>
+    <mi>y</mi>
+    <mrow>
+     <mn>755</mn>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mrow><mo>(</mo>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mn>70</mn>
+      </mrow>
+      <mrow>
+       <mn>755</mn>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mo>)</mo></mrow><mrow><mo>(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>305</mn>
+       </mrow>
+       <mrow>
+        <mn>755</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo>)</mo></mrow>
+  </mrow></annotation-xml></semantics></math></span>
+ </p>
+<p id="element-482">Solve for <em data-effect="italics">y</em>: <em data-effect="italics">y</em> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+  <mfrac>
+   <mrow>
+    <mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+   </mrow>
+   <mrow>
+    <mn>755</mn>
+   </mrow>
+  </mfrac>
+  <mo>=</mo><mn>28.3</mn>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mfrac>
+   <mrow>
+    <mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+   </mrow>
+   <mrow>
+    <mn>755</mn>
+   </mrow>
+  </mfrac>
+  <mo>=</mo><mn>28.3</mn>
+ </mrow></annotation-xml></semantics></math></span> </p><p id="element-249">About 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.</p><p id="element-365">In a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of <strong>two factors</strong>, the null hypothesis states that the factors are <strong>independent</strong> and the alternative hypothesis states that they are <strong>not independent (dependent)</strong>. If we do a test of independence using the example, then the null hypothesis is:</p><p id="element-337"><em data-effect="italics">H<sub>0</sub></em>: Being a cell phone user while driving and receiving a speeding violation are independent events.</p><p id="element-903">If the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.</p>
+<p id="element-197"><strong>The test of independence is always right-tailed</strong> because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.</p><p id="element-35">The number of degrees of freedom for the test of independence is:</p><p id="element-12412"><em data-effect="italics">df</em> = (number of columns - 1)(number of rows - 1)</p>
+<p id="element-928">The following formula calculates the <strong>expected number</strong> (<em data-effect="italics">E</em>):</p>
+<div data-type="equation" class="unnumbered" id="element-164a" data-label=""><math display="block"><semantics><mrow><mi>E</mi><mo>=</mo><mfrac><mtext>(row total)(column total)</mtext><mtext>total number surveyed</mtext></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>E</mi><mo>=</mo><mfrac><mtext>(row total)(column total)</mtext><mtext>total number surveyed</mtext></mfrac></annotation-xml></semantics></math></div></div></section></div>
+
+<div data-type="note" data-has-label="true" id="fs-idp45633632" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">11.5</span>
+</h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="eip-298" class="unnumbered"><header></header><section>
+ <div data-type="problem" id="eip-721"><div class="os-problem-container">
+ <p id="eip-935">A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. Ninety-seven were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?</p></div></div>
+</section></div>
+</div></section></div><div data-type="example" id="element-272" class="ui-has-child-title"><header><h3 class="os-title">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">11.6</span>
+  <span class="os-divider"> </span>
+</h3></header><section>
+<div class="body">
+ <p id="element-84">In a volunteer group, adults 21 and older volunteer from one to nine hours each week to spend time with a disabled senior citizen. The program recruits among community college students, four-year college students, and nonstudents. In <a href="11-3-test-of-independence#table-73248" class="autogenerated-content" aria-label="View Table 11.15">Table 11.15</a> is a <strong>sample</strong> of the adult volunteers and the number of hours they volunteer per week. </p><div class="os-table" id="table-73248"><table data-id="table-73248" data-summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><thead valign="top">
+ <tr>
+ <th scope="col">Type of Volunteer</th>
+	<th data-align="center" scope="col">1–3 Hours</th>
+	<th data-align="center" scope="col">4–6 Hours</th>
+	<th data-align="center" scope="col">7–9 Hours</th>
+ <th data-align="center" scope="col">Row Total</th>
+ </tr>
+ </thead><tbody valign="top">
+<tr>
+<td>Community College Students</td>
+<td>111</td>
+<td>96</td>
+<td>48</td>
+<td>255</td>
+</tr>
+<tr>
+<td>Four-Year College Students</td>
+<td>96</td>
+<td>133</td>
+<td>61</td>
+<td>290</td>
+</tr>
+<tr>
+<td>Nonstudents</td>
+<td>91</td>
+<td>150</td>
+<td>53</td>
+<td>294</td>
+</tr>
+<tr>
+<td>Column Total</td>
+<td>298</td>
+<td>379</td>
+<td>162</td>
+<td>839</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.15</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Number of Hours Worked Per Week by Volunteer Type (Observed) The table contains <strong>observed (O)</strong> values (data). </span>
+
+  <span class="os-divider"> </span>
+</div>
+</div><div data-type="exercise" id="exercise102" class="unnumbered has-problem-title"><header></header><section><div data-type="problem" id="id8698829"><h4 data-type="problem-title">
+  <span class="os-title-label">Problem</span>
+</h4>
+<div class="os-problem-container">
+<p id="element-2342"> Is the number of hours volunteered <strong>independent</strong> of the type of volunteer? </p>
+</div></div>
+<details data-type="solution" id="id8698856" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title">
+  <span class="os-title-label">Solution</span>
+</h4>
+<div class="os-solution-container">
+<p id="element-8768798723">The <strong>observed table</strong> and the question at the end of the problem, "Is the number of hours volunteered independent of the type of volunteer?" tell you this is a test of independence. The two factors are <strong>number of hours volunteered</strong> and <strong>type of volunteer</strong>. This test is always right-tailed.</p>
+<p id="element-945"><em data-effect="italics">H<sub>0</sub></em>: The number of hours volunteered is <strong>independent</strong> of the type of volunteer.</p><p id="element-255"><em data-effect="italics">H<sub>a</sub></em>: The number of hours volunteered is <strong>dependent</strong> on the type of volunteer.</p><p id="element-455">The expected results are in <a href="11-3-test-of-independence#table-73248a" class="autogenerated-content" aria-label="View Table 11.16">Table 11.16</a>.
+ </p><div class="os-table" id="table-73248a"><table data-id="table-73248a" data-summary="This table presents the expected hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week.">
+  
+  <thead valign="top">
+    <tr><th scope="col">Type of Volunteer</th> 	<th data-align="center" scope="col">1-3 Hours</th> 	<th data-align="center" scope="col">4-6 Hours</th> 	<th data-align="center" scope="col">7-9 Hours</th></tr>
+  </thead>
+  <tbody valign="top">
+    <tr><td>Community College Students</td><td>90.57</td><td>115.19</td><td>49.24</td></tr>
+    <tr><td>Four-Year College Students</td><td>103.00</td><td>131.00</td><td>56.00</td></tr>
+    <tr><td>Nonstudents</td><td>104.42</td><td>132.81</td><td>56.77</td></tr>
+   </tbody>
+</table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.16</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Number of Hours Worked Per Week by Volunteer Type (Expected)</span>
+
+  <span class="os-divider"> </span>
+<span class="os-caption">The table contains <strong>expected</strong> (<em data-effect="italics">E</em>) values (data).</span>
+
+</div>
+</div><p id="element-720">For example, the calculation for the expected frequency for the top left cell is </p>
+<div data-type="equation" class="unnumbered" id="element-914" data-label=""><math display="block"><semantics><mrow>
+  <mrow>
+   <mi>E</mi><mo>=</mo><mfrac>
+    <mrow>
+     <mo stretchy="false">(</mo><mtext>row&nbsp;total</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mtext>column&nbsp;total</mtext><mo stretchy="false">)</mo>
+    </mrow>
+    <mrow>
+     <mtext>total&nbsp;number&nbsp;surveyed</mtext>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mfrac>
+    <mrow>
+     <mrow><mo>(</mo>
+      <mrow>
+       <mn>255</mn>
+      </mrow>
+      <mo>)</mo></mrow><mrow><mo>(</mo>
+       <mrow>
+        <mn>298</mn>
+       </mrow>
+       <mo>)</mo></mrow>
+    </mrow>
+    <mrow>
+     <mn>839</mn>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mn>90.57</mn>
+  </mrow>
+ </mrow><annotation-xml encoding="MathML-Content"><mrow>
+   <mi>E</mi><mo>=</mo><mfrac>
+    <mrow>
+     <mo stretchy="false">(</mo><mtext>row&nbsp;total</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mtext>column&nbsp;total</mtext><mo stretchy="false">)</mo>
+    </mrow>
+    <mrow>
+     <mtext>total&nbsp;number&nbsp;surveyed</mtext>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mfrac>
+    <mrow>
+     <mrow><mo>(</mo>
+      <mrow>
+       <mn>255</mn>
+      </mrow>
+      <mo>)</mo></mrow><mrow><mo>(</mo>
+       <mrow>
+        <mn>298</mn>
+       </mrow>
+       <mo>)</mo></mrow>
+    </mrow>
+    <mrow>
+     <mn>839</mn>
+    </mrow>
+   </mfrac>
+   <mo>=</mo><mn>90.57</mn>
+  </mrow></annotation-xml></semantics></math>
+</div>
+<p id="element-558"><strong>Calculate the test statistic:</strong> <em data-effect="italics">χ</em><sup>2</sup> = 12.99 (calculator or computer)</p><p id="element-775">
+  <strong>Distribution for the test:</strong>
+  <span class="os-math-in-para"><math display="inline">
+    <semantics>
+      <mrow>
+        <msubsup>
+          <mi>χ</mi>
+          <mn>4</mn>
+          <mn>2</mn>
+        </msubsup>
+      </mrow>
+      <annotation-xml encoding="MathML-Content">
+        <msubsup>
+          <mi>χ</mi>
+          <mn>4</mn>
+          <mn>2</mn>
+        </msubsup>
+      </annotation-xml>
+    </semantics>
+  </math></span>
+</p>
+ <p id="fs-idp19708320"><em data-effect="italics">df</em> = (3 columns – 1)(3 rows – 1) = (2)(2) = 4</p><p id="element-48">
+  <strong>Graph:</strong>
+</p>
+ <div class="os-figure" id="fs-idm32439392"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm32439392">
+  <span data-type="media" id="id8547662" data-alt="Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." data-display="block">
+    <button type="button" aria-label="Click to enlarge image of Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." class="image-button-wrapper"><img src="../assets/img-11-3-1.webp" data-media-type="image/png" alt="Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." width="950" height="249" loading="lazy"></button>
+  </span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.7</span>
+
+
+
+  
+  
+</figcaption></figure></div><p id="element-117"><strong>Probability statement:</strong> <em data-effect="italics">p</em>-value=<em data-effect="italics">P</em>(<em data-effect="italics">χ<sup>2</sup></em> &gt; 12.99) = 0.0113</p><p id="element-347"><strong>Compare <em data-effect="italics">α</em> and the <em data-effect="italics">p</em>-value:</strong> Since no <em data-effect="italics">α</em> is given, assume <em data-effect="italics">α</em> = 0.05. <em data-effect="italics">p</em>-value = 0.0113. <em data-effect="italics">α</em> &gt; <em data-effect="italics">p</em>-value.</p>
+<p id="fs-idm62402592"><strong>Make a decision:</strong> Since <em data-effect="italics">α</em> &gt; <em data-effect="italics">p</em>-value, reject <em data-effect="italics">H<sub>0</sub></em>. This means that the factors are not independent.</p><p id="element-590"><strong>Conclusion:</strong> At a 5% level of significance, from the data, there is sufficient evidence to conclude that the number of hours volunteered and the type of volunteer are dependent on one another.</p>
+ <p id="element-956">For the example in <a href="11-3-test-of-independence#table-73248" class="autogenerated-content" aria-label="View Table 11.15">Table 11.15</a>, if there had been another type of volunteer, teenagers, what would the degrees of freedom be?</p><div data-type="note" data-has-label="true" id="fs-idp30286464" class="statistics calculator ui-has-child-title" data-label=""><header><h3 class="os-title" data-type="title">
+  <span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3></header><section>
+<div class="os-note-body">
+<p id="element-854">Press the <code data-type="code">MATRX</code> key and arrow over to <code data-type="code">EDIT</code>. Press <code data-type="code">1:[A]</code>. Press <code data-type="code">3 ENTER 3 ENTER</code>. Enter the table values by row from <a href="11-3-test-of-independence#table-73248" class="autogenerated-content" aria-label="View Table 11.15">Table 11.15</a>. Press <code data-type="code">ENTER</code> after each. Press <code data-type="code">2nd QUIT</code>. Press <code data-type="code">STAT</code> and arrow over to <code data-type="code">TESTS</code>. Arrow down to <code data-type="code">C:χ2-TEST</code>. Press <code data-type="code">ENTER</code>. You should see <code data-type="code">Observed:[A] and Expected:[B]</code>. If necessary, use the arrow keys to move the cursor after <code data-type="code">Observed:</code> and press <code data-type="code">2nd MATRX</code>. Press <code data-type="code">1:[A]</code> to select matrix A. It is not necessary to enter expected values. The matrix listed after <code data-type="code">Expected:</code> can be blank. Arrow down to <code data-type="code">Calculate</code>. Press <code data-type="code">ENTER</code>. The test statistic is 12.9909 and the <em data-effect="italics">p</em>-value = 0.0113. Do the procedure a second time, but arrow down to <code data-type="code">Draw</code> instead of <code data-type="code">calculate</code>.</p></div></section></div></div>
+</section>
+      </details></section></div></div></section></div>
+
+<div data-type="note" data-has-label="true" id="fs-idm24618832" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">11.6</span>
+</h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="eip-685" class="unnumbered"><header></header><section><div data-type="problem" id="eip-903"><div class="os-problem-container">
+ <p id="eip-845">The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. <a href="11-3-test-of-independence#fs-idp61742592" class="autogenerated-content" aria-label="View Table 11.17">Table 11.17</a> shows the results: </p>
+<div class="os-table" id="fs-idp61742592"><table data-id="fs-idp61742592" data-summary=""><thead>
+ <tr>
+ <th scope="col">Industry Sector</th>
+ <th scope="col">2000</th>
+ <th scope="col">2010</th>
+ <th scope="col">2020</th>
+ <th scope="col">Total</th>
+ </tr>
+</thead><tbody>
+ <tr>
+ <td>Nonagriculture wage and salary</td>
+ <td>13,243</td>
+ <td>13,044</td>
+ <td>15,018</td>
+ <td>41,305</td>
+ </tr>
+ <tr>
+ <td>Goods-producing, excluding agriculture</td>
+ <td>2,457</td>
+ <td>1,771</td>
+ <td>1,950</td>
+ <td>6,178</td>
+ </tr>
+ <tr>
+ <td>Services-providing</td>
+ <td>10,786</td>
+ <td>11,273</td>
+ <td>13,068</td>
+ <td>35,127</td>
+ </tr>
+ <tr>
+ <td>Agriculture, forestry, fishing, and hunting</td>
+ <td>240</td>
+ <td>214</td>
+ <td>201</td>
+ <td>655</td>
+ </tr>
+ <tr>
+ <td>Nonagriculture self-employed and unpaid family worker</td>
+ <td>931</td>
+ <td>894</td>
+ <td>972</td>
+ <td>2,797</td>
+ </tr>
+ <tr>
+ <td>Secondary wage and salary jobs in agriculture and private household industries</td>
+ <td>14</td>
+ <td>11</td>
+ <td>11</td>
+ <td>36</td>
+ </tr>
+ <tr>
+ <td>Secondary jobs as a self-employed or unpaid family worker</td>
+ <td>196</td>
+ <td>144</td>
+ <td>152</td>
+ <td>492</td>
+ </tr>
+ <tr>
+ <td>Total</td>
+ <td>27,867</td>
+ <td>27,351</td>
+ <td>31,372</td>
+ <td>86,590</td>
+ </tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.17</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+<p id="eip-idp2741344">We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p>
+</div></div>
+</section></div></div></section></div>
+    
+    <div data-type="example" id="element-505" class="ui-has-child-title"><header><h3 class="os-title">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">11.7</span>
+  <span class="os-divider"> </span>
+</h3></header><section>
+<div class="body">
+      <p id="element-311">De Anza College is interested in the relationship between anxiety level
+        and the need to succeed in school. A random sample of 400 students took a test that measured
+        anxiety level and need to succeed in school. <a href="11-3-test-of-independence#element-875" class="autogenerated-content" aria-label="View Table 11.18">Table 11.18</a> shows the
+        results. De Anza College wants to know if anxiety level and need to succeed in school are
+        independent events.</p>
+      <div class="os-table" id="element-875"><table data-id="element-875" data-summary="This table presents the need to succeed in school in the first column and the various anxiety levels (high to low) and the row total in the second to seventh columns. The first row is for high need, the second row is for medium need, third row is for low need, and the column total is in the fourth row."><thead valign="top">
+            <tr>
+              <th scope="col">Need to Succeed in School</th>
+              <th scope="col">High <span data-type="newline"><br></span>Anxiety</th>
+              <th scope="col">Med-high <span data-type="newline"><br></span>Anxiety</th>
+              <th scope="col">Medium <span data-type="newline"><br></span>Anxiety</th>
+              <th scope="col">Med-low <span data-type="newline"><br></span>Anxiety</th>
+              <th scope="col">Low <span data-type="newline"><br></span>Anxiety</th>
+              <th scope="col">Row Total</th>
+            </tr>
+          </thead><tbody>
+            <tr>
+              <td>High Need</td>
+              <td>35</td>
+              <td>42</td>
+              <td>53</td>
+              <td>15</td>
+              <td>10</td>
+              <td>155</td>
+            </tr>
+            <tr>
+              <td>Medium Need</td>
+              <td>18</td>
+              <td>48</td>
+              <td>63</td>
+              <td>33</td>
+              <td>31</td>
+              <td>193</td>
+            </tr>
+            <tr>
+              <td>Low Need</td>
+              <td>4</td>
+              <td>5</td>
+              <td>11</td>
+              <td>15</td>
+              <td>17</td>
+              <td>52</td>
+            </tr>
+            <tr>
+              <td>Column Total</td>
+              <td>57</td>
+              <td>95</td>
+              <td>127</td>
+              <td>63</td>
+              <td>58</td>
+              <td>400</td>
+            </tr>
+          </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.18</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Need to Succeed in School vs. Anxiety Level</span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+      <div data-type="exercise" id="element-454" class="unnumbered has-problem-title"><header></header><section>
+        <div data-type="problem" id="id9399628"><h4 data-type="problem-title">
+  <span class="os-title-label">Problem</span>
+</h4>
+<div class="os-problem-container">
+          <p id="element-671">a. How many high anxiety level students are expected to have a high
+            need to succeed in school? </p>
+        </div></div>
+        <details data-type="solution" id="id9399648" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title">
+  <span class="os-title-label">Solution</span>
+</h4>
+<div class="os-solution-container">
+          <p id="element-554">a. The column total for a high anxiety level is 57. The row total
+            for high need to succeed in school is 155. The sample size or total surveyed is 400. </p>
+          <div data-type="equation" class="unnumbered" id="fs-idm95557984" data-label="">
+  <math display="block">
+    <semantics>
+      <mrow>
+              <mi>E</mi>
+              <mo>=</mo>
+              <mfrac>
+                <mtext>(row total)(column total)</mtext>
+                <mtext>total surveyed</mtext>
+              </mfrac>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mn>155</mn>
+                  <mo>⋅</mo>
+                  <mn>57</mn>
+                </mrow>
+                <mn>400</mn>
+              </mfrac>
+              <mo>=</mo>
+              <mn>22.09</mn>
+            </mrow>
+      <annotation-xml encoding="MathML-Content">
+        <mi>E</mi>
+        <mo>=</mo>
+        <mfrac>
+                <mtext>(row total)(column total)</mtext>
+                <mtext>total surveyed</mtext>
+              </mfrac>
+        <mo>=</mo>
+        <mfrac>
+                <mrow>
+                  <mn>155</mn>
+                  <mo>⋅</mo>
+                  <mn>57</mn>
+                </mrow>
+                <mn>400</mn>
+              </mfrac>
+        <mo>=</mo>
+        <mn>22.09</mn>
+      </annotation-xml>
+    </semantics>
+  </math>
+</div>
+          <p id="element-790">The expected number of students who have a high anxiety level and a
+            high need to succeed in school is about 22.<span data-type="newline" data-count="2"><br><br></span></p>
+        </div>
+</section>
+      </details>
+      </section></div>
+      <div data-type="exercise" id="element-804" class="unnumbered has-problem-title"><header></header><section>
+        <div data-type="problem" id="id8698448"><h4 data-type="problem-title">
+  <span class="os-title-label">Problem</span>
+</h4>
+<div class="os-problem-container">
+          <p id="element-683">b. If the two variables are independent, how many students do you
+            expect to have a low need to succeed in school and a med-low level of anxiety? </p>
+        </div></div>
+        <details data-type="solution" id="id8698469" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title">
+  <span class="os-title-label">Solution</span>
+</h4>
+<div class="os-solution-container">
+          <p id="element-921">b. The column total for a med-low anxiety level is 63. The row
+            total for a low need to succeed in school is 52. The sample size or total surveyed is
+            400.</p>
+          <div data-type="equation" class="unnumbered" id="eq-00001">
+  <math display="block">
+    <semantics>
+      <mrow>
+              <mi>E</mi>
+              <mo>=</mo>
+              <mfrac>
+                <mtext>(row total)(column total)</mtext>
+                <mtext>total surveyed</mtext>
+              </mfrac>
+              <mo> = </mo>
+              <mn>8.19</mn>
+            </mrow>
+      <annotation-xml encoding="MathML-Content">
+        <mi>E</mi>
+        <mo>=</mo>
+        <mfrac>
+                <mtext>(row total)(column total)</mtext>
+                <mtext>total surveyed</mtext>
+              </mfrac>
+        <mo> = </mo>
+        <mn>8.19</mn>
+      </annotation-xml>
+    </semantics>
+  </math>
+</div>
+          <p id="para-00001">The expected number of students who have a low need to succeed in school and a
+            med-low level of anxiety is 8.</p>
+        </div>
+</section>
+      </details>
+      </section></div>
+    </div></section></div>
+
+<div data-type="note" data-has-label="true" id="fs-idm15185536" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">11.7</span>
+</h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="eip-358" class="unnumbered"><header></header><section><div data-type="problem" id="eip-928"><div class="os-problem-container">
+ <p id="eip-757">Refer back to the information in <a href="11-3-test-of-independence#fs-idm24618832" class="autogenerated-content" aria-label="Go to Try It  11.6">Try It  11.6</a>. How many service providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p></div></div>
+</section></div>
+</div></section></div>
+
+
+
+
+
+
+  
+  
+  
+
+</body></html>

@@ -1,0 +1,630 @@
+<html><head>
+  <meta charset="utf-8"><link href="../../css/style.css" rel="stylesheet"></head><body><h2 data-type="document-title" id="page_92e5097b-a96a-4d0f-b6b5-265617f78bb8_titlecreatedbycookbook" data-rex-keep="true"><span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Central Limit Theorem (Cookie Recipes)</span>
+</h2>
+  
+  <div data-type="note" data-has-label="true" id="fs-id1171897709330" class="statistics lab ui-has-child-title" data-label=""><header><h3 class="os-title" data-type="title">
+  <span class="os-title-label">Stats Lab </span>
+</h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle">
+  <span class="os-subtitle-label">Central Limit Theorem (Cookie Recipes)</span>
+</h4>
+
+<p id="id5609695">Class Time: </p>
+<p id="id5609702">Names:</p>
+
+<div data-type="list" id="list-2397864897"><div data-type="title">Student Learning Outcomes</div><ul>
+<li>The student will demonstrate and compare properties of the central limit theorem.</li></ul></div>
+
+
+<p id="element-743"><span data-type="title">Given</span><em data-effect="italics">X</em> = length of time (in days) that a cookie recipe lasted at the Olmstead Homestead. (Assume that each of the different recipes makes the same quantity of cookies.)</p>
+
+<div class="os-table" id="tableones23"><table data-id="tableones23" data-summary="This table presents recipe data in the first column and X length of days data in the second column of 15 rows. These two columns repeat three more times in the same table."><thead>
+<tr>
+<th data-align="center" scope="col">Recipe #</th>
+<th data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th scope="col">
+</th><th data-align="center" scope="col">Recipe #</th>
+<th data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th scope="col">
+</th><th data-align="center" scope="col">Recipe #</th>
+<th data-align="center" scope="col"><em data-effect="italics">X</em></th>
+<th scope="col">
+</th><th data-align="center" scope="col">Recipe #</th>
+<th data-align="center" scope="col"><em data-effect="italics">X</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td data-align="center">1</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">16</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">31</td>
+<td data-align="center">3</td>
+<td>
+</td><td data-align="center">46</td>
+<td data-align="center">2</td>
+</tr>
+<tr>
+<td data-align="center">2</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">17</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">32</td>
+<td data-align="center">4</td>
+<td>
+</td><td data-align="center">47</td>
+<td data-align="center">2</td>
+</tr>
+<tr>
+<td data-align="center">3</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">18</td>
+<td data-align="center">4</td>
+<td>
+</td><td data-align="center">33</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">48</td>
+<td data-align="center">11</td>
+</tr>
+<tr>
+<td data-align="center">4</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">19</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">34</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">49</td>
+<td data-align="center">5</td>
+</tr>
+<tr>
+<td data-align="center">5</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">20</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">35</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">50</td>
+<td data-align="center">5</td>
+</tr>
+<tr>
+<td data-align="center">6</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">21</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">36</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">51</td>
+<td data-align="center">4</td>
+</tr>
+<tr>
+<td data-align="center">7</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">22</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">37</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">52</td>
+<td data-align="center">6</td>
+</tr>
+<tr>
+<td data-align="center">8</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">23</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">38</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">53</td>
+<td data-align="center">5</td>
+</tr>
+<tr>
+<td data-align="center">9</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">24</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">39</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">54</td>
+<td data-align="center">1</td>
+</tr>
+<tr>
+<td data-align="center">10</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">25</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">40</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">55</td>
+<td data-align="center">1</td>
+</tr>
+<tr>
+<td data-align="center">11</td>
+<td data-align="center">5</td>
+<td>
+</td><td data-align="center">26</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">41</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">56</td>
+<td data-align="center">2</td>
+</tr>
+<tr>
+<td data-align="center">12</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">27</td>
+<td data-align="center">4</td>
+<td>
+</td><td data-align="center">42</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">57</td>
+<td data-align="center">4</td>
+</tr>
+<tr>
+<td data-align="center">13</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">28</td>
+<td data-align="center">1</td>
+<td>
+</td><td data-align="center">43</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">58</td>
+<td data-align="center">3</td>
+</tr>
+<tr>
+<td data-align="center">14</td>
+<td data-align="center">3</td>
+<td>
+</td><td data-align="center">29</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">44</td>
+<td data-align="center">6</td>
+<td>
+</td><td data-align="center">59</td>
+<td data-align="center">6</td>
+</tr>
+<tr>
+<td data-align="center">15</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">30</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">45</td>
+<td data-align="center">2</td>
+<td>
+</td><td data-align="center">60</td>
+<td data-align="center">5</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.4</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div><p id="element-538">Calculate the following:
+</p><ol id="list-2396953" type="a">
+<li><em data-effect="italics">μ<sub>x</sub></em> = _______</li>
+<li><em data-effect="italics">σ<sub>x</sub></em> = _______</li>
+</ol>
+
+
+<p id="element-453"><span data-type="title">Collect the Data</span>Use a random number generator to randomly select four samples of size <em data-effect="italics">n</em> = 5 from the given population. Record your samples in <a href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl002" class="autogenerated-content" aria-label="View Table 7.5">Table 7.5</a>. Then, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.</p>
+<ol id="list-98698565"><li> Complete the table:
+<div class="os-table" id="Ch07_lab2_tbl002"><table data-id="Ch07_lab2_tbl002" data-summary="Partially filled table with samples (4) in columns and 5 blank rows plus a blank Means row."><thead>
+<tr>
+<th scope="col">
+</th><th scope="col">Sample 1</th>
+<th scope="col">Sample 2</th>
+<th scope="col">Sample 3</th>
+<th scope="col">Sample 4</th>
+<th scope="col">Sample means from other groups:</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>Means:</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td>
+</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.5</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div></li>
+<li>Calculate the following:
+<ol id="eip-idp136101696" type="a">
+<li><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = _______</li>
+<li>
+<em data-effect="italics">s</em><sub><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math></sub> = _______</li></ol>
+</li>
+
+<li>Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size <em data-effect="italics">n</em> = 10. Record the samples in <a href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl003" class="autogenerated-content" aria-label="View Table 7.6">Table 7.6</a>. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
+<div class="os-table" id="Ch07_lab2_tbl003"><table data-id="Ch07_lab2_tbl003" data-summary="Same as the above table except with 10 blank rows and a means row."><thead>
+<tr>
+<th scope="col">
+</th><th scope="col">Sample 1</th>
+<th scope="col">Sample 2</th>
+<th scope="col">Sample 3</th>
+<th scope="col">Sample 4</th>
+<th scope="col">Sample means from other groups</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>Means:</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ____</td>
+<td>
+</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.6</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div></li>
+<li>Calculate the following:
+<ol id="element-8475643" type="a">
+<li><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> = ______</li>
+<li><em data-effect="italics">s</em><sub><math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math></sub> = ______</li></ol></li>
+<li>For the original population, construct a histogram. Make intervals with a bar width of one day. Sketch the graph using a ruler and pencil. Scale the axes.<span data-type="newline"><br></span>
+<div class="os-figure" id="id6597795"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597795"><span data-type="media" id="id6597799" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency."><button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="../assets/img-7-5-1.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button>
+</span><figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.13</span>
+
+
+
+  
+  
+</figcaption></figure></div></li>
+<li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
+</ol><div data-type="list" id="list-2646"><div data-type="title">Repeat the Procedure for <em data-effect="italics">n</em> = 5</div><ol><li>For the sample of <em data-effect="italics">n</em> = 5 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of <math display="inline"><semantics><mrow>
+ <mrow>
+  <mfrac>
+   <mn>1</mn>
+   <mn>2</mn>
+  </mfrac>
+  
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mfrac>
+   <mn>1</mn>
+   <mn>2</mn>
+  </mfrac>
+  
+ </mrow></annotation-xml></semantics></math> a day. Sketch the graph using a ruler and pencil. Scale the axes.
+<div class="os-figure" id="id6597892"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597892"><span data-type="media" id="id6597897" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency."><button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="../assets/img-7-5-2.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button></span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.14</span>
+
+
+
+  
+  
+</figcaption></figure></div></li>
+<li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
+</ol></div><div data-type="list" id="list-2764646"><div data-type="title">Repeat the Procedure for <em data-effect="italics">n</em> = 10</div><ol><li>For the sample of <em data-effect="italics">n</em> = 10 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of <math display="inline"><semantics><mrow>
+ <mrow>
+  <mfrac>
+   <mn>1</mn>
+   <mn>2</mn>
+  </mfrac>
+  
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mfrac>
+   <mn>1</mn>
+   <mn>2</mn>
+  </mfrac>
+  
+ </mrow></annotation-xml></semantics></math> a day. Sketch the graph using a ruler and pencil. Scale the axes.<div class="os-figure" id="id6597991"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597991"><span data-type="media" id="id6597997" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency.">
+<button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="../assets/img-7-5-3.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button>
+</span><figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.15</span>
+
+
+
+  
+  
+</figcaption></figure></div></li>
+<li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
+</ol></div><div data-type="list" id="list-2937597532"><div data-type="title">Discussion Questions</div><ol data-mark-suffix="."><li data-mark-suffix=".">Compare the three histograms you have made, the one for the population and the two for the sample means. In three to five sentences, describe the similarities and differences.</li>
+<li data-mark-suffix=".">State the theoretical (according to the clt) distributions for the sample means.
+<ol id="list-239875697325" type="a">
+<li><em data-effect="italics">n</em> = 5: <math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> ~ _____(_____,_____)</li>
+<li><em data-effect="italics">n</em> = 10: <math display="inline"><semantics><mrow>
+ <mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover>
+ 
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+  <mi>x</mi>
+  <mo>¯</mo>
+ </mover></annotation-xml></semantics></math> ~ _____(_____,_____)</li>
+</ol></li>
+<li data-mark-suffix=".">Are the sample means for <em data-effect="italics">n</em> = 5 and <em data-effect="italics">n</em> = 10 “close” to the theoretical mean, <em data-effect="italics">μ<sub>x</sub></em>? Explain why or why not.</li>
+<li data-mark-suffix=".">Which of the two distributions of sample means has the smaller standard deviation? Why?</li>
+<li data-mark-suffix=".">As <em data-effect="italics">n</em> changed, why did the shape of the distribution of the data change? Use one to two complete sentences to explain what happened.</li>
+</ol></div></div></section></div>  
+  </body></html>

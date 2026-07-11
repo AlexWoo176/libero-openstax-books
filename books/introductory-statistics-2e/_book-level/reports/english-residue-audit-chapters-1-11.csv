@@ -1,0 +1,134 @@
+finding_id,severity,chapter,stage,file,block_id,tag,issue_type,likely_cause,english_snippet,source_snippet,vn_snippet,similarity_score,recommended_action
+F-0001,P1,chapter-1,05-translated,1-1-definitions-of-statistics-probability-and-key-terms.html,fs-idm53173376-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,"1. f; 
+2. g; 
+3. e; 
+4. d; 
+5. b; 
+6. c","1. f; 
+2. g; 
+3. e; 
+4. d; 
+5. b; 
+6. c","1. f; 
+2. g; 
+3. e; 
+4. d; 
+5. b; 
+6. c",1.0,Rerun translation for block with clean glossary context.
+F-0002,P1,chapter-1,07-archive-bilingual,1-6-sampling-experiment.html,N/A,td,bilingual_archive_english_residue,CAUSE_PARTIAL_TRANSLATION,,,"Lion & Compass, The Palace, Beau Sejour",0.0,Rebuild archive files after fixing 05-translated source.
+F-0003,P1,chapter-1,07-archive-vn-only,1-6-sampling-experiment.html,N/A,td,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Lion & Compass, The Palace, Beau Sejour",0.0,Verify if exporter config parsed wrong classes.
+F-0004,P1,chapter-1,preview-html,1-6-sampling-experiment.html,N/A,td,preview_site_english_prose,CAUSE_BUILD_OR_WEBSITE_STALE,,,"Lion & Compass, The Palace, Beau Sejour",0.0,Rebuild HTML book workspace preview.
+F-0005,P1,chapter-1,web-site,1-6-sampling-experiment.html,N/A,td,web_site_english_prose,CAUSE_BUILD_OR_WEBSITE_STALE,,,"Lion & Compass, The Palace, Beau Sejour",0.0,Rebuild site with --copy-to-web.
+F-0006,P0,chapter-2,07-archive-vn-only,2-8-descriptive-statistics.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Determine the following values.
+
+Min = _____
+M = _____
+Max = _____
+Q1 = _____
+Q3 = _____
+IQR = _____",0.0,Verify if exporter config parsed wrong classes.
+F-0007,P0,chapter-2,07-archive-vn-only,2-homework.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Look at the BMW 5 series. Which interval has the fewest data in it? How do you know this?
+31–35
+38–41
+41–64",0.0,Verify if exporter config parsed wrong classes.
+F-0008,P1,chapter-3,05-translated,3-3-two-basic-rules-of-probability.html,fs-idm40210528-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,a. 0.98; b. 0.1401; c. 0.857; d. 0.15,a. 0.98; b. 0.1401; c. 0.857; d. 0.15,a. 0.98; b. 0.1401; c. 0.857; d. 0.15,1.0,Rerun translation for block with clean glossary context.
+F-0009,P0,chapter-3,05-translated,3-4-contingency-tables.html,fs-idm37451408-vn,p,identical_to_source,CAUSE_PARTIAL_TRANSLATION,"a. 0.0294, b. 0.1551, c. 0.7165, d. 0.2365, e. 0.2575","a. 0.0294, b. 0.1551, c. 0.7165, d. 0.2365, e. 0.2575","a. 0,0294, b. 0,1551, c. 0,7165, d. 0,2365, e. 0,2575",1.0,Rerun translation for block with clean glossary context.
+F-0010,P0,chapter-3,05-translated,3-5-tree-and-venn-diagrams.html,element-1255-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,"R1R1; 
+R1R2; 
+R1R3; 
+R2R1; 
+R2R2; 
+R2R3; 
+R3R1; 
+R3R2; 
+R3R3","R1R1; 
+R1R2; 
+R1R3; 
+R2R1; 
+R2R2; 
+R2R3; 
+R3R1; 
+R3R2; 
+R3R3","R1R1; 
+R1R2; 
+R1R3; 
+R2R1; 
+R2R2; 
+R2R3; 
+R3R1; 
+R3R2; 
+R3R3",1.0,Rerun translation for block with clean glossary context.
+F-0011,P1,chapter-3,05-translated,3-5-tree-and-venn-diagrams.html,fs-idp7489584-vn,p,identical_to_source,CAUSE_PARTIAL_TRANSLATION,"a. c, b. d, c. 484848, d. 327232723272","a. c, b. d, c. 484848, d. 327232723272","a. c, b. d, c. , d.",1.0,Rerun translation for block with clean glossary context.
+F-0012,P1,chapter-3,07-archive-vn-only,3-bringing-it-together-practice.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,New England Journal of Medicine,0.0,Verify if exporter config parsed wrong classes.
+F-0013,P0,chapter-4,07-archive-vn-only,4-7-discrete-distribution-playing-card-experiment.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Calculate the following:
+
+μ = ____________
+σ = ____________",0.0,Verify if exporter config parsed wrong classes.
+F-0014,P0,chapter-4,07-archive-vn-only,4-8-discrete-distribution-dice-experiment-using-three-regular-dice.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Calculate the following:
+
+μx = _______
+σx = _______
+μx = _______",0.0,Verify if exporter config parsed wrong classes.
+F-0015,P1,chapter-5,05-translated,5-3-the-exponential-distribution.html,fs-idp114743232-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,1–(1–e^(–0.25*3)) = e^(–0.25*3).,1–(1–e^(–0.25*3)) = e^(–0.25*3).,1–(1–e^(–0.25*3)) = e^(–0.25*3).,1.0,Rerun translation for block with clean glossary context.
+F-0016,P1,chapter-6,05-translated,6-2-using-the-normal-distribution.html,eip-idm169219344-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,"a. normalcdf(23,64.7,36.9,13.9) = 0.8186","a. normalcdf(23,64.7,36.9,13.9) = 0.8186","a. normalcdf(23,64.7,36.9,13.9) = 0.8186",1.0,Rerun translation for block with clean glossary context.
+F-0017,P0,chapter-6,05-translated,6-2-using-the-normal-distribution.html,eip-idm21130928-vn,p,identical_to_source,CAUSE_PARTIAL_TRANSLATION,"b. normalcdf(–1099,50.8,36.9,13.9) = 0.8413","b. normalcdf(–1099,50.8,36.9,13.9) = 0.8413","b. normalcdf(–10,50.8,36.9,13.9) = 0.8413",1.0,Rerun translation for block with clean glossary context.
+F-0018,P1,chapter-6,05-translated,6-2-using-the-normal-distribution.html,eip-809-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,"a. normalcdf(6,10^99,5.85,0.24) = 0.2660","a. normalcdf(6,10^99,5.85,0.24) = 0.2660","a. normalcdf(6,10^99,5.85,0.24) = 0.2660",1.0,Rerun translation for block with clean glossary context.
+F-0019,P0,chapter-8,07-archive-vn-only,8-5-confidence-interval-place-of-birth.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Survey the students in your class, asking them if they were born in this state. Let X = the number that were born in this state.
+
+n = ____________
+x =",0.0,Verify if exporter config parsed wrong classes.
+F-0020,P0,chapter-9,05-translated,9-homework.html,id12545176-vn,p,identical_to_source,CAUSE_TRANSLATION_SKIPPED,"Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, K","Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, K","Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, K",1.0,Rerun translation for block with clean glossary context.
+F-0021,P0,chapter-9,07-archive-vn-only,9-5-additional-information-and-full-hypothesis-test-examples.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"State the Question: We need to determine if, at a 0.05 significance level, the average conductivity of the selected glass is greater than one. Our hyp",0.0,Verify if exporter config parsed wrong classes.
+F-0022,P1,chapter-10,07-archive-vn-only,10-1-two-population-means-with-unknown-standard-deviations.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,The standard error is:,0.0,Verify if exporter config parsed wrong classes.
+F-0023,P1,chapter-10,07-archive-vn-only,10-1-two-population-means-with-unknown-standard-deviations.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,Degrees of freedom,0.0,Verify if exporter config parsed wrong classes.
+F-0024,P1,chapter-10,07-archive-vn-only,10-2-two-population-means-with-known-standard-deviations.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,Normal distribution is:,0.0,Verify if exporter config parsed wrong classes.
+F-0025,P1,chapter-10,07-archive-vn-only,10-2-two-population-means-with-known-standard-deviations.html,term-00002,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,The standard deviation,0.0,Verify if exporter config parsed wrong classes.
+F-0026,P0,chapter-11,07-archive-vn-only,11-3-test-of-independence.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,The table contains expected (E) values (data).,0.0,Verify if exporter config parsed wrong classes.
+F-0027,P0,chapter-11,07-archive-vn-only,11-7-lab-1-chi-square-goodness-of-fit.html,N/A,li,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,"Record the values.
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table 
+11.23",0.0,Verify if exporter config parsed wrong classes.
+F-0028,P0,chapter-11,07-archive-vn-only,11-homework.html,N/A,span,vn_only_archive_english_prose,CAUSE_EXPORTER_SELECTED_WRONG_BLOCK,,,The Chronicle of Higher Education (2/2/2006),0.0,Verify if exporter config parsed wrong classes.

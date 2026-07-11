@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head>
+<body>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_d1c162aa-f63f-4466-9efd-27b902bf22d0_titlecreatedbycookbook"><span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Outliers</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_d1c162aa-f63f-4466-9efd-27b902bf22d0_titlecreatedbycookbook-vn"><span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Các điểm bất thường</span></h2>
+<p class="eng hidden" id="element-3819">In some data sets, there are values <strong>(observed data points)</strong> called <span data-type="term" group-by="o" id="term-00001">outliers</span>. <strong>Outliers are observed data points that are far from the least squares line.</strong> They have large "errors", where the "error" or residual is the vertical distance from the line to the point. </p><p class="vn visible" id="element-3819-vn">Trong một số tập dữ liệu, có những giá trị <strong>(các điểm dữ liệu quan sát được)</strong> được gọi là <span data-type="term" group-by="o" id="term-00001">các điểm bất thường</span>. <strong>Các điểm bất thường là các điểm dữ liệu quan sát được nằm xa đường bình phương tối thiểu.</strong> Chúng có các "sai số" lớn, trong đó "sai số" hay phần dư là khoảng cách thẳng đứng từ đường thẳng đến điểm đó.</p>
+<p class="eng hidden" id="eip-502">Outliers need to be examined closely. Sometimes, for some reason or another, they should not be included in the analysis of the data. It is possible that an outlier is a result of erroneous data. Other times, an outlier may
+hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</p><p class="vn visible" id="eip-502-vn">Các điểm bất thường cần được xem xét kỹ lưỡng. Đôi khi, vì lý do này hay lý do khác, chúng không nên được đưa vào phân tích dữ liệu. Có khả năng một điểm bất thường là kết quả của dữ liệu sai lệch. Những lần khác, một điểm bất thường có thể chứa thông tin có giá trị về quần thể đang được nghiên cứu và nên được giữ lại trong dữ liệu. Điều quan trọng là phải kiểm tra cẩn thận nguyên nhân khiến một điểm dữ liệu trở thành điểm bất thường.</p>
+<p class="eng hidden" id="eip-224">Besides outliers, a sample may contain one or a few points that are called <span data-type="term" group-by="i" id="term-00002">influential points</span>. Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and see if the slope of the regression line is changed significantly.</p><p class="vn visible" id="eip-224-vn">Ngoài các điểm bất thường, một mẫu có thể chứa một hoặc một vài điểm được gọi là <span data-type="term" group-by="i" id="term-00002">các điểm ảnh hưởng</span>. Các điểm ảnh hưởng là các điểm dữ liệu quan sát được nằm xa các điểm dữ liệu quan sát được khác theo phương ngang. Những điểm này có thể có ảnh hưởng lớn đến độ dốc của đường hồi quy. Để bắt đầu xác định một điểm ảnh hưởng, bạn có thể loại bỏ nó khỏi tập dữ liệu và xem liệu độ dốc của đường hồi quy có thay đổi đáng kể hay không.</p>
+<p class="eng hidden" id="eip-755">Computers and many calculators can be used to identify outliers from the data. Computer output for regression analysis will often identify both outliers and influential points so that you can examine them.</p><p class="vn visible" id="eip-755-vn">Máy tính và nhiều máy tính cầm tay có thể được sử dụng để xác định các điểm bất thường từ dữ liệu. Kết quả đầu ra của máy tính cho phân tích hồi quy thường sẽ xác định cả các điểm bất thường và các điểm ảnh hưởng để bạn có thể kiểm tra chúng.</p>
+<section data-depth="1" id="fs-idm49430544"><h3 class="eng hidden" data-type="title">Identifying Outliers</h3><h3 class="vn visible" data-type="title">Nhận diện các điểm bất thường</h3>
+<p class="eng hidden" id="eip-511">We could guess at outliers by looking at a graph of the scatterplot and best fit-line. However, we would like some guideline as to how far away a point needs to be in order to be considered an outlier. <strong> As a rough rule of thumb, we can flag any point that is located further than two standard deviations above or below the best-fit line as an outlier</strong>. The standard deviation used is the standard deviation of the residuals or errors.</p><p class="vn visible" id="eip-511-vn">Chúng ta có thể đoán các điểm bất thường bằng cách nhìn vào biểu đồ phân tán và đường phù hợp nhất. Tuy nhiên, chúng ta muốn có một số hướng dẫn về việc một điểm cần nằm cách xa bao nhiêu để được coi là điểm bất thường. <strong>Theo quy tắc ngón tay cái, chúng ta có thể đánh dấu bất kỳ điểm nào nằm xa hơn hai độ lệch chuẩn phía trên hoặc phía dưới đường phù hợp nhất là một điểm bất thường</strong>. Độ lệch chuẩn được sử dụng là độ lệch chuẩn của các phần dư hoặc sai số.</p>
+<p class="eng hidden" id="eip-526">We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points that are outside this extra pair of lines are flagged as potential outliers. Or we can do this numerically by calculating each residual and comparing it to twice the standard deviation. On the TI-83, 83+, or 84+, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</p><p class="vn visible" id="eip-526-vn">Chúng ta có thể thực hiện việc này một cách trực quan trên biểu đồ phân tán bằng cách vẽ thêm một cặp đường thẳng nằm cách đường phù hợp nhất hai độ lệch chuẩn phía trên và phía dưới. Bất kỳ điểm dữ liệu nào nằm ngoài cặp đường bổ sung này đều được đánh dấu là các điểm bất thường tiềm ẩn. Hoặc chúng ta có thể thực hiện việc này bằng số bằng cách tính toán từng phần dư và so sánh nó với hai lần độ lệch chuẩn. Trên máy tính TI-83, 83+ hoặc 84+, phương pháp đồ thị dễ dàng hơn. Quy trình đồ thị được hiển thị trước, sau đó là các tính toán bằng số. Thông thường, bạn chỉ cần sử dụng một trong các phương pháp này.</p><div class="ui-has-child-title" data-type="example" id="eip-837"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">12.12</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.12</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><div class="unnumbered has-problem-title" data-type="exercise" id="element-12987"><header></header><section>
+<div data-type="problem" id="id1170949520848"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-631">In the <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">third exam/final exam example</a>, you can determine if there is an outlier or not. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the <strong>SSE</strong> should be smaller and the correlation coefficient ought to be closer to 1 or –1.</p><p class="vn visible" id="element-631-vn">Trong <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>, bạn có thể xác định xem có điểm bất thường hay không. Nếu có một điểm bất thường, như một bài tập, hãy xóa nó đi và khớp dữ liệu còn lại với một đường thẳng mới. Đối với ví dụ này, đường thẳng mới sẽ khớp với dữ liệu còn lại tốt hơn. Điều này có nghĩa là <strong>SSE</strong> sẽ nhỏ hơn và hệ số tương quan sẽ gần với 1 hoặc –1 hơn.</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1170917505276">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container"><h4 class="eng hidden" data-type="title">Graphical Identification of Outliers</h4><h4 class="vn visible" data-type="title">Nhận diện bằng đồ thị các điểm bất thường</h4>
+<p class="eng hidden" id="element-435">With the TI-83, 83+, 84+ graphing calculators, it is easy to  identify the outliers graphically and visually.  If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<em data-effect="italics">s</em> or more, then we would consider the data point to be "too far" from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line.  Any points that are outside these two lines are outliers. We will call these lines Y2 and Y3:</p><p class="vn visible" id="element-435-vn">Với các máy tính đồ thị TI-83, 83+, 84+, việc xác định các điểm bất thường bằng đồ thị và trực quan rất dễ dàng. Nếu chúng ta đo khoảng cách thẳng đứng từ bất kỳ điểm dữ liệu nào đến điểm tương ứng trên đường phù hợp nhất và khoảng cách đó bằng 2<em data-effect="italics">s</em> hoặc hơn, thì chúng ta sẽ coi điểm dữ liệu đó là "quá xa" so với đường phù hợp nhất. Chúng ta cần tìm và vẽ các đường nằm cách đường hồi quy hai độ lệch chuẩn phía dưới và phía trên. Bất kỳ điểm nào nằm ngoài hai đường này đều là các điểm bất thường. Chúng ta sẽ gọi các đường này là Y2 và Y3:</p>
+<p class="eng hidden" id="element-20965">As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us.  Using the <strong>LinRegTTest</strong> with this data, scroll down through the output screens to find <strong><em data-effect="italics">s</em> = 16.412</strong>.</p><p class="vn visible" id="element-20965-vn">Như chúng ta đã làm với phương trình đường hồi quy và hệ số tương quan, chúng ta sẽ sử dụng công nghệ để tính toán độ lệch chuẩn này cho chúng ta. Sử dụng <strong>LinRegTTest</strong> với dữ liệu này, hãy cuộn xuống qua các màn hình kết quả để tìm <strong><em data-effect="italics">s</em> = 16.412</strong>.</p>
+<p class="eng hidden" id="element-208">Line Y2 = –173.5 + 4.83<em data-effect="italics">x</em> –2(16.4) and line Y3 = –173.5 + 4.83<em data-effect="italics">x</em> + 2(16.4)<span data-type="newline"><br/></span><span data-type="newline"><br/></span>where <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</p><p class="vn visible" id="element-208-vn">Đường Y2 = –173.5 + 4.83<em data-effect="italics">x</em> –2(16.4) và đường Y3 = –173.5 + 4.83<em data-effect="italics">x</em> + 2(16.4)<span data-type="newline"><br/></span><span data-type="newline"><br/></span>trong đó <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em> là đường phù hợp nhất. Y2 và Y3 có cùng độ dốc với đường phù hợp nhất.</p>
+<p class="eng hidden" id="element-129853">Graph the scatterplot with the best fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the "Y="equation editor and press ZOOM 9. You will find that the only data point that is not between lines Y2 and Y3 is the point <em data-effect="italics">x</em> = 65, <em data-effect="italics">y</em> = 175. On the calculator screen it is just barely outside these lines. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam; this point is further than two standard deviations away from the best-fit line.</p><p class="vn visible" id="element-129853-vn">Vẽ biểu đồ phân tán với đường phù hợp nhất trong phương trình Y1, sau đó nhập hai đường bổ sung dưới dạng Y2 và Y3 trong trình chỉnh sửa phương trình "Y=" và nhấn ZOOM 9. Bạn sẽ thấy rằng điểm dữ liệu duy nhất không nằm giữa các đường Y2 và Y3 là điểm <em data-effect="italics">x</em> = 65, <em data-effect="italics">y</em> = 175. Trên màn hình máy tính, nó chỉ nằm ngoài các đường này một chút. Điểm bất thường là sinh viên có điểm 65 trong bài thi thứ ba và 175 trong bài thi cuối kỳ; điểm này cách đường phù hợp nhất hơn hai độ lệch chuẩn.</p>
+<p class="eng hidden" id="element-664">Sometimes a point is so close to the lines used to flag outliers on the graph that it is difficult to tell if the point is between or outside the lines.  On a computer, enlarging the graph may help;  on a small calculator screen, zooming in may make the graph clearer.  Note that when the graph does not give a clear enough picture, you can use the numerical comparisons to identify outliers. </p><p class="vn visible" id="element-664-vn">Đôi khi một điểm nằm quá gần các đường được sử dụng để đánh dấu các điểm bất thường trên biểu đồ đến mức khó có thể biết liệu điểm đó nằm giữa hay nằm ngoài các đường. Trên máy tính, việc phóng to biểu đồ có thể giúp ích; trên màn hình máy tính cầm tay nhỏ, việc thu phóng có thể làm cho biểu đồ rõ ràng hơn. Lưu ý rằng khi biểu đồ không cung cấp hình ảnh đủ rõ ràng, bạn có thể sử dụng các so sánh bằng số để xác định các điểm bất thường.</p>
+<div class="os-figure" id="eip-idp140675136"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idp140675136">
+<span data-alt="The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." data-type="media" id="id1170917557779">
+<button aria-label="Click to enlarge image of The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." class="image-button-wrapper" type="button"><img alt="The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." data-media-type="image/png" height="611" loading="lazy" src="../../../assets/img-12-6-1.webp" width="974"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">12.20</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.20</span></figcaption></figure></div></div>
+</section>
+</details>
+</section></div>
+</div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp112103840"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">12.12</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.12</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-365"><header></header><section>
+<div data-type="problem" id="eip-801"><div class="os-problem-container">
+<p class="eng hidden" id="eip-145">Identify the potential outlier in the scatter plot. The standard deviation of the residuals or errors is approximately 8.6.</p><p class="vn visible" id="eip-145-vn">Xác định điểm bất thường tiềm ẩn trong biểu đồ phân tán. Độ lệch chuẩn của các phần dư hoặc sai số xấp xỉ 8.6.</p>
+<div class="os-figure" id="fs-idp117757200"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp117757200"><span data-alt="Gráfico de dispersión con una línea de regresión lineal y un punto atípico." data-display="block" data-type="media" id="eip-idp189014800">
+<button aria-label="Click to enlarge image of Gráfico de dispersión con una línea de regresión lineal y un punto atípico." class="image-button-wrapper" type="button"><img alt="Gráfico de dispersión con una línea de regresión lineal y un punto atípico." data-media-type="image/png" height="636" loading="lazy" src="../../../assets/img-12-6-2.webp" width="954"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">12.21</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.21</span></figcaption></figure></div></div></div>
+</section></div>
+</div></section></div>
+</section>
+<section data-depth="1" id="eip-212"><h3 class="eng hidden" data-type="title">Numerical Identification of Outliers</h3><h3 class="vn visible" data-type="title">Nhận diện bằng số các điểm bất thường</h3>
+<p class="eng hidden" id="element-1763">In <a aria-label="View Table 12.6" class="autogenerated-content" href="12-6-outliers#element-4662">Table 12.6</a>, the first two columns are the third-exam and final-exam data. The third column shows the predicted <em data-effect="italics">ŷ</em> values calculated from the line of best fit: <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em>. The residuals, or errors, have been calculated in the fourth column of the table: observed <em data-effect="italics">y</em> value−predicted y value = <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em>.</p><p class="vn visible" id="element-1763-vn">Trong <a aria-label="View Table 12.6" class="autogenerated-content" href="12-6-outliers#element-4662">Bảng 12.6</a>, hai cột đầu tiên là dữ liệu bài thi thứ ba và bài thi cuối kỳ. Cột thứ ba hiển thị các giá trị <em data-effect="italics">ŷ</em> dự đoán được tính từ đường phù hợp nhất: <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em>. Các phần dư, hay sai số, đã được tính toán trong cột thứ tư của bảng: giá trị <em data-effect="italics">y</em> quan sát được − giá trị y dự đoán = <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em>.</p><p class="eng hidden" id="element-973"><em data-effect="italics">s</em> is the standard deviation of all the <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> values where <em data-effect="italics">n</em> = the total number of data points. If each residual is calculated and squared, and the results are added, we get the SSE. The standard deviation of the residuals is calculated from the SSE as:</p><p class="vn visible" id="element-973-vn"><em data-effect="italics">s</em> là độ lệch chuẩn của tất cả các giá trị <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> trong đó <em data-effect="italics">n</em> = tổng số điểm dữ liệu. Nếu mỗi phần dư được tính toán và bình phương, và các kết quả được cộng lại, chúng ta sẽ có SSE. Độ lệch chuẩn của các phần dư được tính từ SSE như sau:</p>
+<div class="unnumbered" data-type="equation" id="element-797"><math display="block"><semantics><mrow>
+<mrow>
+<mi>s</mi><mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><mi>S</mi><mi>E</mi>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>s</mi><mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><mi>S</mi><mi>E</mi>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow></annotation-xml></semantics></math></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm68726848"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idp95645280">We divide by (<em data-effect="italics">n</em> – 2) because the regression model involves two estimates.</p><p class="vn visible" id="fs-idp95645280-vn">Chúng ta chia cho (<em data-effect="italics">n</em> – 2) vì mô hình hồi quy liên quan đến hai ước lượng.</p></div></section></div>
+<p class="eng hidden" id="element-42">Rather than calculate the value of <em data-effect="italics">s</em> ourselves, we can find <em data-effect="italics">s</em> using the computer or calculator. For this example, the calculator function LinRegTTest found <em data-effect="italics">s</em> = 16.4 as the standard deviation of the residuals <span data-display="inline" data-list-type="labeled-item" data-type="list" id="set-list2"><span data-type="item">35<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–17<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–6<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–19<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–10<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1</span>
+</span>.</p><p class="vn visible" id="element-42-vn">Thay vì tự tính giá trị của <em data-effect="italics">s</em>, chúng ta có thể tìm <em data-effect="italics">s</em> bằng máy tính hoặc máy tính cầm tay. Đối với ví dụ này, hàm LinRegTTest trên máy tính đã tìm thấy <em data-effect="italics">s</em> = 16.4 là độ lệch chuẩn của các phần dư <span data-display="inline" data-list-type="labeled-item" data-type="list" id="set-list2"><span data-type="item">35<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–17<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–6<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–19<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–10<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1</span>
+</span>.</p>
+<div class="os-table" id="element-4662"><table data-id="element-4662" data-summary="The table contains 4 columns and 11 rows of calculation. The first two columns contain the x and y data values. The third column contains the values predicted by the regression line. The fourth column contains the errors or residuals, calculated as the observed y value minus the predicted value."><thead>
+<tr>
+<th class="eng hidden" scope="col"><em data-effect="italics">x</em></th><th class="vn visible" scope="col"><em data-effect="italics">x</em></th>
+<th class="eng hidden" scope="col"><em data-effect="italics">y</em></th><th class="vn visible" scope="col"><em data-effect="italics">y</em></th>
+<th class="eng hidden" scope="col"><em data-effect="italics">ŷ</em></th><th class="vn visible" scope="col"><em data-effect="italics">ŷ</em></th>
+<th class="eng hidden" scope="col"><em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em></th><th class="vn visible" scope="col"><em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">65</td><td class="vn visible">65</td>
+<td class="eng hidden">175</td><td class="vn visible">175</td>
+<td class="eng hidden">140</td><td class="vn visible">140</td>
+<td class="eng hidden">175 – 140 = 35</td><td class="vn visible">175 – 140 = 35</td>
+</tr>
+<tr>
+<td class="eng hidden">67</td><td class="vn visible">67</td>
+<td class="eng hidden">133</td><td class="vn visible">133</td>
+<td class="eng hidden">150</td><td class="vn visible">150</td>
+<td class="eng hidden">133 – 150= –17</td><td class="vn visible">133 – 150= –17</td>
+</tr>
+<tr>
+<td class="eng hidden">71</td><td class="vn visible">71</td>
+<td class="eng hidden">185</td><td class="vn visible">185</td>
+<td class="eng hidden">169</td><td class="vn visible">169</td>
+<td class="eng hidden">185 – 169 = 16</td><td class="vn visible">185 – 169 = 16</td>
+</tr>
+<tr>
+<td class="eng hidden">71</td><td class="vn visible">71</td>
+<td class="eng hidden">163</td><td class="vn visible">163</td>
+<td class="eng hidden">169</td><td class="vn visible">169</td>
+<td class="eng hidden">163 – 169 = –6</td><td class="vn visible">163 – 169 = –6</td>
+</tr>
+<tr>
+<td class="eng hidden">66</td><td class="vn visible">66</td>
+<td class="eng hidden">126</td><td class="vn visible">126</td>
+<td class="eng hidden">145</td><td class="vn visible">145</td>
+<td class="eng hidden">126 – 145 = –19</td><td class="vn visible">126 – 145 = –19</td>
+</tr>
+<tr>
+<td class="eng hidden">75</td><td class="vn visible">75</td>
+<td class="eng hidden">198</td><td class="vn visible">198</td>
+<td class="eng hidden">189</td><td class="vn visible">189</td>
+<td class="eng hidden">198 – 189 = 9</td><td class="vn visible">198 – 189 = 9</td>
+</tr>
+<tr>
+<td class="eng hidden">67</td><td class="vn visible">67</td>
+<td class="eng hidden">153</td><td class="vn visible">153</td>
+<td class="eng hidden">150</td><td class="vn visible">150</td>
+<td class="eng hidden">153 – 150 = 3</td><td class="vn visible">153 – 150 = 3</td>
+</tr>
+<tr>
+<td class="eng hidden">70</td><td class="vn visible">70</td>
+<td class="eng hidden">163</td><td class="vn visible">163</td>
+<td class="eng hidden">164</td><td class="vn visible">164</td>
+<td class="eng hidden">163 – 164 = –1</td><td class="vn visible">163 – 164 = –1</td>
+</tr>
+<tr>
+<td class="eng hidden">71</td><td class="vn visible">71</td>
+<td class="eng hidden">159</td><td class="vn visible">159</td>
+<td class="eng hidden">169</td><td class="vn visible">169</td>
+<td class="eng hidden">159 – 169 = –10</td><td class="vn visible">159 – 169 = –10</td>
+</tr>
+<tr>
+<td class="eng hidden">69</td><td class="vn visible">69</td>
+<td class="eng hidden">151</td><td class="vn visible">151</td>
+<td class="eng hidden">160</td><td class="vn visible">160</td>
+<td class="eng hidden">151 – 160 = –9</td><td class="vn visible">151 – 160 = –9</td>
+</tr>
+<tr>
+<td class="eng hidden">69</td><td class="vn visible">69</td>
+<td class="eng hidden">159</td><td class="vn visible">159</td>
+<td class="eng hidden">160</td><td class="vn visible">160</td>
+<td class="eng hidden">159 – 160 = –1</td><td class="vn visible">159 – 160 = –1</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><p class="eng hidden" id="element-508">We are looking for all data points for which the residual is greater than 2<em data-effect="italics">s</em> = 2(16.4) = 32.8 or less than –32.8. Compare these values to the residuals in column four of the table. The only such data point is the student who had a grade of 65 on the third exam and 175 on the final exam; the residual for this student is 35.</p><p class="vn visible" id="element-508-vn">Chúng ta đang tìm kiếm tất cả các điểm dữ liệu mà phần dư lớn hơn 2<em data-effect="italics">s</em> = 2(16.4) = 32.8 hoặc nhỏ hơn –32.8. So sánh các giá trị này với các phần dư trong cột thứ tư của bảng. Điểm dữ liệu duy nhất như vậy là sinh viên có điểm 65 trong bài thi thứ ba và 175 trong bài thi cuối kỳ; phần dư cho sinh viên này là 35.</p>
+</section>
+<section data-depth="1" id="fs-idm166882672"><h3 class="eng hidden" data-type="title">How does the outlier affect the best fit line?</h3><h3 class="vn visible" data-type="title">Điểm bất thường ảnh hưởng như thế nào đến đường phù hợp nhất?</h3>
+<p class="eng hidden" id="element-8021">Numerically and graphically, we have identified the point (65, 175) as an outlier. We should re-examine the data for this point to see if there are any problems with the data. If there is an error, we should fix the error if possible, or delete the data. If the data is correct, we would leave it in the data set. For this problem, we will suppose that we examined the data and found that this outlier data was an error. Therefore we will continue on and delete the outlier, so that we can explore how it affects the results, as a learning experience.</p><p class="vn visible" id="element-8021-vn">Về mặt số học và đồ thị, chúng ta đã xác định điểm (65, 175) là một điểm bất thường. Chúng ta nên kiểm tra lại dữ liệu cho điểm này để xem có vấn đề gì với dữ liệu hay không. Nếu có lỗi, chúng ta nên sửa lỗi nếu có thể, hoặc xóa dữ liệu. Nếu dữ liệu chính xác, chúng ta sẽ để nó trong tập dữ liệu. Đối với bài toán này, chúng ta sẽ giả định rằng chúng ta đã kiểm tra dữ liệu và thấy rằng dữ liệu bất thường này là một lỗi. Do đó, chúng ta sẽ tiếp tục và xóa điểm bất thường, để chúng ta có thể khám phá cách nó ảnh hưởng đến kết quả như một trải nghiệm học tập.</p>
+<p class="eng hidden" id="element-6691"><span data-type="title">Compute a new best-fit line and correlation coefficient using the ten remaining points:</span>
+On the TI-83, TI-83+, TI-84+ calculators, delete the outlier from L1 and L2. Using the LinRegTTest, the new line of best fit and the correlation coefficient are:</p><p class="vn visible" id="element-6691-vn"><span data-type="title">Tính toán một đường phù hợp nhất mới và hệ số tương quan sử dụng mười điểm còn lại:</span>
+Trên các máy tính TI-83, TI-83+, TI-84+, hãy xóa điểm bất thường khỏi L1 và L2. Sử dụng LinRegTTest, đường phù hợp nhất mới và hệ số tương quan là:</p>
+<p class="eng hidden" id="element-669"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> and <em data-effect="italics">r</em> = 0.9121</p><p class="vn visible" id="element-669-vn"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> và <em data-effect="italics">r</em> = 0.9121</p><p class="eng hidden" id="element-101">The new line with <em data-effect="italics">r</em> = 0.9121 is a stronger correlation than the original (<em data-effect="italics">r</em> = 0.6631) because <em data-effect="italics">r</em> = 0.9121 is closer to one. This means that the new line is a better fit to the ten remaining data values. The line can better predict the final exam score given the third exam score.</p><p class="vn visible" id="element-101-vn">Đường thẳng mới với <em data-effect="italics">r</em> = 0.9121 có tương quan mạnh hơn so với ban đầu (<em data-effect="italics">r</em> = 0.6631) vì <em data-effect="italics">r</em> = 0.9121 gần với một hơn. Điều này có nghĩa là đường thẳng mới khớp tốt hơn với mười giá trị dữ liệu còn lại. Đường thẳng này có thể dự đoán điểm thi cuối kỳ tốt hơn dựa trên điểm thi thứ ba.</p>
+</section>
+<section data-depth="1" id="fs-idm24143888"><h3 class="eng hidden" data-type="title">Numerical Identification of Outliers: Calculating <em data-effect="italics">s</em> and Finding Outliers Manually</h3><h3 class="vn visible" data-type="title">Nhận diện bằng số các điểm bất thường: Tính toán <em data-effect="italics">s</em> và tìm các điểm bất thường theo cách thủ công</h3>
+<p class="eng hidden" id="eip-819">If you do not have the function LinRegTTest, then you can calculate the outlier in the first example by doing the following.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+First, <strong>square each |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>|</strong></p><p class="vn visible" id="eip-819-vn">Nếu bạn không có hàm LinRegTTest, thì bạn có thể tính toán điểm bất thường trong ví dụ đầu tiên bằng cách thực hiện các bước sau.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+Đầu tiên, <strong>bình phương mỗi |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>|</strong></p><p class="eng hidden" id="eip-152">The squares are <span data-display="inline" data-list-type="labeled-item" data-type="list" id="list1">
+<span data-type="item">35<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">17<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">6<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">19<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">10<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup></span>
+</span>
+</p><p class="vn visible" id="eip-152-vn">Các bình phương là <span data-display="inline" data-list-type="labeled-item" data-type="list" id="list1">
+<span data-type="item">35<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">17<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">6<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">19<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">10<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup></span>
+</span></p>
+<p class="eng hidden" id="eip-912"><strong>Then, add (sum) all the |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| squared terms</strong> using the formula</p><p class="vn visible" id="eip-912-vn"><strong>Sau đó, cộng (tổng) tất cả các số hạng |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| bình phương</strong> bằng cách sử dụng công thức</p>
+<p class="eng hidden" id="eip-187"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math></span> (Recall that <em data-effect="italics">y</em><sub>i</sub> – <em data-effect="italics">ŷ</em><sub>i</sub> = <em data-effect="italics">ε</em><sub>i</sub>.)</p><p class="vn visible" id="eip-187-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math></span> (Nhớ rằng <em data-effect="italics">y</em><sub>i</sub> – <em data-effect="italics">ŷ</em><sub>i</sub> = <em data-effect="italics">ε</em><sub>i</sub>.)</p><p class="eng hidden" id="eip-977">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></p><p class="vn visible" id="eip-977-vn">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></p><p class="eng hidden" id="eip-684"> = 2440 =  <strong>SSE</strong>. The result, <strong>SSE</strong> is the Sum of Squared Errors.</p><p class="vn visible" id="eip-684-vn">= 2440 =  <strong>SSE</strong>. Kết quả, <strong>SSE</strong> là Tổng bình phương sai số.</p>
+<p class="eng hidden" id="eip-961"><strong>Next, calculate <em data-effect="italics">s</em>, the standard deviation of all the <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> values where <em data-effect="italics">n</em> = the total number of data points.</strong></p><p class="vn visible" id="eip-961-vn"><strong>Tiếp theo, tính <em data-effect="italics">s</em>, độ lệch chuẩn của tất cả các giá trị <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> trong đó <em data-effect="italics">n</em> = tổng số điểm dữ liệu.</strong></p>
+<p class="eng hidden" id="eip-454">The calculation is <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="eip-454-vn">Phép tính là <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt></annotation-xml></semantics></math></span>.</p>
+<p class="eng hidden" id="eip-284">For the third exam/final exam problem, <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+<mo>=</mo><mn>16.47</mn>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt><mo>=</mo><mn>16.47</mn></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="eip-284-vn">Đối với bài toán về kỳ thi thứ ba/kỳ thi cuối khóa, <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+<mo>=</mo><mn>16.47</mn>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt><mo>=</mo><mn>16.47</mn></annotation-xml></semantics></math></span>.</p>
+<p class="eng hidden" id="eip-799">Next, multiply <em data-effect="italics">s</em> by 2:
+<span data-type="newline"><br/></span>(2)(16.47) = 32.94
+<span data-type="newline"><br/></span>32.94 is 2 standard deviations away from the mean of the <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> values.</p><p class="vn visible" id="eip-799-vn">Tiếp theo, nhân <em data-effect="italics">s</em> với 2:
+<span data-type="newline"><br/></span>(2)(16.47) = 32.94
+<span data-type="newline"><br/></span>32.94 cách giá trị trung bình của các giá trị <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> là 2 độ lệch chuẩn.</p><p class="eng hidden" id="eip-28">If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<em data-effect="italics">s</em>, then we would consider the data point to be "too far" from the line of best fit. We call that point a <span data-type="term" group-by="p" id="term-00003">potential outlier</span>.</p><p class="vn visible" id="eip-28-vn">Nếu chúng ta đo khoảng cách theo chiều dọc từ bất kỳ điểm dữ liệu nào đến điểm tương ứng trên đường phù hợp nhất và khoảng cách đó ít nhất là 2<em data-effect="italics">s</em>, thì chúng ta sẽ coi điểm dữ liệu đó là "quá xa" so với đường phù hợp nhất. Chúng ta gọi điểm đó là <span data-type="term" group-by="p" id="term-00003">điểm bất thường tiềm ẩn</span>.</p><p class="eng hidden" id="eip-130">For the example, if any of the |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| values are <strong>at least</strong> 32.94, the corresponding (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) data point is a potential outlier.</p><p class="vn visible" id="eip-130-vn">Đối với ví dụ này, nếu bất kỳ giá trị |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| nào <strong>ít nhất</strong> là 32.94, thì điểm dữ liệu (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) tương ứng là một điểm bất thường tiềm ẩn.</p><p class="eng hidden" id="eip-696">For the third exam/final exam problem, all the |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>|'s are less than 31.29 except for the first one which is 35.</p><p class="vn visible" id="eip-696-vn">Đối với bài toán về kỳ thi thứ ba/kỳ thi cuối khóa, tất cả các giá trị |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| đều nhỏ hơn 31.29 ngoại trừ giá trị đầu tiên là 35.</p><p class="eng hidden" id="eip-994">35 &gt; 31.29 That is, |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| ≥ (2)(s)</p><p class="vn visible" id="eip-994-vn">35 &gt; 31.29 Nghĩa là, |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| ≥ (2)(s)</p><p class="eng hidden" id="eip-980">The point which corresponds to |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| = 35 is (65, 175). <strong>Therefore, the data point (65,175) is a potential outlier.</strong> For this example, we will delete it. (Remember, we do not always delete an outlier.)</p><p class="vn visible" id="eip-980-vn">Điểm tương ứng với |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| = 35 là (65, 175). <strong>Do đó, điểm dữ liệu (65,175) là một điểm bất thường tiềm ẩn.</strong> Đối với ví dụ này, chúng ta sẽ xóa nó đi. (Hãy nhớ rằng, chúng ta không phải lúc nào cũng xóa một điểm bất thường.)</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp12863088"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idp101044864">When outliers are deleted, the researcher should either record that data was deleted, and why, or the researcher should provide results both with and without the deleted data. If data is erroneous and the correct values are known (e.g., student one actually scored a 70 instead of a 65), then this correction can be made to the data.</p><p class="vn visible" id="fs-idp101044864-vn">Khi các điểm bất thường bị xóa, nhà nghiên cứu nên ghi lại rằng dữ liệu đã bị xóa và lý do tại sao, hoặc nhà nghiên cứu nên cung cấp kết quả cả khi có và không có dữ liệu đã xóa. Nếu dữ liệu bị sai và các giá trị đúng đã được biết (ví dụ: sinh viên thứ nhất thực tế đạt 70 điểm thay vì 65), thì có thể thực hiện hiệu chỉnh này cho dữ liệu.</p></div></section></div>
+<p class="eng hidden" id="fs-idm274617664"><span data-type="newline"><br/></span><span data-type="newline"><br/></span>The next step is to compute a new best-fit line using the ten remaining
+points. The new line of best fit and the correlation coefficient are:</p><p class="vn visible" id="fs-idm274617664-vn"><span data-type="newline"><br/></span><span data-type="newline"><br/></span>Bước tiếp theo là tính toán một đường phù hợp nhất mới bằng cách sử dụng mười điểm còn lại. Đường phù hợp nhất mới và hệ số tương quan là:</p><p class="eng hidden" id="eip-451"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> and <em data-effect="italics">r</em> = 0.9121</p><p class="vn visible" id="eip-451-vn"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> và <em data-effect="italics">r</em> = 0.9121</p>
+<div class="ui-has-child-title" data-type="example" id="element-824"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">12.13</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.13</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-12623"><header></header><section>
+<div data-type="problem" id="id1171155161094"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-802">Using this new line of best fit (based on the remaining ten data points  in the <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">third exam/final exam example</a>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</p><p class="vn visible" id="element-802-vn">Sử dụng đường phù hợp nhất mới này (dựa trên mười điểm dữ liệu còn lại trong <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về kỳ thi thứ ba/kỳ thi cuối khóa</a>), một sinh viên nhận được 73 điểm trong kỳ thi thứ ba dự kiến sẽ nhận được bao nhiêu điểm trong kỳ thi cuối khóa? Kết quả này có giống với dự đoán được thực hiện bằng đường ban đầu không?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1171158788502">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="element-12623s">Using the new line of best fit, <em data-effect="italics">ŷ</em> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+The original line predicted <em data-effect="italics">ŷ</em> = –173.51 + 4.83(73) = 179.08 so the prediction using the new line with the outlier eliminated differs from the original prediction.
+ </p><p class="vn visible" id="element-12623s-vn">Sử dụng đường phù hợp nhất mới, <em data-effect="italics">ŷ</em> = –355.19 + 7.39(73) = 184.28. Một sinh viên đạt 73 điểm trong kỳ thi thứ ba dự kiến sẽ đạt 184 điểm trong kỳ thi cuối khóa.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+Đường ban đầu dự đoán <em data-effect="italics">ŷ</em> = –173.51 + 4.83(73) = 179.08, vì vậy dự đoán sử dụng đường mới với điểm bất thường đã bị loại bỏ khác với dự đoán ban đầu.</p></div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp77690080"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">12.13</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.13</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-846"><header></header><section><div data-type="problem" id="eip-372"><div class="os-problem-container">
+<p class="eng hidden" id="eip-353">The data points for the graph from the <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">third exam/final exam example</a> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <em data-effect="italics">ŷ</em> when <em data-effect="italics">x</em> = 10.</p><p class="vn visible" id="eip-353-vn">Các điểm dữ liệu cho biểu đồ từ <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về kỳ thi thứ ba/kỳ thi cuối khóa</a> như sau: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), và (7, 21). Loại bỏ điểm bất thường và tính toán lại đường phù hợp nhất. Tìm giá trị của <em data-effect="italics">ŷ</em> khi <em data-effect="italics">x</em> = 10.</p></div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-986"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">12.14</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.14</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p class="eng hidden" id="element-719">The Consumer Price Index (CPI) measures the average change over time in the prices paid by urban consumers for consumer goods and services. The CPI affects nearly all Americans because of the many ways it is used. One of its biggest uses is as a measure of inflation. By providing information about price changes in the Nation's economy to government, business, and labor, the CPI helps them to make economic decisions. The President, Congress, and the Federal Reserve Board use the CPI's trends to formulate monetary and fiscal policies.  In the following table, <em data-effect="italics">x</em> is the year and <em data-effect="italics">y</em> is the CPI.</p><p class="vn visible" id="element-719-vn">Chỉ số giá tiêu dùng (CPI) đo lường sự thay đổi trung bình theo thời gian về giá cả mà người tiêu dùng thành thị phải trả cho hàng hóa và dịch vụ tiêu dùng. CPI ảnh hưởng đến hầu hết tất cả người Mỹ vì nhiều cách sử dụng của nó. Một trong những công dụng lớn nhất của nó là thước đo lạm phát. Bằng cách cung cấp thông tin về những thay đổi giá cả trong nền kinh tế quốc gia cho chính phủ, doanh nghiệp và người lao động, CPI giúp họ đưa ra các quyết định kinh tế. Tổng thống, Quốc hội và Hội đồng Dự trữ Liên bang sử dụng các xu hướng của CPI để xây dựng các chính sách tiền tệ và tài khóa. Trong bảng sau, <em data-effect="italics">x</em> là năm và <em data-effect="italics">y</em> là CPI.</p>
+<div class="os-table" id="element-127"><table data-id="element-127" data-summary=".."><thead>
+<tr>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">x</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">x</em></th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">y</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">y</em></th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">x</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">x</em></th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">y</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">y</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">1915</td><td class="vn visible">1915</td>
+<td class="eng hidden">10.1</td><td class="vn visible">10.1</td>
+<td class="eng hidden">1979</td><td class="vn visible">1979</td>
+<td class="eng hidden">72.6</td><td class="vn visible">72.6</td>
+</tr>
+<tr>
+<td class="eng hidden">1926</td><td class="vn visible">1926</td>
+<td class="eng hidden">17.7</td><td class="vn visible">17.7</td>
+<td class="eng hidden">1980</td><td class="vn visible">1980</td>
+<td class="eng hidden">82.4</td><td class="vn visible">82.4</td>
+</tr>
+<tr>
+<td class="eng hidden">1935</td><td class="vn visible">1935</td>
+<td class="eng hidden">13.7</td><td class="vn visible">13.7</td>
+<td class="eng hidden">1986</td><td class="vn visible">1986</td>
+<td class="eng hidden">109.6</td><td class="vn visible">109.6</td>
+</tr>
+<tr>
+<td class="eng hidden">1940</td><td class="vn visible">1940</td>
+<td class="eng hidden">14.7</td><td class="vn visible">14.7</td>
+<td class="eng hidden">1991</td><td class="vn visible">1991</td>
+<td class="eng hidden">130.7</td><td class="vn visible">130.7</td>
+</tr>
+<tr>
+<td class="eng hidden">1947</td><td class="vn visible">1947</td>
+<td class="eng hidden">24.1</td><td class="vn visible">24.1</td>
+<td class="eng hidden">1999</td><td class="vn visible">1999</td>
+<td class="eng hidden">166.6</td><td class="vn visible">166.6</td>
+</tr>
+<tr>
+<td class="eng hidden">1952</td><td class="vn visible">1952</td>
+<td class="eng hidden">26.5</td><td class="vn visible">26.5</td>
+<td class="eng hidden">2010</td><td class="vn visible">2010</td>
+<td class="eng hidden">219.2</td><td class="vn visible">219.2</td>
+</tr>
+<tr>
+<td class="eng hidden">1964</td><td class="vn visible">1964</td>
+<td class="eng hidden">31.0</td><td class="vn visible">31.0</td>
+<td class="eng hidden">2020</td><td class="vn visible">2020</td>
+<td class="eng hidden">258</td><td class="vn visible">258</td>
+</tr>
+<tr>
+<td class="eng hidden">1969</td><td class="vn visible">1969</td>
+<td class="eng hidden">36.7</td><td class="vn visible">36.7</td>
+<td class="eng hidden">2023</td><td class="vn visible">2023</td>
+<td class="eng hidden">299.2</td><td class="vn visible">299.2</td>
+</tr>
+<tr>
+<td class="eng hidden">1975</td><td class="vn visible">1975</td>
+<td class="eng hidden">49.3</td><td class="vn visible">49.3</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.7</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Data</span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.7</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Data</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-603"><header></header><section><div data-type="problem" id="id1171166081082"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<ol id="list3" type="a">
+<li class="eng hidden">Draw a scatterplot of the data.</li><li class="vn visible">Vẽ biểu đồ phân tán của dữ liệu.</li>
+<li class="eng hidden">Calculate the least squares line. Write the equation in the form <em data-effect="italics">ŷ</em> = <em data-effect="italics">a</em> + <em data-effect="italics">bx</em>.</li><li class="vn visible">Tính toán đường bình phương tối thiểu. Viết phương trình dưới dạng <em data-effect="italics">ŷ</em> = <em data-effect="italics">a</em> + <em data-effect="italics">bx</em>.</li>
+<li class="eng hidden">Draw the line on the scatterplot.</li><li class="vn visible">Vẽ đường thẳng trên biểu đồ phân tán.</li>
+<li class="eng hidden">Find the correlation coefficient. Is it significant?</li><li class="vn visible">Tìm hệ số tương quan. Nó có đáng kể không?</li>
+<li class="eng hidden">What is the average CPI for the year 1990?</li><li class="vn visible">CPI trung bình cho năm 1990 là bao nhiêu?</li>
+</ol></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1171157206888">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<ol id="element-298" type="a"><li class="eng hidden">See <a aria-label="View Figure 12.22" class="autogenerated-content" href="12-6-outliers#eip-idp35936320">Figure 12.22</a>.</li><li class="vn visible">Xem <a aria-label="View Figure 12.22" class="autogenerated-content" href="12-6-outliers#eip-idp35936320">Hình 12.22</a>.</li>
+<li class="eng hidden"><em data-effect="italics">ŷ</em> = –3204 + 1.662<em data-effect="italics">x</em> is the equation of the line of best fit.</li><li class="vn visible"><em data-effect="italics">ŷ</em> = –3204 + 1.662<em data-effect="italics">x</em> là phương trình của đường phù hợp nhất.</li>
+<li class="eng hidden"><em data-effect="italics">r</em> = 0.8694</li><li class="vn visible"><em data-effect="italics">r</em> = 0.8694</li>
+<li class="eng hidden">The number of data points is <em data-effect="italics">n</em> = 14. Use the 95% Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12. <em data-effect="italics">n</em> – 2 = 12. The corresponding critical value is 0.532. Since 0.8694 &gt; 0.532, <em data-effect="italics">r</em> is significant.
+<span data-type="newline"><br/></span><em data-effect="italics">ŷ</em> = –3204 + 1.662(1990) = 103.4 CPI</li><li class="vn visible">Số lượng điểm dữ liệu là <em data-effect="italics">n</em> = 14. Sử dụng bảng Giá trị tới hạn 95% của Hệ số tương quan mẫu ở cuối Chương 12. <em data-effect="italics">n</em> – 2 = 12. Giá trị tới hạn tương ứng là 0.532. Vì 0.8694 &gt; 0.532, <em data-effect="italics">r</em> là đáng kể.
+<span data-type="newline"><br/></span><em data-effect="italics">ŷ</em> = –3204 + 1.662(1990) = 103.4 CPI</li>
+<li class="eng hidden">Using the calculator LinRegTTest, we find that <em data-effect="italics">s</em> = 25.4 ; graphing the lines Y2 = –3204 + 1.662X – 2(25.4) and Y3 = –3204 + 1.662X + 2(25.4) shows that no data values are outside those lines, identifying no outliers. (Note that the year 1999 was very close to the upper line, but still inside it.)</li><li class="vn visible">Sử dụng máy tính LinRegTTest, chúng ta thấy rằng <em data-effect="italics">s</em> = 25.4; vẽ các đường Y2 = –3204 + 1.662X – 2(25.4) và Y3 = –3204 + 1.662X + 2(25.4) cho thấy không có giá trị dữ liệu nào nằm ngoài các đường đó, xác định không có điểm bất thường nào. (Lưu ý rằng năm 1999 rất gần với đường trên, nhưng vẫn nằm trong đó.)</li>
+</ol><div class="os-figure" id="eip-idp35936320"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idp35936320">
+<span data-alt="Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." data-type="media" id="id1171151867848">
+<button aria-label="Click to enlarge image of Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." class="image-button-wrapper" type="button"><img alt="Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." data-media-type="image/png" height="729" loading="lazy" src="../../../assets/img-12-6-3.webp" width="1013"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">12.22</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.22</span></figcaption></figure></div>
+</div>
+</section>
+</details>
+</section></div><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-413"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body"><p class="eng hidden" id="fs-idp122850352">In the example, notice the pattern of the points compared to the line.  Although the correlation coefficient is significant, the pattern in the scatterplot indicates that a curve would be a more appropriate model to use than a line.  In this example, a statistician should prefer to use other methods to fit a curve to this data, rather than model the data with the line we found. In addition to doing the calculations, it is always important to look at the scatterplot when deciding whether a linear model is appropriate.</p><p class="vn visible" id="fs-idp122850352-vn">Trong ví dụ này, hãy chú ý đến mô hình của các điểm so với đường thẳng. Mặc dù hệ số tương quan là đáng kể, nhưng mô hình trong biểu đồ phân tán cho thấy một đường cong sẽ là mô hình phù hợp hơn để sử dụng thay vì một đường thẳng. Trong ví dụ này, một nhà thống kê nên ưu tiên sử dụng các phương pháp khác để khớp một đường cong với dữ liệu này, thay vì mô hình hóa dữ liệu bằng đường thẳng mà chúng ta đã tìm thấy. Ngoài việc thực hiện các phép tính, việc xem biểu đồ phân tán khi quyết định xem mô hình tuyến tính có phù hợp hay không luôn là điều quan trọng.</p></div></section></div>
+<p class="eng hidden" id="eip-983">If you are interested in seeing more years of data, visit the Bureau of Labor Statistics CPI website ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; our data is taken from the column entitled "Annual Avg." (third column from the right). For example you could add more current years of data. Try adding the more recent years: 2010: CPI = 219.2; 2020: CPI = 258.0; 2023: CPI = 299.2. See how it affects the model. (Check: <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></mrow><annotation-xml encoding="MathML-Content"><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></annotation-xml></semantics></math></span>; <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></mrow><annotation-xml encoding="MathML-Content"><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></annotation-xml></semantics></math></span>. Is r significant? Is the fit better with the addition of the new points?)</p><p class="vn visible" id="eip-983-vn">Nếu bạn muốn xem thêm dữ liệu của nhiều năm, hãy truy cập trang web CPI của Cục Thống kê Lao động ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; dữ liệu của chúng tôi được lấy từ cột có tiêu đề "Annual Avg." (cột thứ ba từ bên phải). Ví dụ, bạn có thể thêm dữ liệu của các năm gần đây hơn. Hãy thử thêm các năm gần đây: 2010: CPI = 219.2; 2020: CPI = 258.0; 2023: CPI = 299.2. Xem cách nó ảnh hưởng đến mô hình. (Kiểm tra: <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></mrow><annotation-xml encoding="MathML-Content"><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></annotation-xml></semantics></math></span>; <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></mrow><annotation-xml encoding="MathML-Content"><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></annotation-xml></semantics></math></span>. r có đáng kể không? Độ khớp có tốt hơn khi thêm các điểm mới không?)</p></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm58078240"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">12.14</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.14</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-298"><header></header><section><div data-type="problem" id="eip-109"><div class="os-problem-container">
+<p class="eng hidden" id="eip-987">The following table shows economic development measured in per capita income PCINC.</p><p class="vn visible" id="eip-987-vn">Bảng sau đây cho thấy sự phát triển kinh tế được đo bằng thu nhập bình quân đầu người PCINC.</p>
+<div class="os-table" id="eip-idm147482064"><table data-id="eip-idm147482064" data-summary=".."><thead>
+<tr>
+<th class="eng hidden" scope="col">Year</th><th class="vn visible" scope="col">Năm</th>
+<th class="eng hidden" scope="col">PCINC</th><th class="vn visible" scope="col">PCINC</th>
+<th class="eng hidden" scope="col">Year</th><th class="vn visible" scope="col">Năm</th>
+<th class="eng hidden" scope="col">PCINC</th><th class="vn visible" scope="col">PCINC</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">1870</td><td class="vn visible">1870</td>
+<td class="eng hidden">340</td><td class="vn visible">340</td>
+<td class="eng hidden">1920</td><td class="vn visible">1920</td>
+<td class="eng hidden">1050</td><td class="vn visible">1050</td>
+</tr>
+<tr>
+<td class="eng hidden">1880</td><td class="vn visible">1880</td>
+<td class="eng hidden">499</td><td class="vn visible">499</td>
+<td class="eng hidden">1930</td><td class="vn visible">1930</td>
+<td class="eng hidden">1170</td><td class="vn visible">1170</td>
+</tr>
+<tr>
+<td class="eng hidden">1890</td><td class="vn visible">1890</td>
+<td class="eng hidden">592</td><td class="vn visible">592</td>
+<td class="eng hidden">1940</td><td class="vn visible">1940</td>
+<td class="eng hidden">1364</td><td class="vn visible">1364</td>
+</tr>
+<tr>
+<td class="eng hidden">1900</td><td class="vn visible">1900</td>
+<td class="eng hidden">757</td><td class="vn visible">757</td>
+<td class="eng hidden">1950</td><td class="vn visible">1950</td>
+<td class="eng hidden">1836</td><td class="vn visible">1836</td>
+</tr>
+<tr>
+<td class="eng hidden">1910</td><td class="vn visible">1910</td>
+<td class="eng hidden">927</td><td class="vn visible">927</td>
+<td class="eng hidden">1960</td><td class="vn visible">1960</td>
+<td class="eng hidden">2132</td><td class="vn visible">2132</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.8</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.8</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<ol id="eip-idm165132224" type="a">
+<li class="eng hidden">What are the independent and dependent variables?</li><li class="vn visible">Các biến độc lập và biến phụ thuộc là gì?</li>
+<li class="eng hidden">Draw a scatter plot.</li><li class="vn visible">Vẽ biểu đồ phân tán.</li>
+<li class="eng hidden">Use regression to find the line of best fit and the correlation coefficient.</li><li class="vn visible">Sử dụng hồi quy để tìm đường phù hợp nhất và hệ số tương quan.</li>
+<li class="eng hidden">Interpret the significance of the correlation coefficient.</li><li class="vn visible">Giải thích ý nghĩa của hệ số tương quan.</li>
+<li class="eng hidden">Is there a linear relationship between the variables?</li><li class="vn visible">Có mối quan hệ tuyến tính giữa các biến không?</li>
+<li class="eng hidden">Find the coefficient of determination and interpret it.</li><li class="vn visible">Tìm hệ số xác định và giải thích nó.</li>
+<li class="eng hidden">What is the slope of the regression equation? What does it mean?</li><li class="vn visible">Độ dốc của phương trình hồi quy là bao nhiêu? Nó có nghĩa là gì?</li>
+<li class="eng hidden">Use the line of best fit to estimate PCINC for 1900, for 2000.</li><li class="vn visible">Sử dụng đường phù hợp nhất để ước tính PCINC cho năm 1900, cho năm 2000.</li>
+<li class="eng hidden">Determine if there are any outliers.</li><li class="vn visible">Xác định xem có bất kỳ điểm bất thường nào không.</li>
+</ol>
+</div></div>
+</section></div></div></section></div>
+</section>
+<section data-depth="1" id="eip-518"><h3 class="eng hidden" data-type="title">95% Critical Values of the Sample Correlation Coefficient Table</h3><h3 class="vn visible" data-type="title">Bảng các giá trị tới hạn 95% của hệ số tương quan mẫu</h3>
+<div class="os-table" id="eip-idm31993488"><table data-id="eip-idm31993488" data-summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column."><thead>
+<tr>
+<th class="eng hidden" scope="col">Degrees of Freedom: <em data-effect="italics">n</em> – 2</th><th class="vn visible" scope="col">Bậc tự do: <em data-effect="italics">n</em> – 2</th>
+<th class="eng hidden" scope="col">Critical Values: (+ and –)</th><th class="vn visible" scope="col">Giá trị tới hạn: (+ và –)</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center">1</td><td class="vn visible" data-align="center">1</td>
+<td class="eng hidden" data-align="center">0.997</td><td class="vn visible" data-align="center">0.997</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">2</td><td class="vn visible" data-align="center">2</td>
+<td class="eng hidden" data-align="center">0.950</td><td class="vn visible" data-align="center">0.950</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+<td class="eng hidden" data-align="center">0.878</td><td class="vn visible" data-align="center">0.878</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden" data-align="center">0.811</td><td class="vn visible" data-align="center">0.811</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden" data-align="center">0.754</td><td class="vn visible" data-align="center">0.754</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">6</td><td class="vn visible" data-align="center">6</td>
+<td class="eng hidden" data-align="center">0.707</td><td class="vn visible" data-align="center">0.707</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">7</td><td class="vn visible" data-align="center">7</td>
+<td class="eng hidden" data-align="center">0.666</td><td class="vn visible" data-align="center">0.666</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">8</td><td class="vn visible" data-align="center">8</td>
+<td class="eng hidden" data-align="center">0.632</td><td class="vn visible" data-align="center">0.632</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">9</td><td class="vn visible" data-align="center">9</td>
+<td class="eng hidden" data-align="center">0.602</td><td class="vn visible" data-align="center">0.602</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">10</td><td class="vn visible" data-align="center">10</td>
+<td class="eng hidden" data-align="center">0.576</td><td class="vn visible" data-align="center">0.576</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">11</td><td class="vn visible" data-align="center">11</td>
+<td class="eng hidden" data-align="center">0.555</td><td class="vn visible" data-align="center">0.555</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">12</td><td class="vn visible" data-align="center">12</td>
+<td class="eng hidden" data-align="center">0.532</td><td class="vn visible" data-align="center">0.532</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">13</td><td class="vn visible" data-align="center">13</td>
+<td class="eng hidden" data-align="center">0.514</td><td class="vn visible" data-align="center">0.514</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">14</td><td class="vn visible" data-align="center">14</td>
+<td class="eng hidden" data-align="center">0.497</td><td class="vn visible" data-align="center">0.497</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">15</td><td class="vn visible" data-align="center">15</td>
+<td class="eng hidden" data-align="center">0.482</td><td class="vn visible" data-align="center">0.482</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">16</td><td class="vn visible" data-align="center">16</td>
+<td class="eng hidden" data-align="center">0.468</td><td class="vn visible" data-align="center">0.468</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">17</td><td class="vn visible" data-align="center">17</td>
+<td class="eng hidden" data-align="center">0.456</td><td class="vn visible" data-align="center">0.456</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">18</td><td class="vn visible" data-align="center">18</td>
+<td class="eng hidden" data-align="center">0.444</td><td class="vn visible" data-align="center">0.444</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">19</td><td class="vn visible" data-align="center">19</td>
+<td class="eng hidden" data-align="center">0.433</td><td class="vn visible" data-align="center">0.433</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">20</td><td class="vn visible" data-align="center">20</td>
+<td class="eng hidden" data-align="center">0.423</td><td class="vn visible" data-align="center">0.423</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">21</td><td class="vn visible" data-align="center">21</td>
+<td class="eng hidden" data-align="center">0.413</td><td class="vn visible" data-align="center">0.413</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">22</td><td class="vn visible" data-align="center">22</td>
+<td class="eng hidden" data-align="center">0.404</td><td class="vn visible" data-align="center">0.404</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">23</td><td class="vn visible" data-align="center">23</td>
+<td class="eng hidden" data-align="center">0.396</td><td class="vn visible" data-align="center">0.396</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">24</td><td class="vn visible" data-align="center">24</td>
+<td class="eng hidden" data-align="center">0.388</td><td class="vn visible" data-align="center">0.388</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">25</td><td class="vn visible" data-align="center">25</td>
+<td class="eng hidden" data-align="center">0.381</td><td class="vn visible" data-align="center">0.381</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">26</td><td class="vn visible" data-align="center">26</td>
+<td class="eng hidden" data-align="center">0.374</td><td class="vn visible" data-align="center">0.374</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">27</td><td class="vn visible" data-align="center">27</td>
+<td class="eng hidden" data-align="center">0.367</td><td class="vn visible" data-align="center">0.367</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">28</td><td class="vn visible" data-align="center">28</td>
+<td class="eng hidden" data-align="center">0.361</td><td class="vn visible" data-align="center">0.361</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">29</td><td class="vn visible" data-align="center">29</td>
+<td class="eng hidden" data-align="center">0.355</td><td class="vn visible" data-align="center">0.355</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">30</td><td class="vn visible" data-align="center">30</td>
+<td class="eng hidden" data-align="center">0.349</td><td class="vn visible" data-align="center">0.349</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">40</td><td class="vn visible" data-align="center">40</td>
+<td class="eng hidden" data-align="center">0.304</td><td class="vn visible" data-align="center">0.304</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">50</td><td class="vn visible" data-align="center">50</td>
+<td class="eng hidden" data-align="center">0.273</td><td class="vn visible" data-align="center">0.273</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">60</td><td class="vn visible" data-align="center">60</td>
+<td class="eng hidden" data-align="center">0.250</td><td class="vn visible" data-align="center">0.250</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">70</td><td class="vn visible" data-align="center">70</td>
+<td class="eng hidden" data-align="center">0.232</td><td class="vn visible" data-align="center">0.232</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">80</td><td class="vn visible" data-align="center">80</td>
+<td class="eng hidden" data-align="center">0.217</td><td class="vn visible" data-align="center">0.217</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">90</td><td class="vn visible" data-align="center">90</td>
+<td class="eng hidden" data-align="center">0.205</td><td class="vn visible" data-align="center">0.205</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">100</td><td class="vn visible" data-align="center">100</td>
+<td class="eng hidden" data-align="center">0.195</td><td class="vn visible" data-align="center">0.195</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.9</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.9</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div></section>
+</body></html>

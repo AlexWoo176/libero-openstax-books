@@ -1,0 +1,42 @@
+<html><head>
+<meta charset="utf-8"/><link href="../../../../css/style.css" rel="stylesheet"/></head><body><div class="os-figure has-splash" id="fs-idm115405360"><figure class="splash ui-has-child-figcaption" data-id="fs-idm115405360">
+<span data-alt="This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." data-type="media" id="fs-idm115166448">
+<button aria-label="Click to enlarge image of This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." class="image-button-wrapper" type="button"><img alt="This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere." data-media-type="image/jpg" height="424" loading="lazy" src="../../../assets/img-3-1.webp" width="975"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">3.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Mưa sao băng rất hiếm, nhưng xác suất xảy ra của chúng có thể được tính toán. (nguồn: chỉnh sửa từ tác phẩm “Một ngôi sao băng trong thời điểm cực đại của trận mưa sao băng Leonid năm 2009” bởi Navicore/ Wikimedia Commons, CC BY 3.0)</span></figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm7161872"><header><h2 class="os-title" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="fs-idm75575520-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list1523423">
+<li>Hiểu và sử dụng thuật ngữ về xác suất.</li>
+<li>Xác định xem hai biến cố có xung khắc hay không và liệu hai biến cố có độc lập hay không.</li>
+<li>Tính xác suất bằng cách sử dụng các Quy tắc Cộng và Quy tắc Nhân.</li>
+<li>Xây dựng và diễn giải các bảng ngẫu nhiên.</li>
+<li>Xây dựng và diễn giải các sơ đồ Venn.</li>
+<li>Xây dựng và diễn giải các sơ đồ cây.</li>
+</ul>
+</div></section></div>
+<div class="intro-text">
+<h2 data-rex-keep="true" data-type="document-title" id="page_326ee2e0-0ccd-46ae-a776-f8857a5dad4c_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
+<p id="intro01-vn">Việc "đoán" kết quả của một biến cố thường là cần thiết để đưa ra quyết định. Các chính trị gia nghiên cứu các cuộc thăm dò để đoán khả năng thắng cử của họ. Các giáo viên chọn một khóa học cụ thể dựa trên những gì họ nghĩ rằng sinh viên có thể hiểu được. Các bác sĩ chọn các nghiệm thức cần thiết cho các loại bệnh khác nhau dựa trên đánh giá của họ về các kết quả có khả năng xảy ra. Bạn có thể đã từng đến sòng bạc, nơi mọi người chơi các trò chơi được chọn vì tin rằng khả năng thắng là cao. Bạn có thể đã chọn khóa học của mình dựa trên khả năng có việc làm trong tương lai.</p><p id="element-209-vn">Rất có thể bạn đã từng sử dụng xác suất. Trên thực tế, bạn có lẽ đã có một cảm nhận trực giác về xác suất. Xác suất đề cập đến cơ hội xảy ra của một biến cố. Bất cứ khi nào bạn cân nhắc khả năng có nên làm bài tập về nhà hay ôn thi hay không, bạn đang sử dụng xác suất. Trong chương này, bạn sẽ học cách giải các bài toán xác suất bằng cách sử dụng một phương pháp hệ thống.</p><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm8566848"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Bài tập hợp tác</span></h3></header><section>
+<div class="os-note-body">
+<p id="element-663-vn">Giảng viên của bạn sẽ khảo sát lớp học. Hãy đếm số lượng sinh viên trong lớp hôm nay.</p>
+<ul id="element-577">
+<li>Hãy giơ tay nếu bạn có tiền lẻ trong túi hoặc ví. Ghi lại số lượng cánh tay giơ lên.</li>
+<li>Hãy giơ tay nếu bạn đã đi xe buýt trong tháng vừa qua. Ghi lại số lượng cánh tay giơ lên.</li>
+<li>Hãy giơ tay nếu bạn trả lời "có" cho CẢ HAI câu hỏi đầu tiên. Ghi lại số lượng cánh tay giơ lên.</li>
+</ul>
+<p id="element-352-vn">Sử dụng dữ liệu của lớp làm ước tính cho các xác suất sau. <em data-effect="italics">P</em>(tiền lẻ) có nghĩa là xác suất một người được chọn ngẫu nhiên trong lớp của bạn có tiền lẻ trong túi hoặc ví của họ. <em data-effect="italics">P</em>(xe buýt) có nghĩa là xác suất một người được chọn ngẫu nhiên trong lớp của bạn đã đi xe buýt trong vòng một tháng qua, v.v. Hãy thảo luận về các câu trả lời của bạn.</p>
+<ul id="element-204"><li>Tìm <em data-effect="italics">P</em>(tiền lẻ).</li>
+<li>Tìm <em data-effect="italics">P</em>(xe buýt).</li>
+<li>Tìm <em data-effect="italics">P</em>(tiền lẻ VÀ xe buýt). Tìm xác suất để một sinh viên được chọn ngẫu nhiên trong lớp của bạn có tiền lẻ trong túi hoặc ví và đã đi xe buýt trong tháng vừa qua.</li>
+<li>Tìm <em data-effect="italics">P</em>(tiền lẻ|xe buýt). Tìm xác suất để một sinh viên được chọn ngẫu nhiên có tiền lẻ với điều kiện là họ đã đi xe buýt trong tháng vừa qua. Đếm tất cả các sinh viên đã đi xe buýt. Từ nhóm sinh viên đã đi xe buýt, hãy đếm những người có tiền lẻ. Xác suất bằng số người có tiền lẻ và đã đi xe buýt chia cho số người đã đi xe buýt.</li>
+</ul>
+</div></section></div>
+</div>
+</div>
+</body></html>

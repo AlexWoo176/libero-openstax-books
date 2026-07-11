@@ -1,0 +1,75 @@
+<html><head><link href="../../css/style.css" rel="stylesheet"></head><body><h2 data-type="document-title" id="page_08dc1814-e8d7-4693-9356-a8f0dad01312_titlecreatedbycookbook" data-rex-keep="true"><span class="os-number">9.3</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Probability Distribution Needed for Hypothesis Testing</span>
+</h2>
+  
+  <p id="para-00001">Earlier in the course, we discussed sampling distributions. Particular distributions are associated with various types of hypothesis testing.</p>
+  
+  <p id="para-00002">The following table summarizes various hypothesis tests and corresponding probability distributions that will be used to conduct the test (based on the assumptions shown below):</p>
+  
+  <div class="os-table" id="table-00001"><table data-summary=" " data-id="table-00001"><thead>
+  <tr>
+  <th data-align="center" scope="col">Type of Hypothesis Test</th>
+  <th data-align="center" scope="col">Population Parameter</th>
+  <th data-align="center" scope="col">Estimated value (point estimate)</th>
+  <th data-align="center" scope="col">Probability Distribution Used</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+  <td>Hypothesis test for the mean, when the population standard deviation is known</td>
+  <td>Population mean <math display="inline"><semantics><mrow><mi>μ</mi></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi></annotation-xml></semantics></math></td>
+  <td>Sample mean <math display="inline"><semantics><mrow><mover><mi>x</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></td>
+  <td>Normal distribution, 
+  <math display="inline"><semantics><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>~</mo><mi>N</mi><mo>(</mo><msub><mi>μ</mi><mi>X</mi></msub><mo>,</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo>~</mo><mi>N</mi><mo>(</mo><msub><mi>μ</mi><mi>X</mi></msub><mo>,</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>)</mo></annotation-xml></semantics></math></td>
+  </tr>
+  <tr>
+  <td>Hypothesis test for the mean, when the population standard deviation is unknown and the distribution of the sample mean is approximately normal</td>
+  <td>Population mean <math display="inline"><semantics><mrow><mi>μ</mi></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi></annotation-xml></semantics></math></td>
+  <td>Sample mean <math display="inline"><semantics><mrow><mover><mi>x</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></td>
+  <td>Student’s t-distribution, <math display="inline"><semantics><mrow><msub><msub><mi>t</mi><mi>d</mi></msub><mi>f</mi></msub></mrow><annotation-xml encoding="MathML-Content"><msub><msub><mi>t</mi><mi>d</mi></msub><mi>f</mi></msub></annotation-xml></semantics></math></td>
+  </tr>
+  <tr>
+  <td>Hypothesis test for proportions</td>
+  <td>Population proportion <math display="inline"><semantics><mrow><mi>p</mi></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi></annotation-xml></semantics></math></td>
+  <td>Sample proportion <math display="inline"><semantics><mrow><mi>p</mi><mo>'</mo></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><mo>'</mo></annotation-xml></semantics></math></td>
+  <td>Normal distribution,
+  <math display="inline"><semantics><mrow><mi>P</mi><mo>'</mo><mo>~</mo><mi>N</mi><mo>(</mo><mi>p</mi><mo>,</mo><msqrt><mfrac><mrow><mi>p</mi><mo>·</mo><mi>q</mi></mrow><mi>n</mi></mfrac></msqrt><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mi>P</mi><mo>'</mo><mo>~</mo><mi>N</mi><mo>(</mo><mi>p</mi><mo>,</mo><msqrt><mfrac><mrow><mi>p</mi><mo>·</mo><mi>q</mi></mrow><mi>n</mi></mfrac></msqrt><mo>)</mo></annotation-xml></semantics></math></td>
+  </tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">9.3</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title"><!-- no-selfclose --></span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+  
+  <section data-depth="1" id="fs-idp38268576"><h3 data-type="title">Assumptions</h3>
+  <p id="para-00003">When you perform a <span data-type="term" class="no-emphasis" id="term-00001" group-by="h">hypothesis test</span> of a single population mean <em data-effect="italics">μ</em> using a normal distribution (often called a z-test), you take a <span data-type="term" id="term-00002" group-by="s">simple random sample</span> from the population. The population you are testing is <span data-type="term" id="term-00003" group-by="n">normally distributed</span>, or your sample size is sufficiently large. You know the value of the population <span data-type="term" id="term-00004" group-by="s">standard deviation</span>, which, in reality, is rarely known.</p>
+  <p id="para-00004">When you perform a hypothesis test of a single population mean <em data-effect="italics">μ</em> using a <span data-type="term" id="term-00005" group-by="S">Student's t-distribution</span> (often called a <em data-effect="italics">t</em>-test), there are fundamental assumptions that need to be met in order for the test to work properly. Your data should be a simple random sample that comes from a population that is approximately normally distributed. You use the sample standard deviation to approximate the population standard deviation. (Note that if the sample size is sufficiently large, a <em data-effect="italics">t</em>-test will work even if the population is not approximately normally distributed).</p>
+  <p id="para-00005">When you perform a hypothesis test of a single population proportion <em data-effect="italics">p</em>, you take a simple random sample from the population. You must meet the conditions for a <span data-type="term" id="term-00006" group-by="b">binomial distribution</span>: there are a certain number <em data-effect="italics">n</em> of independent trials, the outcomes of any trial are success or failure, and each trial has the same probability of a success <em data-effect="italics">p</em>. The shape of the binomial distribution needs to be similar to the shape of the normal distribution. To ensure this, the quantities <em data-effect="italics">np</em> and <em data-effect="italics">nq</em> must both be greater than five (<span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>n</mi><mi>p</mi><mo>&gt;</mo><mn>5</mn><mo>&nbsp;</mo></mrow><annotation-xml encoding="MathML-Content"><mi>n</mi><mi>p</mi><mo>&gt;</mo><mn>5</mn><mo>&nbsp;</mo></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>n</mi><mi>q</mi><mo>&gt;</mo><mn>5</mn><mo>&nbsp;</mo></mrow><annotation-xml encoding="MathML-Content"><mi>n</mi><mi>q</mi><mo>&gt;</mo><mn>5</mn><mo>&nbsp;</mo></annotation-xml></semantics></math></span>). Then the binomial distribution of a sample (estimated) proportion can be approximated by the normal distribution with <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>μ</mi><mo>=</mo><mi>p</mi><mo>&nbsp;</mo></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi><mo>=</mo><mi>p</mi><mo>&nbsp;</mo></annotation-xml></semantics></math></span>  and <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>σ</mi><mo>=</mo><msqrt><mfrac><mrow><mi>p</mi><mi>q</mi></mrow><mi>n</mi></mfrac></msqrt></mrow><annotation-xml encoding="MathML-Content"><mi>σ</mi><mo>=</mo><msqrt><mfrac><mrow><mi>p</mi><mi>q</mi></mrow><mi>n</mi></mfrac></msqrt></annotation-xml></semantics></math></span>. Remember that <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mi>p</mi></mrow><annotation-xml encoding="MathML-Content"><mi>q</mi><mo>=</mo><mn>1</mn><mo>-</mo><mi>p</mi></annotation-xml></semantics></math></span>.</p>
+  </section>
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  </body></html>

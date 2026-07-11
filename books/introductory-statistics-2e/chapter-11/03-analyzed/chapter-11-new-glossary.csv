@@ -1,0 +1,10 @@
+﻿key,translation,options,desc_en,desc_vi,chapter,status,notes
+"chi-square distribution"  , "Phân phối khi bình phương (χ2)", "", "approved", "", 11, "approved", ""
+"contingency table"        , "bảng ngẫu nhiên"               , "", "approved", "", 11, "approved", ""
+"expected values"          , ""                              , "", "", "", 11, "proposal", ""
+"goodness-of-fit test"     , "Kiểm định mức độ phù hợp"      , "", "approved", "", 11, "approved", ""
+"observed values"          , "Các giá trị quan sát"          , "", "approved", "", 11, "approved", ""
+"population variance"      , "Phương sai tổng thể"           , "", "approved", "", 11, "approved", ""
+"test for homogeneity"     , "Kiểm định tính đồng nhất"      , "", "approved", "", 11, "approved", ""
+"test of a single variance", "Kiểm định một phương sai"      , "", "approved", "", 11, "approved", ""
+"test of independence"     , "Kiểm định tính độc lập"        , "", "approved", "", 11, "approved", ""

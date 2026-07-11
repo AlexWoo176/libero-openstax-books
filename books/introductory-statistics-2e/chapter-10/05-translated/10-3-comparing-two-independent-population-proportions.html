@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head>
+<body>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_d154db56-29bb-487f-9bc7-4081c6733297_titlecreatedbycookbook"><span class="os-number">10.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Comparing Two Independent Population Proportions</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_d154db56-29bb-487f-9bc7-4081c6733297_titlecreatedbycookbook-vn"><span class="os-number">10.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">So sánh hai tỷ lệ quần thể độc lập</span></h2>
+<p class="eng hidden" id="fs-idp16810352">When conducting a hypothesis test that compares two independent population proportions, the following characteristics should be present:</p><p class="vn visible" id="fs-idp16810352-vn">Khi thực hiện kiểm định giả thuyết so sánh hai tỷ lệ quần thể độc lập, các đặc điểm sau đây cần phải có:</p>
+<ol id="element-381">
+<li class="eng hidden">The two independent samples are simple random samples that are independent.</li><li class="vn visible">Hai mẫu độc lập là các mẫu ngẫu nhiên đơn giản và độc lập với nhau.</li>
+<li class="eng hidden"> The number of successes is at least five, and the number of failures is at least five, for each of the samples.</li><li class="vn visible">Số lượng thành công ít nhất là năm, và số lượng thất bại ít nhất là năm, cho mỗi mẫu.</li>
+<li class="eng hidden">Growing literature states that the population must be at least ten or 20 times the size of the sample. This keeps each population from being over-sampled and causing incorrect results.</li><li class="vn visible">Các tài liệu nghiên cứu ngày càng khẳng định rằng quần thể phải lớn gấp ít nhất mười hoặc 20 lần kích thước mẫu. Điều này giúp ngăn chặn việc lấy mẫu quá mức từ mỗi quần thể và gây ra kết quả không chính xác.</li>
+</ol>
+<p class="eng hidden" id="element-3812">Comparing two proportions, like comparing two means, is common. If two estimated proportions are different, it may be due to a difference in the populations or it may be due to chance. A hypothesis test can help determine if a difference in the estimated proportions reflects a difference in the population proportions.</p><p class="vn visible" id="element-3812-vn">Việc so sánh hai tỷ lệ, cũng giống như so sánh hai số trung bình, là điều phổ biến. Nếu hai tỷ lệ ước lượng khác nhau, điều đó có thể là do sự khác biệt trong các quần thể hoặc do ngẫu nhiên. Kiểm định giả thuyết có thể giúp xác định liệu sự khác biệt trong các tỷ lệ ước lượng có phản ánh sự khác biệt trong các tỷ lệ quần thể hay không.</p>
+<p class="eng hidden" id="para-00001">Like the case of differences in sample means, we construct a sampling distribution for differences in sample proportions:</p><p class="vn visible" id="para-00001-vn">Giống như trường hợp sự khác biệt giữa các số trung bình mẫu, chúng ta xây dựng một phân phối mẫu cho sự khác biệt giữa các tỷ lệ mẫu:</p>
+<p class="eng hidden" id="para-00002"><span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>A</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>A</mi></msub><msub><mi>n</mi><mi>A</mi></msub></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>A</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>A</mi></msub><msub><mi>n</mi><mi>A</mi></msub></mfrac></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>B</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>B</mi></msub><msub><mi>n</mi><mi>B</mi></msub></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>B</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>B</mi></msub><msub><mi>n</mi><mi>B</mi></msub></mfrac></annotation-xml></semantics></math></span> are the sample proportions for the two sets of data in question <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>X</mi><mi>A</mi></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>X</mi><mi>A</mi></msub></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>X</mi><mi>B</mi></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>X</mi><mi>B</mi></msub></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="para-00002-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>A</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>A</mi></msub><msub><mi>n</mi><mi>A</mi></msub></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>A</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>A</mi></msub><msub><mi>n</mi><mi>A</mi></msub></mfrac></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>B</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>B</mi></msub><msub><mi>n</mi><mi>B</mi></msub></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>B</mi></msub><mo>=</mo><mfrac><msub><mi>X</mi><mi>B</mi></msub><msub><mi>n</mi><mi>B</mi></msub></mfrac></annotation-xml></semantics></math></span> là các tỷ lệ mẫu cho hai tập dữ liệu đang xét <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>X</mi><mi>A</mi></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>X</mi><mi>A</mi></msub></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>X</mi><mi>B</mi></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>X</mi><mi>B</mi></msub></annotation-xml></semantics></math></span>.</p>
+<p class="eng hidden" id="fs-idm58849136">The difference of two proportions follows an approximate normal distribution. Generally, the null hypothesis states that the two proportions are the same. That is, <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">p<sub>A</sub></em> = <em data-effect="italics">p<sub>B</sub></em>. To conduct the test, we use a <span data-type="term" group-by="p" id="term-00001">pooled proportion</span>, <em data-effect="italics">p<sub>c</sub></em>. </p><p class="vn visible" id="fs-idm58849136-vn">Sự khác biệt của hai tỷ lệ tuân theo một phân phối chuẩn xấp xỉ. Thông thường, giả thuyết không phát biểu rằng hai tỷ lệ là như nhau. Nghĩa là, <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">p<sub>A</sub></em> = <em data-effect="italics">p<sub>B</sub></em>. Để thực hiện kiểm định, chúng ta sử dụng <span data-type="term" group-by="p" id="term-00001">tỷ lệ gộp chung</span>, <em data-effect="italics">p<sub>c</sub></em>.</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-845"><div data-type="title">The pooled proportion is calculated as follows:</div>
+<math display="block"><semantics><mrow>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="element-630"><div data-type="title">The distribution for the differences is:</div>
+<math display="block"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+<mo stretchy="false">]</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+<mo stretchy="false">]</mo>
+</mrow></annotation-xml></semantics></math></div>
+<div class="unnumbered" data-label="" data-type="equation" id="element-225"><div data-type="title">The test statistic (<em data-effect="italics">z</em>-score) is:</div>
+<math display="block"><semantics><mrow>
+<mrow>
+<mi>z</mi><mo>=</mo><mfrac>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo stretchy="false">)</mo><mo>−</mo><mo stretchy="false">(</mo><msub>
+<mi>p</mi>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<mi>p</mi>
+<mi>B</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>z</mi><mo>=</mo><mfrac>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo stretchy="false">)</mo><mo>−</mo><mo stretchy="false">(</mo><msub>
+<mi>p</mi>
+<mi>A</mi>
+</msub>
+<mo>−</mo><msub>
+<mi>p</mi>
+<mi>B</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="ui-has-child-title" data-type="example" id="element-944"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">10.8</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.8</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm214596080"><header></header><section>
+<div data-type="problem" id="fs-idm72417744"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-410">Two types of medication for hives are being tested to determine if there is a <strong>difference in the proportions of adult patient reactions. Twenty</strong> out of a random <strong>sample of 200</strong> adults given medication A still had hives 30 minutes after taking the medication. <strong>Twelve</strong> out of another <strong>random sample of 200 adults</strong> given medication B still had hives 30 minutes after taking the medication. Test at a 1% level of significance.</p><p class="vn visible" id="element-410-vn">Hai loại thuốc trị mề đay đang được thử nghiệm để xác định xem có <strong>sự khác biệt về tỷ lệ phản ứng của bệnh nhân trưởng thành hay không. Hai mươi</strong> người trong một <strong>mẫu ngẫu nhiên gồm 200</strong> người trưởng thành được dùng thuốc A vẫn còn bị mề đay 30 phút sau khi uống thuốc. <strong>Mười hai</strong> người trong một <strong>mẫu ngẫu nhiên khác gồm 200 người trưởng thành</strong> được dùng thuốc B vẫn còn bị mề đay 30 phút sau khi uống thuốc. Hãy kiểm định ở mức ý nghĩa 1%.</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm163830832">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="element-567">The problem asks for a difference in proportions, making it a test of two proportions.</p><p class="vn visible" id="element-567-vn">Bài toán yêu cầu tìm sự khác biệt về tỷ lệ, do đó đây là bài kiểm định hai tỷ lệ.</p>
+<p class="eng hidden" id="element-857">Let <em data-effect="italics">A</em> and <em data-effect="italics">B</em> be the subscripts for medication A and medication B, respectively. Then <em data-effect="italics">p<sub>A</sub></em> and <em data-effect="italics">p<sub>B</sub></em> are the desired population proportions.</p><p class="vn visible" id="element-857-vn">Gọi <em data-effect="italics">A</em> và <em data-effect="italics">B</em> lần lượt là các chỉ số cho thuốc A và thuốc B. Khi đó <em data-effect="italics">p<sub>A</sub></em> và <em data-effect="italics">p<sub>B</sub></em> là các tỷ lệ quần thể cần tìm.</p>
+<p class="eng hidden" id="element-5">Random Variable:
+<em data-effect="italics">P′<sub>A</sub></em> – <em data-effect="italics">P′<sub>B</sub></em> = difference in the proportions of adult patients who did not react after 30 minutes to medication A and to medication B.</p><p class="vn visible" id="element-5-vn">Biến ngẫu nhiên:
+<em data-effect="italics">P′<sub>A</sub></em> – <em data-effect="italics">P′<sub>B</sub></em> = sự khác biệt về tỷ lệ bệnh nhân trưởng thành không có phản ứng sau 30 phút đối với thuốc A và thuốc B.</p>
+<p class="eng hidden" id="element-791"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">p<sub>A</sub></em> = <em data-effect="italics">p<sub>B</sub></em></p><p class="vn visible" id="element-791-vn"><em data-effect="italics">H<sub>0</sub></em><em data-effect="italics">p<sub>A</sub></em><em data-effect="italics">p<sub>B</sub></em></p>
+<p class="eng hidden" id="fs-idm35710192"><em data-effect="italics">p<sub>A</sub></em> – <em data-effect="italics">p<sub>B</sub></em> = 0</p><p class="vn visible" id="fs-idm35710192-vn"><em data-effect="italics">p<sub>A</sub></em><em data-effect="italics">p<sub>B</sub></em></p>
+<p class="eng hidden" id="element-516"><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">p<sub>A</sub></em> ≠ <em data-effect="italics">p<sub>B</sub></em></p><p class="vn visible" id="element-516-vn"><em data-effect="italics">H<sub>a</sub></em><em data-effect="italics">p<sub>A</sub></em><em data-effect="italics">p<sub>B</sub></em></p>
+<p class="eng hidden" id="fs-idp82118096"><em data-effect="italics">p<sub>A</sub></em> – <em data-effect="italics">p<sub>B</sub></em> ≠ 0</p><p class="vn visible" id="fs-idp82118096-vn"><em data-effect="italics">p<sub>A</sub></em><em data-effect="italics">p<sub>B</sub></em></p>
+<p class="eng hidden" id="element-799">The words <strong>"is a difference"</strong> tell you the test is two-tailed.</p><p class="vn visible" id="element-799-vn">Cụm từ <strong>"là một sự khác biệt"</strong> cho bạn biết đây là kiểm định hai phía.</p>
+<p class="eng hidden" id="element-610"><strong>Distribution for the test:</strong> Since this is a test of two binomial population proportions, the distribution is normal:</p><p class="vn visible" id="element-610-vn"><strong>Phân phối cho kiểm định:</strong> Vì đây là kiểm định hai tỷ lệ quần thể nhị thức, phân phối là phân phối chuẩn:</p>
+<p class="eng hidden" id="element-42"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn><mo>+</mo><mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn><mo>+</mo><mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.08</mn><mtext> </mtext><mn>1</mn><mo>–</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.92</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn><mo>+</mo><mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn><mo>+</mo><mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.08</mn><mtext> </mtext><mn>1</mn><mo>–</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.92</mn>
+</mrow></annotation-xml></semantics></math></span>
+</p><p class="vn visible" id="element-42-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn><mo>+</mo><mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn><mo>+</mo><mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.08</mn><mtext> </mtext><mn>1</mn><mo>–</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.92</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn><mo>+</mo><mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn><mo>+</mo><mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.08</mn><mtext> </mtext><mn>1</mn><mo>–</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.92</mn>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-3">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.08</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.92</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.08</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.92</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="element-3-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.08</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.92</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>P</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.08</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.92</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo stretchy="false">)</mo>
+</mrow>
+</msqrt>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="element-838"><em data-effect="italics">P′<sub>A</sub></em> – <em data-effect="italics">P′<sub>B</sub></em> follows an approximate normal distribution.</p><p class="vn visible" id="element-838-vn"><em data-effect="italics">P′<sub>A</sub></em> – <em data-effect="italics">P′<sub>B</sub></em> tuân theo một phân phối chuẩn xấp xỉ.</p>
+<p class="eng hidden" id="element-961"><strong>Calculate the <em data-effect="italics">p</em>-value using the normal distribution:</strong> <em data-effect="italics">p</em>-value = 0.1404.</p><p class="vn visible" id="element-961-vn"><strong>Tính p-giá trị bằng cách sử dụng phân phối chuẩn:</strong> p-giá trị = 0.1404.</p><p class="eng hidden" id="element-270">Estimated proportion for group A: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="element-270-vn">Tỷ lệ ước lượng cho nhóm A: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>A</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>A</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>20</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="fs-idm78563552">Estimated proportion for group B: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.06</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.06</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="fs-idm78563552-vn">Tỷ lệ ước lượng cho nhóm B: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.06</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>B</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>200</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.06</mn>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-478">Graph: </p><p class="vn visible" id="element-478-vn">Đồ thị:</p><div class="os-figure" id="hyptest22_cmp_3_1"><figure class="scaled-down ui-has-child-figcaption" data-id="hyptest22_cmp_3_1">
+<span data-alt="Normal distribution curve of the difference in the percentages of adult patients who don't react to medication A and B after 30 minutes. The mean is equal to zero, and the values -0.04, 0, and 0.04 are labeled on the horizontal axis. Two vertical lines extend from -0.04 and 0.04 to the curve. The region to the left of -0.04 and the region to the right of 0.04 are each shaded to represent 1/2(p-value) = 0.0702." data-type="media" id="id3811123">
+<button aria-label="Click to enlarge image of Normal distribution curve of the difference in the percentages of adult patients who don't react to medication A and B after 30 minutes. The mean is equal to zero, and the values -0.04, 0, and 0.04 are labeled on the horizontal axis. Two vertical lines extend from -0.04 and 0.04 to the curve. The region to the left of -0.04 and the region to the right of 0.04 are each shaded to represent 1/2(p-value) = 0.0702." class="image-button-wrapper" type="button"><img alt="Normal distribution curve of the difference in the percentages of adult patients who don't react to medication A and B after 30 minutes. The mean is equal to zero, and the values -0.04, 0, and 0.04 are labeled on the horizontal axis. Two vertical lines extend from -0.04 and 0.04 to the curve. The region to the left of -0.04 and the region to the right of 0.04 are each shaded to represent 1/2(p-value) = 0.0702." data-media-type="image/png" height="389" loading="lazy" src="../assets/img-10-3-1.webp" width="870"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">10.7</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">10.7</span></figcaption></figure></div><p class="eng hidden" id="element-172"> <em data-effect="italics">P′<sub>A</sub></em>  – <em data-effect="italics">P′<sub>B</sub></em> = 0.1 – 0.06 = 0.04.</p><p class="vn visible" id="element-172-vn"><em data-effect="italics">P′<sub>A</sub></em><em data-effect="italics">P′<sub>B</sub></em></p>
+<p class="eng hidden" id="element-846">Half the <em data-effect="italics">p</em>-value is below –0.04, and half is above 0.04.</p><p class="vn visible" id="element-846-vn">Một nửa p-giá trị nằm dưới –0.04, và một nửa nằm trên 0.04.</p>
+<p class="eng hidden" id="element-748">Compare <em data-effect="italics">α</em> and the <em data-effect="italics">p</em>-value: <em data-effect="italics">α</em> = 0.01 and the <em data-effect="italics">p</em>-value = 0.1404. <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value.</p><p class="vn visible" id="element-748-vn">So sánh <em data-effect="italics">α</em> và p-giá trị: <em data-effect="italics">α</em> = 0.01 và p-giá trị = 0.1404. <em data-effect="italics">α</em> &lt; p-giá trị.</p><p class="eng hidden" id="element-439">Make a decision: Since <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value, do not reject <em data-effect="italics">H<sub>0</sub></em>.</p><p class="vn visible" id="element-439-vn">Đưa ra quyết định: Vì <em data-effect="italics">α</em> &lt; p-giá trị, không bác bỏ <em data-effect="italics">H<sub>0</sub></em>.</p>
+<p class="eng hidden" id="element-632"><strong>Conclusion:</strong> At a 1% level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the proportions of adult patients who did not react after 30 minutes to medication <em data-effect="italics">A</em> and medication <em data-effect="italics">B</em>.</p><p class="vn visible" id="element-632-vn"><strong>Kết luận:</strong> Ở mức ý nghĩa 1%, từ dữ liệu mẫu, không có đủ bằng chứng để kết luận rằng có sự khác biệt về tỷ lệ bệnh nhân trưởng thành không có phản ứng sau 30 phút đối với thuốc <em data-effect="italics">A</em> và thuốc <em data-effect="italics">B</em>.</p><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm4331904"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm55744576">Press <code data-type="code">STAT</code>. Arrow over to <code data-type="code">TESTS</code> and press
+<code data-type="code">6:2-PropZTest</code>. Arrow down and enter <code data-type="code">20</code> for x1, <code data-type="code">200</code> for n1, <code data-type="code">12</code> for x2,
+and <code data-type="code">200</code> for n2. Arrow down to <code data-type="code">p1</code>: and arrow to <code data-type="code">not equal p2</code>. Press <code data-type="code">ENTER</code>. Arrow down to <code data-type="code">Calculate</code> and press <code data-type="code">ENTER</code>. The <em data-effect="italics">p</em>-value is <em data-effect="italics">p</em> = 0.1404 and the test statistic is 1.47. Do the procedure again, but instead of <code data-type="code">Calculate</code> do <code data-type="code">Draw</code>.</p><p class="vn visible" id="fs-idm55744576-vn">Nhấn <code data-type="code">STAT</code>. Di chuyển sang <code data-type="code">TESTS</code> và nhấn <code data-type="code">6:2-PropZTest</code>. Di chuyển xuống và nhập <code data-type="code">20</code> cho x1, <code data-type="code">200</code> cho n1, <code data-type="code">12</code> cho x2, và <code data-type="code">200</code> cho n2. Di chuyển xuống <code data-type="code">p1</code>: và di chuyển đến <code data-type="code">not equal p2</code>. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống <code data-type="code">Calculate</code> và nhấn <code data-type="code">ENTER</code>. p-giá trị là <em data-effect="italics">p</em> = 0.1404 và thống kê kiểm định là 1.47. Thực hiện lại quy trình, nhưng thay vì <code data-type="code">Calculate</code> hãy thực hiện <code data-type="code">Draw</code>.</p></div></section></div>
+</div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp38726464"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">10.8</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.8</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="fs-idm6482160"><header></header><section><div data-type="problem" id="fs-idm135837088"><div class="os-problem-container"><p class="eng hidden" id="fs-idm99465232">Two types of valves are being tested to determine if there is a difference in pressure tolerances. Fifteen out of a random sample of 100 of Valve <em data-effect="italics">A</em> cracked under 4,500 psi. Six out of a random sample of 100 of Valve <em data-effect="italics">B</em> cracked under 4,500 psi. Test at a 5% level of significance.</p><p class="vn visible" id="fs-idm99465232-vn">Hai loại van đang được thử nghiệm để xác định xem có sự khác biệt về dung sai áp suất hay không. Mười lăm trong một mẫu ngẫu nhiên gồm 100 van loại <em data-effect="italics">A</em> bị nứt dưới áp suất 4,500 psi. Sáu trong một mẫu ngẫu nhiên gồm 100 van loại <em data-effect="italics">B</em> bị nứt dưới áp suất 4,500 psi. Hãy kiểm định ở mức ý nghĩa 5%.</p></div></div>
+</section></div></div></section></div>
+<div class="ui-has-child-title" data-type="example" id="fs-idp34418816"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">10.9</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.9</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm5388112"><header></header><section>
+<div data-type="problem" id="fs-idm139653568"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="para-00003">A research study was conducted about gender differences regarding the use of seat belts in motor vehicles. The researcher believed that the proportion of women not wearing seat belts is less than the proportion of men not wearing seat belts. The data collected represents a random sample of U.S. adults and is summarized in <a aria-label="View Table 10.12" class="autogenerated-content" href="10-3-comparing-two-independent-population-proportions#fs-idm29483888">Table 10.12</a>. Is the proportion of women not wearing seat belts less than the proportion of men not wearing seat belts? Test at a 1% level of significance.</p><p class="vn visible" id="para-00003-vn">Một nghiên cứu đã được thực hiện về sự khác biệt giới tính liên quan đến việc sử dụng dây an toàn trên xe cơ giới. Nhà nghiên cứu tin rằng tỷ lệ phụ nữ không thắt dây an toàn thấp hơn tỷ lệ nam giới không thắt dây an toàn. Dữ liệu thu thập đại diện cho một mẫu ngẫu nhiên người trưởng thành tại Hoa Kỳ và được tóm tắt trong <a aria-label="View Table 10.12" class="autogenerated-content" href="10-3-comparing-two-independent-population-proportions#fs-idm29483888">Bảng 10.12</a>. Liệu tỷ lệ phụ nữ không thắt dây an toàn có thấp hơn tỷ lệ nam giới không thắt dây an toàn không? Hãy kiểm định ở mức ý nghĩa 1%.</p><div class="os-table" id="fs-idm29483888"><table data-id="fs-idm29483888" data-summary=""><thead><tr><th class="eng hidden" scope="col"></th><th class="vn visible" scope="col"></th><th class="eng hidden" scope="col">Men</th><th class="vn visible" scope="col">Nam</th><th class="eng hidden" scope="col">Women</th><th class="vn visible" scope="col">Nữ</th></tr></thead><tbody>
+<tr><td class="eng hidden">Does not wear seat belts</td><td class="vn visible">Không thắt dây an toàn</td> <td class="eng hidden">183</td><td class="vn visible">183</td> <td class="eng hidden">156</td><td class="vn visible">156</td></tr>
+<tr><td class="eng hidden">Total number surveyed</td><td class="vn visible">Tổng số người được khảo sát</td> <td class="eng hidden">2231</td><td class="vn visible">2231</td> <td class="eng hidden">2169</td><td class="vn visible">2169</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.12</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.12</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm119696944">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="fs-idm140706224">This is a test of two population proportions.  Let M and F be the subscripts for men and women. Then <em data-effect="italics">p<sub>M</sub></em> and <em data-effect="italics">p<sub>F</sub></em> are the desired population proportions.</p><p class="vn visible" id="fs-idm140706224-vn">Đây là bài kiểm định hai tỷ lệ quần thể. Gọi M và F lần lượt là các chỉ số cho nam và nữ. Khi đó <em data-effect="italics">p<sub>M</sub></em> và <em data-effect="italics">p<sub>F</sub></em> là các tỷ lệ quần thể cần tìm.</p>
+<p class="eng hidden" id="fs-idp37876608">
+Random Variable:
+  <em data-effect="italics">p′<sub>F</sub></em> − <em data-effect="italics">p′<sub>M</sub></em> = difference in the proportions of men and women who do not wear seat belts.</p><p class="vn visible" id="fs-idp37876608-vn">Biến ngẫu nhiên:
+<em data-effect="italics">p′<sub>F</sub></em> − <em data-effect="italics">p′<sub>M</sub></em> = sự khác biệt về tỷ lệ nam giới và nữ giới không thắt dây an toàn.</p>
+<p class="eng hidden" id="fs-idp63610272"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">p<sub>F</sub></em> = <em data-effect="italics">p<sub>M</sub></em> <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">p<sub>F</sub></em> – <em data-effect="italics">p<sub>M</sub></em>  = 0</p><p class="vn visible" id="fs-idp63610272-vn"><em data-effect="italics">H<sub>0</sub></em><em data-effect="italics">p<sub>F</sub></em><em data-effect="italics">p<sub>M</sub></em><em data-effect="italics">H<sub>0</sub></em><em data-effect="italics">p<sub>F</sub></em><em data-effect="italics">p<sub>M</sub></em></p>
+<p class="eng hidden" id="fs-idp67543312"><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">p<sub>F</sub></em> &lt; <em data-effect="italics">p<sub>M</sub></em> <em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">p<sub>F</sub></em> – <em data-effect="italics">p<sub>M</sub></em> &lt; 0</p><p class="vn visible" id="fs-idp67543312-vn"><em data-effect="italics">H<sub>a</sub></em><em data-effect="italics">p<sub>F</sub></em><em data-effect="italics">p<sub>M</sub></em><em data-effect="italics">H<sub>a</sub></em><em data-effect="italics">p<sub>F</sub></em><em data-effect="italics">p<sub>M</sub></em></p>
+<p class="eng hidden" id="fs-idp120133328">The words <strong>"less than"</strong> tell you the test is left-tailed.</p><p class="vn visible" id="fs-idp120133328-vn">Các từ <strong>"less than"</strong> (nhỏ hơn) cho bạn biết đây là kiểm định đuôi trái.</p>
+<p class="eng hidden" id="fs-idp27327440"><strong>Distribution for the test:</strong> Since this is a test of two population proportions, the distribution is normal:</p><p class="vn visible" id="fs-idp27327440-vn"><strong>Phân phối cho kiểm định:</strong> Vì đây là kiểm định hai tỷ lệ quần thể, phân phối là phân phối chuẩn:</p>
+<p class="eng hidden" id="fs-idm83512624"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>156</mn><mo>+</mo><mn>183</mn>
+</mrow>
+<mrow>
+<mn>2169</mn><mo>+</mo><mn>2231</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mtext>0</mtext><mtext>.077</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>156</mn><mo>+</mo><mn>183</mn>
+</mrow>
+<mrow>
+<mn>2169</mn><mo>+</mo><mn>2231</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mtext>0</mtext><mtext>.077</mtext>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.923</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.923</mn>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span>Therefore,
+      <span data-type="newline"><br/></span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>F</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>M</mi>
+</msub>
+<mo>∼</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.077</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.923</mn><mo stretchy="false">)</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2169</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2231</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>F</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>M</mi>
+</msub>
+<mo>∼</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.077</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.923</mn><mo stretchy="false">)</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2169</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2231</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><em data-effect="italics">p′<sub>F</sub></em> – <em data-effect="italics">p′<sub>M</sub></em> follows an approximate normal distribution.</p><p class="vn visible" id="fs-idm83512624-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>156</mn><mo>+</mo><mn>183</mn>
+</mrow>
+<mrow>
+<mn>2169</mn><mo>+</mo><mn>2231</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mtext>0</mtext><mtext>.077</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>x</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>F</mi>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mi>M</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mn>156</mn><mo>+</mo><mn>183</mn>
+</mrow>
+<mrow>
+<mn>2169</mn><mo>+</mo><mn>2231</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mtext>0</mtext><mtext>.077</mtext>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.923</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mn>1</mn><mo>−</mo><msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo><mn>0.923</mn>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span>Do đó,
+      <span data-type="newline"><br/></span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>F</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>M</mi>
+</msub>
+<mo>∼</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.077</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.923</mn><mo stretchy="false">)</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2169</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2231</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>F</mi>
+</msub>
+<mo>–</mo><msub>
+<msup>
+<mi>p</mi>
+<mo>′</mo>
+</msup>
+<mi>M</mi>
+</msub>
+<mo>∼</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mn>0</mn><mo>,</mo><msqrt>
+<mrow>
+<mo stretchy="false">(</mo><mn>0.077</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>0.923</mn><mo stretchy="false">)</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2169</mn>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mn>2231</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><em data-effect="italics">p′<sub>F</sub></em> – <em data-effect="italics">p′<sub>M</sub></em> tuân theo một phân phối chuẩn xấp xỉ.</p><p class="eng hidden" id="fs-idm37724704"><strong>Calculate the <em data-effect="italics">p</em>-value using the normal distribution:</strong>
+<span data-type="newline"><br/></span><em data-effect="italics">p</em>-value = 0.1045
+<span data-type="newline"><br/></span>Estimated proportion for women: 0.0719
+<span data-type="newline"><br/></span>Estimated proportion for men: 0.082</p><p class="vn visible" id="fs-idm37724704-vn"><strong>Tính p-giá trị <em data-effect="italics">p</em> sử dụng phân phối chuẩn:</strong>
+<span data-type="newline"><br/></span>p-giá trị <em data-effect="italics">p</em> = 0.1045
+<span data-type="newline"><br/></span>Tỷ lệ ước tính cho nữ: 0.0719
+<span data-type="newline"><br/></span>Tỷ lệ ước tính cho nam: 0.082</p><p class="eng hidden" id="fs-idm93495920">Graph: </p><p class="vn visible" id="fs-idm93495920-vn">Đồ thị:</p><div class="os-figure" id="fs-idp39056128"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp39056128">
+<span data-alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.1045." data-display="block" data-type="media" id="fs-idp49042304">
+<button aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.1045." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.1045." data-media-type="image/png" height="334" loading="lazy" src="../assets/img-10-3-2.webp" width="798"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">10.8</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">10.8</span></figcaption></figure></div>
+<p class="eng hidden" id="fs-idm29799616"><strong>Decision:</strong> Since <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value, Do not reject <em data-effect="italics">H<sub>0</sub></em></p><p class="vn visible" id="fs-idm29799616-vn"><strong>Quyết định:</strong> Vì <em data-effect="italics">α</em> &lt; p-giá trị <em data-effect="italics">p</em>, không bác bỏ <em data-effect="italics">H<sub>0</sub></em></p>
+<p class="eng hidden" id="fs-idp51077664"><strong>Conclusion:</strong> At the 1% level of significance, from the sample data, there is not sufficient evidence to conclude that the proportion of women not wearing seat belts is less than the proportion of men not wearing seat belts.
+</p><p class="vn visible" id="fs-idp51077664-vn"><strong>Kết luận:</strong> Tại mức ý nghĩa 1%, từ dữ liệu mẫu, không có đủ bằng chứng để kết luận rằng tỷ lệ phụ nữ không thắt dây an toàn nhỏ hơn tỷ lệ nam giới không thắt dây an toàn.</p>
+</div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="note-00001"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">10.9</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.9</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00001"><header></header><section>
+<div data-type="problem" id="prob-00001"><div class="os-problem-container">
+<p class="eng hidden" id="para-00004">A survey was conducted about the favorable beverage as tea. The data collected is summarized in the table. Is the proportion of men favoring tea more than women favoring tea? Test at a 1% level of significance.</p><p class="vn visible" id="para-00004-vn">Một cuộc khảo sát đã được thực hiện về đồ uống ưa thích là trà. Dữ liệu thu thập được tóm tắt trong bảng. Liệu tỷ lệ nam giới thích trà có nhiều hơn tỷ lệ nữ giới thích trà không? Hãy kiểm định ở mức ý nghĩa 1%.</p>
+<div class="os-table" id="table-00001"><table data-id="table-00001" data-summary=""><thead>
+<tr>
+<th class="eng hidden" data-align="center" scope="col">Men</th><th class="vn visible" data-align="center" scope="col">Nam</th>
+<th class="eng hidden" data-align="center" scope="col">Women</th><th class="vn visible" data-align="center" scope="col">Nữ</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center"><strong>Favor tea</strong></td><td class="vn visible" data-align="center"><strong>Thích trà</strong></td>
+<td class="eng hidden" data-align="center">16</td><td class="vn visible" data-align="center">16</td>
+<td class="eng hidden" data-align="center">18</td><td class="vn visible" data-align="center">18</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center"><strong>Total surveyed</strong></td><td class="vn visible" data-align="center"><strong>Tổng số được khảo sát</strong></td>
+<td class="eng hidden" data-align="center">230</td><td class="vn visible" data-align="center">230</td>
+<td class="eng hidden" data-align="center">218</td><td class="vn visible" data-align="center">218</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.13</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title"><!-- no-selfclose --></span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.13</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title"><!-- no-selfclose --></span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm151141472"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm112689104">Press STAT. Arrow over to TESTS and press 6:2-PropZTest. Arrow down and enter 156 for x1, 2169 for n1, 183 for x2, and 2231 for n2. Arrow down to p1: and arrow to less than p2. Press <code data-type="code">ENTER</code>. Arrow down to Calculate and press ENTER. The <em data-effect="italics">p</em>-value is <em data-effect="italics">P</em> = 0.1045 and the test statistic is <em data-effect="italics">z</em> = -1.256.</p><p class="vn visible" id="fs-idm112689104-vn">Nhấn STAT. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 156 cho x1, 2169 cho n1, 183 cho x2, và 2231 cho n2. Di chuyển xuống p1: và di chuyển đến less than p2. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống Calculate và nhấn ENTER. p-giá trị <em data-effect="italics">p</em> là <em data-effect="italics">P</em> = 0.1045 và thống kê kiểm định là <em data-effect="italics">z</em> = -1.256.</p>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="exam-00001"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">10.10</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.10</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><div class="unnumbered has-problem-title" data-type="exercise" id="exer-00002"><header></header><section>
+<div data-type="problem" id="prob-00002"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="para-00018">A marketing firm claims that the proportion of younger adults who own electric vehicles is greater than the proportion of older adults who own electric vehicles. A random sample of U.S. adults was taken, and the results of the survey indicate the following:</p><p class="vn visible" id="para-00018-vn">Một công ty tiếp thị tuyên bố rằng tỷ lệ người trẻ tuổi sở hữu xe điện lớn hơn tỷ lệ người lớn tuổi sở hữu xe điện. Một mẫu ngẫu nhiên người lớn tại Hoa Kỳ đã được lấy, và kết quả khảo sát cho thấy những điều sau:</p>
+<ul id="list-00001">
+<li class="eng hidden">Out of a sample of 232 older adults (aged 35 or older), 5% own electric vehicles.</li><li class="vn visible">Trong một mẫu gồm 232 người lớn tuổi (từ 35 tuổi trở lên), 5% sở hữu xe điện.</li>
+<li class="eng hidden">Out of a sample of 1,343 young adults (aged 34 or younger), 10% own electric vehicles.</li><li class="vn visible">Trong một mẫu gồm 1,343 người trẻ tuổi (từ 34 tuổi trở xuống), 10% sở hữu xe điện.</li>
+</ul>
+<p class="eng hidden" id="para-00019">Test at the 5% level of significance. Is the proportion of younger adults greater than the proportion of older adults with respect to owning electric vehicles?</p><p class="vn visible" id="para-00019-vn">Kiểm định ở mức ý nghĩa 5%. Liệu tỷ lệ người trẻ tuổi có lớn hơn tỷ lệ người lớn tuổi liên quan đến việc sở hữu xe điện không?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="sol-00002">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="para-00020">This is a test of two population proportions. Let <em data-effect="italics">Y</em> and <em data-effect="italics">O</em> be the subscripts for younger adults and older adults, respectively. Then <em data-effect="italics">pY</em> and <em data-effect="italics">pO</em> are the desired population proportions.</p><p class="vn visible" id="para-00020-vn">Đây là kiểm định hai tỷ lệ quần thể. Gọi <em data-effect="italics">Y</em> và <em data-effect="italics">O</em> lần lượt là các chỉ số cho người trẻ tuổi và người lớn tuổi. Khi đó <em data-effect="italics">pY</em> và <em data-effect="italics">pO</em> là các tỷ lệ quần thể mong muốn.</p>
+<p class="eng hidden" id="para-00021">Random Variable: <em data-effect="italics">p’Y</em> and <em data-effect="italics">p’O</em> = difference in the proportions of younger and older adults who own electric vehicles.</p><p class="vn visible" id="para-00021-vn">Biến ngẫu nhiên: <em data-effect="italics">p’Y</em> và <em data-effect="italics">p’O</em> = sự khác biệt về tỷ lệ người trẻ tuổi và người lớn tuổi sở hữu xe điện.</p>
+<div class="unnumbered" data-type="equation" id="eq-00001">
+<math display="block">
+<semantics>
+<mrow>
+<msub>
+<mi>H</mi>
+<mn>0</mn>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>=</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<msub>
+<mi>H</mi>
+<mn>0</mn>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>−</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msub>
+<mi>H</mi>
+<mn>0</mn>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>=</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<msub>
+<mi>H</mi>
+<mn>0</mn>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>−</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+</annotation-xml>
+</semantics>
+</math>
+</div>
+<div class="unnumbered" data-type="equation" id="eq-00002">
+<math display="block">
+<semantics>
+<mrow>
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>&gt;</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<mo>&gt;</mo>
+<mn>0</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>&gt;</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo>
+<msub>
+<mi>p</mi>
+<mi>Y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>O</mi>
+</msub>
+<mo>&gt;</mo>
+<mn>0</mn>
+</annotation-xml>
+</semantics>
+</math>
+</div>
+<p class="eng hidden" id="para-00022">The words "greater than" indicate that the test is right-tailed.</p><p class="vn visible" id="para-00022-vn">Các từ "greater than" (lớn hơn) chỉ ra rằng đây là kiểm định đuôi phải.</p>
+<p class="eng hidden" id="para-00023">Distribution for the test: The distribution is approximately normal:</p><p class="vn visible" id="para-00023-vn">Phân phối cho kiểm định: Phân phối này xấp xỉ chuẩn:</p>
+<p class="eng hidden" id="para-00024">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>x</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>n</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>134</mn>
+<mo>+</mo>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>1343</mn>
+<mo>+</mo>
+<mn>232</mn>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>x</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>n</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>134</mn>
+<mo>+</mo>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>1343</mn>
+<mo>+</mo>
+<mn>232</mn>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="para-00024-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>x</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>n</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>134</mn>
+<mo>+</mo>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>1343</mn>
+<mo>+</mo>
+<mn>232</mn>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<msub>
+<mi>x</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>x</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>y</mi>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>n</mi>
+<mi>o</mi>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>134</mn>
+<mo>+</mo>
+<mn>12</mn>
+</mrow>
+<mrow>
+<mn>1343</mn>
+<mo>+</mo>
+<mn>232</mn>
+</mrow>
+</mfrac>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="para-00025">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mn>1</mn>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mn>1</mn>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="para-00025-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mn>1</mn>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mn>1</mn>
+<mo>-</mo>
+<msub>
+<mi>p</mi>
+<mi>c</mi>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="para-00026">Therefore,</p><p class="vn visible" id="para-00026-vn">Do đó,</p>
+<p class="eng hidden" id="para-00027">
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mi>p</mi>
+<msub>
+<mo>'</mo>
+<mi>y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>'</mo>
+</msup>
+<mi>O</mi>
+</msub>
+<mo> </mo>
+<mo>~</mo>
+<mi>N</mi>
+<mfenced>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<msqrt>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mfrac>
+<mn>1</mn>
+<mn>1343</mn>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mn>1</mn>
+<mn>232</mn>
+</mfrac>
+<mo>)</mo>
+</msqrt>
+</mrow>
+</mfenced>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mi>p</mi>
+<msub>
+<mo>'</mo>
+<mi>y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>'</mo>
+</msup>
+<mi>O</mi>
+</msub>
+<mo> </mo>
+<mo>~</mo>
+<mi>N</mi>
+<mfenced>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<msqrt>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mfrac>
+<mn>1</mn>
+<mn>1343</mn>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mn>1</mn>
+<mn>232</mn>
+</mfrac>
+<mo>)</mo>
+</msqrt>
+</mrow>
+</mfenced>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="para-00027-vn"><span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<mi>p</mi>
+<msub>
+<mo>'</mo>
+<mi>y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>'</mo>
+</msup>
+<mi>O</mi>
+</msub>
+<mo> </mo>
+<mo>~</mo>
+<mi>N</mi>
+<mfenced>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<msqrt>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mfrac>
+<mn>1</mn>
+<mn>1343</mn>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mn>1</mn>
+<mn>232</mn>
+</mfrac>
+<mo>)</mo>
+</msqrt>
+</mrow>
+</mfenced>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mi>p</mi>
+<msub>
+<mo>'</mo>
+<mi>y</mi>
+</msub>
+<mo>-</mo>
+<msub>
+<msup>
+<mi>p</mi>
+<mo>'</mo>
+</msup>
+<mi>O</mi>
+</msub>
+<mo> </mo>
+<mo>~</mo>
+<mi>N</mi>
+<mfenced>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<msqrt>
+<mn>0</mn>
+<mo>.</mo>
+<mn>0927</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mn>0</mn>
+<mo>.</mo>
+<mn>9073</mn>
+<mo>)</mo>
+<mo>(</mo>
+<mfrac>
+<mn>1</mn>
+<mn>1343</mn>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mn>1</mn>
+<mn>232</mn>
+</mfrac>
+<mo>)</mo>
+</msqrt>
+</mrow>
+</mfenced>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="para-00028"><span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>y</mi></msub><mo>-</mo><msub><msup><mi>p</mi><mo>'</mo></msup><mi>O</mi></msub></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>y</mi></msub><mo>-</mo><msub><msup><mi>p</mi><mo>'</mo></msup><mi>O</mi></msub></annotation-xml></semantics></math></span> follows an approximate normal distribution.</p><p class="vn visible" id="para-00028-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>p</mi><msub><mo>'</mo><mi>y</mi></msub><mo>-</mo><msub><msup><mi>p</mi><mo>'</mo></msup><mi>O</mi></msub></mrow><annotation-xml encoding="MathML-Content"><mi>p</mi><msub><mo>'</mo><mi>y</mi></msub><mo>-</mo><msub><msup><mi>p</mi><mo>'</mo></msup><mi>O</mi></msub></annotation-xml></semantics></math></span> tuân theo một phân phối chuẩn xấp xỉ.</p>
+<p class="eng hidden" id="para-00029">Calculate the <em data-effect="italics">p</em>-value using the normal distribution:<span data-type="newline"><br/></span><em data-effect="italics">p</em>-value = 0.0077<span data-type="newline"><br/></span>Estimated proportion for group Y: 0.10<span data-type="newline"><br/></span>Estimated proportion for group O: 0.05</p><p class="vn visible" id="para-00029-vn">Tính p-giá trị <em data-effect="italics">p</em> sử dụng phân phối chuẩn:<span data-type="newline"><br/></span>p-giá trị <em data-effect="italics">p</em> = 0.0077<span data-type="newline"><br/></span>Tỷ lệ ước tính cho nhóm Y: 0.10<span data-type="newline"><br/></span>Tỷ lệ ước tính cho nhóm O: 0.05</p>
+<p class="eng hidden" id="para-00030">
+<strong>Graph:</strong>
+</p><p class="vn visible" id="para-00030-vn"><strong>Đồ thị:</strong></p>
+<div class="os-figure" id="id12575638"><figure class="scaled-down ui-has-child-figcaption" data-id="id12575638">
+<span data-alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.00004." data-type="media" id="id12575642">
+<button aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.00004." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.00004." data-media-type="image/png" height="321" loading="lazy" src="../assets/img-10-3-3.webp" width="808"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">10.9</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">10.9</span></figcaption></figure></div>
+<p class="eng hidden" id="para-00031"><strong>Decision:</strong> Since  &gt; <em data-effect="italics">p</em>-value, reject the <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>H</mi><mn>0</mn></msub></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="para-00031-vn"><strong>Quyết định:</strong> Vì  &gt; p-giá trị <em data-effect="italics">p</em>, bác bỏ <span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow><annotation-xml encoding="MathML-Content"><msub><mi>H</mi><mn>0</mn></msub></annotation-xml></semantics></math></span>.</p>
+<p class="eng hidden" id="para-00032"><strong>Conclusion:</strong> At the 5% level of significance, from the sample data, there is sufficient evidence to conclude that a larger proportion of younger adults own electric vehicles as compared to older adults.</p><p class="vn visible" id="para-00032-vn"><strong>Kết luận:</strong> Tại mức ý nghĩa 5%, từ dữ liệu mẫu, có đủ bằng chứng để kết luận rằng tỷ lệ người trẻ tuổi sở hữu xe điện lớn hơn so với người lớn tuổi.</p>
+</div>
+</section>
+</details></section></div>
+</div></section></div>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp15799920"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="fs-idm46927376">TI-83+ and TI-84: Press <code data-type="code">STAT</code>. Arrow over to TESTS and press 6:2-PropZTest. Arrow down and enter 135 for x1, 1343 for n1, 12 for x2, and 232 for n2. Arrow down to p1: and arrow to greater than p2. Press <code data-type="code">ENTER</code>. Arrow down to Calculate and press <code data-type="code">ENTER</code>. The P-value is P = 0.0092 and the test statistic is Z = 2.33.</p><p class="vn visible" id="fs-idm46927376-vn">TI-83+ và TI-84: Nhấn <code data-type="code">STAT</code>. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 135 cho x1, 1343 cho n1, 12 cho x2, và 232 cho n2. Di chuyển xuống p1: và di chuyển đến greater than p2. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống Calculate và nhấn <code data-type="code">ENTER</code>. P-giá trị là P = 0.0092 và thống kê kiểm định là Z = 2.33.</p>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="note-00002"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">10.10</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.10</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="para-00033">A government researcher is investigating whether there is a difference in the use of helmets by motorcyclists in different geographic regions for those states where use of helmets is required by law. The research shows that for motorcyclists in the northeast U.S., 7622 out of 113,231 motorcyclists did not wear helmets. In the southeast U.S., 7439 out of 104,873 motorcyclists did not wear helmets. Test at a 5% significance level. Answer the following questions:</p><p class="vn visible" id="para-00033-vn">Một nhà nghiên cứu chính phủ đang điều tra xem liệu có sự khác biệt trong việc sử dụng mũ bảo hiểm của người đi xe máy ở các khu vực địa lý khác nhau đối với những bang mà luật pháp yêu cầu đội mũ bảo hiểm. Nghiên cứu cho thấy đối với người đi xe máy ở vùng Đông Bắc Hoa Kỳ, 7622 trong số 113,231 người không đội mũ bảo hiểm. Ở vùng Đông Nam Hoa Kỳ, 7439 trong số 104,873 người không đội mũ bảo hiểm. Hãy kiểm định ở mức ý nghĩa 5%. Trả lời các câu hỏi sau:</p>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00003"><header></header><section>
+<div data-type="problem" id="prob-00003"><div class="os-problem-container"><p class="eng hidden" id="para-00034">a. Is this a test of two means or two proportions?</p><p class="vn visible" id="para-00034-vn">a. Đây là kiểm định hai số trung bình hay hai tỷ lệ?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00004"><header></header><section>
+<div data-type="problem" id="prob-00004"><div class="os-problem-container"><p class="eng hidden" id="para-00036">b. Which distribution do you use to perform the test?</p><p class="vn visible" id="para-00036-vn">b. Bạn sử dụng phân phối nào để thực hiện kiểm định?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00005"><header></header><section>
+<div data-type="problem" id="prob-00005"><div class="os-problem-container"><p class="eng hidden" id="para-00038">c. What is the random variable?</p><p class="vn visible" id="para-00038-vn">c. Biến ngẫu nhiên là gì?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00006"><header></header><section>
+<div data-type="problem" id="prob-00006"><div class="os-problem-container"><p class="eng hidden" id="para-00041">d. What are the null and alternative hypothesis? Write the null and alternative hypothesis in symbols.</p><p class="vn visible" id="para-00041-vn">d. Giả thuyết không và đối thuyết là gì? Viết giả thuyết không và đối thuyết dưới dạng ký hiệu.</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00007"><header></header><section>
+<div data-type="problem" id="prob-00007"><div class="os-problem-container"><p class="eng hidden" id="para-00045">e. Is this test right-, left-, or two-tailed?</p><p class="vn visible" id="para-00045-vn">e. Đây là kiểm định đuôi phải, đuôi trái hay hai đuôi?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00008"><header></header><section>
+<div data-type="problem" id="prob-00008"><div class="os-problem-container"><p class="eng hidden" id="para-00047">f. What is the p-value?</p><p class="vn visible" id="para-00047-vn">f. p-value là gì?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00009"><header></header><section>
+<div data-type="problem" id="prob-00009"><div class="os-problem-container"><p class="eng hidden" id="para-00049">g. Do you reject or not reject the null hypothesis?</p><p class="vn visible" id="para-00049-vn">g. Bạn bác bỏ hay không bác bỏ giả thuyết không?</p>
+</div></div>
+</section></div>
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00010"><header></header><section>
+<div data-type="problem" id="prob-00010"><div class="os-problem-container"><p class="eng hidden" id="para-00051">h. At the ___ level of significance, from the sample data, there ______ (is/is not) sufficient evidence to conclude that ____________.</p><p class="vn visible" id="para-00051-vn">h. Tại mức ý nghĩa ___, từ dữ liệu mẫu, ______ (có/không có) đủ bằng chứng để kết luận rằng ____________.</p></div></div>
+</section></div>
+</div></section></div>
+</body></html>

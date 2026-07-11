@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../css/style.css" rel="stylesheet"/></head>
+<body>
+<div class="main-content-styles" data-dynamic-style="true" id="main-content" style="--content-text-scale:1" tabindex="-1"><div class="os-eoc os-practice-container" data-book-content="true" data-type="composite-page" data-uuid-key=".practice" id="composite-page-94">
+<h2 data-rex-keep="true" data-type="document-title">
+<span class="os-text">Practice</span>
+</h2>
+<section class="practice" data-depth="1" id="fs-idm135442768"><a aria-label="Go to 13.1 One-Way ANOVA" data-page-fragment="" data-page-slug="13-1-one-way-anova" data-page-uuid="98e8e22b-e3f2-4c29-af16-22ad2d87398d" href="13-1-one-way-anova">
+<h3 data-type="document-title">
+<span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">One-Way ANOVA</span>
+</h3>
+</a>
+<p id="eip-369"><em data-effect="italics">Use the following information to answer the next five exercises.</em> There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?</p>
+<div class="os-hasSolution" data-type="exercise" id="eip-555"><header></header><section>
+<div data-type="problem" id="eip-470">
+<a aria-label="Go to 1" class="os-number" data-page-fragment="eip-555-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">1</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-917">Write one assumption.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-191"><header></header><section>
+<div data-type="problem" id="eip-403">
+<span class="os-number">2</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-920">Write another assumption.</p>
+</div>
+</div>
+</section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-194"><header></header><section>
+<div data-type="problem" id="eip-35">
+<a aria-label="Go to 3" class="os-number" data-page-fragment="eip-194-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">3</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-96">Write a third assumption.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-396"><header></header><section>
+<div data-type="problem" id="eip-488">
+<span class="os-number">4</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-1">Write a fourth assumption.</p>
+</div>
+</div></section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-922"><header></header><section>
+<div data-type="problem" id="eip-459">
+<a aria-label="Go to 5" class="os-number" data-page-fragment="eip-922-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">5</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-531">Write the final assumption.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-550"><header></header><section>
+<div data-type="problem" id="eip-740">
+<span class="os-number">6</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-332">State the null hypothesis for a one-way ANOVA test if there are four groups.</p>
+</div>
+</div>
+</section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-417"><header></header><section>
+<div data-type="problem" id="eip-624">
+<a aria-label="Go to 7" class="os-number" data-page-fragment="eip-417-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">7</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-291">State the alternative hypothesis for a one-way ANOVA test if there are three groups.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-983"><header></header><section>
+<div data-type="problem" id="eip-849">
+<span class="os-number">8</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-274">When do you use an ANOVA test?</p>
+</div>
+</div>
+</section></div>
+</section><section class="practice" data-depth="1" id="fs-idm89796288"><a aria-label="Go to 13.2 The F Distribution and the F-Ratio" data-page-fragment="" data-page-slug="13-2-the-f-distribution-and-the-f-ratio" data-page-uuid="75804770-2fd0-4750-b668-898c101c81a4" href="13-2-the-f-distribution-and-the-f-ratio">
+<h3 data-type="document-title">
+<span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">The F Distribution and the F-Ratio</span>
+</h3>
+</a>
+<p id="eip-723"><em data-effect="italics">Use the following information to answer the next eight exercises.</em> Groups of men from three different areas of the country are to be tested for mean weight. The entries in <a aria-label="View Table 13.13" class="autogenerated-content" href="13-practice#eip-556">Table 13.13</a> are the weights for the different groups.</p><div class="os-table" id="eip-556"><table data-id="eip-556" data-summary=".."><thead>
+<tr><th scope="col">Group 1</th> <th scope="col">Group 2</th> <th scope="col">Group 3</th></tr>
+</thead><tbody>
+<tr><td>216</td> <td>202</td> <td>170</td></tr>
+<tr><td>198</td> <td>213</td> <td>165</td></tr>
+<tr><td>240</td> <td>284</td> <td>182</td></tr>
+<tr><td>187</td> <td>228</td> <td>197</td></tr>
+<tr><td>176</td> <td>210</td> <td>201</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.13</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="os-hasSolution" data-type="exercise" id="eip-317"><header></header><section>
+<div data-type="problem" id="eip-77">
+<a aria-label="Go to 9" class="os-number" data-page-fragment="eip-317-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">9</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-342">What is the Sum of Squares Factor?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-394"><header></header><section><div data-type="problem" id="eip-184">
+<span class="os-number">10</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-338">
+What is the Sum of Squares Error?
+</p>
+</div>
+</div> </section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-617"><header></header><section>
+<div data-type="problem" id="eip-473">
+<a aria-label="Go to 11" class="os-number" data-page-fragment="eip-617-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">11</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-2">What is the <em data-effect="italics">df</em> for the numerator?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-9200"><header></header><section><div data-type="problem" id="eip-47">
+<span class="os-number">12</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-661">What is the <em data-effect="italics">df</em> for the denominator?</p>
+</div>
+</div></section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-297"><header></header><section>
+<div data-type="problem" id="eip-609">
+<a aria-label="Go to 13" class="os-number" data-page-fragment="eip-297-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">13</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-328">What is the Mean Square Factor?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-869"><header></header><section><div data-type="problem" id="eip-383">
+<span class="os-number">14</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-944">What is the Mean Square Error?</p>
+</div>
+</div> </section></div><div class="os-hasSolution" data-type="exercise" id="eip-485"><header></header><section><div data-type="problem" id="eip-502">
+<a aria-label="Go to 15" class="os-number" data-page-fragment="eip-485-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">15</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-44">What is the <em data-effect="italics">F</em> statistic?</p>
+</div>
+</div>
+</section></div>
+<p id="eip-938"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next eight exercises.</em> Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in <a aria-label="View Table 13.14" class="autogenerated-content" href="13-practice#eip-461">Table 13.14</a>.</p><div class="os-table" id="eip-461"><table data-id="eip-461" data-summary=".."><thead><tr><th scope="col">Team 1</th> <th scope="col">Team 2</th> <th scope="col">Team 3</th> <th scope="col">Team 4</th></tr></thead><tbody>
+<tr><td>1</td> <td>2</td> <td>0</td> <td>3</td></tr>
+<tr><td>2</td> <td>3</td> <td>1</td> <td>4</td></tr>
+<tr><td>0</td> <td>2</td> <td>1</td> <td>4</td></tr>
+<tr><td>3</td> <td>4</td> <td>0</td> <td>3</td></tr>
+<tr><td>2</td> <td>4</td> <td>0</td> <td>2</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.14</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><div data-type="exercise" id="eip-380"><header></header><section><div data-type="problem" id="eip-915">
+<span class="os-number">16</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-796">
+What is <em data-effect="italics">SS<sub>between</sub></em>?
+</p>
+</div>
+</div>
+</section></div><div class="os-hasSolution" data-type="exercise" id="eip-3320"><header></header><section>
+<div data-type="problem" id="eip-86">
+<a aria-label="Go to 17" class="os-number" data-page-fragment="eip-332-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">17</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-524">What is the <em data-effect="italics">df</em> for the numerator?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-361"><header></header><section><div data-type="problem" id="eip-211">
+<span class="os-number">18</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-270">What is <em data-effect="italics">MS<sub>between</sub></em>?
+</p></div>
+</div> </section></div><div class="os-hasSolution" data-type="exercise" id="eip-543"><header></header><section>
+<div data-type="problem" id="eip-340">
+<a aria-label="Go to 19" class="os-number" data-page-fragment="eip-543-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">19</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-276">
+What is <em data-effect="italics">SS<sub>within</sub></em>?
+
+</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-200"><header></header><section><div data-type="problem" id="eip-830">
+<span class="os-number">20</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-564">What is the <em data-effect="italics">df</em> for the denominator?</p>
+</div>
+</div> </section></div><div class="os-hasSolution" data-type="exercise" id="eip-91"><header></header><section><div data-type="problem" id="eip-81">
+<a aria-label="Go to 21" class="os-number" data-page-fragment="eip-91-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">21</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-709">What is <em data-effect="italics">MS<sub>within</sub></em>?
+</p></div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-501"><header></header><section><div data-type="problem" id="eip-955">
+<span class="os-number">22</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-653">What is the <em data-effect="italics">F</em> statistic?</p>
+</div>
+</div> </section></div>
+<div class="os-hasSolution" data-type="exercise" id="eip-23"><header></header><section>
+<div data-type="problem" id="eip-715">
+<a aria-label="Go to 23" class="os-number" data-page-fragment="eip-23-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">23</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-695">Judging by the <em data-effect="italics">F</em> statistic, do you think it is likely or unlikely that you will reject the null hypothesis?</p></div>
+</div>
+</section></div>
+</section><section class="practice" data-depth="1" id="fs-idp110212080"><a aria-label="Go to 13.3 Facts About the F Distribution" data-page-fragment="" data-page-slug="13-3-facts-about-the-f-distribution" data-page-uuid="f629ac0a-171c-4e57-9792-eca6b515bb8d" href="13-3-facts-about-the-f-distribution">
+<h3 data-type="document-title">
+<span class="os-number">13.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Facts About the F Distribution</span>
+</h3>
+</a>
+<div data-type="exercise" id="eip-388"><header></header><section><div data-type="problem" id="eip-587">
+<span class="os-number">24</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-772">An <em data-effect="italics">F</em> statistic can have what values?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-707"><header></header><section>
+<div data-type="problem" id="eip-644">
+<a aria-label="Go to 25" class="os-number" data-page-fragment="eip-707-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">25</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-498">What happens to the curves as the degrees of freedom for the numerator and the denominator get larger?</p>
+</div>
+</div>
+</section></div>
+<p id="eip-365"><em data-effect="italics">Use the following information to answer the next seven exercise.</em> Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in <a aria-label="View Table 13.15" class="autogenerated-content" href="13-practice#eip-497">Table 13.15</a>.</p>
+<div class="os-table" id="eip-497"><table data-id="eip-497" data-summary=".."><thead>
+<tr>
+<th scope="col">Team 1</th>
+<th scope="col">Team 2</th>
+<th scope="col">Team 3</th>
+<th scope="col">Team 4</th>
+<th scope="col">Team 5</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>36</td>
+<td>32</td>
+<td>48</td>
+<td>38</td>
+<td>41</td>
+</tr>
+<tr>
+<td>42</td>
+<td>35</td>
+<td>50</td>
+<td>44</td>
+<td>39</td></tr>
+<tr>
+<td>51</td>
+<td>38</td>
+<td>39</td>
+<td>46</td>
+<td>40</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.15</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div data-type="exercise" id="eip-535"><header></header><section><div data-type="problem" id="eip-46">
+<span class="os-number">26</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-642">What is the <em data-effect="italics">df(num)</em>?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-162"><header></header><section><div data-type="problem" id="eip-790">
+<a aria-label="Go to 27" class="os-number" data-page-fragment="eip-162-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">27</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-177">What is the <em data-effect="italics">df(denom)</em>?</p></div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-984"><header></header><section><div data-type="problem" id="eip-100">
+<span class="os-number">28</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-346">What are the Sum of Squares and Mean Squares Factors?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-213"><header></header><section>
+<div data-type="problem" id="eip-514">
+<a aria-label="Go to 29" class="os-number" data-page-fragment="eip-213-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">29</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-826">What are the Sum of Squares and Mean Squares Errors?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-79"><header></header><section><div data-type="problem" id="eip-948">
+<span class="os-number">30</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-534">What is the <em data-effect="italics">F</em> statistic?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-155"><header></header><section><div data-type="problem" id="eip-123">
+<a aria-label="Go to 31" class="os-number" data-page-fragment="eip-155-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">31</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-429">What is the <em data-effect="italics">p</em>-value?</p>
+</div>
+</div>
+</section></div><div data-type="exercise" id="eip-773"><header></header><section><div data-type="problem" id="eip-478">
+<span class="os-number">32</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-385">At the 5% significance level, is there a difference in the mean jump heights among the teams?</p>
+</div>
+</div></section></div><p id="eip-738"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next seven exercises.</em> A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in <a aria-label="View Table 13.16" class="autogenerated-content" href="13-practice#eip-546">Table 13.16</a></p><div class="os-table" id="eip-546"><table data-id="eip-546" data-summary=".."><thead>
+<tr>
+<th scope="col">Group A</th> <th scope="col">Group B</th> <th scope="col">Group C</th></tr></thead><tbody>
+<tr><td>101</td> <td>151</td> <td>101</td></tr>
+<tr><td>108</td> <td>149</td> <td>109</td></tr>
+<tr><td>98</td> <td>160</td> <td>198</td></tr>
+<tr><td>107</td> <td>112</td> <td>186</td></tr>
+<tr><td>111</td> <td>126</td> <td>160</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.16</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><div class="os-hasSolution" data-type="exercise" id="eip-602"><header></header><section><div data-type="problem" id="eip-158">
+<a aria-label="Go to 33" class="os-number" data-page-fragment="eip-602-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">33</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-408">What is the <em data-effect="italics">df(num)</em>?</p>
+</div>
+</div>
+</section></div><div data-type="exercise" id="eip-99"><header></header><section><div data-type="problem" id="eip-435">
+<span class="os-number">34</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-720">What is the <em data-effect="italics">df(denom)</em>?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-9440"><header></header><section>
+<div data-type="problem" id="eip-42">
+<a aria-label="Go to 35" class="os-number" data-page-fragment="eip-944-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">35</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-662">What are the <em data-effect="italics">SS<sub>between</sub></em> and <em data-effect="italics">MS<sub>between</sub></em>?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-264"><header></header><section><div data-type="problem" id="eip-299">
+<span class="os-number">36</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-324">What are the <em data-effect="italics">SS<sub>within</sub></em> and <em data-effect="italics">MS<sub>within</sub></em>?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-105"><header></header><section>
+<div data-type="problem" id="eip-865">
+<a aria-label="Go to 37" class="os-number" data-page-fragment="eip-105-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">37</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-189">What is the <em data-effect="italics">F</em> Statistic?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-56"><header></header><section><div data-type="problem" id="eip-74">
+<span class="os-number">38</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-736">What is the <em data-effect="italics">p</em>-value?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-9201"><header></header><section><div data-type="problem" id="eip-10">
+<a aria-label="Go to 39" class="os-number" data-page-fragment="eip-920-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">39</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-933">At the 10% significance level, are the scores among the different groups different?</p>
+</div>
+</div>
+</section></div>
+<p id="element-577"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.
+</p><div class="os-table" id="element-25"><table data-id="element-25" data-summary=""><thead><tr>
+<th scope="col">
+</th><th scope="col">
+Northeast
+</th>
+<th scope="col">
+South
+</th>
+<th scope="col">
+West
+</th>
+<th scope="col">
+Central
+</th>
+<th scope="col">
+East
+</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>
+</td><td>16.3</td>
+<td>16.9</td>
+<td>16.4</td>
+<td>16.2</td>
+<td>17.1</td>
+</tr>
+<tr>
+<td>
+</td><td>16.1</td>
+<td>16.5</td>
+<td>16.5</td>
+<td>16.6</td>
+<td>17.2</td>
+</tr>
+<tr>
+<td>
+</td><td>16.4</td>
+<td>16.4</td>
+<td>16.6</td>
+<td>16.5</td>
+<td>16.6</td>
+</tr>
+<tr>
+<td>
+</td><td>16.5</td>
+<td>16.2</td>
+<td>16.1</td>
+<td>16.4</td>
+<td>16.8</td>
+</tr>
+<tr>
+<td>
+<math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>=</mo>
+</mrow></annotation-xml></semantics></math>
+</td>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+<math display="inline"><semantics><mrow>
+<mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<mo>=</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<mo>=</mo>
+</mrow></annotation-xml></semantics></math>
+</td>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.17</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p id="element-749">Enter the data into your calculator or computer.</p>
+<div data-type="exercise" id="fs-idm77454416"><header></header><section><div data-type="problem" id="id47591494">
+<span class="os-number">40</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="element-801"><em data-effect="italics">p</em>-value = ______</p></div>
+</div></section></div><p id="element-48"><em data-effect="italics">State the decisions and conclusions (in complete sentences) for the following preconceived levels of α</em>.</p>
+<div data-type="exercise" id="fs-idm138666704"><header></header><section>
+<div data-type="problem" id="id47591590">
+<span class="os-number">41</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="element-506"><em data-effect="italics">α</em> = 0.05</p>
+<p id="element-950">a. Decision: ____________________________</p>
+<p id="element-2384687">b. Conclusion: ____________________________</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="exercisemern"><header></header><section>
+<div data-type="problem" id="id47591672">
+<span class="os-number">42</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="element-768"><em data-effect="italics">α</em> = 0.01</p>
+<p id="element-354">a. Decision: ____________________________</p>
+<p id="element-2307872938759">b. Conclusion: ____________________________</p>
+</div>
+</div>
+</section></div>
+</section><section class="practice" data-depth="1" id="fs-idp71959552"><a aria-label="Go to 13.4 Test of Two Variances" data-page-fragment="" data-page-slug="13-4-test-of-two-variances" data-page-uuid="9f819829-f4a3-4a3b-9425-65cb66c078b4" href="13-4-test-of-two-variances">
+<h3 data-type="document-title">
+<span class="os-number">13.4</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Test of Two Variances</span>
+</h3>
+</a>
+<p id="eip-137"><em data-effect="italics">Use the following information to answer the next two exercises.</em> There are two assumptions that must be true in order to perform an <em data-effect="italics">F</em> test of two variances.</p>
+<div class="os-hasSolution" data-type="exercise" id="eip-801"><header></header><section>
+<div data-type="problem" id="eip-9441">
+<a aria-label="Go to 43" class="os-number" data-page-fragment="eip-801-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">43</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-974">Name one assumption that must be true.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-4171"><header></header><section><div data-type="problem" id="eip-547">
+<span class="os-number">44</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-519">What is the other assumption that must be true?</p>
+</div>
+</div></section></div><p id="eip-491"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next five exercises.</em> Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.</p><div class="os-hasSolution" data-type="exercise" id="eip-119"><header></header><section>
+<div data-type="problem" id="eip-296">
+<a aria-label="Go to 45" class="os-number" data-page-fragment="eip-119-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">45</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-677">State the null and alternative hypotheses.</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-113"><header></header><section><div data-type="problem" id="eip-406">
+<span class="os-number">46</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-863">What is <em data-effect="italics">s</em><sub>1</sub> in this problem?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-941"><header></header><section>
+<div data-type="problem" id="eip-178">
+<a aria-label="Go to 47" class="os-number" data-page-fragment="eip-941-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">47</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-936">What is <em data-effect="italics">s</em><sub>2</sub> in this problem?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-646"><header></header><section><div data-type="problem" id="eip-616">
+<span class="os-number">48</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-82">What is <em data-effect="italics">n</em>?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-416"><header></header><section>
+<div data-type="problem" id="eip-856">
+<a aria-label="Go to 49" class="os-number" data-page-fragment="eip-416-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">49</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-911">What is the <em data-effect="italics">F</em> statistic?</p></div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-249"><header></header><section><div data-type="problem" id="eip-144">
+<span class="os-number">50</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-895">What is the <em data-effect="italics">p</em>-value?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-464"><header></header><section>
+<div data-type="problem" id="eip-398">
+<a aria-label="Go to 51" class="os-number" data-page-fragment="eip-464-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">51</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-93">Is the claim accurate?</p>
+</div>
+</div>
+</section></div>
+<p id="eip-896"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next four exercises.</em> Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.</p><div data-type="exercise" id="eip-292"><header></header><section><div data-type="problem" id="eip-5141">
+<span class="os-number">52</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-548">State the null and alternative hypotheses.</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-932"><header></header><section>
+<div data-type="problem" id="eip-69">
+<a aria-label="Go to 53" class="os-number" data-page-fragment="eip-932-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">53</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-293">What is the <em data-effect="italics">F</em> Statistic?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-694"><header></header><section><div data-type="problem" id="eip-125">
+<span class="os-number">54</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-890">What is the <em data-effect="italics">p</em>-value?</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-792"><header></header><section>
+<div data-type="problem" id="eip-386">
+<a aria-label="Go to 55" class="os-number" data-page-fragment="eip-792-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">55</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-39">At the 5% significance level, do we reject the null hypothesis?</p>
+</div>
+</div>
+</section></div>
+<p id="eip-225"><span data-type="newline"><br/></span><em data-effect="italics">Use the following information to answer the next three exercises.</em> Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed.</p><div data-type="exercise" id="eip-827"><header></header><section><div data-type="problem" id="eip-966">
+<span class="os-number">56</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-290">State the null and alternative hypotheses.</p>
+</div>
+</div></section></div><div class="os-hasSolution" data-type="exercise" id="eip-366"><header></header><section>
+<div data-type="problem" id="eip-939">
+<a aria-label="Go to 57" class="os-number" data-page-fragment="eip-366-solution" data-page-slug="13-solutions" data-page-uuid="f2ed519f-3a52-529c-8b5e-bbae0e39f31b" href="13-solutions">57</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-201">What is the <em data-effect="italics">F</em> Statistic?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="eip-146"><header></header><section><div data-type="problem" id="eip-6021">
+<span class="os-number">58</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="eip-777">At the 5% significance level, what can we say about the cyclists’ variances?</p>
+</div>
+</div></section></div></section>
+</div>
+</div>
+</body></html>

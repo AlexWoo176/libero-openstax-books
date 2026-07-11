@@ -1,0 +1,15 @@
+# Translation Run Report (Provider: gemini-api): Chapter 11
+
+- **Book:** introductory-statistics-2e
+- **Run Time:** 2026-07-10 06:04:30 UTC
+- **Provider:** gemini-api
+- **Engine/Model:** gemma-4-31b-it
+- **Batch Size:** 50
+- **Resume Mode:** False
+- **Resulting Status:** TRANSLATED
+
+## Summary Details
+
+| File Name | Status | Blocks | Details / Errors |
+|---|---|---|---|
+| `11-key-terms.html` | SUCCESS | 3 | - |

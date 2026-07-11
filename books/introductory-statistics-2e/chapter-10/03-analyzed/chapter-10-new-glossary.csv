@@ -1,0 +1,11 @@
+﻿key,translation,options,desc_en,desc_vi,chapter,status,notes
+"cohen's d"              , "Cohen's d"         , "", "approved", "", 10, "approved", ""
+"degrees of freedom (df)", "Bậc tự do"         , "", "approved", "", 10, "approved", ""
+"independent groups"     , "Các nhóm độc lập"  , "", "approved", "", 10, "approved", ""
+"matched pairs"          , "Cặp ghép đôi"      , "", "approved", "", 10, "approved", ""
+"normal distribution"    , "phân phối chuẩn"   , "", "approved", "", 10, "approved", ""
+"pooled proportion"      , "Tỷ lệ gộp chung"   , "", "approved", "", 10, "approved", ""
+"random variable"        , "biến ngẫu nhiên"   , "", "approved", "", 10, "approved", ""
+"standard error"         , "Sai số chuẩn"      , "", "approved", "", 10, "approved", ""
+"test statistic"         , "Thống kê kiểm định", "", "approved", "", 10, "approved", ""
+"the standard deviation" , ""                  , "", "", "", 10, "proposal", ""

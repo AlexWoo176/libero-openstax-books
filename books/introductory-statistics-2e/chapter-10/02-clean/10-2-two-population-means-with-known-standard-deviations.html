@@ -1,0 +1,1028 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  
+</head>
+<body>
+<h2 data-type="document-title" id="page_fd6ad405-a183-41c3-b152-44cabe4b4890_titlecreatedbycookbook" data-rex-keep="true"><span class="os-number">10.2</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Two Population Means with Known Standard Deviations</span>
+</h2>
+
+<p id="element-38123">Even though this situation is not likely (knowing the population standard deviations is not likely), the following example illustrates hypothesis testing for independent means, known population standard deviations. The sampling distribution for the difference between the means is normal and both populations must be normal. The random variable is <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+  <mover accent="true">
+   <mrow>
+    <msub>
+     <mi>X</mi>
+     <mn>1</mn>
+    </msub>
+
+   </mrow>
+   <mo stretchy="true">¯</mo>
+  </mover>
+  <mo>–</mo><mover accent="true">
+   <mrow>
+    <msub>
+     <mi>X</mi>
+     <mn>2</mn>
+    </msub>
+
+   </mrow>
+   <mo stretchy="true">¯</mo>
+  </mover>
+
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mover accent="true">
+   <mrow>
+    <msub>
+     <mi>X</mi>
+     <mn>1</mn>
+    </msub>
+
+   </mrow>
+   <mo stretchy="true">¯</mo>
+  </mover>
+  <mo>–</mo><mover accent="true">
+   <mrow>
+    <msub>
+     <mi>X</mi>
+     <mn>2</mn>
+    </msub>
+
+   </mrow>
+   <mo stretchy="true">¯</mo>
+  </mover>
+
+ </mrow></annotation-xml></semantics></math></span>. The normal distribution has the following format:
+</p><div data-type="equation" class="unnumbered" id="normal" data-label=""><span data-type="title"><span data-type="term" id="term-00001" group-by="N">Normal distribution</span> is:</span><math display="block"><semantics><mrow>
+ <mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mo>–</mo><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+  <mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+   <msub>
+    <mi>μ</mi>
+    <mn>1</mn>
+   </msub>
+   <mo>–</mo><msub>
+    <mi>μ</mi>
+    <mn>2</mn>
+   </msub>
+   <mo>,</mo><msqrt>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo><msub>
+          <mi>σ</mi>
+          <mn>1</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mn>1</mn>
+       </msub>
+
+      </mrow>
+     </mfrac>
+     <mo>+</mo><mfrac>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo><msub>
+          <mi>σ</mi>
+          <mn>2</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mn>2</mn>
+       </msub>
+
+      </mrow>
+     </mfrac>
+
+    </mrow>
+   </msqrt>
+
+  </mrow> <mo>]</mo></mrow>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mo>–</mo><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+  <mo>~</mo><mi>N</mi><mrow><mo>[</mo> <mrow>
+   <msub>
+    <mi>μ</mi>
+    <mn>1</mn>
+   </msub>
+   <mo>–</mo><msub>
+    <mi>μ</mi>
+    <mn>2</mn>
+   </msub>
+   <mo>,</mo><msqrt>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo><msub>
+          <mi>σ</mi>
+          <mn>1</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mn>1</mn>
+       </msub>
+
+      </mrow>
+     </mfrac>
+     <mo>+</mo><mfrac>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo><msub>
+          <mi>σ</mi>
+          <mn>2</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mn>2</mn>
+       </msub>
+
+      </mrow>
+     </mfrac>
+
+    </mrow>
+   </msqrt>
+
+  </mrow> <mo>]</mo></mrow>
+ </mrow></annotation-xml></semantics></math></div>
+
+
+
+<div data-type="equation" class="unnumbered" id="element-970" data-label=""><div data-type="title"><span data-type="term" id="term-00002" group-by="T">The standard deviation</span> is:</div>
+<math display="block"><semantics><mrow>
+   <mrow>
+    <msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>1</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>1</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>2</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>2</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow>
+  </mrow><annotation-xml encoding="MathML-Content"><mrow>
+    <msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>1</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>1</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>2</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>2</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow></annotation-xml></semantics></math>
+ </div>
+ 
+ <div data-type="equation" class="unnumbered" id="element-465" data-label=""><div data-type="title"><strong>The <span data-type="term" id="term-00003" group-by="t">test statistic</span> (<em data-effect="italics">z</em>-score) is:</strong></div><math display="block"><semantics><mrow>
+ <mrow>
+  <mi>z</mi><mo>=</mo><mfrac>
+   <mrow>
+    <mo stretchy="false">(</mo><msub>
+     <mover accent="true">
+      <mi>x</mi>
+      <mo>¯</mo>
+     </mover>
+
+     <mn>1</mn>
+    </msub>
+    <mo>–</mo><msub>
+     <mover accent="true">
+      <mi>x</mi>
+      <mo>¯</mo>
+     </mover>
+
+     <mn>2</mn>
+    </msub>
+    <mo stretchy="false">)</mo><mo>–</mo><mo stretchy="false">(</mo><msub>
+     <mi>μ</mi>
+     <mn>1</mn>
+    </msub>
+    <mo>–</mo><msub>
+     <mi>μ</mi>
+     <mn>2</mn>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </mrow>
+   <mrow>
+    <msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>1</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>1</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>2</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>2</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow>
+  </mfrac>
+
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <mi>z</mi><mo>=</mo><mfrac>
+   <mrow>
+    <mo stretchy="false">(</mo><msub>
+     <mover accent="true">
+      <mi>x</mi>
+      <mo>¯</mo>
+     </mover>
+
+     <mn>1</mn>
+    </msub>
+    <mo>–</mo><msub>
+     <mover accent="true">
+      <mi>x</mi>
+      <mo>¯</mo>
+     </mover>
+
+     <mn>2</mn>
+    </msub>
+    <mo stretchy="false">)</mo><mo>–</mo><mo stretchy="false">(</mo><msub>
+     <mi>μ</mi>
+     <mn>1</mn>
+    </msub>
+    <mo>–</mo><msub>
+     <mi>μ</mi>
+     <mn>2</mn>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </mrow>
+   <mrow>
+    <msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>1</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>1</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo><msub>
+           <mi>σ</mi>
+           <mn>2</mn>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>2</mn>
+        </msub>
+
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow>
+  </mfrac>
+
+ </mrow></annotation-xml></semantics></math>
+</div><div data-type="example" id="element-364" class="ui-has-child-title"><header><h3 class="os-title">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">10.6</span>
+  <span class="os-divider"> </span>
+</h3></header><section>
+<div class="body">
+<p id="element-384"><strong>Independent groups, population standard deviations known:</strong> The
+  mean lasting time of two competing floor waxes is to be compared. <strong>Twenty floors</strong> are randomly assigned <strong>to test each wax</strong>. Both populations have a normal distributions. The data are recorded in <a href="10-2-two-population-means-with-known-standard-deviations#table-12" class="autogenerated-content" aria-label="View Table 10.10">Table 10.10</a>.
+</p><div class="os-table" id="table-12"><table data-id="table-12" data-summary="This table has wax in the first column, sample mean in the second column, and standard deviation in the third column. There are two rows."><thead>
+<tr>
+<th scope="col">Wax</th>
+<th scope="col">Sample Mean Number of Months Floor Wax Lasts</th>
+<th scope="col">Population Standard Deviation</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>0.33</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2.9</td>
+<td>0.36</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.10</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+  <div data-type="exercise" id="element-144" class="unnumbered has-problem-title"><header></header><section><div data-type="problem" id="id48398874"><h4 data-type="problem-title">
+  <span class="os-title-label">Problem</span>
+</h4>
+<div class="os-problem-container">
+  <p id="element-656">Does the data indicate that <strong>wax 1 is more effective than wax 2</strong>? Test at a 5% level of
+significance.</p>
+</div></div>
+
+<details data-type="solution" id="id48398901" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title">
+  <span class="os-title-label">Solution</span>
+</h4>
+<div class="os-solution-container">
+  <p id="element-795">This is a test of two independent groups, two population means, population standard deviations known.</p>
+ <p id="element-483"><span data-type="term" id="term-00004" group-by="R">Random Variable</span>: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mtext>–&nbsp;</mtext><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mtext>–&nbsp;</mtext><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+
+ </mrow></annotation-xml></semantics></math></span> = difference in the mean number of months the competing floor waxes last.</p><p id="element-735"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> ≤ <em data-effect="italics">μ</em><sub>2</sub></p><p id="element-608"><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> &gt; <em data-effect="italics">μ<sub>2</sub></em></p>
+ <p id="element-696">The words <strong>"is more effective"</strong> says that <strong>wax 1 lasts longer than wax 2</strong>, on average. "Longer" is a “&gt;” symbol and goes into <em data-effect="italics">H<sub>a</sub></em>. Therefore, this is a right-tailed test.</p>
+ <p id="element-690"><strong>Distribution for the test:</strong> The population standard deviations are known so the distribution is normal. Using the formula, the distribution is:</p>
+
+<p id="element-406"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+        <msub>
+        <mover accent="true">
+          <mi>X</mi>
+          <mo>¯</mo>
+        </mover>
+        <mi>1</mi>
+      </msub>
+  <mo>–</mo>
+        <msub>
+        <mover accent="true">
+          <mi>X</mi>
+          <mo>¯</mo>
+        </mover>
+        <mi>2</mi>
+      </msub>
+  <mo>~</mo><mi>N</mi><mrow><mo>(</mo>
+   <mrow>
+    <mn>0</mn><mo>,</mo><msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mn>0.33</mn>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <mn>20</mn>
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mn>0.36</mn>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <mn>20</mn>
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow>
+  <mo>)</mo></mrow>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+        <msub>
+        <mover accent="true">
+          <mi>X</mi>
+          <mo>¯</mo>
+        </mover>
+        <mi>1</mi>
+      </msub>
+  <mo>–</mo>
+        <msub>
+        <mover accent="true">
+          <mi>X</mi>
+          <mo>¯</mo>
+        </mover>
+        <mi>2</mi>
+      </msub>
+  <mo>~</mo><mi>N</mi><mrow><mo>(</mo>
+   <mrow>
+    <mn>0</mn><mo>,</mo><msqrt>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mn>0.33</mn>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <mn>20</mn>
+       </mrow>
+      </mfrac>
+      <mo>+</mo><mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mn>0.36</mn>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+
+       </mrow>
+       <mrow>
+        <mn>20</mn>
+       </mrow>
+      </mfrac>
+
+     </mrow>
+    </msqrt>
+
+   </mrow>
+  <mo>)</mo></mrow>
+ </mrow></annotation-xml></semantics></math></span>
+</p><p id="element-990">Since <em data-effect="italics">μ<sub>1</sub></em> ≤ <em data-effect="italics">μ<sub>2</sub></em> then <em data-effect="italics">μ<sub>1</sub></em> – <em data-effect="italics">μ<sub>2</sub></em> ≤ 0 and the mean for the normal distribution is zero.</p><p id="element-503"><strong>Calculate the <em data-effect="italics">p</em>-value using the normal distribution:</strong> <em data-effect="italics">p</em>-value = 0.1799</p>
+
+ <p id="element-542">
+  <strong>Graph:</strong>
+</p>
+ <div class="os-figure" id="hyptest22_cmp_2_1"><figure class="scaled-down ui-has-child-figcaption" data-id="hyptest22_cmp_2_1">
+  <span data-type="media" id="id48414007" data-alt="This is a normal distribution curve with mean equal to zero. The values 0 and 0.1 are labeled on the horiztonal axis. A vertical line extends from 0.1 to the curve. The region under the curve to the right of the line is shaded to represent p-value = 0.1799."><button type="button" aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to zero. The values 0 and 0.1 are labeled on the horiztonal axis. A vertical line extends from 0.1 to the curve. The region under the curve to the right of the line is shaded to represent p-value = 0.1799." class="image-button-wrapper"><img src="../assets/img-10-2-1.webp" data-media-type="image/png" alt="This is a normal distribution curve with mean equal to zero. The values 0 and 0.1 are labeled on the horiztonal axis. A vertical line extends from 0.1 to the curve. The region under the curve to the right of the line is shaded to represent p-value = 0.1799." width="807" height="391" loading="lazy"></button>
+ </span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.5</span>
+
+
+
+  
+  
+</figcaption></figure></div>
+
+ <p id="element-311"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+  <mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>1</mn>
+   </msub>
+
+  </mrow>
+ </mrow><annotation-xml encoding="MathML-Content"><mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>1</mn>
+   </msub>
+
+  </mrow></annotation-xml></semantics></math></span> – <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+  <mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>2</mn>
+   </msub>
+
+  </mrow>
+ </mrow><annotation-xml encoding="MathML-Content"><mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>2</mn>
+   </msub>
+
+  </mrow></annotation-xml></semantics></math></span> = 3 – 2.9 = 0.1</p><p id="element-803"><strong>Compare <em data-effect="italics">α</em> and the <em data-effect="italics">p</em>-value:</strong> <em data-effect="italics">α</em> = 0.05 and <em data-effect="italics">p</em>-value = 0.1799. Therefore, <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value.</p>
+
+ <p id="element-962"><strong>Make a decision:</strong> Since <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value, do not reject <em data-effect="italics">H<sub>0</sub></em>.</p>
+
+ <p id="element-132"><strong>Conclusion:</strong> At the 5% level of significance, from the sample data, there is not
+ sufficient evidence to conclude that the mean time wax 1 lasts is longer (wax 1 is more effective) than the mean time wax 2 lasts.</p>
+
+<div data-type="note" data-has-label="true" id="fs-idp34028208" class="statistics calculator ui-has-child-title" data-label=""><header><h3 class="os-title" data-type="title">
+  <span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3></header><section>
+<div class="os-note-body">
+<p id="eip-idp126677488">Press <code data-type="code">STAT</code>. Arrow over to <code data-type="code">TESTS</code> and press <code data-type="code">3:2-SampZTest</code>. Arrow over to <code data-type="code">Stats</code> and press <code data-type="code">ENTER</code>. Arrow down and enter <code data-type="code">.33</code> for sigma1, <code data-type="code">.36</code> for sigma2, <code data-type="code">3</code> for the first sample mean, <code data-type="code">20</code> for n1, <code data-type="code">2.9</code> for the second sample mean, and <code data-type="code">20</code> for n2. Arrow down to <em data-effect="italics">μ</em>1: and arrow to &gt; <em data-effect="italics">μ</em><sub>2</sub>. Press <code data-type="code">ENTER</code>. Arrow down to <code data-type="code">Calculate</code> and press <code data-type="code">ENTER</code>. The <em data-effect="italics">p</em>-value is <em data-effect="italics">p</em> = 0.1799 and the test statistic is 0.9157. Do the procedure again, but instead of <code data-type="code">Calculate</code> do <code data-type="code">Draw</code>.</p></div></section></div></div>
+</section>
+      </details>
+</section></div></div></section></div>
+
+
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idm64723040" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">10.6</span>
+</h3></header><section>
+<div class="os-note-body">
+
+<div data-type="exercise" id="fs-idm106881952" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idm49756528"><div class="os-problem-container">
+ <p id="fs-idm99590512">The means of the number of revolutions per minute of two competing engines are to be compared. Thirty engines of each type are randomly assigned to be tested. Both populations have normal distributions. <a href="10-2-two-population-means-with-known-standard-deviations#fs-idm13177248" class="autogenerated-content" aria-label="View Table 10.11">Table 10.11</a> shows the result. Do the data indicate that Engine 2 has higher RPM than Engine 1? Test at a 5% level of significance.</p><div class="os-table" id="fs-idm13177248"><table data-id="fs-idm13177248" data-summary=""><thead><tr><th scope="col">Engine</th><th scope="col">Sample Mean Number of RPM</th><th scope="col">Population Standard Deviation</th></tr></thead><tbody>
+<tr><td>1</td><td>1,500</td><td>50</td></tr>
+<tr><td>2</td><td>1,600</td><td>60</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.11</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+
+</div></div>
+</section></div></div></section></div>
+
+ 
+
+ <div data-type="example" id="fs-idm64896800" class="ui-has-child-title"><header><h3 class="os-title">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">10.7</span>
+  <span class="os-divider"> </span>
+</h3></header><section>
+<div class="body"><p id="fs-idm105362096">An interested citizen wanted to know if Democratic U. S. senators are older than
+  Republican U.S. senators, on average. During a certain year, the mean age of 30 randomly selected Republican Senators was 61 years 247 days old (61.675 years) with a standard deviation of 10.17 years. The mean age of 30 randomly selected Democratic senators was 61 years 257 days old (61.704 years) with a standard deviation of 9.55 years.</p>
+
+<div data-type="exercise" id="fs-idm75569648" class="unnumbered has-problem-title"><header></header><section>
+<div data-type="problem" id="fs-idm112885376"><h4 data-type="problem-title">
+  <span class="os-title-label">Problem</span>
+</h4>
+<div class="os-problem-container">
+ <p id="fs-idm126341728">Do the data indicate that Democratic senators are older than Republican senators, on average? Test at a 5% level of significance.</p>
+</div></div>
+<details data-type="solution" id="fs-idm81176960" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title">
+  <span class="os-title-label">Solution</span>
+</h4>
+<div class="os-solution-container">
+<p id="fs-idm81176832">This is a test of two independent groups, two population means. The population standard deviations are unknown, but the sum of the sample sizes is 30 + 30 = 60, which is greater than 30, so we can use the normal approximation to the Student’s-t distribution.  Subscripts: 1: Democratic senators 2: Republican senators</p>
+
+ <p id="fs-idm127611248"><strong>Random variable:</strong> <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+  <mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>1</mn>
+   </msub>
+   <mtext>&nbsp;–&nbsp;</mtext><msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>2</mn>
+   </msub>
+
+  </mrow>
+ </mrow><annotation-xml encoding="MathML-Content"><mrow>
+   <msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>1</mn>
+   </msub>
+   <mtext>&nbsp;–&nbsp;</mtext><msub>
+    <mover accent="true">
+     <mi>X</mi>
+     <mo>¯</mo>
+    </mover>
+
+    <mn>2</mn>
+   </msub>
+
+  </mrow></annotation-xml></semantics></math></span> = difference in the mean age of Democratic and Republican U.S. senators.</p>
+
+ <p id="fs-idm49757440"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">µ<sub>1</sub></em> ≤ <em data-effect="italics">µ<sub>2</sub></em> <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">µ<sub>1</sub></em> – <em data-effect="italics">µ<sub>2</sub></em>  ≤ 0</p>
+<p id="fs-idm175162192"><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">µ<sub>1</sub></em> &gt; <em data-effect="italics">µ<sub>2</sub></em> <em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">µ<sub>1</sub></em> – <em data-effect="italics">µ<sub>2</sub></em> &gt; 0</p>
+
+<p id="fs-idm173135600">The words "older than" translates as a “&gt;” symbol and goes into <em data-effect="italics">H<sub>a</sub></em>. Therefore, this is a right-tailed test.</p><p id="fs-idm102148192"><strong>Distribution for the test:</strong> The distribution is the normal approximation to the Student’s <em data-effect="italics">t</em> for means, independent groups. Using the formula, the distribution is: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+ <mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mo>–</mo><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+  <mo>∼</mo><mi>N</mi><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msqrt>
+   <mrow>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo><mn>9.55</mn><mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+
+     </mrow>
+     <mrow>
+      <mn>30</mn>
+     </mrow>
+    </mfrac>
+    <mo>+</mo><mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo><mn>10.17</mn><mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+
+     </mrow>
+     <mrow>
+      <mn>30</mn>
+     </mrow>
+    </mfrac>
+
+   </mrow>
+  </msqrt>
+  <mo stretchy="false">]</mo>
+ </mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+  <msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>1</mn>
+  </msub>
+  <mo>–</mo><msub>
+   <mover accent="true">
+    <mi>X</mi>
+    <mo>¯</mo>
+   </mover>
+
+   <mn>2</mn>
+  </msub>
+  <mo>∼</mo><mi>N</mi><mo stretchy="false">[</mo><mn>0</mn><mo>,</mo><msqrt>
+   <mrow>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo><mn>9.55</mn><mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+
+     </mrow>
+     <mrow>
+      <mn>30</mn>
+     </mrow>
+    </mfrac>
+    <mo>+</mo><mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo><mn>10.17</mn><mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+
+     </mrow>
+     <mrow>
+      <mn>30</mn>
+     </mrow>
+    </mfrac>
+
+   </mrow>
+  </msqrt>
+  <mo stretchy="false">]</mo>
+ </mrow></annotation-xml></semantics></math></span></p><p id="fs-idp2020752">Since <em data-effect="italics">µ<sub>1</sub></em> ≤ <em data-effect="italics">µ<sub>2</sub></em>, <em data-effect="italics">µ<sub>1</sub></em> – <em data-effect="italics">µ<sub>2</sub></em> ≤ 0 and the mean for the normal distribution is zero.</p><p id="fs-idm100426736"><strong>(Calculating the <em data-effect="italics">p</em>-value using the normal distribution gives</strong> <em data-effect="italics">p</em>-value = 0.4955)</p><p id="fs-idm98812432"><strong>Graph:</strong>
+ </p><div class="os-figure" id="fs-idp45038880"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp45038880">
+  <span data-type="media" id="fs-idm86987792" data-alt="This is a normal distribution curve with mean equal to zero. A vertical line to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.4955." data-display="block">
+<button type="button" aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to zero. A vertical line to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.4955." class="image-button-wrapper"><img src="../assets/img-10-2-2.webp" data-media-type="image/png" alt="This is a normal distribution curve with mean equal to zero. A vertical line to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.4955." width="691" height="330" loading="lazy"></button>
+</span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.6</span>
+
+
+
+  
+  
+</figcaption></figure></div><p id="fs-idm41062352"><strong>Compare <em data-effect="italics">α</em> and the <em data-effect="italics">p</em>-value:</strong> <em data-effect="italics">α</em> = 0.05 and <em data-effect="italics">p</em>-value = 0.4955. Therefore, <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value.</p><p id="fs-idm49745696"><strong>Make a decision:</strong> Since <em data-effect="italics">α</em> &lt; <em data-effect="italics">p</em>-value, do not reject <em data-effect="italics">H<sub>0</sub></em>.</p>
+
+<p id="fs-idm113348080"><strong>Conclusion:</strong> At the 5% level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of Democratic senators is greater than the mean age of the Republican senators.</p>
+</div>
+</section>
+      </details>
+</section></div>
+</div></section></div>
+
+<div data-type="note" data-has-label="true" class="statistics try ui-has-child-title" id="note-00001" data-label=""><header><h3 class="os-title">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">10.7</span>
+</h3></header><section>
+<div class="os-note-body">
+  <div data-type="exercise" id="exer-00001" class="unnumbered os-hasSolution"><header></header><section>
+  <div data-type="problem" id="prob-00001"><div class="os-problem-container">
+  <p id="para-00001">The average age of 10 professors selected randomly in university A is 46.672 with a standard deviation of 8.53. The average age of 10 professors selected randomly in university B is 47.531 with a standard deviation of 7.83.</p>
+  <p id="para-00002">Does the data indicate that university A has older professors than university B, on average? Test at a 5% level of significance.</p>
+  </div></div>
+  
+  </section></div>
+  </div></section></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+</body></html>

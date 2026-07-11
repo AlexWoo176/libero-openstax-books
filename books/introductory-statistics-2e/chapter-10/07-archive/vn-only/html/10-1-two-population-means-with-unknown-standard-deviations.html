@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/></head>
+<body>
+<h2 data-rex-keep="true" data-type="document-title" id="page_01e79f95-f1ac-4eab-bc98-375b3e0c6948_titlecreatedbycookbook-vn"><span class="os-number">10.1</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Hai số trung bình quần thể với các độ lệch chuẩn chưa biết</span></h2>
+<ol id="element-984">
+<li>Hai mẫu độc lập là các mẫu ngẫu nhiên đơn giản từ hai quần thể riêng biệt.</li>
+<li>For the two distinct populations:
+<ul id="fs-idm39244848">
+<li>nếu kích thước mẫu nhỏ, các phân phối là quan trọng (nên là phân phối chuẩn)</li>
+<li>nếu kích thước mẫu lớn, các phân phối không quan trọng (không cần phải là phân phối chuẩn)</li>
+</ul>
+</li>
+</ol>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm107349216"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">Lưu ý:</span></h3></header><section>
+<div class="os-note-body"><p id="fs-idm165699296-vn">Kiểm định so sánh hai số trung bình quần thể độc lập với các độ lệch chuẩn quần thể chưa biết và có thể không bằng nhau được gọi là kiểm định t Aspin-Welch. Công thức bậc tự do được phát triển bởi Aspin-Welch.</p>
+</div></section></div>
+<p id="fs-idm1073492162-vn">Việc so sánh hai số trung bình quần thể là rất phổ biến. Sự khác biệt giữa hai mẫu phụ thuộc vào cả số trung bình và độ lệch chuẩn. Các số trung bình rất khác nhau có thể xảy ra do ngẫu nhiên nếu có sự biến thiên lớn giữa các mẫu riêng lẻ. Để tính đến sự biến thiên này, chúng ta lấy hiệu của các số trung bình mẫu, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub></annotation-xml></semantics></math></span> – <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub></annotation-xml></semantics></math></span>, và chia cho sai số chuẩn để chuẩn hóa sự khác biệt. Kết quả là một thống kê kiểm định t-score.</p><p id="element-254-vn">Vì chúng ta không biết các độ lệch chuẩn quần thể, chúng ta ước lượng chúng bằng cách sử dụng hai độ lệch chuẩn mẫu từ các mẫu độc lập của mình. Đối với kiểm định giả thuyết, chúng ta tính toán độ lệch chuẩn ước lượng, hay <span data-type="term" group-by="s" id="term-00001">sai số chuẩn</span>, của <strong>sự khác biệt giữa các số trung bình mẫu</strong>, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub></annotation-xml></semantics></math></span> – <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub></annotation-xml></semantics></math></span>.</p><div class="unnumbered" data-label="" data-type="equation" id="std_err"><span data-type="title">The standard error is:</span><math display="block"><semantics><mrow>
+<msqrt>
+<mfrac>
+<mrow>
+<mo>(</mo>
+<msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<msup>
+<mo>)</mo>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mrow>
+<mo>(</mo>
+<msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<msup>
+<mo>)</mo>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</msqrt>
+</mrow><annotation-xml encoding="MathML-Content"><msqrt>
+<mfrac>
+<mrow>
+<mo>(</mo>
+<msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<msup>
+<mo>)</mo>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo>
+<mfrac>
+<mrow>
+<mo>(</mo>
+<msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<msup>
+<mo>)</mo>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</msqrt></annotation-xml></semantics></math></div><p id="element-817-vn">Thống kê kiểm định (điểm <em data-effect="italics">t</em>) được tính như sau:</p><div class="unnumbered" data-label="" data-type="equation" id="t-score2"><math display="block"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mtext>(</mtext><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext><mo>–</mo><mtext>(</mtext><msub>
+<mi>μ</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mi>μ</mi>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mtext>(</mtext><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mtext>(</mtext><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mtext>(</mtext><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext><mo>–</mo><mtext>(</mtext><msub>
+<mi>μ</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mi>μ</mi>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mtext>(</mtext><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mtext>(</mtext><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mtext>)</mtext>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></div><div data-type="list" id="list1"><div data-type="title">where:</div><ul><li><em data-effect="italics">s</em><sub>1</sub> và <em data-effect="italics">s</em><sub>2</sub>, các độ lệch chuẩn mẫu, lần lượt là các ước lượng của <em data-effect="italics">σ</em><sub>1</sub> và <em data-effect="italics">σ</em><sub>2</sub>.</li>
+<li><em data-effect="italics">σ</em><sub>1</sub> và <em data-effect="italics">σ</em><sub>2</sub> là các độ lệch chuẩn quần thể chưa biết.</li>
+<li><math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub></annotation-xml></semantics></math>
+và
+<math display="inline"><semantics><mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub></annotation-xml></semantics></math>
+là các trung bình mẫu. <em data-effect="italics">μ</em><sub>1</sub> và <em data-effect="italics">μ</em><sub>2</sub> là các trung bình quần thể.</li>
+</ul></div>
+<p id="element-256-vn">Số lượng <span data-type="term" group-by="d" id="term-00002">bậc tự do (<em data-effect="italics">df</em>)</span> đòi hỏi một phép tính hơi phức tạp. Tuy nhiên, máy tính hoặc máy tính cầm tay có thể tính toán nó dễ dàng. <em data-effect="italics">df</em> không phải lúc nào cũng là một số nguyên. Thống kê kiểm định được tính toán trước đó được xấp xỉ bởi phân phối Student <em data-effect="italics">t</em> với <em data-effect="italics">df</em> như sau:</p><div class="unnumbered" data-label="" data-type="equation" id="eq_df"><span data-type="title">Degrees of freedom</span><math display="block"><semantics><mrow>
+<mrow>
+<mi>d</mi><mi>f</mi><mo>=</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup><mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow><mn>2</mn></msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>d</mi><mi>f</mi><mo>=</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup><mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow><mn>2</mn></msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mn>1</mn>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></div><p id="element-316-vn">Khi cả hai kích thước mẫu <em data-effect="italics">n</em><sub>1</sub> và <em data-effect="italics">n</em><sub>2</sub> đều từ năm trở lên, phép xấp xỉ Student <em data-effect="italics">t</em> rất tốt. Lưu ý rằng các phương sai mẫu (<em data-effect="italics">s</em><sub>1</sub>)<sup>2</sup> và (<em data-effect="italics">s</em><sub>2</sub>)<sup>2</sup> không được gộp chung. (Nếu câu hỏi này xuất hiện, đừng gộp các phương sai lại.)</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm74088160"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">Lưu ý:</span></h3></header><section>
+<div class="os-note-body"><p id="fs-idm378573120-vn">Bạn không cần phải tính toán thủ công. Máy tính hoặc phần mềm sẽ tính toán điều này một cách dễ dàng.</p></div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-208"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.1</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><h4 data-type="title">Các nhóm độc lập</h4>
+<p id="element-687-vn">Người ta tin rằng thời gian trung bình mà các bé trai và bé gái từ bảy đến 11 tuổi dành cho việc chơi thể thao mỗi ngày là như nhau. Một nghiên cứu đã được thực hiện và dữ liệu được thu thập, dẫn đến các dữ liệu trong <a aria-label="View Table 10.1" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#uid888">Bảng 10.1</a>. Mỗi quần thể đều có phân phối chuẩn.</p>
+<div class="os-table" id="uid888"><table data-id="uid888" data-summary="This table presents the sample size in the second column, average hours a day in the third column, and the sample standard deviation in the fourth column. The first row is for girls and the second row is for boys."><thead valign="top">
+<tr>
+<th data-align="center" scope="col">
+</th><th data-align="center" scope="col">Kích thước mẫu</th>
+<th data-align="center" scope="col">Số giờ trung bình chơi thể thao mỗi ngày</th>
+<th data-align="center" scope="col">Độ lệch chuẩn mẫu</th>
+</tr>
+</thead><tbody valign="top">
+<tr>
+<td>Nữ</td>
+<td>9</td>
+<td>2</td>
+<td><math display="inline"><semantics><mrow><mn>0.866</mn></mrow><annotation-xml encoding="MathML-Content"><mn>0.866</mn></annotation-xml></semantics></math></td>
+</tr>
+<tr>
+<td>Nam</td>
+<td>16</td>
+<td>3.2</td>
+<td>1.00</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.1</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><div class="unnumbered has-problem-title" data-type="exercise" id="element-114"><header></header><section>
+<div data-type="problem" id="id6322791"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="element-939-vn">Có sự khác biệt nào về thời gian trung bình mà các bé trai và bé gái từ bảy đến 11 tuổi chơi thể thao mỗi ngày không? Hãy kiểm định ở mức ý nghĩa 5%.</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id21329984">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="element-296-vn"><strong>Các độ lệch chuẩn quần thể chưa được biết.</strong> Gọi <em data-effect="italics">g</em> là chỉ số dưới cho bé gái và <em data-effect="italics">b</em> là chỉ số dưới cho bé trai. Khi đó, <em data-effect="italics">μ<sub>g</sub></em> là số trung bình quần thể cho bé gái và <em data-effect="italics">μ<sub>b</sub></em> là số trung bình quần thể cho bé trai. Đây là kiểm định cho hai <strong>nhóm độc lập</strong>, hai <strong>số trung bình</strong> quần thể.</p>
+<p id="element-221-vn"><span data-type="term" group-by="R" id="term-00003">Biến ngẫu nhiên</span>:
+  <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+<mi>g</mi>
+</msub>
+<mo>−</mo><msub>
+<mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+<mi>b</mi>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+<mi>g</mi>
+</msub>
+<mo>−</mo><msub>
+<mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+<mi>b</mi>
+</msub>
+</mrow></annotation-xml></semantics></math></span>
+ = sự khác biệt về số trung bình mẫu của thời gian bé gái và bé trai chơi thể thao mỗi ngày.
+
+<span data-type="newline"><br/></span><em data-effect="italics">H</em><sub>0</sub>: <em data-effect="italics">μ<sub>g</sub></em> = <em data-effect="italics">μ<sub>b</sub></em>  <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>g</sub></em> – <em data-effect="italics">μ<sub>b</sub></em> = 0
+
+<span data-type="newline"><br/></span><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">μ<sub>g</sub></em> ≠ <em data-effect="italics">μ<sub>b</sub></em>  <em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">μ<sub>g</sub></em> – <em data-effect="italics">μ<sub>b</sub></em> ≠ 0
+<span data-type="newline"><br/></span>Cụm từ <strong>"như nhau"</strong> cho bạn biết <em data-effect="italics">H<sub>0</sub></em> có dấu "=". Vì không có từ ngữ nào khác chỉ ra <em data-effect="italics">H<sub>a</sub></em>, hãy giả định rằng nó có nghĩa là <strong>"khác nhau."</strong>
+Đây là kiểm định hai phía.</p><p id="element-529-vn"><strong>Phân phối cho kiểm định:</strong>
+Sử dụng <em data-effect="italics">t<sub>df</sub></em> trong đó <em data-effect="italics">df</em> được tính bằng công thức <em data-effect="italics">df</em> cho các nhóm độc lập, hai số trung bình quần thể. Sử dụng máy tính, <em data-effect="italics">df</em> xấp xỉ 18,8462. <strong>Không gộp các phương sai.</strong></p>
+<p id="element-573-vn"><strong>Tính p-giá trị <em data-effect="italics">p</em> sử dụng phân phối Student <em data-effect="italics">t</em>:</strong> p-giá trị <em data-effect="italics">p</em> = 0,0054</p><p id="element-90-vn"><strong>Đồ thị:</strong></p>
+<div class="os-figure" id="hyptest22_cmp1"><figure class="scaled-down ui-has-child-figcaption" data-id="hyptest22_cmp1"><span data-alt="This is a normal distribution curve representing the difference in the average amount of time girls and boys play sports all day. The mean is equal to zero, and the values -1.2, 0, and 1.2 are labeled on the horizontal axis. Two vertical lines extend from -1.2 and 1.2 to the curve. The region to the left of x = -1.2 and the region to the right of x = 1.2 are shaded to represent the p-value. The area of each region is 0.0028." data-type="media" id="id18963169">
+<button aria-label="Click to enlarge image of This is a normal distribution curve representing the difference in the average amount of time girls and boys play sports all day. The mean is equal to zero, and the values -1.2, 0, and 1.2 are labeled on the horizontal axis. Two vertical lines extend from -1.2 and 1.2 to the curve. The region to the left of x = -1.2 and the region to the right of x = 1.2 are shaded to represent the p-value. The area of each region is 0.0028." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve representing the difference in the average amount of time girls and boys play sports all day. The mean is equal to zero, and the values -1.2, 0, and 1.2 are labeled on the horizontal axis. Two vertical lines extend from -1.2 and 1.2 to the curve. The region to the left of x = -1.2 and the region to the right of x = 1.2 are shaded to represent the p-value. The area of each region is 0.0028." data-media-type="image/png" height="389" loading="lazy" src="../../../assets/img-10-1-1.webp" width="841"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">10.2</span></figcaption></figure></div>
+<p id="element-222-vn"><span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mi>g</mi>
+</msub>
+<mo>=</mo>
+<mrow>
+<mn>0.866</mn>
+</mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>s</mi>
+<mi>g</mi>
+</msub>
+<mo>=</mo>
+<mrow>
+<mn>0.866</mn>
+</mrow>
+</mrow></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<msub>
+<mi>s</mi>
+<mi>b</mi>
+</msub>
+<mo>=</mo>
+<mn>1</mn>
+</mrow><annotation-xml encoding="MathML-Content"><msub>
+<mi>s</mi>
+<mi>b</mi>
+</msub><mo>=</mo><mn>1</mn></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span>Vì vậy, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mi>g</mi>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mi>b</mi>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mi>g</mi>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mi>b</mi>
+</msub>
+</mrow></annotation-xml></semantics></math></span> = 2 – 3,2 = –1,2
+<span data-type="newline"><br/></span>Một nửa p-giá trị <em data-effect="italics">p</em> nằm dưới –1,2 và một nửa nằm trên 1,2.</p><p id="element-823-vn"><strong>Đưa ra quyết định:</strong> Vì <em data-effect="italics">α</em> &gt; p-giá trị <em data-effect="italics">p</em>, bác bỏ <em data-effect="italics">H<sub>0</sub></em>. Điều này có nghĩa là bạn bác bỏ <em data-effect="italics">μ<sub>g</sub></em> = <em data-effect="italics">μ<sub>b</sub></em>. Các số trung bình là khác nhau.</p>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp61535456"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp144406384-vn">Nhấn <code data-type="code">STAT</code>. Di chuyển sang <code data-type="code">TESTS</code> và nhấn <code data-type="code">4:2-SampTTest</code>. Di chuyển sang Stats và nhấn <code data-type="code">ENTER</code>. Di chuyển xuống và nhập <code data-type="code">2</code> cho số trung bình mẫu thứ nhất, <code data-type="code">
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mn>0.866</mn>
+</mrow><annotation-xml encoding="MathML-Content"><mn>0.866</mn></annotation-xml></semantics></math></span>
+</code> cho Sx1, <code data-type="code">9</code> cho n1, <code data-type="code">3.2</code> cho số trung bình mẫu thứ hai, <code data-type="code">1</code> cho Sx2, và <code data-type="code">16</code> cho n2. Di chuyển xuống μ1: và di chuyển đến <code data-type="code">does not equal</code> μ2. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống Pooled: và <code data-type="code">No</code>. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống <code data-type="code">Calculate</code> và nhấn <code data-type="code">ENTER</code>. p-giá trị <em data-effect="italics">p</em> là <em data-effect="italics">p</em> = 0,0054, các bậc tự do xấp xỉ 18,8462, và thống kê kiểm định là -3,14. Thực hiện lại quy trình nhưng thay vì Calculate, hãy chọn Draw.</p></div></section></div>
+<p id="element-914-vn"><strong>Kết luận:</strong> Ở mức ý nghĩa 5%, dữ liệu mẫu cho thấy có đủ bằng chứng để kết luận rằng số trung bình giờ chơi thể thao mỗi ngày của các bé gái và bé trai từ bảy đến 11 tuổi là khác nhau (số trung bình giờ chơi thể thao mỗi ngày của các bé trai từ bảy đến 11 tuổi lớn hơn số trung bình giờ chơi của các bé gái HOẶC số trung bình giờ chơi thể thao mỗi ngày của các bé gái từ bảy đến 11 tuổi lớn hơn số trung bình giờ chơi của các bé trai).</p>
+</div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp67783984"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.1</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="fs-idm235264144"><header></header><section>
+<div data-type="problem" id="fs-idm162906288"><div class="os-problem-container">
+<p id="fs-idm193306272-vn">Hai mẫu được hiển thị trong <a aria-label="View Table 10.2" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm99631856">Bảng 10.2</a>. Cả hai đều có phân phối chuẩn. Các số trung bình của hai quần thể được cho là như nhau. Có sự khác biệt nào về các số trung bình không? Hãy kiểm định ở mức ý nghĩa 5%.</p>
+<div class="os-table" id="fs-idm99631856"><table data-id="fs-idm99631856" data-summary=""><thead>
+<tr>
+<th scope="col">
+</th><th scope="col">Kích thước mẫu</th>
+<th scope="col">Trung bình mẫu</th>
+<th scope="col">Độ lệch chuẩn mẫu</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Quần thể A</td>
+<td>25</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Quần thể B</td>
+<td>16</td>
+<td>4.7</td>
+<td>1.2</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.2</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm50414208"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">Lưu ý:</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm204425680-vn">Khi tổng kích thước mẫu lớn hơn 30 (<em data-effect="italics">n</em><sub>1</sub> + <em data-effect="italics">n</em><sub>2</sub> &gt; 30), bạn có thể sử dụng phân phối chuẩn để xấp xỉ phân phối Student <em data-effect="italics">t</em>. Tuy nhiên, hãy sử dụng phân phối Student <em data-effect="italics">t</em> bất cứ khi nào có thể.</p></div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-968"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.2</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><p id="element-980-vn">Một nghiên cứu được thực hiện bởi một nhóm cộng đồng tại hai trường đại học lân cận để xác định trường nào có sinh viên tốt nghiệp với nhiều lớp toán hơn. Trường A lấy mẫu 11 sinh viên tốt nghiệp. Số trung bình của họ là bốn lớp toán với độ lệch chuẩn là 1,5 lớp toán. Trường B lấy mẫu chín sinh viên tốt nghiệp. Số trung bình của họ là 3,5 lớp toán với độ lệch chuẩn là một lớp toán. Nhóm cộng đồng tin rằng một sinh viên tốt nghiệp từ trường A <strong>đã học nhiều lớp toán hơn,</strong> tính trung bình. Cả hai quần thể đều có phân phối chuẩn. Hãy kiểm định ở mức ý nghĩa 1%. Trả lời các câu hỏi sau.<span data-count="2" data-type="newline"><br/><br/></span></p><div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm178911728"><header></header><section><div data-type="problem" id="fs-idm177203296"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm171395200-vn">a. Đây là kiểm định cho hai số trung bình hay hai tỷ lệ?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm36568576">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idm78962816-vn">a. hai số trung bình<span data-count="2" data-type="newline"><br/><br/></span></p></div>
+</section>
+</details>
+</section></div><div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm194746624"><header></header><section>
+<div data-type="problem" id="fs-idm227630576"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm227630448-vn">b. Các độ lệch chuẩn quần thể đã biết hay chưa biết?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm217237904">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idm217237776-vn">b. chưa biết<span data-count="2" data-type="newline"><br/><br/></span></p>
+</div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm164304912"><header></header><section>
+<div data-type="problem" id="fs-idm35318288"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm220657088-vn">c. Bạn sử dụng phân phối nào để thực hiện kiểm định?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm153443152">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container"><p id="fs-idm145309056-vn">c.  Student</p>
+</div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm130995312"><header></header><section>
+<div data-type="problem" id="fs-idm143520064"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm143519936-vn">d. Biến ngẫu nhiên là gì?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm222952320">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idm222952192-vn">d. <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mi>A</mi>
+</msub>
+<mo>-</mo><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mi>B</mi>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mi>A</mi>
+</msub>
+<mo>-</mo><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mi>B</mi>
+</msub>
+</mrow></annotation-xml></semantics></math></span><span data-count="2" data-type="newline"><br/><br/></span></p>
+</div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm301029872"><header></header><section>
+<div data-type="problem" id="fs-idm176701568"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm151272736-vn">e. Các giả thuyết không và đối thuyết là gì? Viết các giả thuyết không và đối thuyết bằng lời và bằng ký hiệu.</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm147502464">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idm206451408-vn">e.</p><ul id="fs-idp21552016"><li><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>H</mi>
+<mi>o</mi>
+</msub>
+<mo>:</mo><msub>
+<mi>μ</mi>
+<mi>A</mi>
+</msub>
+<mo>≤</mo><msub>
+<mi>μ</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>H</mi>
+<mi>o</mi>
+</msub>
+<mo>:</mo><msub>
+<mi>μ</mi>
+<mi>A</mi>
+</msub>
+<mo>≤</mo><msub>
+<mi>μ</mi>
+<mi>B</mi>
+</msub>
+</mrow></annotation-xml></semantics></math></li>
+<li><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo><msub>
+<mi>μ</mi>
+<mi>A</mi>
+</msub>
+<mo>&gt;</mo><msub>
+<mi>μ</mi>
+<mi>B</mi>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>H</mi>
+<mi>a</mi>
+</msub>
+<mo>:</mo><msub>
+<mi>μ</mi>
+<mi>A</mi>
+</msub>
+<mo>&gt;</mo><msub>
+<mi>μ</mi>
+<mi>B</mi>
+</msub>
+</mrow></annotation-xml></semantics></math></li></ul><p>
+<span data-count="2" data-type="newline">
+<br/>
+<br/>
+</span>
+</p>
+</div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm39370224"><header></header><section>
+<div data-type="problem" id="fs-idm154517184"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm154517056-vn">f. Đây là kiểm định phía phải, phía trái hay hai phía?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm168558752">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container"><p id="fs-idm168558624-vn">f.</p><div class="os-figure" id="eip-idm29208032"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idm29208032">
+<span data-alt="This is a normal distribution curve with mean equal to 0. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded." data-type="media" id="eip-idm4786768">
+<button aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to 0. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve with mean equal to 0. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded." data-media-type="image/png" height="457" loading="lazy" src="../../../assets/img-10-1-2.webp" width="644"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">10.3</span></figcaption></figure></div><p><span data-type="newline"><br/></span>phía phải<span data-count="2" data-type="newline"><br/><br/></span></p></div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm146752960"><header></header><section>
+<div data-type="problem" id="fs-idm148661808"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container"><p id="fs-idm148661680-vn">g. p-giá trị <em data-effect="italics">p</em> là bao nhiêu?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm79675952">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container"><p id="fs-idm106536048-vn">g. 0,1928<span data-count="2" data-type="newline"><br/><br/></span></p></div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm176691440"><header></header><section>
+<div data-type="problem" id="fs-idp29101808"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container"><p id="fs-idp29101936-vn">h. Bạn bác bỏ hay không bác bỏ giả thuyết không?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm36842944">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container"><p id="fs-idm36842816-vn">h. Không bác bỏ.<span data-count="2" data-type="newline"><br/><br/></span></p></div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm65144592"><header></header><section>
+<div data-type="problem" id="fs-idm153855872"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container"><p id="fs-idm41056320-vn">i. <strong>Kết luận:</strong></p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm31976880">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container"><p id="fs-idm31976752-vn">i. Ở mức ý nghĩa 1%, từ dữ liệu mẫu, không có đủ bằng chứng để kết luận rằng một sinh viên tốt nghiệp từ trường A đã học nhiều lớp toán hơn, tính trung bình, so với một sinh viên tốt nghiệp từ trường B.</p></div>
+</section>
+</details>
+</section></div>
+</div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp145514592"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.2</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-idp166826064"><header></header><section>
+<div data-type="problem" id="eip-idp166826320"><div class="os-problem-container">
+<p id="fs-idm170467472-vn">Một nghiên cứu được thực hiện để xác định xem Công ty A có giữ chân nhân viên lâu hơn Công ty B hay không. Công ty A lấy mẫu 15 nhân viên, và thời gian trung bình họ làm việc tại công ty là năm năm với độ lệch chuẩn là 1,2. Công ty B lấy mẫu 20 nhân viên, và thời gian trung bình họ làm việc tại công ty là 4,5 năm với độ lệch chuẩn là 0,8. Các quần thể được phân phối chuẩn.</p>
+<ol id="fs-idp55515664" type="a">
+<li>Các độ lệch chuẩn quần thể đã biết chưa?</li>
+<li>Thực hiện một kiểm định giả thuyết phù hợp. Ở mức ý nghĩa 5%, kết luận của bạn là gì?</li>
+</ol>
+</div></div>
+</section></div></div></section></div><div class="ui-has-child-title" data-type="example" id="fs-idm22935408"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.3</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="fs-idm10086800-vn">Một giáo sư tại một trường cao đẳng cộng đồng lớn muốn xác định xem có sự khác biệt nào về số trung bình điểm thi cuối kỳ giữa các sinh viên học khóa thống kê trực tuyến của ông và các sinh viên học lớp thống kê trực tiếp. Ông tin rằng số trung bình điểm thi cuối kỳ của lớp trực tuyến sẽ thấp hơn so với lớp trực tiếp. Liệu giáo sư có đúng không? 30 điểm thi cuối kỳ được chọn ngẫu nhiên từ mỗi nhóm được liệt kê trong <a aria-label="View Table 10.3" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm34056944">Bảng 10.3</a> và <a aria-label="View Table 10.4" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm124378288">Bảng 10.4</a>.</p>
+<div class="os-table" id="fs-idm34056944"><table data-id="fs-idm34056944" data-summary=""><tbody>
+<tr>
+<td>67.6</td>
+<td>41.2</td>
+<td>85.3</td>
+<td>55.9</td>
+<td>82.4</td>
+<td>91.2</td>
+<td>73.5</td>
+<td>94.1</td>
+<td>64.7</td>
+<td>64.7</td>
+</tr>
+<tr>
+<td>70.6</td>
+<td>38.2</td>
+<td>61.8</td>
+<td>88.2</td>
+<td>70.6</td>
+<td>58.8</td>
+<td>91.2</td>
+<td>73.5</td>
+<td>82.4</td>
+<td>35.5</td>
+</tr>
+<tr>
+<td>94.1</td>
+<td>88.2</td>
+<td>64.7</td>
+<td>55.9</td>
+<td>88.2</td>
+<td>97.1</td>
+<td>85.3</td>
+<td>61.8</td>
+<td>79.4</td>
+<td>79.4</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.3</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Lớp học trực tuyến</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="os-table" id="fs-idm124378288"><table data-id="fs-idm124378288" data-summary=""><tbody>
+<tr>
+<td>77.9</td>
+<td>95.3</td>
+<td>81.2</td>
+<td>74.1</td>
+<td>98.8</td>
+<td>88.2</td>
+<td>85.9</td>
+<td>92.9</td>
+<td>87.1</td>
+<td>88.2</td>
+</tr>
+<tr>
+<td>69.4</td>
+<td>57.6</td>
+<td>69.4</td>
+<td>67.1</td>
+<td>97.6</td>
+<td>85.9</td>
+<td>88.2</td>
+<td>91.8</td>
+<td>78.8</td>
+<td>71.8</td>
+</tr>
+<tr>
+<td>98.8</td>
+<td>61.2</td>
+<td>92.9</td>
+<td>90.6</td>
+<td>97.6</td>
+<td>100</td>
+<td>95.3</td>
+<td>83.5</td>
+<td>92.9</td>
+<td>89.4</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.4</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Lớp học trực tiếp</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm298748224"><header></header><section>
+<div data-type="problem" id="fs-idm181409216"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm28696464-vn">Số trung bình điểm thi cuối kỳ của lớp trực tuyến có thấp hơn số trung bình điểm thi cuối kỳ của lớp trực tiếp không? Hãy kiểm định ở mức ý nghĩa 5%. Trả lời các câu hỏi sau:</p>
+<ol id="fs-idp180387984" type="a">
+<li>Đây là kiểm định hai trung bình hay hai tỷ lệ?</li>
+<li>Các độ lệch chuẩn quần thể đã biết hay chưa biết?</li>
+<li>Bạn sử dụng phân phối nào để thực hiện kiểm định?</li>
+<li>Biến ngẫu nhiên là gì?</li>
+<li>Các giả thuyết không và đối thuyết là gì? Viết các giả thuyết không và đối thuyết bằng lời và bằng ký hiệu.</li>
+<li>Đây là kiểm định một phía bên phải, bên trái, hay hai phía?</li>
+<li><em data-effect="italics">p</em>-giá trị là bao nhiêu?</li>
+<li>Bạn bác bỏ hay không bác bỏ giả thuyết không?</li>
+<li>Tại mức ý nghĩa ___, từ dữ liệu mẫu, ______ (có/không có) đủ bằng chứng để kết luận rằng ______.</li>
+</ol>
+<p id="fs-idp169691824-vn">(Xem kết luận trong <a aria-label="Go to Example 10.2" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#element-968">Ví dụ 10.2</a>, và viết kết luận của bạn theo cách tương tự)</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm168184384">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<ol id="fs-idm11713040" type="a"><li>hai trung bình</li>
+<li>chưa biết</li>
+<li>Phân phối Student <em data-effect="italics">t</em></li>
+<li><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow></annotation-xml></semantics></math></li>
+<li><ol id="fs-idm109578096">
+<li><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> = <em data-effect="italics">μ<sub>2</sub></em> Giả thuyết không: các trung bình điểm thi cuối kỳ của lớp thống kê trực tuyến và trực tiếp là bằng nhau.</li>
+<li><em data-effect="italics">H<sub>a</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> &lt; <em data-effect="italics">μ<sub>2</sub></em> Đối thuyết: trung bình điểm thi cuối kỳ của lớp trực tuyến thấp hơn trung bình điểm thi cuối kỳ của lớp trực tiếp.</li>
+</ol>
+</li>
+<li>một phía bên trái</li>
+<li><em data-effect="italics">p</em>-value = 0.0011
+      <div class="os-figure" id="fs-idm98197120"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm98197120"><span data-alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011." data-type="media" id="fs-idp598000">
+<button aria-label="Click to enlarge image of This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011." data-media-type="image/png" height="321" loading="lazy" src="../../../assets/img-10-1-3.webp" width="809"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">10.4</span></figcaption></figure></div></li>
+<li>Bác bỏ giả thuyết không</li>
+<li>Giáo sư đã đúng. Bằng chứng cho thấy trung bình điểm thi cuối kỳ của lớp trực tuyến thấp hơn so với lớp trực tiếp.
+<span data-type="newline"><br/></span>Tại mức ý nghĩa <u data-effect="underline">5%</u>, từ dữ liệu mẫu, có (có/không có) đủ bằng chứng để kết luận rằng trung bình điểm thi cuối kỳ của lớp trực tuyến thấp hơn <u data-effect="underline">trung bình điểm thi cuối kỳ của lớp trực tiếp.</u></li>
+</ol>
+</div>
+</section>
+</details>
+</section></div>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm11616112"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm206958928-vn">Trước tiên, hãy nhập dữ liệu cho mỗi nhóm vào hai danh sách (như L1 và L2). Nhấn <code data-type="code">STAT</code>. Di chuyển sang <code data-type="code">TESTS</code> và nhấn <code data-type="code">4:2SampTTest</code>. Đảm bảo Data được tô sáng và nhấn <code data-type="code">ENTER</code>. Di chuyển xuống và nhập <code data-type="code">L1</code> cho danh sách thứ nhất và <code data-type="code">L2</code> cho danh sách thứ hai. Di chuyển xuống <em data-effect="italics">μ</em><sub>1</sub>: và di chuyển đến <code data-type="code">&lt;</code> <em data-effect="italics">μ</em><sub>2</sub> (nhỏ hơn). Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống Pooled: No. Nhấn <code data-type="code">ENTER</code>. Di chuyển xuống <code data-type="code">Calculate</code> và nhấn <code data-type="code">ENTER</code>.</p>
+</div></section></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm107478368"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">Lưu ý:</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm218153776-vn">Hãy cẩn thận không để lẫn thông tin của Nhóm 1 và Nhóm 2!</p>
+</div></section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="note-00001"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.3</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00001"><header></header><section>
+<div data-type="problem" id="prob-00001"><div class="os-problem-container">
+<p id="para-00001-vn">Hai giáo sư, A và B, dạy các lớp cùng môn học. Điểm của 10 sinh viên từ mỗi lớp được chọn ngẫu nhiên. Điểm thi cuối kỳ của các sinh viên như sau:</p>
+<p id="para-00002-vn"><span data-type="title">Giáo sư A:</span></p>
+<div class="os-table" id="table-00001"><table data-id="table-00001" data-summary=""><tbody>
+<tr>
+<td data-align="center">97</td>
+<td data-align="center">62</td>
+<td data-align="center">73</td>
+<td data-align="center">58</td>
+<td data-align="center">84</td>
+</tr>
+<tr>
+<td data-align="center">74</td>
+<td data-align="center">66</td>
+<td data-align="center">93</td>
+<td data-align="center">73</td>
+<td data-align="center">85</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.5</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title"><!-- no-selfclose --></span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p id="para-00003-vn"><span data-type="title">Giáo sư B:</span></p>
+<div class="os-table" id="table-00002"><table data-id="table-00002" data-summary=""><tbody>
+<tr>
+<td data-align="center">85</td>
+<td data-align="center">64</td>
+<td data-align="center">74</td>
+<td data-align="center">55</td>
+<td data-align="center">76</td>
+</tr>
+<tr>
+<td data-align="center">67</td>
+<td data-align="center">72</td>
+<td data-align="center">84</td>
+<td data-align="center">71</td>
+<td data-align="center">98</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.6</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title"><!-- no-selfclose --></span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p id="para-00004-vn">Giáo sư A nói rằng số trung bình điểm của lớp họ cao hơn số trung bình của lớp giáo sư B. Liệu giáo sư A có đúng không? Hãy kiểm định ở mức ý nghĩa 5%. Trả lời các câu hỏi sau:</p>
+<ol id="list-00001" type="a">
+<li>Đây là kiểm định hai trung bình hay hai tỷ lệ?</li>
+<li>Các độ lệch chuẩn quần thể đã biết hay chưa biết?</li>
+<li>Bạn sử dụng phân phối nào để thực hiện kiểm định?</li>
+<li>Biến ngẫu nhiên là gì?</li>
+<li>Các giả thuyết không và đối thuyết là gì? Viết các giả thuyết không và đối thuyết bằng lời và bằng ký hiệu.</li>
+<li>Đây là kiểm định một phía bên phải, bên trái, hay hai phía?</li>
+<li><em data-effect="italics">p</em>-giá trị là bao nhiêu?</li>
+<li>Bạn bác bỏ hay không bác bỏ giả thuyết không?</li>
+<li>Tại mức ý nghĩa ___, từ dữ liệu mẫu, ___ (có/không có) đủ bằng chứng để kết luận rằng ___.</li>
+</ol>
+</div></div>
+</section></div>
+</div></section></div>
+<p id="eip-358-vn"><span data-type="title">Các tiêu chuẩn của Cohen về kích thước hiệu ứng nhỏ, trung bình và lớn</span><span data-type="term" group-by="C" id="term-00004">Cohen's <em data-effect="italics">d</em></span> là một thước đo kích thước hiệu ứng dựa trên sự khác biệt giữa hai số trung bình. Cohen's <em data-effect="italics">d</em>, được đặt tên theo nhà thống kê người Mỹ Jacob Cohen, đo lường sức mạnh tương đối của sự khác biệt giữa các số trung bình của hai quần thể dựa trên dữ liệu mẫu. Giá trị tính toán của kích thước hiệu ứng sau đó được so sánh với các tiêu chuẩn của Cohen về kích thước hiệu ứng nhỏ, trung bình và lớn.</p><div class="os-table" id="fs-idp93235584"><table data-id="fs-idp93235584" data-summary=""><thead>
+<tr>
+<th scope="col">Kích thước hiệu ứng</th>
+<th scope="col"><em data-effect="italics">d</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Nhỏ</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>trung bình</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>Lớn</td>
+<td>0.8</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.7</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Kích thước hiệu ứng chuẩn của Cohen</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p id="fs-idm52480352-vn">Cohen's <em data-effect="italics">d</em> là thước đo sự khác biệt giữa hai số trung bình chia cho độ lệch chuẩn gộp: <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>d</mi><mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mrow>
+<mi>p</mi><mi>o</mi><mi>o</mi><mi>l</mi><mi>e</mi><mi>d</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>d</mi><mo>=</mo><mfrac>
+<mrow>
+<msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>1</mn>
+</msub>
+<mo>–</mo><msub>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mn>2</mn>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mrow>
+<mi>p</mi><mi>o</mi><mi>o</mi><mi>l</mi><mi>e</mi><mi>d</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> trong đó <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mrow>
+<mi>p</mi><mi>o</mi><mi>o</mi><mi>l</mi><mi>e</mi><mi>d</mi>
+</mrow>
+</msub>
+<mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><mn>1</mn><mo stretchy="false">)</mo><msubsup>
+<mi>s</mi>
+<mn>1</mn>
+<mn>2</mn>
+</msubsup>
+<mo>+</mo><mo stretchy="false">(</mo><msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>1</mn><mo stretchy="false">)</mo><msubsup>
+<mi>s</mi>
+<mn>2</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>s</mi>
+<mrow>
+<mi>p</mi><mi>o</mi><mi>o</mi><mi>l</mi><mi>e</mi><mi>d</mi>
+</mrow>
+</msub>
+<mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>–</mo><mn>1</mn><mo stretchy="false">)</mo><msubsup>
+<mi>s</mi>
+<mn>1</mn>
+<mn>2</mn>
+</msubsup>
+<mo>+</mo><mo stretchy="false">(</mo><msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>1</mn><mo stretchy="false">)</mo><msubsup>
+<mi>s</mi>
+<mn>2</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mn>1</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>n</mi>
+<mn>2</mn>
+</msub>
+<mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow></annotation-xml></semantics></math></span></p>
+<div class="ui-has-child-title" data-type="example" id="fs-idm100194752"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.4</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm122689856"><header></header><section>
+<div data-type="problem" id="fs-idm122689600"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="fs-idm1441280-vn">Tính Cohen's <em data-effect="italics">d</em> cho <a aria-label="Go to Example 10.2" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#element-968">Ví dụ 10.2</a>. Kích thước hiệu ứng là nhỏ, trung bình hay lớn? Giải thích ý nghĩa của kích thước hiệu ứng đối với bài toán này.</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm42685344">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idp179952160-vn"><em data-effect="italics">μ</em><sub>1</sub> = 4 <em data-effect="italics">s</em><sub>1</sub> = 1,5 <em data-effect="italics">n</em><sub>1</sub> = 11
+<span data-type="newline"><br/></span><em data-effect="italics">μ</em><sub>2</sub> = 3,5 <em data-effect="italics">s</em><sub>2</sub> = 1  <em data-effect="italics">n</em><sub>2</sub> = 9
+<span data-type="newline"><br/></span><em data-effect="italics">d</em> = 0,384
+<span data-type="newline"><br/></span>Hiệu ứng là nhỏ vì 0,384 nằm giữa giá trị 0,2 của Cohen cho kích thước hiệu ứng nhỏ và 0,5 cho kích thước hiệu ứng trung bình. Kích thước của sự khác biệt giữa các số trung bình của hai trường là nhỏ, cho thấy không có sự khác biệt đáng kể giữa chúng.</p>
+</div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="note-00002"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.4</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered os-hasSolution" data-type="exercise" id="exer-00002"><header></header><section>
+<div data-type="problem" id="prob-00002"><div class="os-problem-container">
+<p id="para-00005-vn">Tính Cohen's <em data-effect="italics">d</em> cho <a aria-label="Go to Try It  10.2" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idp145514592">Thử sức 10.2</a>. Kích thước hiệu ứng là nhỏ, trung bình hay lớn? Giải thích ý nghĩa của kích thước hiệu ứng đối với bài toán này.</p>
+</div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="fs-idm112602048"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">10.5</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="fs-idm163588752"><header></header><section>
+<div data-type="problem" id="fs-idm118829104"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container"><p id="fs-idm174261728-vn">Tính Cohen's <em data-effect="italics">d</em> cho <a aria-label="Go to Example 10.3" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm22935408">Ví dụ 10.3</a>. Kích thước hiệu ứng là nhỏ, trung bình hay lớn? Giải thích ý nghĩa của kích thước hiệu ứng đối với bài toán này.</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="fs-idm177693104">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="fs-idm86592608-vn"><em data-effect="italics">d</em> = 0.834; Lớn, vì 0.834 lớn hơn giá trị 0.8 của Cohen đối với kích thước hiệu ứng lớn. Mức độ khác biệt giữa các giá trị trung bình của điểm thi cuối kỳ của sinh viên học trực tuyến và sinh viên trong lớp học trực tiếp là lớn, cho thấy một sự khác biệt đáng kể.</p></div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp145071264"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">10.5</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm62120944-vn">Weighted alpha là thước đo hiệu suất đã điều chỉnh rủi ro của cổ phiếu trong khoảng thời gian một năm. Một weighted alpha dương cao biểu thị một cổ phiếu có giá đã tăng, trong khi một weighted alpha dương nhỏ cho thấy giá cổ phiếu không thay đổi trong khoảng thời gian đó. Weighted alpha được sử dụng để xác định các công ty có xu hướng tăng hoặc giảm mạnh. Weighted alpha cho 30 cổ phiếu ngân hàng hàng đầu ở vùng đông bắc và phía tây theo xác định của Nasdaq vào ngày 24 tháng 5 năm 2013 được liệt kê lần lượt trong <a aria-label="View Table 10.8" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm242901296">Bảng 10.8</a> và <a aria-label="View Table 10.9" class="autogenerated-content" href="10-1-two-population-means-with-unknown-standard-deviations#fs-idm167801152">Bảng 10.9</a>.</p>
+<div class="os-table" id="fs-idm242901296"><table data-id="fs-idm242901296" data-summary=""><tbody>
+<tr>
+<td>94.2</td>
+<td>75.2</td>
+<td>69.6</td>
+<td>52.0</td>
+<td>48.0</td>
+<td>41.9</td>
+<td>36.4</td>
+<td>33.4</td>
+<td>31.5</td>
+<td>27.6</td>
+</tr>
+<tr>
+<td>77.3</td>
+<td>71.9</td>
+<td>67.5</td>
+<td>50.6</td>
+<td>46.2</td>
+<td>38.4</td>
+<td>35.2</td>
+<td>33.0</td>
+<td>28.7</td>
+<td>26.5</td>
+</tr>
+<tr>
+<td>76.3</td>
+<td>71.7</td>
+<td>56.3</td>
+<td>48.7</td>
+<td>43.2</td>
+<td>37.6</td>
+<td>33.7</td>
+<td>31.8</td>
+<td>28.5</td>
+<td>26.0</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.8</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Northeast</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="os-table" id="fs-idm167801152"><table data-id="fs-idm167801152" data-summary=""><tbody>
+<tr>
+<td>126.0</td>
+<td>70.6</td>
+<td>65.2</td>
+<td>51.4</td>
+<td>45.5</td>
+<td>37.0</td>
+<td>33.0</td>
+<td>29.6</td>
+<td>23.7</td>
+<td>22.6</td>
+</tr>
+<tr>
+<td>116.1</td>
+<td>70.6</td>
+<td>58.2</td>
+<td>51.2</td>
+<td>43.2</td>
+<td>36.0</td>
+<td>31.4</td>
+<td>28.7</td>
+<td>23.5</td>
+<td>21.6</td>
+</tr>
+<tr>
+<td>78.2</td>
+<td>68.2</td>
+<td>55.6</td>
+<td>50.3</td>
+<td>39.0</td>
+<td>34.1</td>
+<td>31.0</td>
+<td>25.3</td>
+<td>23.4</td>
+<td>21.5</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">10.9</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">West</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="unnumbered" data-type="exercise" id="fs-idm120507648"><header></header><section>
+<div data-type="problem" id="eip-idp51089200"><div class="os-problem-container">
+<p id="fs-idm100910544-vn">Có sự khác biệt nào về weighted alpha của 30 cổ phiếu ngân hàng hàng đầu ở vùng đông bắc và phía tây không? Hãy kiểm định ở mức ý nghĩa 5%. Trả lời các câu hỏi sau:</p>
+<ol id="fs-idp33249296" type="a"><li>Đây là kiểm định hai trung bình hay hai tỷ lệ?</li>
+<li>Các độ lệch chuẩn quần thể đã biết hay chưa biết?</li>
+<li>Bạn sử dụng phân phối nào để thực hiện kiểm định?</li>
+<li>Biến ngẫu nhiên là gì?</li>
+<li>Các giả thuyết không và đối thuyết là gì? Viết các giả thuyết không và đối thuyết bằng lời và bằng ký hiệu.</li>
+<li>Đây là kiểm định một phía bên phải, bên trái, hay hai phía?</li>
+<li><em data-effect="italics">p</em>-giá trị là bao nhiêu?</li>
+<li>Bạn bác bỏ hay không bác bỏ giả thuyết không?</li>
+<li>Tại mức ý nghĩa ___, từ dữ liệu mẫu, ______ (có/không có) đủ bằng chứng để kết luận rằng ______.</li>
+<li>Tính Cohen’s <em data-effect="italics">d</em> và giải thích nó.</li>
+</ol></div></div>
+</section></div>
+</div></section></div>
+</body></html>

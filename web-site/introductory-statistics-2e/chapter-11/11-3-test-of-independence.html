@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head>
+<body class="book-reader">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_38f9ef8b-6a38-4503-9f1b-95cade736687_titlecreatedbycookbook"><span class="os-number">11.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Test of Independence</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_38f9ef8b-6a38-4503-9f1b-95cade736687_titlecreatedbycookbook-vn"><span class="os-number">11.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Kiểm định tính độc lập</span></h2>
+<p class="eng hidden" id="element-834">Tests of independence involve using a <span data-type="term" group-by="c" id="term-00001">contingency table</span> of observed (data) values.</p><p class="vn visible" id="element-834-vn">Các kiểm định tính độc lập liên quan đến việc sử dụng <span data-type="term" group-by="c" id="term-00001">bảng ngẫu nhiên</span> của các giá trị quan sát (dữ liệu).</p>
+<p class="eng hidden" id="element-230">The test statistic for a <span data-type="term" group-by="t" id="term-00002">test of independence</span> is similar to that of a goodness-of-fit test:</p><p class="vn visible" id="element-230-vn">Thống kê kiểm định cho một <span data-type="term" group-by="t" id="term-00002">kiểm định tính độc lập</span> tương tự như kiểm định mức độ phù hợp:</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-164"><math display="block"><semantics><mrow>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mo stretchy="false">(</mo><mi>i</mi><mo>⋅</mo><mi>j</mi><mo stretchy="false">)</mo>
+</mrow>
+</munder>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mo stretchy="false">(</mo><mi>i</mi><mo>⋅</mo><mi>j</mi><mo stretchy="false">)</mo>
+</mrow>
+</munder>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math></div><p class="eng hidden" id="element-874">where:</p><p class="vn visible" id="element-874-vn">trong đó:</p>
+<ul id="element-12123"><li class="eng hidden"><em data-effect="italics">O</em> = observed values</li><li class="vn visible"><em data-effect="italics">O</em> = các giá trị quan sát</li>
+<li class="eng hidden"><em data-effect="italics">E</em> = expected values</li><li class="vn visible"><em data-effect="italics">E</em> = các giá trị kỳ vọng</li>
+<li class="eng hidden"><em data-effect="italics">i</em> = the number of rows in the table</li><li class="vn visible"><em data-effect="italics">i</em> = số hàng trong bảng</li>
+<li class="eng hidden"><em data-effect="italics">j</em> = the number of columns in the table</li><li class="vn visible"><em data-effect="italics">j</em> = số cột trong bảng</li>
+</ul><p class="eng hidden" id="element-575">There are <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>i</mi><mo>⋅ </mo><mi>j</mi></mrow><annotation-xml encoding="MathML-Content"><mi>i</mi><mo>⋅ </mo><mi>j</mi></annotation-xml></semantics></math></span> terms of the form <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>. </p><p class="vn visible" id="element-575-vn">Có <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>i</mi><mo>⋅ </mo><mi>j</mi></mrow><annotation-xml encoding="MathML-Content"><mi>i</mi><mo>⋅ </mo><mi>j</mi></annotation-xml></semantics></math></span> số hạng dưới dạng <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>O</mi><mo>–</mo><mi>E</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>E</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>.</p><p class="eng hidden" id="element-518"><strong>A test of independence determines whether two factors are independent or not.</strong> You first encountered the term independence in <a aria-label="Go to Probability Topics" data-page-fragment="" data-page-slug="3-introduction" data-page-uuid="326ee2e0-0ccd-46ae-a776-f8857a5dad4c" href="3-introduction">Probability Topics</a>. As a review, consider the following example.</p><p class="vn visible" id="element-518-vn"><strong>Kiểm định tính độc lập xác định xem hai yếu tố có độc lập với nhau hay không.</strong> Bạn đã gặp thuật ngữ độc lập lần đầu trong <a aria-label="Go to Probability Topics" data-page-fragment="" data-page-slug="3-introduction" data-page-uuid="326ee2e0-0ccd-46ae-a776-f8857a5dad4c" href="3-introduction">Các chủ đề về xác suất</a>. Để ôn tập, hãy xem xét ví dụ sau.</p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-155"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idp140445076868880">The expected value for each cell needs to be at least five in order for you to use this test.</p><p class="vn visible" id="eip-idp140445076868880-vn">Giá trị kỳ vọng cho mỗi ô cần phải đạt ít nhất là năm để bạn có thể sử dụng kiểm định này.</p></div></section></div><div class="ui-has-child-title" data-type="example" id="element-54"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">11.5</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">11.5</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p class="eng hidden" id="element-904">Suppose <em data-effect="italics">A</em> = a speeding violation in the last year and <em data-effect="italics">B</em> = a cell phone user while driving. If <em data-effect="italics">A</em> and <em data-effect="italics">B</em> are independent then <em data-effect="italics">P</em>(<em data-effect="italics">A</em> AND <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). <em data-effect="italics">A</em> AND <em data-effect="italics">B</em> is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phone while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.</p><p class="vn visible" id="element-904-vn">Giả sử <em data-effect="italics">A</em> = vi phạm tốc độ trong năm qua và <em data-effect="italics">B</em> = người sử dụng điện thoại di động khi lái xe. Nếu <em data-effect="italics">A</em> và <em data-effect="italics">B</em> độc lập thì <em data-effect="italics">P</em>(<em data-effect="italics">A</em> VÀ <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). <em data-effect="italics">A</em> VÀ <em data-effect="italics">B</em> là biến cố một tài xế nhận vé phạt vi phạm tốc độ trong năm qua và cũng sử dụng điện thoại di động khi lái xe. Giả sử, trong một nghiên cứu về các tài xế đã nhận vé phạt vi phạm tốc độ trong năm qua và sử dụng điện thoại di động khi lái xe, có 755 người được khảo sát. Trong số 755 người, 70 người có vi phạm tốc độ và 685 người không có; 305 người sử dụng điện thoại di động khi lái xe và 450 người không sử dụng.</p><p class="eng hidden" id="element-427">Let <em data-effect="italics">y</em> = expected number of drivers who used a cell phone while driving and received speeding violations.</p><p class="vn visible" id="element-427-vn">Gọi <em data-effect="italics">y</em> = số lượng tài xế dự kiến đã sử dụng điện thoại di động khi lái xe và nhận vé phạt vi phạm tốc độ.</p>
+<p class="eng hidden" id="element-367">If <em data-effect="italics">A</em> and <em data-effect="italics">B</em> are independent, then <em data-effect="italics">P</em>(<em data-effect="italics">A</em> AND <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). By substitution,</p><p class="vn visible" id="element-367-vn">Nếu <em data-effect="italics">A</em> và <em data-effect="italics">B</em> độc lập, thì <em data-effect="italics">P</em>(<em data-effect="italics">A</em> VÀ <em data-effect="italics">B</em>) = <em data-effect="italics">P</em>(<em data-effect="italics">A</em>)<em data-effect="italics">P</em>(<em data-effect="italics">B</em>). Bằng cách thay thế,</p>
+<p class="eng hidden" id="element-329"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>y</mi>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>70</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>305</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>y</mi>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>70</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>305</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>
+</p><p class="vn visible" id="element-329-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>y</mi>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>70</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>305</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>y</mi>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>70</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>305</mn>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-482">Solve for <em data-effect="italics">y</em>: <em data-effect="italics">y</em> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>28.3</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>28.3</mn>
+</mrow></annotation-xml></semantics></math></span> </p><p class="vn visible" id="element-482-vn">Giải cho <em data-effect="italics">y</em>: <em data-effect="italics">y</em> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>28.3</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mn>70</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mn>305</mn><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mn>755</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>28.3</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="element-249">About 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.</p><p class="vn visible" id="element-249-vn">Khoảng 28 người từ mẫu được dự kiến là có sử dụng điện thoại di động khi lái xe và nhận vé phạt vi phạm tốc độ.</p><p class="eng hidden" id="element-365">In a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of <strong>two factors</strong>, the null hypothesis states that the factors are <strong>independent</strong> and the alternative hypothesis states that they are <strong>not independent (dependent)</strong>. If we do a test of independence using the example, then the null hypothesis is:</p><p class="vn visible" id="element-365-vn">Trong một kiểm định tính độc lập, chúng ta phát biểu giả thuyết không và đối thuyết bằng lời. Vì bảng ngẫu nhiên bao gồm <strong>hai yếu tố</strong>, giả thuyết không phát biểu rằng các yếu tố là <strong>độc lập</strong> và đối thuyết phát biểu rằng chúng <strong>không độc lập (phụ thuộc)</strong>. Nếu chúng ta thực hiện kiểm định tính độc lập bằng cách sử dụng ví dụ trên, thì giả thuyết không là:</p><p class="eng hidden" id="element-337"><em data-effect="italics">H<sub>0</sub></em>: Being a cell phone user while driving and receiving a speeding violation are independent events.</p><p class="vn visible" id="element-337-vn"><em data-effect="italics">H<sub>0</sub></em>: Việc là người sử dụng điện thoại di động khi lái xe và việc nhận vé phạt vi phạm tốc độ là các biến cố độc lập.</p><p class="eng hidden" id="element-903">If the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.</p><p class="vn visible" id="element-903-vn">Nếu giả thuyết không là đúng, chúng ta sẽ kỳ vọng khoảng 28 người sử dụng điện thoại di động khi lái xe và nhận vé phạt vi phạm tốc độ.</p>
+<p class="eng hidden" id="element-197"><strong>The test of independence is always right-tailed</strong> because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.</p><p class="vn visible" id="element-197-vn"><strong>Kiểm định tính độc lập luôn là kiểm định đuôi phải</strong> do cách tính toán thống kê kiểm định. Nếu các giá trị kỳ vọng và quan sát không gần nhau, thì thống kê kiểm định sẽ rất lớn và nằm xa về phía đuôi phải của đường cong khi bình phương, giống như trong kiểm định mức độ phù hợp.</p><p class="eng hidden" id="element-35">The number of degrees of freedom for the test of independence is:</p><p class="vn visible" id="element-35-vn">Số bậc tự do cho kiểm định tính độc lập là:</p><p class="eng hidden" id="element-12412"><em data-effect="italics">df</em> = (number of columns - 1)(number of rows - 1)</p><p class="vn visible" id="element-12412-vn"><em data-effect="italics">df</em> = (số cột - 1)(số hàng - 1)</p>
+<p class="eng hidden" id="element-928">The following formula calculates the <strong>expected number</strong> (<em data-effect="italics">E</em>):</p><p class="vn visible" id="element-928-vn">Công thức sau đây tính toán <strong>số lượng kỳ vọng</strong> (<em data-effect="italics">E</em>):</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-164a"><math display="block"><semantics><mrow><mi>E</mi><mo>=</mo><mfrac><mtext>(row total)(column total)</mtext><mtext>total number surveyed</mtext></mfrac></mrow><annotation-xml encoding="MathML-Content"><mi>E</mi><mo>=</mo><mfrac><mtext>(row total)(column total)</mtext><mtext>total number surveyed</mtext></mfrac></annotation-xml></semantics></math></div></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp45633632"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">11.5</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">11.5</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-298"><header></header><section>
+<div data-type="problem" id="eip-721"><div class="os-problem-container">
+<p class="eng hidden" id="eip-935">A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. Ninety-seven were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?</p><p class="vn visible" id="eip-935-vn">Một mẫu gồm 300 sinh viên được lấy. Trong số các sinh viên được khảo sát, 50 người là sinh viên âm nhạc, trong khi 250 người không phải. Chín mươi bảy người nằm trong danh sách danh dự, trong khi 203 người không nằm trong danh sách đó. Nếu chúng ta giả định việc là sinh viên âm nhạc và việc nằm trong danh sách danh dự là các biến cố độc lập, thì số lượng sinh viên âm nhạc dự kiến cũng nằm trong danh sách danh dự là bao nhiêu?</p></div></div>
+</section></div>
+</div></section></div><div class="ui-has-child-title" data-type="example" id="element-272"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">11.6</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">11.6</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p class="eng hidden" id="element-84">In a volunteer group, adults 21 and older volunteer from one to nine hours each week to spend time with a disabled senior citizen. The program recruits among community college students, four-year college students, and nonstudents. In <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Table 11.15</a> is a <strong>sample</strong> of the adult volunteers and the number of hours they volunteer per week. </p><p class="vn visible" id="element-84-vn">Trong một nhóm tình nguyện, người lớn từ 21 tuổi trở lên tình nguyện từ một đến chín giờ mỗi tuần để dành thời gian cho một người cao tuổi khuyết tật. Chương trình tuyển chọn trong số sinh viên cao đẳng cộng đồng, sinh viên đại học bốn năm và những người không phải là sinh viên. Trong <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Bảng 11.15</a> là một <strong>mẫu</strong> các tình nguyện viên người lớn và số giờ họ tình nguyện mỗi tuần.</p><div class="os-table" id="table-73248"><table data-id="table-73248" data-summary="This table presents the observed hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><thead valign="top">
+<tr>
+<th class="eng hidden" scope="col">Type of Volunteer</th><th class="vn visible" scope="col">Loại tình nguyện viên</th>
+<th class="eng hidden" data-align="center" scope="col">1–3 Hours</th><th class="vn visible" data-align="center" scope="col">1–3 Giờ</th>
+<th class="eng hidden" data-align="center" scope="col">4–6 Hours</th><th class="vn visible" data-align="center" scope="col">4–6 Giờ</th>
+<th class="eng hidden" data-align="center" scope="col">7–9 Hours</th><th class="vn visible" data-align="center" scope="col">7–9 Giờ</th>
+<th class="eng hidden" data-align="center" scope="col">Row Total</th><th class="vn visible" data-align="center" scope="col">Tổng hàng</th>
+</tr>
+</thead><tbody valign="top">
+<tr>
+<td class="eng hidden">Community College Students</td><td class="vn visible">Sinh viên cao đẳng cộng đồng</td>
+<td class="eng hidden">111</td><td class="vn visible">111</td>
+<td class="eng hidden">96</td><td class="vn visible">96</td>
+<td class="eng hidden">48</td><td class="vn visible">48</td>
+<td class="eng hidden">255</td><td class="vn visible">255</td>
+</tr>
+<tr>
+<td class="eng hidden">Four-Year College Students</td><td class="vn visible">Sinh viên đại học bốn năm</td>
+<td class="eng hidden">96</td><td class="vn visible">96</td>
+<td class="eng hidden">133</td><td class="vn visible">133</td>
+<td class="eng hidden">61</td><td class="vn visible">61</td>
+<td class="eng hidden">290</td><td class="vn visible">290</td>
+</tr>
+<tr>
+<td class="eng hidden">Nonstudents</td><td class="vn visible">Người không phải sinh viên</td>
+<td class="eng hidden">91</td><td class="vn visible">91</td>
+<td class="eng hidden">150</td><td class="vn visible">150</td>
+<td class="eng hidden">53</td><td class="vn visible">53</td>
+<td class="eng hidden">294</td><td class="vn visible">294</td>
+</tr>
+<tr>
+<td class="eng hidden">Column Total</td><td class="vn visible">Tổng cột</td>
+<td class="eng hidden">298</td><td class="vn visible">298</td>
+<td class="eng hidden">379</td><td class="vn visible">379</td>
+<td class="eng hidden">162</td><td class="vn visible">162</td>
+<td class="eng hidden">839</td><td class="vn visible">839</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.15</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Number of Hours Worked Per Week by Volunteer Type (Observed) The table contains <strong>observed (O)</strong> values (data). </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.15</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Số giờ làm việc mỗi tuần theo loại tình nguyện viên (Quan sát được) Bảng này chứa các giá trị quan sát (O) (dữ liệu).</span>
+<span class="os-divider"> </span>
+</div>
+</div><div class="unnumbered has-problem-title" data-type="exercise" id="exercise102"><header></header><section><div data-type="problem" id="id8698829"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-2342"> Is the number of hours volunteered <strong>independent</strong> of the type of volunteer? </p><p class="vn visible" id="element-2342-vn">Số giờ tình nguyện có <strong>độc lập</strong> với loại tình nguyện viên không?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id8698856">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="element-8768798723">The <strong>observed table</strong> and the question at the end of the problem, "Is the number of hours volunteered independent of the type of volunteer?" tell you this is a test of independence. The two factors are <strong>number of hours volunteered</strong> and <strong>type of volunteer</strong>. This test is always right-tailed.</p><p class="vn visible" id="element-8768798723-vn"><strong>Bảng quan sát</strong> và câu hỏi ở cuối bài tập, "Số giờ tình nguyện có độc lập với loại tình nguyện viên không?" cho bạn biết đây là một kiểm định tính độc lập. Hai yếu tố là <strong>số giờ tình nguyện</strong> và <strong>loại tình nguyện viên</strong>. Kiểm định này luôn là kiểm định đuôi phải.</p>
+<p class="eng hidden" id="element-945"><em data-effect="italics">H<sub>0</sub></em>: The number of hours volunteered is <strong>independent</strong> of the type of volunteer.</p><p class="vn visible" id="element-945-vn"><em data-effect="italics">H<sub>0</sub></em>: Số giờ tình nguyện là <strong>độc lập</strong> với loại tình nguyện viên.</p><p class="eng hidden" id="element-255"><em data-effect="italics">H<sub>a</sub></em>: The number of hours volunteered is <strong>dependent</strong> on the type of volunteer.</p><p class="vn visible" id="element-255-vn"><em data-effect="italics">H<sub>a</sub></em>: Số giờ tình nguyện là <strong>phụ thuộc</strong> vào loại tình nguyện viên.</p><p class="eng hidden" id="element-455">The expected results are in <a aria-label="View Table 11.16" class="autogenerated-content" href="11-3-test-of-independence#table-73248a">Table 11.16</a>.
+ </p><p class="vn visible" id="element-455-vn">Các kết quả kỳ vọng nằm trong <a aria-label="View Table 11.16" class="autogenerated-content" href="11-3-test-of-independence#table-73248a">Bảng 11.16</a>.</p><div class="os-table" id="table-73248a"><table data-id="table-73248a" data-summary="This table presents the expected hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week.">
+<thead valign="top">
+<tr><th class="eng hidden" scope="col">Type of Volunteer</th><th class="vn visible" scope="col">Loại tình nguyện viên</th> <th class="eng hidden" data-align="center" scope="col">1-3 Hours</th><th class="vn visible" data-align="center" scope="col">1-3 Giờ</th> <th class="eng hidden" data-align="center" scope="col">4-6 Hours</th><th class="vn visible" data-align="center" scope="col">4-6 Giờ</th> <th class="eng hidden" data-align="center" scope="col">7-9 Hours</th><th class="vn visible" data-align="center" scope="col">7-9 Giờ</th></tr>
+</thead>
+<tbody valign="top">
+<tr><td class="eng hidden">Community College Students</td><td class="vn visible">Sinh viên cao đẳng cộng đồng</td><td class="eng hidden">90.57</td><td class="vn visible">90.57</td><td class="eng hidden">115.19</td><td class="vn visible">115.19</td><td class="eng hidden">49.24</td><td class="vn visible">49.24</td></tr>
+<tr><td class="eng hidden">Four-Year College Students</td><td class="vn visible">Sinh viên đại học bốn năm</td><td class="eng hidden">103.00</td><td class="vn visible">103.00</td><td class="eng hidden">131.00</td><td class="vn visible">131.00</td><td class="eng hidden">56.00</td><td class="vn visible">56.00</td></tr>
+<tr><td class="eng hidden">Nonstudents</td><td class="vn visible">Người không phải sinh viên</td><td class="eng hidden">104.42</td><td class="vn visible">104.42</td><td class="eng hidden">132.81</td><td class="vn visible">132.81</td><td class="eng hidden">56.77</td><td class="vn visible">56.77</td></tr>
+</tbody>
+</table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.16</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Number of Hours Worked Per Week by Volunteer Type (Expected)</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The table contains <strong>expected</strong> (<em data-effect="italics">E</em>) values (data).</span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.16</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Số giờ làm việc mỗi tuần theo loại tình nguyện viên (Kỳ vọng)</span>
+<span class="os-divider"> </span>
+<span class="os-caption">The table contains <strong>expected</strong> (<em data-effect="italics">E</em>) values (data).</span>
+</div>
+</div><p class="eng hidden" id="element-720">For example, the calculation for the expected frequency for the top left cell is </p><p class="vn visible" id="element-720-vn">Ví dụ, phép tính cho tần số kỳ vọng của ô trên cùng bên trái là</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-914"><math display="block"><semantics><mrow>
+<mrow>
+<mi>E</mi><mo>=</mo><mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mtext>row total</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mtext>column total</mtext><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mtext>total number surveyed</mtext>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>255</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mn>298</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mrow>
+<mn>839</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>90.57</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>E</mi><mo>=</mo><mfrac>
+<mrow>
+<mo stretchy="false">(</mo><mtext>row total</mtext><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mtext>column total</mtext><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mtext>total number surveyed</mtext>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>255</mn>
+</mrow>
+<mo>)</mo></mrow><mrow><mo>(</mo>
+<mrow>
+<mn>298</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mrow>
+<mn>839</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>90.57</mn>
+</mrow></annotation-xml></semantics></math>
+</div>
+<p class="eng hidden" id="element-558"><strong>Calculate the test statistic:</strong> <em data-effect="italics">χ</em><sup>2</sup> = 12.99 (calculator or computer)</p><p class="vn visible" id="element-558-vn"><strong>Tính thống kê kiểm định:</strong> <em data-effect="italics">χ</em><sup>2</sup> = 12.99 (máy tính hoặc máy tính cầm tay)</p><p class="eng hidden" id="element-775">
+<strong>Distribution for the test:</strong>
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<msubsup>
+<mi>χ</mi>
+<mn>4</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msubsup>
+<mi>χ</mi>
+<mn>4</mn>
+<mn>2</mn>
+</msubsup>
+</annotation-xml>
+</semantics>
+</math></span>
+</p><p class="vn visible" id="element-775-vn"><strong>Phân phối cho kiểm định:</strong>
+<span class="os-math-in-para"><math display="inline">
+<semantics>
+<mrow>
+<msubsup>
+<mi>χ</mi>
+<mn>4</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<msubsup>
+<mi>χ</mi>
+<mn>4</mn>
+<mn>2</mn>
+</msubsup>
+</annotation-xml>
+</semantics>
+</math></span></p>
+<p class="eng hidden" id="fs-idp19708320"><em data-effect="italics">df</em> = (3 columns – 1)(3 rows – 1) = (2)(2) = 4</p><p class="vn visible" id="fs-idp19708320-vn"><em data-effect="italics">df</em> = (3 cột – 1)(3 hàng – 1) = (2)(2) = 4</p><p class="eng hidden" id="element-48">
+<strong>Graph:</strong>
+</p><p class="vn visible" id="element-48-vn"><strong>Đồ thị:</strong></p>
+<div class="os-figure" id="fs-idm32439392"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm32439392">
+<span data-alt="Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." data-display="block" data-type="media" id="id8547662">
+<button aria-label="Click to enlarge image of Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." class="image-button-wrapper" type="button"><img alt="Nonsymmetrical chi-square curve with values of 0 and 12.99 on the x-axis representing the test statistic of number of hours worked by volunteers of different types. A vertical upward line extends from 12.99 to the curve and the area to the right of this is equal to the p-value." data-media-type="image/png" height="249" loading="lazy" src="assets/img-11-3-1.webp" width="950"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">11.7</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.7</span></figcaption></figure></div><p class="eng hidden" id="element-117"><strong>Probability statement:</strong> <em data-effect="italics">p</em>-value=<em data-effect="italics">P</em>(<em data-effect="italics">χ<sup>2</sup></em> &gt; 12.99) = 0.0113</p><p class="vn visible" id="element-117-vn"><strong>Phát biểu xác suất:</strong> p-giá trị=<em data-effect="italics">P</em>(<em data-effect="italics">χ<sup>2</sup></em> &gt; 12.99) = 0.0113</p><p class="eng hidden" id="element-347"><strong>Compare <em data-effect="italics">α</em> and the <em data-effect="italics">p</em>-value:</strong> Since no <em data-effect="italics">α</em> is given, assume <em data-effect="italics">α</em> = 0.05. <em data-effect="italics">p</em>-value = 0.0113. <em data-effect="italics">α</em> &gt; <em data-effect="italics">p</em>-value.</p><p class="vn visible" id="element-347-vn"><strong>So sánh <em data-effect="italics">α</em> và p-giá trị:</strong> Vì không có <em data-effect="italics">α</em> nào được đưa ra, hãy giả định <em data-effect="italics">α</em> = 0.05. p-giá trị = 0.0113. <em data-effect="italics">α</em> &gt; p-giá trị.</p>
+<p class="eng hidden" id="fs-idm62402592"><strong>Make a decision:</strong> Since <em data-effect="italics">α</em> &gt; <em data-effect="italics">p</em>-value, reject <em data-effect="italics">H<sub>0</sub></em>. This means that the factors are not independent.</p><p class="vn visible" id="fs-idm62402592-vn"><strong>Đưa ra quyết định:</strong> Vì <em data-effect="italics">α</em> &gt; p-giá trị, bác bỏ <em data-effect="italics">H<sub>0</sub></em>. Điều này có nghĩa là các yếu tố không độc lập.</p><p class="eng hidden" id="element-590"><strong>Conclusion:</strong> At a 5% level of significance, from the data, there is sufficient evidence to conclude that the number of hours volunteered and the type of volunteer are dependent on one another.</p><p class="vn visible" id="element-590-vn"><strong>Kết luận:</strong> Tại mức ý nghĩa 5%, từ dữ liệu, có đủ bằng chứng để kết luận rằng số giờ tình nguyện và loại tình nguyện viên phụ thuộc lẫn nhau.</p>
+<p class="eng hidden" id="element-956">For the example in <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Table 11.15</a>, if there had been another type of volunteer, teenagers, what would the degrees of freedom be?</p><p class="vn visible" id="element-956-vn">Đối với ví dụ trong <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Bảng 11.15</a>, nếu có thêm một loại tình nguyện viên khác là thanh thiếu niên, thì bậc tự do sẽ là bao nhiêu?</p><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp30286464"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-854">Press the <code data-type="code">MATRX</code> key and arrow over to <code data-type="code">EDIT</code>. Press <code data-type="code">1:[A]</code>. Press <code data-type="code">3 ENTER 3 ENTER</code>. Enter the table values by row from <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Table 11.15</a>. Press <code data-type="code">ENTER</code> after each. Press <code data-type="code">2nd QUIT</code>. Press <code data-type="code">STAT</code> and arrow over to <code data-type="code">TESTS</code>. Arrow down to <code data-type="code">C:χ2-TEST</code>. Press <code data-type="code">ENTER</code>. You should see <code data-type="code">Observed:[A] and Expected:[B]</code>. If necessary, use the arrow keys to move the cursor after <code data-type="code">Observed:</code> and press <code data-type="code">2nd MATRX</code>. Press <code data-type="code">1:[A]</code> to select matrix A. It is not necessary to enter expected values. The matrix listed after <code data-type="code">Expected:</code> can be blank. Arrow down to <code data-type="code">Calculate</code>. Press <code data-type="code">ENTER</code>. The test statistic is 12.9909 and the <em data-effect="italics">p</em>-value = 0.0113. Do the procedure a second time, but arrow down to <code data-type="code">Draw</code> instead of <code data-type="code">calculate</code>.</p><p class="vn visible" id="element-854-vn">Nhấn phím <code data-type="code">MATRX</code> và di chuyển mũi tên sang <code data-type="code">EDIT</code>. Nhấn <code data-type="code">1:[A]</code>. Nhấn <code data-type="code">3 ENTER 3 ENTER</code>. Nhập các giá trị bảng theo hàng từ <a aria-label="View Table 11.15" class="autogenerated-content" href="11-3-test-of-independence#table-73248">Bảng 11.15</a>. Nhấn <code data-type="code">ENTER</code> sau mỗi giá trị. Nhấn <code data-type="code">2nd QUIT</code>. Nhấn <code data-type="code">STAT</code> và di chuyển mũi tên sang <code data-type="code">TESTS</code>. Di chuyển mũi tên xuống <code data-type="code">C:χ2-TEST</code>. Nhấn <code data-type="code">ENTER</code>. Bạn sẽ thấy <code data-type="code">Observed:[A] and Expected:[B]</code>. Nếu cần, hãy sử dụng các phím mũi tên để di chuyển con trỏ sau <code data-type="code">Observed:</code> và nhấn <code data-type="code">2nd MATRX</code>. Nhấn <code data-type="code">1:[A]</code> để chọn ma trận A. Không cần thiết phải nhập các giá trị kỳ vọng. Ma trận được liệt kê sau <code data-type="code">Expected:</code> có thể để trống. Di chuyển mũi tên xuống <code data-type="code">Calculate</code>. Nhấn <code data-type="code">ENTER</code>. Thống kê kiểm định là 12.9909 và p-giá trị = 0.0113. Thực hiện quy trình lần thứ hai, nhưng di chuyển mũi tên xuống <code data-type="code">Draw</code> thay vì <code data-type="code">calculate</code>.</p></div></section></div></div>
+</section>
+</details></section></div></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm24618832"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">11.6</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">11.6</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-685"><header></header><section><div data-type="problem" id="eip-903"><div class="os-problem-container">
+<p class="eng hidden" id="eip-845">The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. <a aria-label="View Table 11.17" class="autogenerated-content" href="11-3-test-of-independence#fs-idp61742592">Table 11.17</a> shows the results: </p><p class="vn visible" id="eip-845-vn">Cục Thống kê Lao động thu thập dữ liệu về việc làm tại Hoa Kỳ. Một mẫu được lấy để tính toán số lượng công dân Hoa Kỳ làm việc trong một trong số các ngành công nghiệp theo thời gian. <a aria-label="View Table 11.17" class="autogenerated-content" href="11-3-test-of-independence#fs-idp61742592">Bảng 11.17</a> hiển thị kết quả:</p>
+<div class="os-table" id="fs-idp61742592"><table data-id="fs-idp61742592" data-summary=""><thead>
+<tr>
+<th class="eng hidden" scope="col">Industry Sector</th><th class="vn visible" scope="col">Ngành công nghiệp</th>
+<th class="eng hidden" scope="col">2000</th><th class="vn visible" scope="col">2000</th>
+<th class="eng hidden" scope="col">2010</th><th class="vn visible" scope="col">2010</th>
+<th class="eng hidden" scope="col">2020</th><th class="vn visible" scope="col">2020</th>
+<th class="eng hidden" scope="col">Total</th><th class="vn visible" scope="col">Tổng</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">Nonagriculture wage and salary</td><td class="vn visible">Việc làm hưởng lương và tiền công phi nông nghiệp</td>
+<td class="eng hidden">13,243</td><td class="vn visible">13,243</td>
+<td class="eng hidden">13,044</td><td class="vn visible">13,044</td>
+<td class="eng hidden">15,018</td><td class="vn visible">15,018</td>
+<td class="eng hidden">41,305</td><td class="vn visible">41,305</td>
+</tr>
+<tr>
+<td class="eng hidden">Goods-producing, excluding agriculture</td><td class="vn visible">Sản xuất hàng hóa, trừ nông nghiệp</td>
+<td class="eng hidden">2,457</td><td class="vn visible">2,457</td>
+<td class="eng hidden">1,771</td><td class="vn visible">1,771</td>
+<td class="eng hidden">1,950</td><td class="vn visible">1,950</td>
+<td class="eng hidden">6,178</td><td class="vn visible">6,178</td>
+</tr>
+<tr>
+<td class="eng hidden">Services-providing</td><td class="vn visible">Cung cấp dịch vụ</td>
+<td class="eng hidden">10,786</td><td class="vn visible">10,786</td>
+<td class="eng hidden">11,273</td><td class="vn visible">11,273</td>
+<td class="eng hidden">13,068</td><td class="vn visible">13,068</td>
+<td class="eng hidden">35,127</td><td class="vn visible">35,127</td>
+</tr>
+<tr>
+<td class="eng hidden">Agriculture, forestry, fishing, and hunting</td><td class="vn visible">Nông nghiệp, lâm nghiệp, đánh bắt và săn bắn</td>
+<td class="eng hidden">240</td><td class="vn visible">240</td>
+<td class="eng hidden">214</td><td class="vn visible">214</td>
+<td class="eng hidden">201</td><td class="vn visible">201</td>
+<td class="eng hidden">655</td><td class="vn visible">655</td>
+</tr>
+<tr>
+<td class="eng hidden">Nonagriculture self-employed and unpaid family worker</td><td class="vn visible">Tự doanh phi nông nghiệp và lao động gia đình không hưởng lương</td>
+<td class="eng hidden">931</td><td class="vn visible">931</td>
+<td class="eng hidden">894</td><td class="vn visible">894</td>
+<td class="eng hidden">972</td><td class="vn visible">972</td>
+<td class="eng hidden">2,797</td><td class="vn visible">2,797</td>
+</tr>
+<tr>
+<td class="eng hidden">Secondary wage and salary jobs in agriculture and private household industries</td><td class="vn visible">Việc làm hưởng lương và tiền công thứ cấp trong ngành nông nghiệp và hộ gia đình tư nhân</td>
+<td class="eng hidden">14</td><td class="vn visible">14</td>
+<td class="eng hidden">11</td><td class="vn visible">11</td>
+<td class="eng hidden">11</td><td class="vn visible">11</td>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+</tr>
+<tr>
+<td class="eng hidden">Secondary jobs as a self-employed or unpaid family worker</td><td class="vn visible">Việc làm thứ cấp với tư cách là người tự doanh hoặc lao động gia đình không hưởng lương</td>
+<td class="eng hidden">196</td><td class="vn visible">196</td>
+<td class="eng hidden">144</td><td class="vn visible">144</td>
+<td class="eng hidden">152</td><td class="vn visible">152</td>
+<td class="eng hidden">492</td><td class="vn visible">492</td>
+</tr>
+<tr>
+<td class="eng hidden">Total</td><td class="vn visible">Tổng</td>
+<td class="eng hidden">27,867</td><td class="vn visible">27,867</td>
+<td class="eng hidden">27,351</td><td class="vn visible">27,351</td>
+<td class="eng hidden">31,372</td><td class="vn visible">31,372</td>
+<td class="eng hidden">86,590</td><td class="vn visible">86,590</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.17</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.17</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p class="eng hidden" id="eip-idp2741344">We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p><p class="vn visible" id="eip-idp2741344-vn">Chúng ta muốn biết liệu sự thay đổi về số lượng việc làm có độc lập với sự thay đổi về năm hay không. Hãy phát biểu giả thuyết không, đối thuyết và bậc tự do.</p>
+</div></div>
+</section></div></div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-505"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">11.7</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">11.7</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p class="eng hidden" id="element-311">De Anza College is interested in the relationship between anxiety level
+        and the need to succeed in school. A random sample of 400 students took a test that measured
+        anxiety level and need to succeed in school. <a aria-label="View Table 11.18" class="autogenerated-content" href="11-3-test-of-independence#element-875">Table 11.18</a> shows the
+        results. De Anza College wants to know if anxiety level and need to succeed in school are
+        independent events.</p><p class="vn visible" id="element-311-vn">Trường Cao đẳng De Anza quan tâm đến mối quan hệ giữa mức độ lo âu và nhu cầu thành công trong học tập. Một mẫu ngẫu nhiên gồm 400 sinh viên đã thực hiện một bài kiểm tra đo lường mức độ lo âu và nhu cầu thành công trong học tập. <a aria-label="View Table 11.18" class="autogenerated-content" href="11-3-test-of-independence#element-875">Bảng 11.18</a> hiển thị kết quả. Trường Cao đẳng De Anza muốn biết liệu mức độ lo âu và nhu cầu thành công trong học tập có phải là các biến cố độc lập hay không.</p>
+<div class="os-table" id="element-875"><table data-id="element-875" data-summary="This table presents the need to succeed in school in the first column and the various anxiety levels (high to low) and the row total in the second to seventh columns. The first row is for high need, the second row is for medium need, third row is for low need, and the column total is in the fourth row."><thead valign="top">
+<tr>
+<th class="eng hidden" scope="col">Need to Succeed in School</th><th class="vn visible" scope="col">Nhu cầu thành công trong học tập</th>
+<th class="eng hidden" scope="col">High <span data-type="newline"><br/></span>Anxiety</th><th class="vn visible" scope="col">Lo âu <span data-type="newline"><br/></span>cao</th>
+<th class="eng hidden" scope="col">Med-high <span data-type="newline"><br/></span>Anxiety</th><th class="vn visible" scope="col">Lo âu <span data-type="newline"><br/></span>trung bình-cao</th>
+<th class="eng hidden" scope="col">Medium <span data-type="newline"><br/></span>Anxiety</th><th class="vn visible" scope="col">Lo âu <span data-type="newline"><br/></span>trung bình</th>
+<th class="eng hidden" scope="col">Med-low <span data-type="newline"><br/></span>Anxiety</th><th class="vn visible" scope="col">Lo âu <span data-type="newline"><br/></span>trung bình-thấp</th>
+<th class="eng hidden" scope="col">Low <span data-type="newline"><br/></span>Anxiety</th><th class="vn visible" scope="col">Lo âu <span data-type="newline"><br/></span>thấp</th>
+<th class="eng hidden" scope="col">Row Total</th><th class="vn visible" scope="col">Tổng hàng</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">High Need</td><td class="vn visible">Nhu cầu cao</td>
+<td class="eng hidden">35</td><td class="vn visible">35</td>
+<td class="eng hidden">42</td><td class="vn visible">42</td>
+<td class="eng hidden">53</td><td class="vn visible">53</td>
+<td class="eng hidden">15</td><td class="vn visible">15</td>
+<td class="eng hidden">10</td><td class="vn visible">10</td>
+<td class="eng hidden">155</td><td class="vn visible">155</td>
+</tr>
+<tr>
+<td class="eng hidden">Medium Need</td><td class="vn visible">Nhu cầu trung bình</td>
+<td class="eng hidden">18</td><td class="vn visible">18</td>
+<td class="eng hidden">48</td><td class="vn visible">48</td>
+<td class="eng hidden">63</td><td class="vn visible">63</td>
+<td class="eng hidden">33</td><td class="vn visible">33</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+<td class="eng hidden">193</td><td class="vn visible">193</td>
+</tr>
+<tr>
+<td class="eng hidden">Low Need</td><td class="vn visible">Nhu cầu thấp</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">11</td><td class="vn visible">11</td>
+<td class="eng hidden">15</td><td class="vn visible">15</td>
+<td class="eng hidden">17</td><td class="vn visible">17</td>
+<td class="eng hidden">52</td><td class="vn visible">52</td>
+</tr>
+<tr>
+<td class="eng hidden">Column Total</td><td class="vn visible">Tổng cột</td>
+<td class="eng hidden">57</td><td class="vn visible">57</td>
+<td class="eng hidden">95</td><td class="vn visible">95</td>
+<td class="eng hidden">127</td><td class="vn visible">127</td>
+<td class="eng hidden">63</td><td class="vn visible">63</td>
+<td class="eng hidden">58</td><td class="vn visible">58</td>
+<td class="eng hidden">400</td><td class="vn visible">400</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.18</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Need to Succeed in School vs. Anxiety Level</span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">11.18</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Nhu cầu thành công trong học tập so với Mức độ lo âu</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-454"><header></header><section>
+<div data-type="problem" id="id9399628"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-671">a. How many high anxiety level students are expected to have a high
+            need to succeed in school? </p><p class="vn visible" id="element-671-vn">a. Có bao nhiêu sinh viên có mức độ lo âu cao được kỳ vọng sẽ có nhu cầu thành công cao trong học tập?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id9399648">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="element-554">a. The column total for a high anxiety level is 57. The row total
+            for high need to succeed in school is 155. The sample size or total surveyed is 400. </p><p class="vn visible" id="element-554-vn">a. Tổng cột cho mức độ lo âu cao là 57. Tổng hàng cho nhu cầu thành công cao trong học tập là 155. Kích thước mẫu hoặc tổng số người được khảo sát là 400.</p>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idm95557984">
+<math display="block">
+<semantics>
+<mrow>
+<mi>E</mi>
+<mo>=</mo>
+<mfrac>
+<mtext>(row total)(column total)</mtext>
+<mtext>total surveyed</mtext>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>155</mn>
+<mo>⋅</mo>
+<mn>57</mn>
+</mrow>
+<mn>400</mn>
+</mfrac>
+<mo>=</mo>
+<mn>22.09</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mi>E</mi>
+<mo>=</mo>
+<mfrac>
+<mtext>(row total)(column total)</mtext>
+<mtext>total surveyed</mtext>
+</mfrac>
+<mo>=</mo>
+<mfrac>
+<mrow>
+<mn>155</mn>
+<mo>⋅</mo>
+<mn>57</mn>
+</mrow>
+<mn>400</mn>
+</mfrac>
+<mo>=</mo>
+<mn>22.09</mn>
+</annotation-xml>
+</semantics>
+</math>
+</div>
+<p class="eng hidden" id="element-790">The expected number of students who have a high anxiety level and a
+            high need to succeed in school is about 22.<span data-count="2" data-type="newline"><br/><br/></span></p><p class="vn visible" id="element-790-vn">Số lượng sinh viên kỳ vọng có mức độ lo âu cao và nhu cầu thành công cao trong học tập là khoảng 22.<span data-count="2" data-type="newline"><br/><br/></span></p>
+</div>
+</section>
+</details>
+</section></div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-804"><header></header><section>
+<div data-type="problem" id="id8698448"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p class="eng hidden" id="element-683">b. If the two variables are independent, how many students do you
+            expect to have a low need to succeed in school and a med-low level of anxiety? </p><p class="vn visible" id="element-683-vn">b. Nếu hai biến là độc lập, bạn kỳ vọng có bao nhiêu sinh viên có nhu cầu thành công thấp trong học tập và mức độ lo âu trung bình-thấp?</p>
+</div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id8698469">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<p class="eng hidden" id="element-921">b. The column total for a med-low anxiety level is 63. The row
+            total for a low need to succeed in school is 52. The sample size or total surveyed is
+            400.</p><p class="vn visible" id="element-921-vn">b. Tổng cột cho mức độ lo âu trung bình-thấp là 63. Tổng hàng cho nhu cầu thành công thấp trong học tập là 52. Kích thước mẫu hoặc tổng số người được khảo sát là 400.</p>
+<div class="unnumbered" data-type="equation" id="eq-00001">
+<math display="block">
+<semantics>
+<mrow>
+<mi>E</mi>
+<mo>=</mo>
+<mfrac>
+<mtext>(row total)(column total)</mtext>
+<mtext>total surveyed</mtext>
+</mfrac>
+<mo> = </mo>
+<mn>8.19</mn>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mi>E</mi>
+<mo>=</mo>
+<mfrac>
+<mtext>(row total)(column total)</mtext>
+<mtext>total surveyed</mtext>
+</mfrac>
+<mo> = </mo>
+<mn>8.19</mn>
+</annotation-xml>
+</semantics>
+</math>
+</div>
+<p class="eng hidden" id="para-00001">The expected number of students who have a low need to succeed in school and a
+            med-low level of anxiety is 8.</p><p class="vn visible" id="para-00001-vn">Số lượng sinh viên kỳ vọng có nhu cầu thành công thấp trong học tập và mức độ lo âu trung bình-thấp là 8.</p>
+</div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm15185536"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">11.7</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">11.7</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-358"><header></header><section><div data-type="problem" id="eip-928"><div class="os-problem-container">
+<p class="eng hidden" id="eip-757">Refer back to the information in <a aria-label="Go to Try It  11.6" class="autogenerated-content" href="11-3-test-of-independence#fs-idm24618832">Try It  11.6</a>. How many service providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p><p class="vn visible" id="eip-757-vn">Tham khảo lại thông tin trong <a aria-label="Go to Try It  11.6" class="autogenerated-content" href="11-3-test-of-independence#fs-idm24618832">Thử sức 11.6</a>. Dự kiến có bao nhiêu việc làm cung cấp dịch vụ vào năm 2020? Dự kiến có bao nhiêu việc làm hưởng lương và tiền công phi nông nghiệp vào năm 2020?</p></div></div>
+</section></div>
+</div></section></div>
+</body></html>

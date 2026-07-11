@@ -1,0 +1,554 @@
+<html><head>
+<meta charset="utf-8"/><link href="../../../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head><body><div class="os-figure has-splash" id="fs-idp38862000"><figure class="splash ui-has-child-figcaption" data-id="fs-idp38862000"><span data-alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." data-type="media" id="fs-idm31074784">
+<button aria-label="Click to enlarge image of This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." class="image-button-wrapper" type="button"><img alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." data-media-type="image/jpeg" height="649" loading="lazy" src="../../../assets/img-8-1.webp" width="975"/></button></span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">8.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Have you ever wondered what the average number of M&amp;Ms in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: modification of work “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean”/ Pxhere, Public Domain)</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">8.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Bạn đã bao giờ tự hỏi số trung bình các viên kẹo M&amp;M trong một túi tại cửa hàng tạp hóa là bao nhiêu chưa? Bạn có thể sử dụng các khoảng tin cậy để trả lời câu hỏi này. (nguồn: chỉnh sửa từ tác phẩm “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean” / Pxhere, Phạm vi công cộng)</span></figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp115342032"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-281">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-281-vn">Đến cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list12315"><li class="eng hidden">Calculate and interpret confidence intervals for estimating a population mean and a population proportion.</li><li class="vn visible">Tính toán và diễn giải các khoảng tin cậy để ước lượng số trung bình quần thể và tỷ lệ quần thể.</li>
+<li class="eng hidden">Interpret the Student's t probability distribution as the sample size changes.</li><li class="vn visible">Diễn giải phân phối xác suất t của Student khi kích thước mẫu thay đổi.</li>
+<li class="eng hidden">Discriminate between problems applying the normal and the Student's <em data-effect="italics">t</em> distributions.</li><li class="vn visible">Phân biệt giữa các bài toán áp dụng phân phối chuẩn và phân phối <em data-effect="italics">t</em> của Student.</li>
+<li class="eng hidden">Calculate the sample size required to estimate a population mean and a population proportion given a desired confidence level and margin of error.</li><li class="vn visible">Tính toán kích thước mẫu cần thiết để ước lượng số trung bình quần thể và tỷ lệ quần thể dựa trên mức độ tin cậy và sai số biên mong muốn.</li>
+</ul></div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_956190d1-4e35-4380-b7b1-9c8a38f432e7_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_956190d1-4e35-4380-b7b1-9c8a38f432e7_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Giới thiệu</span></h2>
+<p class="eng hidden" id="element-2812">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempted. In this case, you would have obtained a point estimate for the true proportion.</p><p class="vn visible" id="element-2812-vn">Giả sử bạn đang cố gắng xác định số trung bình tiền thuê một căn hộ hai phòng ngủ trong thị trấn của bạn. Bạn có thể xem phần rao vặt của tờ báo, ghi lại một vài mức giá thuê được liệt kê và tính trung bình cộng của chúng. Bạn sẽ thu được một ước lượng điểm của số trung bình thực tế. Nếu bạn đang cố gắng xác định tỷ lệ phần trăm số lần bạn ném bóng trúng rổ khi chơi bóng rổ, bạn có thể đếm số lần ném trúng và chia cho tổng số lần bạn đã ném. Trong trường hợp này, bạn sẽ thu được một ước lượng điểm cho tỷ lệ thực tế.</p><p class="eng hidden" id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <span data-type="term" group-by="i" id="term-00001">inferential statistics</span>.  <strong>The sample data help us to make an estimate of a population <span data-type="term" group-by="p" id="term-00002">parameter</span></strong>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called confidence intervals.</p><p class="vn visible" id="element-550-vn">Chúng ta sử dụng dữ liệu mẫu để đưa ra các khái quát về một quần thể chưa biết. Phần này của thống kê học được gọi là <span data-type="term" group-by="i" id="term-00001">Thống kê suy luận</span>. <strong>Dữ liệu mẫu giúp chúng ta đưa ra ước lượng về một <span data-type="term" group-by="p" id="term-00002">Tham số</span> quần thể</strong>. Chúng ta nhận ra rằng ước lượng điểm rất có thể không phải là giá trị chính xác của tham số quần thể, nhưng nó gần với giá trị đó. Sau khi tính toán các ước lượng điểm, chúng ta xây dựng các ước lượng khoảng, được gọi là khoảng tin cậy.</p><p class="eng hidden" id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-t, and how it is used with these intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</p><p class="vn visible" id="element-667-vn">Trong chương này, bạn sẽ học cách xây dựng và diễn giải các khoảng tin cậy. Bạn cũng sẽ học một phân phối mới, phân phối t của Student, và cách sử dụng nó với các khoảng này. Trong suốt chương, điều quan trọng cần ghi nhớ là khoảng tin cậy là một biến ngẫu nhiên. Chính tham số quần thể mới là giá trị cố định.</p><p class="eng hidden" id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from Apple Music. If so, you could conduct a survey and calculate the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, and the sample standard deviation, <em data-effect="italics">s</em>. You would use <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> to estimate the population mean and <em data-effect="italics">s</em> to estimate the population standard deviation. The sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, is the <span data-type="term" group-by="p" id="term-00003">point estimate</span> for the population mean, <em data-effect="italics">μ</em>. The sample standard deviation, <em data-effect="italics">s</em>, is the point estimate for the population standard deviation, <em data-effect="italics">σ</em>.</p><p class="vn visible" id="element-560-vn">Nếu bạn làm việc trong bộ phận tiếp thị của một công ty giải trí, bạn có thể quan tâm đến số trung bình các bài hát mà một người tiêu dùng tải xuống mỗi tháng từ Apple Music. Nếu vậy, bạn có thể tiến hành một cuộc khảo sát và tính số trung bình mẫu, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, và độ lệch chuẩn mẫu, <em data-effect="italics">s</em>. Bạn sẽ sử dụng <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> để ước lượng số trung bình quần thể và <em data-effect="italics">s</em> để ước lượng độ lệch chuẩn quần thể. Số trung bình mẫu, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, là <span data-type="term" group-by="p" id="term-00003">Ước lượng điểm</span> cho số trung bình quần thể, <em data-effect="italics">μ</em>. Độ lệch chuẩn mẫu, <em data-effect="italics">s</em>, là ước lượng điểm cho độ lệch chuẩn quần thể, <em data-effect="italics">σ</em>.</p><p class="eng hidden" id="eip-65">Each of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> and <em data-effect="italics">s</em> is called a statistic.</p><p class="vn visible" id="eip-65-vn">Mỗi giá trị trong <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> và <em data-effect="italics">s</em> được gọi là một trị thống kê.</p><p class="eng hidden" id="element-510">A <span data-type="term" group-by="c" id="term-00004">confidence interval</span> is another type of estimate but, instead of being just one number, it is an interval of numbers. It provides a range of reasonable values in which we expect the population parameter to fall. There is no guarantee that a given confidence interval does capture the parameter, but there is a predictable probability of success.</p><p class="vn visible" id="element-510-vn"><span data-type="term" group-by="c" id="term-00004">Khoảng tin cậy</span> là một loại ước lượng khác nhưng thay vì chỉ là một con số, nó là một khoảng các con số. Nó cung cấp một phạm vi các giá trị hợp lý mà chúng ta kỳ vọng tham số quần thể sẽ nằm trong đó. Không có gì đảm bảo rằng một khoảng tin cậy nhất định sẽ chứa tham số, nhưng có một xác suất thành công có thể dự đoán được.</p><p class="eng hidden" id="element-53">Suppose, for the Apple Music example, we do not know the population mean <em data-effect="italics">μ</em>, but we do know that the population standard deviation is <em data-effect="italics">σ</em> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</p><p class="vn visible" id="element-53-vn">Giả sử, đối với ví dụ về Apple Music, chúng ta không biết số trung bình quần thể <em data-effect="italics">μ</em>, nhưng chúng ta biết rằng độ lệch chuẩn quần thể là <em data-effect="italics">σ</em> = 1 và kích thước mẫu của chúng ta là 100. Khi đó, theo định lý giới hạn trung tâm, độ lệch chuẩn cho số trung bình mẫu là</p><div class="unnumbered" data-type="equation" id="element-624">
+<math display="block">
+<semantics>
+<mrow>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math>
+</div><p class="eng hidden" id="element-730">The <span data-type="term" group-by="E" id="term-00005">Empirical Rule</span>, which applies to bell-shaped distributions, says that in approximately 95% of the samples, the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, will be within two standard deviations of the population mean <em data-effect="italics">μ</em>. For our Apple Music example, two standard deviations is (2)(0.1) = 0.2. The sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is likely to be within 0.2 units of <em data-effect="italics">μ</em>.</p><p class="vn visible" id="element-730-vn"><span data-type="term" group-by="E" id="term-00005">Quy tắc thực nghiệm</span>, áp dụng cho các phân phối có hình chuông, cho biết rằng trong khoảng 95% các mẫu, số trung bình mẫu, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, sẽ nằm trong phạm vi hai độ lệch chuẩn của số trung bình quần thể <em data-effect="italics">μ</em>. Đối với ví dụ về Apple Music của chúng ta, hai độ lệch chuẩn là (2)(0.1) = 0.2. Số trung bình mẫu <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> có khả năng nằm trong phạm vi 0.2 đơn vị so với <em data-effect="italics">μ</em>.</p><p class="eng hidden" id="element-457">Because <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is within 0.2 units of <em data-effect="italics">μ</em>, which is unknown, then <em data-effect="italics">μ</em> is likely to be within 0.2 units
+of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> in 95% of the samples. The population mean <em data-effect="italics">μ</em> is contained in an interval whose lower number is calculated by taking the sample mean and subtracting two standard deviations (2)(0.1) and whose upper number is calculated by taking the sample mean and adding two standard deviations. In other words, <em data-effect="italics">μ</em> is between <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> in 95% of all the samples.</p><p class="vn visible" id="element-457-vn">Vì <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> nằm trong phạm vi 0.2 đơn vị so với <em data-effect="italics">μ</em> (giá trị chưa biết), nên <em data-effect="italics">μ</em> có khả năng nằm trong phạm vi 0.2 đơn vị so với <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> trong 95% các mẫu. Số trung bình quần thể <em data-effect="italics">μ</em> nằm trong một khoảng có số dưới được tính bằng cách lấy số trung bình mẫu trừ đi hai độ lệch chuẩn (2)(0.1) và số trên được tính bằng cách lấy số trung bình mẫu cộng với hai độ lệch chuẩn. Nói cách khác, <em data-effect="italics">μ</em> nằm giữa <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> trong 95% tất cả các mẫu.</p><p class="eng hidden" id="element-433">For the Apple Music example, suppose that a sample produced a sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow></annotation-xml></semantics></math></span>. Then the unknown population mean <em data-effect="italics">μ</em> is between</p><p class="vn visible" id="element-433-vn">Đối với ví dụ về Apple Music, giả sử một mẫu tạo ra số trung bình mẫu <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow></annotation-xml></semantics></math></span>. Khi đó, số trung bình quần thể chưa biết <em data-effect="italics">μ</em> nằm giữa</p><p class="eng hidden" id="element-501"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="element-501-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="element-567">We say that we are <strong>95% confident</strong> that the unknown population mean number of songs downloaded from Apple Music per month is between 1.8 and 2.2. <strong>The 95% confidence interval is (1.8, 2.2).</strong></p><p class="vn visible" id="element-567-vn">Chúng ta nói rằng chúng ta <strong>tin cậy 95%</strong> rằng số trung bình quần thể chưa biết về số bài hát được tải xuống từ Apple Music mỗi tháng nằm trong khoảng từ 1.8 đến 2.2. <strong>Khoảng tin cậy 95% là (1.8, 2.2).</strong></p><p class="eng hidden" id="element-484">The 95% confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean <em data-effect="italics">μ</em> or our sample produced an <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> that is not within 0.2 units of the true mean <em data-effect="italics">μ</em>. The first possibility happens for 95% of well-chosen samples. It is important to remember that the second possibility happens for 5% of samples, even though correct procedures are followed.</p><p class="vn visible" id="element-484-vn">Khoảng tin cậy 95% ngụ ý hai khả năng. Hoặc là khoảng (1.8, 2.2) chứa số trung bình thực tế <em data-effect="italics">μ</em>, hoặc mẫu của chúng ta tạo ra một <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> không nằm trong phạm vi 0.2 đơn vị so với số trung bình thực tế <em data-effect="italics">μ</em>. Khả năng thứ nhất xảy ra đối với 95% các mẫu được chọn tốt. Điều quan trọng cần nhớ là khả năng thứ hai xảy ra đối với 5% các mẫu, ngay cả khi các quy trình chính xác đã được tuân thủ.</p><p class="eng hidden" id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <em data-effect="italics">μ</em>. Confidence intervals for some parameters have the form:</p><p class="vn visible" id="element-39-vn">Hãy nhớ rằng một khoảng tin cậy được tạo ra cho một tham số quần thể chưa biết như số trung bình quần thể, <em data-effect="italics">μ</em>. Các khoảng tin cậy cho một số tham số có dạng:</p><p class="eng hidden" id="element-75"><strong>(point estimate – margin of error, point estimate + </strong> <span data-type="term" group-by="m" id="term-00006">margin of error</span><strong>)</strong></p><p class="vn visible" id="element-75-vn"><strong>(ước lượng điểm – sai số biên, ước lượng điểm + </strong> <span data-type="term" group-by="m" id="term-00006">Biên độ lỗi</span><strong>)</strong></p><p class="eng hidden" id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</p><p class="vn visible" id="element-485-vn">Sai số biên phụ thuộc vào mức độ tin cậy hoặc tỷ lệ phần trăm tin cậy và sai số chuẩn của số trung bình.</p><p class="eng hidden" id="eip-255">When you read newspapers and journals, some reports will use the phrase "margin of error." Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. These are two ways of expressing the same concept.</p><p class="vn visible" id="eip-255-vn">Khi bạn đọc báo và tạp chí, một số báo cáo sẽ sử dụng cụm từ "sai số biên". Các báo cáo khác sẽ không sử dụng cụm từ đó, nhưng bao gồm một khoảng tin cậy dưới dạng ước lượng điểm cộng hoặc trừ sai số biên. Đây là hai cách diễn đạt cùng một khái niệm.</p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-882"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idm127604736">Although the text only covers symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</p><p class="vn visible" id="eip-idm127604736-vn">Mặc dù tài liệu này chỉ đề cập đến các khoảng tin cậy đối xứng, nhưng vẫn có các khoảng tin cậy không đối xứng (ví dụ: khoảng tin cậy cho độ lệch chuẩn).</p></div></section></div><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp47490208"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Bài tập hợp tác</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95% confidence interval for the true mean number of meals students eat out each week.</p><p class="vn visible" id="element-906-vn">Hãy nhờ giảng viên của bạn ghi lại số bữa ăn mà mỗi sinh viên trong lớp bạn ăn ngoài mỗi tuần. Giả sử rằng độ lệch chuẩn được biết là ba bữa. Hãy xây dựng một khoảng tin cậy xấp xỉ 95% cho số trung bình thực tế các bữa ăn mà sinh viên ăn ngoài mỗi tuần.</p>
+<ol id="element-997"><li class="eng hidden">Calculate the sample mean.</li><li class="vn visible">Tính số trung bình mẫu.</li>
+<li class="eng hidden">Let <em data-effect="italics">σ</em> = 3 and <em data-effect="italics">n</em> = the number of students surveyed.</li><li class="vn visible">Cho <em data-effect="italics">σ</em> = 3 và <em data-effect="italics">n</em> = số sinh viên được khảo sát.</li>
+<li class="eng hidden">Construct the interval <math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>.</li><li class="vn visible">Xây dựng khoảng <math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>.</li>
+</ol><p class="eng hidden" id="element-927">We say we are approximately 95% confident that the true mean number of meals that students eat out in a week is between __________ and ___________.</p><p class="vn visible" id="element-927-vn">Chúng ta nói rằng chúng ta tin cậy khoảng 95% rằng số trung bình thực tế các bữa ăn mà sinh viên ăn ngoài trong một tuần nằm trong khoảng từ __________ đến ___________.</p>
+</div></section></div>
+</div>
+</div>
+</body></html>

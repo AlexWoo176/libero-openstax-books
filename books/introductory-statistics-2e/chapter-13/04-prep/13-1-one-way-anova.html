@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head>
+<body>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_98e8e22b-e3f2-4c29-af16-22ad2d87398d_titlecreatedbycookbook"><span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">One-Way ANOVA</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_98e8e22b-e3f2-4c29-af16-22ad2d87398d_titlecreatedbycookbook-vn"><span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">One-Way ANOVA</span>
+</h2>
+<p class="eng hidden" id="fs-idm10364336">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test actually uses <span data-type="term" group-by="v" id="term-00001">variances</span> to help determine if the means are equal or not. In order to perform a one-way ANOVA test, there are five basic <strong>assumptions</strong> to be fulfilled:</p><p class="vn visible" id="fs-idm10364336-vn">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test actually uses <span data-type="term" group-by="v" id="term-00001">variances</span> to help determine if the means are equal or not. In order to perform a one-way ANOVA test, there are five basic <strong>assumptions</strong> to be fulfilled:</p>
+<ol id="list-786879">
+<li class="eng hidden">Each population from which a sample is taken is assumed to be normal.</li><li class="vn visible">Each population from which a sample is taken is assumed to be normal.</li>
+<li class="eng hidden">All samples are randomly selected and independent.</li><li class="vn visible">All samples are randomly selected and independent.</li>
+<li class="eng hidden"> The populations are assumed to have <span data-type="term" group-by="e" id="term-00002">equal standard deviations</span> <strong>(or variances)</strong>.</li><li class="vn visible"> The populations are assumed to have <span data-type="term" group-by="e" id="term-00002">equal standard deviations</span> <strong>(or variances)</strong>.</li>
+<li class="eng hidden">The factor is a categorical variable.</li><li class="vn visible">The factor is a categorical variable.</li>
+<li class="eng hidden">The response is a numerical variable.</li><li class="vn visible">The response is a numerical variable.</li>
+</ol>
+<section data-depth="1" id="fs-idm3483088"><h3 class="eng hidden" data-type="title">The Null and Alternative Hypotheses</h3><h3 class="vn visible" data-type="title">The Null and Alternative Hypotheses</h3>
+<p class="eng hidden" id="me2">The null hypothesis is simply that all the group population means are the same. The alternative hypothesis is that at least one pair of means is different. For example, if there are <em data-effect="italics">k</em> groups:</p><p class="vn visible" id="me2-vn">The null hypothesis is simply that all the group population means are the same. The alternative hypothesis is that at least one pair of means is different. For example, if there are <em data-effect="italics">k</em> groups:</p>
+<p class="eng hidden" id="element-671"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ</em><sub>1</sub> = <em data-effect="italics">μ</em><sub>2</sub> = <em data-effect="italics">μ</em><sub>3</sub> = ... = <em data-effect="italics">μ<sub>k</sub></em></p><p class="vn visible" id="element-671-vn"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ</em><sub>1</sub> = <em data-effect="italics">μ</em><sub>2</sub> = <em data-effect="italics">μ</em><sub>3</sub> = ... = <em data-effect="italics">μ<sub>k</sub></em></p>
+<p class="eng hidden" id="element-952"><em data-effect="italics">H<sub>a</sub></em>: At least two of the group means <em data-effect="italics">μ</em><sub>1</sub>, <em data-effect="italics">μ</em><sub>2</sub>, <em data-effect="italics">μ</em><sub>3</sub>, ..., <em data-effect="italics">μ<sub>k</sub></em> are not equal. That is, <em data-effect="italics">μ<sub>i</sub></em> ≠ <em data-effect="italics">μ<sub>j</sub></em> for some <em data-effect="italics">i</em> ≠ <em data-effect="italics">j</em>. </p><p class="vn visible" id="element-952-vn"><em data-effect="italics">H<sub>a</sub></em>: At least two of the group means <em data-effect="italics">μ</em><sub>1</sub>, <em data-effect="italics">μ</em><sub>2</sub>, <em data-effect="italics">μ</em><sub>3</sub>, ..., <em data-effect="italics">μ<sub>k</sub></em> are not equal. That is, <em data-effect="italics">μ<sub>i</sub></em> ≠ <em data-effect="italics">μ<sub>j</sub></em> for some <em data-effect="italics">i</em> ≠ <em data-effect="italics">j</em>. </p><p class="eng hidden" id="eip-969">The graphs, a set of box plots representing the distribution of values with the group means indicated by a horizontal line through the box, help in the understanding of the hypothesis test. In the first graph (blue box plots), <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> = <em data-effect="italics">μ<sub>2</sub></em> = <em data-effect="italics">μ<sub>3</sub></em> and the three populations have the same distribution if the null hypothesis is true.  The variance of the combined data is approximately the same as the variance of each of the populations.</p><p class="vn visible" id="eip-969-vn">The graphs, a set of box plots representing the distribution of values with the group means indicated by a horizontal line through the box, help in the understanding of the hypothesis test. In the first graph (blue box plots), <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> = <em data-effect="italics">μ<sub>2</sub></em> = <em data-effect="italics">μ<sub>3</sub></em> and the three populations have the same distribution if the null hypothesis is true.  The variance of the combined data is approximately the same as the variance of each of the populations.</p>
+<p class="eng hidden" id="fs-idp14626496">If the null hypothesis is false, then the variance of the combined data is larger which is caused by the different means as shown in the second graph (green box plots).</p><p class="vn visible" id="fs-idp14626496-vn">If the null hypothesis is false, then the variance of the combined data is larger which is caused by the different means as shown in the second graph (green box plots).</p>
+<div class="os-figure" id="fs-idp110803872"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp110803872"><span data-alt="The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means." data-type="media" id="eip-idp18347248">
+<button aria-label="Click to enlarge image of The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means." class="image-button-wrapper" type="button"><img alt="The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means." data-media-type="image/png" height="755" loading="lazy" src="../assets/img-13-1-1.webp" width="506"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-caption">(a) <em data-effect="italics">H<sub>0</sub></em> is true. All means are the same; the differences are due to random variation. (b) <em data-effect="italics">H<sub>0</sub></em> is not true. The means are not all the same; the differences are too large to be due to random variation.</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+<span class="os-title-label">Figure </span>
+<span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-caption">(a) <em data-effect="italics">H<sub>0</sub></em> is true. All means are the same; the differences are due to random variation. (b) <em data-effect="italics">H<sub>0</sub></em> is not true. The means are not all the same; the differences are too large to be due to random variation.</span>
+</figcaption></figure></div></section>
+</body></html>

@@ -1,0 +1,85 @@
+<html><head>
+  <meta charset="utf-8"><link href="../../css/style.css" rel="stylesheet"/></head><body><div class="os-figure has-splash" id="fs-idp163541072"><figure class="splash ui-has-child-figcaption" data-id="fs-idp163541072"><span data-alt="This photo shows branch lightening coming from a dark cloud and hitting the ground." data-type="media" id="fs-idp141532880">
+<button aria-label="Click to enlarge image of This photo shows branch lightening coming from a dark cloud and hitting the ground." class="image-button-wrapper" type="button"><img alt="This photo shows branch lightening coming from a dark cloud and hitting the ground." data-media-type="image/jpg" height="651" loading="lazy" src="../assets/img-4-1.webp" width="1401"/></button>
+</span>
+<figcaption class="os-caption-container">
+<span class="os-title-label">Figure </span>
+<span class="os-number">4.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">You can use probability and discrete random variables to calculate the likelihood of lightning striking the ground five times during a half-hour thunderstorm. (credit: modification of work “CG lightning strike” by Axel Rouvin/ Flickr, CC BY 2.0)</span>
+</figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp120416736"><header><h2 class="os-title" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2></header><section>
+<div class="os-note-body">
+<p id="element-959">By the end of this chapter, the student should be able to:</p>
+<ul id="list14235"><li>Recognize and understand discrete probability distribution functions, in general.</li>
+<li>Calculate and interpret expected values.</li>
+<li>Recognize the binomial probability distribution and apply it appropriately.</li>
+<li>Recognize the Poisson probability distribution and apply it appropriately.</li>
+<li>Recognize the geometric probability distribution and apply it appropriately.</li>
+<li>Recognize the hypergeometric probability distribution and apply it appropriately.</li>
+<li>Classify discrete word problems by their distributions.</li>
+</ul>
+</div></section></div>
+<div class="intro-text">
+<h2 data-rex-keep="true" data-type="document-title" id="page_0b777791-2ace-41f1-bf62-3e8aa7a267bb_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2>
+<p id="introch04">A student takes a ten-question, true-false quiz. Because the student had such a busy schedule, they could not study and guesses randomly at each answer. What is the probability of the student passing the test with at least a 70%?</p><p id="element-804">The manager of an auto dealership might be interested in the color preferences for new car buyers. Suppose on average the dealership sells 20 cars per month. What is the probability that a customer prefers red cars?</p><p id="element-919">These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A <span data-type="term" group-by="r" id="term-00001">random variable</span> describes the outcomes of a statistical experiment in words. The values of a random variable can vary with each repetition of an experiment.</p><section data-depth="1" id="randvarnot"><h3 data-type="title">Random Variable Notation</h3>
+<p id="element-197">Upper case letters such as <em data-effect="italics">X</em> or <em data-effect="italics">Y</em> denote a random variable. Lower case letters like <em data-effect="italics">x</em> or <em data-effect="italics">y</em> denote the value of a random variable. If  <strong><em data-effect="italics">X</em> is a random variable, then <em data-effect="italics">X</em> is written in words, and <em data-effect="italics">x</em> is given as a number.</strong></p>
+<p id="element-109">For example, let <em data-effect="italics">X</em> = the number of heads you get when you toss three fair coins. The sample space for the toss of three fair coins is <em data-effect="italics">TTT</em>; <em data-effect="italics">THH</em>; <em data-effect="italics">HTH</em>; <em data-effect="italics">HHT</em>; <em data-effect="italics">HTT</em>; <em data-effect="italics">THT</em>; <em data-effect="italics">TTH</em>; <em data-effect="italics">HHH</em>. Then, <em data-effect="italics">x</em> = 0, 1, 2, 3. <em data-effect="italics">X</em> is in words and <em data-effect="italics">x</em> is a number. Notice that for this example, the <em data-effect="italics">x</em> values are countable outcomes. Because you can count the possible values that <em data-effect="italics">X</em> can take on and the outcomes are random (the <em data-effect="italics">x</em> values 0, 1, 2, 3), <em data-effect="italics">X</em> is a discrete random variable.</p></section><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp37582368"><header><h3 class="os-title" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3></header><section>
+<div class="os-note-body">
+<p id="element-607">Toss a coin ten times and record the number of heads. After all members of the class have completed the experiment (tossed a coin ten times and counted the number of heads), fill in <a aria-label="View Table 4.1" class="autogenerated-content" href="4-introduction#M01_Ch04_tbl001">Table 4.1</a>. Let <em data-effect="italics">X</em> = the number of heads in ten tosses of the coin.</p>
+<div class="os-table" id="M01_Ch04_tbl001"><table data-id="M01_Ch04_tbl001" data-summary="Table showing x, frequency of x and relative frequency of x. x = the number of heads in 10 tosses of a fair coin."><thead>
+<tr>
+<th scope="col"><strong><em data-effect="italics">x</em></strong></th>
+<th scope="col"><strong>Frequency of <em data-effect="italics">x</em></strong></th>
+<th scope="col"><strong>Relative Frequency of <em data-effect="italics">x</em></strong></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">4.1</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><ol id="element-388" type="a"><li>Which value(s) of <em data-effect="italics">x</em> occurred most frequently?</li>
+<li>If you tossed the coin 1,000 times, what values could <em data-effect="italics">x</em> take on? Which value(s) of <em data-effect="italics">x</em> do you think would occur most frequently?</li>
+<li>What does the relative frequency column sum to?</li>
+</ol></div></section></div>
+</div>
+</div>
+</body></html>

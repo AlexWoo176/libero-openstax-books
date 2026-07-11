@@ -1,0 +1,564 @@
+<html><head>
+<meta charset="utf-8"/><link href="../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head><body><div class="os-figure has-splash" id="fs-idp38862000"><figure class="splash ui-has-child-figcaption" data-id="fs-idp38862000"><span data-alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." data-type="media" id="fs-idm31074784">
+<button aria-label="Click to enlarge image of This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." class="image-button-wrapper" type="button"><img alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown." data-media-type="image/jpeg" height="649" loading="lazy" src="../assets/img-8-1.webp" width="975"/></button></span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">8.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Have you ever wondered what the average number of M&amp;Ms in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: modification of work “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean”/ Pxhere, Public Domain)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+<span class="os-title-label">Figure </span>
+<span class="os-number">8.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Have you ever wondered what the average number of M&amp;Ms in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: modification of work “sweet, orange, food, green, red, color, brown, blue, colorful, yellow, chocolate, snack, dessert, toy, plain, candy, sweetness, treat, confectionery, coated, m ms, hard shell, snack food, jelly bean”/ Pxhere, Public Domain)</span>
+</figcaption></figure></div>
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp115342032"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-281">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-281-vn">By the end of this chapter, the student should be able to:</p>
+<ul id="list12315"><li class="eng hidden">Calculate and interpret confidence intervals for estimating a population mean and a population proportion.</li><li class="vn visible">Calculate and interpret confidence intervals for estimating a population mean and a population proportion.</li>
+<li class="eng hidden">Interpret the Student's t probability distribution as the sample size changes.</li><li class="vn visible">Interpret the Student's t probability distribution as the sample size changes.</li>
+<li class="eng hidden">Discriminate between problems applying the normal and the Student's <em data-effect="italics">t</em> distributions.</li><li class="vn visible">Discriminate between problems applying the normal and the Student's <em data-effect="italics">t</em> distributions.</li>
+<li class="eng hidden">Calculate the sample size required to estimate a population mean and a population proportion given a desired confidence level and margin of error.</li><li class="vn visible">Calculate the sample size required to estimate a population mean and a population proportion given a desired confidence level and margin of error.</li>
+</ul></div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_956190d1-4e35-4380-b7b1-9c8a38f432e7_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_956190d1-4e35-4380-b7b1-9c8a38f432e7_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2>
+<p class="eng hidden" id="element-2812">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempted. In this case, you would have obtained a point estimate for the true proportion.</p><p class="vn visible" id="element-2812-vn">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempted. In this case, you would have obtained a point estimate for the true proportion.</p><p class="eng hidden" id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <span data-type="term" group-by="i" id="term-00001">inferential statistics</span>.  <strong>The sample data help us to make an estimate of a population <span data-type="term" group-by="p" id="term-00002">parameter</span></strong>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called confidence intervals.</p><p class="vn visible" id="element-550-vn">We use sample data to make generalizations about an unknown population. This part of statistics is called <span data-type="term" group-by="i" id="term-00001">inferential statistics</span>.  <strong>The sample data help us to make an estimate of a population <span data-type="term" group-by="p" id="term-00002">parameter</span></strong>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called confidence intervals.</p><p class="eng hidden" id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-t, and how it is used with these intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</p><p class="vn visible" id="element-667-vn">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-t, and how it is used with these intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</p><p class="eng hidden" id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from Apple Music. If so, you could conduct a survey and calculate the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, and the sample standard deviation, <em data-effect="italics">s</em>. You would use <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> to estimate the population mean and <em data-effect="italics">s</em> to estimate the population standard deviation. The sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, is the <span data-type="term" group-by="p" id="term-00003">point estimate</span> for the population mean, <em data-effect="italics">μ</em>. The sample standard deviation, <em data-effect="italics">s</em>, is the point estimate for the population standard deviation, <em data-effect="italics">σ</em>.</p><p class="vn visible" id="element-560-vn">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from Apple Music. If so, you could conduct a survey and calculate the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, and the sample standard deviation, <em data-effect="italics">s</em>. You would use <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> to estimate the population mean and <em data-effect="italics">s</em> to estimate the population standard deviation. The sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, is the <span data-type="term" group-by="p" id="term-00003">point estimate</span> for the population mean, <em data-effect="italics">μ</em>. The sample standard deviation, <em data-effect="italics">s</em>, is the point estimate for the population standard deviation, <em data-effect="italics">σ</em>.</p><p class="eng hidden" id="eip-65">Each of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> and <em data-effect="italics">s</em> is called a statistic.</p><p class="vn visible" id="eip-65-vn">Each of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> and <em data-effect="italics">s</em> is called a statistic.</p><p class="eng hidden" id="element-510">A <span data-type="term" group-by="c" id="term-00004">confidence interval</span> is another type of estimate but, instead of being just one number, it is an interval of numbers. It provides a range of reasonable values in which we expect the population parameter to fall. There is no guarantee that a given confidence interval does capture the parameter, but there is a predictable probability of success.</p><p class="vn visible" id="element-510-vn">A <span data-type="term" group-by="c" id="term-00004">confidence interval</span> is another type of estimate but, instead of being just one number, it is an interval of numbers. It provides a range of reasonable values in which we expect the population parameter to fall. There is no guarantee that a given confidence interval does capture the parameter, but there is a predictable probability of success.</p><p class="eng hidden" id="element-53">Suppose, for the Apple Music example, we do not know the population mean <em data-effect="italics">μ</em>, but we do know that the population standard deviation is <em data-effect="italics">σ</em> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</p><p class="vn visible" id="element-53-vn">Suppose, for the Apple Music example, we do not know the population mean <em data-effect="italics">μ</em>, but we do know that the population standard deviation is <em data-effect="italics">σ</em> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</p><div class="unnumbered" data-type="equation" id="element-624">
+<math display="block">
+<semantics>
+<mrow>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</mrow>
+<annotation-xml encoding="MathML-Content">
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.1</mn>
+</mrow>
+</annotation-xml>
+</semantics>
+</math>
+</div><p class="eng hidden" id="element-730">The <span data-type="term" group-by="E" id="term-00005">Empirical Rule</span>, which applies to bell-shaped distributions, says that in approximately 95% of the samples, the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, will be within two standard deviations of the population mean <em data-effect="italics">μ</em>. For our Apple Music example, two standard deviations is (2)(0.1) = 0.2. The sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is likely to be within 0.2 units of <em data-effect="italics">μ</em>.</p><p class="vn visible" id="element-730-vn">The <span data-type="term" group-by="E" id="term-00005">Empirical Rule</span>, which applies to bell-shaped distributions, says that in approximately 95% of the samples, the sample mean, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, will be within two standard deviations of the population mean <em data-effect="italics">μ</em>. For our Apple Music example, two standard deviations is (2)(0.1) = 0.2. The sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is likely to be within 0.2 units of <em data-effect="italics">μ</em>.</p><p class="eng hidden" id="element-457">Because <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is within 0.2 units of <em data-effect="italics">μ</em>, which is unknown, then <em data-effect="italics">μ</em> is likely to be within 0.2 units
+of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> in 95% of the samples. The population mean <em data-effect="italics">μ</em> is contained in an interval whose lower number is calculated by taking the sample mean and subtracting two standard deviations (2)(0.1) and whose upper number is calculated by taking the sample mean and adding two standard deviations. In other words, <em data-effect="italics">μ</em> is between <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> in 95% of all the samples.</p><p class="vn visible" id="element-457-vn">Because <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is within 0.2 units of <em data-effect="italics">μ</em>, which is unknown, then <em data-effect="italics">μ</em> is likely to be within 0.2 units
+of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> in 95% of the samples. The population mean <em data-effect="italics">μ</em> is contained in an interval whose lower number is calculated by taking the sample mean and subtracting two standard deviations (2)(0.1) and whose upper number is calculated by taking the sample mean and adding two standard deviations. In other words, <em data-effect="italics">μ</em> is between <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>−</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>+</mo><mtext> 0</mtext><mtext>.2</mtext>
+</mrow></annotation-xml></semantics></math></span> in 95% of all the samples.</p><p class="eng hidden" id="element-433">For the Apple Music example, suppose that a sample produced a sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow></annotation-xml></semantics></math></span>. Then the unknown population mean <em data-effect="italics">μ</em> is between</p><p class="vn visible" id="element-433-vn">For the Apple Music example, suppose that a sample produced a sample mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> </mtext><mo>=</mo><mtext> 2</mtext>
+</mrow></annotation-xml></semantics></math></span>. Then the unknown population mean <em data-effect="italics">μ</em> is between</p><p class="eng hidden" id="element-501"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="element-501-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>−</mo><mn>0.2</mn><mo>=</mo><mn>1.8</mn>
+</mrow></annotation-xml></semantics></math></span> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>0.2</mn><mo>=</mo><mn>2.2</mn>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="element-567">We say that we are <strong>95% confident</strong> that the unknown population mean number of songs downloaded from Apple Music per month is between 1.8 and 2.2. <strong>The 95% confidence interval is (1.8, 2.2).</strong></p><p class="vn visible" id="element-567-vn">We say that we are <strong>95% confident</strong> that the unknown population mean number of songs downloaded from Apple Music per month is between 1.8 and 2.2. <strong>The 95% confidence interval is (1.8, 2.2).</strong></p><p class="eng hidden" id="element-484">The 95% confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean <em data-effect="italics">μ</em> or our sample produced an <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> that is not within 0.2 units of the true mean <em data-effect="italics">μ</em>. The first possibility happens for 95% of well-chosen samples. It is important to remember that the second possibility happens for 5% of samples, even though correct procedures are followed.</p><p class="vn visible" id="element-484-vn">The 95% confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean <em data-effect="italics">μ</em> or our sample produced an <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> that is not within 0.2 units of the true mean <em data-effect="italics">μ</em>. The first possibility happens for 95% of well-chosen samples. It is important to remember that the second possibility happens for 5% of samples, even though correct procedures are followed.</p><p class="eng hidden" id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <em data-effect="italics">μ</em>. Confidence intervals for some parameters have the form:</p><p class="vn visible" id="element-39-vn">Remember that a confidence interval is created for an unknown population parameter like the population mean, <em data-effect="italics">μ</em>. Confidence intervals for some parameters have the form:</p><p class="eng hidden" id="element-75"><strong>(point estimate – margin of error, point estimate + </strong> <span data-type="term" group-by="m" id="term-00006">margin of error</span><strong>)</strong></p><p class="vn visible" id="element-75-vn"><strong>(point estimate – margin of error, point estimate + </strong> <span data-type="term" group-by="m" id="term-00006">margin of error</span><strong>)</strong></p><p class="eng hidden" id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</p><p class="vn visible" id="element-485-vn">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</p><p class="eng hidden" id="eip-255">When you read newspapers and journals, some reports will use the phrase "margin of error." Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. These are two ways of expressing the same concept.</p><p class="vn visible" id="eip-255-vn">When you read newspapers and journals, some reports will use the phrase "margin of error." Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. These are two ways of expressing the same concept.</p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-882"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idm127604736">Although the text only covers symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</p><p class="vn visible" id="eip-idm127604736-vn">Although the text only covers symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</p></div></section></div><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp47490208"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+<span class="os-title-label">Collaborative Exercise</span>
+</h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95% confidence interval for the true mean number of meals students eat out each week.</p><p class="vn visible" id="element-906-vn">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95% confidence interval for the true mean number of meals students eat out each week.</p>
+<ol id="element-997"><li class="eng hidden">Calculate the sample mean.</li><li class="vn visible">Calculate the sample mean.</li>
+<li class="eng hidden">Let <em data-effect="italics">σ</em> = 3 and <em data-effect="italics">n</em> = the number of students surveyed.</li><li class="vn visible">Let <em data-effect="italics">σ</em> = 3 and <em data-effect="italics">n</em> = the number of students surveyed.</li>
+<li class="eng hidden">Construct the interval <math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>.</li><li class="vn visible">Construct the interval <math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mrow>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mtext>2</mtext>
+</mrow>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><mtext>, </mtext><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mtext> + </mtext><mrow>
+<mtext>2</mtext>
+<mo>’</mo></mrow><mrow>
+<mrow>
+<mfrac>
+<mtext>σ</mtext>
+<mrow>
+<msqrt>
+<mtext>n</mtext>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>.</li>
+</ol><p class="eng hidden" id="element-927">We say we are approximately 95% confident that the true mean number of meals that students eat out in a week is between __________ and ___________.</p><p class="vn visible" id="element-927-vn">We say we are approximately 95% confident that the true mean number of meals that students eat out in a week is between __________ and ___________.</p>
+</div></section></div>
+</div>
+</div>
+</body></html>

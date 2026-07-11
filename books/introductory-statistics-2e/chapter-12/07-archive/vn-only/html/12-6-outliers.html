@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/></head>
+<body>
+<h2 data-rex-keep="true" data-type="document-title" id="page_d1c162aa-f63f-4466-9efd-27b902bf22d0_titlecreatedbycookbook-vn"><span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Các điểm bất thường</span></h2>
+<p id="element-3819-vn">Trong một số tập dữ liệu, có những giá trị <strong>(các điểm dữ liệu quan sát được)</strong> được gọi là <span data-type="term" group-by="o" id="term-00001">các điểm bất thường</span>. <strong>Các điểm bất thường là các điểm dữ liệu quan sát được nằm xa đường bình phương tối thiểu.</strong> Chúng có các "sai số" lớn, trong đó "sai số" hay phần dư là khoảng cách thẳng đứng từ đường thẳng đến điểm đó.</p>
+<p id="eip-502-vn">Các điểm bất thường cần được xem xét kỹ lưỡng. Đôi khi, vì lý do này hay lý do khác, chúng không nên được đưa vào phân tích dữ liệu. Có khả năng một điểm bất thường là kết quả của dữ liệu sai lệch. Những lần khác, một điểm bất thường có thể chứa thông tin có giá trị về quần thể đang được nghiên cứu và nên được giữ lại trong dữ liệu. Điều quan trọng là phải kiểm tra cẩn thận nguyên nhân khiến một điểm dữ liệu trở thành điểm bất thường.</p>
+<p id="eip-224-vn">Ngoài các điểm bất thường, một mẫu có thể chứa một hoặc một vài điểm được gọi là <span data-type="term" group-by="i" id="term-00002">các điểm ảnh hưởng</span>. Các điểm ảnh hưởng là các điểm dữ liệu quan sát được nằm xa các điểm dữ liệu quan sát được khác theo phương ngang. Những điểm này có thể có ảnh hưởng lớn đến độ dốc của đường hồi quy. Để bắt đầu xác định một điểm ảnh hưởng, bạn có thể loại bỏ nó khỏi tập dữ liệu và xem liệu độ dốc của đường hồi quy có thay đổi đáng kể hay không.</p>
+<p id="eip-755-vn">Máy tính và nhiều máy tính cầm tay có thể được sử dụng để xác định các điểm bất thường từ dữ liệu. Kết quả đầu ra của máy tính cho phân tích hồi quy thường sẽ xác định cả các điểm bất thường và các điểm ảnh hưởng để bạn có thể kiểm tra chúng.</p>
+<section data-depth="1" id="fs-idm49430544"><h3 data-type="title">Nhận diện các điểm bất thường</h3>
+<p id="eip-511-vn">Chúng ta có thể đoán các điểm bất thường bằng cách nhìn vào biểu đồ phân tán và đường phù hợp nhất. Tuy nhiên, chúng ta muốn có một số hướng dẫn về việc một điểm cần nằm cách xa bao nhiêu để được coi là điểm bất thường. <strong>Theo quy tắc ngón tay cái, chúng ta có thể đánh dấu bất kỳ điểm nào nằm xa hơn hai độ lệch chuẩn phía trên hoặc phía dưới đường phù hợp nhất là một điểm bất thường</strong>. Độ lệch chuẩn được sử dụng là độ lệch chuẩn của các phần dư hoặc sai số.</p>
+<p id="eip-526-vn">Chúng ta có thể thực hiện việc này một cách trực quan trên biểu đồ phân tán bằng cách vẽ thêm một cặp đường thẳng nằm cách đường phù hợp nhất hai độ lệch chuẩn phía trên và phía dưới. Bất kỳ điểm dữ liệu nào nằm ngoài cặp đường bổ sung này đều được đánh dấu là các điểm bất thường tiềm ẩn. Hoặc chúng ta có thể thực hiện việc này bằng số bằng cách tính toán từng phần dư và so sánh nó với hai lần độ lệch chuẩn. Trên máy tính TI-83, 83+ hoặc 84+, phương pháp đồ thị dễ dàng hơn. Quy trình đồ thị được hiển thị trước, sau đó là các tính toán bằng số. Thông thường, bạn chỉ cần sử dụng một trong các phương pháp này.</p><div class="ui-has-child-title" data-type="example" id="eip-837"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.12</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><div class="unnumbered has-problem-title" data-type="exercise" id="element-12987"><header></header><section>
+<div data-type="problem" id="id1170949520848"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="element-631-vn">Trong <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>, bạn có thể xác định xem có điểm bất thường hay không. Nếu có một điểm bất thường, như một bài tập, hãy xóa nó đi và khớp dữ liệu còn lại với một đường thẳng mới. Đối với ví dụ này, đường thẳng mới sẽ khớp với dữ liệu còn lại tốt hơn. Điều này có nghĩa là <strong>SSE</strong> sẽ nhỏ hơn và hệ số tương quan sẽ gần với 1 hoặc –1 hơn.</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1170917505276">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container"><h4 data-type="title">Nhận diện bằng đồ thị các điểm bất thường</h4>
+<p id="element-435-vn">Với các máy tính đồ thị TI-83, 83+, 84+, việc xác định các điểm bất thường bằng đồ thị và trực quan rất dễ dàng. Nếu chúng ta đo khoảng cách thẳng đứng từ bất kỳ điểm dữ liệu nào đến điểm tương ứng trên đường phù hợp nhất và khoảng cách đó bằng 2<em data-effect="italics">s</em> hoặc hơn, thì chúng ta sẽ coi điểm dữ liệu đó là "quá xa" so với đường phù hợp nhất. Chúng ta cần tìm và vẽ các đường nằm cách đường hồi quy hai độ lệch chuẩn phía dưới và phía trên. Bất kỳ điểm nào nằm ngoài hai đường này đều là các điểm bất thường. Chúng ta sẽ gọi các đường này là Y2 và Y3:</p>
+<p id="element-20965-vn">Như chúng ta đã làm với phương trình đường hồi quy và hệ số tương quan, chúng ta sẽ sử dụng công nghệ để tính toán độ lệch chuẩn này cho chúng ta. Sử dụng <strong>LinRegTTest</strong> với dữ liệu này, hãy cuộn xuống qua các màn hình kết quả để tìm <strong><em data-effect="italics">s</em> = 16.412</strong>.</p>
+<p id="element-208-vn">Đường Y2 = –173.5 + 4.83<em data-effect="italics">x</em> –2(16.4) và đường Y3 = –173.5 + 4.83<em data-effect="italics">x</em> + 2(16.4)<span data-type="newline"><br/></span><span data-type="newline"><br/></span>trong đó <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em> là đường phù hợp nhất. Y2 và Y3 có cùng độ dốc với đường phù hợp nhất.</p>
+<p id="element-129853-vn">Vẽ biểu đồ phân tán với đường phù hợp nhất trong phương trình Y1, sau đó nhập hai đường bổ sung dưới dạng Y2 và Y3 trong trình chỉnh sửa phương trình "Y=" và nhấn ZOOM 9. Bạn sẽ thấy rằng điểm dữ liệu duy nhất không nằm giữa các đường Y2 và Y3 là điểm <em data-effect="italics">x</em> = 65, <em data-effect="italics">y</em> = 175. Trên màn hình máy tính, nó chỉ nằm ngoài các đường này một chút. Điểm bất thường là sinh viên có điểm 65 trong bài thi thứ ba và 175 trong bài thi cuối kỳ; điểm này cách đường phù hợp nhất hơn hai độ lệch chuẩn.</p>
+<p id="element-664-vn">Đôi khi một điểm nằm quá gần các đường được sử dụng để đánh dấu các điểm bất thường trên biểu đồ đến mức khó có thể biết liệu điểm đó nằm giữa hay nằm ngoài các đường. Trên máy tính, việc phóng to biểu đồ có thể giúp ích; trên màn hình máy tính cầm tay nhỏ, việc thu phóng có thể làm cho biểu đồ rõ ràng hơn. Lưu ý rằng khi biểu đồ không cung cấp hình ảnh đủ rõ ràng, bạn có thể sử dụng các so sánh bằng số để xác định các điểm bất thường.</p>
+<div class="os-figure" id="eip-idp140675136"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idp140675136">
+<span data-alt="The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." data-type="media" id="id1170917557779">
+<button aria-label="Click to enlarge image of The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." class="image-button-wrapper" type="button"><img alt="The scatter plot of exam scores with a line of best fit.Two yellow dashed lines run parallel to the line of best fit. The dashed lines run above and below the best fit line at equal distances. One data point falls outside the boundary created by the dashed lines—it is an outlier." data-media-type="image/png" height="611" loading="lazy" src="../../../assets/img-12-6-1.webp" width="974"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.20</span></figcaption></figure></div></div>
+</section>
+</details>
+</section></div>
+</div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp112103840"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.12</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-365"><header></header><section>
+<div data-type="problem" id="eip-801"><div class="os-problem-container">
+<p id="eip-145-vn">Xác định điểm bất thường tiềm ẩn trong biểu đồ phân tán. Độ lệch chuẩn của các phần dư hoặc sai số xấp xỉ 8.6.</p>
+<div class="os-figure" id="fs-idp117757200"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp117757200"><span data-alt="Gráfico de dispersión con una línea de regresión lineal y un punto atípico." data-display="block" data-type="media" id="eip-idp189014800">
+<button aria-label="Click to enlarge image of Gráfico de dispersión con una línea de regresión lineal y un punto atípico." class="image-button-wrapper" type="button"><img alt="Gráfico de dispersión con una línea de regresión lineal y un punto atípico." data-media-type="image/png" height="636" loading="lazy" src="../../../assets/img-12-6-2.webp" width="954"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.21</span></figcaption></figure></div></div></div>
+</section></div>
+</div></section></div>
+</section>
+<section data-depth="1" id="eip-212"><h3 data-type="title">Nhận diện bằng số các điểm bất thường</h3>
+<p id="element-1763-vn">Trong <a aria-label="View Table 12.6" class="autogenerated-content" href="12-6-outliers#element-4662">Bảng 12.6</a>, hai cột đầu tiên là dữ liệu bài thi thứ ba và bài thi cuối kỳ. Cột thứ ba hiển thị các giá trị <em data-effect="italics">ŷ</em> dự đoán được tính từ đường phù hợp nhất: <em data-effect="italics">ŷ</em> = –173.5 + 4.83<em data-effect="italics">x</em>. Các phần dư, hay sai số, đã được tính toán trong cột thứ tư của bảng: giá trị <em data-effect="italics">y</em> quan sát được − giá trị y dự đoán = <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em>.</p><p id="element-973-vn"><em data-effect="italics">s</em> là độ lệch chuẩn của tất cả các giá trị <em data-effect="italics">y</em> − <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> trong đó <em data-effect="italics">n</em> = tổng số điểm dữ liệu. Nếu mỗi phần dư được tính toán và bình phương, và các kết quả được cộng lại, chúng ta sẽ có SSE. Độ lệch chuẩn của các phần dư được tính từ SSE như sau:</p>
+<div class="unnumbered" data-type="equation" id="element-797"><math display="block"><semantics><mrow>
+<mrow>
+<mi>s</mi><mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><mi>S</mi><mi>E</mi>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>s</mi><mo>=</mo><msqrt>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><mi>S</mi><mi>E</mi>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</msqrt>
+</mrow></annotation-xml></semantics></math></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm68726848"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp95645280-vn">Chúng ta chia cho (<em data-effect="italics">n</em> – 2) vì mô hình hồi quy liên quan đến hai ước lượng.</p></div></section></div>
+<p id="element-42-vn">Thay vì tự tính giá trị của <em data-effect="italics">s</em>, chúng ta có thể tìm <em data-effect="italics">s</em> bằng máy tính hoặc máy tính cầm tay. Đối với ví dụ này, hàm LinRegTTest trên máy tính đã tìm thấy <em data-effect="italics">s</em> = 16.4 là độ lệch chuẩn của các phần dư <span data-display="inline" data-list-type="labeled-item" data-type="list" id="set-list2"><span data-type="item">35<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–17<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–6<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–19<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–10<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–9<span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">–1</span>
+</span>.</p>
+<div class="os-table" id="element-4662"><table data-id="element-4662" data-summary="The table contains 4 columns and 11 rows of calculation. The first two columns contain the x and y data values. The third column contains the values predicted by the regression line. The fourth column contains the errors or residuals, calculated as the observed y value minus the predicted value."><thead>
+<tr>
+<th scope="col"><em data-effect="italics">x</em></th>
+<th scope="col"><em data-effect="italics">y</em></th>
+<th scope="col"><em data-effect="italics">ŷ</em></th>
+<th scope="col"><em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>65</td>
+<td>175</td>
+<td>140</td>
+<td>175 – 140 = 35</td>
+</tr>
+<tr>
+<td>67</td>
+<td>133</td>
+<td>150</td>
+<td>133 – 150= –17</td>
+</tr>
+<tr>
+<td>71</td>
+<td>185</td>
+<td>169</td>
+<td>185 – 169 = 16</td>
+</tr>
+<tr>
+<td>71</td>
+<td>163</td>
+<td>169</td>
+<td>163 – 169 = –6</td>
+</tr>
+<tr>
+<td>66</td>
+<td>126</td>
+<td>145</td>
+<td>126 – 145 = –19</td>
+</tr>
+<tr>
+<td>75</td>
+<td>198</td>
+<td>189</td>
+<td>198 – 189 = 9</td>
+</tr>
+<tr>
+<td>67</td>
+<td>153</td>
+<td>150</td>
+<td>153 – 150 = 3</td>
+</tr>
+<tr>
+<td>70</td>
+<td>163</td>
+<td>164</td>
+<td>163 – 164 = –1</td>
+</tr>
+<tr>
+<td>71</td>
+<td>159</td>
+<td>169</td>
+<td>159 – 169 = –10</td>
+</tr>
+<tr>
+<td>69</td>
+<td>151</td>
+<td>160</td>
+<td>151 – 160 = –9</td>
+</tr>
+<tr>
+<td>69</td>
+<td>159</td>
+<td>160</td>
+<td>159 – 160 = –1</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.6</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div><p id="element-508-vn">Chúng ta đang tìm kiếm tất cả các điểm dữ liệu mà phần dư lớn hơn 2<em data-effect="italics">s</em> = 2(16.4) = 32.8 hoặc nhỏ hơn –32.8. So sánh các giá trị này với các phần dư trong cột thứ tư của bảng. Điểm dữ liệu duy nhất như vậy là sinh viên có điểm 65 trong bài thi thứ ba và 175 trong bài thi cuối kỳ; phần dư cho sinh viên này là 35.</p>
+</section>
+<section data-depth="1" id="fs-idm166882672"><h3 data-type="title">Điểm bất thường ảnh hưởng như thế nào đến đường phù hợp nhất?</h3>
+<p id="element-8021-vn">Về mặt số học và đồ thị, chúng ta đã xác định điểm (65, 175) là một điểm bất thường. Chúng ta nên kiểm tra lại dữ liệu cho điểm này để xem có vấn đề gì với dữ liệu hay không. Nếu có lỗi, chúng ta nên sửa lỗi nếu có thể, hoặc xóa dữ liệu. Nếu dữ liệu chính xác, chúng ta sẽ để nó trong tập dữ liệu. Đối với bài toán này, chúng ta sẽ giả định rằng chúng ta đã kiểm tra dữ liệu và thấy rằng dữ liệu bất thường này là một lỗi. Do đó, chúng ta sẽ tiếp tục và xóa điểm bất thường, để chúng ta có thể khám phá cách nó ảnh hưởng đến kết quả như một trải nghiệm học tập.</p>
+<p id="element-6691-vn"><span data-type="title">Tính toán một đường phù hợp nhất mới và hệ số tương quan sử dụng mười điểm còn lại:</span>
+Trên các máy tính TI-83, TI-83+, TI-84+, hãy xóa điểm bất thường khỏi L1 và L2. Sử dụng LinRegTTest, đường phù hợp nhất mới và hệ số tương quan là:</p>
+<p id="element-669-vn"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> và <em data-effect="italics">r</em> = 0.9121</p><p id="element-101-vn">Đường thẳng mới với <em data-effect="italics">r</em> = 0.9121 có tương quan mạnh hơn so với ban đầu (<em data-effect="italics">r</em> = 0.6631) vì <em data-effect="italics">r</em> = 0.9121 gần với một hơn. Điều này có nghĩa là đường thẳng mới khớp tốt hơn với mười giá trị dữ liệu còn lại. Đường thẳng này có thể dự đoán điểm thi cuối kỳ tốt hơn dựa trên điểm thi thứ ba.</p>
+</section>
+<section data-depth="1" id="fs-idm24143888"><h3 data-type="title">Nhận diện bằng số các điểm bất thường: Tính toán <em data-effect="italics">s</em> và tìm các điểm bất thường theo cách thủ công</h3>
+<p id="eip-819-vn">Nếu bạn không có hàm LinRegTTest, thì bạn có thể tính toán điểm bất thường trong ví dụ đầu tiên bằng cách thực hiện các bước sau.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+Đầu tiên, <strong>bình phương mỗi |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>|</strong></p><p id="eip-152-vn">Các bình phương là <span data-display="inline" data-list-type="labeled-item" data-type="list" id="list1">
+<span data-type="item">35<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">17<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">16<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">6<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">19<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">3<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">10<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">9<sup>2</sup><span class="-os-inline-list-separator">; </span></span>
+<span data-type="item">1<sup>2</sup></span>
+</span></p>
+<p id="eip-912-vn"><strong>Sau đó, cộng (tổng) tất cả các số hạng |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| bình phương</strong> bằng cách sử dụng công thức</p>
+<p id="eip-187-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>|</mo><msub>
+<mi>y</mi>
+<mi>i</mi>
+</msub>
+<mo>−</mo><msub>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mi>i</mi>
+</msub>
+<mo>|</mo>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mo> </mo><mo>=</mo><mo> </mo><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msub>
+<mi>ε</mi>
+<mi>i</mi>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math></span> (Nhớ rằng <em data-effect="italics">y</em><sub>i</sub> – <em data-effect="italics">ŷ</em><sub>i</sub> = <em data-effect="italics">ε</em><sub>i</sub>.)</p><p id="eip-977-vn">= 35<sup>2</sup> + 17<sup>2</sup> + 16<sup>2</sup> + 6<sup>2</sup> + 19<sup>2</sup> + 9<sup>2</sup> + 3<sup>2</sup> + 1<sup>2</sup> + 10<sup>2</sup> + 9<sup>2</sup> + 1<sup>2</sup></p><p id="eip-684-vn">= 2440 =  <strong>SSE</strong>. Kết quả, <strong>SSE</strong> là Tổng bình phương sai số.</p>
+<p id="eip-961-vn"><strong>Tiếp theo, tính <em data-effect="italics">s</em>, độ lệch chuẩn của tất cả các giá trị <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> = <em data-effect="italics">ε</em> trong đó <em data-effect="italics">n</em> = tổng số điểm dữ liệu.</strong></p>
+<p id="eip-454-vn">Phép tính là <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mtext>SSE</mtext></mrow>
+<mrow><mi>n</mi><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt></annotation-xml></semantics></math></span>.</p>
+<p id="eip-284-vn">Đối với bài toán về kỳ thi thứ ba/kỳ thi cuối khóa, <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>s</mi><mo>=</mo>
+<msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt>
+<mo>=</mo><mn>16.47</mn>
+</mrow><annotation-xml encoding="MathML-Content"><mi>s</mi><mo>=</mo><msqrt>
+<mfrac>
+<mrow><mn>2440</mn></mrow>
+<mrow><mn>11</mn><mo>–</mo><mn>2</mn></mrow>
+</mfrac>
+</msqrt><mo>=</mo><mn>16.47</mn></annotation-xml></semantics></math></span>.</p>
+<p id="eip-799-vn">Tiếp theo, nhân <em data-effect="italics">s</em> với 2:
+<span data-type="newline"><br/></span>(2)(16.47) = 32.94
+<span data-type="newline"><br/></span>32.94 cách giá trị trung bình của các giá trị <em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em> là 2 độ lệch chuẩn.</p><p id="eip-28-vn">Nếu chúng ta đo khoảng cách theo chiều dọc từ bất kỳ điểm dữ liệu nào đến điểm tương ứng trên đường phù hợp nhất và khoảng cách đó ít nhất là 2<em data-effect="italics">s</em>, thì chúng ta sẽ coi điểm dữ liệu đó là "quá xa" so với đường phù hợp nhất. Chúng ta gọi điểm đó là <span data-type="term" group-by="p" id="term-00003">điểm bất thường tiềm ẩn</span>.</p><p id="eip-130-vn">Đối với ví dụ này, nếu bất kỳ giá trị |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| nào <strong>ít nhất</strong> là 32.94, thì điểm dữ liệu (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) tương ứng là một điểm bất thường tiềm ẩn.</p><p id="eip-696-vn">Đối với bài toán về kỳ thi thứ ba/kỳ thi cuối khóa, tất cả các giá trị |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| đều nhỏ hơn 31.29 ngoại trừ giá trị đầu tiên là 35.</p><p id="eip-994-vn">35 &gt; 31.29 Nghĩa là, |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| ≥ (2)(s)</p><p id="eip-980-vn">Điểm tương ứng với |<em data-effect="italics">y</em> – <em data-effect="italics">ŷ</em>| = 35 là (65, 175). <strong>Do đó, điểm dữ liệu (65,175) là một điểm bất thường tiềm ẩn.</strong> Đối với ví dụ này, chúng ta sẽ xóa nó đi. (Hãy nhớ rằng, chúng ta không phải lúc nào cũng xóa một điểm bất thường.)</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp12863088"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp101044864-vn">Khi các điểm bất thường bị xóa, nhà nghiên cứu nên ghi lại rằng dữ liệu đã bị xóa và lý do tại sao, hoặc nhà nghiên cứu nên cung cấp kết quả cả khi có và không có dữ liệu đã xóa. Nếu dữ liệu bị sai và các giá trị đúng đã được biết (ví dụ: sinh viên thứ nhất thực tế đạt 70 điểm thay vì 65), thì có thể thực hiện hiệu chỉnh này cho dữ liệu.</p></div></section></div>
+<p id="fs-idm274617664-vn"><span data-type="newline"><br/></span><span data-type="newline"><br/></span>Bước tiếp theo là tính toán một đường phù hợp nhất mới bằng cách sử dụng mười điểm còn lại. Đường phù hợp nhất mới và hệ số tương quan là:</p><p id="eip-451-vn"><em data-effect="italics">ŷ</em> = –355.19 + 7.39<em data-effect="italics">x</em> và <em data-effect="italics">r</em> = 0.9121</p>
+<div class="ui-has-child-title" data-type="example" id="element-824"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.13</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-12623"><header></header><section>
+<div data-type="problem" id="id1171155161094"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<p id="element-802-vn">Sử dụng đường phù hợp nhất mới này (dựa trên mười điểm dữ liệu còn lại trong <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về kỳ thi thứ ba/kỳ thi cuối khóa</a>), một sinh viên nhận được 73 điểm trong kỳ thi thứ ba dự kiến sẽ nhận được bao nhiêu điểm trong kỳ thi cuối khóa? Kết quả này có giống với dự đoán được thực hiện bằng đường ban đầu không?</p></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1171158788502">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<p id="element-12623s-vn">Sử dụng đường phù hợp nhất mới, <em data-effect="italics">ŷ</em> = –355.19 + 7.39(73) = 184.28. Một sinh viên đạt 73 điểm trong kỳ thi thứ ba dự kiến sẽ đạt 184 điểm trong kỳ thi cuối khóa.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+Đường ban đầu dự đoán <em data-effect="italics">ŷ</em> = –173.51 + 4.83(73) = 179.08, vì vậy dự đoán sử dụng đường mới với điểm bất thường đã bị loại bỏ khác với dự đoán ban đầu.</p></div>
+</section>
+</details>
+</section></div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp77690080"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.13</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-846"><header></header><section><div data-type="problem" id="eip-372"><div class="os-problem-container">
+<p id="eip-353-vn">Các điểm dữ liệu cho biểu đồ từ <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về kỳ thi thứ ba/kỳ thi cuối khóa</a> như sau: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), và (7, 21). Loại bỏ điểm bất thường và tính toán lại đường phù hợp nhất. Tìm giá trị của <em data-effect="italics">ŷ</em> khi <em data-effect="italics">x</em> = 10.</p></div></div>
+</section></div>
+</div></section></div>
+<div class="ui-has-child-title" data-type="example" id="element-986"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.14</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-719-vn">Chỉ số giá tiêu dùng (CPI) đo lường sự thay đổi trung bình theo thời gian về giá cả mà người tiêu dùng thành thị phải trả cho hàng hóa và dịch vụ tiêu dùng. CPI ảnh hưởng đến hầu hết tất cả người Mỹ vì nhiều cách sử dụng của nó. Một trong những công dụng lớn nhất của nó là thước đo lạm phát. Bằng cách cung cấp thông tin về những thay đổi giá cả trong nền kinh tế quốc gia cho chính phủ, doanh nghiệp và người lao động, CPI giúp họ đưa ra các quyết định kinh tế. Tổng thống, Quốc hội và Hội đồng Dự trữ Liên bang sử dụng các xu hướng của CPI để xây dựng các chính sách tiền tệ và tài khóa. Trong bảng sau, <em data-effect="italics">x</em> là năm và <em data-effect="italics">y</em> là CPI.</p>
+<div class="os-table" id="element-127"><table data-id="element-127" data-summary=".."><thead>
+<tr>
+<th data-align="center" scope="col"><em data-effect="italics">x</em></th>
+<th data-align="center" scope="col"><em data-effect="italics">y</em></th>
+<th data-align="center" scope="col"><em data-effect="italics">x</em></th>
+<th data-align="center" scope="col"><em data-effect="italics">y</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1915</td>
+<td>10.1</td>
+<td>1979</td>
+<td>72.6</td>
+</tr>
+<tr>
+<td>1926</td>
+<td>17.7</td>
+<td>1980</td>
+<td>82.4</td>
+</tr>
+<tr>
+<td>1935</td>
+<td>13.7</td>
+<td>1986</td>
+<td>109.6</td>
+</tr>
+<tr>
+<td>1940</td>
+<td>14.7</td>
+<td>1991</td>
+<td>130.7</td>
+</tr>
+<tr>
+<td>1947</td>
+<td>24.1</td>
+<td>1999</td>
+<td>166.6</td>
+</tr>
+<tr>
+<td>1952</td>
+<td>26.5</td>
+<td>2010</td>
+<td>219.2</td>
+</tr>
+<tr>
+<td>1964</td>
+<td>31.0</td>
+<td>2020</td>
+<td>258</td>
+</tr>
+<tr>
+<td>1969</td>
+<td>36.7</td>
+<td>2023</td>
+<td>299.2</td>
+</tr>
+<tr>
+<td>1975</td>
+<td>49.3</td>
+<td>
+</td><td>
+</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.7</span>
+<span class="os-divider"> </span>
+<span class="os-title" data-type="title">Data</span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="unnumbered has-problem-title" data-type="exercise" id="element-603"><header></header><section><div data-type="problem" id="id1171166081082"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<div class="os-problem-container">
+<ol id="list3" type="a">
+<li>Vẽ biểu đồ phân tán của dữ liệu.</li>
+<li>Tính toán đường bình phương tối thiểu. Viết phương trình dưới dạng <em data-effect="italics">ŷ</em> = <em data-effect="italics">a</em> + <em data-effect="italics">bx</em>.</li>
+<li>Vẽ đường thẳng trên biểu đồ phân tán.</li>
+<li>Tìm hệ số tương quan. Nó có đáng kể không?</li>
+<li>CPI trung bình cho năm 1990 là bao nhiêu?</li>
+</ol></div></div>
+<details aria-label="Show/Hide Solution" data-type="solution" id="id1171157206888">
+<summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
+<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Đáp án</span></h4>
+<div class="os-solution-container">
+<ol id="element-298" type="a"><li>Xem <a aria-label="View Figure 12.22" class="autogenerated-content" href="12-6-outliers#eip-idp35936320">Hình 12.22</a>.</li>
+<li><em data-effect="italics">ŷ</em> = –3204 + 1.662<em data-effect="italics">x</em> là phương trình của đường phù hợp nhất.</li>
+<li><em data-effect="italics">r</em> = 0.8694</li>
+<li>Số lượng điểm dữ liệu là <em data-effect="italics">n</em> = 14. Sử dụng bảng Giá trị tới hạn 95% của Hệ số tương quan mẫu ở cuối Chương 12. <em data-effect="italics">n</em> – 2 = 12. Giá trị tới hạn tương ứng là 0.532. Vì 0.8694 &gt; 0.532, <em data-effect="italics">r</em> là đáng kể.
+<span data-type="newline"><br/></span><em data-effect="italics">ŷ</em> = –3204 + 1.662(1990) = 103.4 CPI</li>
+<li>Sử dụng máy tính LinRegTTest, chúng ta thấy rằng <em data-effect="italics">s</em> = 25.4; vẽ các đường Y2 = –3204 + 1.662X – 2(25.4) và Y3 = –3204 + 1.662X + 2(25.4) cho thấy không có giá trị dữ liệu nào nằm ngoài các đường đó, xác định không có điểm bất thường nào. (Lưu ý rằng năm 1999 rất gần với đường trên, nhưng vẫn nằm trong đó.)</li>
+</ol><div class="os-figure" id="eip-idp35936320"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idp35936320">
+<span data-alt="Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." data-type="media" id="id1171151867848">
+<button aria-label="Click to enlarge image of Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." class="image-button-wrapper" type="button"><img alt="Scatter plot and line of best fit of the consumer price index data, on the y-axis, and year data, on the x-axis." data-media-type="image/png" height="729" loading="lazy" src="../../../assets/img-12-6-3.webp" width="1013"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.22</span></figcaption></figure></div>
+</div>
+</section>
+</details>
+</section></div><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-413"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body"><p id="fs-idp122850352-vn">Trong ví dụ này, hãy chú ý đến mô hình của các điểm so với đường thẳng. Mặc dù hệ số tương quan là đáng kể, nhưng mô hình trong biểu đồ phân tán cho thấy một đường cong sẽ là mô hình phù hợp hơn để sử dụng thay vì một đường thẳng. Trong ví dụ này, một nhà thống kê nên ưu tiên sử dụng các phương pháp khác để khớp một đường cong với dữ liệu này, thay vì mô hình hóa dữ liệu bằng đường thẳng mà chúng ta đã tìm thấy. Ngoài việc thực hiện các phép tính, việc xem biểu đồ phân tán khi quyết định xem mô hình tuyến tính có phù hợp hay không luôn là điều quan trọng.</p></div></section></div>
+<p id="eip-983-vn">Nếu bạn muốn xem thêm dữ liệu của nhiều năm, hãy truy cập trang web CPI của Cục Thống kê Lao động ftp://ftp.bls.gov/pub/special.requests/cpi/cpiai.txt; dữ liệu của chúng tôi được lấy từ cột có tiêu đề "Annual Avg." (cột thứ ba từ bên phải). Ví dụ, bạn có thể thêm dữ liệu của các năm gần đây hơn. Hãy thử thêm các năm gần đây: 2010: CPI = 219.2; 2020: CPI = 258.0; 2023: CPI = 299.2. Xem cách nó ảnh hưởng đến mô hình. (Kiểm tra: <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></mrow><annotation-xml encoding="MathML-Content"><mover><mi>y</mi><mo>⏜</mo></mover><mo> </mo><mo>=</mo><mo>-</mo><mn>5030</mn><mo>+</mo><mn>2</mn><mo>.</mo><mn>598</mn><mi>x</mi></annotation-xml></semantics></math></span>; <span class="os-math-in-para"><math display="inline"><semantics><mrow><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></mrow><annotation-xml encoding="MathML-Content"><mi>r</mi><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>9067</mn></annotation-xml></semantics></math></span>. r có đáng kể không? Độ khớp có tốt hơn khi thêm các điểm mới không?)</p></div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm58078240"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.14</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-298"><header></header><section><div data-type="problem" id="eip-109"><div class="os-problem-container">
+<p id="eip-987-vn">Bảng sau đây cho thấy sự phát triển kinh tế được đo bằng thu nhập bình quân đầu người PCINC.</p>
+<div class="os-table" id="eip-idm147482064"><table data-id="eip-idm147482064" data-summary=".."><thead>
+<tr>
+<th scope="col">Năm</th>
+<th scope="col">PCINC</th>
+<th scope="col">Năm</th>
+<th scope="col">PCINC</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>1870</td>
+<td>340</td>
+<td>1920</td>
+<td>1050</td>
+</tr>
+<tr>
+<td>1880</td>
+<td>499</td>
+<td>1930</td>
+<td>1170</td>
+</tr>
+<tr>
+<td>1890</td>
+<td>592</td>
+<td>1940</td>
+<td>1364</td>
+</tr>
+<tr>
+<td>1900</td>
+<td>757</td>
+<td>1950</td>
+<td>1836</td>
+</tr>
+<tr>
+<td>1910</td>
+<td>927</td>
+<td>1960</td>
+<td>2132</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.8</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<ol id="eip-idm165132224" type="a">
+<li>Các biến độc lập và biến phụ thuộc là gì?</li>
+<li>Vẽ biểu đồ phân tán.</li>
+<li>Sử dụng hồi quy để tìm đường phù hợp nhất và hệ số tương quan.</li>
+<li>Giải thích ý nghĩa của hệ số tương quan.</li>
+<li>Có mối quan hệ tuyến tính giữa các biến không?</li>
+<li>Tìm hệ số xác định và giải thích nó.</li>
+<li>Độ dốc của phương trình hồi quy là bao nhiêu? Nó có nghĩa là gì?</li>
+<li>Sử dụng đường phù hợp nhất để ước tính PCINC cho năm 1900, cho năm 2000.</li>
+<li>Xác định xem có bất kỳ điểm bất thường nào không.</li>
+</ol>
+</div></div>
+</section></div></div></section></div>
+</section>
+<section data-depth="1" id="eip-518"><h3 data-type="title">Bảng các giá trị tới hạn 95% của hệ số tương quan mẫu</h3>
+<div class="os-table" id="eip-idm31993488"><table data-id="eip-idm31993488" data-summary="This table presents the 95% Critical Values of the Sample Correlation Coefficient with Degrees of Freedom in the first column and Critical Values in the second column."><thead>
+<tr>
+<th scope="col">Bậc tự do: <em data-effect="italics">n</em> – 2</th>
+<th scope="col">Giá trị tới hạn: (+ và –)</th>
+</tr>
+</thead><tbody>
+<tr>
+<td data-align="center">1</td>
+<td data-align="center">0.997</td>
+</tr>
+<tr>
+<td data-align="center">2</td>
+<td data-align="center">0.950</td>
+</tr>
+<tr>
+<td data-align="center">3</td>
+<td data-align="center">0.878</td>
+</tr>
+<tr>
+<td data-align="center">4</td>
+<td data-align="center">0.811</td>
+</tr>
+<tr>
+<td data-align="center">5</td>
+<td data-align="center">0.754</td>
+</tr>
+<tr>
+<td data-align="center">6</td>
+<td data-align="center">0.707</td>
+</tr>
+<tr>
+<td data-align="center">7</td>
+<td data-align="center">0.666</td>
+</tr>
+<tr>
+<td data-align="center">8</td>
+<td data-align="center">0.632</td>
+</tr>
+<tr>
+<td data-align="center">9</td>
+<td data-align="center">0.602</td>
+</tr>
+<tr>
+<td data-align="center">10</td>
+<td data-align="center">0.576</td>
+</tr>
+<tr>
+<td data-align="center">11</td>
+<td data-align="center">0.555</td>
+</tr>
+<tr>
+<td data-align="center">12</td>
+<td data-align="center">0.532</td>
+</tr>
+<tr>
+<td data-align="center">13</td>
+<td data-align="center">0.514</td>
+</tr>
+<tr>
+<td data-align="center">14</td>
+<td data-align="center">0.497</td>
+</tr>
+<tr>
+<td data-align="center">15</td>
+<td data-align="center">0.482</td>
+</tr>
+<tr>
+<td data-align="center">16</td>
+<td data-align="center">0.468</td>
+</tr>
+<tr>
+<td data-align="center">17</td>
+<td data-align="center">0.456</td>
+</tr>
+<tr>
+<td data-align="center">18</td>
+<td data-align="center">0.444</td>
+</tr>
+<tr>
+<td data-align="center">19</td>
+<td data-align="center">0.433</td>
+</tr>
+<tr>
+<td data-align="center">20</td>
+<td data-align="center">0.423</td>
+</tr>
+<tr>
+<td data-align="center">21</td>
+<td data-align="center">0.413</td>
+</tr>
+<tr>
+<td data-align="center">22</td>
+<td data-align="center">0.404</td>
+</tr>
+<tr>
+<td data-align="center">23</td>
+<td data-align="center">0.396</td>
+</tr>
+<tr>
+<td data-align="center">24</td>
+<td data-align="center">0.388</td>
+</tr>
+<tr>
+<td data-align="center">25</td>
+<td data-align="center">0.381</td>
+</tr>
+<tr>
+<td data-align="center">26</td>
+<td data-align="center">0.374</td>
+</tr>
+<tr>
+<td data-align="center">27</td>
+<td data-align="center">0.367</td>
+</tr>
+<tr>
+<td data-align="center">28</td>
+<td data-align="center">0.361</td>
+</tr>
+<tr>
+<td data-align="center">29</td>
+<td data-align="center">0.355</td>
+</tr>
+<tr>
+<td data-align="center">30</td>
+<td data-align="center">0.349</td>
+</tr>
+<tr>
+<td data-align="center">40</td>
+<td data-align="center">0.304</td>
+</tr>
+<tr>
+<td data-align="center">50</td>
+<td data-align="center">0.273</td>
+</tr>
+<tr>
+<td data-align="center">60</td>
+<td data-align="center">0.250</td>
+</tr>
+<tr>
+<td data-align="center">70</td>
+<td data-align="center">0.232</td>
+</tr>
+<tr>
+<td data-align="center">80</td>
+<td data-align="center">0.217</td>
+</tr>
+<tr>
+<td data-align="center">90</td>
+<td data-align="center">0.205</td>
+</tr>
+<tr>
+<td data-align="center">100</td>
+<td data-align="center">0.195</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.9</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div></section>
+</body></html>

@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head>
+<body class="book-reader">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_75804770-2fd0-4750-b668-898c101c81a4_titlecreatedbycookbook"><span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">The F Distribution and the F-Ratio</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_75804770-2fd0-4750-b668-898c101c81a4_titlecreatedbycookbook-vn"><span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Phân phối F và Tỷ số F</span></h2>
+<p class="eng hidden" id="me001">The distribution used for the hypothesis test is a new one. It is called the <span data-type="term" group-by="F" id="term-00001"><em data-effect="italics">F</em> distribution</span>, named after Sir Ronald Fisher, an English statistician. The <em data-effect="italics">F</em> statistic is a ratio (a fraction). There are two sets of degrees of freedom; one for the numerator and one for the denominator.</p><p class="vn visible" id="me001-vn">Phân phối được sử dụng cho kiểm định giả thuyết là một phân phối mới. Nó được gọi là <span data-type="term" group-by="F" id="term-00001"><em data-effect="italics">F</em> phân phối</span>, được đặt tên theo Sir Ronald Fisher, một nhà thống kê người Anh. Thống kê <em data-effect="italics">F</em> là một tỷ số (một phân số). Có hai tập hợp bậc tự do; một cho tử số và một cho mẫu số.</p>
+<p class="eng hidden" id="element-674">For example, if <em data-effect="italics">F</em> follows an <em data-effect="italics">F</em> distribution and the number of degrees of freedom for the numerator is four, and the number of degrees of freedom for the denominator is ten, then <em data-effect="italics">F</em> ~ <em data-effect="italics">F<sub>4,10</sub></em>.</p><p class="vn visible" id="element-674-vn">Ví dụ, nếu <em data-effect="italics">F</em> tuân theo một <em data-effect="italics">F</em> phân phối và số bậc tự do cho tử số là bốn, và số bậc tự do cho mẫu số là mười, thì <em data-effect="italics">F</em> ~ <em data-effect="italics">F<sub>4,10</sub></em>.</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-261"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idm170830672">The <em data-effect="italics">F</em> distribution is derived from the Student's t-distribution. The values of the <em data-effect="italics">F</em> distribution are squares of the corresponding values of the <em data-effect="italics">t</em>-distribution. One-Way ANOVA expands the <em data-effect="italics">t</em>-test for comparing more than two groups. The scope of that derivation is beyond the level of this course. It is preferable to use ANOVA when there are more than two groups instead of performing pairwise <em data-effect="italics">t</em>-tests because performing multiple tests introduces the likelihood of making a Type 1 error.</p><p class="vn visible" id="eip-idm170830672-vn">Phân phối <em data-effect="italics">F</em> được suy ra từ phân phối t của Student. Các giá trị của phân phối <em data-effect="italics">F</em> là bình phương của các giá trị tương ứng của phân phối <em data-effect="italics">t</em>. Phân tích phương sai một chiều (One-Way ANOVA) mở rộng kiểm định <em data-effect="italics">t</em> để so sánh nhiều hơn hai nhóm. Phạm vi của phép suy dẫn đó nằm ngoài trình độ của khóa học này. Tốt hơn là nên sử dụng ANOVA khi có nhiều hơn hai nhóm thay vì thực hiện các kiểm định <em data-effect="italics">t</em> theo cặp vì việc thực hiện nhiều kiểm định sẽ làm tăng khả năng mắc sai lầm loại I.</p></div></section></div>
+<p class="eng hidden" id="element-967">To calculate the <span data-type="term" group-by="F" id="term-00002"><em data-effect="italics">F</em> ratio</span>, two estimates of the variance are made.</p><p class="vn visible" id="element-967-vn">Để tính <span data-type="term" group-by="F" id="term-00002"><em data-effect="italics">F</em> tỷ số</span>, hai ước lượng về phương sai được thực hiện.</p>
+<ol id="element-236">
+<li class="eng hidden"><span data-type="term" group-by="V" id="term-00003">Variance between samples</span><strong>:</strong> An estimate of <em data-effect="italics">σ</em><sup>2</sup> that is the variance of the sample means multiplied by <em data-effect="italics">n</em> (when the sample sizes are the same.). If the samples are different sizes, the variance between samples is weighted to account for the different sample sizes. The variance is also called <strong>variation due to treatment or explained variation.</strong></li><li class="vn visible"><span data-type="term" group-by="V" id="term-00003">Phương sai giữa các mẫu</span><strong>:</strong> Một ước lượng của <em data-effect="italics">σ</em><sup>2</sup> là phương sai của các số trung bình mẫu nhân với <em data-effect="italics">n</em> (khi các kích thước mẫu bằng nhau). Nếu các mẫu có kích thước khác nhau, phương sai giữa các mẫu được gán trọng số để tính đến các kích thước mẫu khác nhau. Phương sai này còn được gọi là <strong>sự biến thiên do nghiệm thức hoặc sự biến thiên được giải thích.</strong></li>
+<li class="eng hidden"><span data-type="term" group-by="V" id="term-00004">Variance within samples</span><strong>:</strong> An estimate of <em data-effect="italics">σ</em><sup>2</sup> that is the average of the sample variances (also known as a pooled variance). When the sample sizes are different, the variance within samples is weighted. The variance is also called the <strong>variation due to error or unexplained variation.</strong></li><li class="vn visible"><span data-type="term" group-by="V" id="term-00004">Phương sai trong nội bộ mẫu</span><strong>:</strong> Một ước lượng của <em data-effect="italics">σ</em><sup>2</sup> là số trung bình của các phương sai mẫu (còn được gọi là phương sai gộp). Khi các kích thước mẫu khác nhau, phương sai trong nội bộ mẫu được gán trọng số. Phương sai này còn được gọi là <strong>sự biến thiên do sai số hoặc sự biến thiên không được giải thích.</strong></li>
+</ol>
+<ul id="eip-197">
+<li class="eng hidden"><em data-effect="italics">SS</em><sub>between</sub> = the <span data-type="term" group-by="s" id="term-00005">sum of squares</span> that represents the variation among the different samples</li><li class="vn visible"><em data-effect="italics">SS</em><sub>between</sub> = <span data-type="term" group-by="s" id="term-00005">tổng các bình phương</span> đại diện cho sự biến thiên giữa các mẫu khác nhau</li>
+<li class="eng hidden"><em data-effect="italics">SS</em><sub>within</sub> = the sum of squares that represents the variation within samples that is due to chance.</li><li class="vn visible"><em data-effect="italics">SS</em><sub>within</sub> = tổng các bình phương đại diện cho sự biến thiên trong nội bộ mẫu do ngẫu nhiên.</li>
+</ul>
+<p class="eng hidden" id="eip-668">To find a "sum of squares" means to add together squared quantities that, in some
+cases, may be weighted. We used sum of squares to calculate the sample variance and
+the sample standard deviation in <a aria-label="Go to Descriptive Statistics" data-page-fragment="" data-page-slug="2-introduction" data-page-uuid="67ff0f10-8867-4852-85f6-0f0be2257ed4" href="2-introduction">Descriptive Statistics</a>.</p><p class="vn visible" id="eip-668-vn">Để tìm "tổng các bình phương" có nghĩa là cộng các đại lượng bình phương lại với nhau, trong một số trường hợp, có thể được gán trọng số. Chúng ta đã sử dụng tổng các bình phương để tính phương sai mẫu và độ lệch chuẩn mẫu trong <a aria-label="Go to Descriptive Statistics" data-page-fragment="" data-page-slug="2-introduction" data-page-uuid="67ff0f10-8867-4852-85f6-0f0be2257ed4" href="2-introduction">Thống kê mô tả</a>.</p><p class="eng hidden" id="eip-39"><em data-effect="italics">MS</em> means "<span data-type="term" group-by="m" id="term-00006">mean square</span>." <em data-effect="italics">MS</em><sub>between</sub> is the variance between groups, and <em data-effect="italics">MS</em><sub>within</sub> is the variance within groups.</p><p class="vn visible" id="eip-39-vn"><em data-effect="italics">MS</em> có nghĩa là "<span data-type="term" group-by="m" id="term-00006">bình phương trung bình</span>." <em data-effect="italics">MS</em><sub>between</sub> là phương sai giữa các nhóm, và <em data-effect="italics">MS</em><sub>within</sub> là phương sai trong nội bộ nhóm.</p>
+<p class="eng hidden" id="eip-12"><strong>Calculation of Sum of Squares and Mean Square</strong>
+</p><p class="vn visible" id="eip-12-vn"><strong>Tính toán Tổng các bình phương và Bình phương trung bình</strong></p><ul id="eip-idm81361504"><li class="eng hidden"><em data-effect="italics">k</em> = the number of different groups</li><li class="vn visible"><em data-effect="italics">k</em> = số lượng các nhóm khác nhau</li>
+<li class="eng hidden"><em data-effect="italics">n<sub>j</sub></em> = the size of the <em data-effect="italics">j<sup>th</sup></em> group</li><li class="vn visible"><em data-effect="italics">n<sub>j</sub></em> = kích thước của nhóm <em data-effect="italics">j<sup>th</sup></em></li>
+<li class="eng hidden"><em data-effect="italics">s<sub>j</sub></em> = the sum of the values in the <em data-effect="italics">j<sup>th</sup></em> group</li><li class="vn visible"><em data-effect="italics">s<sub>j</sub></em> = tổng các giá trị trong nhóm <em data-effect="italics">j<sup>th</sup></em></li>
+<li class="eng hidden"><em data-effect="italics">n</em> = total number of all the values combined (total sample size: ∑<em data-effect="italics">n<sub>j</sub></em>)</li><li class="vn visible"><em data-effect="italics">n</em> = tổng số tất cả các giá trị kết hợp (tổng kích thước mẫu: ∑<em data-effect="italics">n<sub>j</sub></em>)</li>
+<li class="eng hidden"><em data-effect="italics">x</em> = one value: ∑<em data-effect="italics">x</em> = ∑<em data-effect="italics">s<sub>j</sub></em></li><li class="vn visible"><em data-effect="italics">x</em> = một giá trị: ∑<em data-effect="italics">x</em> = ∑<em data-effect="italics">s<sub>j</sub></em></li>
+<li class="eng hidden">Sum of squares of all values from every group combined: ∑<em data-effect="italics">x</em><sup>2</sup></li><li class="vn visible">Tổng các bình phương của tất cả các giá trị từ mọi nhóm kết hợp: ∑<em data-effect="italics">x</em><sup>2</sup></li>
+<li class="eng hidden">Total sum of squares: <math display="inline"><semantics><mrow><mi>S</mi><msub><mi>S</mi><mtext>total</mtext></msub><mo>=</mo><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mi>S</mi><msub><mi>S</mi><mtext>total</mtext></msub><mo>=</mo><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup><mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</li><li class="vn visible">Tổng các bình phương: <math display="inline"><semantics><mrow><mi>S</mi><msub><mi>S</mi><mtext>total</mtext></msub><mo>=</mo><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup>
+<mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mi>S</mi><msub><mi>S</mi><mtext>total</mtext></msub><mo>=</mo><mo>∑</mo><msup><mi>x</mi><mn>2</mn></msup><mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden">Explained variation: sum of squares representing variation among the different samples: <em data-effect="italics">SS</em><sub>between</sub> =  <math display="inline"><semantics><mrow>
+<mrow>
+<mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</li><li class="vn visible">Sự biến thiên được giải thích: tổng các bình phương đại diện cho sự biến thiên giữa các mẫu khác nhau: <em data-effect="italics">SS</em><sub>between</sub> = <math display="inline"><semantics><mrow>
+<mrow>
+<mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden">Unexplained variation: sum of squares representing variation within samples due to chance:  <math display="inline"><semantics><mrow>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>total</mtext>
+</mrow>
+</msub>
+<mo>–</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>total</mtext>
+</mrow>
+</msub>
+<mo>–</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math> </li><li class="vn visible">Sự biến thiên không được giải thích: tổng các bình phương đại diện cho sự biến thiên trong nội bộ mẫu do ngẫu nhiên: <math display="inline"><semantics><mrow>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>total</mtext>
+</mrow>
+</msub>
+<mo>–</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>total</mtext>
+</mrow>
+</msub>
+<mo>–</mo><mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden"><em data-effect="italics">df</em>'s for different groups (<em data-effect="italics">df</em>'s for the numerator): <math display="inline"><semantics><mrow><mi>d</mi><msub><mi>f</mi><mtext>between</mtext></msub></mrow><annotation-xml encoding="MathML-Content"><mi>d</mi><msub><mi>f</mi><mtext>between</mtext></msub></annotation-xml></semantics></math> = <em data-effect="italics">k</em> – 1</li><li class="vn visible"><em data-effect="italics">df</em> cho các nhóm khác nhau (<em data-effect="italics">df</em> cho tử số): <math display="inline"><semantics><mrow><mi>d</mi><msub><mi>f</mi><mtext>between</mtext></msub></mrow><annotation-xml encoding="MathML-Content"><mi>d</mi><msub><mi>f</mi><mtext>between</mtext></msub></annotation-xml></semantics></math> = <em data-effect="italics">k</em> – 1</li>
+<li class="eng hidden">Equation for errors within samples (<em data-effect="italics">df</em>'s for the denominator): <em data-effect="italics">df</em><sub>within</sub> = <em data-effect="italics">n</em> – <em data-effect="italics">k</em></li><li class="vn visible">Phương trình cho các sai số trong nội bộ mẫu (<em data-effect="italics">df</em> cho mẫu số): <em data-effect="italics">df</em><sub>within</sub> = <em data-effect="italics">n</em> – <em data-effect="italics">k</em></li>
+<li class="eng hidden">Mean square (variance estimate) explained by the different groups: <em data-effect="italics">MS</em><sub>between</sub> =  <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub><mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub><mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> </li><li class="vn visible">Bình phương trung bình (ước lượng phương sai) được giải thích bởi các nhóm khác nhau: <em data-effect="italics">MS</em><sub>between</sub> = <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub><mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub><mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden">Mean square (variance estimate) that is due to chance (unexplained): <em data-effect="italics">MS</em><sub>within</sub> =  <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> </li><li class="vn visible">Bình phương trung bình (ước lượng phương sai) do ngẫu nhiên (không được giải thích): <em data-effect="italics">MS</em><sub>within</sub> = <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+</ul>
+<p class="eng hidden" id="eip-858"><em data-effect="italics">MS</em><sub>between</sub> and <em data-effect="italics">MS</em><sub>within</sub> can be written as follows:</p><p class="vn visible" id="eip-858-vn"><em data-effect="italics">MS</em><sub>between</sub> và <em data-effect="italics">MS</em><sub>within</sub> có thể được viết như sau:</p>
+<ul id="eip-822"><li class="eng hidden"> <math display="inline"><semantics><mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>k</mi><mo>−</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>k</mi><mo>−</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> </li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>k</mi><mo>−</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>k</mi><mo>−</mo><mn>1</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+<li class="eng hidden"> <math display="inline"><semantics><mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mi>k</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mi>k</mi>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mi>k</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>d</mi><msub>
+<mi>f</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mrow>
+<mi>S</mi><msub>
+<mi>S</mi>
+<mrow>
+<mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>n</mi><mo>−</mo><mi>k</mi>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></li>
+</ul>
+<p class="eng hidden" id="element-138">The one-way ANOVA test depends on the fact that <em data-effect="italics">MS</em><sub>between</sub> can be influenced by population differences among means of the several groups. Since <em data-effect="italics">MS</em><sub>within</sub> compares values of each group to its own group mean, the fact that group means might be different does not affect <em data-effect="italics">MS</em><sub>within</sub>.</p><p class="vn visible" id="element-138-vn">Kiểm định ANOVA một chiều phụ thuộc vào thực tế là <em data-effect="italics">MS</em><sub>between</sub> có thể bị ảnh hưởng bởi sự khác biệt quần thể giữa các số trung bình của nhiều nhóm. Vì <em data-effect="italics">MS</em><sub>within</sub> so sánh các giá trị của mỗi nhóm với số trung bình của chính nhóm đó, thực tế là các số trung bình nhóm có thể khác nhau không ảnh hưởng đến <em data-effect="italics">MS</em><sub>within</sub>.</p>
+<p class="eng hidden" id="element-807">The null hypothesis says that all groups are samples from populations having the same normal distribution. The alternate hypothesis says that at least two of the sample groups come from populations with different normal distributions. If the null hypothesis is true, <em data-effect="italics">MS</em><sub>between</sub> and <em data-effect="italics">MS</em><sub>within</sub> should both estimate the same value.</p><p class="vn visible" id="element-807-vn">Giả thuyết không cho rằng tất cả các nhóm đều là các mẫu từ các quần thể có cùng phân phối chuẩn. Đối thuyết cho rằng ít nhất hai trong số các nhóm mẫu đến từ các quần thể có phân phối chuẩn khác nhau. Nếu giả thuyết không đúng, <em data-effect="italics">MS</em><sub>between</sub> và <em data-effect="italics">MS</em><sub>within</sub> đều nên ước lượng cùng một giá trị.</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-82"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idp56014144">The null hypothesis says that all the group population means are equal. The hypothesis of equal means implies that the populations have the same normal distribution, because it is assumed that the populations are normal and that they have equal variances.</p><p class="vn visible" id="eip-idp56014144-vn">Giả thuyết không cho rằng tất cả các số trung bình quần thể nhóm đều bằng nhau. Giả thuyết về các số trung bình bằng nhau ngụ ý rằng các quần thể có cùng phân phối chuẩn, vì giả định rằng các quần thể là chuẩn và chúng có các phương sai bằng nhau.</p></div></section></div>
+<p class="eng hidden" id="fs-idp125283568"><span data-type="title"><em data-effect="italics">F</em>-Ratio or <em data-effect="italics">F</em> Statistic</span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>
+</p><p class="vn visible" id="fs-idp125283568-vn"><span data-type="title"><em data-effect="italics">F</em>-Tỷ số hoặc <em data-effect="italics">F</em> Thống kê</span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>between</mtext>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<mi>M</mi><msub>
+<mi>S</mi>
+<mrow>
+<mtext>within</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span></p>
+<p class="eng hidden" id="element-712">If <em data-effect="italics">MS</em><sub>between</sub> and <em data-effect="italics">MS</em><sub>within</sub> estimate the same value (following the belief that <em data-effect="italics">H<sub>0</sub></em> is true), then the <em data-effect="italics">F</em>-ratio should be approximately equal to one. Mostly, just sampling errors would contribute to variations away from one. As it turns out, <em data-effect="italics">MS</em><sub>between</sub> consists of the population variance plus a variance produced from the differences between the samples. <em data-effect="italics">MS</em><sub>within</sub> is an estimate of the population variance. Since variances are always positive, if the null hypothesis is false, <em data-effect="italics">MS</em><sub>between</sub> will generally be larger than <em data-effect="italics">MS</em><sub>within</sub>.Then the <em data-effect="italics">F</em>-ratio will be larger than one. However, if the population effect is small, it is not unlikely that <em data-effect="italics">MS</em><sub>within</sub> will be larger in a given sample.</p><p class="vn visible" id="element-712-vn">Nếu <em data-effect="italics">MS</em><sub>between</sub> và <em data-effect="italics">MS</em><sub>within</sub> ước lượng cùng một giá trị (theo niềm tin rằng <em data-effect="italics">H<sub>0</sub></em> là đúng), thì tỷ số <em data-effect="italics">F</em> nên xấp xỉ bằng một. Phần lớn, chỉ các sai số chọn mẫu mới góp phần vào các biến thiên khác một. Hóa ra, <em data-effect="italics">MS</em><sub>between</sub> bao gồm phương sai quần thể cộng với một phương sai được tạo ra từ sự khác biệt giữa các mẫu. <em data-effect="italics">MS</em><sub>within</sub> là một ước lượng của phương sai quần thể. Vì các phương sai luôn dương, nếu giả thuyết không sai, <em data-effect="italics">MS</em><sub>between</sub> thường sẽ lớn hơn <em data-effect="italics">MS</em><sub>within</sub>. Khi đó tỷ số <em data-effect="italics">F</em> sẽ lớn hơn một. Tuy nhiên, nếu hiệu ứng quần thể nhỏ, không loại trừ khả năng <em data-effect="italics">MS</em><sub>within</sub> sẽ lớn hơn trong một mẫu nhất định.</p>
+<p class="eng hidden" id="eip-611">The foregoing calculations were done with groups of different sizes. If the groups are the same size, the calculations simplify somewhat and the <em data-effect="italics">F</em>-ratio can be written as:</p><p class="vn visible" id="eip-611-vn">Các tính toán trên được thực hiện với các nhóm có kích thước khác nhau. Nếu các nhóm có cùng kích thước, các tính toán sẽ đơn giản hóa phần nào và tỷ số <em data-effect="italics">F</em> có thể được viết là:</p>
+<p class="eng hidden" id="fs-idp2223584"><span data-type="title"><em data-effect="italics">F</em>-Ratio Formula when the groups are the same size</span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mo>⋅</mo><msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<msub>
+<mrow></mrow>
+<mrow>
+<mtext>pooled</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mo>⋅</mo><msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<msub>
+<mrow></mrow>
+<mrow>
+<mtext>pooled</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> </p><p class="vn visible" id="fs-idp2223584-vn"><span data-type="title">Công thức tỷ số <em data-effect="italics">F</em> khi các nhóm có cùng kích thước</span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mo>⋅</mo><msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<msub>
+<mrow></mrow>
+<mrow>
+<mtext>pooled</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>F</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mo>⋅</mo><msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msup>
+<mi>s</mi>
+<mn>2</mn>
+</msup>
+<msub>
+<mrow></mrow>
+<mrow>
+<mtext>pooled</mtext>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span></p>
+<div data-type="list" id="eip-389"><div data-type="title">where ...</div><ul>
+<li class="eng hidden"><em data-effect="italics">n</em> = the sample size</li><li class="vn visible"><em data-effect="italics">n</em> = kích thước mẫu</li>
+<li class="eng hidden"> <em data-effect="italics">df</em><sub>numerator</sub> = <em data-effect="italics">k</em> – 1</li><li class="vn visible"><em data-effect="italics">df</em><sub>numerator</sub> = <em data-effect="italics">k</em> – 1</li>
+<li class="eng hidden"> <em data-effect="italics">df</em><sub>denominator</sub> = <em data-effect="italics">n</em> – <em data-effect="italics">k</em></li><li class="vn visible"><em data-effect="italics">df</em><sub>denominator</sub> = <em data-effect="italics">n</em> – <em data-effect="italics">k</em></li>
+<li class="eng hidden"><em data-effect="italics">s</em><sup>2</sup> pooled = the mean of the sample variances (pooled variance)</li><li class="vn visible"><em data-effect="italics">s</em><sup>2</sup> pooled = trung bình của các phương sai mẫu (phương sai gộp)</li>
+<li class="eng hidden"> <math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math>  = the variance of the sample means</li><li class="vn visible"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>s</mi>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</msub>
+<msup>
+<mrow></mrow>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math> = phương sai của các trung bình mẫu</li>
+</ul></div><p class="eng hidden" id="eip-580">Data are typically put into a table for easy viewing.  One-Way ANOVA results are often displayed in this manner by computer software.
+
+</p><p class="vn visible" id="eip-580-vn">Dữ liệu thường được đưa vào bảng để dễ quan sát. Kết quả ANOVA một chiều thường được hiển thị theo cách này bởi phần mềm máy tính.</p><div class="os-table" id="eip-id1172021872456"><table data-id="eip-id1172021872456" data-summary="General One-Way ANOVA Table with 3 rows and 4 columns."><thead>
+<tr>
+<th class="eng hidden" data-align="center" scope="col">Source of Variation</th><th class="vn visible" data-align="center" scope="col">Nguồn biến thiên</th>
+<th class="eng hidden" data-align="center" scope="col">Sum of Squares (<em data-effect="italics">SS</em>)</th><th class="vn visible" data-align="center" scope="col">Tổng các bình phương (<em data-effect="italics">SS</em>)</th>
+<th class="eng hidden" data-align="center" scope="col">Degrees of Freedom (<em data-effect="italics">df</em>)</th><th class="vn visible" data-align="center" scope="col">Bậc tự do (<em data-effect="italics">df</em>)</th>
+<th class="eng hidden" data-align="center" scope="col">Mean Square (<em data-effect="italics">MS</em>)</th><th class="vn visible" data-align="center" scope="col">Bình phương trung bình (<em data-effect="italics">MS</em>)</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">F</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">F</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center">Factor <span data-type="newline"><br/></span>(Between)</td><td class="vn visible" data-align="center">Nhân tố <span data-type="newline"><br/></span>(Giữa các nhóm)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Factor)</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Nhân tố)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">k</em> – 1</td><td class="vn visible" data-align="center"><em data-effect="italics">k</em> – 1</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">MS</em>(Factor) = <em data-effect="italics">SS</em>(Factor)/(<em data-effect="italics">k</em> – 1)</td><td class="vn visible" data-align="center"><em data-effect="italics">MS</em>(Nhân tố) = <em data-effect="italics">SS</em>(Nhân tố)/(<em data-effect="italics">k</em> – 1)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">F</em> = <em data-effect="italics">MS</em>(Factor)/<em data-effect="italics">MS</em>(Error)</td><td class="vn visible" data-align="center"><em data-effect="italics">F</em> = <em data-effect="italics">MS</em>(Nhân tố)/<em data-effect="italics">MS</em>(Sai số)</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">Error <span data-type="newline"><br/></span>(Within)</td><td class="vn visible" data-align="center">Sai số <span data-type="newline"><br/></span>(Trong nội bộ nhóm)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Error)</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Sai số)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">n</em> – <em data-effect="italics">k</em></td><td class="vn visible" data-align="center"><em data-effect="italics">n</em> – <em data-effect="italics">k</em></td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">MS</em>(Error) = <em data-effect="italics">SS</em>(Error)/(<em data-effect="italics">n</em> – <em data-effect="italics">k</em>)</td><td class="vn visible" data-align="center"><em data-effect="italics">MS</em>(Sai số) = <em data-effect="italics">SS</em>(Sai số)/(<em data-effect="italics">n</em> – <em data-effect="italics">k</em>)</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td></tr>
+<tr>
+<td class="eng hidden" data-align="center">Total</td><td class="vn visible" data-align="center">Tổng</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Total)</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Tổng)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">n</em> – 1</td><td class="vn visible" data-align="center"><em data-effect="italics">n</em> – 1</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td><td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<div class="ui-has-child-title" data-type="example" id="eip-546"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">13.1</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><p class="eng hidden" id="eip-125">Three different diet plans are to be tested for mean weight loss. The entries in the table are the weight losses for the different plans. The one-way ANOVA results are shown in <a aria-label="View Table 13.2" class="autogenerated-content" href="13-2-the-f-distribution-and-the-f-ratio#eip-id2754369">Table 13.2</a>.</p><p class="vn visible" id="eip-125-vn">Ba kế hoạch ăn kiêng khác nhau sẽ được kiểm định về số trung bình giảm cân. Các mục trong bảng là mức giảm cân cho các kế hoạch khác nhau. Kết quả ANOVA một chiều được hiển thị trong <a aria-label="View Table 13.2" class="autogenerated-content" href="13-2-the-f-distribution-and-the-f-ratio#eip-id2754369">Bảng 13.2</a>.</p><div class="os-table" id="eip-id2754369"><table data-id="eip-id2754369" data-summary="The Table consists of 3 columns: CNN, Fox and Local. The table entries are the mean time, in minutes, that people watch their favorite news station on CNN, Fox or the local station."><thead>
+<tr>
+<th class="eng hidden" scope="col">Plan 1: <em data-effect="italics">n</em><sub>1</sub> = 4</th><th class="vn visible" scope="col">Kế hoạch 1: <em data-effect="italics">n</em><sub>1</sub> = 4</th>
+<th class="eng hidden" scope="col">Plan 2: <em data-effect="italics">n</em><sub>2</sub> = 3</th><th class="vn visible" scope="col">Kế hoạch 2: <em data-effect="italics">n</em><sub>2</sub> = 3</th>
+<th class="eng hidden" scope="col">Plan 3: <em data-effect="italics">n</em><sub>3</sub> = 3</th><th class="vn visible" scope="col">Kế hoạch 3: <em data-effect="italics">n</em><sub>3</sub> = 3</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center">5</td><td class="vn visible" data-align="center">5</td>
+<td class="eng hidden" data-align="center">3.5</td><td class="vn visible" data-align="center">3.5</td>
+<td class="eng hidden" data-align="center">8</td><td class="vn visible" data-align="center">8</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">4.5</td><td class="vn visible" data-align="center">4.5</td>
+<td class="eng hidden" data-align="center">7</td><td class="vn visible" data-align="center">7</td>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">4</td><td class="vn visible" data-align="center">4</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td><td class="eng hidden" data-align="center">3.5</td><td class="vn visible" data-align="center">3.5</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">3</td><td class="vn visible" data-align="center">3</td>
+<td class="eng hidden" data-align="center">4.5</td><td class="vn visible" data-align="center">4.5</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.2</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p class="eng hidden" id="fs-idp93901056"><em data-effect="italics">s</em><sub>1</sub> = 16.5, <em data-effect="italics">s</em><sub>2</sub> =15, <em data-effect="italics">s</em><sub>3</sub> = 15.5</p><p class="vn visible" id="fs-idp93901056-vn"><em data-effect="italics">s</em><sub>1</sub> = 16.5, <em data-effect="italics">s</em><sub>2</sub> =15, <em data-effect="italics">s</em><sub>3</sub> = 15.5</p><p class="eng hidden" id="fs-idp76691888">Following are the calculations needed to fill in the one-way ANOVA table. The table is used to conduct a hypothesis test.</p><p class="vn visible" id="fs-idp76691888-vn">Sau đây là các tính toán cần thiết để điền vào bảng ANOVA một chiều. Bảng được sử dụng để thực hiện kiểm định giả thuyết.</p>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp76692400"> <math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mi>n</mi><mo> </mo>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mo>∑</mo><mrow><mo>[</mo> <mrow>
+<mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<msub>
+<mi>n</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow> <mo>]</mo></mrow><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><msub>
+<mi>s</mi>
+<mi>j</mi>
+</msub>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mi>n</mi><mo> </mo>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idm399264">
+<math display="block"><semantics><mrow>
+<mrow>
+<mo>=</mo><mo> </mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>1</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>4</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>2</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>3</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>s</mi>
+<mn>3</mn>
+</msub>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>=</mo><mo> </mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>1</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>4</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>2</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msubsup>
+<mi>s</mi>
+<mn>3</mn>
+<mn>2</mn>
+</msubsup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<msub>
+<mi>s</mi>
+<mn>1</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>s</mi>
+<mn>2</mn>
+</msub>
+<mo>+</mo><msub>
+<mi>s</mi>
+<mn>3</mn>
+</msub>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div>
+<p class="eng hidden" id="eip-idp15158384">where <em data-effect="italics">n</em><sub>1</sub> = 4, <em data-effect="italics">n</em><sub>2</sub> = 3, <em data-effect="italics">n</em><sub>3</sub> = 3  and  <em data-effect="italics">n</em> = <em data-effect="italics">n</em><sub>1</sub> + <em data-effect="italics">n</em><sub>2</sub> + <em data-effect="italics">n</em><sub>3</sub> = 10</p><p class="vn visible" id="eip-idp15158384-vn">trong đó <em data-effect="italics">n</em><sub>1</sub> = 4, <em data-effect="italics">n</em><sub>2</sub> = 3, <em data-effect="italics">n</em><sub>3</sub> = 3 và <em data-effect="italics">n</em> = <em data-effect="italics">n</em><sub>1</sub> + <em data-effect="italics">n</em><sub>2</sub> + <em data-effect="italics">n</em><sub>3</sub> = 10</p>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp1558352"><math display="block"><semantics><mrow>
+<mrow>
+<mo> </mo><mo> </mo><mo>=</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>16.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>4</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>15.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>16.5</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>15.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo> </mo><mo> </mo><mo>=</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>16.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>4</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>+</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>15.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mn>3</mn>
+</mfrac>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>16.5</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>15.5</mn>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div><div class="unnumbered" data-label="" data-type="equation" id="fs-idp47211392">
+<math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mn>2.2458</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mn>2.2458</mn>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idm43777664"> <math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>=</mo><mo>∑</mo><msup>
+<mi>x</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>=</mo><mo>∑</mo><msup>
+<mi>x</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mo>∑</mo><mi>x</mi>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div><div class="unnumbered" data-label="" data-type="equation" id="fs-idp28622176"> <math display="block"><semantics><mrow>
+<mrow>
+<mo> </mo><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msup>
+<mn>5</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>4.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>4</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>3</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>3.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>7</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>4.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>8</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>4</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>3.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo> </mo><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<msup>
+<mn>5</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>4.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>4</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>3</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>3.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>7</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>4.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>8</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mn>4</mn>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mn>3.5</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp99714192"> <math display="block"><semantics><mrow>
+<mrow>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>4.5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3.5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>4.5</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3.5</mn><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>4.5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3.5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>4.5</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3.5</mn><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> </div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp13819792"> <math display="block"><semantics><mrow>
+<mrow>
+<mo>=</mo><mn>244</mn><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mn>47</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>244</mn><mo>−</mo><mn>220.9</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>=</mo><mn>244</mn><mo>−</mo><mfrac>
+<mrow>
+<msup>
+<mrow>
+<mn>47</mn>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>244</mn><mo>−</mo><mn>220.9</mn>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idm45074976">
+<math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>=</mo><mn>23.1</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>=</mo><mn>23.1</mn>
+</mrow></annotation-xml></semantics></math> </div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp85849072">
+<math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>−</mo><mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>t</mi><mi>o</mi><mi>t</mi><mi>a</mi><mi>l</mi><mo stretchy="false">)</mo><mo>−</mo><mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>b</mi><mi>e</mi><mi>t</mi><mi>w</mi><mi>e</mi><mi>e</mi><mi>n</mi><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math> </div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp97238064">
+<math display="block"><semantics><mrow>
+<mrow>
+<mo>=</mo><mo> </mo><mn>23.1</mn><mo>−</mo><mn>2.2458</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo>=</mo><mo> </mo><mn>23.1</mn><mo>−</mo><mn>2.2458</mn>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="unnumbered" data-label="" data-type="equation" id="fs-idp19006144">
+<math display="block"><semantics><mrow>
+<mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mn>20.8542</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>S</mi><mi>S</mi><mo stretchy="false">(</mo><mi>w</mi><mi>i</mi><mi>t</mi><mi>h</mi><mi>i</mi><mi>n</mi><mo stretchy="false">)</mo><mo>=</mo><mn>20.8542</mn>
+</mrow></annotation-xml></semantics></math>
+</div>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp86961312"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-786">One-Way ANOVA Table:  The formulas for <code data-type="code"><em data-effect="italics">SS</em>(Total)</code>, <code data-type="code"><em data-effect="italics">SS</em>(Factor) = <em data-effect="italics">SS</em>(Between) and <em data-effect="italics">SS</em>(Error) = <em data-effect="italics">SS</em>(Within)</code> as shown previously. The same information is provided by the TI calculator hypothesis test function <code data-type="code">ANOVA</code> in STAT TESTS (syntax is <code data-type="code">ANOVA(L1, L2, L3)</code> where L1, L2, L3 have the data from Plan 1, Plan 2, Plan 3 respectively).</p><p class="vn visible" id="eip-786-vn">Bảng ANOVA một chiều: Các công thức cho <code data-type="code"><em data-effect="italics">SS</em>(Total)</code>, <code data-type="code"><em data-effect="italics">SS</em>(Factor) = <em data-effect="italics">SS</em>(Between) and <em data-effect="italics">SS</em>(Error) = <em data-effect="italics">SS</em>(Within)</code> như đã trình bày trước đó. Thông tin tương tự được cung cấp bởi chức năng kiểm định giả thuyết máy tính TI <code data-type="code">ANOVA</code> trong STAT TESTS (cú pháp là <code data-type="code">ANOVA(L1, L2, L3)</code> trong đó L1, L2, L3 có dữ liệu từ Kế hoạch 1, Kế hoạch 2, Kế hoạch 3 tương ứng).</p></div></section></div>
+<div class="os-table" id="eip-id1172005012068"><table data-id="eip-id1172005012068" data-summary="General One-Way ANOVA Table with 3 rows and 4 columns."><thead>
+<tr>
+<th class="eng hidden" data-align="center" scope="col">Source of Variation</th><th class="vn visible" data-align="center" scope="col">Nguồn biến thiên</th>
+<th class="eng hidden" data-align="center" scope="col">Sum of Squares (<em data-effect="italics">SS</em>)</th><th class="vn visible" data-align="center" scope="col">Tổng các bình phương (<em data-effect="italics">SS</em>)</th>
+<th class="eng hidden" data-align="center" scope="col">Degrees of Freedom (<em data-effect="italics">df</em>)</th><th class="vn visible" data-align="center" scope="col">Bậc tự do (<em data-effect="italics">df</em>)</th>
+<th class="eng hidden" data-align="center" scope="col">Mean Square (<em data-effect="italics">MS</em>)</th><th class="vn visible" data-align="center" scope="col">Bình phương trung bình (<em data-effect="italics">MS</em>)</th>
+<th class="eng hidden" data-align="center" scope="col"><em data-effect="italics">F</em></th><th class="vn visible" data-align="center" scope="col"><em data-effect="italics">F</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden" data-align="center">Factor <span data-type="newline"><br/></span>(Between)</td><td class="vn visible" data-align="center">Nhân tố <span data-type="newline"><br/></span>(Giữa các nhóm)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Factor) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Between) <span data-type="newline"><br/></span>= 2.2458</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Nhân tố) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Giữa các nhóm) <span data-type="newline"><br/></span>= 2.2458</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">k</em> – 1 <span data-type="newline"><br/></span>= 3 groups – 1 <span data-type="newline"><br/></span>= 2</td><td class="vn visible" data-align="center"><em data-effect="italics">k</em> – 1 <span data-type="newline"><br/></span>= 3 nhóm – 1 <span data-type="newline"><br/></span>= 2</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">MS</em>(Factor) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Factor)/(<em data-effect="italics">k</em> – 1)<span data-type="newline"><br/></span> = 2.2458/2 <span data-type="newline"><br/></span>= 1.1229</td><td class="vn visible" data-align="center"><em data-effect="italics">MS</em>(Nhân tố) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Nhân tố)/(<em data-effect="italics">k</em> – 1)<span data-type="newline"><br/></span> = 2.2458/2 <span data-type="newline"><br/></span>= 1.1229</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">F</em> =<span data-type="newline"><br/></span> <em data-effect="italics">MS</em>(Factor)/<em data-effect="italics">MS</em>(Error) <span data-type="newline"><br/></span>= 1.1229/2.9792 <span data-type="newline"><br/></span>= 0.3769</td><td class="vn visible" data-align="center"><em data-effect="italics">F</em> =<span data-type="newline"><br/></span> <em data-effect="italics">MS</em>(Nhân tố)/<em data-effect="italics">MS</em>(Sai số) <span data-type="newline"><br/></span>= 1.1229/2.9792 <span data-type="newline"><br/></span>= 0.3769</td>
+</tr>
+<tr>
+<td class="eng hidden" data-align="center">Error <span data-type="newline"><br/></span>(Within)</td><td class="vn visible" data-align="center">Sai số <span data-type="newline"><br/></span>(Trong nội bộ nhóm)</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Error) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Within) <span data-type="newline"><br/></span>= 20.8542</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Sai số) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Trong nội bộ) <span data-type="newline"><br/></span>= 20.8542</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">n</em> – <em data-effect="italics">k</em> <span data-type="newline"><br/></span>= 10 total data – 3 groups <span data-type="newline"><br/></span>= 7</td><td class="vn visible" data-align="center"><em data-effect="italics">n</em> – <em data-effect="italics">k</em> <span data-type="newline"><br/></span>= 10 dữ liệu tổng cộng – 3 nhóm <span data-type="newline"><br/></span>= 7</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">MS</em>(Error) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Error)/(<em data-effect="italics">n</em> – <em data-effect="italics">k</em>) <span data-type="newline"><br/></span>= 20.8542/7 <span data-type="newline"><br/></span>= 2.9792</td><td class="vn visible" data-align="center"><em data-effect="italics">MS</em>(Sai số) <span data-type="newline"><br/></span>= <em data-effect="italics">SS</em>(Sai số)/(<em data-effect="italics">n</em> – <em data-effect="italics">k</em>) <span data-type="newline"><br/></span>= 20.8542/7 <span data-type="newline"><br/></span>= 2.9792</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td></tr>
+<tr>
+<td class="eng hidden" data-align="center">Total</td><td class="vn visible" data-align="center">Tổng</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">SS</em>(Total) <span data-type="newline"><br/></span>= 2.2458 + 20.8542 <span data-type="newline"><br/></span>= 23.1</td><td class="vn visible" data-align="center"><em data-effect="italics">SS</em>(Tổng) <span data-type="newline"><br/></span>= 2.2458 + 20.8542 <span data-type="newline"><br/></span>= 23.1</td>
+<td class="eng hidden" data-align="center"><em data-effect="italics">n</em> – 1 <span data-type="newline"><br/></span>= 10 total data – 1 <span data-type="newline"><br/></span>= 9</td><td class="vn visible" data-align="center"><em data-effect="italics">n</em> – 1 <span data-type="newline"><br/></span>= 10 dữ liệu tổng cộng – 1 <span data-type="newline"><br/></span>= 9</td>
+<td class="eng hidden" data-align="center">
+</td><td class="vn visible" data-align="center">
+</td><td class="eng hidden" data-align="center"></td><td class="vn visible" data-align="center"></td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.3</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.3</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></section></div>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp19091024"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">13.1</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
+<span class="os-number">13.1</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="fs-idm48661072"><header></header><section>
+<div data-type="problem" id="fs-idp24724224"><div class="os-problem-container">
+<p class="eng hidden" id="fs-idp86837680">As part of an experiment to see how different types of soil cover would affect slicing tomato production, Marist College students grew tomato plants under different soil cover conditions. Groups of three plants each had one of the following treatments</p><p class="vn visible" id="fs-idp86837680-vn">Là một phần của thí nghiệm để xem các loại che phủ đất khác nhau sẽ ảnh hưởng như thế nào đến sản lượng cà chua thái lát, sinh viên trường Marist College đã trồng cây cà chua trong các điều kiện che phủ đất khác nhau. Các nhóm gồm ba cây mỗi nhóm đã nhận một trong các nghiệm thức sau</p>
+<ul id="fs-idp86838320">
+<li class="eng hidden">bare soil</li><li class="vn visible">đất trống</li>
+<li class="eng hidden">a commercial ground cover</li><li class="vn visible">một loại vật liệu phủ đất thương mại</li>
+<li class="eng hidden">black plastic</li><li class="vn visible">nhựa đen</li>
+<li class="eng hidden">straw</li><li class="vn visible">rơm</li>
+<li class="eng hidden">compost</li><li class="vn visible">phân hữu cơ</li>
+</ul>
+<p class="eng hidden" id="fs-idm49310544">All plants grew under the same conditions and were the same variety.  Students recorded the weight (in grams) of tomatoes produced by each of the <em data-effect="italics">n</em> = 15 plants:</p><p class="vn visible" id="fs-idm49310544-vn">Tất cả các cây đều phát triển trong cùng điều kiện và cùng một giống. Sinh viên đã ghi lại trọng lượng (tính bằng gram) cà chua được sản xuất bởi mỗi cây trong số <em data-effect="italics">n</em> = 15 cây:</p>
+<div class="os-table" id="fs-idm49309984"><table data-id="fs-idm49309984" data-summary=""><thead>
+<tr><th class="eng hidden" scope="col">Bare: <em data-effect="italics">n</em><sub>1</sub> = 3</th><th class="vn visible" scope="col">Đất trống: <em data-effect="italics">n</em><sub>1</sub> = 3</th> <th class="eng hidden" scope="col">Ground Cover: <em data-effect="italics">n</em><sub>2</sub> = 3</th><th class="vn visible" scope="col">Vật liệu phủ đất: <em data-effect="italics">n</em><sub>2</sub> = 3</th> <th class="eng hidden" scope="col">Plastic: <em data-effect="italics">n</em><sub>3</sub> = 3</th><th class="vn visible" scope="col">Nhựa: <em data-effect="italics">n</em><sub>3</sub> = 3</th> <th class="eng hidden" scope="col">Straw: <em data-effect="italics">n</em><sub>4</sub> = 3</th><th class="vn visible" scope="col">Rơm: <em data-effect="italics">n</em><sub>4</sub> = 3</th> <th class="eng hidden" scope="col">Compost: <em data-effect="italics">n</em><sub>5</sub> = 3</th><th class="vn visible" scope="col">Phân hữu cơ: <em data-effect="italics">n</em><sub>5</sub> = 3</th></tr>
+</thead><tbody>
+<tr><td class="eng hidden">2,625</td><td class="vn visible">2,625</td> <td class="eng hidden">5,348</td><td class="vn visible">5,348</td> <td class="eng hidden">6,583</td><td class="vn visible">6,583</td> <td class="eng hidden">7,285</td><td class="vn visible">7,285</td> <td class="eng hidden">6,277</td><td class="vn visible">6,277</td></tr>
+<tr><td class="eng hidden">2,997</td><td class="vn visible">2,997</td> <td class="eng hidden">5,682</td><td class="vn visible">5,682</td> <td class="eng hidden">8,560</td><td class="vn visible">8,560</td> <td class="eng hidden">6,897</td><td class="vn visible">6,897</td> <td class="eng hidden">7,818</td><td class="vn visible">7,818</td></tr>
+<tr><td class="eng hidden">4,915</td><td class="vn visible">4,915</td> <td class="eng hidden">5,482</td><td class="vn visible">5,482</td> <td class="eng hidden">3,830</td><td class="vn visible">3,830</td> <td class="eng hidden">9,230</td><td class="vn visible">9,230</td> <td class="eng hidden">8,677</td><td class="vn visible">8,677</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">
+<span class="os-title-label">Table </span>
+<span class="os-number">13.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+<p class="eng hidden" id="fs-idp30767328"><span data-type="newline"><br/></span>Create the one-way ANOVA table.</p><p class="vn visible" id="fs-idp30767328-vn"><span data-type="newline"><br/></span>Tạo bảng ANOVA một chiều.</p></div></div>
+</section></div>
+</div></section></div>
+<p class="eng hidden" id="element-260"><strong>The one-way ANOVA hypothesis test is always right-tailed</strong> because larger <em data-effect="italics">F</em>-values are way out in the right tail of the <em data-effect="italics">F</em>-distribution curve and tend to make us reject <em data-effect="italics">H<sub>0</sub></em>.</p><p class="vn visible" id="element-260-vn"><strong>Kiểm định giả thuyết ANOVA một chiều luôn là kiểm định phía bên phải</strong> vì các giá trị <em data-effect="italics">F</em> lớn hơn nằm xa ở đuôi bên phải của đường cong phân phối <em data-effect="italics">F</em> và có xu hướng khiến chúng ta bác bỏ <em data-effect="italics">H<sub>0</sub></em>.</p>
+<section data-depth="1" id="element-628"><h3 class="eng hidden" data-type="title">Notation</h3><h3 class="vn visible" data-type="title">Ký hiệu</h3>
+<p class="eng hidden" id="element-999">The notation for the <em data-effect="italics">F</em> distribution is <em data-effect="italics">F</em> ~ <em data-effect="italics">F</em><sub><em data-effect="italics">df</em>(<em data-effect="italics">num</em>),<em data-effect="italics">df</em>(<em data-effect="italics">denom</em>)</sub></p><p class="vn visible" id="element-999-vn">Ký hiệu cho phân phối <em data-effect="italics">F</em> là <em data-effect="italics">F</em> ~ <em data-effect="italics">F</em><sub><em data-effect="italics">df</em>(<em data-effect="italics">num</em>),<em data-effect="italics">df</em>(<em data-effect="italics">denom</em>)</sub></p>
+<p class="eng hidden" id="element-966">where <em data-effect="italics">df</em>(<em data-effect="italics">num</em>) = <em data-effect="italics">df</em><sub>between</sub> and <em data-effect="italics">df</em>(<em data-effect="italics">denom</em>) = <em data-effect="italics">df</em><sub>within</sub> </p><p class="vn visible" id="element-966-vn">trong đó <em data-effect="italics">df</em>(<em data-effect="italics">num</em>) = <em data-effect="italics">df</em><sub>between</sub> và <em data-effect="italics">df</em>(<em data-effect="italics">denom</em>) = <em data-effect="italics">df</em><sub>within</sub></p>
+<p class="eng hidden" id="element-181">The mean for the <em data-effect="italics">F</em> distribution is  <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>μ</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo><mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>μ</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo><mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> </p><p class="vn visible" id="element-181-vn">Số trung bình cho phân phối <em data-effect="italics">F</em> là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>μ</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo><mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>μ</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>d</mi><mi>f</mi><mo stretchy="false">(</mo><mi>d</mi><mi>e</mi><mi>n</mi><mi>o</mi><mi>m</mi><mo stretchy="false">)</mo><mo>–</mo><mn>2</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span></p></section>
+</body></html>

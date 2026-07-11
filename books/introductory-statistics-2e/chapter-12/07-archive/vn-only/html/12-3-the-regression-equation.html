@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html><head>
+<meta charset="utf-8"/>
+<link href="../../../../css/style.css" rel="stylesheet"/></head>
+<body>
+<h2 data-rex-keep="true" data-type="document-title" id="page_fd60680f-dbb7-4a97-84b8-f352c3a6c141_titlecreatedbycookbook-vn"><span class="os-number">12.3</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Phương trình hồi quy</span></h2>
+<p id="element-38111-vn">Dữ liệu hiếm khi khớp chính xác với một đường thẳng. Thông thường, bạn phải hài lòng với các dự đoán thô. Thông thường, bạn có một tập dữ liệu mà biểu đồ phân tán dường như <strong>"khớp"</strong> với một đường thẳng. Đây được gọi là <span data-type="term" group-by="L" id="term-00001">Đường phù hợp nhất</span> <strong>hoặc</strong> <span data-type="term" group-by="L" id="term-00002">Đường hồi quy bình phương tối thiểu</span>.</p><div class="statistics collab ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm66386384"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Bài tập cộng tác</span></h3></header><section>
+<div class="os-note-body">
+<p id="element-900-vn">Nếu bạn biết chiều dài ngón út của một người, bạn có nghĩ rằng mình có thể dự đoán chiều cao của người đó không? Thu thập dữ liệu từ lớp học của bạn (chiều dài ngón út, tính bằng inch). Biến giải thích, <em data-effect="italics">x</em>, là chiều dài ngón út và biến phản hồi, <em data-effect="italics">y</em>, là chiều cao. Đối với mỗi tập dữ liệu, hãy vẽ các điểm trên giấy kẻ ô. Hãy làm cho biểu đồ của bạn đủ lớn và <strong>sử dụng thước kẻ</strong>. Sau đó, "bằng mắt thường", hãy vẽ một đường thẳng dường như "khớp" với dữ liệu. Đối với đường thẳng của bạn, hãy chọn hai điểm thuận tiện và sử dụng chúng để tìm hệ số góc của đường thẳng. Tìm điểm cắt <em data-effect="italics">y</em> của đường thẳng bằng cách kéo dài đường thẳng của bạn để nó cắt trục <em data-effect="italics">y</em>. Sử dụng các hệ số góc và điểm cắt <em data-effect="italics">y</em>, hãy viết phương trình "phù hợp nhất" của bạn. Bạn có nghĩ rằng mọi người sẽ có cùng một phương trình không? Tại sao có hoặc tại sao không? Theo phương trình của bạn, chiều cao dự đoán cho chiều dài ngón út là 2,5 inch là bao nhiêu?</p></div></section></div><div class="ui-has-child-title" data-type="example" id="element-22"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<span class="os-number">12.6</span>
+<span class="os-divider"> </span></h3></header><section>
+<div class="body"><p id="element-998-vn">Một mẫu ngẫu nhiên gồm 11 sinh viên thống kê đã tạo ra dữ liệu sau, trong đó <em data-effect="italics">x</em> là điểm thi lần thứ ba trên thang điểm 80, và <em data-effect="italics">y</em> là điểm thi cuối kỳ trên thang điểm 200. Bạn có thể dự đoán điểm thi cuối kỳ của một sinh viên ngẫu nhiên nếu bạn biết điểm thi lần thứ ba không?</p>
+<div class="os-table" id="element-50"><table data-id="element-50" data-summary=""><thead>
+<tr>
+<th scope="col">x (điểm thi lần thứ ba)</th>
+<th scope="col">y (điểm thi cuối kỳ)</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>65</td>
+<td>175</td>
+</tr>
+<tr>
+<td>67</td>
+<td>133</td>
+</tr>
+<tr>
+<td>71</td>
+<td>185</td>
+</tr>
+<tr>
+<td>71</td>
+<td>163</td>
+</tr>
+<tr>
+<td>66</td>
+<td>126</td>
+</tr>
+<tr>
+<td>75</td>
+<td>198</td>
+</tr>
+<tr>
+<td>67</td>
+<td>153</td>
+</tr>
+<tr>
+<td>70</td>
+<td>163</td>
+</tr>
+<tr>
+<td>71</td>
+<td>159</td>
+</tr>
+<tr>
+<td>69</td>
+<td>151</td>
+</tr>
+<tr>
+<td>69</td>
+<td>159</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.3</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+<span class="os-caption">Table showing the scores on the final exam based on scores from the third exam.</span>
+</div>
+</div>
+<div class="os-figure" id="eip-idm440920048"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-idm440920048">
+<span data-alt="This is a scatter plot of the data provided. The third exam score is plotted on the x-axis, and the final exam score is plotted on the y-axis. The points form a strong, positive, linear pattern." data-type="media" id="id1164262330756"><button aria-label="Click to enlarge image of This is a scatter plot of the data provided. The third exam score is plotted on the x-axis, and the final exam score is plotted on the y-axis. The points form a strong, positive, linear pattern." class="image-button-wrapper" type="button"><img alt="This is a scatter plot of the data provided. The third exam score is plotted on the x-axis, and the final exam score is plotted on the y-axis. The points form a strong, positive, linear pattern." data-media-type="image/png" height="608" loading="lazy" src="../../../assets/img-12-3-1.webp" width="980"/></button></span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.9</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Biểu đồ phân tán hiển thị điểm số trong bài thi cuối kỳ dựa trên điểm số từ bài thi thứ ba.</span></figcaption></figure></div></div></section></div><div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp122176240"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<span class="os-number">12.6</span></h3></header><section>
+<div class="os-note-body">
+<div class="unnumbered" data-type="exercise" id="eip-397"><header></header><section><div data-type="problem" id="eip-266"><div class="os-problem-container">
+<p id="eip-937-vn">Thợ lặn SCUBA có thời gian lặn tối đa mà họ không được vượt quá khi đi đến các độ sâu khác nhau. Dữ liệu trong <a aria-label="View Table 12.4" class="autogenerated-content" href="12-3-the-regression-equation#eip-idm70490496">Bảng 12.4</a> hiển thị các độ sâu khác nhau với thời gian lặn tối đa tính bằng phút. Sử dụng máy tính của bạn để tìm đường hồi quy bình phương tối thiểu và dự đoán thời gian lặn tối đa cho độ sâu 110 feet.</p><div class="os-table" id="eip-idm70490496"><table data-id="eip-idm70490496" data-summary=""><thead><tr><th scope="col"><em data-effect="italics">X</em> (độ sâu tính bằng feet)</th> <th scope="col"><em data-effect="italics">Y</em> (thời gian lặn tối đa)</th></tr></thead><tbody>
+<tr><td>50</td> <td>80</td></tr>
+<tr><td>60</td> <td>55</td></tr>
+<tr><td>70</td> <td>45</td></tr>
+<tr><td>80</td> <td>35</td></tr>
+<tr><td>90</td> <td>25</td></tr>
+<tr><td>100</td> <td>22</td></tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.4</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+<p id="eip-892-vn">Điểm thi lần thứ ba, <em data-effect="italics">x</em>, là biến giải thích và điểm thi cuối kỳ, <em data-effect="italics">y</em>, là biến phản hồi. Chúng ta sẽ vẽ một đường hồi quy "khớp" nhất với dữ liệu. Nếu mỗi bạn tự vẽ một đường thẳng "bằng mắt thường", các bạn sẽ vẽ ra những đường thẳng khác nhau. Chúng ta có thể sử dụng cái gọi là <span data-type="term" group-by="l" id="term-00003">đường hồi quy bình phương tối thiểu</span> để có được đường phù hợp nhất.</p><p id="element-644-vn">Hãy xem xét sơ đồ sau. Mỗi điểm dữ liệu có dạng (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) và mỗi điểm của đường phù hợp nhất sử dụng hồi quy tuyến tính bình phương tối thiểu có dạng (<em data-effect="italics">x</em>, <em data-effect="italics">ŷ</em>).</p><p id="element-51-vn"><em data-effect="italics">ŷ</em> được đọc là <strong>"<em data-effect="italics">y</em> mũ"</strong> và là <strong>giá trị ước tính của <em data-effect="italics">y</em></strong>. Đó là giá trị của <em data-effect="italics">y</em> thu được bằng cách sử dụng đường hồi quy. Nó thường không bằng với <em data-effect="italics">y</em> từ dữ liệu.</p><div class="os-figure" id="linrgs_regeq2"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_regeq2"><span data-alt="The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit. Both points have the same x-coordinate. The distance between these two points illustrates how to compute the sum of squared errors." data-type="media" id="id1164271221679"><button aria-label="Click to enlarge image of The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit. Both points have the same x-coordinate. The distance between these two points illustrates how to compute the sum of squared errors." class="image-button-wrapper" type="button"><img alt="The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit. Both points have the same x-coordinate. The distance between these two points illustrates how to compute the sum of squared errors." data-media-type="image/png" height="615" loading="lazy" src="../../../assets/img-12-3-2.webp" width="1445"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.10</span></figcaption></figure></div>
+<p id="element-621-vn">Thuật ngữ <em data-effect="italics">y</em><sub>0</sub> – <em data-effect="italics">ŷ</em><sub>0</sub> = <em data-effect="italics">ε</em><sub>0</sub> được gọi là <strong>"sai số" hoặc</strong> <span data-type="term" group-by="r" id="term-00004">phần dư</span>. Đây không phải là sai số theo nghĩa là một lỗi sai. <span data-type="term" group-by="a" id="term-00005">Giá trị tuyệt đối của phần dư</span> đo lường khoảng cách thẳng đứng giữa giá trị thực tế của <em data-effect="italics">y</em> và giá trị ước tính của <em data-effect="italics">y</em>. Nói cách khác, nó đo lường khoảng cách thẳng đứng giữa điểm dữ liệu thực tế và điểm dự đoán trên đường thẳng.</p><p id="eip-462-vn">Nếu điểm dữ liệu quan sát nằm phía trên đường thẳng, phần dư là dương, và đường thẳng đánh giá thấp giá trị dữ liệu thực tế cho <em data-effect="italics">y</em>. Nếu điểm dữ liệu quan sát nằm phía dưới đường thẳng, phần dư là âm, và đường thẳng đánh giá quá cao giá trị dữ liệu thực tế đó cho <em data-effect="italics">y</em>.</p>
+<p id="eip-104-vn">Trong sơ đồ tại <a aria-label="View Figure 12.10" class="autogenerated-content" href="12-3-the-regression-equation#linrgs_regeq2">Hình 12.10</a>, <em data-effect="italics">y</em><sub>0</sub> – <em data-effect="italics">ŷ</em><sub>0</sub> = ε<sub>0</sub> là phần dư cho điểm được hiển thị. Ở đây điểm nằm phía trên đường thẳng và phần dư là dương.</p><p id="element-756-vn"><em data-effect="italics">ε</em> = chữ cái Hy Lạp <strong>epsilon</strong></p>
+<p id="element-15-vn">Đối với mỗi điểm dữ liệu, bạn có thể tính toán các phần dư hoặc sai số, <em data-effect="italics">y</em><sub>i</sub> - <em data-effect="italics">ŷ</em><sub>i</sub> = <em data-effect="italics">ε</em><sub>i</sub> cho <em data-effect="italics">i</em> = 1, 2, 3, ..., 11.</p><p id="element-670-vn">Mỗi |<em data-effect="italics">ε</em>| là một khoảng cách thẳng đứng.</p><p id="element-610-vn">Đối với ví dụ về điểm thi lần thứ ba và điểm thi cuối kỳ của 11 sinh viên thống kê, có 11 điểm dữ liệu. Do đó, có 11 giá trị <em data-effect="italics">ε</em>. Nếu bạn bình phương mỗi ε và cộng lại, bạn sẽ có</p>
+<div class="unnumbered" data-type="equation" id="element-575"><math display="block"><semantics><mrow>
+<mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><mn>...</mn><mo>+</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mrow>
+<mn>11</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mi>ε</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mn>1</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mn>2</mn>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>+</mo><mn>...</mn><mo>+</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><msub>
+<mi>ε</mi>
+<mrow>
+<mn>11</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+<mo>=</mo><mover>
+<mrow>
+<munder>
+<mi>Σ</mi>
+<mrow>
+<mi>i</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mn>1</mn>
+</mrow>
+</munder>
+</mrow>
+<mrow>
+<mn>11</mn>
+</mrow>
+</mover>
+<msup>
+<mi>ε</mi>
+<mn>2</mn>
+</msup>
+</mrow></annotation-xml></semantics></math></div>
+<p id="element-215-vn">Đây được gọi là <span data-type="term" group-by="S" id="term-00006">Tổng bình phương sai số (SSE)</span>.</p><p id="element-640-vn">Sử dụng giải tích, bạn có thể xác định các giá trị của <em data-effect="italics">a</em> và <em data-effect="italics">b</em> làm cho <strong>SSE</strong> đạt cực tiểu. Khi bạn làm cho <strong>SSE</strong> đạt cực tiểu, bạn đã xác định được các điểm nằm trên đường phù hợp nhất. Hóa ra đường phù hợp nhất có phương trình:</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-710"><math display="block"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>x</mi>
+</mrow></annotation-xml></semantics></math>
+</div><p id="element-716-vn">trong đó <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>a</mi><mo>=</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>b</mi><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>a</mi><mo>=</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo>−</mo><mi>b</mi><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>b</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>Σ</mi><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>y</mi><mo>−</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>Σ</mi><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>b</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>Σ</mi><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>y</mi><mo>−</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>Σ</mi><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>.</p><p id="element-153-vn">Các giá trị trung bình mẫu của các giá trị <em data-effect="italics">x</em> và các giá trị <em data-effect="italics">y</em> lần lượt là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>. Đường phù hợp nhất luôn đi qua điểm <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>,</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mo stretchy="false">(</mo><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+<mo>,</mo><mover accent="true">
+<mi>y</mi>
+<mo>¯</mo>
+</mover>
+<mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math></span>.</p><p id="element-414-vn">Hệ số góc <em data-effect="italics">b</em> có thể được viết là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>b</mi><mo>=</mo><mi>r</mi><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msub>
+<mi>s</mi>
+<mi>y</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mi>x</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>b</mi><mo>=</mo><mi>r</mi><mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msub>
+<mi>s</mi>
+<mi>y</mi>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>s</mi>
+<mi>x</mi>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span> trong đó <em data-effect="italics">s</em><sub><em data-effect="italics">y</em></sub> = độ lệch chuẩn của các giá trị <em data-effect="italics">y</em> và <em data-effect="italics">s</em><sub><em data-effect="italics">x</em></sub> = độ lệch chuẩn của các giá trị <em data-effect="italics">x</em>. <em data-effect="italics">r</em> là hệ số tương quan, được thảo luận trong phần tiếp theo.</p>
+<section data-depth="1" id="sect-00001"><h3 data-type="title">Biểu đồ phần dư</h3>
+<p id="para-00001-vn">Biểu đồ phần dư có thể được sử dụng để giúp xác định xem một tập dữ liệu (<em data-effect="italics">x</em>, <em data-effect="italics">y</em>) có tương quan tuyến tính hay không. Đối với mỗi điểm dữ liệu được sử dụng để tạo đường tương quan, một phần dư <em data-effect="italics">y</em> - <em data-effect="italics">ŷ</em> có thể được tính toán, trong đó y là giá trị quan sát được của biến phản hồi và <em data-effect="italics">ŷ</em> là giá trị được dự đoán bởi đường tương quan. Sự khác biệt giữa các giá trị này được gọi là phần dư. Biểu đồ phần dư hiển thị biến giải thích <em data-effect="italics">x</em> trên trục hoành và phần dư cho giá trị đó trên trục tung. Biểu đồ phần dư thường được hiển thị cùng với biểu đồ phân tán của dữ liệu. Trong khi biểu đồ phân tán của dữ liệu nên giống một đường thẳng, biểu đồ phần dư nên xuất hiện ngẫu nhiên, không có quy luật và không có giá trị ngoại lệ. Nó cũng nên cho thấy phương sai sai số không đổi, nghĩa là các phần dư không nên tăng (hoặc giảm) một cách nhất quán khi biến giải thích <em data-effect="italics">x</em> tăng lên.</p>
+<p id="para-00002-vn">Biểu đồ phần dư có thể được tạo bằng StatCrunch hoặc máy tính TI. Biểu đồ sẽ xuất hiện ngẫu nhiên. Biểu đồ hộp của các phần dư cũng hữu ích để xác minh rằng không có giá trị ngoại lệ trong dữ liệu. Bằng cách quan sát biểu đồ phân tán của dữ liệu, biểu đồ phần dư và biểu đồ hộp của phần dư, cùng với hệ số tương quan tuyến tính, chúng ta thường có thể xác định xem liệu có hợp lý khi kết luận rằng dữ liệu có tương quan tuyến tính hay không.</p>
+<section data-depth="2" id="sect-00002"><h4 data-type="title">VÍ DỤ:</h4>
+<p id="para-00003-vn">Một chủ cửa hàng sử dụng hồi quy đường thẳng để ước tính số lượng ốc quế kem sẽ được bán trong một ngày dựa trên nhiệt độ vào buổi trưa. Chủ cửa hàng có dữ liệu trong khoảng thời gian 2 năm và đã chọn ngẫu nhiên chín ngày. Biểu đồ phân tán của dữ liệu được hiển thị, cùng với biểu đồ phần dư.</p>
+<div class="os-table" id="table-00001"><table data-id="table-00001" data-summary=""><thead>
+<tr>
+<th scope="col">Nhiệt độ ° F</th>
+<th scope="col">Số kem ốc quế đã bán</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>70</td>
+<td>105</td>
+</tr>
+<tr>
+<td>85</td>
+<td>240</td>
+</tr>
+<tr>
+<td>65</td>
+<td>49</td>
+</tr>
+<tr>
+<td>72</td>
+<td>147</td>
+</tr>
+<tr>
+<td>80</td>
+<td>231</td>
+</tr>
+<tr>
+<td>61</td>
+<td>38</td>
+</tr>
+<tr>
+<td>75</td>
+<td>193</td>
+</tr>
+<tr>
+<td>78</td>
+<td>196</td>
+</tr>
+<tr>
+<td>68</td>
+<td>89</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+<span class="os-title-label">Table </span>
+<span class="os-number">12.5</span>
+<span class="os-divider"> </span>
+<span class="os-divider"> </span>
+<span class="os-caption">Table showing the number of ice cream cones sold on nine random days and the temperature at noon on those days.</span>
+</div>
+</div>
+<div class="os-figure" id="fig-00001"><figure class="scaled-down ui-has-child-figcaption" data-id="fig-00001"><span data-alt="Scatter plot of ice creams sold against temperature of the given data. A straight line is constructed for the plot." data-type="media"><button aria-label="Click to enlarge image of Scatter plot of ice creams sold against temperature of the given data. A straight line is constructed for the plot." class="image-button-wrapper" type="button"><img alt="Scatter plot of ice creams sold against temperature of the given data. A straight line is constructed for the plot." data-media-type="image/png" height="805" loading="lazy" src="../../../assets/img-12-3-3.webp" width="1049"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.11</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Biểu đồ phân tán của dữ liệu trông giống như một đường thẳng.</span></figcaption></figure></div>
+<div class="os-figure" id="fig-00002"><figure class="scaled-down ui-has-child-figcaption" data-id="fig-00002"><span data-alt="Residual plot of residuals against temperature of the given data." data-type="media"><button aria-label="Click to enlarge image of Residual plot of residuals against temperature of the given data." class="image-button-wrapper" type="button"><img alt="Residual plot of residuals against temperature of the given data." data-media-type="image/png" height="1077" loading="lazy" src="../../../assets/img-12-3-4.webp" width="1299"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.12</span>
+<span class="os-divider"> </span>
+<span class="os-caption">Biểu đồ phần dư có vẻ ngẫu nhiên.</span></figcaption></figure></div>
+</section>
+</section>
+<section data-depth="1" id="fs-idm120169264"><h3 data-type="title">Tiêu chí bình phương tối thiểu cho sự phù hợp nhất</h3>
+<p id="eip-996-vn">Quá trình khớp đường phù hợp nhất được gọi là <strong>hồi quy tuyến tính</strong>. Ý tưởng đằng sau việc tìm đường phù hợp nhất dựa trên giả định rằng dữ liệu được phân tán xung quanh một đường thẳng. Tiêu chí cho đường phù hợp nhất là tổng bình phương sai số (SSE) được cực tiểu hóa, nghĩa là làm cho nó nhỏ nhất có thể. Bất kỳ đường thẳng nào khác mà bạn chọn cũng sẽ có SSE cao hơn đường phù hợp nhất. Đường phù hợp nhất này được gọi là <strong>đường hồi quy bình phương tối thiểu</strong>.</p>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="id1164273503037"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp15798576-vn">Các bảng tính máy tính, phần mềm thống kê và nhiều máy tính có thể nhanh chóng tính toán đường phù hợp nhất và tạo biểu đồ. Các phép tính có xu hướng tẻ nhạt nếu thực hiện bằng tay. Hướng dẫn sử dụng máy tính TI-83, TI-83+ và TI-84+ để tìm đường phù hợp nhất và tạo biểu đồ phân tán được hiển thị ở cuối phần này.</p></div></section></div><p id="element-27-vn"><span data-type="title">VÍ DỤ ĐIỂM THI LẦN THỨ BA vs ĐIỂM THI CUỐI KỲ:</span>
+Biểu đồ của đường phù hợp nhất cho ví dụ về điểm thi lần thứ ba/điểm thi cuối kỳ như sau:</p>
+<div class="os-figure" id="linrgs_regeq3"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_regeq3"><span data-alt="The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit." data-type="media" id="id1164250764889"><button aria-label="Click to enlarge image of The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit." class="image-button-wrapper" type="button"><img alt="The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit." data-media-type="image/png" height="608" loading="lazy" src="../../../assets/img-12-3-5.webp" width="980"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.13</span></figcaption></figure></div><p id="element-689-vn">Đường hồi quy bình phương tối thiểu (đường phù hợp nhất) cho ví dụ về điểm thi lần thứ ba/điểm thi cuối kỳ có phương trình:</p>
+<div class="unnumbered" data-label="" data-type="equation" id="element-643"><math display="block"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mo>=</mo><mo>−</mo><mn>173.51</mn><mo>+</mo><mn>4.83</mn><mi>x</mi>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mo>=</mo><mo>−</mo><mn>173.51</mn><mo>+</mo><mn>4.83</mn><mi>x</mi>
+</mrow></annotation-xml></semantics></math></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-923"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">NHẮC NHỞ</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp965680-vn">Hãy nhớ rằng, việc vẽ biểu đồ phân tán trước tiên luôn quan trọng. Nếu biểu đồ phân tán chỉ ra rằng có mối quan hệ tuyến tính giữa các biến, thì việc sử dụng đường phù hợp nhất để đưa ra dự đoán cho <em data-effect="italics">y</em> với <em data-effect="italics">x</em> đã cho trong phạm vi của các giá trị <em data-effect="italics">x</em> trong dữ liệu mẫu là hợp lý, <strong>nhưng không nhất thiết cho các giá trị <em data-effect="italics">x</em> nằm ngoài phạm vi đó.</strong> Bạn có thể sử dụng đường thẳng để dự đoán điểm thi cuối kỳ cho một sinh viên đạt điểm 73 trong bài thi lần thứ ba. Bạn KHÔNG NÊN sử dụng đường thẳng để dự đoán điểm thi cuối kỳ cho một sinh viên đạt điểm 50 trong bài thi lần thứ ba, vì 50 không nằm trong phạm vi của các giá trị <em data-effect="italics">x</em> trong dữ liệu mẫu, vốn nằm trong khoảng từ 65 đến 75.</p>
+</div></section></div></section>
+<section data-depth="1" id="fs-idp153906304"><h3 data-type="title">HIỂU VỀ HỆ SỐ GÓC</h3>
+<p id="element-39-vn">Hệ số góc của đường thẳng, <em data-effect="italics">b</em>, mô tả cách các thay đổi trong các biến có liên quan với nhau. Điều quan trọng là phải giải thích hệ số góc của đường thẳng trong bối cảnh của tình huống được dữ liệu đại diện. Bạn sẽ có thể viết một câu giải thích hệ số góc bằng ngôn ngữ đơn giản.</p>
+<p id="element-725-vn"><strong>GIẢI THÍCH HỆ SỐ GÓC:</strong> Hệ số góc của đường phù hợp nhất cho chúng ta biết biến phản hồi (<em data-effect="italics">y</em>) thay đổi như thế nào cho mỗi đơn vị tăng lên của biến giải thích (<em data-effect="italics">x</em>), tính trung bình.</p>
+<p id="fs-idm33827856-vn"><span data-type="title">VÍ DỤ ĐIỂM THI LẦN THỨ BA vs ĐIỂM THI CUỐI KỲ</span>Hệ số góc: Hệ số góc của đường thẳng là <em data-effect="italics">b</em> = 4,83.
+<span data-type="newline"><br/></span>Giải thích: Với mỗi một điểm tăng thêm trong bài thi lần thứ ba, điểm thi cuối kỳ tăng trung bình 4,83 điểm.</p><div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm68284544"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+<p id="eip-772-vn">Sử dụng Hồi quy tuyến tính <code data-type="code">T Test: LinRegTTest</code><span data-count="2" data-type="newline"><br/><br/></span></p><ol id="eip-480" type="1"><li>Trong trình chỉnh sửa danh sách <code data-type="code">STAT</code>, hãy nhập dữ liệu X vào danh sách <code data-type="code">L1</code> và dữ liệu Y vào danh sách <code data-type="code">L2</code>, được ghép cặp sao cho các giá trị tương ứng (<em data-effect="italics">x</em>,<em data-effect="italics">y</em>) nằm cạnh nhau trong các danh sách. (Nếu một cặp giá trị cụ thể bị lặp lại, hãy nhập nó nhiều lần như số lần nó xuất hiện trong dữ liệu.)</li>
+<li>Trên menu <code data-type="code">STAT TESTS</code>, hãy cuộn xuống bằng con trỏ để chọn <code data-type="code">LinRegTTest</code>. (Hãy cẩn thận chọn <code data-type="code">LinRegTTest</code>, vì một số máy tính có thể có một mục khác gọi là LinRegTInt.)</li>
+<li>Trên màn hình nhập LinRegTTest, hãy nhập: Xlist: L1 ; Ylist: L2 ; Freq: 1</li>
+<li>Trên dòng tiếp theo, tại lời nhắc <em data-effect="italics">β</em> hoặc <em data-effect="italics">ρ</em>, hãy làm nổi bật "≠ 0" và nhấn ENTER</li>
+<li>Để trống dòng "RegEq:"</li>
+<li>Làm nổi bật Calculate và nhấn ENTER.</li>
+</ol><div class="os-figure" id="linregttestscreens"><figure class="scaled-down ui-has-child-figcaption" data-id="linregttestscreens"><span data-alt="1. Image of calculator input screen for LinRegTTest with input matching the instructions above. 2.Image of corresponding output calculator output screen for LinRegTTest: Output screen shows: Line 1. LinRegTTest; Line 2. y = a + bx; Line 3. beta does not equal 0 and rho does not equal 0; Line 4. t = 2.657560155; Line 5. df = 9; Line 6. a = 173.513363; Line 7. b = 4.827394209; Line 8. s = 16.41237711; Line 9. r squared = .4396931104; Line 10. r = .663093591" data-type="media" id="id53013501"><button aria-label="Click to enlarge image of 1. Image of calculator input screen for LinRegTTest with input matching the instructions above. 2.Image of corresponding output calculator output screen for LinRegTTest: Output screen shows: Line 1. LinRegTTest; Line 2. y = a + bx; Line 3. beta does not equal 0 and rho does not equal 0; Line 4. t = 2.657560155; Line 5. df = 9; Line 6. a = 173.513363; Line 7. b = 4.827394209; Line 8. s = 16.41237711; Line 9. r squared = .4396931104; Line 10. r = .663093591" class="image-button-wrapper" type="button"><img alt="1. Image of calculator input screen for LinRegTTest with input matching the instructions above. 2.Image of corresponding output calculator output screen for LinRegTTest: Output screen shows: Line 1. LinRegTTest; Line 2. y = a + bx; Line 3. beta does not equal 0 and rho does not equal 0; Line 4. t = 2.657560155; Line 5. df = 9; Line 6. a = 173.513363; Line 7. b = 4.827394209; Line 8. s = 16.41237711; Line 9. r squared = .4396931104; Line 10. r = .663093591" data-media-type="image/png" height="576" loading="lazy" src="../../../assets/img-12-3-6.webp" width="817"/></button></span><figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.14</span></figcaption></figure></div>
+<p id="eip-640-vn">Màn hình đầu ra chứa rất nhiều thông tin. Hiện tại chúng ta sẽ tập trung vào một vài mục từ đầu ra, và sẽ quay lại các mục khác sau.
+<span data-type="newline"><br/></span>Dòng thứ hai cho biết <em data-effect="italics">y</em> = <em data-effect="italics">a</em> + <em data-effect="italics">bx</em>. Cuộn xuống để tìm các giá trị <em data-effect="italics">a</em> = –173,513, và <em data-effect="italics">b</em> = 4,8273; phương trình của đường phù hợp nhất là <em data-effect="italics">ŷ</em> = –173,51 + 4,83<em data-effect="italics">x</em>
+<span data-type="newline"><br/></span>Hai mục ở dưới cùng là <em data-effect="italics">r</em><sub>2</sub> = 0,43969 và <em data-effect="italics">r</em> = 0,663. Hiện tại, chỉ cần lưu ý nơi tìm các giá trị này; chúng ta sẽ thảo luận về chúng trong hai phần tiếp theo.</p>
+<p id="eip-630-vn">Vẽ biểu đồ phân tán và đường hồi quy<span data-count="2" data-type="newline"><br/><br/></span></p><ol id="eip-763" type="1"><li>Chúng ta đang giả định rằng dữ liệu X của bạn đã được nhập vào danh sách L1 và dữ liệu Y của bạn nằm trong danh sách L2</li>
+<li>Nhấn 2nd STATPLOT ENTER để sử dụng Plot 1</li>
+<li>Trên màn hình nhập cho PLOT 1, hãy làm nổi bật <strong>On</strong> và nhấn ENTER</li>
+<li>Đối với TYPE: hãy làm nổi bật biểu tượng đầu tiên là biểu đồ phân tán (scatterplot) và nhấn ENTER</li>
+<li>Chỉ định Xlist: L1 và Ylist: L2</li>
+<li>Đối với Mark: việc bạn làm nổi bật biểu tượng nào không quan trọng.</li>
+<li>Nhấn phím ZOOM và sau đó là số 9 (cho mục menu "ZoomStat"); máy tính sẽ điều chỉnh cửa sổ cho phù hợp với dữ liệu</li>
+<li>Để vẽ đường phù hợp nhất, nhấn phím "Y=" và nhập phương trình –173.5 + 4.83X vào phương trình Y1. (Phím X nằm ngay bên trái phím STAT). Nhấn ZOOM 9 lần nữa để vẽ đồ thị.</li>
+<li>Tùy chọn: Nếu bạn muốn thay đổi cửa sổ xem, nhấn phím WINDOW. Nhập cửa sổ mong muốn của bạn bằng cách sử dụng Xmin, Xmax, Ymin, Ymax</li></ol></div></section></div>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm135623232"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm70635232-vn">Một cách khác để vẽ đường thẳng sau khi bạn tạo biểu đồ phân tán là sử dụng LinRegTTest.</p><ol id="eip-idm46438656" type="1">
+<li>Đảm bảo rằng bạn đã thực hiện biểu đồ phân tán. Kiểm tra nó trên màn hình của bạn.</li>
+<li>Đi đến LinRegTTest và nhập các danh sách.</li>
+<li>Tại RegEq: nhấn VARS và di chuyển mũi tên sang Y-VARS. Nhấn 1 cho 1:Function. Nhấn 1 cho 1:Y1. Sau đó di chuyển mũi tên xuống Calculate và thực hiện tính toán cho đường phù hợp nhất.</li>
+<li>Nhấn Y = (bạn sẽ thấy phương trình hồi quy).</li>
+<li>Nhấn GRAPH. Đường thẳng sẽ được vẽ."</li>
+</ol>
+</div></section></div></section>
+<section data-depth="1" id="eip-737"><h3 data-type="title">Hệ số tương quan <em data-effect="italics">r</em></h3>
+<p id="element-12345-vn">Ngoài việc nhìn vào biểu đồ phân tán và thấy rằng một đường thẳng có vẻ hợp lý, làm thế nào bạn có thể biết liệu đường thẳng đó có phải là một công cụ dự đoán tốt hay không? Sử dụng hệ số tương quan như một chỉ báo khác (ngoài biểu đồ phân tán) về độ mạnh của mối quan hệ giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>.</p>
+<p id="eip-357-vn"><strong>Hệ số tương quan, <em data-effect="italics">r</em>, </strong> được Karl Pearson phát triển vào đầu những năm 1900, là một giá trị số cung cấp thước đo về độ mạnh và hướng của mối liên hệ tuyến tính giữa biến độc lập <em data-effect="italics">x</em> và biến phụ thuộc <em data-effect="italics">y</em>.</p>
+<p id="eip-344-vn">Hệ số tương quan được tính như sau</p>
+<div class="unnumbered" data-label="" data-type="equation" id="eip-id4561593"><math display="block"><semantics><mrow>
+<mrow>
+<mi>r</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mi>Σ</mi><mo stretchy="false">(</mo><mi>x</mi><mi>y</mi><mo stretchy="false">)</mo><mo>−</mo><mo stretchy="false">(</mo><mi>Σ</mi><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>Σ</mi><mi>y</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mrow><mo>[</mo> <mrow>
+<mi>n</mi><mi>Σ</mi><msup>
+<mi>x</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>Σ</mi><mi>x</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow> <mo>]</mo></mrow><mrow><mo>[</mo> <mrow>
+<mi>n</mi><mi>Σ</mi><msup>
+<mi>y</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>Σ</mi><mi>y</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>r</mi><mo>=</mo><mfrac>
+<mrow>
+<mi>n</mi><mi>Σ</mi><mo stretchy="false">(</mo><mi>x</mi><mi>y</mi><mo stretchy="false">)</mo><mo>−</mo><mo stretchy="false">(</mo><mi>Σ</mi><mi>x</mi><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>Σ</mi><mi>y</mi><mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mrow><mo>[</mo> <mrow>
+<mi>n</mi><mi>Σ</mi><msup>
+<mi>x</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>Σ</mi><mi>x</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow> <mo>]</mo></mrow><mrow><mo>[</mo> <mrow>
+<mi>n</mi><mi>Σ</mi><msup>
+<mi>y</mi>
+<mn>2</mn>
+</msup>
+<mo>−</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>Σ</mi><mi>y</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow> <mo>]</mo></mrow>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>
+</div>
+<p id="element-363-vn">trong đó <em data-effect="italics">n</em> = số lượng điểm dữ liệu.</p>
+<p id="element-447-vn">Nếu bạn nghi ngờ có một mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>, thì <em data-effect="italics">r</em> có thể đo lường mức độ mạnh mẽ của mối quan hệ tuyến tính đó.</p>
+<p id="fs-idm19432640-vn"><span data-type="title">GIÁ TRỊ của <em data-effect="italics">r</em> cho chúng ta biết điều gì:</span></p><ul id="eip-828"><li>Giá trị của <em data-effect="italics">r</em> luôn nằm trong khoảng từ –1 đến +1: –1 ≤ <em data-effect="italics">r</em> ≤ 1.</li>
+<li>Kích thước của hệ số tương quan <em data-effect="italics">r</em> cho biết độ mạnh của mối quan hệ tuyến tính giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>. Các giá trị của <em data-effect="italics">r</em> gần bằng –1 hoặc +1 cho thấy mối quan hệ tuyến tính mạnh hơn giữa <em data-effect="italics">x</em> và <em data-effect="italics">y</em>.</li>
+<li>Nếu <em data-effect="italics">r</em> = 0 thì có khả năng không có tương quan tuyến tính. Tuy nhiên, điều quan trọng là phải xem biểu đồ phân tán, vì dữ liệu thể hiện mô hình cong hoặc nằm ngang có thể có hệ số tương quan bằng 0.</li>
+<li>Nếu <em data-effect="italics">r</em> = 1, có tương quan thuận hoàn hảo. Nếu <em data-effect="italics">r</em> = –1, có tương quan nghịch hoàn hảo. Trong cả hai trường hợp này, tất cả các điểm dữ liệu gốc đều nằm trên một đường thẳng. Tất nhiên, trong thế giới thực, điều này thường sẽ không xảy ra.</li>
+</ul>
+<p id="fs-idp154948544-vn"><span data-type="title">DẤU của <em data-effect="italics">r</em> cho chúng ta biết điều gì</span></p><ul id="eip-269"><li>Giá trị dương của <em data-effect="italics">r</em> có nghĩa là khi <em data-effect="italics">x</em> tăng, <em data-effect="italics">y</em> có xu hướng tăng và khi <em data-effect="italics">x</em> giảm, <em data-effect="italics">y</em> có xu hướng giảm <strong>(tương quan thuận)</strong>.</li>
+<li>Giá trị âm của <em data-effect="italics">r</em> có nghĩa là khi <em data-effect="italics">x</em> tăng, <em data-effect="italics">y</em> có xu hướng giảm và khi <em data-effect="italics">x</em> giảm, <em data-effect="italics">y</em> có xu hướng tăng <strong>(tương quan nghịch)</strong>.</li>
+<li>Dấu của <em data-effect="italics">r</em> giống với dấu của hệ số góc, <em data-effect="italics">b</em>, của đường phù hợp nhất.</li>
+</ul>
+<div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-131"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+Strong correlation does not suggest that <em data-effect="italics">x</em> causes <em data-effect="italics">y</em> or <em data-effect="italics">y</em> causes <em data-effect="italics">x</em>. We say <strong>"correlation does not imply causation."</strong>
+</div></section></div><div class="os-figure" id="linrgs_facts_pics"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_facts_pics"><span data-alt="Three scatter plots with lines of best fit. The first scatterplot shows points ascending from the lower left to the upper right. The line of best fit has positive slope. The second scatter plot shows points descending from the upper left to the lower right. The line of best fit has negative slope. The third scatter plot of points form a horizontal pattern. The line of best fit is a horizontal line." data-type="media" id="eip-idp8185984">
+<button aria-label="Click to enlarge image of Three scatter plots with lines of best fit. The first scatterplot shows points ascending from the lower left to the upper right. The line of best fit has positive slope. The second scatter plot shows points descending from the upper left to the lower right. The line of best fit has negative slope. The third scatter plot of points form a horizontal pattern. The line of best fit is a horizontal line." class="image-button-wrapper" type="button"><img alt="Three scatter plots with lines of best fit. The first scatterplot shows points ascending from the lower left to the upper right. The line of best fit has positive slope. The second scatter plot shows points descending from the upper left to the lower right. The line of best fit has negative slope. The third scatter plot of points form a horizontal pattern. The line of best fit is a horizontal line." data-media-type="image/png" height="396" loading="lazy" src="../../../assets/img-12-3-7.webp" width="1950"/></button>
+</span>
+<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<span class="os-number">12.15</span>
+<span class="os-divider"> </span>
+<span class="os-caption">(a) Biểu đồ phân tán hiển thị dữ liệu có tương quan dương. 0 &lt; <em data-effect="italics">r</em> &lt; 1 (b) Biểu đồ phân tán hiển thị dữ liệu có tương quan âm. –1 &lt; <em data-effect="italics">r</em> &lt; 0 (c) Biểu đồ phân tán hiển thị dữ liệu có tương quan bằng không. <em data-effect="italics">r</em> = 0</span></figcaption></figure></div></section>
+<p id="eip-696-vn">Công thức cho <em data-effect="italics">r</em> trông có vẻ đáng sợ. Tuy nhiên, các bảng tính trên máy tính, phần mềm thống kê và nhiều máy tính cầm tay có thể nhanh chóng tính toán <em data-effect="italics">r</em>. Hệ số tương quan <em data-effect="italics">r</em> là mục cuối cùng trên màn hình kết quả của LinRegTTest trên máy tính TI-83, TI-83+ hoặc TI-84+ (xem phần trước để biết hướng dẫn).</p>
+<section data-depth="1" id="eip-117"><h3 data-type="title">Hệ số xác định</h3>
+<p id="eip-458-vn"><strong>Biến <em data-effect="italics">r</em><sup>2</sup> được gọi là</strong> <span data-type="term" group-by="c" id="term-00007">hệ số xác định</span> và là bình phương của hệ số tương quan, nhưng thường được biểu thị dưới dạng phần trăm thay vì dạng thập phân. Nó có một cách giải thích trong bối cảnh của dữ liệu:</p>
+<ul id="eip-728"><li><math display="inline"><semantics><mrow>
+<msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup>
+</mrow><annotation-xml encoding="MathML-Content"><msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup></annotation-xml></semantics></math>, khi được biểu thị dưới dạng phần trăm, đại diện cho phần trăm biến thiên của biến phụ thuộc (được dự đoán) <em data-effect="italics">y</em> có thể được giải thích bằng biến thiên của biến độc lập (giải thích) <em data-effect="italics">x</em> sử dụng đường hồi quy (phù hợp nhất).</li>
+<li>1 – <math display="inline"><semantics><mrow><msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup>
+</mrow><annotation-xml encoding="MathML-Content"><msup>
+<mi>r</mi>
+<mn>2</mn>
+</msup></annotation-xml></semantics></math>, khi được biểu thị dưới dạng phần trăm, đại diện cho phần trăm biến thiên của <em data-effect="italics">y</em> KHÔNG được giải thích bằng biến thiên của <em data-effect="italics">x</em> sử dụng đường hồi quy. Điều này có thể được xem là sự phân tán của các điểm dữ liệu quan sát được xung quanh đường hồi quy.</li>
+</ul>
+<p id="fs-idp19642608-vn">Hãy xem xét <a aria-label="Go to third exam/final exam example" href="12-3-the-regression-equation#element-22">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a> đã được giới thiệu trong phần trước<span data-type="newline"><br/></span></p><ul id="eip-624">
+<li>Đường phù hợp nhất là: <em data-effect="italics">ŷ</em> = –173.51 + 4.83x</li>
+<li>Hệ số tương quan là <em data-effect="italics">r</em> = 0.6631</li>
+<li>Hệ số xác định là <em data-effect="italics">r</em><sup>2</sup> = 0.6631<sup>2</sup> = 0.4397</li>
+<li><strong>Giải thích về <em data-effect="italics">r</em><sup>2</sup> trong bối cảnh của ví dụ này:</strong></li>
+<li>Khoảng 44% biến thiên (0.4397 xấp xỉ 0.44) trong điểm thi cuối kỳ có thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất.</li>
+<li>Do đó, khoảng 56% biến thiên (1 – 0.44 = 0.56) trong điểm thi cuối kỳ KHÔNG thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất. (Điều này được thấy qua sự phân tán của các điểm xung quanh đường thẳng.)</li>
+</ul></section>
+</body></html>

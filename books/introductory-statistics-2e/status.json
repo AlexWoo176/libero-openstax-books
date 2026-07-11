@@ -1,0 +1,70 @@
+{
+  "book": "introductory-statistics-2e",
+  "status": "build_completed",
+  "chapters": {
+    "chapter-1": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T03:28:25Z"
+    },
+    "chapter-2": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T03:43:35Z"
+    },
+    "chapter-3": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T03:49:58Z"
+    },
+    "chapter-4": {
+      "status": "translated",
+      "last_updated": "2026-07-10T04:31:34Z"
+    },
+    "chapter-5": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T04:25:02Z"
+    },
+    "chapter-6": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T04:27:05Z"
+    },
+    "chapter-7": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T04:30:49Z"
+    },
+    "chapter-8": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T05:31:18Z"
+    },
+    "chapter-9": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T05:52:45Z"
+    },
+    "chapter-10": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T06:04:04Z"
+    },
+    "chapter-11": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T06:12:16Z"
+    },
+    "chapter-_book-level": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-10T16:37:36Z"
+    },
+    "chapter-12": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-11T00:59:54Z"
+    },
+    "chapter-13": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-11T01:17:50Z"
+    }
+  },
+  "build": {
+    "status": "completed",
+    "timestamp": "2026-07-11T01:18:46Z",
+    "total_pages": 199,
+    "first_page": "/_book-level/a-review-exercises-ch-3-13.html",
+    "mode": "bilingual",
+    "copy_to_web": true
+  }
+}

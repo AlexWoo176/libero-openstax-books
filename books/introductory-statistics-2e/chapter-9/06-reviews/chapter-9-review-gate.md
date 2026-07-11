@@ -1,0 +1,467 @@
+# QA Review Gate Report: Chapter 9
+
+- **Book:** introductory-statistics-2e
+- **Gate Status:** ❌ FAILED
+- **Verified At:** 2026-07-10 04:03
+
+## Checkers Status
+
+- **Structural Integrity:** PASSED
+- **Glossary Consistency:** FAILED
+- **Math & Encoding Integrity:** PASSED
+
+## Glossary Consistency Violations Details
+
+### File: `9-1-null-and-alternative-hypotheses.html`
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+
+### File: `9-2-outcomes-and-the-type-i-and-type-ii-errors.html`
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+
+### File: `9-3-probability-distribution-needed-for-hypothesis-testing.html`
+- Term 'sampling' ('lấy mẫu') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'normally distributed' ('Có phân phối chuẩn') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+
+### File: `9-4-rare-events-the-sample-decision-and-conclusion.html`
+- Term 'figure' ('Hình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+
+### File: `9-5-additional-information-and-full-hypothesis-test-examples.html`
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'p-value' ('p-giá trị') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'samples' ('các mẫu') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'samples' ('các mẫu') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'samples' ('các mẫu') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'figure' ('Hình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'samples' ('các mẫu') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'area to the left' ('Diện tích bên trái') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+
+### File: `9-6-hypothesis-testing-of-a-single-mean-and-single-proportion.html`
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+
+### File: `9-chapter-review.html`
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'summary' ('Tóm tắt') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'normally distributed' ('Có phân phối chuẩn') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'normally distributed' ('Có phân phối chuẩn') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'z-score' ('Điểm chuẩn z (z-score)') is missing in Vietnamese block
+
+### File: `9-formula-review.html`
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population variance' ('Phương sai tổng thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population variance' ('Phương sai tổng thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+
+### File: `9-homework.html`
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'figure' ('Hình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'figure' ('Hình') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'problems' ('Bài tập') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'figure' ('Hình') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'table' ('Bảng') is missing in Vietnamese block
+- Term 'fair' ('cân đối') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'table' ('Bảng') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'problems' ('Bài tập') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'exercises' ('Bài tập thực hành') is missing in Vietnamese block
+- Term 'introduction' ('Giới thiệu') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'statistic' ('trị thống kê') is missing in Vietnamese block
+- Term 'introduction' ('Giới thiệu') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'alpha' ('Mức ý nghĩa α') is missing in Vietnamese block
+
+### File: `9-introduction.html`
+- Term 'intervals' ('các khoảng') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+
+### File: `9-key-terms.html`
+- Term 'confidence level' ('mức tin cậy') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+
+### File: `9-practice.html`
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'exercises' ('Bài tập thực hành') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'alternative hypothesis' ('Đối thuyết (Giả thuyết đối lập)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+
+### File: `9-references.html`
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'index' ('Chỉ mục') is missing in Vietnamese block
+- Term 'frequency' ('tần số') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'hypotheses' ('Các giả thuyết') is missing in Vietnamese block
+
+### File: `9-solutions.html`
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'normally distributed' ('Có phân phối chuẩn') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'statistics' ('thống kê học') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'intervals' ('các khoảng') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'student's t-distribution' ('Phân phối Student (phân phối t)') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'intervals' ('các khoảng') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block
+- Term 'population' ('quần thể') is missing in Vietnamese block
+- Term 'mean' ('số trung bình') is missing in Vietnamese block

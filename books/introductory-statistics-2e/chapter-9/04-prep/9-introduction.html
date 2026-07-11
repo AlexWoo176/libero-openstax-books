@@ -1,0 +1,56 @@
+<html><head><meta charset="utf-8"/><link href="../../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style></head><body><div class="os-figure has-splash" id="fs-idm165993648"><figure class="splash ui-has-child-figcaption" data-id="fs-idm165993648"><span data-alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground." data-type="media" id="fs-idm52702960">
+<button aria-label="Click to enlarge image of This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground." class="image-button-wrapper" type="button"><img alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground." data-media-type="image/jpeg" height="651" loading="lazy" src="../assets/img-9-1.webp" width="1401"/></button>
+</span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">9.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">You can use a hypothesis test to decide if a dog breeder’s claim that every Dalmatian has 35 spots is statistically sound. (credit: modification of work ’black and white, view, dog, animal, fur, mammal, garden, head, vertebrate, beautiful, elegant, rush, attention, dalmatian, dog breed, dog head, noble, stains, animal portrait, head drawing, spotty, hundeportrait, dalmatians”/ Pxhere, Public Domain)</span>
+</figcaption><figcaption class="os-caption-container vn visible">
+<span class="os-title-label">Figure </span>
+<span class="os-number">9.1</span>
+<span class="os-divider"> </span>
+<span class="os-caption">You can use a hypothesis test to decide if a dog breeder’s claim that every Dalmatian has 35 spots is statistically sound. (credit: modification of work ’black and white, view, dog, animal, fur, mammal, garden, head, vertebrate, beautiful, elegant, rush, attention, dalmatian, dog breed, dog head, noble, stains, animal portrait, head drawing, spotty, hundeportrait, dalmatians”/ Pxhere, Public Domain)</span>
+</figcaption></figure></div>
+<!-- LINK -->
+<div class="intro-body">
+<div class="chapter-objectives ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp21504400"><header><h2 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title">
+<span class="os-title-label">Chapter Objectives</span>
+</h2></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="element-667">By the end of this chapter, the student should be able to:</p><p class="vn visible" id="element-667-vn">By the end of this chapter, the student should be able to:</p>
+<ul id="list67">
+<li class="eng hidden">Differentiate between Type I and Type II Errors</li><li class="vn visible">Differentiate between Type I and Type II Errors</li>
+<li class="eng hidden">Describe hypothesis testing in general and in practice</li><li class="vn visible">Describe hypothesis testing in general and in practice</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population mean, population standard deviation known.</li><li class="vn visible">Conduct and interpret hypothesis tests for a single population mean, population standard deviation known.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population mean, population standard deviation unknown.</li><li class="vn visible">Conduct and interpret hypothesis tests for a single population mean, population standard deviation unknown.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population proportion.</li><li class="vn visible">Conduct and interpret hypothesis tests for a single population proportion.</li></ul>
+</div></section></div>
+<div class="intro-text">
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_9c2fa5c1-8882-4d53-8b3b-333f0a9073f4_titlecreatedbycookbook"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_9c2fa5c1-8882-4d53-8b3b-333f0a9073f4_titlecreatedbycookbook-vn"><span class="os-text" data-type="" itemprop="">Introduction</span>
+</h2>
+<p class="eng hidden" id="element-8182">One job of a statistician is to make statistical inferences about populations based on samples taken from the population. <span data-type="term" group-by="C" id="term-00001">Confidence intervals</span> are one way to estimate a population parameter. Another way to make a statistical inference is to make a decision about a parameter. For instance, a car dealer advertises that its new small truck gets 35 miles per gallon, on average. A tutoring service claims that its method of tutoring helps 90% of its students get an A or a B. A company says that women managers in their company earn an average of $60,000 per year.</p><p class="vn visible" id="element-8182-vn">One job of a statistician is to make statistical inferences about populations based on samples taken from the population. <span data-type="term" group-by="C" id="term-00001">Confidence intervals</span> are one way to estimate a population parameter. Another way to make a statistical inference is to make a decision about a parameter. For instance, a car dealer advertises that its new small truck gets 35 miles per gallon, on average. A tutoring service claims that its method of tutoring helps 90% of its students get an A or a B. A company says that women managers in their company earn an average of $60,000 per year.</p><p class="eng hidden" id="element-818">A statistician will make a decision about these claims. This process is called "<span data-type="term" group-by="h" id="term-00002">hypothesis testing</span>." A hypothesis test involves collecting data from a sample and evaluating the data. Then, the statistician makes a decision as to whether or not there is sufficient evidence, based upon analyses of the data, to reject the null hypothesis.</p><p class="vn visible" id="element-818-vn">A statistician will make a decision about these claims. This process is called "<span data-type="term" group-by="h" id="term-00002">hypothesis testing</span>." A hypothesis test involves collecting data from a sample and evaluating the data. Then, the statistician makes a decision as to whether or not there is sufficient evidence, based upon analyses of the data, to reject the null hypothesis.</p><p class="eng hidden" id="element-224">In this chapter, you will conduct hypothesis tests on single means and single proportions.
+    You will also learn about the errors associated with these tests. </p><p class="vn visible" id="element-224-vn">In this chapter, you will conduct hypothesis tests on single means and single proportions.
+    You will also learn about the errors associated with these tests. </p><p class="eng hidden" id="element-616">Hypothesis testing consists of two contradictory hypotheses or statements, a decision based on the data, and a conclusion. To perform a hypothesis test, a statistician will:
+</p><p class="vn visible" id="element-616-vn">Hypothesis testing consists of two contradictory hypotheses or statements, a decision based on the data, and a conclusion. To perform a hypothesis test, a statistician will:
+</p><ol id="list-1"><li class="eng hidden">Set up two contradictory hypotheses.</li><li class="vn visible">Set up two contradictory hypotheses.</li>
+<li class="eng hidden">Collect sample data (in homework problems, the data or summary statistics will be given to you).</li><li class="vn visible">Collect sample data (in homework problems, the data or summary statistics will be given to you).</li>
+<li class="eng hidden">Determine the correct distribution to perform the hypothesis test.</li><li class="vn visible">Determine the correct distribution to perform the hypothesis test.</li>
+<li class="eng hidden">Analyze sample data by performing the calculations that ultimately will allow you to reject or decline to reject the null hypothesis.</li><li class="vn visible">Analyze sample data by performing the calculations that ultimately will allow you to reject or decline to reject the null hypothesis.</li>
+<li class="eng hidden">Make a decision and write a meaningful conclusion.</li><li class="vn visible">Make a decision and write a meaningful conclusion.</li>
+</ol><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="id23787041"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3></header><section>
+<div class="os-note-body">
+<p class="eng hidden" id="eip-idm82174448">To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <a aria-label="Go to Appendix E" data-page-fragment="" data-page-slug="e-solution-sheets" data-page-uuid="c0449c55-aa47-4f1c-bd5f-0521652f0e82" href="e-solution-sheets">Appendix E</a>.</p><p class="vn visible" id="eip-idm82174448-vn">To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <a aria-label="Go to Appendix E" data-page-fragment="" data-page-slug="e-solution-sheets" data-page-uuid="c0449c55-aa47-4f1c-bd5f-0521652f0e82" href="e-solution-sheets">Appendix E</a>.</p></div></section></div>
+</div>
+</div>
+</body></html>
