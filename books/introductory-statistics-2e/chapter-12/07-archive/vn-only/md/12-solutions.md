@@ -105,7 +105,7 @@ Số ca tử vong của tài xế trên 100.000 người
 75+
 28
 
-Table 
+Bảng
 12.38
 1. Kiểm tra lời giải của sinh viên.
 1. *ŷ* = 35,5818045 – 0,19182491*x*
@@ -175,7 +175,7 @@ xu/oz
 10.99
 5.50
 
-Table 
+Bảng
 12.39
 1. Kiểm tra lời giải của sinh viên.
 1. Có một mối quan hệ tuyến tính cho các kích cỡ từ 16 đến 64, nhưng xu hướng tuyến tính đó không tiếp tục đến kích cỡ 200-oz.
@@ -272,7 +272,7 @@ Wisconsin
 30
 65,499
 
-Table 
+Bảng
 12.40
 1. *ŷ* = –87065.3 + 7828.532x
 1. Alabama: 85,162.404; ước tính trước đó gần hơn. Alaska là một giá trị ngoại lệ.

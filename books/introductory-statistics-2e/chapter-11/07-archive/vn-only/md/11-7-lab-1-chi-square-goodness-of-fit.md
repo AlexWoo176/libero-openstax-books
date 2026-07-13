@@ -15,7 +15,7 @@ Thu thập dữ liệu
 1. Record the values.
      
 
-Table 
+Bảng
 11.23
 1. Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes. ![Blank graph with relative frequency on vertical](../../../assets/img-11-7-1.webp)Hình 
 11.9
@@ -62,7 +62,7 @@ Thứ 4^th
 
 Thứ 5^th
 
-Table 
+Bảng
 11.24
 1. *H_0*: ________
 1. *H_a*: ________
@@ -127,7 +127,7 @@ Thứ 5^th
 
 Thứ 6^th
 
-Table 
+Bảng
 11.25
 1. *H_0*: ________
 1. *H_a*: ________

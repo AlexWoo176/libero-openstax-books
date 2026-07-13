@@ -15,7 +15,7 @@ Trái cây
 Rau củ
 Các loại bánh mì
 
-Table 
+Bảng
 13.12
 1. Giải thích cách bạn có thể cố gắng thu thập dữ liệu một cách ngẫu nhiên.
 1. Phát biểu giả thuyết không và đối thuyết.

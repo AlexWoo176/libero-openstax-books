@@ -17,7 +17,7 @@ Thu thập dữ liệuSử dụng tám thành viên trong lớp của bạn làm
 Khoảng cách từ trường
 Chi phí đồ dùng trong học kỳ này
 
-Table 
+Bảng
 12.10
 1. Biến nào nên là biến phản hồi và biến nào nên là biến giải thích? Tại sao?
 1. Graph “distance” vs. “cost.” Plot the points on the graph. Label both axes with

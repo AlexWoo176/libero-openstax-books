@@ -42,7 +42,7 @@ Table
 Favorite type of snack
  
 
-Table 
+Bảng
 11.26
  
 Loại đồ ăn nhẹ yêu thích

@@ -24,7 +24,7 @@ nữ
 
 Tổng
 
-Table 
+Bảng
 11.26
  
 Loại đồ ăn nhẹ yêu thích

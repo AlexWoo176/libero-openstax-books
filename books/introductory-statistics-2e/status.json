@@ -4,11 +4,11 @@
   "chapters": {
     "chapter-1": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T03:28:25Z"
+      "last_updated": "2026-07-12T19:09:31Z"
     },
     "chapter-2": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T03:43:35Z"
+      "last_updated": "2026-07-12T20:21:22Z"
     },
     "chapter-3": {
       "status": "archive_completed",
@@ -36,15 +36,15 @@
     },
     "chapter-9": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T05:52:45Z"
+      "last_updated": "2026-07-12T20:21:30Z"
     },
     "chapter-10": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T06:04:04Z"
+      "last_updated": "2026-07-12T20:21:39Z"
     },
     "chapter-11": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T06:12:16Z"
+      "last_updated": "2026-07-12T20:21:47Z"
     },
     "chapter-_book-level": {
       "status": "archive_completed",
@@ -52,16 +52,16 @@
     },
     "chapter-12": {
       "status": "archive_completed",
-      "last_updated": "2026-07-11T00:59:54Z"
+      "last_updated": "2026-07-12T20:21:54Z"
     },
     "chapter-13": {
-      "status": "prep_completed",
-      "last_updated": "2026-07-11T11:47:17Z"
+      "status": "archive_completed",
+      "last_updated": "2026-07-12T20:22:03Z"
     }
   },
   "build": {
     "status": "completed",
-    "timestamp": "2026-07-11T13:27:30Z",
+    "timestamp": "2026-07-12T20:22:29Z",
     "total_pages": 199,
     "first_page": "/_book-level/a-review-exercises-ch-3-13.html",
     "mode": "vn-only",

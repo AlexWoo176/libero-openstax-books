@@ -104,7 +104,7 @@ x
 
 x
 ¯
- = 16, *μ_X* = 16,43 từ giả thuyết không, *σ_X* = 0,8, và *n* = 15.) Bạn có thể tìm giá trị tới hạn cho *α* = 0,05 trong bảng phân phối chuẩn (xem **15.Tables** trong Mục lục). Điểm chuẩn *z* cho diện tích bên trái bằng 0,05 nằm giữa –1,65 và –1,64 (0,05 nằm giữa 0,0505 và 0,0495). Điểm chuẩn *z* là –1,645. Vì –1,645 > –2,08 (điều này chứng minh rằng α > *p*-giá trị), bác bỏ *H_0*. Theo truyền thống, quyết định bác bỏ hay không bác bỏ được thực hiện theo cách này. Ngày nay, việc so sánh hai xác suất *α* và *p*-giá trị là rất phổ biến. Đối với bài toán này, *p*-giá trị, 0,0187 nhỏ hơn đáng kể so với *α*, 0,05. Bạn có thể tự tin về quyết định bác bỏ của mình. Đồ thị hiển thị *α*, *p*-giá trị, thống kê kiểm định và giá trị tới hạn.
+ = 16, *μ_X* = 16,43 từ giả thuyết không, *σ_X* = 0,8, và *n* = 15.) Bạn có thể tìm giá trị tới hạn cho *α* = 0,05 trong bảng phân phối chuẩn (xem **15.Bảng** trong Mục lục). Điểm chuẩn *z* cho diện tích bên trái bằng 0,05 nằm giữa –1,65 và –1,64 (0,05 nằm giữa 0,0505 và 0,0495). Điểm chuẩn *z* là –1,645. Vì –1,645 > –2,08 (điều này chứng minh rằng α > *p*-giá trị), bác bỏ *H_0*. Theo truyền thống, quyết định bác bỏ hay không bác bỏ được thực hiện theo cách này. Ngày nay, việc so sánh hai xác suất *α* và *p*-giá trị là rất phổ biến. Đối với bài toán này, *p*-giá trị, 0,0187 nhỏ hơn đáng kể so với *α*, 0,05. Bạn có thể tự tin về quyết định bác bỏ của mình. Đồ thị hiển thị *α*, *p*-giá trị, thống kê kiểm định và giá trị tới hạn.
 
 *Hình 
 9.7*

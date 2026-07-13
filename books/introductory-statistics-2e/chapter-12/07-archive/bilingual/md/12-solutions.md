@@ -191,7 +191,7 @@ Table
  
  
 
-Table 
+Bảng
 12.38
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
@@ -314,7 +314,7 @@ Table
  
  
 
-Table 
+Bảng
 12.39
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
@@ -445,7 +445,7 @@ Table
  
  
 
-Table 
+Bảng
 12.40
 1. *ŷ* = –87065.3 + 7828.532x
 1. *ŷ* = –87065.3 + 7828.532x

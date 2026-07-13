@@ -31,7 +31,7 @@ Table
  
  
 
-Table 
+Bảng
 13.12
 1. Explain how you could try to collect the data randomly.
 1. Giải thích cách bạn có thể cố gắng thu thập dữ liệu một cách ngẫu nhiên.

@@ -38,7 +38,7 @@ Table
  
  
 
-Table 
+Bảng
 12.11
 1. Which variable should be the dependent variable and which should be the independent
 variable? Why?

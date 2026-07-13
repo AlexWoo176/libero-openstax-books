@@ -18,7 +18,7 @@ Khảo sát mười cuốn sách giáo khoa. Thu thập dữ liệu hai biến (
 Số trang
 Chi phí sách giáo khoa
 
-Table 
+Bảng
 12.11
 1. Biến nào nên là biến phản hồi và biến nào nên là biến giải thích? Tại sao?
 1. Vẽ đồ thị “số trang” so với “chi phí”. Vẽ các điểm trên đồ thị trong [Phân tích dữ liệu](12-8-regression-textbook-cost#fs-idm37313136). Ghi nhãn cả hai trục bằng từ ngữ. Chia tỷ lệ cho cả hai trục.

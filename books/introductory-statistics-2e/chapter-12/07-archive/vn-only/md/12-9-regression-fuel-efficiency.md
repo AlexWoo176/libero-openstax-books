@@ -18,7 +18,7 @@ weights and fuel efficiency into [Table 12.12](12-9-regression-fuel-efficiency#i
 Trọng lượng
 Hiệu suất nhiên liệu
 
-Table 
+Bảng
 12.12
 1. Biến nào nên là biến phản hồi và biến nào nên là biến giải thích? Tại sao?
 1. By hand, do a scatterplot of “weight” vs. “fuel efficiency”. Plot the points on graph paper.
