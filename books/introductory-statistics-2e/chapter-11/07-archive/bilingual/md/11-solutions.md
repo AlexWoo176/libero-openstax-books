@@ -4,7 +4,7 @@
 
 mean = 25 and standard deviation = 7.0711
 
-số trung bình = 25 và độ lệch chuẩn = 7.0711
+số trung bình = 25 và độ lệch chuẩn = 7,0711
 
 when the number of degrees of freedom is greater than 90
 
@@ -24,7 +24,7 @@ kiểm định mức độ phù hợp
 
 2.04
 
-2.04
+2,04
 
 We decline to reject the null hypothesis. There is not enough evidence to suggest that the observed test scores are significantly different from the expected test scores.
 
@@ -40,7 +40,7 @@ phía bên phải
 
 2016.136
 
-2016.136
+2016,136
 
 Graph: Answers may vary.
 
@@ -72,11 +72,11 @@ kiểm định tính độc lập
 
 6.6
 
-6.6
+6,6
 
 0.0435
 
-0.0435
+0,0435
 
 | Smoking Level Per Day | Mức độ hút thuốc mỗi ngày | Black | Người da đen | Native Hawaiian | Người bản địa Hawaii | Hispanic/Latino | Người gốc Tây Ban Nha/Latinh | Japanese | Người Nhật | White | Người da trắng | Totals | Tổng cộng |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -88,14 +88,14 @@ kiểm định tính độc lập
 
 | Smoking Level Per Day | Mức độ hút thuốc mỗi ngày | Black | Người da đen | Native Hawaiian | Người bản địa Hawaii | Hispanic/Latino | Người gốc Tây Ban Nha/Latinh | Japanese | Người Nhật | White | Người da trắng |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1-10 | 1-10 | 7777.57 | 7777.57 | 3310.11 | 3310.11 | 8248.02 | 8248.02 | 10771.29 | 10771.29 | 11383.01 | 11383.01 |
-| 11-20 | 11-20 | 6573.16 | 6573.16 | 2797.52 | 2797.52 | 6970.76 | 6970.76 | 9103.29 | 9103.29 | 9620.27 | 9620.27 |
-| 21-30 | 21-30 | 2863.02 | 2863.02 | 1218.49 | 1218.49 | 3036.20 | 3036.20 | 3965.05 | 3965.05 | 4190.23 | 4190.23 |
-| 31+ | 31+ | 1616.25 | 1616.25 | 687.87 | 687.87 | 1714.01 | 1714.01 | 2238.37 | 2238.37 | 2365.49 | 2365.49 |
+| 1-10 | 1-10 | 7777.57 | 7777,57 | 3310.11 | 3310,11 | 8248.02 | 8248,02 | 10771.29 | 10771,29 | 11383.01 | 11383,01 |
+| 11-20 | 11-20 | 6573.16 | 6573,16 | 2797.52 | 2797,52 | 6970.76 | 6970,76 | 9103.29 | 9103,29 | 9620.27 | 9620,27 |
+| 21-30 | 21-30 | 2863.02 | 2863,02 | 1218.49 | 1218,49 | 3036.20 | 3036,20 | 3965.05 | 3965,05 | 4190.23 | 4190,23 |
+| 31+ | 31+ | 1616.25 | 1616,25 | 687.87 | 687,87 | 1714.01 | 1714,01 | 2238.37 | 2238,37 | 2365.49 | 2365,49 |
 
 10,301.8
 
-10,301.8
+10,301,8
 
 right
 
@@ -125,7 +125,7 @@ Tất cả các giá trị trong bảng phải lớn hơn hoặc bằng năm.
 
 0.00005
 
-0.00005
+0,00005
 
 a goodness-of-fit test
 
@@ -193,11 +193,11 @@ kiểm định phía bên trái
 
 *H_0*: *σ*^2 = 0.81^2;
 
-*H_0*: *σ*^2 = 0.81^2;
+*H_0*: *σ*^2 = 0,81^2;
 
 *H_a*: *σ*^2 > 0.81^2
 
-*H_a*: *σ*^2 > 0.81^2
+*H_a*: *σ*^2 > 0,81^2
 
 a test of a single variance
 
@@ -205,7 +205,7 @@ kiểm định một phương sai
 
 0.0542
 
-0.0542
+0,0542
 
 true
 
@@ -217,10 +217,10 @@ sai
 
 | Marital Status | Tình trạng hôn nhân | Percent | Phần trăm | Expected Frequency | Tần số kỳ vọng |
 | --- | --- | --- | --- | --- | --- |
-| never married | chưa từng kết hôn | 31.3 | 31.3 | 125.2 | 125.2 |
-| married | đã kết hôn | 56.1 | 56.1 | 224.4 | 224.4 |
-| widowed | góa | 2.5 | 2.5 | 10 | 10 |
-| divorced/separated | ly hôn/ly thân | 10.1 | 10.1 | 40.4 | 40.4 |
+| never married | chưa từng kết hôn | 31.3 | 31,3 | 125.2 | 125,2 |
+| married | đã kết hôn | 56.1 | 56,1 | 224.4 | 224,4 |
+| widowed | góa | 2.5 | 2,5 | 10 | 10 |
+| divorced/separated | ly hôn/ly thân | 10.1 | 10,1 | 40.4 | 40,4 |
 
 1. The data fits the distribution.
 1. Dữ liệu phù hợp với phân phối.
@@ -231,12 +231,12 @@ sai
 1. chi-square distribution with *df* = 3
 1. phân phối khi bình phương (χ2) với *df* = 3
 1. 19.27
-1. 19.27
+1. 19,27
 1. 0.0002
-1. 0.0002
+1. 0,0002
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
-1. Alpha = 0.05Mức ý nghĩa α = 0.05
+1. Alpha = 0.05Mức ý nghĩa α = 0,05
 Decision: Reject nullQuyết định: Bác bỏ giả thuyết không
 Reason for decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: Data does not fit the distribution.Kết luận: Dữ liệu không phù hợp với phân phối.
@@ -249,16 +249,16 @@ Conclusion: Data does not fit the distribution.Kết luận: Dữ liệu không 
 1. chi-square distribution with *df* = 5
 1. phân phối khi bình phương (χ2) với *df* = 5
 1. chi-square test statistic = 13.4
-1. thống kê kiểm định khi bình phương (χ2) = 13.4
+1. thống kê kiểm định khi bình phương (χ2) = 13,4
 1. *p*-value = 0.0199
-1. *p*-giá trị = 0.0199
+1. *p*-giá trị = 0,0199
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha = 0.05Mức ý nghĩa α = 0.05
-Decision: Reject null when *a* = 0.05Quyết định: Bác bỏ giả thuyết không khi *a* = 0.05
+1. Alpha = 0.05Mức ý nghĩa α = 0,05
+Decision: Reject null when *a* = 0.05Quyết định: Bác bỏ giả thuyết không khi *a* = 0,05
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: Local data do not fit the mass transit Distribution.Kết luận: Dữ liệu địa phương không phù hợp với phân phối phương tiện giao thông công cộng.
-Decision: Do not reject null when *a* = 0.01Quyết định: Không bác bỏ giả thuyết không khi *a* = 0.01
+Decision: Do not reject null when *a* = 0.01Quyết định: Không bác bỏ giả thuyết không khi *a* = 0,01
 Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit.Kết luận: Không có đủ bằng chứng để kết luận rằng dữ liệu địa phương không tuân theo phân phối của học sinh sử dụng phương tiện giao thông công cộng.
 1. *H_0*: The actual college majors of graduating women fit the distribution of their expected majors
 1. *H_0*: Các chuyên ngành đại học thực tế của nữ sinh viên tốt nghiệp phù hợp với phân phối các chuyên ngành dự kiến của họ
@@ -271,11 +271,11 @@ Conclusion: There is insufficient evidence to conclude that local data do not fo
 1. test statistic = 11.48
 1. thống kê kiểm định = 11.48
 1. *p*-value = 0.3211
-1. *p*-giá trị = 0.3211
+1. *p*-giá trị = 0,3211
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha = 0.05Mức ý nghĩa α = 0.05
-Decision: Do not reject null when *a* = 0.05 and *a* = 0.01Quyết định: Không bác bỏ giả thuyết không khi *a* = 0.05 và *a* = 0.01
+1. Alpha = 0.05Mức ý nghĩa α = 0,05
+Decision: Do not reject null when *a* = 0.05 and *a* = 0.01Quyết định: Không bác bỏ giả thuyết không khi *a* = 0,05 và *a* = 0,01
 Reason for decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors.Kết luận: Không có đủ bằng chứng để kết luận rằng phân phối các chuyên ngành đại học thực tế của nữ sinh viên tốt nghiệp không phù hợp với phân phối các chuyên ngành dự kiến của họ.
 true
@@ -304,15 +304,15 @@ Sử dụng phân phối khi bình phương (χ2) với *df* = 4 để đánh gi
 
 The test statistic is *X^2* = 9.85
 
-Thống kê kiểm định là *X^2* = 9.85
+Thống kê kiểm định là *X^2* = 9,85
 
 The *P*-value = 0.0431
 
-*P*-giá trị = 0.0431
+*P*-giá trị = 0,0431
 
 At 5% significance level, α = 0.05. For this data, *P* < α. Reject the null hypothesis.
 
-Tại mức ý nghĩa 5%, α = 0.05. Đối với dữ liệu này, *P* < α. Bác bỏ giả thuyết không.
+Tại mức ý nghĩa 5%, α = 0,05. Đối với dữ liệu này, *P* < α. Bác bỏ giả thuyết không.
 
 At the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.
 
@@ -327,12 +327,12 @@ Tại mức ý nghĩa 5%, từ dữ liệu, có đủ bằng chứng để kết
 1. chi-square distribution with *df* = 9
 1. phân phối khi bình phương (χ2) với *df* = 9
 1. test statistic = 15.8284
-1. thống kê kiểm định = 15.8284
+1. thống kê kiểm định = 15,8284
 1. *p*-value = 0.0706
-1. *p*-giá trị = 0.0706
+1. *p*-giá trị = 0,0706
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng kích thước xe và quy mô gia đình là phụ thuộc lẫn nhau.
@@ -345,12 +345,12 @@ Conclusion: At the 5% significance level, there is insufficient evidence to conc
 1. chi-square distribution with *df* = 9
 1. phân phối khi bình phương (χ2) với *df* = 9
 1. test statistic = 15.7027
-1. thống kê kiểm định = 15.7027
+1. thống kê kiểm định = 15,7027
 1. *p*-value = 0.0734
-1. *p*-giá trị = 0.0734
+1. *p*-giá trị = 0,0734
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng địa điểm hưởng tuần trăng mật và độ tuổi cô dâu là phụ thuộc lẫn nhau.
@@ -363,12 +363,12 @@ Conclusion: At the 5% significance level, there is insufficient evidence to conc
 1. chi-square distribution with *df* = 6
 1. phân phối khi bình phương (χ2) với *df* = 6
 1. test statistic =18.8369
-1. thống kê kiểm định = 18.8369
+1. thống kê kiểm định = 18,8369
 1. *p*-value = 0.0044
-1. *p*-giá trị = 0.0044
+1. *p*-giá trị = 0,0044
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng cho thấy các loại khoai tây chiên và địa điểm là phụ thuộc lẫn nhau.
@@ -381,12 +381,12 @@ Conclusion: At the 5% significance level, There is sufficient evidence that type
 1. chi-square distribution with *df* = 12
 1. phân phối khi bình phương (χ2) với *df* = 12
 1. test statistic = 255.7704
-1. thống kê kiểm định = 255.7704
+1. thống kê kiểm định = 255,7704
 1. *p*-value = 0
 1. *p*-giá trị = 0
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that salary and level of education are dependent.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng mức lương và trình độ học vấn phụ thuộc vào nhau.
@@ -407,12 +407,12 @@ true
 1. chi-square distribution with *df* = 2
 1. phân phối khi bình phương (χ2) với *df* = 2
 1. test statistic = 1.76
-1. thống kê kiểm định = 1.76
+1. thống kê kiểm định = 1,76
 1. *p*-value 0.4144
-1. *p*-giá trị 0.4144
+1. *p*-giá trị 0,4144
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng độ tuổi và giá trị tài sản ròng của các doanh nhân trực tuyến trẻ tuổi nhất là phụ thuộc lẫn nhau.
@@ -425,12 +425,12 @@ Conclusion: At the 5% significance level, there is insufficient evidence to conc
 1. chi-square with *df* = 4
 1. phân phối khi bình phương (χ2) với *df* = 4
 1. test statistic = 3.01
-1. thống kê kiểm định = 3.01
+1. thống kê kiểm định = 3,01
 1. *p*-value = 0.5568
-1. *p*-giá trị = 0.5568
+1. *p*-giá trị = 0,5568
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision:   *p*-value > alphaLý do quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion:  There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors.Kết luận: Không có đủ bằng chứng để kết luận rằng sự phân phối các loại tính cách là khác nhau giữa sinh viên chuyên ngành kinh doanh và sinh viên chuyên ngành khoa học xã hội.
@@ -443,12 +443,12 @@ Conclusion:  There is insufficient evidence to conclude that the distribution of
 1. chi-square with *df* = 3
 1. phân phối khi bình phương (χ2) với *df* = 3
 1. 11.75
-1. 11.75
+1. 11,75
 1. *p*-value = 0.0083
-1. *p*-giá trị = 0.0083
+1. *p*-giá trị = 0,0083
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo LakeKết luận: Có bằng chứng để kết luận rằng sự phân phối cá đánh bắt được là khác nhau tại Hồ Green Valley và Hồ Echo.
@@ -461,12 +461,12 @@ Conclusion: There is evidence to conclude that the distribution of fish caught i
 1. chi-square with *df* = 4
 1. phân phối khi bình phương (χ2) với *df* = 4
 1. test statistic = 2.7434
-1. thống kê kiểm định = 2.7434
+1. thống kê kiểm định = 2,7434
 1. *p*-value = 0.7395
-1. *p*-giá trị = 0.7395
+1. *p*-giá trị = 0,7395
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng các giá trị tiêu thụ năng lượng trung bình ở Mỹ và EU không bắt nguồn từ các phân phối khác nhau trong giai đoạn từ Năm 1 đến Năm 6.
@@ -479,12 +479,12 @@ Conclusion: At the 5% significance level, there is insufficient evidence to conc
 1. chi-square with *df* = 2
 1. phân phối khi bình phương (χ2) với *df* = 2
 1. 7.05
-1. 7.05
+1. 7,05
 1. *p*-value = 0.0294
-1. *p*-giá trị = 0.0294
+1. *p*-giá trị = 0,0294
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities.Kết luận: Có đủ bằng chứng để kết luận rằng sự phân phối mức độ sử dụng công nghệ cho bài tập về nhà môn thống kê không như nhau đối với sinh viên thống kê tại các trường cao đẳng cộng đồng và tại các trường đại học.
@@ -521,12 +521,12 @@ phân phối Student *t*- hoặc phân phối chuẩn
 1. chi-square with *df* = 42
 1. phân phối khi bình phương (χ2) với *df* = 42
 1. test statistic = 26.88
-1. thống kê kiểm định = 26.88
+1. thống kê kiểm định = 26,88
 1. *p*-value = 0.9663
-1. *p*-giá trị = 0.9663
+1. *p*-giá trị = 0,9663
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha = 0.05Mức ý nghĩa α = 0.05
+1. Alpha = 0.05Mức ý nghĩa α = 0,05
 Decision: Do not reject null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15.Kết luận: Không có đủ bằng chứng để kết luận rằng độ lệch chuẩn lớn hơn 15.
@@ -539,12 +539,12 @@ Conclusion: There is insufficient evidence to conclude that the standard deviati
 1. chi-square distribution with *df* = 17
 1. phân phối khi bình phương (χ2) với *df* = 17
 1. test statistic = 28.73
-1. thống kê kiểm định = 28.73
+1. thống kê kiểm định = 28,73
 1. *p*-value = 0.0371
-1. *p*-giá trị = 0.0371
+1. *p*-giá trị = 0,0371
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three.Kết luận: Có đủ bằng chứng để kết luận rằng độ lệch chuẩn lớn hơn ba.
@@ -557,18 +557,18 @@ Conclusion: There is sufficient evidence to conclude that the standard deviation
 1. chi-square distiribution with *df* = 14
 1. phân phối khi bình phương (χ2) với *df* = 14
 1. chi-square test statistic = 5.2094
-1. thống kê kiểm định khi bình phương (χ2) = 5.2094
+1. thống kê kiểm định khi bình phương (χ2) = 5,2094
 1. *p*-value = 0.0346
-1. *p*-giá trị = 0.0346
+1. *p*-giá trị = 0,0346
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha = 0.05Mức ý nghĩa α = 0.05
+1. Alpha = 0.05Mức ý nghĩa α = 0,05
 Decision: Reject the null hypothesisQuyết định: Bác bỏ giả thuyết không
 Reason for decision: *p*-value < alphaLý do quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2.Kết luận: Có đủ bằng chứng để kết luận rằng độ lệch chuẩn khác 2.
 The sample standard deviation is $34.29.
 
-Độ lệch chuẩn mẫu là $34.29.
+Độ lệch chuẩn mẫu là $34,29.
 
 *H_0* : *σ*^2 = 25^2
 
@@ -794,7 +794,7 @@ x
 
 Alpha: 0.05
 
-Mức ý nghĩa α: 0.05
+Mức ý nghĩa α: 0,05
 
 Decision: Do not reject the null hypothesis.
 

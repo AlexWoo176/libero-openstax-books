@@ -215,10 +215,10 @@ Sometimes percentages add up to be more than 100% (or less than 100%). In the gr
 
 | Characteristic/Category | Đặc điểm/Danh mục | Percent | Phần trăm |
 | --- | --- | --- | --- |
-| Full-Time Students | Sinh viên toàn thời gian | 40.9% | 40.9% |
-| Students who intend to transfer to a 4-year educational institution | Sinh viên có ý định chuyển tiếp lên cơ sở giáo dục đại học 4 năm | 48.6% | 48.6% |
-| Students under age 25 | Sinh viên dưới 25 tuổi | 61.0% | 61.0% |
-| TOTAL | TỔNG | 150.5% | 150.5% |
+| Full-Time Students | Sinh viên toàn thời gian | 40.9% | 40,9% |
+| Students who intend to transfer to a 4-year educational institution | Sinh viên có ý định chuyển tiếp lên cơ sở giáo dục đại học 4 năm | 48.6% | 48,6% |
+| Students under age 25 | Sinh viên dưới 25 tuổi | 61.0% | 61,0% |
+| TOTAL | TỔNG | 150.5% | 150,5% |
 
 *Figure 
 1.7*
@@ -236,14 +236,14 @@ Bảng hiển thị Dân tộc của Sinh viên nhưng thiếu danh mục "Khác
 
 |  |  | Frequency | Tần số | Percent | Phần trăm |
 | --- | --- | --- | --- | --- | --- |
-| Asian | Người châu Á | 8,794 | 8,794 | 36.1% | 36.1% |
-| Black | Người da đen | 1,412 | 1,412 | 5.8% | 5.8% |
-| Filipino | Người Philippines | 1,298 | 1,298 | 5.3% | 5.3% |
-| Hispanic/Latino | Người gốc Tây Ban Nha/Mỹ Latinh | 4,180 | 4,180 | 17.1% | 17.1% |
-| Native American | Người Mỹ bản địa | 146 | 146 | 0.6% | 0.6% |
+| Asian | Người châu Á | 8,794 | 8,794 | 36.1% | 36,1% |
+| Black | Người da đen | 1,412 | 1,412 | 5.8% | 5,8% |
+| Filipino | Người Philippines | 1,298 | 1,298 | 5.3% | 5,3% |
+| Hispanic/Latino | Người gốc Tây Ban Nha/Mỹ Latinh | 4,180 | 4,180 | 17.1% | 17,1% |
+| Native American | Người Mỹ bản địa | 146 | 146 | 0.6% | 0,6% |
 | Pacific Islander | Người dân đảo Thái Bình Dương | 236 | 236 | 1.0% | 1.0% |
-| White | Người da trắng | 5,978 | 5,978 | 24.5% | 24.5% |
-| TOTAL | TỔNG | 22,044 out of 24,382 | 22.044 trên 24.382 | 90.4% out of 100% | 90,4% trên 100% |
+| White | Người da trắng | 5,978 | 5,978 | 24.5% | 24,5% |
+| TOTAL | TỔNG | 22,044 out of 24,382 | 22,044 trên 24,382 | 90.4% out of 100% | 90,4% trên 100% |
 
 *Figure 
 1.8*
@@ -327,23 +327,23 @@ Lisa có thể sử dụng bảng số ngẫu nhiên (có trong nhiều sách th
 0.73381; 
 0.04399
 
-0.94360; 
-0.99832; 
-0.14669; 
-0.51470; 
-0.40581; 
-0.73381; 
-0.04399
+0,94360; 
+0,99832; 
+0,14669; 
+0,51470; 
+0,40581; 
+0,73381; 
+0,04399
 
 Lisa reads two-digit groups until she has chosen three class members (that is, she reads 0.94360 as the
 groups 94, 43, 36, 60). Each random number may only contribute one class member. If she needed to, Lisa
 could have generated more random numbers.
 
-Lisa đọc các nhóm hai chữ số cho đến khi cô ấy chọn được ba thành viên lớp (nghĩa là cô ấy đọc 0.94360 thành các nhóm 94, 43, 36, 60). Mỗi số ngẫu nhiên chỉ có thể đóng góp một thành viên lớp. Nếu cần, Lisa có thể đã tạo thêm nhiều số ngẫu nhiên hơn.
+Lisa đọc các nhóm hai chữ số cho đến khi cô ấy chọn được ba thành viên lớp (nghĩa là cô ấy đọc 0,94360 thành các nhóm 94, 43, 36, 60). Mỗi số ngẫu nhiên chỉ có thể đóng góp một thành viên lớp. Nếu cần, Lisa có thể đã tạo thêm nhiều số ngẫu nhiên hơn.
 
 The random numbers 0.94360 and 0.99832 do not contain appropriate two digit numbers. However the third random number, 0.14669, contains 14 (the fourth random number also contains 14), the fifth random number contains 05, and the seventh random number contains 04. The two-digit number 14 corresponds to Macierz, 05 corresponds to Cuningham, and 04 corresponds to Cuarismo. Besides herself, Lisa’s group will consist of Marcierz, Cuningham, and Cuarismo.
 
-Các số ngẫu nhiên 0.94360 và 0.99832 không chứa các số hai chữ số phù hợp. Tuy nhiên, số ngẫu nhiên thứ ba, 0.14669, chứa 14 (số ngẫu nhiên thứ tư cũng chứa 14), số ngẫu nhiên thứ năm chứa 05, và số ngẫu nhiên thứ bảy chứa 04. Số hai chữ số 14 tương ứng với Macierz, 05 tương ứng với Cuningham, và 04 tương ứng với Cuarismo. Ngoài bản thân cô ấy, nhóm của Lisa sẽ bao gồm Marcierz, Cuningham và Cuarismo.
+Các số ngẫu nhiên 0,94360 và 0,99832 không chứa các số hai chữ số phù hợp. Tuy nhiên, số ngẫu nhiên thứ ba, 0,14669, chứa 14 (số ngẫu nhiên thứ tư cũng chứa 14), số ngẫu nhiên thứ năm chứa 05, và số ngẫu nhiên thứ bảy chứa 04. Số hai chữ số 14 tương ứng với Macierz, 05 tương ứng với Cuningham, và 04 tương ứng với Cuarismo. Ngoài bản thân cô ấy, nhóm của Lisa sẽ bao gồm Marcierz, Cuningham và Cuarismo.
 
 To generate random numbers:
 
@@ -703,14 +703,14 @@ Sự biến thiên luôn hiện diện trong bất kỳ tập dữ liệu nào. 
 16.0; 
 15.5
 
-15.8; 
-16.1; 
-15.2; 
-14.8; 
-15.8; 
-15.9; 
-16.0; 
-15.5
+15,8; 
+16,1; 
+15,2; 
+14,8; 
+15,8; 
+15,9; 
+16,0; 
+15,5
 
 Measurements of the amount of beverage in a 16-ounce can may vary because different people make the measurements or because the exact amount, 16 ounces of liquid, was not put into the cans. Manufacturers regularly run tests to determine if the amount of beverage in a 16-ounce can falls within the desired range.
 

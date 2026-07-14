@@ -191,8 +191,8 @@ Tại mức ý nghĩa 1%, kết luận của bạn là gì?
 
 | Plant Group | Nhóm thực vật | Sample Mean Height of Plants (inches) | Trung bình mẫu chiều cao thực vật (inch) | Population Standard Deviation | Độ lệch chuẩn quần thể |
 | --- | --- | --- | --- | --- | --- |
-| Food | Thức ăn | 16 | 16 | 2.5 | 2.5 |
-| No food | Không thức ăn | 14 | 14 | 1.5 | 1.5 |
+| Food | Thức ăn | 16 | 16 | 2.5 | 2,5 |
+| No food | Không thức ăn | 14 | 14 | 1.5 | 1,5 |
 
 Is the population standard deviation known or unknown?
 
@@ -323,7 +323,7 @@ Tìm *p*-giá trị.
 
 At a pre-conceived *α* = 0.05, what is your:
 
-Tại mức *α* = 0.05 đã định trước, kết quả của bạn là:
+Tại mức *α* = 0,05 đã định trước, kết quả của bạn là:
 
 1. Decision:
 1. Quyết định:

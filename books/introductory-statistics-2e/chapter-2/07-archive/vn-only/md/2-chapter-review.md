@@ -6,8 +6,8 @@
 
 Các giá trị chia một tập dữ liệu đã sắp xếp theo thứ hạng thành 100 phần bằng nhau được gọi là bách phân vị. Bách phân vị được sử dụng để so sánh và diễn giải dữ liệu. Ví dụ, một quan sát ở bách phân vị thứ 50 sẽ lớn hơn 50 phần trăm các quan sát khác trong tập hợp. Tứ phân vị chia dữ liệu thành các phần tư. Tứ phân vị thứ nhất (*Q*_1) là bách phân vị thứ 25, tứ phân vị thứ hai (*Q*_2 hay trung vị) là bách phân vị thứ 50, và tứ phân vị thứ ba (*Q*_3) là bách phân vị thứ 75. Khoảng tứ phân vị, hay *IQR*, là khoảng của 50 phần trăm giá trị dữ liệu ở giữa. *IQR* được tìm thấy bằng cách trừ *Q*_1 cho *Q*_3, và có thể giúp xác định các giá trị ngoại lệ bằng cách sử dụng hai biểu thức sau.
 
-- *Q* + (1.5)
-- *Q* – (1.5)
+- *Q* + (1,5)
+- *Q* – (1,5)
 Biểu đồ hộp là một loại biểu đồ có thể giúp sắp xếp dữ liệu một cách trực quan. Để vẽ biểu đồ hộp, các điểm dữ liệu sau đây phải được tính toán: giá trị tối thiểu, tứ phân vị thứ nhất, trung vị, tứ phân vị thứ ba và giá trị tối đa. Khi biểu đồ hộp đã được vẽ, bạn có thể hiển thị và so sánh các phân phối của dữ liệu.
 
 Số trung bình và trung vị có thể được tính toán để giúp bạn tìm "trung tâm" của một tập dữ liệu. Số trung bình là ước tính tốt nhất cho tập dữ liệu thực tế, nhưng trung vị là số đo tốt nhất khi một tập dữ liệu chứa một vài giá trị ngoại lệ hoặc giá trị cực đoan. Yếu vị sẽ cho bạn biết dữ liệu xuất hiện thường xuyên nhất trong tập dữ liệu của bạn. Số trung bình, trung vị và yếu vị cực kỳ hữu ích khi bạn cần phân tích dữ liệu của mình, nhưng nếu tập dữ liệu của bạn bao gồm các khoảng thiếu các giá trị cụ thể, số trung bình có thể dường như không thể tính toán được. Tuy nhiên, số trung bình có thể được xấp xỉ nếu bạn cộng giới hạn dưới với giới hạn trên và chia cho hai để tìm trung điểm của mỗi khoảng. Nhân mỗi trung điểm với số lượng giá trị được tìm thấy trong khoảng tương ứng. Chia tổng các giá trị này cho tổng số giá trị dữ liệu trong tập hợp.

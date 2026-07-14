@@ -76,7 +76,7 @@ median = __________trung vị = __________
 1. Construct a box plot of the data. Be sure to use a ruler to scale accurately and draw straight edges.
 1. Hãy vẽ biểu đồ hộp của dữ liệu. Đảm bảo sử dụng thước kẻ để chia tỷ lệ chính xác và vẽ các cạnh thẳng.
 1. Do you notice any potential outliers? If so, which values are they? Either way, justify your answer numerically. (Recall that any DATA that are less than *Q*_1 – 1.5(*IQR*) or more than *Q*_3 + 1.5(*IQR*) are potential outliers. *IQR* means interquartile range.)
-1. Bạn có nhận thấy bất kỳ giá trị ngoại lệ tiềm năng nào không? Nếu có, đó là những giá trị nào? Dù thế nào đi nữa, hãy biện minh cho câu trả lời của bạn bằng số liệu. (Nhắc lại rằng bất kỳ DỮ LIỆU nào nhỏ hơn *Q*_1 – 1.5(*IQR*) hoặc lớn hơn *Q*_3 + 1.5(*IQR*) đều là các giá trị ngoại lệ tiềm năng. *IQR* nghĩa là khoảng tứ phân vị.)
+1. Bạn có nhận thấy bất kỳ giá trị ngoại lệ tiềm năng nào không? Nếu có, đó là những giá trị nào? Dù thế nào đi nữa, hãy biện minh cho câu trả lời của bạn bằng số liệu. (Nhắc lại rằng bất kỳ DỮ LIỆU nào nhỏ hơn *Q*_1 – 1,5(*IQR*) hoặc lớn hơn *Q*_3 + 1,5(*IQR*) đều là các giá trị ngoại lệ tiềm năng. *IQR* nghĩa là khoảng tứ phân vị.)
 1. For each of the following parts, use a complete sentence to comment on how the value obtained from the data compares to the theoretical value you expected from the distribution in the section titled [Theoretical Distribution](5-4-continuous-distribution#fs-idm19839648).
 minimum value: _______giá trị nhỏ nhất: _______
 first quartile: _______tứ phân vị thứ nhất: _______

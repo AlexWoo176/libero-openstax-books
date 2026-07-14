@@ -28,7 +28,7 @@ Hand, D.J., F. Daly, A.D. Lunn, K.J. McConway, và E. Ostrowski. A Handbook of S
 
 Mackowiak, P. A., Wasserman, S. S., and Levine, M. M. (1992), "A Critical Appraisal of 98.6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich," *Journal of the American Medical Association*, 268, 1578-1580.
 
-Mackowiak, P. A., Wasserman, S. S., và Levine, M. M. (1992), "A Critical Appraisal of 98.6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich," *Journal of the American Medical Association*, 268, 1578-1580.
+Mackowiak, P. A., Wasserman, S. S., và Levine, M. M. (1992), "A Critical Appraisal of 98,6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlich," *Journal of the American Medical Association*, 268, 1578-1580.
 
 “MLB Vs. Division Standings – 2012.” Available online at [http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true](http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true).
 

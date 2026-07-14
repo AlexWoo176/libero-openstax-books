@@ -117,7 +117,7 @@
 <div class="body">
 <p id="element-455-vn">Một phân phối chưa biết có số trung bình là 90 và độ lệch chuẩn là 15. Một mẫu có kích thước 80 được rút ngẫu nhiên từ quần thể.<span data-type="newline"><br/></span></p><div class="unnumbered has-problem-title" data-type="exercise" id="element-55"><header></header><section><div data-type="problem" id="id12220262"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<ol id="element-710" type="a"><li>Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7.500.</li>
+<ol id="element-710" type="a"><li>Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7,500.</li>
 <li>Tìm tổng lớn hơn số trung bình của các tổng là 1,5 độ lệch chuẩn.</li>
 </ol>
 </div></div>
@@ -147,7 +147,7 @@
 </mrow>
 </msqrt>
 </mrow></annotation-xml></semantics></math></span>)(15))</p>
-<ul id="element-907"><li>số trung bình của các tổng = (<em data-effect="italics">n</em>)(<em data-effect="italics">μ<sub>X</sub></em>) = (80)(90) = 7.200</li>
+<ul id="element-907"><li>số trung bình của các tổng = (<em data-effect="italics">n</em>)(<em data-effect="italics">μ<sub>X</sub></em>) = (80)(90) = 7,200</li>
 <li>độ lệch chuẩn của các tổng = <math display="inline"><semantics><mrow>
 <mrow>
 <mtext>(</mtext><msqrt>
@@ -179,9 +179,9 @@
 </msqrt>
 <mtext>)</mtext>
 </mrow></annotation-xml></semantics></math>(15)</li>
-<li>tổng của 80 giá trị = <em data-effect="italics">Σx</em> = 7.500<span data-type="newline"><br/></span></li>
+<li>tổng của 80 giá trị = <em data-effect="italics">Σx</em> = 7,500<span data-type="newline"><br/></span></li>
 </ul><p id="fs-idm55727008-vn">a. Tìm <em data-effect="italics">P</em>(Σ<em data-effect="italics">x</em> &gt; 7,500)</p>
-<p id="element-704-vn"><em data-effect="italics">P</em>(Σ<em data-effect="italics">x</em> &gt; 7,500) = 0.0127</p>
+<p id="element-704-vn"><em data-effect="italics">P</em>(Σ<em data-effect="italics">x</em> &gt; 7,500) = 0,0127</p>
 <div class="os-figure" id="fs-idm54365952"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm54365952">
 <span data-alt="This is a normal distribution curve. The peak of the curve coincides with the point 7200 on the horizontal axis. The point 7500 is also labeled. A vertical line extends from point 7500 to the curve. The area to the right of 7500 below the curve is shaded." data-type="media" id="id12212529">
 <button aria-label="Click to enlarge image of This is a normal distribution curve. The peak of the curve coincides with the point 7200 on the horizontal axis. The point 7500 is also labeled. A vertical line extends from point 7500 to the curve. The area to the right of 7500 below the curve is shaded." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve. The peak of the curve coincides with the point 7200 on the horizontal axis. The point 7500 is also labeled. A vertical line extends from point 7500 to the curve. The area to the right of 7500 below the curve is shaded." data-media-type="image/png" height="358" loading="lazy" src="../../../assets/img-7-2-1.webp" width="882"/></button>
@@ -209,7 +209,7 @@
 </mrow>
 <mo>)</mo></mrow>
 </mrow></annotation-xml></semantics></math></span>(<em data-effect="italics">σ<sub>X</sub></em>))</p>
-<p id="element-458-vn"><code data-type="code">normalcdf</code><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p id="element-458-vn"><code data-type="code">normalcdf</code> (7500,1E99,(80)(90),<span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
@@ -231,14 +231,46 @@
 </msqrt>
 </mrow>
 <mo>)</mo></mrow>
-</mrow></annotation-xml></semantics></math></span></p></div></section></div>
+</mrow></annotation-xml></semantics></math></span>(15)) = 0,0127</p></div></section></div>
 <div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm71809936"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
 <div class="os-note-body">
 <p id="element-565-vn"><strong>1E99 = 10<sup>99</sup></strong>.</p>
 <p id="fs-idm138173168-vn">Nhấn phím <code data-type="code">EE</code> cho E.</p>
 </div></section></div>
-<p id="fs-idm48238000-vn">b. Tìm Σ<em data-effect="italics">x</em> trong đó <em data-effect="italics">z</em> = 1.5.</p>
-<p id="fs-idm83248080-vn">Σ = ()() + ()() = (80)(90) + (1.5)()(15) = 7.401,2</p>
+<p id="fs-idm48238000-vn">b. Tìm Σ<em data-effect="italics">x</em> trong đó <em data-effect="italics">z</em> = 1,5.</p>
+<p id="fs-idm83248080-vn">Σ<em data-effect="italics">x</em> = (<em data-effect="italics">n</em>)(<em data-effect="italics">μ<sub>X</sub></em>) + (<em data-effect="italics">z</em>)<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>(<em data-effect="italics">σ<sub>Î§</sub></em>) = (80)(90) + (1,5)(<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>80</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msqrt>
+<mrow>
+<mn>80</mn>
+</mrow>
+</msqrt>
+</mrow></annotation-xml></semantics></math></span>)(15) = 7,401,2</p>
 </div>
 </section>
 </details>
@@ -284,7 +316,7 @@
 <p id="fs-idm5626528-vn">Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 34 tuổi. Giả sử độ lệch chuẩn là 15 tuổi. Kích thước mẫu là 50.</p>
 <ol id="fs-idm90393840" type="a">
 <li>Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?</li>
-<li>Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1.800 năm.</li>
+<li>Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1,800 năm.</li>
 <li>Tìm bách phân vị thứ 80 cho tổng của 50 độ tuổi.</li>
 </ol>
 </div></div>
@@ -292,7 +324,7 @@
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
 <section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<ol id="fs-idp6531984" type="a"><li><em data-effect="italics">μ<sub>Σx</sub></em> = <em data-effect="italics">nμ<sub>x</sub></em> = 50(34) = 1.700 và <em data-effect="italics">σ<sub>Σx</sub></em> = <math display="inline"><semantics><mrow>
+<ol id="fs-idp6531984" type="a"><li><em data-effect="italics">μ<sub>Σx</sub></em> = <em data-effect="italics">nμ<sub>x</sub></em> = 50(34) = 1,700 và <em data-effect="italics">σ<sub>Σx</sub></em> = <math display="inline"><semantics><mrow>
 <mrow>
 <msqrt>
 <mi>n</mi>
@@ -354,7 +386,7 @@
 </mrow>
 </msqrt>
 <mtext> )</mtext>
-</mrow></annotation-xml></semantics></math>(15)) = 1.789,3</li>
+</mrow></annotation-xml></semantics></math>(15)) = 1,789,3</li>
 </ol></div>
 </section>
 </details>
@@ -368,7 +400,7 @@
 <p id="fs-idm98358608-vn">Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 35 tuổi. Giả sử độ lệch chuẩn là mười tuổi. Kích thước mẫu là 39.</p>
 <ol id="fs-idp46009888" type="a">
 <li>Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?</li>
-<li>Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.400 đến 1.500 năm.</li>
+<li>Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1,400 đến 1.500 năm.</li>
 <li>Tìm bách phân vị thứ 90 cho tổng của 39 độ tuổi.</li>
 </ol></div></div>
 </section></div>

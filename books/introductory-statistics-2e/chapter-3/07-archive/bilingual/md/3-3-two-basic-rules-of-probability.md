@@ -47,11 +47,11 @@ Klaus is trying to choose where to go on vacation. His two choices are: *A* = Ne
 Klaus đang cố gắng chọn nơi để đi nghỉ mát. Hai lựa chọn của anh ấy là: A = New Zealand và B = Alaska
 
 - Klaus can only afford one vacation. The probability that he chooses *A* is *P*(*A*) = 0.6 and the probability that he chooses *B* is *P*(*B*) = 0.35.
-- Klaus chỉ đủ khả năng cho một kỳ nghỉ. Xác suất anh ấy chọn *A* là *P*(*A*) = 0.6 và xác suất anh ấy chọn *B* là *P*(*B*) = 0.35.
+- Klaus chỉ đủ khả năng cho một kỳ nghỉ. Xác suất anh ấy chọn *A* là *P*(*A*) = 0,6 và xác suất anh ấy chọn *B* là *P*(*B*) = 0,35.
 - *P*(*A* AND *B*) = 0 because Klaus can only afford to take one vacation
 - *P*(*A* và *B*) = 0 vì Klaus chỉ đủ khả năng cho một kỳ nghỉ
 - Therefore, the probability that he chooses either New Zealand or Alaska is *P*(*A* OR *B*) = *P*(*A*) + *P*(*B*) = 0.6 + 0.35 = 0.95. Note that the probability that he does not choose to go anywhere on vacation must be 0.05.
-- Do đó, xác suất anh ấy chọn New Zealand hoặc Alaska là *P*(*A* hoặc *B*) = *P*(*A*) + *P*(*B*) = 0.6 + 0.35 = 0.95. Lưu ý rằng xác suất anh ấy không chọn đi nghỉ ở bất cứ đâu phải là 0.05.
+- Do đó, xác suất anh ấy chọn New Zealand hoặc Alaska là *P*(*A* hoặc *B*) = *P*(*A*) + *P*(*B*) = 0,6 + 0,35 = 0,95. Lưu ý rằng xác suất anh ấy không chọn đi nghỉ ở bất cứ đâu phải là 0,05.
 Anna has to buy a new car. She has two choices, car A and car B. Anna can afford only one car. The probability that Anna will buy car A is 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25, and the probability that Anna will buy car B is 𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65. Find:
 
 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65
@@ -62,7 +62,7 @@ Anna has to buy a new car. She has two choices, car A and car B. Anna can afford
 - 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A OR B)
 Carlos plays college soccer. He makes a goal 65% of the time he shoots. Carlos is going to attempt two goals in a row in the next game. *A* = the event Carlos is successful on his first attempt. *P*(*A*) = 0.65. *B* = the event Carlos is successful on his second attempt. *P*(*B*) = 0.65. Carlos tends to shoot in streaks. The probability that he makes the second goal **GIVEN** that he made the first goal is 0.90.
 
-Carlos chơi bóng đá ở trường đại học. Cậu ấy ghi bàn 65% số lần sút. Carlos sẽ thực hiện hai cú sút liên tiếp trong trận đấu tới. *A* = biến cố Carlos thành công trong lần sút đầu tiên. *P*(*A*) = 0.65. *B* = biến cố Carlos thành công trong lần sút thứ hai. *P*(*B*) = 0.65. Carlos có xu hướng sút theo chuỗi. Xác suất cậu ấy ghi bàn thứ hai **VỚI ĐIỀU KIỆN** cậu ấy đã ghi bàn thứ nhất là 0.90.
+Carlos chơi bóng đá ở trường đại học. Cậu ấy ghi bàn 65% số lần sút. Carlos sẽ thực hiện hai cú sút liên tiếp trong trận đấu tới. *A* = biến cố Carlos thành công trong lần sút đầu tiên. *P*(*A*) = 0,65. *B* = biến cố Carlos thành công trong lần sút thứ hai. *P*(*B*) = 0,65. Carlos có xu hướng sút theo chuỗi. Xác suất cậu ấy ghi bàn thứ hai **VỚI ĐIỀU KIỆN** cậu ấy đã ghi bàn thứ nhất là 0,90.
 
 #### Problem
 
@@ -86,7 +86,7 @@ d. *A* và *B* có xung khắc không?
 
 Helen plays basketball. For free throws, she makes the shot 75% of the time. Helen must now attempt two free throws. *C* = the event that Helen makes the first shot. *P*(*C*) = 0.75. *D* = the event Helen makes the second shot. *P*(*D*) = 0.75. The probability that Helen makes the second free throw given that she made the first is 0.85. What is the probability that Helen makes both free throws?
 
-Helen chơi bóng rổ. Đối với các quả ném phạt, cô ấy thực hiện thành công 75% số lần ném. Bây giờ Helen phải thực hiện hai quả ném phạt. *C* = biến cố Helen thực hiện thành công quả ném đầu tiên. *P*(*C*) = 0.75. *D* = biến cố Helen thực hiện thành công quả ném thứ hai. *P*(*D*) = 0.75. Xác suất Helen thực hiện thành công quả ném phạt thứ hai với điều kiện cô ấy đã thực hiện thành công quả đầu tiên là 0.85. Xác suất Helen thực hiện thành công cả hai quả ném phạt là bao nhiêu?
+Helen chơi bóng rổ. Đối với các quả ném phạt, cô ấy thực hiện thành công 75% số lần ném. Bây giờ Helen phải thực hiện hai quả ném phạt. *C* = biến cố Helen thực hiện thành công quả ném đầu tiên. *P*(*C*) = 0,75. *D* = biến cố Helen thực hiện thành công quả ném thứ hai. *P*(*D*) = 0,75. Xác suất Helen thực hiện thành công quả ném phạt thứ hai với điều kiện cô ấy đã thực hiện thành công quả đầu tiên là 0,85. Xác suất Helen thực hiện thành công cả hai quả ném phạt là bao nhiêu?
 
 A community swim team has **150** members. **Seventy-five** of the members are advanced swimmers. **Forty-seven** of the members are intermediate swimmers. The remainder are novice swimmers. **Forty** of the advanced swimmers practice four times a week. **Thirty** of the intermediate swimmers practice four times a week. **Ten** of the novice swimmers practice four times a week. Suppose one member of the swim team is chosen randomly.
 
@@ -210,7 +210,7 @@ Tham khảo thông tin trong [Ví dụ 3.18](3-3-two-basic-rules-of-probability#
 1. Xác suất để một phụ nữ có kết quả xét nghiệm dương tính với ung thư vú là bao nhiêu? Tìm *P*(*P*) = 1 - *P*(*N*).
 A student goes to the library. Let events *B* = the student checks out a book and *D* = the student checks out a DVD. Suppose that *P*(*B*) = 0.40, *P*(*D*) = 0.30 and *P*(*D*|*B*) = 0.5.
 
-Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0.40, *P*(*D*) = 0.30 và *P*(*D*|*B*) = 0.5.
+Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0,40, *P*(*D*) = 0,30 và *P*(*D*|*B*) = 0,5.
 
 1. Find *P*(*B′*).
 1. Tìm *P*(*B′*).

@@ -19,9 +19,9 @@ Two events are independent if the following are true:
 Hai biến cố là độc lập nếu các điều kiện sau đây đúng:
 
 - *P*(*A*|*B*) = *P*(*A*)
-- *P**A**B**P**A*
+- *P*(*A*|*B*) = *P*(*A*)
 - *P*(*B*|*A*) = *P*(*B*)
-- *P**B**A**P**B*
+- *P*(*B*|*A*) = *P*(*B*)
 - *P*(*A* AND *B*) = *P*(*A*)*P*(*B*)
 - *P*(*A* và *B*) = *P*(*A*)*P*(*B*)
 Two events *A* and *B* are independent events if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events. The outcome of the first roll does not change the probability for the outcome of the second roll. To show two events are independent, you must show **only one** of the above conditions. If two events are NOT independent, then we say that they are dependent events.
@@ -190,26 +190,26 @@ Are *C* and *E* mutually exclusive events? (Answer yes or no.) Why or why not?
 - Tìm *P*(*C*|*A*). Đây là một xác suất có điều kiện. Hãy nhớ rằng biến cố *C* là {3, 5} và biến cố *A* là {1, 3, 5}. Để tìm *P*(*C*|*A*), hãy tìm xác suất của *C* bằng cách sử dụng không gian mẫu *A*. Bạn đã thu hẹp không gian mẫu từ không gian mẫu ban đầu {1, 2, 3, 4, 5, 6} xuống còn {1, 3, 5}. Vì vậy, *P*(*C*|*A*) = 232323.
 Let event *A* = learning Spanish. Let event *B* = learning German. Then *A* AND *B* = learning Spanish and German. Suppose *P*(*A*) = 0.4 and *P*(*B*) = 0.2. *P*(*A* AND *B*) = 0.08. Are events *A* and *B* independent? Hint: You must show ONE of the following:
 
-Gọi biến cố *A* = học tiếng Tây Ban Nha. Gọi biến cố *B* = học tiếng Đức. Khi đó *A* VÀ *B* = học tiếng Tây Ban Nha và tiếng Đức. Giả sử *P*(*A*) = 0.4 và *P*(*B*) = 0.2. *P*(*A* VÀ *B*) = 0.08. Các biến cố *A* và *B* có độc lập không? Gợi ý: Bạn phải chứng minh MỘT trong các điều sau:
+Gọi biến cố *A* = học tiếng Tây Ban Nha. Gọi biến cố *B* = học tiếng Đức. Khi đó *A* VÀ *B* = học tiếng Tây Ban Nha và tiếng Đức. Giả sử *P*(*A*) = 0,4 và *P*(*B*) = 0,2. *P*(*A* VÀ *B*) = 0,08. Các biến cố *A* và *B* có độc lập không? Gợi ý: Bạn phải chứng minh MỘT trong các điều sau:
 
 - *P*(*A*|*B*) = *P*(*A*)
-- *P**A**B**P**A*
+- *P*(*A*|*B*) = *P*(*A*)
 - *P*(*B*|*A*) = *P*(*B*)
-- *P**B**A**P**B*
+- *P*(*B*|*A*) = *P*(*B*)
 - *P*(*A* AND *B*) = *P*(*A*)*P*(*B*)
 - *P*(*A* biến cố "và" *B*) = *P*(*A*)*P*(*B*)
 Let event *G* = taking a math class. Let event *H* = taking a science class. Then, *G* AND *H* = taking a math class and a science class. Suppose *P*(*G*) = 0.6, *P*(*H*) = 0.5, and *P*(*G* AND *H*) = 0.3. Are *G* and *H* independent?
 
-Gọi biến cố *G* = học một lớp toán. Gọi biến cố *H* = học một lớp khoa học. Khi đó, *G* VÀ *H* = học một lớp toán và một lớp khoa học. Giả sử *P*(*G*) = 0.6, *P*(*H*) = 0.5, và *P*(*G* VÀ *H*) = 0.3. *G* và *H* có độc lập không?
+Gọi biến cố *G* = học một lớp toán. Gọi biến cố *H* = học một lớp khoa học. Khi đó, *G* VÀ *H* = học một lớp toán và một lớp khoa học. Giả sử *P*(*G*) = 0,6, *P*(*H*) = 0,5, và *P*(*G* VÀ *H*) = 0,3. *G* và *H* có độc lập không?
 
 If *G* and *H* are independent, then you must show **ONE** of the following:
 
 Nếu *G* và *H* độc lập, thì bạn phải chứng minh **MỘT** trong các điều sau:
 
 - *P*(*G*|*H*) = *P*(*G*)
-- *P**G**H**P**G*
+- *P*(*G*|*H*) = *P*(*G*)
 - *P*(*H*|*G*) = *P*(*H*)
-- *P**H**G**P**H*
+- *P*(*H*|*G*) = *P*(*H*)
 - *P*(*G* AND *H*) = *P*(*G*)*P*(*H*)
 - *P*(*G* biến cố "và" *H*) = *P*(*G*)*P*(*H*)
 **The choice you make depends on the information you have.** You could choose any of the methods here because you have the necessary information.
@@ -262,7 +262,7 @@ Gọi biến cố *C* = tham gia một lớp tiếng Anh. Gọi biến cố *D* 
 
 Suppose *P*(*C*) = 0.75, *P*(*D*) = 0.3, *P*(*C*|*D*) = 0.75 and *P*(*C* AND *D*) = 0.225.
 
-Giả sử *P*(*C*) = 0.75, *P*(*D*) = 0.3, *P*(*C*|*D*) = 0.75 và *P*(*C* và *D*) = 0.225.
+Giả sử *P*(*C*) = 0,75, *P*(*D*) = 0,3, *P*(*C*|*D*) = 0,75 và *P*(*C* và *D*) = 0,225.
 
 Justify your answers to the following questions numerically.
 
@@ -276,7 +276,7 @@ Hãy biện minh cho câu trả lời của bạn cho các câu hỏi sau bằng
 1. *P*(*D*|*C*) là bao nhiêu?
 A student goes to the library. Let events *B* = the student checks out a book and *D* = the student checks out a DVD. Suppose that *P*(*B*) = 0.40, *P*(*D*) = 0.30 and *P*(*B* AND *D*) = 0.20.
 
-Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0.40, *P*(*D*) = 0.30 và *P*(*B* và *D*) = 0.20.
+Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0,40, *P*(*D*) = 0,30 và *P*(*B* và *D*) = 0,20.
 
 1. Find *P*(*B*|*D*).
 1. Tìm *P*(*B*|*D*).
@@ -345,11 +345,11 @@ Trong một lớp học đại học cụ thể, 60% sinh viên là nữ. Năm m
 - The following probabilities are given in this example:
 - Các xác suất sau đây được đưa ra trong ví dụ này:
 - *P*(*W*) = 0.60; *P*(*L*) = 0.50
-- *P**W**P**L*
+- *P*(*W*) = 0,60; *P*(*L*) = 0,50
 - *P*(*W* AND *L*) = 0.45
-- *P*(*W* và *L*) = 0.45
+- *P*(*W* và *L*) = 0,45
 - *P*(*L*|*W*) = 0.75
-- *P*(*L*|*W*) = 0.75
+- *P*(*L*|*W*) = 0,75
 **The choice you make depends on the information you have.** You could use the first or last condition on the list for this example. You do not know *P*(*W*|*L*) yet, so you cannot use the second condition.
 
 **Lựa chọn bạn đưa ra phụ thuộc vào thông tin bạn có.** Bạn có thể sử dụng điều kiện đầu tiên hoặc cuối cùng trong danh sách cho ví dụ này. Bạn chưa biết *P*(*W*|*L*), vì vậy bạn không thể sử dụng điều kiện thứ hai.
@@ -363,7 +363,7 @@ Mark is deciding which route to take to work. His choices are *I* = the Intersta
 Mark đang quyết định chọn tuyến đường nào để đi làm. Các lựa chọn của anh ấy là *I* = đường liên bang và *F* = đường Fifth Street.
 
 - *P*(*I*) = 0.44 and *P*(*F*) = 0.56
-- *P*(*I*) = 0.44 và *P*(*F*) = 0.56
+- *P*(*I*) = 0,44 và *P*(*F*) = 0,56
 - *P*(*I* AND *F*) = 0 because Mark will take only one route to work.
 - *P*(*I* và *F*) = 0 vì Mark sẽ chỉ chọn một tuyến đường để đi làm.
 What is the probability of *P*(*I* OR *F*)?

@@ -168,7 +168,7 @@ Một phân phối chưa biết có số trung bình là 90 và độ lệch chu
 #### Bài toán
 
 1. Find the probability that the sum of the 80 values (or the total of the 80 values) is more than 7,500.
-1. Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7.500.
+1. Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7,500.
 1. Find the sum that is 1.5 standard deviations above the mean of the sums.
 1. Tìm tổng lớn hơn số trung bình của các tổng là 1,5 độ lệch chuẩn.
 An unknown distribution has a mean of 45 and a standard deviation of eight. A sample size of 50 is drawn randomly from the population. Find the probability that the sum of the 50 values is more than 2,400.
@@ -236,7 +236,7 @@ Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung b
 1. What are the mean and standard deviation for the sum of the ages of iPad users? What is the distribution?
 1. Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?
 1. Find the probability that the sum of the ages is between 1,500 and 1,800 years.
-1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1.800 năm.
+1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1,800 năm.
 1. Find the 80^th percentile for the sum of the 50 ages.
 1. Tìm bách phân vị thứ 80 cho tổng của 50 độ tuổi.
 In a recent study, it was reported that the mean age of iPad users is 35 years. Suppose the standard deviation is ten years. The sample size is 39.
@@ -246,7 +246,7 @@ Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung b
 1. What are the mean and standard deviation for the sum of the ages of iPad users? What is the distribution?
 1. Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?
 1. Find the probability that the sum of the ages is between 1,400 and 1,500 years.
-1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.400 đến 1.500 năm.
+1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1,400 đến 1.500 năm.
 1. Find the 90^th percentile for the sum of the 39 ages.
 1. Tìm bách phân vị thứ 90 cho tổng của 39 độ tuổi.
 #### Problem

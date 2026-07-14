@@ -27,7 +27,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______
 1. Vẽ một đường cong trơn đi qua đỉnh các cột của biểu đồ histogram. Viết một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong. (Hãy giữ nó đơn giản. Đồ thị đi thẳng qua, có hình chữ V, có bướu ở giữa hay ở một trong hai đầu, v.v.?)
 Phân tích phân phối
@@ -39,7 +39,7 @@ Mô tả dữ liệu
 Sử dụng dữ liệu bạn đã thu thập để hoàn thành các phát biểu sau.
 
 - *IQR* đi từ __________ đến __________.
-- *IQR**IQR**Q* – _1
+- *IQR* = __________. (*IQR* = *Q*_3 – *Q*_1)
 - Bách phân vị thứ 15^th là _______.
 - Bách phân vị thứ 85^th là _______.
 - Trung vị là _______.

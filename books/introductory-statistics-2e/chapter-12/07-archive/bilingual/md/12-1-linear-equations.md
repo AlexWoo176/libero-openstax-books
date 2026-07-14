@@ -29,7 +29,7 @@ Sau đây có phải là một ví dụ về phương trình tuyến tính khôn
 
 *y* = –0.125 – 3.5*x*
 
-*y* = –0.125 – 3.5*x*
+*y* = –0,125 – 3,5*x*
 
 The graph of a linear equation of the form *y* = *a* + *bx* is a **straight line**. Any line that is not vertical can be described by this equation.
 

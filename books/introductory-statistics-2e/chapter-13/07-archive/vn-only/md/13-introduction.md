@@ -1,7 +1,7 @@
 *Hình 
 13.1
  
-ANOVA một chiều được sử dụng để đo lường thông tin từ nhiều nhóm. (nguồn ảnh: chỉnh sửa từ tác phẩm “Magazine Stack” của thebittenword.com/ Flickr, CC BY 2.0)*
+ANOVA một chiều được sử dụng để đo lường thông tin từ nhiều nhóm. (nguồn ảnh: chỉnh sửa từ tác phẩm “Magazine Stack” của thebittenword.com/ Flickr, CC BY 2,0)*
 
 Đến cuối chương này, sinh viên sẽ có thể:
 

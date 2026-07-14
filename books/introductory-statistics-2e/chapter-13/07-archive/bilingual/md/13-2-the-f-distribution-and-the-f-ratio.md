@@ -748,14 +748,14 @@ Ba kế hoạch ăn kiêng khác nhau sẽ được kiểm định về số tru
 
 | Plan 1: *n*_1 = 4 | Kế hoạch 1: *n*_1 = 4 | Plan 2: *n*_2 = 3 | Kế hoạch 2: *n*_2 = 3 | Plan 3: *n*_3 = 3 | Kế hoạch 3: *n*_3 = 3 |
 | --- | --- | --- | --- | --- | --- |
-| 5 | 5 | 3.5 | 3.5 | 8 | 8 |
-| 4.5 | 4.5 | 7 | 7 | 4 | 4 |
-| 4 | 4 |  |  | 3.5 | 3.5 |
-| 3 | 3 | 4.5 | 4.5 |  |  |
+| 5 | 5 | 3.5 | 3,5 | 8 | 8 |
+| 4.5 | 4,5 | 7 | 7 | 4 | 4 |
+| 4 | 4 |  |  | 3.5 | 3,5 |
+| 3 | 3 | 4.5 | 4,5 |  |  |
 
 *s*_1 = 16.5, *s*_2 =15, *s*_3 = 15.5
 
-*s*_1 = 16.5, *s*_2 =15, *s*_3 = 15.5
+*s*_1 = 16,5, *s*_2 =15, *s*_3 = 15,5
 
 Following are the calculations needed to fill in the one-way ANOVA table. The table is used to conduct a hypothesis test.
 
@@ -777,7 +777,7 @@ Bảng ANOVA một chiều: Các công thức cho `*SS*(Total)`, `*SS*(Factor) =
 = *SS*(Between) 
 = 2.2458 | *SS*(Nhân tố) 
 = *SS*(Giữa các nhóm) 
-= 2.2458 | *k* – 1 
+= 2,2458 | *k* – 1 
 = 3 groups – 1 
 = 2 | *k* – 1 
 = 3 nhóm – 1 
@@ -786,21 +786,21 @@ Bảng ANOVA một chiều: Các công thức cho `*SS*(Total)`, `*SS*(Factor) =
  = 2.2458/2 
 = 1.1229 | *MS*(Nhân tố) 
 = *SS*(Nhân tố)/(*k* – 1)
- = 2.2458/2 
-= 1.1229 | *F* =
+ = 2,2458/2 
+= 1,1229 | *F* =
  *MS*(Factor)/*MS*(Error) 
 = 1.1229/2.9792 
 = 0.3769 | *F* =
  *MS*(Nhân tố)/*MS*(Sai số) 
-= 1.1229/2.9792 
-= 0.3769 |
+= 1,1229/2,9792 
+= 0,3769 |
 | Error 
 (Within) | Sai số 
 (Trong nội bộ nhóm) | *SS*(Error) 
 = *SS*(Within) 
 = 20.8542 | *SS*(Sai số) 
 = *SS*(Trong nội bộ) 
-= 20.8542 | *n* – *k* 
+= 20,8542 | *n* – *k* 
 = 10 total data – 3 groups 
 = 7 | *n* – *k* 
 = 10 dữ liệu tổng cộng – 3 nhóm 
@@ -809,13 +809,13 @@ Bảng ANOVA một chiều: Các công thức cho `*SS*(Total)`, `*SS*(Factor) =
 = 20.8542/7 
 = 2.9792 | *MS*(Sai số) 
 = *SS*(Sai số)/(*n* – *k*) 
-= 20.8542/7 
-= 2.9792 |  |  |
+= 20,8542/7 
+= 2,9792 |  |  |
 | Total | Tổng | *SS*(Total) 
 = 2.2458 + 20.8542 
 = 23.1 | *SS*(Tổng) 
-= 2.2458 + 20.8542 
-= 23.1 | *n* – 1 
+= 2,2458 + 20,8542 
+= 23,1 | *n* – 1 
 = 10 total data – 1 
 = 9 | *n* – 1 
 = 10 dữ liệu tổng cộng – 1 

@@ -8,13 +8,13 @@ Số trung bình người trong một gia đình đã học đại học trong n
 
 | Year | Năm | Number of Family Members Attending College | Số lượng thành viên gia đình đang học đại học |
 | --- | --- | --- | --- |
-| 1969 | 1969 | 4.0 | 4.0 |
-| 1973 | 1973 | 3.6 | 3.6 |
-| 1975 | 1975 | 3.2 | 3.2 |
-| 1979 | 1979 | 3.0 | 3.0 |
-| 1983 | 1983 | 3.0 | 3.0 |
-| 1988 | 1988 | 3.0 | 3.0 |
-| 1991 | 1991 | 2.9 | 2.9 |
+| 1969 | 1969 | 4.0 | 4,0 |
+| 1973 | 1973 | 3.6 | 3,6 |
+| 1975 | 1975 | 3.2 | 3,2 |
+| 1979 | 1979 | 3.0 | 3,0 |
+| 1983 | 1983 | 3.0 | 3,0 |
+| 1988 | 1988 | 3.0 | 3,0 |
+| 1991 | 1991 | 2.9 | 2,9 |
 
 1. Using “year” as the independent variable and “Number of Family Members Attending College” as the dependent variable, draw a scatter plot of the data.
 1. Sử dụng “năm” làm biến giải thích và “Số thành viên gia đình học đại học” làm biến phản hồi, hãy vẽ biểu đồ phân tán của dữ liệu.
@@ -40,17 +40,17 @@ Tỷ lệ phần trăm phụ nữ là người làm công ăn lương được t
 
 | Year | Năm | Percent of workers paid hourly rates | Tỷ lệ phần trăm công nhân được trả lương theo giờ |
 | --- | --- | --- | --- |
-| 1 | 1 | 61.2 | 61.2 |
-| 2 | 2 | 60.7 | 60.7 |
-| 3 | 3 | 61.3 | 61.3 |
-| 4 | 4 | 61.3 | 61.3 |
-| 5 | 5 | 61.8 | 61.8 |
-| 6 | 6 | 61.7 | 61.7 |
-| 7 | 7 | 61.8 | 61.8 |
-| 8 | 8 | 62.0 | 62.0 |
-| 9 | 9 | 62.7 | 62.7 |
-| 12 | 12 | 62.8 | 62.8 |
-| 14 | 14 | 62.9 | 62.9 |
+| 1 | 1 | 61.2 | 61,2 |
+| 2 | 2 | 60.7 | 60,7 |
+| 3 | 3 | 61.3 | 61,3 |
+| 4 | 4 | 61.3 | 61,3 |
+| 5 | 5 | 61.8 | 61,8 |
+| 6 | 6 | 61.7 | 61,7 |
+| 7 | 7 | 61.8 | 61,8 |
+| 8 | 8 | 62.0 | 62,0 |
+| 9 | 9 | 62.7 | 62,7 |
+| 12 | 12 | 62.8 | 62,8 |
+| 14 | 14 | 62.9 | 62,9 |
 
 1. Using “year” as the independent variable and “percent” as the dependent variable, draw a scatter plot of the data.
 1. Sử dụng “năm” làm biến giải thích và “tỷ lệ phần trăm” làm biến phản hồi, hãy vẽ biểu đồ phân tán của dữ liệu.
@@ -76,10 +76,10 @@ Tỷ lệ phần trăm phụ nữ là người làm công ăn lương được t
 
 | Size (ounces) | Kích thước (ounce) | Cost ($) | Chi phí ($) | Cost per ounce | Chi phí trên mỗi ounce |
 | --- | --- | --- | --- | --- | --- |
-| 16 | 16 | 3.99 | 3.99 |  |  |
-| 32 | 32 | 4.99 | 4.99 |  |  |
-| 64 | 64 | 5.99 | 5.99 |  |  |
-| 200 | 200 | 10.99 | 10.99 |  |  |
+| 16 | 16 | 3.99 | 3,99 |  |  |
+| 32 | 32 | 4.99 | 4,99 |  |  |
+| 64 | 64 | 5.99 | 5,99 |  |  |
+| 200 | 200 | 10.99 | 10,99 |  |  |
 
 1. Using “size” as the independent variable and “cost” as the dependent variable, draw a scatter plot.
 1. Sử dụng “kích cỡ” làm biến giải thích và “chi phí” làm biến phản hồi, hãy vẽ biểu đồ phân tán.
@@ -148,7 +148,7 @@ Theo một tờ rơi của đại diện Công ty Bảo hiểm Prudential, chi p
 1. Find the correlation coefficient. Is it significant?
 1. Tìm hệ số tương quan. Nó có ý nghĩa thống kê không?
 1. Find the estimated total cost for a next taxable estate of $1,000,000. Find the cost for $2,500,000.
-1. Tìm tổng chi phí ước tính cho một di sản chịu thuế tiếp theo là 1.000.000 đô la. Tìm chi phí cho 2.500.000 đô la.
+1. Tìm tổng chi phí ước tính cho một di sản chịu thuế tiếp theo là 1.000.000 đô la. Tìm chi phí cho 2,500.000 đô la.
 1. Does it appear that a line is the best way to fit the data? Why or why not?
 1. Có vẻ như một đường thẳng là cách tốt nhất để khớp với dữ liệu không? Tại sao có hoặc tại sao không?
 1. Are there any outliers in the data?
@@ -195,13 +195,13 @@ Dưới đây là giá bán quảng cáo của các ổ đĩa cứng trên trang
 
 | Age (years) | Tuổi (năm) | Height (cm) | Chiều cao (cm) |
 | --- | --- | --- | --- |
-| birth | sinh | 50.8 | 50.8 |
-| 2 | 2 | 83.8 | 83.8 |
-| 3 | 3 | 91.4 | 91.4 |
-| 5 | 5 | 106.6 | 106.6 |
-| 7 | 7 | 119.3 | 119.3 |
-| 10 | 10 | 137.1 | 137.1 |
-| 14 | 14 | 157.5 | 157.5 |
+| birth | sinh | 50.8 | 50,8 |
+| 2 | 2 | 83.8 | 83,8 |
+| 3 | 3 | 91.4 | 91,4 |
+| 5 | 5 | 106.6 | 106,6 |
+| 7 | 7 | 119.3 | 119,3 |
+| 10 | 10 | 137.1 | 137,1 |
+| 14 | 14 | 157.5 | 157,5 |
 
 1. Decide which variable should be the independent variable and which should be the dependent variable.
 1. Quyết định biến nào nên là biến độc lập và biến nào nên là biến phụ thuộc.
@@ -262,7 +262,7 @@ Chúng ta quan tâm đến việc liệu có mối quan hệ nào giữa thứ h
 1. Use the least squares line to estimate the area of a new state that enters the Union. Can the least-squares line be used to predict it? Why or why not?
 1. Sử dụng đường bình phương tối thiểu để ước tính diện tích của một tiểu bang mới gia nhập Liên bang. Đường bình phương tối thiểu có thể được sử dụng để dự đoán điều đó không? Tại sao có hoặc tại sao không?
 1. Delete “Hawaii” and substitute “Alaska” for it. Alaska is the forty-ninth, state with an area of 656,424 square miles.
-1. Xóa “Hawaii” và thay thế bằng “Alaska”. Alaska là tiểu bang thứ bốn mươi chín, với diện tích là 656.424 dặm vuông.
+1. Xóa “Hawaii” và thay thế bằng “Alaska”. Alaska là tiểu bang thứ bốn mươi chín, với diện tích là 656,424 dặm vuông.
 1. Calculate the new least-squares line.
 1. Tính đường bình phương tối thiểu mới.
 1. Find the estimated area for Alabama. Is it closer to the actual area with this new least-squares line or with the previous one that included Hawaii? Why do you think that’s the case?

@@ -100,7 +100,7 @@ Một phân phối chưa biết có số trung bình là 90 và độ lệch chu
 
 #### Bài toán
 
-1. Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7.500.
+1. Tìm xác suất để tổng của 80 giá trị (hoặc tổng của 80 giá trị đó) lớn hơn 7,500.
 1. Tìm tổng lớn hơn số trung bình của các tổng là 1,5 độ lệch chuẩn.
 Một phân phối chưa biết có số trung bình là 45 và độ lệch chuẩn là tám. Một kích thước mẫu là 50 được rút ngẫu nhiên từ quần thể. Tìm xác suất để tổng của 50 giá trị lớn hơn 2,400.
 
@@ -134,12 +134,12 @@ trong đó:
 Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 34 tuổi. Giả sử độ lệch chuẩn là 15 tuổi. Kích thước mẫu là 50.
 
 1. Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?
-1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1.800 năm.
+1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.500 đến 1,800 năm.
 1. Tìm bách phân vị thứ 80 cho tổng của 50 độ tuổi.
 Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 35 tuổi. Giả sử độ lệch chuẩn là mười tuổi. Kích thước mẫu là 39.
 
 1. Số trung bình và độ lệch chuẩn cho tổng độ tuổi của người dùng iPad là bao nhiêu? Phân phối đó là gì?
-1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1.400 đến 1.500 năm.
+1. Tìm xác suất để tổng độ tuổi nằm trong khoảng từ 1,400 đến 1.500 năm.
 1. Tìm bách phân vị thứ 90 cho tổng của 39 độ tuổi.
 #### Bài toán
 

@@ -16,16 +16,16 @@
 | 6 | 1 |
 
 *Hình 
-2.52*
+2,52*
 
 *Hình 
-2.53*
+2,53*
 
 *Hình 
-2.54*
+2,54*
 
 *Hình 
-2.55*
+2,55*
 
 65
 
@@ -34,21 +34,21 @@ Tần suất tương đối cho biết *tỷ lệ* các điểm dữ liệu có 
 Các câu trả lời sẽ khác nhau. Một biểu đồ histogram khả thi được hiển thị:
 
 *Hình 
-2.56*
+2,56*
 
 Tìm trung điểm cho mỗi khoảng. Các giá trị này sẽ được vẽ trên trục *x*. Các giá trị tần số sẽ được vẽ trên các giá trị trục *y*.
 
 *Hình 
-2.57*
+2,57*
 
 *Hình 
-2.58*
+2,58*
 
 1. Bách phân vị thứ 40^th là 37 năm.
 1. Bách phân vị thứ 78^th là 70 năm.
 Jesse tốt nghiệp thứ 37 trong một lớp gồm 180 học sinh. Có 180 – 37 = 143 học sinh xếp hạng dưới Jesse. Có một hạng là 37.
 
-*x* = 143 và *y* = 1. 𝑥+0.5⁢𝑦𝑛x+0.5⁢ynx+0.5yn(100) = 143+0.5⁢(1)180143+0.5⁢(1)180143+0.5(1)180(100) = 79.72. Hạng 37 của Jesse đưa anh ấy vào bách phân vị thứ 80^th.
+*x* = 143 và *y* = 1. 𝑥+0.5⁢𝑦𝑛x+0.5⁢ynx+0.5yn(100) = 143+0.5⁢(1)180143+0.5⁢(1)180143+0.5(1)180(100) = 79,72. Hạng 37 của Jesse đưa anh ấy vào bách phân vị thứ 80^th.
 
 1. Đối với các vận động viên chạy trong một cuộc đua, việc có bách phân vị cao về tốc độ là điều đáng mong đợi hơn. Bách phân vị cao có nghĩa là tốc độ cao hơn, tức là nhanh hơn.
 1. 40% vận động viên chạy với tốc độ từ 7,5 dặm một giờ trở xuống (chậm hơn). 60% vận động viên chạy với tốc độ từ 7,5 dặm một giờ trở lên (nhanh hơn).
@@ -68,7 +68,7 @@ Hơn 25% nhân viên bán hàng bán được bốn chiếc xe trong một tuầ
 
 Số trung bình: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;
 
-738277382773827 = 27.33
+738277382773827 = 27,33
 
 Các độ dài thường gặp nhất là 25 và 27, xuất hiện ba lần. Yếu vị = 25, 27
 
@@ -121,36 +121,36 @@ Các tỷ lệ phần trăm tương ứng là {30,1, 22,2, 26,5, 27,1, 30,9, 34,
 ![A bar graph showing 8 states on the x-axis and corresponding obesity rates on the y-axis.](../../../assets/img-2-8.webp)
 
 Hình 
-2.59
+2,59
 1. ![This is a bar graph that matches the supplied data. The x-axis shows states, and the y-axis shows percentages.](../../../assets/img-2-9.webp)
 
 Hình 
-2.60
+2,60
 1. ![This is a bar graph that matches the supplied data. The x-axis shows states, and the y-axis shows percentages.](../../../assets/img-2-10.webp)
 
 Hình 
-2.61
+2,61
 | Số tiền ($) | Tần số | Tần suất tương đối |
 | --- | --- | --- |
-| 51–100 | 5 | 0.08 |
-| 101–150 | 10 | 0.17 |
-| 151–200 | 15 | 0.25 |
-| 201–250 | 15 | 0.25 |
-| 251–300 | 10 | 0.17 |
-| 301–350 | 5 | 0.08 |
+| 51–100 | 5 | 0,08 |
+| 101–150 | 10 | 0,17 |
+| 151–200 | 15 | 0,25 |
+| 201–250 | 15 | 0,25 |
+| 251–300 | 10 | 0,17 |
+| 301–350 | 5 | 0,08 |
 
 | Số tiền ($) | Tần số | Tần suất tương đối |
 | --- | --- | --- |
-| 100–150 | 5 | 0.07 |
-| 201–250 | 5 | 0.07 |
-| 251–300 | 5 | 0.07 |
-| 301–350 | 5 | 0.07 |
-| 351–400 | 10 | 0.14 |
-| 401–450 | 10 | 0.14 |
-| 451–500 | 10 | 0.14 |
-| 501–550 | 10 | 0.14 |
-| 551–600 | 5 | 0.07 |
-| 601–650 | 5 | 0.07 |
+| 100–150 | 5 | 0,07 |
+| 201–250 | 5 | 0,07 |
+| 251–300 | 5 | 0,07 |
+| 301–350 | 5 | 0,07 |
+| 351–400 | 10 | 0,14 |
+| 401–450 | 10 | 0,14 |
+| 451–500 | 10 | 0,14 |
+| 501–550 | 10 | 0,14 |
+| 551–600 | 5 | 0,07 |
+| 601–650 | 5 | 0,07 |
 
 1. Xem [Bảng 2.87](2-solutions#Singles) và [Bảng 2.88](2-solutions#Couples).
 1. In the following histogram data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where both boundary values are included).
@@ -158,13 +158,13 @@ Hình
 ![This is a histogram that matches the supplied data supplied for singles. The x-axis shows the total charges in intervals of 50 from 50 to 350, and the y-axis shows the relative frequency in increments of 0.05 from 0 to 0.3.](../../../assets/img-2-11.webp)
 
 Hình 
-2.62
+2,62
 1. In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where values on both boundaries are included).
 
 ![This is a histogram that matches the supplied data for couples. The x-axis shows the total charges in intervals of 50 from 100 to 650, and the y-axis shows the relative frequency in increments of 0.02 from 0 to 0.16.](../../../assets/img-2-12.webp)
 
 Hình 
-2.63
+2,63
 1. Compare the two graphs:
     Answers may vary. Possible answers include:
       
@@ -191,14 +191,14 @@ c
 
 Các câu trả lời sẽ khác nhau.
 
-1. 1 – (0.02+0.09+0.19+0.26+0.18+0.17+0.02+0.01) = 0.06
-1. 0.19+0.26+0.18 = 0.63
+1. 1 – (0,02+0,09+0,19+0,26+0,18+0,17+0,02+0,01) = 0,06
+1. 0,19+0,26+0,18 = 0,63
 1. Câu trả lời có thể khác nhau.
 1. Bách phân vị thứ 40^th sẽ nằm trong khoảng từ 30.000 đến 40.000
 Bách phân vị thứ 80^th sẽ nằm trong khoảng từ 50.000 đến 75.000
 1. Câu trả lời có thể khác nhau.
 1. nhiều trẻ em hơn; râu bên trái cho thấy 25% quần thể là trẻ em từ 17 tuổi trở xuống. Râu bên phải cho thấy 25% quần thể là người lớn từ 50 tuổi trở lên, vì vậy người lớn từ 65 tuổi trở lên chiếm ít hơn 25%.
-1. 62.4%
+1. 62,4%
 1. Câu trả lời sẽ khác nhau. Câu trả lời khả thi: Đại học Bang đã thực hiện một cuộc khảo sát để xem sinh viên của trường tham gia các hoạt động phục vụ cộng đồng như thế nào. Biểu đồ hộp cho thấy số giờ phục vụ cộng đồng mà những người tham gia đã ghi nhận trong năm qua.
 1. Vì tứ phân vị thứ nhất và thứ hai gần nhau, dữ liệu trong quý này rất giống nhau. Không có nhiều sự biến thiên trong các giá trị. Dữ liệu trong quý thứ ba biến thiên nhiều hơn, hay phân tán hơn. Điều này rõ ràng vì tứ phân vị thứ hai cách xa tứ phân vị thứ ba.
 1. Mỗi biểu đồ hộp phân tán nhiều hơn ở các giá trị lớn hơn. Mỗi biểu đồ đều bị lệch sang phải, vì vậy độ tuổi của 50% người mua hàng cao nhất biến thiên nhiều hơn độ tuổi của 50% người mua hàng thấp hơn.
@@ -217,11 +217,11 @@ Trung vị là giá trị nằm ở giữa trong danh sách các giá trị dữ
 
 919
 
-- số trung bình = 1.809,3
-- trung vị = 1.812,5
+- số trung bình = 1,809,3
+- trung vị = 1,812,5
 - độ lệch chuẩn = 151,2
-- tứ phân vị thứ nhất = 1.690
-- tứ phân vị thứ ba = 1.935
+- tứ phân vị thứ nhất = 1,690
+- tứ phân vị thứ ba = 1,935
 - *IQR* = 245
 Gợi ý: Hãy suy nghĩ về số năm được bao gồm trong mỗi khoảng thời gian và điều gì đã xảy ra với giáo dục đại học trong những khoảng thời gian đó.
 
@@ -238,18 +238,18 @@ a
 
 b
 
-1. 1.48
-1. 1.12
+1. 1,48
+1. 1,12
 1. 174; 177; 178; 184; 185; 185; 185; 185; 188; 190; 200; 205; 205; 206; 210; 210; 210; 212; 212; 215; 215; 220; 223; 228; 230; 232; 241; 241; 242; 245; 247; 250; 250; 259; 260; 260; 265; 265; 270; 272; 273; 275; 276; 278; 280; 280; 285; 285; 286; 290; 290; 295; 302
 1. 241
-1. 205.5
-1. 272.5
+1. 205,5
+1. 272,5
 1. ![A box plot with a whisker between 174 and 205.5, a solid line at 205.5, a dashed line at 241, a solid line at 272.5, and a whisker between 272.5 and 302.](../../../assets/img-2-13.webp)
-1. 205.5, 272.5
+1. 205,5, 272,5
 1. mẫu
-1. 236.34
-37.50
-161.34
+1. 236,34
+37,50
+161,34
 0,84 độ lệch chuẩn dưới số trung bình
 1. Trẻ
 1. Đúng
@@ -265,10 +265,10 @@ b
 25000-300002
 
 Bảng 
-2.89
+2,89
 1. Các câu trả lời có thể khác nhau.
 1. yếu vị
-1. 8628.74
-1. 6943.88
-1. –0.09
+1. 8628,74
+1. 6943,88
+1. –0,09
 a

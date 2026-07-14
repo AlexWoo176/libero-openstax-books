@@ -118,7 +118,7 @@ n
 
 Khoảng tin cậy có dạng (p′p′ – *EBP*, p′p′ + *EBP*). *EBP* là giới hạn sai số cho tỷ lệ.
 
-p′p′
+p′p′ = 
 
 x
 n

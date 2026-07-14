@@ -43,14 +43,14 @@ Hãy xem xét lại tập dữ liệu này.
 2; 
 4; 
 6; 
-6.8; 
-7.2; 
+6,8; 
+7,2; 
 8; 
-8.3; 
+8,3; 
 9; 
 10; 
 10; 
-11.5
+11,5
 
 The first quartile is two, the median is seven, and the third quartile is nine. The smallest value is one, and the largest value is 11.5. The following image shows the constructed box plot.
 
@@ -169,7 +169,7 @@ Xây dựng một biểu đồ hộp với các thuộc tính sau; hướng dẫ
 - Maximum value = 77
 - Giá trị tối đa = 77
 - *Q*1: First quartile = 64.5
-- *Q*1: Tứ phân vị thứ nhất = 64.5
+- *Q*1: Tứ phân vị thứ nhất = 64,5
 - *Q*2: Second quartile or median= 66
 - *Q*2: Tứ phân vị thứ hai hoặc trung vị = 66
 - *Q*3: Third quartile = 70
@@ -183,15 +183,15 @@ Xây dựng một biểu đồ hộp với các thuộc tính sau; hướng dẫ
 1. Each quarter has approximately 25% of the data.
 1. Mỗi phần tư có khoảng 25% dữ liệu.
 1. The spreads of the four quarters are 64.5 – 59 = 5.5 (first quarter), 66 – 64.5 = 1.5 (second quarter), 70 – 66 = 4 (third quarter), and 77 – 70 = 7 (fourth quarter). So, the second quarter has the smallest spread and the fourth quarter has the largest spread.
-1. Độ phân tán của bốn phần tư lần lượt là 64.5 – 59 = 5.5 (phần tư thứ nhất), 66 – 64.5 = 1.5 (phần tư thứ hai), 70 – 66 = 4 (phần tư thứ ba), và 77 – 70 = 7 (phần tư thứ tư). Do đó, phần tư thứ hai có độ phân tán nhỏ nhất và phần tư thứ tư có độ phân tán lớn nhất.
+1. Độ phân tán của bốn phần tư lần lượt là 64.5 – 59 = 5.5 (phần tư thứ nhất), 66 – 64,5 = 1,5 (phần tư thứ hai), 70 – 66 = 4 (phần tư thứ ba), và 77 – 70 = 7 (phần tư thứ tư). Do đó, phần tư thứ hai có độ phân tán nhỏ nhất và phần tư thứ tư có độ phân tán lớn nhất.
 1. Range = maximum value – the minimum value = 77 – 59 = 18
 1. Khoảng biến thiên = giá trị tối đa – giá trị tối thiểu = 77 – 59 = 18
 1. Interquartile Range: *IQR* = *Q*3 – *Q*1 = 70 – 64.5 = 5.5.
-1. Khoảng tứ phân vị: *IQR* = *Q*3 – *Q*1 = 70 – 64.5 = 5.5.
+1. Khoảng tứ phân vị: *IQR* = *Q*3 – *Q*1 = 70 – 64,5 = 5,5.
 1. The interval 59–65 has more than 25% of the data so it has more data in it than the interval 66 through 70 which has 25% of the data.
 1. Khoảng 59–65 có hơn 25% dữ liệu, vì vậy nó chứa nhiều dữ liệu hơn khoảng từ 66 đến 70, vốn chỉ có 25% dữ liệu.
 1. The middle 50% (middle half) of the data has a range of 5.5 inches.
-1. 50% ở giữa (một nửa ở giữa) của dữ liệu có phạm vi là 5.5 inch.
+1. 50% ở giữa (một nửa ở giữa) của dữ liệu có phạm vi là 5,5 inch.
 To find the minimum, maximum, and quartiles:
 
 Để tìm giá trị nhỏ nhất, giá trị lớn nhất và các tứ phân vị:
@@ -226,7 +226,7 @@ Giá trị lớn nhất = 77.
 
 *Q*_1: First quartile = 64.5.
 
-*Q*_1: Tứ phân vị thứ nhất = 64.5.
+*Q*_1: Tứ phân vị thứ nhất = 64,5.
 
 *Q*_2: Second quartile or median = 66.
 
@@ -392,7 +392,7 @@ Test scores for a college statistics class held during the day are:
 99; 
 56; 
 78; 
-55.5; 
+55,5; 
 32; 
 90; 
 80; 
@@ -401,7 +401,7 @@ Test scores for a college statistics class held during the day are:
 59; 
 45; 
 77; 
-84.5; 
+84,5; 
 84; 
 70; 
 72; 
@@ -450,7 +450,7 @@ Test scores for a college statistics class held during the evening are:
 98; 
 90; 
 80; 
-84.5; 
+84,5; 
 85; 
 79; 
 78; 
@@ -458,7 +458,7 @@ Test scores for a college statistics class held during the evening are:
 90; 
 79; 
 81; 
-25.5
+25,5
 
 #### Problem
 

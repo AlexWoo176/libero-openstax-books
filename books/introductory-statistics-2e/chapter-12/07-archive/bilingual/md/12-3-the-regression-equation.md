@@ -525,7 +525,7 @@ Vẽ biểu đồ phân tán và đường hồi quy
 1. Press the ZOOM key and then the number 9 (for menu item "ZoomStat") ; the calculator will fit the window to the data
 1. Nhấn phím ZOOM và sau đó là số 9 (cho mục menu "ZoomStat"); máy tính sẽ điều chỉnh cửa sổ cho phù hợp với dữ liệu
 1. To graph the best-fit line, press the "Y=" key and type the equation –173.5 + 4.83X into equation Y1. (The X key is immediately left of the STAT key). Press ZOOM 9 again to graph it.
-1. Để vẽ đường phù hợp nhất, nhấn phím "Y=" và nhập phương trình –173.5 + 4.83X vào phương trình Y1. (Phím X nằm ngay bên trái phím STAT). Nhấn ZOOM 9 lần nữa để vẽ đồ thị.
+1. Để vẽ đường phù hợp nhất, nhấn phím "Y=" và nhập phương trình –173,5 + 4.83X vào phương trình Y1. (Phím X nằm ngay bên trái phím STAT). Nhấn ZOOM 9 lần nữa để vẽ đồ thị.
 1. Optional: If you want to change the viewing window, press the WINDOW key.  Enter your desired window using Xmin, Xmax, Ymin, Ymax
 1. Tùy chọn: Nếu bạn muốn thay đổi cửa sổ xem, nhấn phím WINDOW. Nhập cửa sổ mong muốn của bạn bằng cách sử dụng Xmin, Xmax, Ymin, Ymax
 Another way to graph the line after you create a scatter plot is to use LinRegTTest.
@@ -641,14 +641,14 @@ Consider the [third exam/final exam example](12-3-the-regression-equation#elemen
 Hãy xem xét [ví dụ về bài thi thứ ba/bài thi cuối kỳ](12-3-the-regression-equation#element-22) đã được giới thiệu trong phần trước
 
 - The line of best fit is: *ŷ* = –173.51 + 4.83x
-- Đường phù hợp nhất là: *ŷ* = –173.51 + 4.83x
+- Đường phù hợp nhất là: *ŷ* = –173,51 + 4.83x
 - The correlation coefficient is *r* = 0.6631
-- Hệ số tương quan là *r* = 0.6631
+- Hệ số tương quan là *r* = 0,6631
 - The coefficient of determination is *r*^2 = 0.6631^2 = 0.4397
-- Hệ số xác định là *r*^2 = 0.6631^2 = 0.4397
+- Hệ số xác định là *r*^2 = 0,6631^2 = 0,4397
 - **Interpretation of *r*^2 in the context of this example:**
 - **Giải thích về *r*^2 trong bối cảnh của ví dụ này:**
 - Approximately 44% of the variation (0.4397 is approximately 0.44) in the final-exam grades can be explained by the variation in the grades on the third exam, using the best-fit regression line.
-- Khoảng 44% biến thiên (0.4397 xấp xỉ 0.44) trong điểm thi cuối kỳ có thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất.
+- Khoảng 44% biến thiên (0,4397 xấp xỉ 0,44) trong điểm thi cuối kỳ có thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất.
 - Therefore, approximately 56% of the variation (1 – 0.44 = 0.56) in the final exam grades can NOT be explained by the variation in the grades on the third exam, using the best-fit regression line. (This is seen as the scattering of the points about the line.)
-- Do đó, khoảng 56% biến thiên (1 – 0.44 = 0.56) trong điểm thi cuối kỳ KHÔNG thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất. (Điều này được thấy qua sự phân tán của các điểm xung quanh đường thẳng.)
+- Do đó, khoảng 56% biến thiên (1 – 0,44 = 0,56) trong điểm thi cuối kỳ KHÔNG thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất. (Điều này được thấy qua sự phân tán của các điểm xung quanh đường thẳng.)

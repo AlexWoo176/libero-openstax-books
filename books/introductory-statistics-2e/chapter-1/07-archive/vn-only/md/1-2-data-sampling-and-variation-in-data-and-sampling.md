@@ -110,10 +110,10 @@ Việc xem xét nhiều loại biểu đồ khác nhau để biết biểu đồ
 
 | Đặc điểm/Danh mục | Phần trăm |
 | --- | --- |
-| Sinh viên toàn thời gian | 40.9% |
-| Sinh viên có ý định chuyển tiếp lên cơ sở giáo dục đại học 4 năm | 48.6% |
-| Sinh viên dưới 25 tuổi | 61.0% |
-| TỔNG | 150.5% |
+| Sinh viên toàn thời gian | 40,9% |
+| Sinh viên có ý định chuyển tiếp lên cơ sở giáo dục đại học 4 năm | 48,6% |
+| Sinh viên dưới 25 tuổi | 61,0% |
+| TỔNG | 150,5% |
 
 *Hình 
 1.7*
@@ -124,14 +124,14 @@ Bảng hiển thị Dân tộc của Sinh viên nhưng thiếu danh mục "Khác
 
 |  | Tần số | Phần trăm |
 | --- | --- | --- |
-| Người châu Á | 8,794 | 36.1% |
-| Người da đen | 1,412 | 5.8% |
-| Người Philippines | 1,298 | 5.3% |
-| Người gốc Tây Ban Nha/Mỹ Latinh | 4,180 | 17.1% |
-| Người Mỹ bản địa | 146 | 0.6% |
+| Người châu Á | 8,794 | 36,1% |
+| Người da đen | 1,412 | 5,8% |
+| Người Philippines | 1,298 | 5,3% |
+| Người gốc Tây Ban Nha/Mỹ Latinh | 4,180 | 17,1% |
+| Người Mỹ bản địa | 146 | 0,6% |
 | Người dân đảo Thái Bình Dương | 236 | 1.0% |
-| Người da trắng | 5,978 | 24.5% |
-| TỔNG | 22.044 trên 24.382 | 90,4% trên 100% |
+| Người da trắng | 5,978 | 24,5% |
+| TỔNG | 22,044 trên 24,382 | 90,4% trên 100% |
 
 *Hình 
 1.8*
@@ -177,17 +177,17 @@ Việc thu thập thông tin về toàn bộ quần thể thường tốn quá n
 
 Lisa có thể sử dụng bảng số ngẫu nhiên (có trong nhiều sách thống kê và sổ tay toán học), máy tính cầm tay hoặc máy tính để tạo ra các số ngẫu nhiên. Đối với ví dụ này, giả sử Lisa chọn tạo các số ngẫu nhiên từ máy tính cầm tay. Các số được tạo ra như sau:
 
-0.94360; 
-0.99832; 
-0.14669; 
-0.51470; 
-0.40581; 
-0.73381; 
-0.04399
+0,94360; 
+0,99832; 
+0,14669; 
+0,51470; 
+0,40581; 
+0,73381; 
+0,04399
 
-Lisa đọc các nhóm hai chữ số cho đến khi cô ấy chọn được ba thành viên lớp (nghĩa là cô ấy đọc 0.94360 thành các nhóm 94, 43, 36, 60). Mỗi số ngẫu nhiên chỉ có thể đóng góp một thành viên lớp. Nếu cần, Lisa có thể đã tạo thêm nhiều số ngẫu nhiên hơn.
+Lisa đọc các nhóm hai chữ số cho đến khi cô ấy chọn được ba thành viên lớp (nghĩa là cô ấy đọc 0,94360 thành các nhóm 94, 43, 36, 60). Mỗi số ngẫu nhiên chỉ có thể đóng góp một thành viên lớp. Nếu cần, Lisa có thể đã tạo thêm nhiều số ngẫu nhiên hơn.
 
-Các số ngẫu nhiên 0.94360 và 0.99832 không chứa các số hai chữ số phù hợp. Tuy nhiên, số ngẫu nhiên thứ ba, 0.14669, chứa 14 (số ngẫu nhiên thứ tư cũng chứa 14), số ngẫu nhiên thứ năm chứa 05, và số ngẫu nhiên thứ bảy chứa 04. Số hai chữ số 14 tương ứng với Macierz, 05 tương ứng với Cuningham, và 04 tương ứng với Cuarismo. Ngoài bản thân cô ấy, nhóm của Lisa sẽ bao gồm Marcierz, Cuningham và Cuarismo.
+Các số ngẫu nhiên 0,94360 và 0,99832 không chứa các số hai chữ số phù hợp. Tuy nhiên, số ngẫu nhiên thứ ba, 0,14669, chứa 14 (số ngẫu nhiên thứ tư cũng chứa 14), số ngẫu nhiên thứ năm chứa 05, và số ngẫu nhiên thứ bảy chứa 04. Số hai chữ số 14 tương ứng với Macierz, 05 tương ứng với Cuningham, và 04 tương ứng với Cuarismo. Ngoài bản thân cô ấy, nhóm của Lisa sẽ bao gồm Marcierz, Cuningham và Cuarismo.
 
 Để tạo các số ngẫu nhiên:
 
@@ -381,14 +381,14 @@ Bạn có nghĩ rằng mẫu này đại diện cho (hoặc đặc trưng cho) t
 
 Sự biến thiên luôn hiện diện trong bất kỳ tập dữ liệu nào. Ví dụ, các lon đồ uống 16 ounce có thể chứa nhiều hơn hoặc ít hơn 16 ounce chất lỏng. Trong một nghiên cứu, tám lon 16 ounce đã được đo lường và cho ra lượng đồ uống (tính bằng ounce) như sau:
 
-15.8; 
-16.1; 
-15.2; 
-14.8; 
-15.8; 
-15.9; 
-16.0; 
-15.5
+15,8; 
+16,1; 
+15,2; 
+14,8; 
+15,8; 
+15,9; 
+16,0; 
+15,5
 
 Các phép đo lượng đồ uống trong một lon 16 ounce có thể thay đổi vì những người khác nhau thực hiện phép đo hoặc vì lượng chính xác, 16 ounce chất lỏng, không được cho vào lon. Các nhà sản xuất thường xuyên chạy các thử nghiệm để xác định xem lượng đồ uống trong một lon 16 ounce có nằm trong phạm vi mong muốn hay không.
 

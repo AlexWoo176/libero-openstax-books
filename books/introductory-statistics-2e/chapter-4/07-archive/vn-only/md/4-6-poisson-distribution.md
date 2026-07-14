@@ -88,7 +88,7 @@ Người dùng tin nhắn văn bản nhận hoặc gửi trung bình 41,5 tin nh
 1. Một người dùng tin nhắn nhận hoặc gửi bao nhiêu tin nhắn mỗi giờ?
 1. Xác suất để một người dùng tin nhắn nhận hoặc gửi hai tin nhắn mỗi giờ là bao nhiêu?
 1. Xác suất để một người dùng tin nhắn nhận hoặc gửi nhiều hơn hai tin nhắn mỗi giờ là bao nhiêu?
-Sân bay quốc tế Hartsfield-Jackson của Atlanta là sân bay bận rộn nhất thế giới. Trung bình có 2.700 chuyến bay đến và đi mỗi ngày.
+Sân bay quốc tế Hartsfield-Jackson của Atlanta là sân bay bận rộn nhất thế giới. Trung bình có 2,700 chuyến bay đến và đi mỗi ngày.
 
 1. Có bao nhiêu máy bay đến và đi tại sân bay mỗi giờ?
 1. Xác suất để có đúng 100 lượt đến và đi trong một giờ là bao nhiêu?

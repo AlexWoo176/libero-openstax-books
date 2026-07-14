@@ -73,21 +73,21 @@ X
 
 normalcdf(
 
-giá trị dưới của vùng, giá trị trên của vùng, trung bình, 
+lower value of the area, upper value of the area, mean, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
 normalcdf(
 
-giá trị dưới của vùng, giá trị trên của vùng, trung bình, 
+lower value of the area, upper value of the area, mean, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -95,7 +95,7 @@ trong đó:
 
 - *mean* là số trung bình của phân phối gốc
 - *standard deviation* là độ lệch chuẩn của phân phối gốc
-- *kích thước mẫu**n*
+- *kích thước mẫu = **n*
 Một phân phối chưa biết có số trung bình là 90 và độ lệch chuẩn là 15. Các mẫu có kích thước *n* = 25 được lấy ngẫu nhiên từ quần thể.
 
 #### Bài toán
@@ -129,7 +129,7 @@ n
 
 25
 
-) = 0.6997
+) = 0,6997
 
 #### Bài toán
 
@@ -147,15 +147,15 @@ Khoảng thời gian làm bài SAT của một nhóm học sinh được phân p
 
 `2^nd DIStR`
 
-*k*
+*k* = invNorm 
 
 (
 
 diện tích bên trái của k, trung bình, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -163,9 +163,9 @@ kích thước mẫu
 
 diện tích bên trái của k, trung bình, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -174,7 +174,7 @@ trong đó:
 - *k* = bách phân vị thứ *k*
 - *mean* là số trung bình của phân phối gốc
 - *standard deviation* là độ lệch chuẩn của phân phối gốc
-- *kích thước mẫu**n*
+- *kích thước mẫu = **n*
 #### Bài toán
 
 Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 34 tuổi. Giả sử độ lệch chuẩn là 15 tuổi. Lấy một mẫu có kích thước *n* = 100.

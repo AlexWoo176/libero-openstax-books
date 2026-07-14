@@ -56,7 +56,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______*s* = _______
 1. Draw a smooth curve  through the top of the bars of the histogram. Write one to two complete sentences to describe the general shape of the curve. (Keep it simple. Does the graph go straight across, does it have a v-shape, does it have a hump in the middle or at either end, and so on?)
 1. Vẽ một đường cong trơn đi qua đỉnh các cột của biểu đồ histogram. Viết một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong. (Hãy giữ nó đơn giản. Đồ thị đi thẳng qua, có hình chữ V, có bướu ở giữa hay ở một trong hai đầu, v.v.?)

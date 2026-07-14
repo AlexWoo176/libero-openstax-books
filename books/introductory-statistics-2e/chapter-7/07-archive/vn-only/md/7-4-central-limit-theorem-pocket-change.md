@@ -28,7 +28,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.
 Thu thập số trung bình của các cặpLặp lại các bước từ một đến năm của phần [Thu thập dữ liệu.](7-4-central-limit-theorem-pocket-change#CollectData) với một ngoại lệ. Thay vì ghi lại số tiền lẻ của 30 bạn học, hãy ghi lại số tiền lẻ trung bình của 30 cặp.
@@ -50,7 +50,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.
 Thu thập số trung bình của các nhóm nămLặp lại các bước từ một đến năm (của phần có tiêu đề [Thu thập dữ liệu](7-4-central-limit-theorem-pocket-change#CollectData)) với một ngoại lệ. Thay vì ghi lại số tiền lẻ của 30 bạn học, hãy ghi lại số tiền lẻ trung bình của 30 nhóm năm.
@@ -71,7 +71,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.
 1. Tại sao hình dạng của phân phối dữ liệu thay đổi khi *n* thay đổi? Sử dụng một đến hai câu hoàn chỉnh để giải thích điều gì đã xảy ra.

@@ -166,7 +166,7 @@ Lời giải được trình bày từng bước và sử dụng máy tính TI-8
 
 Bạn thực hiện một nghiên cứu về liệu pháp thôi miên để xác định mức độ hiệu quả của nó trong việc tăng số giờ ngủ mà các đối tượng có được mỗi đêm. Bạn đo số giờ ngủ của 12 đối tượng với các kết quả sau. Hãy xây dựng khoảng tin cậy 95% cho số trung bình giờ ngủ của quần thể (giả định là phân phối chuẩn) mà bạn đã lấy dữ liệu.
 
-8.2; 9.1; 7.7; 8.6; 6.9; 11.2; 10.1; 9.9; 8.9; 9.2; 7.5; 10.5
+8.2; 9,1; 7,7; 8.6; 6,9; 11,2; 10,1; 9,9; 8.9; 9,2; 7,5; 10,5
 
 #### Bài toán
 

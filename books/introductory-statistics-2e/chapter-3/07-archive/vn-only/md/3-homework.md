@@ -6,7 +6,7 @@
 
  no-selfclose*
 
-Biểu đồ trong [Hình 3.11](3-homework#ch03_M02-fig001) hiển thị quy mô mẫu và tỷ lệ phần trăm của những người thuộc các nhóm tuổi và giới tính khác nhau đã được thăm dò ý kiến về sự tán thành của họ đối với các hành động của Thị trưởng Ford khi đương nhiệm. Tổng số người trong mẫu của tất cả các nhóm tuổi là 1.045.
+Biểu đồ trong [Hình 3.11](3-homework#ch03_M02-fig001) hiển thị quy mô mẫu và tỷ lệ phần trăm của những người thuộc các nhóm tuổi và giới tính khác nhau đã được thăm dò ý kiến về sự tán thành của họ đối với các hành động của Thị trưởng Ford khi đương nhiệm. Tổng số người trong mẫu của tất cả các nhóm tuổi là 1,045.
 
 1. Xác định ba biến cố trong biểu đồ.
 1. Mô tả bằng lời ý nghĩa của mục 40.
@@ -145,11 +145,11 @@ Một phép thử bao gồm việc tung một đồng nickel, một đồng dime
 1. Gọi *B* là biến cố lần tung thứ nhất và thứ hai đều ra mặt ngửa. Các biến cố *A* và *B* có xung khắc không? Hãy giải thích câu trả lời của bạn trong một đến ba câu hoàn chỉnh, bao gồm cả lập luận.
 Hãy xem xét kịch bản sau đây:
 
-Cho *P*(*C*) = 0.4.
+Cho *P*(*C*) = 0,4.
 
-Cho *P*(*D*) = 0.5.
+Cho *P*(*D*) = 0,5.
 
-Cho *P*(*C*|*D*) = 0.6.
+Cho *P*(*C*|*D*) = 0,6.
 
 1. Tìm *P*(*C* VÀ *D*).
 1. *C* và *D* có xung khắc không? Tại sao có hoặc tại sao không?
@@ -159,13 +159,13 @@ Cho *P*(*C*|*D*) = 0.6.
 *Y* và *Z* là các biến cố độc lập.
 
 1. Viết lại Quy tắc cộng cơ bản *P*(*Y* HOẶC *Z*) = *P*(*Y*) + *P*(*Z*) - *P*(*Y* VÀ *Z*) bằng cách sử dụng thông tin rằng *Y* và *Z* là các biến cố độc lập.
-1. Sử dụng quy tắc đã viết lại để tìm *P*(*Z*) nếu *P*(*Y* HOẶC *Z*) = 0.71 và *P*(*Y*) = 0.42.
-*G* và *H* là các biến cố xung khắc. *P*(*G*) = 0.5 *P*(*H*) = 0.3
+1. Sử dụng quy tắc đã viết lại để tìm *P*(*Z*) nếu *P*(*Y* HOẶC *Z*) = 0,71 và *P*(*Y*) = 0,42.
+*G* và *H* là các biến cố xung khắc. *P*(*G*) = 0,5 *P*(*H*) = 0,3
 
-1. Giải thích tại sao phát biểu sau đây PHẢI sai: *P*(*H*|*G*) = 0.4.
+1. Giải thích tại sao phát biểu sau đây PHẢI sai: *P*(*H*|*G*) = 0,4.
 1. Tìm *P*(*H* HOẶC *G*).
 1. *G* và *H* là các biến cố độc lập hay các biến cố phụ thuộc? Hãy giải thích bằng một câu hoàn chỉnh.
-Theo Tổng điều tra dân số Hoa Kỳ năm 2019, có khoảng 331.449.281 người sống tại Hoa Kỳ. Trong số này, 67.800.000 người nói một ngôn ngữ khác ngoài tiếng Anh tại nhà. Trong số những người nói ngôn ngữ khác tại nhà, 61,6% nói tiếng Tây Ban Nha.
+Theo Tổng điều tra dân số Hoa Kỳ năm 2019, có khoảng 331.449.281 người sống tại Hoa Kỳ. Trong số này, 67,800.000 người nói một ngôn ngữ khác ngoài tiếng Anh tại nhà. Trong số những người nói ngôn ngữ khác tại nhà, 61,6% nói tiếng Tây Ban Nha.
 
 Cho: *E* = nói tiếng Anh tại nhà; *E′* = nói ngôn ngữ khác tại nhà; *S* = nói tiếng Tây Ban Nha;
 
@@ -173,10 +173,10 @@ Hoàn thành mỗi phát biểu xác suất bằng cách ghép với câu trả 
 
 | Các phát biểu về xác suất | Các câu trả lời |
 | --- | --- |
-| a. | i. 0.7954 |
-| b. | ii. 0.616 |
-| c. | iii. 0.2046 |
-| d. | iv. 0.1260 |
+| a. 𝑃⁡(𝐸 ′)⁢  = P⁡(E′)⁢ = P(E′) = | i. 0,7954 |
+| b. 𝑃⁡(𝐸)⁢  = P⁡(E)⁢ = P(E) = | ii. 0,616 |
+| c. 𝑃⁡(𝑆⁢  ∩ ⁢𝐸 ′)⁢  =P⁡(S⁢ ∩ ⁢E′)⁢ =P(S ∩ E′) = | iii. 0,2046 |
+| d. 𝑃⁡(𝑆 | 𝐸 ′)⁢  = P⁡(S | E′)⁢ = P(S | E′) = | iv. 0,1260 |
 
 Năm 1994, chính phủ Hoa Kỳ đã tổ chức một cuộc xổ số để cấp 55.000 Thẻ Xanh (giấy phép cho người không phải là công dân làm việc hợp pháp tại Hoa Kỳ). Renate Deutsch, đến từ Đức, là một trong khoảng 6,5 triệu người đã tham gia cuộc xổ số này. Cho *G* = thắng thẻ xanh.
 

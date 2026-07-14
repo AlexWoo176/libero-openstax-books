@@ -37,7 +37,7 @@ Một cuộc khảo sát đã được thực hiện về đồ uống ưa thíc
 | **Thích trà** | 16 |
 | **Tổng số được khảo sát** | 230 |
 
-Nhấn STAT. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 156 cho x1, 2169 cho n1, 183 cho x2, và 2231 cho n2. Di chuyển xuống p1: và di chuyển đến less than p2. Nhấn `ENTER`. Di chuyển xuống Calculate và nhấn ENTER. p-giá trị *p* là *P* = 0.1045 và thống kê kiểm định là *z* = -1.256.
+Nhấn STAT. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 156 cho x1, 2169 cho n1, 183 cho x2, và 2231 cho n2. Di chuyển xuống p1: và di chuyển đến less than p2. Nhấn `ENTER`. Di chuyển xuống Calculate và nhấn ENTER. p-giá trị *p* là *P* = 0,1045 và thống kê kiểm định là *z* = -1,256.
 
 #### Bài tập
 
@@ -47,7 +47,7 @@ Một công ty tiếp thị tuyên bố rằng tỷ lệ người trẻ tuổi s
 - Trong một mẫu gồm 1,343 người trẻ tuổi (từ 34 tuổi trở xuống), 10% sở hữu xe điện.
 Kiểm định ở mức ý nghĩa 5%. Liệu tỷ lệ người trẻ tuổi có lớn hơn tỷ lệ người lớn tuổi liên quan đến việc sở hữu xe điện không?
 
-TI-83+ và TI-84: Nhấn `STAT`. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 135 cho x1, 1343 cho n1, 12 cho x2, và 232 cho n2. Di chuyển xuống p1: và di chuyển đến greater than p2. Nhấn `ENTER`. Di chuyển xuống Calculate và nhấn `ENTER`. P-giá trị là P = 0.0092 và thống kê kiểm định là Z = 2.33.
+TI-83+ và TI-84: Nhấn `STAT`. Di chuyển sang TESTS và nhấn 6:2-PropZTest. Di chuyển xuống và nhập 135 cho x1, 1343 cho n1, 12 cho x2, và 232 cho n2. Di chuyển xuống p1: và di chuyển đến greater than p2. Nhấn `ENTER`. Di chuyển xuống Calculate và nhấn `ENTER`. P-giá trị là P = 0,0092 và thống kê kiểm định là Z = 2,33.
 
 Một nhà nghiên cứu chính phủ đang điều tra xem liệu có sự khác biệt trong việc sử dụng mũ bảo hiểm của người đi xe máy ở các khu vực địa lý khác nhau đối với những bang mà luật pháp yêu cầu đội mũ bảo hiểm. Nghiên cứu cho thấy đối với người đi xe máy ở vùng Đông Bắc Hoa Kỳ, 7622 trong số 113,231 người không đội mũ bảo hiểm. Ở vùng Đông Nam Hoa Kỳ, 7439 trong số 104,873 người không đội mũ bảo hiểm. Hãy kiểm định ở mức ý nghĩa 5%. Trả lời các câu hỏi sau:
 

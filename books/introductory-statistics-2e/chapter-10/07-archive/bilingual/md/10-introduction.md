@@ -6,7 +6,7 @@ If you want to test a claim that involves two groups (the types of breakfasts ea
 *Hình 
 10.1
  
-Nếu bạn muốn kiểm định một khẳng định liên quan đến hai nhóm (các loại bữa sáng được ăn ở phía đông và phía tây sông Mississippi), bạn có thể sử dụng một kỹ thuật hơi khác khi thực hiện kiểm định giả thuyết. (nguồn ảnh: chỉnh sửa từ tác phẩm “scrambled egg, toast and home-made berry jam (no added sugar) for breakfast” của Chloe Lim/ Flickr, CC BY 2.0)*
+Nếu bạn muốn kiểm định một khẳng định liên quan đến hai nhóm (các loại bữa sáng được ăn ở phía đông và phía tây sông Mississippi), bạn có thể sử dụng một kỹ thuật hơi khác khi thực hiện kiểm định giả thuyết. (nguồn ảnh: chỉnh sửa từ tác phẩm “scrambled egg, toast and home-made berry jam (no added sugar) for breakfast” của Chloe Lim/ Flickr, CC BY 2,0)*
 
 By the end of this chapter, the student should be able to:
 

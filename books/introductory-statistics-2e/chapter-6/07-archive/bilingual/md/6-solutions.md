@@ -100,24 +100,24 @@ Có, vì chúng giống nhau trong một phân phối liên tục: *P*(*x* = 1) 
 
 1 – 0.543 = 0.457
 
-1 – 0.543 = 0.457
+1 – 0,543 = 0,457
 
 0.0013
 
-0.0013
+0,0013
 
 56.03
 
-56.03
+56,03
 
 0.1186
 
-0.1186
+0,1186
 
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
 1. 3, 0.1979
-1. 3, 0.1979
+1. 3, 0,1979
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
 1. 0.70, 4.78 years
@@ -235,7 +235,7 @@ d
 1. *X* ~ *N*(66, 2.5)
 1. *X**N*
 1. 0.5404
-1. 0.5404
+1. 0,5404
 1. No, the probability that an Asian male is over 72 inches tall is 0.0082
 1. Không, xác suất một nam giới châu Á cao trên 72 inch là 0,0082
 1. *X* ~ *N*(36, 10)
@@ -261,9 +261,9 @@ d
 1. The probability that a randomly selected trial will last more than 24 days is 0.3336.
 1. Xác suất một phiên tòa được chọn ngẫu nhiên sẽ kéo dài hơn 24 ngày là 0,3336.
 1. 22.77
-1. 22.77
+1. 22,77
 1. mean = 5.51, *s* = 2.15
-1. số trung bình = 5.51, *s* = 2.15
+1. số trung bình = 5,51, *s* = 2,15
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
 1. Answers may vary.
@@ -273,9 +273,9 @@ d
 1. *X* ~ *N*(5.51, 2.15)
 1. *X**N*
 1. 0.6029
-1. 0.6029
+1. 0,6029
 1. The cumulative frequency for less than 6.1 minutes is 0.64.
-1. Tần suất tương đối lũy tích cho giá trị nhỏ hơn 6.1 phút là 0.64.
+1. Tần suất tương đối lũy tích cho giá trị nhỏ hơn 6.1 phút là 0,64.
 1. The answers to part f and part g are not exactly the same, because the normal distribution is only an approximation to the real one.
 1. Các câu trả lời cho phần f và phần g không hoàn toàn giống nhau, vì phân phối chuẩn chỉ là một phép xấp xỉ so với phân phối thực tế.
 1. The answers to part f and part g are close, because a normal distribution is an excellent approximation when the sample size is greater than 30.
@@ -297,16 +297,16 @@ d
 1. *X* ~ *N*(60136, 10468)
 1. *X* ~ *N*(60136, 10468)
 1. 0.7440
-1. 0.7440
+1. 0,7440
 1. The cumulative relative frequency is 43/60 = 0.717.
-1. Tần suất tương đối lũy tích là 43/60 = 0.717.
+1. Tần suất tương đối lũy tích là 43/60 = 0,717.
 1. The answers for part f and part g are not the same, because the normal distribution is only an
 approximation.
 1. Các câu trả lời cho phần f và phần g không giống nhau, vì phân phối chuẩn chỉ là một phép xấp xỉ.
 - *n* = 100; *p* = 0.1;  *q* = 0.9
-- *n* = 100; *p* = 0.1;  *q* = 0.9
+- *n* = 100; *p* = 0,1;  *q* = 0,9
 - *μ* = *np* = (100)(0.10) = 10
-- *μ* = *np* = (100)(0.10) = 10
+- *μ* = *np* = (100)(0,10) = 10
 - *σ* = 
 
 npq
@@ -320,21 +320,25 @@ npq
 (100)(0.1)(0.9)
 
  = 3
-- *σ*
+- *σ* = 
 
 npq
 
 npq
 
+ = 
+
 (100)(0.1)(0.9)
 
 (100)(0.1)(0.9)
+
+ = 3
 1. *z* = ±1:   *x_1* = *μ* + *zσ* = 10 + 1(3) = 13  and  *x*2 = *μ* – *zσ* = 10 – 1(3) = 7.  68% of the defective cars will fall between seven and 13.
 1. *z* = ±1:   *x_1* = *μ* + *zσ* = 10 + 1(3) = 13  và  *x*2 = *μ* – *zσ* = 10 – 1(3) = 7.  68% số xe bị lỗi sẽ nằm trong khoảng từ bảy đến 13.
 1. *z* = ±2:   *x_1* = *μ* + *zσ* = 10 + 2(3) = 16 and *x*2 = *μ* – *zσ* = 10 – 2(3) = 4. 95 % of the defective cars will fall between four and 16
 1. *z* = ±2:   *x_1* = *μ* + *zσ* = 10 + 2(3) = 16 và *x*2 = *μ* – *zσ* = 10 – 2(3) = 4. 95 % số xe bị lỗi sẽ nằm trong khoảng từ bốn đến 16
 1. *z* = ±3:   *x_1* = *μ* + *zσ* = 10 + 3(3) = 19 and  *x*2 = *μ* – *zσ* = 10 – 3(3) = 1.  99.7% of the defective cars will fall between one and 19.
-1. *z* = ±3:   *x_1* = *μ* + *zσ* = 10 + 3(3) = 19 và  *x*2 = *μ* – *zσ* = 10 – 3(3) = 1.  99.7% số xe bị lỗi sẽ nằm trong khoảng từ một đến 19.
+1. *z* = ±3:   *x_1* = *μ* + *zσ* = 10 + 3(3) = 19 và  *x*2 = *μ* – *zσ* = 10 – 3(3) = 1.  99,7% số xe bị lỗi sẽ nằm trong khoảng từ một đến 19.
 - *n* = 190; *p* = 
 
 1
@@ -344,7 +348,7 @@ npq
 5
 
  = 0.2; *q* = 0.8
-- *n**p*
+- *n* = 190; *p* = 
 
 1
 5
@@ -352,9 +356,9 @@ npq
 1
 5
 
-*q*
+ = 0,2; *q* = 0,8
 - *μ* = *np* = (190)(0.2) = 38
-- *μ* = *np* = (190)(0.2) = 38
+- *μ* = *np* = (190)(0,2) = 38
 - *σ* = 
 
 npq
@@ -380,10 +384,10 @@ npq
 
 (190)(0.2)(0.8)
 
- = 5.5136
+ = 5,5136
 1. For this problem: *P*(34 < *x* < 54) = normalcdf(34,54,48,5.5136) = 0.7641
-1. Đối với bài toán này: *P*(34 < *x* < 54) = normalcdf(34,54,48,5.5136) = 0.7641
+1. Đối với bài toán này: *P*(34 < *x* < 54) = normalcdf(34,54,48,5,5136) = 0,7641
 1. For this problem: *P*(54 < *x* < 64) = normalcdf(54,64,48,5.5136) = 0.0018
-1. Đối với bài toán này: *P*(54 < *x* < 64) = normalcdf(54,64,48,5.5136) = 0.0018
+1. Đối với bài toán này: *P*(54 < *x* < 64) = normalcdf(54,64,48,5,5136) = 0,0018
 1. For this problem: *P*(*x* > 64) = normalcdf(64,10^99,48,5.5136) = 0.0000012 (approximately 0)
-1. Đối với bài toán này: *P*(*x* > 64) = normalcdf(64,10^99,48,5.5136) = 0.0000012 (xấp xỉ 0)
+1. Đối với bài toán này: *P*(*x* > 64) = normalcdf(64,10^99,48,5,5136) = 0,0000012 (xấp xỉ 0)

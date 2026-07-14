@@ -32,7 +32,7 @@ Nếu *α* > *p*-giá trị, thì bác bỏ *H_0*.
 
 If there is no given preconceived *α*, then use *α* = 0.05.
 
-Nếu không có *α* được xác định trước, thì sử dụng *α* = 0.05.
+Nếu không có *α* được xác định trước, thì sử dụng *α* = 0,05.
 
 - Single population mean, **known** population variance (or standard deviation): **Normal
     test**.

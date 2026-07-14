@@ -167,21 +167,21 @@ sample size
 
 normalcdf(
 
-giá trị dưới của vùng, giá trị trên của vùng, trung bình, 
+lower value of the area, upper value of the area, mean, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
 normalcdf(
 
-giá trị dưới của vùng, giá trị trên của vùng, trung bình, 
+lower value of the area, upper value of the area, mean, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -194,7 +194,7 @@ trong đó:
 - *standard deviation* is the standard deviation of the original distribution
 - *standard deviation* là độ lệch chuẩn của phân phối gốc
 - *sample size* = *n*
-- *kích thước mẫu**n*
+- *kích thước mẫu = **n*
 An unknown distribution has a mean of 90 and a standard deviation of 15. Samples of size *n* = 25 are drawn randomly from the population.
 
 Một phân phối chưa biết có số trung bình là 90 và độ lệch chuẩn là 15. Các mẫu có kích thước *n* = 25 được lấy ngẫu nhiên từ quần thể.
@@ -263,7 +263,7 @@ n
 
 25
 
-) = 0.6997
+) = 0,6997
 
 #### Problem
 
@@ -321,15 +321,15 @@ sample size
 
 )
 
-*k*
+*k* = invNorm 
 
 (
 
 diện tích bên trái của k, trung bình, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -337,9 +337,9 @@ kích thước mẫu
 
 diện tích bên trái của k, trung bình, 
 
-độ lệch chuẩn
+standard deviation
 
-kích thước mẫu
+sample size
 
 )
 
@@ -354,7 +354,7 @@ trong đó:
 - *standard deviation* is the standard deviation of the original distribution
 - *standard deviation* là độ lệch chuẩn của phân phối gốc
 - *sample size* = *n*
-- *kích thước mẫu**n*
+- *kích thước mẫu = **n*
 #### Problem
 
 #### Bài toán

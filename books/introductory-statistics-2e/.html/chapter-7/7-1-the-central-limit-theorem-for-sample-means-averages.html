@@ -1,16 +1,30 @@
 <html><head>
-<meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><script src="../book-reader/book-pages.js"></script>
+<meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
 <link rel="stylesheet" href="../book-reader/book-reader.css">
 <script src="../book-reader/book-reader.js"></script>
-</head><body class="book-reader"><h2 data-rex-keep="true" data-type="document-title" id="page_c3952dc3-b6d9-42d3-beb7-9d9427db2c12_titlecreatedbycookbook-vn"><span class="os-number">7.1</span>
+</head><body class="book-reader"><h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_c3952dc3-b6d9-42d3-beb7-9d9427db2c12_titlecreatedbycookbook"><span class="os-number">7.1</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">The Central Limit Theorem for Sample Means (Averages)</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_c3952dc3-b6d9-42d3-beb7-9d9427db2c12_titlecreatedbycookbook-vn"><span class="os-number">7.1</span>
 <span class="os-divider"> </span>
 <span class="os-text" data-type="" itemprop="">Định lý giới hạn trung tâm cho các số trung bình mẫu</span></h2>
-<p id="fs-idm47553248-vn">Giả sử <em data-effect="italics">X</em> là một biến ngẫu nhiên với một phân phối có thể đã biết hoặc chưa biết (nó có thể là bất kỳ phân phối nào). Sử dụng một chỉ số dưới khớp với biến ngẫu nhiên, giả sử:</p>
+<p class="eng hidden" id="fs-idm47553248">Suppose <em data-effect="italics">X</em> is a random variable with a distribution that may be known or unknown (it can be any distribution). Using a subscript that matches the random variable, suppose:</p><p class="vn visible" id="fs-idm47553248-vn">Giả sử <em data-effect="italics">X</em> là một biến ngẫu nhiên với một phân phối có thể đã biết hoặc chưa biết (nó có thể là bất kỳ phân phối nào). Sử dụng một chỉ số dưới khớp với biến ngẫu nhiên, giả sử:</p>
 <ol id="list-1" type="a">
-<li><em data-effect="italics">μ</em><em data-effect="italics"><sub>X</sub></em> = số trung bình của <em data-effect="italics">X</em></li>
-<li><em data-effect="italics">σ</em><em data-effect="italics"><sub>X</sub></em> = độ lệch chuẩn của <em data-effect="italics">X</em></li>
+<li class="eng hidden"><em data-effect="italics">μ</em><em data-effect="italics"><sub>X</sub></em> = the mean of <em data-effect="italics">X</em></li><li class="vn visible"><em data-effect="italics">μ</em><em data-effect="italics"><sub>X</sub></em> = số trung bình của <em data-effect="italics">X</em></li>
+<li class="eng hidden"><em data-effect="italics">σ</em><em data-effect="italics"><sub>X</sub></em> = the standard deviation of <em data-effect="italics">X</em></li><li class="vn visible"><em data-effect="italics">σ</em><em data-effect="italics"><sub>X</sub></em> = độ lệch chuẩn của <em data-effect="italics">X</em></li>
 </ol>
-<p id="fs-idm4523440-vn">Nếu bạn lấy các mẫu ngẫu nhiên có kích thước <em data-effect="italics">n</em>, thì khi <em data-effect="italics">n</em> tăng lên, biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idm4523440">If you draw random samples of size <em data-effect="italics">n</em>, then as <em data-effect="italics">n</em> increases, the random variable <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> which consists of sample means, tends to be <span data-type="term" group-by="n" id="term-00001">normally distributed</span> and</p><p class="vn visible" id="fs-idm4523440-vn">Nếu bạn lấy các mẫu ngẫu nhiên có kích thước <em data-effect="italics">n</em>, thì khi <em data-effect="italics">n</em> tăng lên, biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -69,7 +83,15 @@
 </mrow>
 <mo>)</mo></mrow>
 </mrow></annotation-xml></semantics></math></div>
-<p id="element-489-vn"><span data-type="term" group-by="c" id="term-00002">Định lý giới hạn trung tâm</span> cho các số trung bình mẫu phát biểu rằng nếu bạn liên tục lấy các mẫu với kích thước nhất định (ví dụ như gieo mười con xúc xắc nhiều lần) và tính số trung bình của chúng, các số trung bình đó có xu hướng tuân theo một phân phối chuẩn (phân phối mẫu). Khi kích thước mẫu tăng lên, phân phối của các số trung bình càng bám sát phân phối chuẩn hơn. Phân phối chuẩn có cùng số trung bình với phân phối gốc và phương sai bằng phương sai gốc chia cho kích thước mẫu. Độ lệch chuẩn là căn bậc hai của phương sai, vì vậy độ lệch chuẩn của phân phối mẫu là độ lệch chuẩn của phân phối gốc chia cho căn bậc hai của <em data-effect="italics">n</em>. Biến <em data-effect="italics">n</em> là số lượng các giá trị được lấy trung bình cùng nhau, không phải số lần thực hiện phép thử.</p><p id="fs-idm26555216-vn">Nói một cách chính thức hơn, nếu bạn lấy các mẫu ngẫu nhiên có kích thước <em data-effect="italics">n</em>, phân phối của biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-489">The <span data-type="term" group-by="c" id="term-00002">central limit theorem</span> for sample means says that if you repeatedly draw samples of a given size (such as repeatedly rolling ten dice) and calculate their means, those means tend to follow a normal distribution (the sampling distribution). As sample sizes increase, the distribution of means more closely follows the normal distribution. The normal distribution has the same mean as the original distribution and a variance that equals the original variance divided by the sample size. Standard deviation is the square root of variance, so the standard deviation of the sampling distribution is the standard deviation of the original distribution divided by the square root of <em data-effect="italics">n</em>. The variable <em data-effect="italics">n</em> is the number of values that are averaged together, not the number of times the experiment is done.</p><p class="vn visible" id="element-489-vn"><span data-type="term" group-by="c" id="term-00002">Định lý giới hạn trung tâm</span> cho các số trung bình mẫu phát biểu rằng nếu bạn liên tục lấy các mẫu với kích thước nhất định (ví dụ như gieo mười con xúc xắc nhiều lần) và tính số trung bình của chúng, các số trung bình đó có xu hướng tuân theo một phân phối chuẩn (phân phối mẫu). Khi kích thước mẫu tăng lên, phân phối của các số trung bình càng bám sát phân phối chuẩn hơn. Phân phối chuẩn có cùng số trung bình với phân phối gốc và phương sai bằng phương sai gốc chia cho kích thước mẫu. Độ lệch chuẩn là căn bậc hai của phương sai, vì vậy độ lệch chuẩn của phân phối mẫu là độ lệch chuẩn của phân phối gốc chia cho căn bậc hai của <em data-effect="italics">n</em>. Biến <em data-effect="italics">n</em> là số lượng các giá trị được lấy trung bình cùng nhau, không phải số lần thực hiện phép thử.</p><p class="eng hidden" id="fs-idm26555216">To put it more formally, if you draw random samples of size <em data-effect="italics">n</em>, the distribution of the random variable <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>, which consists of sample means, is called the <strong>sampling distribution of the mean</strong>. The sampling distribution of the mean approaches a normal distribution as <em data-effect="italics">n</em>, the <span data-type="term" group-by="s" id="term-00003">sample size</span>, increases. </p><p class="vn visible" id="fs-idm26555216-vn">Nói một cách chính thức hơn, nếu bạn lấy các mẫu ngẫu nhiên có kích thước <em data-effect="italics">n</em>, phân phối của biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
@@ -78,7 +100,31 @@
 <mi>X</mi>
 <mo>¯</mo>
 </mover></annotation-xml></semantics></math></span>, bao gồm các số trung bình mẫu, được gọi là <strong>phân phối mẫu của số trung bình</strong>. Phân phối mẫu của số trung bình tiến dần đến phân phối chuẩn khi <em data-effect="italics">n</em>, <span data-type="term" group-by="s" id="term-00003">Kích thước mẫu</span>, tăng lên.</p>
-<p id="element-54-vn">Biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-54">The random variable <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> has a different <em data-effect="italics">z</em>-score associated with it from that of the random variable <em data-effect="italics">X</em>. The mean <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> is the value of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> in one sample.</p><p class="vn visible" id="element-54-vn">Biến ngẫu nhiên <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
@@ -169,7 +215,7 @@
 </mrow>
 </mfrac>
 </mrow></annotation-xml></semantics></math></div>
-<p id="element-686-vn"><em data-effect="italics">μ</em><sub><em data-effect="italics">X</em></sub> là số trung bình của cả <em data-effect="italics">X</em> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-686"><em data-effect="italics">μ</em><sub><em data-effect="italics">X</em></sub> is the average of both <em data-effect="italics">X</em> and <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
@@ -177,7 +223,23 @@
 </mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
-</mover></annotation-xml></semantics></math></span>.</p><p id="element-455-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></mrow><annotation-xml encoding="MathML-Content"><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></annotation-xml></semantics></math></span> độ lệch chuẩn của <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+</mover></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="element-686-vn"><em data-effect="italics">μ</em><sub><em data-effect="italics">X</em></sub> là số trung bình của cả <em data-effect="italics">X</em> và <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span>.</p><p class="eng hidden" id="element-455"><span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></mrow><annotation-xml encoding="MathML-Content"><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></annotation-xml></semantics></math></span> standard deviation of <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> and is called the <span data-type="term" group-by="s" id="term-00004">standard error of the mean.</span></p><p class="vn visible" id="element-455-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></mrow><annotation-xml encoding="MathML-Content"><msub><mi>σ</mi><mi>x</mi></msub><mo>=</mo><mfrac><msub><mi>σ</mi><mi>X</mi></msub><msqrt><mi>n</mi></msqrt></mfrac><mo>=</mo></annotation-xml></semantics></math></span> độ lệch chuẩn của <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
@@ -186,22 +248,24 @@
 <mi>X</mi>
 <mo>¯</mo>
 </mover></annotation-xml></semantics></math></span> và được gọi là <span data-type="term" group-by="s" id="term-00004">sai số chuẩn của số trung bình.</span></p>
-<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm74236704"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm74236704"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
 <div class="os-note-body">
-<p id="fs-idm164143744-vn">Để tìm xác suất cho các số trung bình trên máy tính, hãy làm theo các bước sau.</p>
-<p id="fs-idm81814896-vn"><code data-type="code">2nd DISTR</code><code data-type="code">2:normalcdf</code></p>
-<p id="fs-idm32771680-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idm164143744">To find probabilities for means on the calculator, follow these steps.</p><p class="vn visible" id="fs-idm164143744-vn">Để tìm xác suất cho các số trung bình trên máy tính, hãy làm theo các bước sau.</p>
+<p class="eng hidden" id="fs-idm81814896"><code data-type="code">2nd DISTR</code><span data-type="newline"><br/></span><code data-type="code">2:normalcdf</code></p><p class="vn visible" id="fs-idm81814896-vn"><code data-type="code">2nd DISTR</code><code data-type="code">2:normalcdf</code></p>
+<p class="eng hidden" id="fs-idm32771680"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mi>n</mi><mi>o</mi><mi>r</mi><mi>m</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>d</mi><mi>f</mi><mrow><mo>(</mo>
 <mrow>
-<mi>g</mi><mi>i</mi><mi>á</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ị</mi><mtext> </mtext><mi>d</mi><mi>ư</mi><mi>ớ</mi><mi>i</mi><mtext> </mtext><mi>c</mi><mi>ủ</mi><mi>a</mi><mtext> </mtext><mi>v</mi><mi>ù</mi><mi>n</mi><mi>g</mi><mo>,</mo><mtext> </mtext><mi>g</mi><mi>i</mi><mi>á</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ị</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ê</mi><mi>n</mi><mtext> </mtext><mi>c</mi><mi>ủ</mi><mi>a</mi><mtext> </mtext><mi>v</mi><mi>ù</mi><mi>n</mi><mi>g</mi><mo>,</mo><mtext> </mtext><mi>t</mi><mi>r</mi><mi>u</mi><mi>n</mi><mi>g</mi><mtext> </mtext><mi>b</mi><mi>ì</mi><mi>n</mi><mi>h</mi><mo>,</mo><mtext> </mtext><mfrac>
+<mi>l</mi><mi>o</mi><mi>w</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>u</mi><mi>p</mi><mi>p</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>m</mi><mi>e</mi><mi>a</mi><mi>n</mi><mo>,</mo><mtext> </mtext><mfrac>
 <mrow>
-<mi>đ</mi><mi>ộ</mi><mtext> </mtext><mi>l</mi><mi>ệ</mi><mi>c</mi><mi>h</mi><mtext> </mtext><mi>c</mi><mi>h</mi><mi>u</mi><mi>ẩ</mi><mi>n</mi>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
 </mrow>
 <mrow>
 <msqrt>
 <mrow>
-<mi>k</mi><mi>í</mi><mi>c</mi><mi>h</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>ư</mi><mi>ớ</mi><mi>c</mi><mtext> </mtext><mi>m</mi><mi>ẫ</mi><mi>u</mi>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
 </mrow>
 </msqrt>
 </mrow>
@@ -212,41 +276,94 @@
 </mrow><annotation-xml encoding="MathML-Content"><mrow>
 <mi>n</mi><mi>o</mi><mi>r</mi><mi>m</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>d</mi><mi>f</mi><mrow><mo>(</mo>
 <mrow>
-<mi>g</mi><mi>i</mi><mi>á</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ị</mi><mtext> </mtext><mi>d</mi><mi>ư</mi><mi>ớ</mi><mi>i</mi><mtext> </mtext><mi>c</mi><mi>ủ</mi><mi>a</mi><mtext> </mtext><mi>v</mi><mi>ù</mi><mi>n</mi><mi>g</mi><mo>,</mo><mtext> </mtext><mi>g</mi><mi>i</mi><mi>á</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ị</mi><mtext> </mtext><mi>t</mi><mi>r</mi><mi>ê</mi><mi>n</mi><mtext> </mtext><mi>c</mi><mi>ủ</mi><mi>a</mi><mtext> </mtext><mi>v</mi><mi>ù</mi><mi>n</mi><mi>g</mi><mo>,</mo><mtext> </mtext><mi>t</mi><mi>r</mi><mi>u</mi><mi>n</mi><mi>g</mi><mtext> </mtext><mi>b</mi><mi>ì</mi><mi>n</mi><mi>h</mi><mo>,</mo><mtext> </mtext><mfrac>
+<mi>l</mi><mi>o</mi><mi>w</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>u</mi><mi>p</mi><mi>p</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>m</mi><mi>e</mi><mi>a</mi><mi>n</mi><mo>,</mo><mtext> </mtext><mfrac>
 <mrow>
-<mi>đ</mi><mi>ộ</mi><mtext> </mtext><mi>l</mi><mi>ệ</mi><mi>c</mi><mi>h</mi><mtext> </mtext><mi>c</mi><mi>h</mi><mi>u</mi><mi>ẩ</mi><mi>n</mi>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
 </mrow>
 <mrow>
 <msqrt>
 <mrow>
-<mi>k</mi><mi>í</mi><mi>c</mi><mi>h</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>ư</mi><mi>ớ</mi><mi>c</mi><mtext> </mtext><mi>m</mi><mi>ẫ</mi><mi>u</mi>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
 </mrow>
 </msqrt>
 </mrow>
 </mfrac>
 </mrow>
 <mo>)</mo></mrow>
-</mrow></annotation-xml></semantics></math></span></p><p id="fs-idm176650400-vn">trong đó:</p><ul id="fs-idm130027040">
-<li><em data-effect="italics">mean</em> là số trung bình của phân phối gốc</li>
-<li><em data-effect="italics">standard deviation</em> là độ lệch chuẩn của phân phối gốc</li>
-<li><em data-effect="italics">kích thước mẫu</em><em data-effect="italics">n</em></li>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="fs-idm32771680-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mi>n</mi><mi>o</mi><mi>r</mi><mi>m</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>d</mi><mi>f</mi><mrow><mo>(</mo>
+<mrow>
+<mi>l</mi><mi>o</mi><mi>w</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>u</mi><mi>p</mi><mi>p</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>m</mi><mi>e</mi><mi>a</mi><mi>n</mi><mo>,</mo><mtext> </mtext><mfrac>
+<mrow>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>n</mi><mi>o</mi><mi>r</mi><mi>m</mi><mi>a</mi><mi>l</mi><mi>c</mi><mi>d</mi><mi>f</mi><mrow><mo>(</mo>
+<mrow>
+<mi>l</mi><mi>o</mi><mi>w</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>u</mi><mi>p</mi><mi>p</mi><mi>e</mi><mi>r</mi><mtext> </mtext><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mtext> </mtext><mi>o</mi><mi>f</mi><mtext> </mtext><mi>t</mi><mi>h</mi><mi>e</mi><mtext> </mtext><mi>a</mi><mi>r</mi><mi>e</mi><mi>a</mi><mo>,</mo><mtext> </mtext><mi>m</mi><mi>e</mi><mi>a</mi><mi>n</mi><mo>,</mo><mtext> </mtext><mfrac>
+<mrow>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="fs-idm176650400">where:
+</p><p class="vn visible" id="fs-idm176650400-vn">trong đó:</p><ul id="fs-idm130027040">
+<li class="eng hidden"><em data-effect="italics">mean</em> is the mean of the original distribution</li><li class="vn visible"><em data-effect="italics">mean</em> là số trung bình của phân phối gốc</li>
+<li class="eng hidden"><em data-effect="italics">standard deviation</em> is the standard deviation of the original distribution</li><li class="vn visible"><em data-effect="italics">standard deviation</em> là độ lệch chuẩn của phân phối gốc</li>
+<li class="eng hidden"><em data-effect="italics">sample size</em> = <em data-effect="italics">n</em></li><li class="vn visible"><em data-effect="italics">kích thước mẫu = </em><em data-effect="italics">n</em></li>
 </ul>
 </div></section></div>
-<div class="ui-has-child-title" data-type="example" id="element-469"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<div class="ui-has-child-title" data-type="example" id="element-469"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">7.1</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
 <span class="os-number">7.1</span>
 <span class="os-divider"> </span></h3></header><section>
 <div class="body">
-<p id="element-961-vn">Một phân phối chưa biết có số trung bình là 90 và độ lệch chuẩn là 15. Các mẫu có kích thước <em data-effect="italics">n</em> = 25 được lấy ngẫu nhiên từ quần thể.</p>
+<p class="eng hidden" id="element-961">An unknown distribution has a mean of 90 and a standard deviation of 15. Samples of size <em data-effect="italics">n</em> = 25 are drawn randomly from the population.</p><p class="vn visible" id="element-961-vn">Một phân phối chưa biết có số trung bình là 90 và độ lệch chuẩn là 15. Các mẫu có kích thước <em data-effect="italics">n</em> = 25 được lấy ngẫu nhiên từ quần thể.</p>
 <div class="unnumbered has-problem-title" data-type="exercise" id="element-705"><header></header><section>
-<div data-type="problem" id="id5873867"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div data-type="problem" id="id5873867"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<p id="element-704-vn"><span data-type="newline"><br/></span>a. Tìm xác suất để <span data-type="term" group-by="s" id="term-00005">Trung bình mẫu</span> nằm trong khoảng từ 85 đến 92.</p></div></div>
+<p class="eng hidden" id="element-704"><span data-type="newline"><br/></span>a. Find the probability that the <span data-type="term" group-by="s" id="term-00005">sample mean</span> is between 85 and 92.</p><p class="vn visible" id="element-704-vn"><span data-type="newline"><br/></span>a. Tìm xác suất để <span data-type="term" group-by="s" id="term-00005">Trung bình mẫu</span> nằm trong khoảng từ 85 đến 92.</p></div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="id5873893">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<p id="fs-idp14520352-vn">a. Gọi <em data-effect="italics">X</em> = một giá trị từ quần thể chưa biết ban đầu. Câu hỏi xác suất yêu cầu bạn tìm xác suất cho <strong>số trung bình mẫu</strong>.</p>
-<p id="element-126-vn">Gọi <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idp14520352">a. Let <em data-effect="italics">X</em> = one value from the original unknown population. The probability question asks you to find a probability for the <strong>sample mean</strong>.</p><p class="vn visible" id="fs-idp14520352-vn">a. Gọi <em data-effect="italics">X</em> = một giá trị từ quần thể chưa biết ban đầu. Câu hỏi xác suất yêu cầu bạn tìm xác suất cho <strong>số trung bình mẫu</strong>.</p>
+<p class="eng hidden" id="element-126">Let <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> = the mean of a sample of size 25. Since <em data-effect="italics">μ</em><sub><em data-effect="italics">X</em></sub> = 90, <em data-effect="italics">σ<sub>X</sub></em> = 15, and <em data-effect="italics">n</em> = 25, </p><p class="vn visible" id="element-126-vn">Gọi <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -255,7 +372,7 @@
 <mi>x</mi>
 <mo>¯</mo>
 </mover></annotation-xml></semantics></math></span> = số trung bình của một mẫu có kích thước 25. Vì <em data-effect="italics">μ</em><sub><em data-effect="italics">X</em></sub> = 90, <em data-effect="italics">σ<sub>X</sub></em> = 15, và <em data-effect="italics">n</em> = 25,</p>
-<p id="element-756-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-756"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -263,8 +380,96 @@
 </mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
-</mover></annotation-xml></semantics></math></span><em data-effect="italics">N</em>.</p>
-<p id="element-181-vn">Tìm <em data-effect="italics">P</em>(85 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+</mover></annotation-xml></semantics></math></span> ~ <em data-effect="italics">N</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>90</mn><mtext>, </mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>90</mn><mtext>, </mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>.</p><p class="vn visible" id="element-756-vn"><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> ~ <em data-effect="italics">N</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>90</mn><mtext>, </mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>90</mn><mtext>, </mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span>.</p>
+<p class="eng hidden" id="element-181">Find <em data-effect="italics">P</em>(85 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> &lt; 92). Draw a graph.</p><p class="vn visible" id="element-181-vn">Tìm <em data-effect="italics">P</em>(85 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -273,7 +478,8 @@
 <mi>x</mi>
 <mo>¯</mo>
 </mover></annotation-xml></semantics></math></span> &lt; 92). Vẽ một biểu đồ.</p>
-<p id="element-196-vn"><em data-effect="italics">P</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-196">
+<em data-effect="italics">P</em>(85 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -281,8 +487,17 @@
 </mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
-</mover></annotation-xml></semantics></math></span></p>
-<p id="element-594-vn">Xác suất để số trung bình mẫu nằm trong khoảng từ 85 đến 92 là 0.6997.</p>
+</mover></annotation-xml></semantics></math></span> &lt; 92) = 0.6997</p><p class="vn visible" id="element-196-vn">
+<em data-effect="italics">P</em>(85 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> &lt; 92) = 0,6997</p>
+<p class="eng hidden" id="element-594">The probability that the sample mean is between 85 and 92 is 0.6997.</p><p class="vn visible" id="element-594-vn">Xác suất để số trung bình mẫu nằm trong khoảng từ 85 đến 92 là 0,6997.</p>
 </div>
 </section>
 </details>
@@ -290,12 +505,17 @@
 <div class="os-figure" id="fs-idm143949248"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm143949248">
 <span data-alt="This is a normal distribution curve. The peak of the curve coincides with the point 90 on the horizontal axis. The points 85 and 92 are labeled on the axis. Vertical lines are drawn from these points to the curve and the area between the lines is shaded. The shaded region represents the probability that 85 &lt; x &lt; 92." data-type="media" id="id5864797">
 <button aria-label="Click to enlarge image of This is a normal distribution curve. The peak of the curve coincides with the point 90 on the horizontal axis. The points 85 and 92 are labeled on the axis. Vertical lines are drawn from these points to the curve and the area between the lines is shaded. The shaded region represents the probability that 85 &lt; x &lt; 92." class="image-button-wrapper" type="button"><img alt="This is a normal distribution curve. The peak of the curve coincides with the point 90 on the horizontal axis. The points 85 and 92 are labeled on the axis. Vertical lines are drawn from these points to the curve and the area between the lines is shaded. The shaded region represents the probability that 85 &lt; x &lt; 92." data-media-type="image/png" height="443" loading="lazy" src="assets/img-7-1-1.webp" width="966"/></button></span>
-<figcaption class="os-caption-container"><span class="os-title-label">Hình </span>
+<figcaption class="os-caption-container eng hidden">
+<span class="os-title-label">Figure </span>
+<span class="os-number">7.2</span>
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
 <span class="os-number">7.2</span></figcaption></figure></div>
-<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm146534448"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm146534448"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
 <div class="os-note-body">
-<p id="element-868-vn"><code data-type="code">normalcdf</code>(giá trị thấp hơn, giá trị cao hơn, số trung bình, sai số chuẩn của số trung bình)</p>
-<p id="element-106-vn">Danh sách tham số được viết tắt (giá trị thấp hơn, giá trị cao hơn, <em data-effect="italics">μ</em>, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-868"><code data-type="code">normalcdf</code>(lower value, upper value, mean, standard error of the mean)</p><p class="vn visible" id="element-868-vn"><code data-type="code">normalcdf</code>(giá trị thấp hơn, giá trị cao hơn, số trung bình, sai số chuẩn của số trung bình)</p>
+<p class="eng hidden" id="element-106">The parameter list is abbreviated (lower value, upper value, <em data-effect="italics">μ</em>, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mfrac>
 <mi>σ</mi>
@@ -315,7 +535,27 @@
 </msqrt>
 </mrow>
 </mfrac>
-</mrow></annotation-xml></semantics></math></span>)</p><p id="element-77-vn"><code data-type="code">normalcdf</code>(85,92,90,<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+</mrow></annotation-xml></semantics></math></span>)</p><p class="vn visible" id="element-106-vn">Danh sách tham số được viết tắt (giá trị thấp hơn, giá trị cao hơn, <em data-effect="italics">μ</em>, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>)</p><p class="eng hidden" id="element-77"><code data-type="code">normalcdf</code>(85,92,90,<span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mfrac>
 <mrow>
@@ -343,18 +583,50 @@
 </msqrt>
 </mrow>
 </mfrac>
-</mrow></annotation-xml></semantics></math></span>) = 0.6997</p></div></section></div>
+</mrow></annotation-xml></semantics></math></span>) = 0.6997</p><p class="vn visible" id="element-77-vn"><code data-type="code">normalcdf</code>(85,92,90,<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span>) = 0,6997</p></div></section></div>
 <div class="unnumbered has-problem-title" data-type="exercise" id="element-808"><header></header><section>
-<div data-type="problem" id="id5864943"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div data-type="problem" id="id5864943"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<p id="fs-idm58973456-vn">b. Tìm giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng, 90, của số trung bình mẫu.</p>
+<p class="eng hidden" id="fs-idm58973456">b. Find the value that is two standard deviations above the expected value, 90, of the sample mean.</p><p class="vn visible" id="fs-idm58973456-vn">b. Tìm giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng, 90, của số trung bình mẫu.</p>
 </div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="id5864961">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<p id="element-91-vn">b. Để tìm giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng 90, hãy sử dụng công thức:</p>
-<p id="eip-idm63061120-vn">giá trị = <em data-effect="italics">μ</em><sub>x</sub> + (số lượng độ lệch chuẩn)<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-91">b. To find the value that is two standard deviations above the expected value 90, use the formula:</p><p class="vn visible" id="element-91-vn">b. Để tìm giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng 90, hãy sử dụng công thức:</p>
+<p class="eng hidden" id="eip-idm63061120">value = <em data-effect="italics">μ</em><sub>x</sub> + (#ofTSDEVs)<span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
@@ -392,7 +664,81 @@
 </mfrac>
 </mrow>
 <mo>)</mo></mrow>
-</mrow></annotation-xml></semantics></math></span></p><p id="eip-idp63452384-vn">giá trị = 90 + 2 <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="eip-idm63061120-vn">giá trị = <em data-effect="italics">μ</em><sub>x</sub> + (số lượng độ lệch chuẩn)<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msub>
+<mi>σ</mi>
+<mi>x</mi>
+</msub>
+</mrow>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<msub>
+<mi>σ</mi>
+<mi>x</mi>
+</msub>
+</mrow>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="eip-idp63452384">value = 90 + 2 <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span> = 96</p><p class="vn visible" id="eip-idp63452384-vn">giá trị = 90 + 2 <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
@@ -429,8 +775,60 @@
 </mrow>
 <mo>)</mo></mrow>
 </mrow></annotation-xml></semantics></math></span> = 96</p>
-<p id="element-564-vn">Giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng là 96.</p>
-<p id="fs-idp29133808-vn">Sai số chuẩn của số trung bình là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-564">The value that is two standard deviations above the expected value is 96.</p><p class="vn visible" id="element-564-vn">Giá trị cao hơn hai độ lệch chuẩn so với giá trị kỳ vọng là 96.</p>
+<p class="eng hidden" id="fs-idp29133808">The standard error of the mean is <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<msub><mi>σ</mi><mi>x</mi></msub>
+</mrow>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<msub><mi>σ</mi><mi>x</mi></msub>
+</mrow>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> = <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>25</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math></span> = 3. Recall that the standard error of the mean is a description of how far (on average) that the sample mean will be from the population mean in repeated simple random samples of size <em data-effect="italics">n</em>.</p><p class="vn visible" id="fs-idp29133808-vn">Sai số chuẩn của số trung bình là <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mfrac>
 <mrow>
@@ -486,33 +884,81 @@
 </section>
 </details>
 </section></div></div></section></div>
-<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm83395104"><header><h3 class="os-title"><span class="os-title-label">Thử sức </span>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm83395104"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">7.1</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
 <span class="os-number">7.1</span></h3></header><section>
 <div class="os-note-body">
 <div class="unnumbered" data-type="exercise" id="fs-idm18823760"><header></header><section>
 <div data-type="problem" id="fs-idp5202224"><div class="os-problem-container">
-<p id="fs-idp2240544-vn">Một phân phối chưa biết có số trung bình là 45 và độ lệch chuẩn là tám. Các mẫu có kích thước <em data-effect="italics">n</em> = 30 được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ 42 đến 50.</p>
+<p class="eng hidden" id="fs-idp2240544">An unknown distribution has a mean of 45 and a standard deviation of eight. Samples of size <em data-effect="italics">n</em> = 30 are drawn randomly from the population. Find the probability that the sample mean is between 42 and 50.</p><p class="vn visible" id="fs-idp2240544-vn">Một phân phối chưa biết có số trung bình là 45 và độ lệch chuẩn là tám. Các mẫu có kích thước <em data-effect="italics">n</em> = 30 được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ 42 đến 50.</p>
 </div></div>
 </section></div>
 </div></section></div>
-<div class="ui-has-child-title" data-type="example" id="element-708"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<div class="ui-has-child-title" data-type="example" id="element-708"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">7.2</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
 <span class="os-number">7.2</span>
 <span class="os-divider"> </span></h3></header><section>
 <div class="body">
 <div class="unnumbered has-problem-title" data-type="exercise" id="element-794"><header></header><section>
-<div data-type="problem" id="id5865146"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div data-type="problem" id="id5865146"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<p id="element-24-vn">Khoảng thời gian, tính bằng giờ, để một nhóm người "trên 40 tuổi" chơi một trận bóng đá được phân phối chuẩn với <strong>số trung bình là hai giờ</strong> và <strong>độ lệch chuẩn là 0,5 giờ</strong>. Một <strong>mẫu có kích thước <em data-effect="italics">n</em> = 50</strong> được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để <strong>số trung bình mẫu</strong> nằm trong khoảng từ 1,8 giờ đến 2,3 giờ.</p>
+<p class="eng hidden" id="element-24">The length of time, in hours, it takes an "over 40" group of people to play one soccer match is normally distributed with a <strong>mean of two hours</strong> and a <strong>standard deviation of 0.5 hours</strong>. A <strong>sample of size <em data-effect="italics">n</em> = 50</strong> is drawn randomly from the population. Find the probability that the <strong>sample mean</strong> is between 1.8 hours and 2.3 hours.</p><p class="vn visible" id="element-24-vn">Khoảng thời gian, tính bằng giờ, để một nhóm người "trên 40 tuổi" chơi một trận bóng đá được phân phối chuẩn với <strong>số trung bình là hai giờ</strong> và <strong>độ lệch chuẩn là 0,5 giờ</strong>. Một <strong>mẫu có kích thước <em data-effect="italics">n</em> = 50</strong> được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để <strong>số trung bình mẫu</strong> nằm trong khoảng từ 1,8 giờ đến 2,3 giờ.</p>
 </div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="id5865170">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<p id="element-723-vn">Gọi <em data-effect="italics">X</em> = thời gian, tính bằng giờ, để chơi một trận bóng đá.</p>
-<p id="element-302-vn">Câu hỏi xác suất yêu cầu bạn tìm xác suất cho <strong>thời gian trung bình mẫu, tính bằng giờ</strong>, để chơi một trận bóng đá.</p>
-<p id="element-849-vn">Gọi <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> = thời gian <span data-type="term" group-by="m" id="term-00006">Trung bình</span>, tính bằng giờ, để chơi một trận bóng đá.</p>
-<p id="fs-idm28701424-vn">Nếu <em data-effect="italics">μ<sub>X</sub></em> = _________, <em data-effect="italics">σ<sub>X</sub></em> = __________, và <em data-effect="italics">n</em> = ___________, thì <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> ~ <em data-effect="italics">N</em>(______, ______) theo <span data-type="term" group-by="c" id="term-00007">Định lý giới hạn trung tâm cho giá trị trung bình</span>.</p>
-<p id="fs-idm68643920-vn"><em data-effect="italics">μ<sub>X</sub></em> = 2, <em data-effect="italics">σ<sub>X</sub></em> = 0,5, <em data-effect="italics">n</em> = 50, và <em data-effect="italics">X</em> ~ <em data-effect="italics">N</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="element-723">
+Let <em data-effect="italics">X</em> = the time, in hours, it takes to play one soccer match.</p><p class="vn visible" id="element-723-vn">Gọi <em data-effect="italics">X</em> = thời gian, tính bằng giờ, để chơi một trận bóng đá.</p>
+<p class="eng hidden" id="element-302">The probability question asks you to find a probability for the <strong>sample mean time, in hours</strong>, it takes to play one soccer match.</p><p class="vn visible" id="element-302-vn">Câu hỏi xác suất yêu cầu bạn tìm xác suất cho <strong>thời gian trung bình mẫu, tính bằng giờ</strong>, để chơi một trận bóng đá.</p>
+<p class="eng hidden" id="element-849">Let <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> = the <span data-type="term" group-by="m" id="term-00006">mean</span> time, in hours, it takes to play one soccer match.</p><p class="vn visible" id="element-849-vn">Gọi <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> = thời gian <span data-type="term" group-by="m" id="term-00006">Trung bình</span>, tính bằng giờ, để chơi một trận bóng đá.</p>
+<p class="eng hidden" id="fs-idm28701424">If <em data-effect="italics">μ<sub>X</sub></em> = _________, <em data-effect="italics">σ<sub>X</sub></em> = __________, and <em data-effect="italics">n</em> =  ___________, then <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> ~ <em data-effect="italics">N</em>(______, ______) by the <span data-type="term" group-by="c" id="term-00007">central limit theorem for means</span>.</p><p class="vn visible" id="fs-idm28701424-vn">Nếu <em data-effect="italics">μ<sub>X</sub></em> = _________, <em data-effect="italics">σ<sub>X</sub></em> = __________, và <em data-effect="italics">n</em> = ___________, thì <span class="os-math-in-para"><math display="inline"><semantics><mrow><mover accent="true"><mi>X</mi><mo>¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover accent="true"><mi>X</mi><mo>¯</mo></mover></annotation-xml></semantics></math></span> ~ <em data-effect="italics">N</em>(______, ______) theo <span data-type="term" group-by="c" id="term-00007">Định lý giới hạn trung tâm cho giá trị trung bình</span>.</p>
+<p class="eng hidden" id="fs-idm68643920"><em data-effect="italics">μ<sub>X</sub></em> = 2, <em data-effect="italics">σ<sub>X</sub></em> = 0.5, <em data-effect="italics">n</em> = 50, and <em data-effect="italics">X</em> ~ <em data-effect="italics">N</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>2, </mtext><mfrac>
+<mrow>
+<mn>0.5</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>50</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>2, </mtext><mfrac>
+<mrow>
+<mn>0.5</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>50</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="fs-idm68643920-vn"><em data-effect="italics">μ<sub>X</sub></em> = 2, <em data-effect="italics">σ<sub>X</sub></em> = 0,5, <em data-effect="italics">n</em> = 50, và <em data-effect="italics">X</em> ~ <em data-effect="italics">N</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
@@ -549,7 +995,15 @@
 </mrow>
 <mo>)</mo></mrow>
 </mrow></annotation-xml></semantics></math></span></p>
-<p id="fs-idm39125184-vn">Tìm <em data-effect="italics">P</em>(1,8 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idm39125184">Find <em data-effect="italics">P</em>(1.8 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> &lt; 2.3). Draw a graph.</p><p class="vn visible" id="fs-idm39125184-vn">Tìm <em data-effect="italics">P</em>(1,8 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -558,7 +1012,7 @@
 <mi>x</mi>
 <mo>¯</mo>
 </mover></annotation-xml></semantics></math></span> &lt; 2,3). Vẽ một biểu đồ.</p>
-<p id="fs-idp90367824-vn"><em data-effect="italics">P</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idp90367824"><em data-effect="italics">P</em>(1.8 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -566,8 +1020,16 @@
 </mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
-</mover></annotation-xml></semantics></math></span></p>
-<p id="element-290-vn"><code data-type="code">normalcdf</code><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+</mover></annotation-xml></semantics></math></span> &lt; 2.3) = 0.9977</p><p class="vn visible" id="fs-idp90367824-vn"><em data-effect="italics">P</em>(1,8 &lt; <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> &lt; 2,3) = 0,9977</p>
+<p class="eng hidden" id="element-290"><code data-type="code">normalcdf</code><span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
@@ -603,34 +1065,112 @@
 </mfrac>
 </mrow>
 <mo>)</mo></mrow>
-</mrow></annotation-xml></semantics></math></span> = 0,9977</p><p id="element-13-vn">Xác suất để thời gian trung bình nằm trong khoảng từ 1,8 giờ đến 2,3 giờ là 0,9977.</p></div>
+</mrow></annotation-xml></semantics></math></span> = 0.9977</p><p class="vn visible" id="element-290-vn"><code data-type="code">normalcdf</code><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>1.</mn><mtext>8,2</mtext><mtext>.3,2,</mtext><mfrac>
+<mrow>
+<mn>.5</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>50</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>1.</mn><mtext>8,2</mtext><mtext>.3,2,</mtext><mfrac>
+<mrow>
+<mn>.5</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>50</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span> = 0,9977</p><p class="eng hidden" id="element-13">The probability that the mean time is between 1.8 hours and 2.3 hours is 0.9977.</p><p class="vn visible" id="element-13-vn">Xác suất để thời gian trung bình nằm trong khoảng từ 1,8 giờ đến 2,3 giờ là 0,9977.</p></div>
 </section>
 </details>
 </section></div></div></section></div>
-<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm109373536"><header><h3 class="os-title"><span class="os-title-label">Thử sức </span>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm109373536"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">7.2</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
 <span class="os-number">7.2</span></h3></header><section>
 <div class="os-note-body">
 <div class="unnumbered" data-type="exercise" id="fs-idp55734224"><header></header><section>
 <div data-type="problem" id="fs-idp43500160"><div class="os-problem-container">
-<p id="fs-idp24603664-vn">Khoảng thời gian làm bài SAT của một nhóm học sinh được phân phối chuẩn với số trung bình là 2,5 giờ và độ lệch chuẩn là 0,25 giờ. Một mẫu có kích thước <em data-effect="italics">n</em> = 60 được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ hai giờ đến ba giờ.</p>
+<p class="eng hidden" id="fs-idp24603664">The length of time taken on the SAT for a group of students is normally distributed with a mean of 2.5 hours and a standard deviation of 0.25 hours. A sample size of <em data-effect="italics">n</em> = 60 is drawn randomly from the population. Find the probability that the sample mean is between two hours and three hours.</p><p class="vn visible" id="fs-idp24603664-vn">Khoảng thời gian làm bài SAT của một nhóm học sinh được phân phối chuẩn với số trung bình là 2,5 giờ và độ lệch chuẩn là 0,25 giờ. Một mẫu có kích thước <em data-effect="italics">n</em> = 60 được rút ngẫu nhiên từ quần thể. Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ hai giờ đến ba giờ.</p>
 </div></div>
 </section></div></div></section></div>
-<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm13085488"><header><h3 class="os-title" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="statistics calculator ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm13085488"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
 <div class="os-note-body">
-<p id="fs-idm146458576-vn">Để tìm các bách phân vị cho các số trung bình trên máy tính, hãy làm theo các bước sau.</p>
-<p id="fs-idm39446144-vn"><code data-type="code">2<sup>nd</sup> DIStR</code><span data-type="newline"><br/></span></p>
-<p id="fs-idm50856880-vn"><em data-effect="italics">k</em><span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idm146458576">To find percentiles for means on the calculator, follow these steps.</p><p class="vn visible" id="fs-idm146458576-vn">Để tìm các bách phân vị cho các số trung bình trên máy tính, hãy làm theo các bước sau.</p>
+<p class="eng hidden" id="fs-idm39446144"><code data-type="code">2<sup>nd</sup> DIStR</code>
+<span data-type="newline"><br/></span><code data-type="code">3:invNorm</code></p><p class="vn visible" id="fs-idm39446144-vn"><code data-type="code">2<sup>nd</sup> DIStR</code><span data-type="newline"><br/></span></p>
+<p class="eng hidden" id="fs-idm50856880"><em data-effect="italics">k</em> = invNorm<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>area to the left of </mtext><mi>k</mi><mtext>, mean,</mtext><mo> </mo><mfrac>
+<mrow>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>area to the left of </mtext><mi>k</mi><mtext>, mean,</mtext><mo> </mo><mfrac>
+<mrow>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math></span></p><p class="vn visible" id="fs-idm50856880-vn"><em data-effect="italics">k</em> = invNorm <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
 <mrow>
 <mtext>diện tích bên trái của </mtext><mi>k</mi><mtext>, trung bình,</mtext><mo> </mo><mfrac>
 <mrow>
-<mi>đ</mi><mi>ộ</mi><mo> </mo><mi>l</mi><mi>ệ</mi><mi>c</mi><mi>h</mi><mo> </mo><mi>c</mi><mi>h</mi><mi>u</mi><mi>ẩ</mi><mi>n</mi>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
 </mrow>
 <mrow>
 <msqrt>
 <mrow>
-<mi>k</mi><mi>í</mi><mi>c</mi><mi>h</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>ư</mi><mi>ớ</mi><mi>c</mi><mo> </mo><mi>m</mi><mi>ẫ</mi><mi>u</mi>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
 </mrow>
 </msqrt>
 </mrow>
@@ -643,43 +1183,120 @@
 <mrow>
 <mtext>diện tích bên trái của </mtext><mi>k</mi><mtext>, trung bình,</mtext><mo> </mo><mfrac>
 <mrow>
-<mi>đ</mi><mi>ộ</mi><mo> </mo><mi>l</mi><mi>ệ</mi><mi>c</mi><mi>h</mi><mo> </mo><mi>c</mi><mi>h</mi><mi>u</mi><mi>ẩ</mi><mi>n</mi>
+<mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mi>a</mi><mi>r</mi><mi>d</mi><mo> </mo><mi>d</mi><mi>e</mi><mi>v</mi><mi>i</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi>
 </mrow>
 <mrow>
 <msqrt>
 <mrow>
-<mi>k</mi><mi>í</mi><mi>c</mi><mi>h</mi><mo> </mo><mi>t</mi><mi>h</mi><mi>ư</mi><mi>ớ</mi><mi>c</mi><mo> </mo><mi>m</mi><mi>ẫ</mi><mi>u</mi>
+<mi>s</mi><mi>a</mi><mi>m</mi><mi>p</mi><mi>l</mi><mi>e</mi><mo> </mo><mi>s</mi><mi>i</mi><mi>z</mi><mi>e</mi>
 </mrow>
 </msqrt>
 </mrow>
 </mfrac>
 </mrow>
 <mo>)</mo></mrow>
-</mrow></annotation-xml></semantics></math></span></p><p id="fs-idm74111040-vn">trong đó:</p><ul id="fs-idm74110784"><li><em data-effect="italics">k</em> = bách phân vị thứ <em data-effect="italics">k</em></li>
-<li><em data-effect="italics">mean</em> là số trung bình của phân phối gốc</li>
-<li><em data-effect="italics">standard deviation</em> là độ lệch chuẩn của phân phối gốc</li>
-<li><em data-effect="italics">kích thước mẫu</em><em data-effect="italics">n</em></li>
+</mrow></annotation-xml></semantics></math></span></p><p class="eng hidden" id="fs-idm74111040">where:
+</p><p class="vn visible" id="fs-idm74111040-vn">trong đó:</p><ul id="fs-idm74110784"><li class="eng hidden"><em data-effect="italics">k</em> = the <em data-effect="italics">k</em><sup>th</sup> percentile</li><li class="vn visible"><em data-effect="italics">k</em> = bách phân vị thứ <em data-effect="italics">k</em></li>
+<li class="eng hidden"><em data-effect="italics">mean</em> is the mean of the original distribution</li><li class="vn visible"><em data-effect="italics">mean</em> là số trung bình của phân phối gốc</li>
+<li class="eng hidden"><em data-effect="italics">standard deviation</em> is the standard deviation of the original distribution</li><li class="vn visible"><em data-effect="italics">standard deviation</em> là độ lệch chuẩn của phân phối gốc</li>
+<li class="eng hidden"><em data-effect="italics">sample size</em> = <em data-effect="italics">n</em></li><li class="vn visible"><em data-effect="italics">kích thước mẫu = </em><em data-effect="italics">n</em></li>
 </ul>
 </div></section></div>
-<div class="ui-has-child-title" data-type="example" id="fs-idp22561888"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<div class="ui-has-child-title" data-type="example" id="fs-idp22561888"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">7.3</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
 <span class="os-number">7.3</span>
 <span class="os-divider"> </span></h3></header><section>
 <div class="body">
 <div class="unnumbered has-problem-title" data-type="exercise" id="fs-idp8724208"><header></header><section>
-<div data-type="problem" id="fs-idp17530752"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div data-type="problem" id="fs-idp17530752"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<p id="fs-idp27120736-vn">Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 34 tuổi. Giả sử độ lệch chuẩn là 15 tuổi. Lấy một mẫu có kích thước <em data-effect="italics">n</em> = 100.</p>
+<p class="eng hidden" id="fs-idp27120736">In a recent study, it was reported that the mean age of iPad users is 34 years. Suppose the standard deviation is 15 years. Take a sample of size <em data-effect="italics">n</em> = 100.</p><p class="vn visible" id="fs-idp27120736-vn">Trong một nghiên cứu gần đây, có báo cáo rằng độ tuổi trung bình của người dùng iPad là 34 tuổi. Giả sử độ lệch chuẩn là 15 tuổi. Lấy một mẫu có kích thước <em data-effect="italics">n</em> = 100.</p>
 <ol id="fs-idm47147072" type="a">
-<li>Số trung bình và độ lệch chuẩn cho độ tuổi trung bình mẫu của người dùng iPad là bao nhiêu?</li>
-<li>Phân phối trông như thế nào?</li>
-<li>Hãy tìm xác suất để độ tuổi trung bình mẫu lớn hơn 30 tuổi (độ tuổi trung bình được báo cáo của người dùng iPad trong nghiên cứu cụ thể này).</li>
-<li>Hãy tìm bách phân vị thứ 95 cho độ tuổi trung bình mẫu (làm tròn đến một chữ số thập phân).</li>
+<li class="eng hidden">What are the mean and standard deviation for the sample mean ages of iPad users?</li><li class="vn visible">Số trung bình và độ lệch chuẩn cho độ tuổi trung bình mẫu của người dùng iPad là bao nhiêu?</li>
+<li class="eng hidden">What does the distribution look like?</li><li class="vn visible">Phân phối trông như thế nào?</li>
+<li class="eng hidden">Find the probability that the sample mean age is more than 30 years (the reported mean age of iPad users in this particular study).</li><li class="vn visible">Hãy tìm xác suất để độ tuổi trung bình mẫu lớn hơn 30 tuổi (độ tuổi trung bình được báo cáo của người dùng iPad trong nghiên cứu cụ thể này).</li>
+<li class="eng hidden">Find the 95<sup>th</sup> percentile for the sample mean age (to one decimal place).</li><li class="vn visible">Hãy tìm bách phân vị thứ 95 cho độ tuổi trung bình mẫu (làm tròn đến một chữ số thập phân).</li>
 </ol></div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="fs-idp42522512">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<ol id="fs-idm50017008" type="a"><li>Vì số trung bình mẫu có xu hướng nhắm vào số trung bình quần thể, chúng ta có <em data-effect="italics">μ<sub>χ</sub></em> = <em data-effect="italics">μ</em> = 34. Độ lệch chuẩn mẫu được cho bởi <em data-effect="italics">σ<sub>χ</sub></em> = <math display="inline"><semantics><mrow>
+<ol id="fs-idm50017008" type="a"><li class="eng hidden">Since the sample mean tends to target the population mean, we have <em data-effect="italics">μ<sub>χ</sub></em> = <em data-effect="italics">μ</em> = 34. The sample standard deviation is given by <em data-effect="italics">σ<sub>χ</sub></em> = <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> = <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> = <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<mn>10</mn>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math> = 1.5</li><li class="vn visible">Vì số trung bình mẫu có xu hướng nhắm vào số trung bình quần thể, chúng ta có <em data-effect="italics">μ<sub>χ</sub></em> = <em data-effect="italics">μ</em> = 34. Độ lệch chuẩn mẫu được cho bởi <em data-effect="italics">σ<sub>χ</sub></em> = <math display="inline"><semantics><mrow>
 <mrow>
 <mfrac>
 <mi>σ</mi>
@@ -748,9 +1365,46 @@
 </mrow>
 </mfrac>
 </mrow></annotation-xml></semantics></math> = 1,5</li>
-<li>Định lý giới hạn trung tâm phát biểu rằng đối với các kích thước mẫu lớn (<em data-effect="italics">n</em>), phân phối mẫu sẽ xấp xỉ chuẩn.</li>
-<li>Xác suất để độ tuổi trung bình mẫu lớn hơn 30 được cho bởi <math display="inline"><semantics><mrow><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></annotation-xml></semantics></math> = <code data-type="code">normalcdf</code>(30,E99,34,1,5) = 0,9962</li>
-<li>Gọi <em data-effect="italics">k</em> = bách phân vị thứ 95.
+<li class="eng hidden">The central limit theorem states that for large sample sizes(<em data-effect="italics">n</em>), the sampling distribution will be approximately normal.</li><li class="vn visible">Định lý giới hạn trung tâm phát biểu rằng đối với các kích thước mẫu lớn (<em data-effect="italics">n</em>), phân phối mẫu sẽ xấp xỉ chuẩn.</li>
+<li class="eng hidden">The probability that the sample mean age is more than 30 is given by <math display="inline"><semantics><mrow><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></annotation-xml></semantics></math> = <code data-type="code">normalcdf</code>(30,E99,34,1.5) = 0.9962</li><li class="vn visible">Xác suất để độ tuổi trung bình mẫu lớn hơn 30 được cho bởi <math display="inline"><semantics><mrow><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></mrow><annotation-xml encoding="MathML-Content"><mi>P</mi><mo>(</mo><mover accent="true"><mi>X</mi><mo>¯</mo></mover><mo> </mo><mo>&gt;</mo><mo> </mo><mn>30</mn><mo>)</mo></annotation-xml></semantics></math> = <code data-type="code">normalcdf</code>(30,E99,34,1,5) = 0,9962</li>
+<li class="eng hidden">Let <em data-effect="italics">k</em> = the 95<sup>th</sup> percentile.
+<span data-count="1" data-type="newline"><br/></span><em data-effect="italics">k</em> = invNorm<math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>0.</mn><mtext>95,34,</mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>0.</mn><mtext>95,34,</mtext><mfrac>
+<mrow>
+<mn>15</mn>
+</mrow>
+<mrow>
+<msqrt>
+<mrow>
+<mn>100</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math> = 36.5</li><li class="vn visible">Gọi <em data-effect="italics">k</em> = bách phân vị thứ 95.
 <span data-count="1" data-type="newline"><br/></span><em data-effect="italics">k</em> = invNorm<math display="inline"><semantics><mrow>
 <mrow>
 <mrow><mo>(</mo>
@@ -793,33 +1447,122 @@
 </details>
 </section></div>
 </div></section></div>
-<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm63776496"><header><h3 class="os-title"><span class="os-title-label">Thử sức </span>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm63776496"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">7.3</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
 <span class="os-number">7.3</span></h3></header><section>
 <div class="os-note-body">
 <div class="unnumbered" data-type="exercise" id="fs-idm62512800"><header></header><section>
 <div data-type="problem" id="fs-idm44878080"><div class="os-problem-container">
-<p id="fs-idm48406832-vn">Trong một bài báo trên Flurry Blog, một khoảng trống tiếp thị trò chơi cho nam giới trong độ tuổi từ 30 đến 40 đã được xác định. Bạn đang nghiên cứu một trò chơi khởi nghiệp nhắm vào nhóm nhân khẩu học 35 tuổi. Ý tưởng của bạn là phát triển một trò chơi chiến thuật mà nam giới từ cuối độ tuổi 20 đến cuối độ tuổi 30 có thể chơi được. Dựa trên dữ liệu của bài báo, nghiên cứu ngành cho thấy người chơi chiến thuật trung bình là 28 tuổi với độ lệch chuẩn là 4,8 tuổi. Bạn lấy một mẫu gồm 100 game thủ được chọn ngẫu nhiên. Nếu thị trường mục tiêu của bạn là những người từ 29 đến 35 tuổi, bạn có nên tiếp tục với chiến lược phát triển của mình không?</p></div></div>
+<p class="eng hidden" id="fs-idm48406832">In an article on Flurry Blog, a gaming marketing gap for men between the ages of 30 and 40 is identified. You are researching a startup game targeted at the 35-year-old demographic. Your idea is to develop a strategy game that can be played by men from their late 20s through their late 30s. Based on the article’s data, industry research shows that the average strategy player is 28 years old with a standard deviation of 4.8 years. You take a sample of 100 randomly selected gamers. If your target market is 29- to 35-year-olds, should you continue with your development strategy?</p><p class="vn visible" id="fs-idm48406832-vn">Trong một bài báo trên Flurry Blog, một khoảng trống tiếp thị trò chơi cho nam giới trong độ tuổi từ 30 đến 40 đã được xác định. Bạn đang nghiên cứu một trò chơi khởi nghiệp nhắm vào nhóm nhân khẩu học 35 tuổi. Ý tưởng của bạn là phát triển một trò chơi chiến thuật mà nam giới từ cuối độ tuổi 20 đến cuối độ tuổi 30 có thể chơi được. Dựa trên dữ liệu của bài báo, nghiên cứu ngành cho thấy người chơi chiến thuật trung bình là 28 tuổi với độ lệch chuẩn là 4,8 tuổi. Bạn lấy một mẫu gồm 100 game thủ được chọn ngẫu nhiên. Nếu thị trường mục tiêu của bạn là những người từ 29 đến 35 tuổi, bạn có nên tiếp tục với chiến lược phát triển của mình không?</p></div></div>
 </section></div>
 </div></section></div>
-<div class="ui-has-child-title" data-type="example" id="fs-idm59036512"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<div class="ui-has-child-title" data-type="example" id="fs-idm59036512"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">7.4</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
 <span class="os-number">7.4</span>
 <span class="os-divider"> </span></h3></header><section>
 <div class="body">
 <div class="unnumbered has-problem-title" data-type="exercise" id="fs-idp15422768"><header></header><section>
-<div data-type="problem" id="fs-idp210784"><h4 data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
+<div data-type="problem" id="fs-idp210784"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài toán</span></h4>
 <div class="os-problem-container">
-<p id="fs-idm45834688-vn">Số phút trung bình cho việc tương tác với ứng dụng của một người dùng iPad là 8,2 phút. Giả sử độ lệch chuẩn là một phút. Lấy một mẫu gồm 60 người.</p>
+<p class="eng hidden" id="fs-idm45834688">The mean number of minutes for app engagement by an iPad user is 8.2 minutes. Suppose the standard deviation is one minute. Take a sample of 60.</p><p class="vn visible" id="fs-idm45834688-vn">Số phút trung bình cho việc tương tác với ứng dụng của một người dùng iPad là 8,2 phút. Giả sử độ lệch chuẩn là một phút. Lấy một mẫu gồm 60 người.</p>
 <ol id="fs-idm51964960" type="a">
-<li>Số trung bình và độ lệch chuẩn cho số phút trung bình mẫu cho việc tương tác với ứng dụng của một người dùng iPad là bao nhiêu?</li>
-<li>Sai số chuẩn của số trung bình là bao nhiêu?</li>
-<li>Hãy tìm bách phân vị thứ 90 cho thời gian trung bình mẫu tính bằng phút cho việc tương tác với ứng dụng của một người dùng iPad. Giải thích giá trị này trong một câu hoàn chỉnh.</li>
-<li>Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ tám phút đến 8,5 phút.</li>
+<li class="eng hidden">What are the mean and standard deviation for the sample mean number of minutes for app engagement by an iPad user?</li><li class="vn visible">Số trung bình và độ lệch chuẩn cho số phút trung bình mẫu cho việc tương tác với ứng dụng của một người dùng iPad là bao nhiêu?</li>
+<li class="eng hidden">What is the standard error of the mean?</li><li class="vn visible">Sai số chuẩn của số trung bình là bao nhiêu?</li>
+<li class="eng hidden">Find the 90<sup>th</sup> percentile for the sample mean time of minutes for app engagement by an iPad user. Interpret this value in a complete sentence.</li><li class="vn visible">Hãy tìm bách phân vị thứ 90 cho thời gian trung bình mẫu tính bằng phút cho việc tương tác với ứng dụng của một người dùng iPad. Giải thích giá trị này trong một câu hoàn chỉnh.</li>
+<li class="eng hidden">Find the probability that the sample mean is between eight minutes and 8.5 minutes.</li><li class="vn visible">Hãy tìm xác suất để số trung bình mẫu nằm trong khoảng từ tám phút đến 8,5 phút.</li>
 </ol></div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="fs-idp4823088">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<ol id="fs-idm38233840" type="a"><li><math display="inline"><semantics><mrow>
+<ol id="fs-idm38233840" type="a"><li class="eng hidden"><math display="inline"><semantics><mrow>
+<mrow>
+<msub>
+<mi>μ</mi>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+</msub>
+<mo>=</mo><mi>μ</mi><mo>=</mo><mn>8.2</mn><mtext> </mtext><msub>
+<mi>σ</mi>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.13</mn>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<msub>
+<mi>μ</mi>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+</msub>
+<mo>=</mo><mi>μ</mi><mo>=</mo><mn>8.2</mn><mtext> </mtext><msub>
+<mi>σ</mi>
+<mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo stretchy="true">¯</mo>
+</mover>
+</mrow>
+</msub>
+<mo>=</mo><mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<mo>=</mo><mn>0.13</mn>
+</mrow></annotation-xml></semantics></math></li><li class="vn visible"><math display="inline"><semantics><mrow>
 <mrow>
 <msub>
 <mi>μ</mi>
@@ -898,8 +1641,42 @@
 </mfrac>
 <mo>=</mo><mn>0.13</mn>
 </mrow></annotation-xml></semantics></math></li>
-<li>Điều này cho phép chúng ta tính toán xác suất của các số trung bình mẫu ở một khoảng cách cụ thể từ số trung bình, trong các mẫu lặp lại có kích thước 60.</li>
-<li>Gọi <em data-effect="italics">k</em> = bách phân vị thứ 90
+<li class="eng hidden">This allows us to calculate the probability of sample means of a particular distance from the mean, in repeated samples of size 60.</li><li class="vn visible">Điều này cho phép chúng ta tính toán xác suất của các số trung bình mẫu ở một khoảng cách cụ thể từ số trung bình, trong các mẫu lặp lại có kích thước 60.</li>
+<li class="eng hidden">Let <em data-effect="italics">k</em> = the 90<sup>th</sup> percentile
+<span data-type="newline"><br/></span>
+<em data-effect="italics">k</em> = <code data-type="code">invNorm</code><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>0.</mn><mtext>90,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mn>0.</mn><mtext>90,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math> = 8.37. This values indicates that 90 percent of the average app engagement time for iPad users is less than 8.37 minutes.</li><li class="vn visible">Gọi <em data-effect="italics">k</em> = bách phân vị thứ 90
 <span data-type="newline"><br/></span>
 <em data-effect="italics">k</em> = <code data-type="code">invNorm</code><math display="inline"><semantics><mrow>
 <mrow>
@@ -934,7 +1711,7 @@
 </mrow>
 <mo>)</mo></mrow>
 </mrow></annotation-xml></semantics></math> = 8,37. Giá trị này chỉ ra rằng 90 phần trăm thời gian tương tác ứng dụng trung bình của người dùng iPad là ít hơn 8,37 phút.</li>
-<li><em data-effect="italics">P</em><math display="inline"><semantics><mrow>
+<li class="eng hidden"><em data-effect="italics">P</em>(8 &lt; <math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
@@ -942,18 +1719,101 @@
 </mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>
-</mover></annotation-xml></semantics></math><code data-type="code">normalcdf</code> = 0,9293</li>
+</mover></annotation-xml></semantics></math> &lt; 8.5) = <code data-type="code">normalcdf</code><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>8,8</mtext><mtext>.5,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>8,8</mtext><mtext>.5,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math> = 0.9293</li><li class="vn visible"><em data-effect="italics">P</em>(8 &lt; <math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math> &lt; 8,5) = <code data-type="code">normalcdf</code><math display="inline"><semantics><mrow>
+<mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>8,8</mtext><mtext>.5,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mrow><mo>(</mo>
+<mrow>
+<mtext>8,8</mtext><mtext>.5,8</mtext><mtext>.2,</mtext><mfrac>
+<mn>1</mn>
+<mrow>
+<msqrt>
+<mrow>
+<mn>60</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math> = 0,9293</li>
 </ol></div>
 </section>
 </details>
 </section></div>
 </div></section></div>
-<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm70207568"><header><h3 class="os-title"><span class="os-title-label">Thử sức </span>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idm70207568"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">7.4</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử sức </span>
 <span class="os-number">7.4</span></h3></header><section>
 <div class="os-note-body">
 <div class="unnumbered" data-type="exercise" id="fs-idp8586512"><header></header><section>
 <div data-type="problem" id="fs-idm57780000"><div class="os-problem-container">
-<p id="fs-idm57779872-vn">Các lon nước ngọt cola tuyên bố chứa 16 ounce. Các lượng trong một mẫu được đo và các trị thống kê là <em data-effect="italics">n</em> = 34, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<p class="eng hidden" id="fs-idm57779872">Cans of a cola beverage claim to contain 16 ounces. The amounts in a sample are measured and the statistics are <em data-effect="italics">n</em> = 34, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>x</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math></span> = 16.01 ounces. If the cans are filled so that <em data-effect="italics">μ</em> = 16.00 ounces (as labeled) and <em data-effect="italics">σ</em> = 0.143 ounces, find the probability that a sample of 34 cans will have an average amount greater than 16.01 ounces. Do the results suggest that cans are filled with an amount greater than 16 ounces?</p><p class="vn visible" id="fs-idm57779872-vn">Các lon nước ngọt cola tuyên bố chứa 16 ounce. Các lượng trong một mẫu được đo và các trị thống kê là <em data-effect="italics">n</em> = 34, <span class="os-math-in-para"><math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>x</mi>
 <mo>¯</mo>

@@ -4,17 +4,17 @@
 
 A certain small town in the United states has a population of 27,873 people. Their ages are as follows:
 
-Một thị trấn nhỏ ở Hoa Kỳ có quần thể là 27.873 người. Độ tuổi của họ như sau:
+Một thị trấn nhỏ ở Hoa Kỳ có quần thể là 27,873 người. Độ tuổi của họ như sau:
 
 | Age Group | Nhóm tuổi | Percent of Community | Phần trăm cộng đồng |
 | --- | --- | --- | --- |
-| 0–17 | 0–17 | 18.9 | 18.9 |
-| 18–24 | 18–24 | 8.0 | 8.0 |
-| 25–34 | 25–34 | 22.8 | 22.8 |
-| 35–44 | 35–44 | 15.0 | 15.0 |
-| 45–54 | 45–54 | 13.1 | 13.1 |
-| 55–64 | 55–64 | 11.9 | 11.9 |
-| 65+ | 65+ | 10.3 | 10.3 |
+| 0–17 | 0–17 | 18.9 | 18,9 |
+| 18–24 | 18–24 | 8.0 | 8,0 |
+| 25–34 | 25–34 | 22.8 | 22,8 |
+| 35–44 | 35–44 | 15.0 | 15,0 |
+| 45–54 | 45–54 | 13.1 | 13,1 |
+| 55–64 | 55–64 | 11.9 | 11,9 |
+| 65+ | 65+ | 10.3 | 10,3 |
 
 1. Construct a histogram of the age distribution for this small town. The bars will **not** be the same width for this example. Why not? What impact does this have on the reliability of the graph?
 1. Hãy xây dựng một biểu đồ histogram về phân phối độ tuổi cho thị trấn nhỏ này. Các cột sẽ **không** có cùng chiều rộng trong ví dụ này. Tại sao lại như vậy? Điều này có tác động gì đến độ tin cậy của biểu đồ?
@@ -56,7 +56,7 @@ Hình
 Figure 
 2.50
 Hình 
-2.50
+2,50
 *Use the following information to answer the next three exercises*: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.
 
 *Sử dụng thông tin sau để trả lời ba bài tập tiếp theo*: Chúng ta quan tâm đến số năm mà sinh viên trong một lớp thống kê sơ cấp cụ thể đã sống ở California. Thông tin trong bảng sau đây là từ toàn bộ lớp học.
@@ -90,11 +90,11 @@ Yếu vị là gì?
 1. 19
 1. 19
 1. 19.5
-1. 19.5
+1. 19,5
 1. 14 and 20
 1. 14 và 20
 1. 22.65
-1. 22.65
+1. 22,65
 Is this a sample or the entire population?
 
 Đây là một mẫu hay toàn bộ quần thể?
@@ -236,7 +236,7 @@ Tham khảo [Hình 2.51](2-bringing-it-together-homework#fs-idm70725344) để x
 2.51*
 
 *Hình 
-2.51*
+2,51*
 
 1. The medians for all three graphs are the same.
 1. Trung vị của cả ba biểu đồ đều giống nhau.
@@ -323,9 +323,9 @@ The number that is 1.5 standard deviations BELOW the mean is approximately _____
 Con số thấp hơn số trung bình 1,5 độ lệch chuẩn là khoảng _____
 
 1. 0.7
-1. 0.7
+1. 0,7
 1. 4.8
-1. 4.8
+1. 4,8
 1. –2.8
 1. –2.8
 1. Cannot be determined

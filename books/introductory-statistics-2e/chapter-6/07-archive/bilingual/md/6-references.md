@@ -4,7 +4,7 @@
 
 “Blood Pressure of Males and Females.” StatCruch, 2013. Available online at [http://www.statcrunch.com/5.0/viewreport.php?reportid=11960](http://www.statcrunch.com/5.0/viewreport.php?reportid=11960) (accessed May 14, 2013).
 
-“Huyết áp của nam giới và nữ giới.” StatCruch, 2013. Có sẵn trực tuyến tại [http://www.statcrunch.com/5.0/viewreport.php?reportid=11960](http://www.statcrunch.com/5.0/viewreport.php?reportid=11960) (truy cập ngày 14 tháng 5 năm 2013).
+“Huyết áp của nam giới và nữ giới.” StatCruch, 2013. Có sẵn trực tuyến tại [http://www.statcrunch.com/5,0/viewreport.php?reportid=11960](http://www.statcrunch.com/5.0/viewreport.php?reportid=11960) (truy cập ngày 14 tháng 5 năm 2013).
 
 “The Use of Epidemiological Tools in Conflict-affected populations: Open-access educational resources for policy-makers: Calculation of z-scores.” London School of Hygiene and Tropical Medicine, 2009. Available online at [http://conflict.lshtm.ac.uk/page_125.htm](http://conflict.lshtm.ac.uk/page_125.htm) (accessed May 14, 2013).
 

@@ -32,7 +32,7 @@ Dữ liệu từ Trung tâm Quốc gia về Thống kê Y tế, một bộ phậ
 
 Dữ liệu từ Thượng viện Hoa Kỳ. Có sẵn trực tuyến tại [www.senate.gov](https://www.senate.gov) (truy cập ngày 2 tháng 5 năm 2013).
 
-Haiman, Christopher A., Daniel O. Stram, Lynn R. Wilkens, Malcom C. Pike, Laurence N. Kolonel, Brien E. Henderson, và Loīc Le Marchand. “Sự khác biệt về sắc tộc và chủng tộc trong nguy cơ ung thư phổi liên quan đến hút thuốc.” The New England Journal of Medicine, 2013. Có sẵn trực tuyến tại [http://www.nejm.org/doi/full/10.1056/NEJMoa033250](http://www.nejm.org/doi/full/10.1056/NEJMoa033250) (truy cập ngày 2 tháng 5 năm 2013).
+Haiman, Christopher A., Daniel O. Stram, Lynn R. Wilkens, Malcom C. Pike, Laurence N. Kolonel, Brien E. Henderson, và Loīc Le Marchand. “Sự khác biệt về sắc tộc và chủng tộc trong nguy cơ ung thư phổi liên quan đến hút thuốc.” The New England Journal of Medicine, 2013. Có sẵn trực tuyến tại [http://www.nejm.org/doi/full/10,1056/NEJMoa033250](http://www.nejm.org/doi/full/10.1056/NEJMoa033250) (truy cập ngày 2 tháng 5 năm 2013).
 
 “Các nhóm máu người.” Unite Blood Services, 2011. Có sẵn trực tuyến tại [http://www.unitedbloodservices.org/learnMore.aspx](http://www.unitedbloodservices.org/learnMore.aspx) (truy cập ngày 2 tháng 5 năm 2013).
 

@@ -2,16 +2,22 @@
 
 <html><head>
 <meta charset="utf-8"/>
-<link href="../css/style.css" rel="stylesheet"/><script src="../book-reader/book-pages.js"></script>
+<link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
 <link rel="stylesheet" href="../book-reader/book-reader.css">
 <script src="../book-reader/book-reader.js"></script>
 </head>
 <body class="book-reader">
-<h2 data-rex-keep="true" data-type="document-title" id="page_b5743be1-228f-419c-a947-e5737622c8aa_titlecreatedbycookbook-vn"><span class="os-number">12.5</span>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title" id="page_b5743be1-228f-419c-a947-e5737622c8aa_titlecreatedbycookbook"><span class="os-number">12.5</span>
+<span class="os-divider"> </span>
+<span class="os-text" data-type="" itemprop="">Prediction</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title" id="page_b5743be1-228f-419c-a947-e5737622c8aa_titlecreatedbycookbook-vn"><span class="os-number">12.5</span>
 <span class="os-divider"> </span>
 <span class="os-text" data-type="" itemprop="">Dự báo</span></h2>
-<p id="eip-775-vn">Hãy nhớ lại <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>.</p><p id="eip-804-vn">Chúng ta đã kiểm tra biểu đồ phân tán và cho thấy rằng hệ số tương quan là có ý nghĩa. Chúng ta đã tìm ra phương trình của đường phù hợp nhất cho điểm thi cuối kỳ như một hàm số của điểm bài thi thứ ba. Bây giờ chúng ta có thể sử dụng đường hồi quy bình phương tối thiểu để dự báo.</p>
-<p id="element-12498-vn">Giả sử bạn muốn ước tính, hoặc dự báo, điểm thi cuối kỳ trung bình của các sinh viên thống kê đã đạt 73 điểm trong bài thi thứ ba. Điểm thi <strong>(các giá trị <em data-effect="italics">x</em>)</strong> dao động từ 65 đến 75. <strong>Vì 73 nằm giữa các giá trị <em data-effect="italics">x</em> từ 65 đến 75</strong>, hãy thay <em data-effect="italics">x</em> = 73 vào phương trình. Sau đó:</p>
+<p class="eng hidden" id="eip-775">Recall the <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">third exam/final exam example</a>.</p><p class="vn visible" id="eip-775-vn">Hãy nhớ lại <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>.</p><p class="eng hidden" id="eip-804">We examined the scatterplot and showed that the correlation coefficient is significant. We found the equation of the best-fit line for the final exam grade as a function of the grade on the third-exam. We can now use the least-squares regression line for prediction.</p><p class="vn visible" id="eip-804-vn">Chúng ta đã kiểm tra biểu đồ phân tán và cho thấy rằng hệ số tương quan là có ý nghĩa. Chúng ta đã tìm ra phương trình của đường phù hợp nhất cho điểm thi cuối kỳ như một hàm số của điểm bài thi thứ ba. Bây giờ chúng ta có thể sử dụng đường hồi quy bình phương tối thiểu để dự báo.</p>
+<p class="eng hidden" id="element-12498">Suppose you want to estimate, or predict, the mean final exam score of statistics students who received 73 on the third exam. The exam scores <strong>(<em data-effect="italics">x</em>-values)</strong> range from 65 to 75. <strong> Since 73 is between the <em data-effect="italics">x</em>-values 65 and 75</strong>, substitute <em data-effect="italics">x</em> = 73 into the equation. Then:</p><p class="vn visible" id="element-12498-vn">Giả sử bạn muốn ước tính, hoặc dự báo, điểm thi cuối kỳ trung bình của các sinh viên thống kê đã đạt 73 điểm trong bài thi thứ ba. Điểm thi <strong>(các giá trị <em data-effect="italics">x</em>)</strong> dao động từ 65 đến 75. <strong>Vì 73 nằm giữa các giá trị <em data-effect="italics">x</em> từ 65 đến 75</strong>, hãy thay <em data-effect="italics">x</em> = 73 vào phương trình. Sau đó:</p>
 <div class="unnumbered" data-label="" data-type="equation" id="element-735"><math display="block"><semantics><mrow>
 <mrow>
 <mover accent="true">
@@ -28,22 +34,57 @@
 <mo>=</mo><mo>−</mo><mn>173.51</mn><mo>+</mo><mn>4.83</mn><mo stretchy="false">(</mo><mn>73</mn><mo stretchy="false">)</mo><mo>=</mo><mn>179.08</mn>
 </mrow></annotation-xml></semantics></math>
 </div>
-<p id="fs-idm74881792-vn">Chúng ta dự báo rằng các sinh viên thống kê đạt điểm 73 trong bài thi thứ ba sẽ đạt điểm trung bình là 179,08 trong bài thi cuối kỳ.</p>
-<div class="ui-has-child-title" data-type="example" id="element-438"><header><h3 class="os-title"><span class="os-title-label">Ví dụ </span>
+<p class="eng hidden" id="fs-idm74881792">We predict that statistics students who earn a grade of 73 on the third exam will earn a grade of 179.08 on the final exam, on average.</p><p class="vn visible" id="fs-idm74881792-vn">Chúng ta dự báo rằng các sinh viên thống kê đạt điểm 73 trong bài thi thứ ba sẽ đạt điểm trung bình là 179,08 trong bài thi cuối kỳ.</p>
+<div class="ui-has-child-title" data-type="example" id="element-438"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Example </span>
+<span class="os-number">12.11</span>
+<span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
 <span class="os-number">12.11</span>
 <span class="os-divider"> </span></h3></header><section>
 <div class="body">
-<p id="element-546-vn">Hãy nhớ lại <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>.<span data-count="2" data-type="newline"><br/><br/></span></p><div class="unnumbered has-problem-title" data-type="exercise" id="element-770"><header></header><section>
-<div data-type="problem" id="id1170592391444"><h4 data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
+<p class="eng hidden" id="element-546">Recall the <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">third exam/final exam example</a>.<span data-count="2" data-type="newline"><br/><br/></span></p><p class="vn visible" id="element-546-vn">Hãy nhớ lại <a aria-label="Go to third exam/final exam example" data-page-fragment="element-22" data-page-slug="12-3-the-regression-equation" data-page-uuid="fd60680f-dbb7-4a97-84b8-f352c3a6c141" href="12-3-the-regression-equation">ví dụ về bài thi thứ ba/bài thi cuối kỳ</a>.<span data-count="2" data-type="newline"><br/><br/></span></p><div class="unnumbered has-problem-title" data-type="exercise" id="element-770"><header></header><section>
+<div data-type="problem" id="id1170592391444"><h4 class="eng hidden" data-type="problem-title">
+<span class="os-title-label">Problem</span>
+</h4><h4 class="vn visible" data-type="problem-title"><span class="os-title-label">Bài tập</span></h4>
 <div class="os-problem-container">
-<p id="element-464-vn">a. Bạn sẽ dự báo điểm thi cuối kỳ là bao nhiêu cho một sinh viên đạt 66 điểm trong bài thi thứ ba?</p>
-<p id="element-306-vn">b. Bạn sẽ dự báo điểm thi cuối kỳ là bao nhiêu cho một sinh viên đạt 90 điểm trong bài thi thứ ba?</p></div></div>
+<p class="eng hidden" id="element-464">a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?  </p><p class="vn visible" id="element-464-vn">a. Bạn sẽ dự báo điểm thi cuối kỳ là bao nhiêu cho một sinh viên đạt 66 điểm trong bài thi thứ ba?</p>
+<p class="eng hidden" id="element-306">b. What would you predict the final exam score to be for a student who scored a 90 on the third exam?
+  </p><p class="vn visible" id="element-306-vn">b. Bạn sẽ dự báo điểm thi cuối kỳ là bao nhiêu cho một sinh viên đạt 90 điểm trong bài thi thứ ba?</p></div></div>
 <details aria-label="Show/Hide Solution" data-type="solution" id="id1170583280560">
 <summary class="btn-link ui-toggle" data-content="Show/Hide Solution" title="Show/Hide Solution"></summary>
-<section class="ui-body" role="alert"><h4 data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
+<section class="ui-body" role="alert"><h4 class="eng hidden" data-type="solution-title">
+<span class="os-title-label">Solution</span>
+</h4><h4 class="vn visible" data-type="solution-title"><span class="os-title-label">Lời giải</span></h4>
 <div class="os-solution-container">
-<p id="element-444-vn">a. 145,27</p>
-<p id="element-380-vn">b. Các giá trị <em data-effect="italics">x</em> trong dữ liệu nằm trong khoảng từ 65 đến 75. Chín mươi nằm ngoài miền của các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu (biến độc lập), vì vậy bạn không thể dự báo điểm thi cuối kỳ một cách đáng tin cậy cho sinh viên này. (Mặc dù có thể nhập 90 vào phương trình cho <em data-effect="italics">x</em> và tính toán một giá trị <em data-effect="italics">y</em> tương ứng, giá trị <em data-effect="italics">y</em> mà bạn nhận được sẽ không đáng tin cậy.)
+<p class="eng hidden" id="element-444">a. 145.27</p><p class="vn visible" id="element-444-vn">a. 145,27</p>
+<p class="eng hidden" id="element-380">b. The <em data-effect="italics">x</em> values in the data are between 65 and 75. Ninety is outside of the domain of the observed <em data-effect="italics">x</em> values in the data (independent variable), so you cannot reliably predict the final exam score for this student. (Even though it is possible to enter 90 into the equation for <em data-effect="italics">x</em> and calculate a corresponding <em data-effect="italics">y</em> value, the <em data-effect="italics">y</em> value that you get will not be reliable.)
+<span data-type="newline"><br/></span>
+
+To understand really how unreliable the prediction can be outside of the observed <em data-effect="italics">x</em> values observed in the data, make the substitution <em data-effect="italics">x</em> = 90 into the equation.
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+<span class="os-math-in-para"><math display="inline"><semantics><mrow>
+<mover>
+<mi>y</mi>
+<mo>^</mo>
+</mover>
+<mo>=</mo>
+<mn>–173.51</mn>
+<mo>+</mo>
+<mn>4.83</mn>
+<mo>(</mo>
+<mn>90</mn>
+<mo>)</mo>
+<mo>=</mo>
+<mn>261.19</mn>
+</mrow><annotation-xml encoding="MathML-Content"><mover>
+<mi>y</mi>
+<mo>^</mo>
+</mover><mo>=</mo><mn>–173.51</mn><mo>+</mo><mn>4.83</mn><mo>(</mo><mn>90</mn><mo>)</mo><mo>=</mo><mn>261.19</mn></annotation-xml></semantics></math></span>
+<span data-type="newline"><br/></span><span data-type="newline"><br/></span>
+The final-exam score is predicted to be 261.19.  The largest the final-exam score can be is 200.
+<span data-type="newline"><br/></span>
+</p><p class="vn visible" id="element-380-vn">b. Các giá trị <em data-effect="italics">x</em> trong dữ liệu nằm trong khoảng từ 65 đến 75. Chín mươi nằm ngoài miền của các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu (biến độc lập), vì vậy bạn không thể dự báo điểm thi cuối kỳ một cách đáng tin cậy cho sinh viên này. (Mặc dù có thể nhập 90 vào phương trình cho <em data-effect="italics">x</em> và tính toán một giá trị <em data-effect="italics">y</em> tương ứng, giá trị <em data-effect="italics">y</em> mà bạn nhận được sẽ không đáng tin cậy.)
 <span data-type="newline"><br/></span>
 
 Để thực sự hiểu mức độ không đáng tin cậy của dự báo khi nằm ngoài các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu, hãy thực hiện phép thay thế <em data-effect="italics">x</em> = 90 vào phương trình.
@@ -68,20 +109,26 @@
 </mover><mo>=</mo><mn>–173.51</mn><mo>+</mo><mn>4.83</mn><mo>(</mo><mn>90</mn><mo>)</mo><mo>=</mo><mn>261.19</mn></annotation-xml></semantics></math></span>
 <span data-type="newline"><br/></span><span data-type="newline"><br/></span>
 Điểm thi cuối kỳ được dự báo là 261,19. Điểm thi cuối kỳ cao nhất có thể đạt được là 200.
-<span data-type="newline"><br/></span></p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-id1168998191288"><header><h3 class="os-title" data-type="title"><span class="os-title-label" data-type="">Lưu ý</span></h3></header><section>
+<span data-type="newline"><br/></span></p><div class="ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="eip-id1168998191288"><header><h3 class="os-title eng hidden" data-type="title">
+<span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">Lưu ý</span></h3></header><section>
 <div class="os-note-body">
-<p id="eip-idp117960960-vn">Quá trình dự báo bên trong các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu được gọi là <span data-type="term" group-by="i" id="term-00001">nội suy</span>. Quá trình dự báo bên ngoài các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu được gọi là <span data-type="term" group-by="e" id="term-00002">ngoại suy</span>.</p></div></section></div></div>
+<p class="eng hidden" id="eip-idp117960960">The process of predicting inside of the observed <em data-effect="italics">x</em> values observed in the data is called <span data-type="term" group-by="i" id="term-00001">interpolation</span>. The process of predicting outside of the observed <em data-effect="italics">x</em> values observed in the data is called <span data-type="term" group-by="e" id="term-00002">extrapolation</span>.</p><p class="vn visible" id="eip-idp117960960-vn">Quá trình dự báo bên trong các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu được gọi là <span data-type="term" group-by="i" id="term-00001">nội suy</span>. Quá trình dự báo bên ngoài các giá trị <em data-effect="italics">x</em> quan sát được trong dữ liệu được gọi là <span data-type="term" group-by="e" id="term-00002">ngoại suy</span>.</p></div></section></div></div>
 </section>
 </details>
 </section></div>
 </div></section></div>
-<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp125531648"><header><h3 class="os-title"><span class="os-title-label">Thực hành </span>
+<div class="statistics try ui-has-child-title" data-has-label="true" data-label="" data-type="note" id="fs-idp125531648"><header><h3 class="os-title eng hidden">
+<span class="os-title-label">Try It </span>
+<span class="os-number">12.11</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thực hành </span>
 <span class="os-number">12.11</span></h3></header><section>
 <div class="os-note-body">
 <div class="unnumbered" data-type="exercise" id="eip-375"><header></header><section>
 <div data-type="problem" id="eip-637"><div class="os-problem-container">
-<p id="eip-244-vn">Dữ liệu được thu thập về mối quan hệ giữa số giờ mỗi tuần luyện tập một loại nhạc cụ và điểm số trong một bài kiểm tra toán. Đường phù hợp nhất như sau:</p>
-<p id="eip-idp180607312-vn"><em data-effect="italics">ŷ</em> = 72,5 + 2,8<em data-effect="italics">x</em>
+<p class="eng hidden" id="eip-244">Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:</p><p class="vn visible" id="eip-244-vn">Dữ liệu được thu thập về mối quan hệ giữa số giờ mỗi tuần luyện tập một loại nhạc cụ và điểm số trong một bài kiểm tra toán. Đường phù hợp nhất như sau:</p>
+<p class="eng hidden" id="eip-idp180607312"><em data-effect="italics">ŷ</em> = 72.5 + 2.8<em data-effect="italics">x</em>
+<span data-type="newline"><br/></span>What would you predict the score on a math test would be for a student who practices a musical instrument for five hours a week?</p><p class="vn visible" id="eip-idp180607312-vn"><em data-effect="italics">ŷ</em> = 72,5 + 2,8<em data-effect="italics">x</em>
 <span data-type="newline"><br/></span>Bạn sẽ dự báo điểm số trong một bài kiểm tra toán là bao nhiêu cho một sinh viên luyện tập nhạc cụ năm giờ một tuần?</p></div></div>
 </section></div>
 </div></section></div>

@@ -11,25 +11,25 @@ What is the median recovery time?
 Trung vị của thời gian hồi phục là bao nhiêu?
 
 1. 2.7
-1. 2.7
+1. 2,7
 1. 5.3
-1. 5.3
+1. 5,3
 1. 7.4
-1. 7.4
+1. 7,4
 1. 2.1
-1. 2.1
+1. 2,1
 What is the *z*-score for a patient who takes ten days to recover?
 
 Điểm *z* cho một bệnh nhân mất mười ngày để hồi phục là bao nhiêu?
 
 1. 1.5
-1. 1.5
+1. 1,5
 1. 0.2
-1. 0.2
+1. 0,2
 1. 2.2
-1. 2.2
+1. 2,2
 1. 7.3
-1. 7.3
+1. 7,3
 The length of time to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?
 
 Khoảng thời gian để tìm được chỗ đỗ xe lúc 9 giờ sáng tuân theo phân phối chuẩn với số trung bình là năm phút và độ lệch chuẩn là hai phút. Nếu số trung bình lớn hơn đáng kể so với độ lệch chuẩn, thì phát biểu nào sau đây là đúng?
@@ -107,25 +107,25 @@ What is the probability of spending more than two days in recovery?
 Xác suất để dành hơn hai ngày hồi phục là bao nhiêu?
 
 1. 0.0580
-1. 0.0580
+1. 0,0580
 1. 0.8447
-1. 0.8447
+1. 0,8447
 1. 0.0553
-1. 0.0553
+1. 0,0553
 1. 0.9420
-1. 0.9420
+1. 0,9420
 The 90^th percentile for recovery times is?
 
 Bách phân vị thứ 90 cho thời gian hồi phục là bao nhiêu?
 
 1. 8.89
-1. 8.89
+1. 8,89
 1. 7.07
-1. 7.07
+1. 7,07
 1. 7.99
-1. 7.99
+1. 7,99
 1. 4.32
-1. 4.32
+1. 4,32
 *Use the following information to answer the next three exercises:* The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.
 
 *Sử dụng thông tin sau để trả lời ba bài tập tiếp theo:* Khoảng thời gian để tìm được chỗ đỗ xe lúc 9 giờ sáng tuân theo phân phối chuẩn với số trung bình là năm phút và độ lệch chuẩn là hai phút.
@@ -145,23 +145,23 @@ Find the probability that it takes at least eight minutes to find a parking spac
 Tìm xác suất để mất ít nhất tám phút mới tìm được chỗ đỗ xe.
 
 1. 0.0001
-1. 0.0001
+1. 0,0001
 1. 0.9270
-1. 0.9270
+1. 0,9270
 1. 0.1862
-1. 0.1862
+1. 0,1862
 1. 0.0668
-1. 0.0668
+1. 0,0668
 Seventy percent of the time, it takes more than how many minutes to find a parking space?
 
 Bảy mươi phần trăm thời gian, phải mất hơn bao nhiêu phút để tìm được chỗ đỗ xe?
 
 1. 1.24
-1. 1.24
+1. 1,24
 1. 2.41
-1. 2.41
+1. 2,41
 1. 3.95
-1. 3.95
+1. 3,95
 1. 6.05
 1. 6.05
 According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches.  Suppose one Asian adult male is randomly chosen.  Let *X* = height of the individual.
@@ -223,16 +223,16 @@ In China, four-year-olds average three hours a day unsupervised.  Most of the un
 1. Bảy mươi phần trăm trẻ em dành ít nhất bao lâu mỗi ngày mà không có sự giám sát?
 In a certain presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for Candidate A. The standard deviation was  572.3.  (There are only 40 election districts in Alaska.)  The distribution of the votes per district for Candidate A was bell-shaped.  Let *X* = number of votes for Candidate A for an election district.
 
-Trong một cuộc bầu cử tổng thống nhất định, 40 khu vực bầu cử của Alaska có số phiếu trung bình là 1.956,8 phiếu mỗi khu vực cho Ứng cử viên A. Độ lệch chuẩn là 572,3. (Chỉ có 40 khu vực bầu cử ở Alaska.) Phân phối số phiếu mỗi khu vực cho Ứng cử viên A có hình chuông. Gọi *X* = số phiếu cho Ứng cử viên A của một khu vực bầu cử.
+Trong một cuộc bầu cử tổng thống nhất định, 40 khu vực bầu cử của Alaska có số phiếu trung bình là 1,956,8 phiếu mỗi khu vực cho Ứng cử viên A. Độ lệch chuẩn là 572,3. (Chỉ có 40 khu vực bầu cử ở Alaska.) Phân phối số phiếu mỗi khu vực cho Ứng cử viên A có hình chuông. Gọi *X* = số phiếu cho Ứng cử viên A của một khu vực bầu cử.
 
 1. State the approximate distribution of *X*.
 1. Nêu phân phối xấp xỉ của *X*.
 1. Is 1,956.8 a population mean or a sample mean? How do you know?
-1. 1.956,8 là số trung bình quần thể hay số trung bình mẫu? Làm thế nào bạn biết được điều đó?
+1. 1,956,8 là số trung bình quần thể hay số trung bình mẫu? Làm thế nào bạn biết được điều đó?
 1. Find the probability that a randomly selected district had fewer than 1,600 votes for Candidate A. Sketch the graph and write the probability statement.
-1. Tìm xác suất để một quận được chọn ngẫu nhiên có ít hơn 1.600 phiếu bầu cho Ứng cử viên A. Phác thảo đồ thị và viết phát biểu xác suất.
+1. Tìm xác suất để một quận được chọn ngẫu nhiên có ít hơn 1,600 phiếu bầu cho Ứng cử viên A. Phác thảo đồ thị và viết phát biểu xác suất.
 1. Find the probability that a randomly selected district had between 1,800 and 2,000 votes for Candidate A.
-1. Tìm xác suất để một quận được chọn ngẫu nhiên có từ 1.800 đến 2.000 phiếu bầu cho Ứng cử viên A.
+1. Tìm xác suất để một quận được chọn ngẫu nhiên có từ 1,800 đến 2.000 phiếu bầu cho Ứng cử viên A.
 1. Find the third quartile for votes for Candidate A.
 1. Tìm tứ phân vị thứ ba cho số phiếu bầu cho Ứng cử viên A.
 Suppose that the duration of a particular type of criminal trial is known to be normally distributed with a mean of 21 days and a standard deviation of  seven days.
@@ -265,17 +265,17 @@ Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long cust
 
 Thuy Dau, Ngoc Bui, Sam Su và Lan Voung đã thực hiện một cuộc khảo sát về thời gian khách hàng tại Lucky phải chờ đợi trong hàng thanh toán cho đến lượt của họ. Gọi X = thời gian chờ trong hàng. Bảng 6.3 hiển thị dữ liệu thực đã được sắp xếp (tính bằng phút):
 
-| 0.50 | 0.50 | 4.25 | 4.25 | 5 | 5 | 6 | 6 | 7.25 | 7.25 |
+| 0.50 | 0,50 | 4.25 | 4,25 | 5 | 5 | 6 | 6 | 7.25 | 7,25 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1.75 | 1.75 | 4.25 | 4.25 | 5.25 | 5.25 | 6 | 6 | 7.25 | 7.25 |
-| 2 | 2 | 4.25 | 4.25 | 5.25 | 5.25 | 6.25 | 6.25 | 7.25 | 7.25 |
-| 2.25 | 2.25 | 4.25 | 4.25 | 5.5 | 5.5 | 6.25 | 6.25 | 7.75 | 7.75 |
-| 2.25 | 2.25 | 4.5 | 4.5 | 5.5 | 5.5 | 6.5 | 6.5 | 8 | 8 |
-| 2.5 | 2.5 | 4.75 | 4.75 | 5.5 | 5.5 | 6.5 | 6.5 | 8.25 | 8.25 |
-| 2.75 | 2.75 | 4.75 | 4.75 | 5.75 | 5.75 | 6.5 | 6.5 | 9.5 | 9.5 |
-| 3.25 | 3.25 | 4.75 | 4.75 | 5.75 | 5.75 | 6.75 | 6.75 | 9.5 | 9.5 |
-| 3.75 | 3.75 | 5 | 5 | 6 | 6 | 6.75 | 6.75 | 9.75 | 9.75 |
-| 3.75 | 3.75 | 5 | 5 | 6 | 6 | 6.75 | 6.75 | 10.75 | 10.75 |
+| 1.75 | 1,75 | 4.25 | 4,25 | 5.25 | 5,25 | 6 | 6 | 7.25 | 7,25 |
+| 2 | 2 | 4.25 | 4,25 | 5.25 | 5,25 | 6.25 | 6.25 | 7.25 | 7,25 |
+| 2.25 | 2,25 | 4.25 | 4,25 | 5.5 | 5,5 | 6.25 | 6.25 | 7.75 | 7,75 |
+| 2.25 | 2,25 | 4.5 | 4,5 | 5.5 | 5,5 | 6.5 | 6.5 | 8 | 8 |
+| 2.5 | 2,5 | 4.75 | 4,75 | 5.5 | 5,5 | 6.5 | 6.5 | 8.25 | 8,25 |
+| 2.75 | 2,75 | 4.75 | 4,75 | 5.75 | 5,75 | 6.5 | 6.5 | 9.5 | 9,5 |
+| 3.25 | 3,25 | 4.75 | 4,75 | 5.75 | 5,75 | 6.75 | 6,75 | 9.5 | 9,5 |
+| 3.75 | 3,75 | 5 | 5 | 6 | 6 | 6.75 | 6,75 | 9.75 | 9,75 |
+| 3.75 | 3,75 | 5 | 5 | 6 | 6 | 6.75 | 6,75 | 10.75 | 10,75 |
 
 1. Calculate the sample mean and the sample standard deviation.
 1. Tính số trung bình mẫu và độ lệch chuẩn mẫu.

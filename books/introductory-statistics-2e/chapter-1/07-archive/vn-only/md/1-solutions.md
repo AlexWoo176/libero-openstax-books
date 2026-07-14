@@ -10,9 +10,9 @@ b
 
 a
 
-1. 0.5242
-1. 0.03%
-1. 6.86%
+1. 0,5242
+1. 0,03%
+1. 6,86%
 1. 823,088823,856823,088823,856823,088823,856
 1. định lượng rời rạc
 1. định lượng liên tục
@@ -88,7 +88,7 @@ dữ liệu định lượng rời rạc, 150
 
 định tính, Oakland A’s
 
-dữ liệu định lượng rời rạc, 11.234 sinh viên
+dữ liệu định lượng rời rạc, 11,234 sinh viên
 
 định tính, Crest
 
@@ -135,34 +135,34 @@ Tần suất tương đối lũy tích
 
 0
 27
-0.4500
-0.4500
+0,4500
+0,4500
 
 1
 18
-0.3000
-0.7500
+0,3000
+0,7500
 
 3
 11
-0.1833
-0.9333
+0,1833
+0,9333
 
 6
 3
-0.0500
-0.9833
+0,0500
+0,9833
 
 7
 1
-0.0167
+0,0167
 1
 
 Bảng 
 1.41
-1. 5.00%
-1. 93.33%
-Tổng thời gian di chuyển là 1.173,1. Chia tổng này cho 50 để tính giá trị trung bình: 23,462. Vì thời gian di chuyển của mỗi tiểu bang được đo đến hàng phần mười gần nhất, hãy làm tròn kết quả tính toán này đến hàng phần trăm gần nhất: 23,46.
+1. 5,00%
+1. 93,33%
+Tổng thời gian di chuyển là 1,173,1. Chia tổng này cho 50 để tính giá trị trung bình: 23,462. Vì thời gian di chuyển của mỗi tiểu bang được đo đến hàng phần mười gần nhất, hãy làm tròn kết quả tính toán này đến hàng phần trăm gần nhất: 23,46.
 
 b
 

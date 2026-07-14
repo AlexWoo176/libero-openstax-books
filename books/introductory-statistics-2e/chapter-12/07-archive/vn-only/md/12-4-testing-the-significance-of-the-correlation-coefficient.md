@@ -36,9 +36,9 @@ RÚT RA KẾT LUẬN:Có hai phương pháp để đưa ra quyết định. Hai 
 
 - **Phương pháp 1: Sử dụng p-giá trị *p***
 - **Phương pháp 2: Sử dụng bảng các giá trị tới hạn**
-Trong chương này của cuốn sách, chúng ta sẽ luôn sử dụng mức ý nghĩa 5%, *α* = 0.05
+Trong chương này của cuốn sách, chúng ta sẽ luôn sử dụng mức ý nghĩa 5%, *α* = 0,05
 
-Sử dụng phương pháp *p*-giá trị, bạn có thể chọn bất kỳ mức ý nghĩa phù hợp nào bạn muốn; bạn không bị giới hạn trong việc sử dụng *α* = 0.05. Nhưng bảng các giá trị tới hạn được cung cấp trong cuốn sách này giả định rằng chúng ta đang sử dụng mức ý nghĩa 5%, *α* = 0.05. (Nếu chúng ta muốn sử dụng một mức ý nghĩa khác 5% với phương pháp giá trị tới hạn, chúng ta sẽ cần các bảng giá trị tới hạn khác không được cung cấp trong cuốn sách này.)
+Sử dụng phương pháp *p*-giá trị, bạn có thể chọn bất kỳ mức ý nghĩa phù hợp nào bạn muốn; bạn không bị giới hạn trong việc sử dụng *α* = 0,05. Nhưng bảng các giá trị tới hạn được cung cấp trong cuốn sách này giả định rằng chúng ta đang sử dụng mức ý nghĩa 5%, *α* = 0,05. (Nếu chúng ta muốn sử dụng một mức ý nghĩa khác 5% với phương pháp giá trị tới hạn, chúng ta sẽ cần các bảng giá trị tới hạn khác không được cung cấp trong cuốn sách này.)
 
 #### PHƯƠNG PHÁP 1: Sử dụng *p*-giá trị để đưa ra quyết định
 
@@ -83,16 +83,16 @@ r
 Một cách thay thế để tính *p*-giá trị **(p)** được đưa ra bởi LinRegTTest là lệnh 2*tcdf(abs(t),10^99, n-2) trong 2nd DISTR.
 
 - Hãy xem xét [ví dụ về bài thi thứ ba/bài thi cuối kỳ](12-3-the-regression-equation).
-- Đường phù hợp nhất là: ŷ = -173.51 + 4.83*x* với *r* = 0.6631 và có *n* = 11 điểm dữ liệu.
+- Đường phù hợp nhất là: ŷ = -173,51 + 4,83*x* với *r* = 0,6631 và có *n* = 11 điểm dữ liệu.
 - Đường hồi quy có thể được sử dụng để dự đoán không? **Với điểm bài thi thứ ba (giá trị *x*), chúng ta có thể sử dụng đường này để dự đoán điểm bài thi cuối kỳ (giá trị *y* được dự đoán) không?**
 *H_0*: *ρ* = 0
 
 *H_a*: *ρ* ≠ 0
 
-*α* = 0.05
+*α* = 0,05
 
-- p-giá trị *p* là 0.026 (từ LinRegTTest trên máy tính của bạn hoặc từ phần mềm máy tính).
-- p-giá trị *p*, 0.026, nhỏ hơn mức ý nghĩa *α* = 0.05.
+- p-giá trị *p* là 0,026 (từ LinRegTTest trên máy tính của bạn hoặc từ phần mềm máy tính).
+- p-giá trị *p*, 0,026, nhỏ hơn mức ý nghĩa *α* = 0,05.
 - Quyết định: Bác bỏ Giả thuyết không *H_0*
 - Kết luận: Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa điểm bài thi thứ ba (*x*) và điểm bài thi cuối kỳ (*y*) vì hệ số tương quan khác biệt đáng kể so với không.
 **Vì *r* có ý nghĩa và biểu đồ phân tán cho thấy xu hướng tuyến tính, đường hồi quy có thể được sử dụng để dự đoán điểm thi cuối kỳ.**
@@ -101,53 +101,53 @@ Một cách thay thế để tính *p*-giá trị **(p)** được đưa ra bở
 
 Bảng [Giá trị tới hạn 95% của Hệ số tương quan mẫu](12-6-outliers) có thể được sử dụng để giúp bạn có ý tưởng tốt về việc liệu giá trị tính toán được của **rr có ý nghĩa hay không**. So sánh *r* với giá trị tới hạn thích hợp trong bảng. Nếu *r* không nằm giữa các giá trị tới hạn dương và âm, thì hệ số tương quan là có ý nghĩa. Nếu *r* có ý nghĩa, thì bạn có thể muốn sử dụng đường thẳng để dự đoán.
 
-Giả sử bạn đã tính được *r* = 0.801 sử dụng *n* = 10 điểm dữ liệu. *df* = *n* - 2 = 10 - 2 = 8. Các giá trị tới hạn liên quan đến *df* = 8 là -0.632 và + 0.632. Nếu *r* < giá trị tới hạn âm hoặc *r* > giá trị tới hạn dương, thì *r* là có ý nghĩa. Vì *r* = 0.801 và 0.801 > 0.632, *r* là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán. Nếu bạn xem ví dụ này trên một trục số, nó sẽ giúp ích cho bạn.
+Giả sử bạn đã tính được *r* = 0,801 sử dụng *n* = 10 điểm dữ liệu. *df* = *n* - 2 = 10 - 2 = 8. Các giá trị tới hạn liên quan đến *df* = 8 là -0,632 và + 0,632. Nếu *r* < giá trị tới hạn âm hoặc *r* > giá trị tới hạn dương, thì *r* là có ý nghĩa. Vì *r* = 0,801 và 0,801 > 0,632, *r* là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán. Nếu bạn xem ví dụ này trên một trục số, nó sẽ giúp ích cho bạn.
 
 *Hình 
 12.16
  
-*r* không có ý nghĩa giữa -0.632 và +0.632. *r* = 0.801 > +0.632. Do đó, *r* có ý nghĩa.*
+*r* không có ý nghĩa giữa -0,632 và +0,632. *r* = 0,801 > +0,632. Do đó, *r* có ý nghĩa.*
 
-Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = 0.6501 sử dụng *n* = 12 điểm dữ liệu và giá trị tới hạn là 0.576. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
+Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = 0,6501 sử dụng *n* = 12 điểm dữ liệu và giá trị tới hạn là 0,576. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
 
-Giả sử bạn đã tính được *r* = –0.624 với 14 điểm dữ liệu. *df* = 14 – 2 = 12. Các giá trị tới hạn là –0.532 và 0.532. Vì –0.624 < –0.532, *r* là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán
+Giả sử bạn đã tính được *r* = –0,624 với 14 điểm dữ liệu. *df* = 14 – 2 = 12. Các giá trị tới hạn là –0,532 và 0,532. Vì –0,624 < –0,532, *r* là có ý nghĩa và đường thẳng có thể được sử dụng để dự đoán
 
 *Hình 
 12.17
  
-r = –0.624 < -0.532. Do đó, *r* có ý nghĩa.*
+r = –0,624 < -0,532. Do đó, *r* có ý nghĩa.*
 
-Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = 0.5204 sử dụng *n* = 9 điểm dữ liệu, và giá trị tới hạn là 0.666. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
+Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = 0,5204 sử dụng *n* = 9 điểm dữ liệu, và giá trị tới hạn là 0,666. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
 
-Giả sử bạn đã tính được *r* = 0.776 và *n* = 6. *df* = 6 – 2 = 4. Các giá trị tới hạn là –0.811 và 0.811. Vì –0.811 < 0.776 < 0.811, *r* không có ý nghĩa, và đường thẳng không nên được sử dụng để dự đoán.
+Giả sử bạn đã tính được *r* = 0,776 và *n* = 6. *df* = 6 – 2 = 4. Các giá trị tới hạn là –0,811 và 0,811. Vì –0,811 < 0,776 < 0,811, *r* không có ý nghĩa, và đường thẳng không nên được sử dụng để dự đoán.
 
 *Hình 
 12.18
  
--0.811 < *r* = 0.776 < 0.811. Do đó, *r* không có ý nghĩa.*
+-0,811 < *r* = 0,776 < 0,811. Do đó, *r* không có ý nghĩa.*
 
-Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = –0.7204 sử dụng *n* = 8 điểm dữ liệu, và giá trị tới hạn là = 0.707. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
+Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = –0,7204 sử dụng *n* = 8 điểm dữ liệu, và giá trị tới hạn là = 0,707. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
 
 ### VÍ DỤ KỲ THI THỨ BA vs KỲ THI CUỐI KỲ: phương pháp giá trị tới hạn
 
 Hãy xem xét [ví dụ về kỳ thi thứ ba/kỳ thi cuối kỳ](12-3-the-regression-equation).
-Đường phù hợp nhất là: *ŷ* = –173.51+4.83*x* với *r* = 0.6631 và có *n* = 11 điểm dữ liệu. Đường hồi quy có thể được sử dụng để dự đoán không? **Với điểm thi thứ ba (giá trị *x*), chúng ta có thể sử dụng đường thẳng để dự đoán điểm thi cuối kỳ (giá trị *y* được dự đoán) không?**
+Đường phù hợp nhất là: *ŷ* = –173,51+4,83*x* với *r* = 0,6631 và có *n* = 11 điểm dữ liệu. Đường hồi quy có thể được sử dụng để dự đoán không? **Với điểm thi thứ ba (giá trị *x*), chúng ta có thể sử dụng đường thẳng để dự đoán điểm thi cuối kỳ (giá trị *y* được dự đoán) không?**
 
 - *H_0*: *ρ* = 0
 - *H_a*: *ρ* ≠ 0
-- *α* = 0.05
+- *α* = 0,05
 - Sử dụng bảng "Giá trị tới hạn 95%" cho *r* với *df* = *n* – 2 = 11 – 2 = 9.
-- Các giá trị tới hạn là –0.602 và +0.602
-- Vì 0.6631 > 0.602, *r* có ý nghĩa.
+- Các giá trị tới hạn là –0,602 và +0,602
+- Vì 0,6631 > 0,602, *r* có ý nghĩa.
 - Quyết định: Bác bỏ giả thuyết không.
 - Kết luận: Có đủ bằng chứng để kết luận rằng có một mối quan hệ tuyến tính đáng kể giữa điểm bài thi thứ ba (*x*) và điểm bài thi cuối kỳ (*y*) vì hệ số tương quan khác biệt đáng kể so với không.
 **Vì *r* có ý nghĩa và biểu đồ phân tán cho thấy xu hướng tuyến tính, đường hồi quy có thể được sử dụng để dự đoán điểm thi cuối kỳ.**
 
 Giả sử bạn đã tính được các hệ số tương quan sau đây. Sử dụng bảng ở cuối chương, hãy xác định xem *r* có ý nghĩa hay không và đường phù hợp nhất liên quan đến mỗi *r* có thể được sử dụng để dự đoán giá trị *y* hay không. Nếu cần, hãy vẽ một trục số.
 
-1. *r* = –0.567 và kích thước mẫu, *n*, là 19. *df* = *n* – 2 = 17. Giá trị tới hạn là –0.456. –0.567 < –0.456 nên *r* có ý nghĩa.
-1. *r* = 0.708 và kích thước mẫu, *n*, là chín. *df* = *n* – 2 = 7. Giá trị tới hạn là 0.666. 0.708 > 0.666 nên *r* có ý nghĩa.
-1. *r* = 0.134 và kích thước mẫu, *n*, là 14. *df* = 14 – 2 = 12. Giá trị tới hạn là 0.532. 0.134 nằm giữa –0.532 và 0.532 nên *r* không có ý nghĩa.
+1. *r* = –0,567 và kích thước mẫu, *n*, là 19. *df* = *n* – 2 = 17. Giá trị tới hạn là –0,456. –0,567 < –0,456 nên *r* có ý nghĩa.
+1. *r* = 0,708 và kích thước mẫu, *n*, là chín. *df* = *n* – 2 = 7. Giá trị tới hạn là 0,666. 0,708 > 0,666 nên *r* có ý nghĩa.
+1. *r* = 0,134 và kích thước mẫu, *n*, là 14. *df* = 14 – 2 = 12. Giá trị tới hạn là 0,532. 0,134 nằm giữa –0,532 và 0,532 nên *r* không có ý nghĩa.
 1. *r* = 0 và kích thước mẫu, *n*, là năm. Bất kể bậc tự do là bao nhiêu, *r* = 0 nằm giữa hai giá trị tới hạn nên *r* không có ý nghĩa.
 Đối với một đường phù hợp nhất đã cho, bạn tính được *r* = 0 sử dụng *n* = 100 điểm dữ liệu. Đường thẳng có thể được sử dụng để dự đoán không? Tại sao có hoặc tại sao không?
 

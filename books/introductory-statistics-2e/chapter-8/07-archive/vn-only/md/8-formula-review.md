@@ -171,11 +171,13 @@ Dạng tổng quát của một khoảng tin cậy
 
 Để tìm sai số biên khi bạn biết khoảng tin cậy
 
-−
+error bound = upper value−point estimate OR error bound = 
+
+upper value−lower value
 
 2
 
-−
+upper value−lower value
 
 2
 
@@ -339,7 +341,7 @@ n
 
 *p′ = x / n* trong đó *x* đại diện cho số lần thành công và *n* đại diện cho kích thước mẫu. Biến *p*′ là tỷ lệ mẫu và đóng vai trò là ước lượng điểm cho tỷ lệ quần thể thực.
 
-*q**p*
+*q*′ = 1 – *p*′
 
 p
 ′

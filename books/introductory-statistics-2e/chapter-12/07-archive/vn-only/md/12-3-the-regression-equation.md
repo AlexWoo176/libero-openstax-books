@@ -275,7 +275,7 @@ Vẽ biểu đồ phân tán và đường hồi quy
 1. Chỉ định Xlist: L1 và Ylist: L2
 1. Đối với Mark: việc bạn làm nổi bật biểu tượng nào không quan trọng.
 1. Nhấn phím ZOOM và sau đó là số 9 (cho mục menu "ZoomStat"); máy tính sẽ điều chỉnh cửa sổ cho phù hợp với dữ liệu
-1. Để vẽ đường phù hợp nhất, nhấn phím "Y=" và nhập phương trình –173.5 + 4.83X vào phương trình Y1. (Phím X nằm ngay bên trái phím STAT). Nhấn ZOOM 9 lần nữa để vẽ đồ thị.
+1. Để vẽ đường phù hợp nhất, nhấn phím "Y=" và nhập phương trình –173,5 + 4.83X vào phương trình Y1. (Phím X nằm ngay bên trái phím STAT). Nhấn ZOOM 9 lần nữa để vẽ đồ thị.
 1. Tùy chọn: Nếu bạn muốn thay đổi cửa sổ xem, nhấn phím WINDOW. Nhập cửa sổ mong muốn của bạn bằng cách sử dụng Xmin, Xmax, Ymin, Ymax
 Một cách khác để vẽ đường thẳng sau khi bạn tạo biểu đồ phân tán là sử dụng LinRegTTest.
 
@@ -333,9 +333,9 @@ r
 , khi được biểu thị dưới dạng phần trăm, đại diện cho phần trăm biến thiên của *y* KHÔNG được giải thích bằng biến thiên của *x* sử dụng đường hồi quy. Điều này có thể được xem là sự phân tán của các điểm dữ liệu quan sát được xung quanh đường hồi quy.
 Hãy xem xét [ví dụ về bài thi thứ ba/bài thi cuối kỳ](12-3-the-regression-equation#element-22) đã được giới thiệu trong phần trước
 
-- Đường phù hợp nhất là: *ŷ* = –173.51 + 4.83x
-- Hệ số tương quan là *r* = 0.6631
-- Hệ số xác định là *r*^2 = 0.6631^2 = 0.4397
+- Đường phù hợp nhất là: *ŷ* = –173,51 + 4.83x
+- Hệ số tương quan là *r* = 0,6631
+- Hệ số xác định là *r*^2 = 0,6631^2 = 0,4397
 - **Giải thích về *r*^2 trong bối cảnh của ví dụ này:**
-- Khoảng 44% biến thiên (0.4397 xấp xỉ 0.44) trong điểm thi cuối kỳ có thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất.
-- Do đó, khoảng 56% biến thiên (1 – 0.44 = 0.56) trong điểm thi cuối kỳ KHÔNG thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất. (Điều này được thấy qua sự phân tán của các điểm xung quanh đường thẳng.)
+- Khoảng 44% biến thiên (0,4397 xấp xỉ 0,44) trong điểm thi cuối kỳ có thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất.
+- Do đó, khoảng 56% biến thiên (1 – 0,44 = 0,56) trong điểm thi cuối kỳ KHÔNG thể được giải thích bằng biến thiên trong điểm thi của bài thi thứ ba, sử dụng đường hồi quy phù hợp nhất. (Điều này được thấy qua sự phân tán của các điểm xung quanh đường thẳng.)

@@ -137,9 +137,9 @@ Bạn dự đoán doanh số bán hàng vào ngày thứ 60 là bao nhiêu?
 
 Bạn dự đoán doanh số bán hàng vào ngày thứ 90 là bao nhiêu?
 
-*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo*. Một công ty cảnh quan được thuê để cắt cỏ cho một số khu đất lớn. Tổng diện tích của các khu đất này cộng lại là 1.350 mẫu Anh. Tốc độ cắt cỏ của một người được tính như sau:
+*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo*. Một công ty cảnh quan được thuê để cắt cỏ cho một số khu đất lớn. Tổng diện tích của các khu đất này cộng lại là 1,350 mẫu Anh. Tốc độ cắt cỏ của một người được tính như sau:
 
-*ŷ* = 1350 – 1.2*x* trong đó *x* là số giờ và *ŷ* đại diện cho số mẫu Anh còn lại cần cắt.
+*ŷ* = 1350 – 1,2*x* trong đó *x* là số giờ và *ŷ* đại diện cho số mẫu Anh còn lại cần cắt.
 
 Còn lại bao nhiêu mẫu Anh cần cắt sau 20 giờ làm việc?
 

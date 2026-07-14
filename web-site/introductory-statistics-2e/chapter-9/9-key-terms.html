@@ -1,11 +1,85 @@
-<html><head><meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><script src="../book-reader/book-pages.js"></script>
+<html><head><meta charset="utf-8"/><link href="../css/style.css" rel="stylesheet"/><style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style><script src="../book-reader/book-pages.js"></script>
 <link rel="stylesheet" href="../book-reader/book-reader.css">
 <script src="../book-reader/book-reader.js"></script>
 </head><body class="book-reader"><div class="main-content-styles" data-dynamic-style="true" id="main-content" style="--content-text-scale:1" tabindex="-1"><div class="os-eoc os-glossary-container" data-book-content="true" data-type="composite-page" data-uuid-key="glossary" id="composite-page-60">
-<h2 data-rex-keep="true" data-type="document-title"><span class="os-text">Thuật ngữ chính</span></h2>
+<h2 class="eng hidden" data-rex-keep="true" data-type="document-title">
+<span class="os-text">Key Terms</span>
+</h2><h2 class="vn visible" data-rex-keep="true" data-type="document-title"><span class="os-text">Thuật ngữ chính</span></h2>
 <div class="os-glossary-list"><div class="os-glossary-list-item"><dl id="bidist">
-<dt>Phân phối nhị thức</dt>
-<dd id="fs-idm119055264-vn">một biến ngẫu nhiên rời rạc (RV) phát sinh từ các phép thử Bernoulli. Có một số lượng cố định, <em data-effect="italics">n</em>, các phép thử độc lập. "Độc lập" có nghĩa là kết quả của bất kỳ phép thử nào (ví dụ: phép thử 1) không ảnh hưởng đến kết quả của các phép thử tiếp theo, và tất cả các phép thử đều được thực hiện trong cùng một điều kiện. Trong những điều kiện này, biến ngẫu nhiên nhị thức Î§ được định nghĩa là số lần thành công trong <em data-effect="italics">n</em> phép thử. Ký hiệu là: <em data-effect="italics">X ~ B(n, p)</em> <em data-effect="italics">μ</em> = <em data-effect="italics">np</em> và độ lệch chuẩn là <math display="inline"><semantics><mrow>
+<dt class="eng hidden">Binomial Distribution</dt><dt class="vn visible">Phân phối nhị thức</dt>
+<dd class="eng hidden" id="fs-idm119055264">a discrete random variable (RV) that arises from Bernoulli trials. There are a fixed number, <em data-effect="italics">n</em>, of independent trials. ’Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV Î§ is defined as the number of successes in <em data-effect="italics">n</em> trials. The notation is: <em data-effect="italics">X ~ B(n, p)</em> <em data-effect="italics">μ</em> = <em data-effect="italics">np</em>  and the standard deviation is <math display="inline"><semantics><mrow>
+<mrow>
+<mi>σ</mi><mo>=</mo><mo> </mo><msqrt>
+<mrow>
+<mi>n</mi><mi>p</mi><mi>q</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>σ</mi><mo>=</mo><mo> </mo><msqrt>
+<mrow>
+<mi>n</mi><mi>p</mi><mi>q</mi>
+</mrow>
+</msqrt>
+</mrow></annotation-xml></semantics></math>. The probability of exactly <em data-effect="italics">x</em> successes in <em data-effect="italics">n</em> trials is <math display="inline"><semantics><mrow>
+<mrow>
+<mi>P</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mi>n</mi>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mi>p</mi>
+<mi>x</mi>
+</msup>
+<msup>
+<mi>q</mi>
+<mrow>
+<mi>n</mi><mo>’</mo><mi>x</mi>
+</mrow>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>P</mi><mo stretchy="false">(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mrow><mo>(</mo>
+<mrow>
+<mtable>
+<mtr>
+<mtd>
+<mi>n</mi>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<mo>)</mo></mrow><msup>
+<mi>p</mi>
+<mi>x</mi>
+</msup>
+<msup>
+<mi>q</mi>
+<mrow>
+<mi>n</mi><mo>’</mo><mi>x</mi>
+</mrow>
+</msup>
+</mrow></annotation-xml></semantics></math>.
+</dd><dd class="vn visible" id="fs-idm119055264-vn">một biến ngẫu nhiên rời rạc (RV) phát sinh từ các phép thử Bernoulli. Có một số lượng cố định, <em data-effect="italics">n</em>, các phép thử độc lập. "Độc lập" có nghĩa là kết quả của bất kỳ phép thử nào (ví dụ: phép thử 1) không ảnh hưởng đến kết quả của các phép thử tiếp theo, và tất cả các phép thử đều được thực hiện trong cùng một điều kiện. Trong những điều kiện này, biến ngẫu nhiên nhị thức Î§ được định nghĩa là số lần thành công trong <em data-effect="italics">n</em> phép thử. Ký hiệu là: <em data-effect="italics">X ~ B(n, p)</em> <em data-effect="italics">μ</em> = <em data-effect="italics">np</em> và độ lệch chuẩn là <math display="inline"><semantics><mrow>
 <mrow>
 <mi>σ</mi><mo>=</mo><mo> </mo><msqrt>
 <mrow>
@@ -76,8 +150,86 @@
 </mrow></annotation-xml></semantics></math>.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="centlimit">
-<dt>Định lý giới hạn trung tâm</dt>
-<dd id="id43867050-vn">Cho một biến ngẫu nhiên (RV) với số trung bình <math display="inline"><semantics><mrow><mi>μ</mi></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi></annotation-xml></semantics></math> đã biết và độ lệch chuẩn σ đã biết. Chúng ta lấy mẫu với kích thước <em data-effect="italics">n</em> và chúng ta quan tâm đến hai biến ngẫu nhiên mới - trung bình mẫu, <math display="inline"><semantics><mrow>
+<dt class="eng hidden">Central Limit Theorem</dt><dt class="vn visible">Định lý giới hạn trung tâm</dt>
+<dd class="eng hidden" id="id43867050">
+     Given a random variable (RV) with known mean <math display="inline"><semantics><mrow><mi>μ</mi></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi></annotation-xml></semantics></math> and known standard deviation σ. We are sampling with size <em data-effect="italics">n</em> and we are interested in two new RVs - the sample mean, <math display="inline"><semantics><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+</mrow><annotation-xml encoding="MathML-Content"><mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover></annotation-xml></semantics></math>, and the sample sum, <math display="inline"><semantics><mrow><mrow><mi>Î£</mi><mi>X</mi></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow><mi>Î£</mi><mi>X</mi></mrow></annotation-xml></semantics></math>.
+If the size <em data-effect="italics">n</em> of the sample is sufficiently large, then <math display="inline"><semantics><mrow>
+<mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mo>~</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mi>μ</mi><mtext>,</mtext><mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mover accent="true">
+<mi>X</mi>
+<mo>¯</mo>
+</mover>
+<mo>~</mo><mi>N</mi><mrow><mo>(</mo>
+<mrow>
+<mi>μ</mi><mtext>,</mtext><mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+<mo>)</mo></mrow>
+</mrow></annotation-xml></semantics></math> and <math display="inline"><semantics><mrow>
+<mrow>
+<mi>Î£</mi><mi>X</mi><mo>~</mo><mi>N</mi><mo stretchy="false">(</mo><mi>n</mi><mi>μ</mi><mo>,</mo><msqrt>
+<mi>n</mi>
+</msqrt>
+<mi>σ</mi><mo stretchy="false">)</mo>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>Î£</mi><mi>X</mi><mo>~</mo><mi>N</mi><mo stretchy="false">(</mo><mi>n</mi><mi>μ</mi><mo>,</mo><msqrt>
+<mi>n</mi>
+</msqrt>
+<mi>σ</mi><mo stretchy="false">)</mo>
+</mrow></annotation-xml></semantics></math>. If the size <em data-effect="italics">n</em> of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample  means will equal the population mean and the mean of the sample sums will equal <em data-effect="italics">n</em> times the population mean. The standard deviation of the distribution of the sample means, <math display="inline"><semantics><mrow>
+<mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mfrac>
+<mi>σ</mi>
+<mrow>
+<msqrt>
+<mi>n</mi>
+</msqrt>
+</mrow>
+</mfrac>
+</mrow></annotation-xml></semantics></math>, is called the standard error of the mean.</dd><dd class="vn visible" id="id43867050-vn">Cho một biến ngẫu nhiên (RV) với số trung bình <math display="inline"><semantics><mrow><mi>μ</mi></mrow><annotation-xml encoding="MathML-Content"><mi>μ</mi></annotation-xml></semantics></math> đã biết và độ lệch chuẩn σ đã biết. Chúng ta lấy mẫu với kích thước <em data-effect="italics">n</em> và chúng ta quan tâm đến hai biến ngẫu nhiên mới - trung bình mẫu, <math display="inline"><semantics><mrow>
 <mover accent="true">
 <mi>X</mi>
 <mo>¯</mo>
@@ -157,30 +309,100 @@ Nếu kích thước <em data-effect="italics">n</em> của mẫu đủ lớn, t
 </mrow></annotation-xml></semantics></math>, được gọi là sai số chuẩn của giá trị trung bình.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="coninter">
-<dt>Khoảng tin cậy (CI)</dt>
+<dt class="eng hidden">Confidence Interval (CI)</dt><dt class="vn visible">Khoảng tin cậy (CI)</dt>
 <dd id="id20495395">an interval estimate for an unknown population parameter. This depends on:
 <ul id="confint1">
-<li>Mức tin cậy mong muốn.</li>
-<li>Thông tin được biết về phân phối (ví dụ: độ lệch chuẩn đã biết).</li>
-<li>Mẫu và kích thước của nó.</li>
+<li class="eng hidden">The desired confidence level.</li><li class="vn visible">Mức tin cậy mong muốn.</li>
+<li class="eng hidden">Information that is known about the  distribution (for example, known standard deviation).</li><li class="vn visible">Thông tin được biết về phân phối (ví dụ: độ lệch chuẩn đã biết).</li>
+<li class="eng hidden">The sample and its size.</li><li class="vn visible">Mẫu và kích thước của nó.</li>
 </ul>
 </dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="hypothesis">
-<dt>Giả thuyết</dt>
-<dd id="id1168218799446-vn">một phát biểu về giá trị của một tham số quần thể, trong trường hợp có hai giả thuyết, phát biểu được giả định là đúng được gọi là giả thuyết không (ký hiệu <em data-effect="italics">H</em><sub>0</sub>) và phát biểu đối lập được gọi là đối thuyết (giả thuyết đối lập) (ký hiệu <em data-effect="italics">H<sub>a</sub></em>).</dd>
+<dt class="eng hidden">Hypothesis</dt><dt class="vn visible">Giả thuyết</dt>
+<dd class="eng hidden" id="id1168218799446">a statement about the value of a population parameter, in case of two hypotheses, the statement assumed to be true is called the null hypothesis (notation <em data-effect="italics">H</em><sub>0</sub>) and the contradictory statement is called the alternative hypothesis (notation <em data-effect="italics">H<sub>a</sub></em>).
+</dd><dd class="vn visible" id="id1168218799446-vn">một phát biểu về giá trị của một tham số quần thể, trong trường hợp có hai giả thuyết, phát biểu được giả định là đúng được gọi là giả thuyết không (ký hiệu <em data-effect="italics">H</em><sub>0</sub>) và phát biểu đối lập được gọi là đối thuyết (giả thuyết đối lập) (ký hiệu <em data-effect="italics">H<sub>a</sub></em>).</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="hypotest">
-<dt>Kiểm định giả thuyết</dt>
-<dd id="id23787132-vn">Dựa trên bằng chứng từ mẫu, đây là một quy trình để xác định xem giả thuyết được nêu ra là một phát biểu hợp lý và không nên bị bác bỏ, hay là không hợp lý và nên bị bác bỏ.</dd>
+<dt class="eng hidden">Hypothesis Testing</dt><dt class="vn visible">Kiểm định giả thuyết</dt>
+<dd class="eng hidden" id="id23787132">Based on sample evidence, a procedure for determining whether the hypothesis stated is a reasonable statement and should not be rejected, or is unreasonable and should be rejected.
+    </dd><dd class="vn visible" id="id23787132-vn">Dựa trên bằng chứng từ mẫu, đây là một quy trình để xác định xem giả thuyết được nêu ra là một phát biểu hợp lý và không nên bị bác bỏ, hay là không hợp lý và nên bị bác bỏ.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="fs-idm2388928">
-<dt>Mức ý nghĩa của phép kiểm định</dt>
-<dd id="id18705874-vn">xác suất xảy ra Sai lầm loại I (bác bỏ Giả thuyết không khi nó đúng). Ký hiệu: α. Trong kiểm định giả thuyết, Mức ý nghĩa được gọi là α định trước hoặc α thiết lập sẵn.</dd>
+<dt class="eng hidden">Level of Significance of the Test </dt><dt class="vn visible">Mức ý nghĩa của phép kiểm định</dt>
+<dd class="eng hidden" id="id18705874">
+probability of a Type I error (reject the null hypothesis when it is true).  Notation: α. In hypothesis testing, the Level of Significance is called the preconceived α or the preset α.
+</dd><dd class="vn visible" id="id18705874-vn">xác suất xảy ra Sai lầm loại I (bác bỏ Giả thuyết không khi nó đúng). Ký hiệu: α. Trong kiểm định giả thuyết, Mức ý nghĩa được gọi là α định trước hoặc α thiết lập sẵn.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="normdist">
-<dt>Phân phối chuẩn</dt>
-<dd id="id42733014-vn">một biến ngẫu nhiên liên tục (RV) với hàm mật độ xác suất (pdf) <math display="inline"><semantics><mrow>
+<dt class="eng hidden">Normal Distribution</dt><dt class="vn visible">Phân phối chuẩn</dt>
+<dd class="eng hidden" id="id42733014">a continuous random variable (RV) with pdf <math display="inline"><semantics><mrow>
+<mrow>
+<mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mo> </mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mi>σ</mi><msqrt>
+<mrow>
+<mn>2</mn><mi>σ</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<msup>
+<mi>e</mi>
+<mrow>
+<mfrac>
+<mrow>
+<mo>’</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>’</mo><mi>μ</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>2</mn><msup>
+<mi>σ</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</msup>
+</mrow>
+</mrow><annotation-xml encoding="MathML-Content"><mrow>
+<mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mo> </mo><mfrac>
+<mn>1</mn>
+<mrow>
+<mi>σ</mi><msqrt>
+<mrow>
+<mn>2</mn><mi>σ</mi>
+</mrow>
+</msqrt>
+</mrow>
+</mfrac>
+<msup>
+<mi>e</mi>
+<mrow>
+<mfrac>
+<mrow>
+<mo>’</mo><msup>
+<mrow>
+<mo stretchy="false">(</mo><mi>x</mi><mo>’</mo><mi>μ</mi><mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</msup>
+</mrow>
+<mrow>
+<mn>2</mn><msup>
+<mi>σ</mi>
+<mn>2</mn>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</msup>
+</mrow></annotation-xml></semantics></math>, where <em data-effect="italics">μ</em> is the mean of the distribution, and <em data-effect="italics">σ</em> is the standard deviation, notation: <em data-effect="italics">X ~ N</em>(<em data-effect="italics">μ</em>, <em data-effect="italics">σ</em>). If <em data-effect="italics">μ</em> = 0 and <em data-effect="italics">σ</em> = 1, the RV is called <strong>the standard normal distribution</strong>.</dd><dd class="vn visible" id="id42733014-vn">một biến ngẫu nhiên liên tục (RV) với hàm mật độ xác suất (pdf) <math display="inline"><semantics><mrow>
 <mrow>
 <mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mo> </mo><mfrac>
 <mn>1</mn>
@@ -249,29 +471,31 @@ Nếu kích thước <em data-effect="italics">n</em> của mẫu đủ lớn, t
 </mrow></annotation-xml></semantics></math>, trong đó <em data-effect="italics">μ</em> là số trung bình của phân phối, và <em data-effect="italics">σ</em> là độ lệch chuẩn, ký hiệu: <em data-effect="italics">X ~ N</em>(<em data-effect="italics">μ</em>, <em data-effect="italics">σ</em>). Nếu <em data-effect="italics">μ</em> = 0 và <em data-effect="italics">σ</em> = 1, biến ngẫu nhiên này được gọi là <strong>phân phối chuẩn tắc</strong>.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="fs-idm119440">
-<dt><em data-effect="italics">p</em>-giá trị</dt>
-<dd id="id9446562-vn">xác suất để một biến cố xảy ra hoàn toàn ngẫu nhiên với giả định rằng giả thuyết không là đúng. <em data-effect="italics">p</em>-giá trị càng nhỏ, bằng chứng chống lại giả thuyết không càng mạnh mẽ.</dd>
+<dt class="eng hidden"><em data-effect="italics">p</em>-value</dt><dt class="vn visible"><em data-effect="italics">p</em>-giá trị</dt>
+<dd class="eng hidden" id="id9446562">the probability that an event will happen purely by chance assuming the null hypothesis is true. The smaller the <em data-effect="italics">p</em>-value, the stronger the evidence is against the null hypothesis.</dd><dd class="vn visible" id="id9446562-vn">xác suất để một biến cố xảy ra hoàn toàn ngẫu nhiên với giả định rằng giả thuyết không là đúng. <em data-effect="italics">p</em>-giá trị càng nhỏ, bằng chứng chống lại giả thuyết không càng mạnh mẽ.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="stddev">
-<dt>Độ lệch chuẩn</dt>
-<dd id="id20302532-vn">một giá trị bằng căn bậc hai của phương sai và đo lường mức độ phân tán của các giá trị dữ liệu so với số trung bình; ký hiệu: <em data-effect="italics">s</em> cho độ lệch chuẩn mẫu và <em data-effect="italics">σ</em> cho độ lệch chuẩn quần thể.</dd>
+<dt class="eng hidden">Standard Deviation</dt><dt class="vn visible">Độ lệch chuẩn</dt>
+<dd class="eng hidden" id="id20302532">a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: <em data-effect="italics">s</em> for sample standard deviation and <em data-effect="italics">σ</em> for population standard deviation.</dd><dd class="vn visible" id="id20302532-vn">một giá trị bằng căn bậc hai của phương sai và đo lường mức độ phân tán của các giá trị dữ liệu so với số trung bình; ký hiệu: <em data-effect="italics">s</em> cho độ lệch chuẩn mẫu và <em data-effect="italics">σ</em> cho độ lệch chuẩn quần thể.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="studenttdist">
-<dt>Phân phối Student <em data-effect="italics">t</em></dt>
+<dt class="eng hidden">Student's <em data-effect="italics">t</em>-Distribution</dt><dt class="vn visible">Phân phối Student <em data-effect="italics">t</em></dt>
 <dd id="id8759760">investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are:
 <ul id="tdist1">
-<li>Nó là liên tục và có thể nhận bất kỳ giá trị thực nào.</li>
-<li>Hàm mật độ xác suất (pdf) đối xứng qua số trung bình bằng 0. Tuy nhiên, nó trải rộng hơn và phẳng hơn ở đỉnh so với phân phối chuẩn.</li>
-<li>Nó tiến gần đến phân phối chuẩn tắc khi <em data-effect="italics">n</em> càng lớn.</li>
-<li>Có một "họ" các phân phối t: mỗi đại diện của họ được xác định hoàn toàn bởi số bậc tự do, vốn ít hơn một đơn vị so với số lượng giá trị dữ liệu.</li></ul></dd>
+<li class="eng hidden">It is continuous and assumes any real values.</li><li class="vn visible">Nó là liên tục và có thể nhận bất kỳ giá trị thực nào.</li>
+<li class="eng hidden">The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.</li><li class="vn visible">Hàm mật độ xác suất (pdf) đối xứng qua số trung bình bằng 0. Tuy nhiên, nó trải rộng hơn và phẳng hơn ở đỉnh so với phân phối chuẩn.</li>
+<li class="eng hidden">It approaches the standard normal distribution as <em data-effect="italics">n</em> gets larger.</li><li class="vn visible">Nó tiến gần đến phân phối chuẩn tắc khi <em data-effect="italics">n</em> càng lớn.</li>
+<li class="eng hidden">There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data items.</li><li class="vn visible">Có một "họ" các phân phối t: mỗi đại diện của họ được xác định hoàn toàn bởi số bậc tự do, vốn ít hơn một đơn vị so với số lượng giá trị dữ liệu.</li></ul></dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="type1err">
-<dt>Sai lầm loại I</dt>
-<dd id="id2292288-vn">Quyết định là bác bỏ giả thuyết không khi mà, trên thực tế, giả thuyết không là đúng.</dd>
+<dt class="eng hidden">Type I Error</dt><dt class="vn visible">Sai lầm loại I</dt>
+<dd class="eng hidden" id="id2292288">The decision is to reject the null hypothesis when, in fact, the null hypothesis is true.
+    </dd><dd class="vn visible" id="id2292288-vn">Quyết định là bác bỏ giả thuyết không khi mà, trên thực tế, giả thuyết không là đúng.</dd>
 </dl></div>
 <div class="os-glossary-list-item"><dl id="type2err">
-<dt>Sai lầm loại II</dt>
-<dd id="id1169217218486-vn">Quyết định không bác bỏ giả thuyết không trong khi trên thực tế, giả thuyết không là sai.</dd>
+<dt class="eng hidden">Type II Error</dt><dt class="vn visible">Sai lầm loại II</dt>
+<dd class="eng hidden" id="id1169217218486">The decision is not to reject the null hypothesis when, in fact, the null hypothesis is false.
+    </dd><dd class="vn visible" id="id1169217218486-vn">Quyết định không bác bỏ giả thuyết không trong khi trên thực tế, giả thuyết không là sai.</dd>
 </dl></div>
 </div>
 </div>

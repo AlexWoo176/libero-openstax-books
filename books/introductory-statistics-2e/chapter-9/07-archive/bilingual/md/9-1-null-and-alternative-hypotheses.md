@@ -61,11 +61,11 @@ We want to test whether the mean GPA of students in American colleges is differe
 
 *H_a*: *μ* ≠ 2.0
 
-Chúng ta muốn kiểm tra xem điểm trung bình (GPA) của sinh viên tại các trường đại học Mỹ có khác 2.0 (trên thang điểm 4.0) hay không. Giả thuyết không và đối thuyết là:
+Chúng ta muốn kiểm tra xem điểm trung bình (GPA) của sinh viên tại các trường đại học Mỹ có khác 2,0 (trên thang điểm 4,0) hay không. Giả thuyết không và đối thuyết là:
 
-*H_0*: *μ* = 2.0
+*H_0*: *μ* = 2,0
 
-*H_a*: *μ* ≠ 2.0
+*H_a*: *μ* ≠ 2,0
 
 We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.
 
@@ -102,8 +102,8 @@ In an issue of *U. S. News and World Report*, an article on school standards sta
 *H_a*: *p* > 0.066
 
 Trong một số của tạp chí U. S. News and World Report, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
-H0: p ≤ 0.066
-Ha: p > 0.066
+H0: p ≤ 0,066
+Ha: p > 0,066
 
 On a state driver’s test, about 40% pass the test on the first try. We want to test if more than 40% pass on the first try. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.
 
@@ -112,7 +112,7 @@ Trong một bài kiểm tra lái xe của tiểu bang, khoảng 40% đỗ ngay l
 1. *H_0*: *p* __ 0.40
 1. *H_0**p*
 1. *H_a*: *p* __ 0.40
-1. *H_a*: *p* __ 0.40
+1. *H_a*: *p* __ 0,40
 Bring to class a newspaper, some news magazines, and some Internet articles . In groups, find articles from which your group can write null and alternative hypotheses. Discuss your hypotheses with the rest of the class.
 
 Hãy mang đến lớp một tờ báo, một vài tạp chí tin tức và một số bài báo trên Internet. Theo nhóm, hãy tìm các bài báo mà từ đó nhóm của bạn có thể viết giả thuyết không và đối thuyết. Thảo luận về các giả thuyết của bạn với cả lớp.

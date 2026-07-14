@@ -82,7 +82,7 @@ x
 1. Thống kê kiểm định: *F* = ______
 1. Phác thảo đồ thị cho tình huống này. Ghi nhãn và chia tỷ lệ trục hoành một cách RÕ RÀNG, đồng thời tô bóng (các) vùng tương ứng với giá trị *p*.
 1. Giá trị *p* = ______
-1. Kiểm định tại *α* = 0.05. Nêu quyết định và kết luận của bạn.
+1. Kiểm định tại *α* = 0,05. Nêu quyết định và kết luận của bạn.
 1. Quyết định: Tại sao bạn đưa ra quyết định này?
 Kết luận (viết thành một câu hoàn chỉnh).
 Dựa trên kết quả nghiên cứu của bạn, có cần thiết phải điều tra giá cả của bất kỳ nhóm thực phẩm nào không? Tại sao có hoặc tại sao không?

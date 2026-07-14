@@ -12,7 +12,7 @@ Các ví dụ sau đây là các phương trình tuyến tính.
 
 Sau đây có phải là một ví dụ về phương trình tuyến tính không?
 
-*y* = –0.125 – 3.5*x*
+*y* = –0,125 – 3,5*x*
 
 Đồ thị của một phương trình tuyến tính có dạng *y* = *a* + *bx* là một **đường thẳng**. Bất kỳ đường thẳng nào không phải là đường thẳng đứng đều có thể được mô tả bằng phương trình này.
 

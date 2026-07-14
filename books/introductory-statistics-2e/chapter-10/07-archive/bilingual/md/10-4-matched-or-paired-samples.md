@@ -36,8 +36,8 @@ Trong một kiểm định giả thuyết cho các mẫu ghép cặp hoặc mẫ
 
 | Subject: | Đối tượng: | A | A | B | B | C | C | D | D | E | E | F | F | G | G | H | H |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Before | Trước | 6.6 | 6.6 | 6.5 | 6.5 | 9.0 | 9.0 | 10.3 | 10.3 | 11.3 | 11.3 | 8.1 | 8.1 | 6.3 | 6.3 | 11.6 | 11.6 |
-| After | Sau | 6.8 | 6.8 | 2.4 | 2.4 | 7.4 | 7.4 | 8.5 | 8.5 | 8.1 | 8.1 | 6.1 | 6.1 | 3.4 | 3.4 | 2.0 | 2.0 |
+| Before | Trước | 6.6 | 6,6 | 6.5 | 6,5 | 9.0 | 9,0 | 10.3 | 10.3 | 11.3 | 11,3 | 8.1 | 8,1 | 6.3 | 6,3 | 11.6 | 11,6 |
+| After | Sau | 6.8 | 6,8 | 2.4 | 2,4 | 7.4 | 7,4 | 8.5 | 8,5 | 8.1 | 8,1 | 6.1 | 6,1 | 3.4 | 3,4 | 2.0 | 2,0 |
 
 For the TI-83+ and TI-84 calculators, you can either calculate the differences ahead of time (**after - before**) and put the differences into a list or you can put the **after** data into a first list and the **before** data into a second list. Then go to a third list and arrow up to the name. Enter 1^st list name - 2^nd list name. The calculator will do the subtraction, and you will have the differences in the third list.
 
@@ -45,7 +45,7 @@ For the TI-83+ and TI-84 calculators, you can either calculate the differences a
 
 Use your list of differences as the data. Press `STAT` and arrow over to `TESTS`. Press `2:T-Test`. Arrow over to `Data` and press `ENTER`. Arrow down and enter `0` for μ0μ0, the name of the list where you put the data, and `1` for Freq:. Arrow down to `μ`: and arrow over to `<` μ0μ0. Press `ENTER`. Arrow down to `Calculate` and press `ENTER`. The *p*-value is 0.0094, and the test statistic is -3.04. Do these instructions again except, arrow to `Draw` (instead of `Calculate`). Press `ENTER`.
 
-Sử dụng danh sách các hiệu số của bạn làm dữ liệu. Nhấn `STAT` và di chuyển sang `TESTS`. Nhấn `2:T-Test`. Di chuyển sang `Data` và nhấn `ENTER`. Di chuyển xuống và nhập `0` cho μ0μ0, tên của danh sách nơi bạn đã đặt dữ liệu, và `1` cho Freq:. Di chuyển xuống `μ`: và di chuyển sang `<` μ0μ0. Nhấn `ENTER`. Di chuyển xuống `Calculate` và nhấn `ENTER`. p-giá trị *p* là 0.0094, và thống kê kiểm định là -3.04. Thực hiện lại các hướng dẫn này ngoại trừ việc di chuyển đến `Draw` (thay vì `Calculate`). Nhấn `ENTER`.
+Sử dụng danh sách các hiệu số của bạn làm dữ liệu. Nhấn `STAT` và di chuyển sang `TESTS`. Nhấn `2:T-Test`. Di chuyển sang `Data` và nhấn `ENTER`. Di chuyển xuống và nhập `0` cho μ0μ0, tên của danh sách nơi bạn đã đặt dữ liệu, và `1` cho Freq:. Di chuyển xuống `μ`: và di chuyển sang `<` μ0μ0. Nhấn `ENTER`. Di chuyển xuống `Calculate` và nhấn `ENTER`. p-giá trị *p* là 0,0094, và thống kê kiểm định là -3,04. Thực hiện lại các hướng dẫn này ngoại trừ việc di chuyển đến `Draw` (thay vì `Calculate`). Nhấn `ENTER`.
 
 A study was conducted to investigate how effective a new diet was in lowering cholesterol. Results for the randomly selected subjects are shown in the table. The differences have a normal distribution. Are the subjects’ cholesterol levels lower on average after the diet? Test at the 5% level.
 
@@ -83,7 +83,7 @@ x¯d=21.3,sd=46.7x¯ &#175; d=21.3,sd=46.7
 
 The data given here would indicate that the distribution is actually right-skewed. The difference 90 may be an extreme outlier? It is pulling the sample mean to be 21.3 (positive). The means of the other three data values are actually negative.
 
-Dữ liệu được đưa ra ở đây cho thấy phân phối thực sự bị lệch phải. Hiệu số 90 có thể là một giá trị ngoại lệ cực đoan? Nó đang kéo số trung bình mẫu thành 21.3 (dương). Số trung bình của ba giá trị dữ liệu còn lại thực sự là âm.
+Dữ liệu được đưa ra ở đây cho thấy phân phối thực sự bị lệch phải. Hiệu số 90 có thể là một giá trị ngoại lệ cực đoan? Nó đang kéo số trung bình mẫu thành 21,3 (dương). Số trung bình của ba giá trị dữ liệu còn lại thực sự là âm.
 
 Using the difference data, this becomes a test of a single __________ (fill in the blank).
 
@@ -123,7 +123,7 @@ Phân phối cho kiểm định giả thuyết là *t_3*.
 
 *H_0*: *μ_d* ≤ 0, *H_a*: *μ_d* > 0
 
-*H_0**μ_d**H_a**μ_d*
+*H_0*: *μ_d* ≤ 0, *H_a*: *μ_d* > 0
 
 **Graph:**
 
@@ -137,7 +137,7 @@ Phân phối cho kiểm định giả thuyết là *t_3*.
 
 **Calculate the *p*-value:** The *p*-value is 0.2150
 
-**Tính p-giá trị *p*:** p-giá trị *p* là 0.2150
+**Tính p-giá trị *p*:** p-giá trị *p* là 0,2150
 
 **Decision:** If the level of significance is 5%, the decision is not to reject the null hypothesis, because α < *p*-value.
 
@@ -211,7 +211,7 @@ x
 
 d
 
- = 3.71, 
+ = 3,71, 
 
 s
 d
@@ -219,7 +219,7 @@ d
 s
 d
 
- = 4.5.
+ = 4,5.
 
 **Random variable:** 
 
@@ -269,7 +269,7 @@ d
 
 **Calculate the *p*-value:** The *p*-value is 0.0716 (using the data directly).
 
-**Tính p-giá trị:** p-giá trị là 0.0716 (sử dụng trực tiếp dữ liệu).
+**Tính p-giá trị:** p-giá trị là 0,0716 (sử dụng trực tiếp dữ liệu).
 
 (test statistic = 2.18.  *p*-value = 0.0719 using 
 
@@ -303,7 +303,7 @@ d
 
 )
 
-(thống kê kiểm định = 2.18. p-giá trị = 0.0719 sử dụng 
+(thống kê kiểm định = 2,18. p-giá trị = 0,0719 sử dụng 
 
 (
 
@@ -337,7 +337,7 @@ d
 
 **Decision:** Assume *α* = 0.05. Since *α* < *p*-value, Do not reject *H_0*.
 
-**Quyết định:** Giả sử *α* = 0.05. Vì *α* < p-giá trị, không bác bỏ *H_0*.
+**Quyết định:** Giả sử *α* = 0,05. Vì *α* < p-giá trị, không bác bỏ *H_0*.
 
 **Conclusion:**  At the 5% level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the children’s weaker and dominant hands to push the shot-put.
 

@@ -326,15 +326,15 @@ What does *P*(*E* OR *M*) mean in words?
 
 *E* and *F* are mutually exclusive events. *P*(*E*) =  0.4; *P*(*F*) = 0.5. Find *P*(*E*∣*F*).
 
-*E* và *F* là các biến cố xung khắc. *P*(*E*) = 0.4; *P*(*F*) = 0.5. Tìm *P*(*E*∣*F*).
+*E* và *F* là các biến cố xung khắc. *P*(*E*) = 0,4; *P*(*F*) = 0,5. Tìm *P*(*E*∣*F*).
 
 *J* and *K* are independent events. *P*(*J*|*K*) = 0.3. Find *P*(*J*).
 
-*J* và *K* là các biến cố độc lập. *P*(*J*|*K*) = 0.3. Tìm *P*(*J*).
+*J* và *K* là các biến cố độc lập. *P*(*J*|*K*) = 0,3. Tìm *P*(*J*).
 
 *U* and *V* are mutually exclusive events. *P*(*U*) = 0.26; *P*(*V*) = 0.37. Find:
 
-*U* và *V* là các biến cố xung khắc. *P*(*U*) = 0.26; *P*(*V*) = 0.37. Tìm:
+*U* và *V* là các biến cố xung khắc. *P*(*U*) = 0,26; *P*(*V*) = 0,37. Tìm:
 
 1. *P*(*U* AND *V*) =
 1. *P*(*U* VÀ *V*) =
@@ -344,7 +344,7 @@ What does *P*(*E* OR *M*) mean in words?
 1. *P*(*U* biến cố "hoặc" *V*) =
 *Q* and *R* are independent events. *P*(*Q*) = 0.4 and *P*(*Q* AND *R*) = 0.1. Find *P*(*R*).
 
-*Q* và *R* là các biến cố độc lập. *P*(*Q*) = 0.4 và *P*(*Q* VÀ *R*) = 0.1. Tìm *P*(*R*).
+*Q* và *R* là các biến cố độc lập. *P*(*Q*) = 0,4 và *P*(*Q* VÀ *R*) = 0,1. Tìm *P*(*R*).
 
 *Use the following information to answer the next ten exercises.* A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.
 

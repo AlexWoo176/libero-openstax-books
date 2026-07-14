@@ -16,14 +16,14 @@ Hãy xem xét lại tập dữ liệu này.
 2; 
 4; 
 6; 
-6.8; 
-7.2; 
+6,8; 
+7,2; 
 8; 
-8.3; 
+8,3; 
 9; 
 10; 
 10; 
-11.5
+11,5
 
 Tứ phân vị thứ nhất là hai, trung vị là bảy và tứ phân vị thứ ba là chín. Giá trị nhỏ nhất là một và giá trị lớn nhất là 11,5. Hình ảnh sau đây cho thấy biểu đồ hộp đã được xây dựng.
 
@@ -83,18 +83,18 @@ Xây dựng một biểu đồ hộp với các thuộc tính sau; hướng dẫ
 
 - Giá trị tối thiểu = 59
 - Giá trị tối đa = 77
-- *Q*1: Tứ phân vị thứ nhất = 64.5
+- *Q*1: Tứ phân vị thứ nhất = 64,5
 - *Q*2: Tứ phân vị thứ hai hoặc trung vị = 66
 - *Q*3: Tứ phân vị thứ ba = 70
 *Hình 
 2.12*
 
 1. Mỗi phần tư có khoảng 25% dữ liệu.
-1. Độ phân tán của bốn phần tư lần lượt là 64.5 – 59 = 5.5 (phần tư thứ nhất), 66 – 64.5 = 1.5 (phần tư thứ hai), 70 – 66 = 4 (phần tư thứ ba), và 77 – 70 = 7 (phần tư thứ tư). Do đó, phần tư thứ hai có độ phân tán nhỏ nhất và phần tư thứ tư có độ phân tán lớn nhất.
+1. Độ phân tán của bốn phần tư lần lượt là 64.5 – 59 = 5.5 (phần tư thứ nhất), 66 – 64,5 = 1,5 (phần tư thứ hai), 70 – 66 = 4 (phần tư thứ ba), và 77 – 70 = 7 (phần tư thứ tư). Do đó, phần tư thứ hai có độ phân tán nhỏ nhất và phần tư thứ tư có độ phân tán lớn nhất.
 1. Khoảng biến thiên = giá trị tối đa – giá trị tối thiểu = 77 – 59 = 18
-1. Khoảng tứ phân vị: *IQR* = *Q*3 – *Q*1 = 70 – 64.5 = 5.5.
+1. Khoảng tứ phân vị: *IQR* = *Q*3 – *Q*1 = 70 – 64,5 = 5,5.
 1. Khoảng 59–65 có hơn 25% dữ liệu, vì vậy nó chứa nhiều dữ liệu hơn khoảng từ 66 đến 70, vốn chỉ có 25% dữ liệu.
-1. 50% ở giữa (một nửa ở giữa) của dữ liệu có phạm vi là 5.5 inch.
+1. 50% ở giữa (một nửa ở giữa) của dữ liệu có phạm vi là 5,5 inch.
 Để tìm giá trị nhỏ nhất, giá trị lớn nhất và các tứ phân vị:
 
 Nhập dữ liệu vào trình chỉnh sửa danh sách (Nhấn `STAT 1:EDIT`). Nếu bạn cần xóa danh sách, hãy di chuyển mũi tên lên tên `L1`, nhấn CLEAR, sau đó di chuyển mũi tên xuống.
@@ -111,7 +111,7 @@ Giá trị nhỏ nhất = 59.
 
 Giá trị lớn nhất = 77.
 
-*Q*_1: Tứ phân vị thứ nhất = 64.5.
+*Q*_1: Tứ phân vị thứ nhất = 64,5.
 
 *Q*_2: Tứ phân vị thứ hai hoặc trung vị = 66.
 
@@ -186,7 +186,7 @@ Trong trường hợp này, ít nhất 25% các giá trị bằng một. Hai mư
 99; 
 56; 
 78; 
-55.5; 
+55,5; 
 32; 
 90; 
 80; 
@@ -195,7 +195,7 @@ Trong trường hợp này, ít nhất 25% các giá trị bằng một. Hai mư
 59; 
 45; 
 77; 
-84.5; 
+84,5; 
 84; 
 70; 
 72; 
@@ -219,7 +219,7 @@ Trong trường hợp này, ít nhất 25% các giá trị bằng một. Hai mư
 98; 
 90; 
 80; 
-84.5; 
+84,5; 
 85; 
 79; 
 78; 
@@ -227,7 +227,7 @@ Trong trường hợp này, ít nhất 25% các giá trị bằng một. Hai mư
 90; 
 79; 
 81; 
-25.5
+25,5
 
 #### Bài toán
 

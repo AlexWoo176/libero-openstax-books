@@ -128,12 +128,12 @@ Sử dụng dữ liệu
 Sử dụng bảng từ phần [Phân phối lý thuyết](4-7-discrete-distribution-playing-card-experiment#TheoDist) để tính toán các câu trả lời sau. Làm tròn câu trả lời của bạn đến bốn chữ số thập phân.
 
 - *P*(*x* = 3) = _______________________
-- *P**x*
+- *P*(1 < *x* < 4) = _______________________
 - *P*(*x* ≥ 8) = _______________________
 Sử dụng dữ liệu từ phần [Tổ chức dữ liệu](4-7-discrete-distribution-playing-card-experiment#OrgData) để tính toán các câu trả lời sau. Làm tròn câu trả lời của bạn đến bốn chữ số thập phân.
 
 - *RF*(*x* = 3) = _______________________
-- *RF**x*
+- *RF*(1 < *x* < 4) = _______________________
 - *RF*(*x* ≥ 8) = _______________________
 Câu hỏi thảo luậnĐối với câu hỏi 1 và 2, hãy suy nghĩ về hình dạng của hai biểu đồ, các xác suất, các tần suất tương đối, các số trung bình và các độ lệch chuẩn.
 

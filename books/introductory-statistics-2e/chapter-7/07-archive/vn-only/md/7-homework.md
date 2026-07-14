@@ -17,8 +17,8 @@ X
 
 x
 ¯
-1. Tìm xác suất để một cá nhân có số tiền từ $0.80 đến $1.00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
-1. Tìm xác suất để số trung bình của 25 sinh viên nằm trong khoảng từ $0.80 đến $1.00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
+1. Tìm xác suất để một cá nhân có số tiền từ $0,80 đến $1,00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
+1. Tìm xác suất để số trung bình của 25 sinh viên nằm trong khoảng từ $0,80 đến $1,00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
 1. Giải thích lý do tại sao có sự khác biệt trong phần e và phần f.
 Giả sử khoảng cách của các quả bóng bay (fly ball) được đánh ra ngoài sân (trong bóng chày) tuân theo phân phối chuẩn với số trung bình là 250 feet và độ lệch chuẩn là 50 feet. Chúng ta lấy mẫu ngẫu nhiên 49 quả bóng bay.
 
@@ -197,7 +197,7 @@ X
 X
 ¯
 1. Làm thế nào để độ lệch chuẩn có thể lớn hơn số trung bình?
-1. Tại sao khả năng số trung bình của 1.000 cư dân nằm trong khoảng từ $2.000 đến $2.100 lại cao hơn so với khoảng từ $2.100 đến $2.200?
+1. Tại sao khả năng số trung bình của 1.000 cư dân nằm trong khoảng từ $2.000 đến $2,100 lại cao hơn so với khoảng từ $2,100 đến $2,200?
 Phát biểu nào sau đây KHÔNG ĐÚNG về phân phối của các số trung bình?
 
 1. Số trung bình, trung vị và yếu vị bằng nhau.
@@ -217,7 +217,27 @@ X
 
 X
 ¯
-*N*
+ ~ *N*
+
+(
+
+4.59, 
+
+0.10
+
+16
+
+)
+
+(
+
+4.59, 
+
+0.10
+
+16
+
+)
 1. X
 ¯
 
@@ -290,7 +310,7 @@ Giả sử trọng lượng của các hộp ngũ cốc đã mở trong một gi
 1. *ΣX* ~ _____(_____,_____)
 1. Tìm xác suất để tổng trọng lượng của các hộp mở ít hơn 250 pound.
 1. Tìm bách phân vị thứ 35^th cho tổng trọng lượng của các hộp ngũ cốc mở.
-Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6.500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
+Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6,500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
 
 1. Bằng lời, *X* = ______________
 1. *X* ~ _____(_____,_____)
@@ -333,41 +353,41 @@ X
  không phải là phân phối mũ.
 Giá đóng cửa cổ phiếu của 35 nhà sản xuất chất bán dẫn tại Hoa Kỳ được đưa ra như sau.
 
-8.625; 
-30.25; 
-27.625; 
-46.75; 
-32.875; 
-18.25; 
+8,625; 
+30,25; 
+27,625; 
+46,75; 
+32,875; 
+18,25; 
 5; 
-0.125; 
-2.9375; 
-6.875; 
-28.25; 
-24.25; 
+0,125; 
+2,9375; 
+6,875; 
+28,25; 
+24,25; 
 21; 
-1.5; 
-30.25; 
+1,5; 
+30,25; 
 71; 
-43.5; 
-49.25; 
-2.5625; 
+43,5; 
+49,25; 
+2,5625; 
 31; 
-16.5; 
-9.5; 
-18.5; 
+16,5; 
+9,5; 
+18,5; 
 18; 
 9; 
-10.5; 
-16.625; 
-1.25; 
+10,5; 
+16,625; 
+1,25; 
 18; 
-12.87; 
+12,87; 
 7; 
-12.875; 
-2.875; 
-60.25; 
-29.25
+12,875; 
+2,875; 
+60,25; 
+29,25
 
 1. Bằng lời, *Î§* = ______________
 1. x
@@ -375,10 +395,10 @@ Giá đóng cửa cổ phiếu của 35 nhà sản xuất chất bán dẫn tạ
 
 x
 ¯
-
+ = _____
 *s_x* = _____
 *n* = _____
-1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = –0.0005. Sử dụng độ rộng cột là mười.
+1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = –0,0005. Sử dụng độ rộng cột là mười.
 1. Bằng lời, mô tả phân phối của giá cổ phiếu.
 1. Lấy trung bình ngẫu nhiên năm giá cổ phiếu với nhau. (Sử dụng bộ tạo số ngẫu nhiên.) Tiếp tục lấy trung bình năm giá trị với nhau cho đến khi bạn có mười giá trị trung bình. Liệt kê mười giá trị trung bình đó.
 1. Use the ten averages from part e to calculate the following.
@@ -390,7 +410,7 @@ x
 ¯
  = _____
 *s_x* = _____
-1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = -0.0005. Sử dụng độ rộng cột là mười.
+1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = -0,0005. Sử dụng độ rộng cột là mười.
 1. Biểu đồ histogram này có giống với đồ thị trong phần c không?
 1. Trong một hoặc hai câu hoàn chỉnh, hãy giải thích tại sao các đồ thị trông giống nhau hoặc khác nhau?
 1. Dựa trên lý thuyết của **định lý giới hạn trung tâm**, 
@@ -442,10 +462,10 @@ Giả sử hiện tại đã quá trưa vào một ngày giao hàng. Xác suất
 
 Số trung bình mẫu của thời gian chờ đợi tại bách phân vị thứ 90 (tính bằng phút) cho một mẫu gồm 100 hành khách là:
 
-1. 315.0
-1. 40.3
-1. 38.5
-1. 65.2
+1. 315,0
+1. 40,3
+1. 38,5
+1. 65,2
 Dựa trên các tính toán số học, bạn có ngạc nhiên không nếu thời gian chờ đợi trung bình mẫu (tính bằng phút) cho 100 hành khách là dưới 30 phút?
 
 1. có
@@ -457,15 +477,15 @@ Sử dụng thông tin sau để trả lời hai bài tập tiếp theo:* Chi ph
 Xác suất xấp xỉ để giá trung bình cho 16 trạm xăng là trên $4,69 là bao nhiêu?
 
 1. gần bằng không
-1. 0.1587
-1. 0.0943
+1. 0,1587
+1. 0,0943
 1. không xác định
 Tìm xác suất để giá trung bình cho 30 trạm xăng là dưới $4,55.
 
-1. 0.6554
-1. 0.3446
-1. 0.0142
-1. 0.9858
+1. 0,6554
+1. 0,3446
+1. 0,0142
+1. 0,9858
 1. 0
 Giả sử trong một khu học chánh từ Mẫu giáo đến lớp 12 (K - 12) tại địa phương, 53 phần trăm dân số ủng hộ một trường bán công cho các lớp từ Mẫu giáo đến lớp năm. Một mẫu ngẫu nhiên đơn giản gồm 300 người được khảo sát. Hãy tính các giá trị sau bằng cách sử dụng xấp xỉ chuẩn cho phân phối nhị thức.
 
@@ -510,31 +530,34 @@ X
 
 X
 ¯
-1. *P*
+1. *P*(
 
 x
 ¯
 
 x
 ¯
+ < 60) = _____
 1. Tìm bách phân vị thứ 30 cho số trung bình.
-1. *P*
+1. *P*(56 < 
 
 x
 ¯
 
 x
 ¯
-1. *P*
+ < 62) = _____
+1. *P*(18 < 
 
 x
 ¯
 
 x
 ¯
+ < 58) = _____
 1. *Σx* ~ _____(_____,_____)
 1. Tìm giá trị tối thiểu cho tứ phân vị thứ ba của tổng.
-1. *P**Σx*
+1. *P*(1,400 < *Σx* < 1,550) = _____
 Giả sử độ dài của các bài nghiên cứu được phân phối đều từ mười đến 25 trang. Chúng ta khảo sát một lớp học, trong đó 55 bài nghiên cứu đã được nộp cho giáo sư. 55 bài nghiên cứu này được coi là một tập hợp ngẫu nhiên của tất cả các bài nghiên cứu. Chúng ta quan tâm đến độ dài trung bình của các bài nghiên cứu.
 
 1. Bằng lời, *X* = _____________
@@ -556,10 +579,10 @@ X
 ¯
 1. Bằng lời, *ΣX* = _____________
 1. *ΣX* ~ _____(_____,_____)
-1. Không cần thực hiện bất kỳ phép tính nào, bạn có nghĩ rằng giáo sư có khả năng sẽ cần đọc tổng cộng hơn 1.050 trang không? Tại sao?
-1. Tính xác suất để giáo sư sẽ cần đọc tổng cộng hơn 1.050 trang.
+1. Không cần thực hiện bất kỳ phép tính nào, bạn có nghĩ rằng giáo sư có khả năng sẽ cần đọc tổng cộng hơn 1,050 trang không? Tại sao?
+1. Tính xác suất để giáo sư sẽ cần đọc tổng cộng hơn 1,050 trang.
 1. Tại sao lại rất khó có khả năng độ dài trung bình của các bài báo sẽ ít hơn 12 trang?
-Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6.500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
+Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6,500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
 
 1. Tìm bách phân vị thứ 90 cho mức lương của một giáo viên cá nhân.
 1. Tìm bách phân vị thứ 90 cho mức lương trung bình của giáo viên.
@@ -600,32 +623,32 @@ Các túi kẹo M&M lớn có trọng lượng tịnh được công bố là 39
 
 | Đỏ | Cam | Vàng | Nâu | Xanh dương | Xanh lá |
 | --- | --- | --- | --- | --- | --- |
-| 0.751 | 0.735 | 0.883 | 0.696 | 0.881 | 0.925 |
-| 0.841 | 0.895 | 0.769 | 0.876 | 0.863 | 0.914 |
-| 0.856 | 0.865 | 0.859 | 0.855 | 0.775 | 0.881 |
-| 0.799 | 0.864 | 0.784 | 0.806 | 0.854 | 0.865 |
-| 0.966 | 0.852 | 0.824 | 0.840 | 0.810 | 0.865 |
-| 0.859 | 0.866 | 0.858 | 0.868 | 0.858 | 1.015 |
-| 0.857 | 0.859 | 0.848 | 0.859 | 0.818 | 0.876 |
-| 0.942 | 0.838 | 0.851 | 0.982 | 0.868 | 0.809 |
-| 0.873 | 0.863 |  |  | 0.803 | 0.865 |
-| 0.809 | 0.888 |  |  | 0.932 | 0.848 |
-| 0.890 | 0.925 |  |  | 0.842 | 0.940 |
-| 0.878 | 0.793 |  |  | 0.832 | 0.833 |
-| 0.905 | 0.977 |  |  | 0.807 | 0.845 |
-|  | 0.850 |  |  | 0.841 | 0.852 |
-|  | 0.830 |  |  | 0.932 | 0.778 |
-|  | 0.856 |  |  | 0.833 | 0.814 |
-|  | 0.842 |  |  | 0.881 | 0.791 |
-|  | 0.778 |  |  | 0.818 | 0.810 |
-|  | 0.786 |  |  | 0.864 | 0.881 |
-|  | 0.853 |  |  | 0.825 |  |
-|  | 0.864 |  |  | 0.855 |  |
-|  | 0.873 |  |  | 0.942 |  |
-|  | 0.880 |  |  | 0.825 |  |
-|  | 0.882 |  |  | 0.869 |  |
-|  | 0.931 |  |  | 0.912 |  |
-|  |  |  |  | 0.887 |  |
+| 0,751 | 0,735 | 0,883 | 0,696 | 0,881 | 0,925 |
+| 0,841 | 0,895 | 0,769 | 0,876 | 0,863 | 0,914 |
+| 0,856 | 0,865 | 0,859 | 0,855 | 0,775 | 0,881 |
+| 0,799 | 0,864 | 0,784 | 0,806 | 0,854 | 0,865 |
+| 0,966 | 0,852 | 0,824 | 0,840 | 0,810 | 0,865 |
+| 0,859 | 0,866 | 0,858 | 0,868 | 0,858 | 1,015 |
+| 0,857 | 0,859 | 0,848 | 0,859 | 0,818 | 0,876 |
+| 0,942 | 0,838 | 0,851 | 0,982 | 0,868 | 0,809 |
+| 0,873 | 0,863 |  |  | 0,803 | 0,865 |
+| 0,809 | 0,888 |  |  | 0,932 | 0,848 |
+| 0,890 | 0,925 |  |  | 0,842 | 0,940 |
+| 0,878 | 0,793 |  |  | 0,832 | 0,833 |
+| 0,905 | 0,977 |  |  | 0,807 | 0,845 |
+|  | 0,850 |  |  | 0,841 | 0,852 |
+|  | 0,830 |  |  | 0,932 | 0,778 |
+|  | 0,856 |  |  | 0,833 | 0,814 |
+|  | 0,842 |  |  | 0,881 | 0,791 |
+|  | 0,778 |  |  | 0,818 | 0,810 |
+|  | 0,786 |  |  | 0,864 | 0,881 |
+|  | 0,853 |  |  | 0,825 |  |
+|  | 0,864 |  |  | 0,855 |  |
+|  | 0,873 |  |  | 0,942 |  |
+|  | 0,880 |  |  | 0,825 |  |
+|  | 0,882 |  |  | 0,869 |  |
+|  | 0,931 |  |  | 0,912 |  |
+|  |  |  |  | 0,887 |  |
 
 Túi kẹo chứa 465 viên và các trọng lượng được liệt kê trong bảng đến từ các viên kẹo được chọn ngẫu nhiên. Hãy đếm các trọng lượng đó.
 
@@ -643,12 +666,12 @@ Công ty Screw Right tuyên bố các loại ốc vít
 
  inch của họ nằm trong khoảng ±0,23 so với đường kính trung bình được công bố là 0,750 inch với độ lệch chuẩn là 0,115 inch. Các dữ liệu sau đây đã được ghi lại.
 
-| 0.757 | 0.723 | 0.754 | 0.737 | 0.757 | 0.741 | 0.722 | 0.741 | 0.743 | 0.742 |
+| 0,757 | 0,723 | 0,754 | 0,737 | 0,757 | 0,741 | 0,722 | 0,741 | 0,743 | 0,742 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0.740 | 0.758 | 0.724 | 0.739 | 0.736 | 0.735 | 0.760 | 0.750 | 0.759 | 0.754 |
-| 0.744 | 0.758 | 0.765 | 0.756 | 0.738 | 0.742 | 0.758 | 0.757 | 0.724 | 0.757 |
-| 0.744 | 0.738 | 0.763 | 0.756 | 0.760 | 0.768 | 0.761 | 0.742 | 0.734 | 0.754 |
-| 0.758 | 0.735 | 0.740 | 0.743 | 0.737 | 0.737 | 0.725 | 0.761 | 0.758 | 0.756 |
+| 0,740 | 0,758 | 0,724 | 0,739 | 0,736 | 0,735 | 0,760 | 0,750 | 0,759 | 0,754 |
+| 0,744 | 0,758 | 0,765 | 0,756 | 0,738 | 0,742 | 0,758 | 0,757 | 0,724 | 0,757 |
+| 0,744 | 0,738 | 0,763 | 0,756 | 0,760 | 0,768 | 0,761 | 0,742 | 0,734 | 0,754 |
+| 0,758 | 0,735 | 0,740 | 0,743 | 0,737 | 0,737 | 0,725 | 0,761 | 0,758 | 0,756 |
 
 Các ốc vít được chọn ngẫu nhiên từ cửa hàng sửa chữa gia đình tại địa phương.
 

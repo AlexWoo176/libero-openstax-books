@@ -166,13 +166,13 @@ Các sinh viên trong một lớp học nghiên cứu xã hội đưa ra giả t
 
 | Khu vực MDG | Tỷ lệ biết chữ ở người lớn (%) |
 | --- | --- |
-| Các khu vực phát triển | 99.0 |
-| Cộng đồng các quốc gia độc lập | 99.5 |
-| Bắc Phi | 67.3 |
-| Châu Phi cận Sahara | 62.5 |
-| Mỹ Latinh và vùng Caribe | 91.0 |
-| Đông Á | 93.8 |
-| Nam Á | 61.9 |
-| Đông Nam Á | 91.9 |
-| Tây Á | 84.5 |
-| Châu Đại Dương | 66.4 |
+| Các khu vực phát triển | 99,0 |
+| Cộng đồng các quốc gia độc lập | 99,5 |
+| Bắc Phi | 67,3 |
+| Châu Phi cận Sahara | 62,5 |
+| Mỹ Latinh và vùng Caribe | 91,0 |
+| Đông Á | 93,8 |
+| Nam Á | 61,9 |
+| Đông Nam Á | 91,9 |
+| Tây Á | 84,5 |
+| Châu Đại Dương | 66,4 |

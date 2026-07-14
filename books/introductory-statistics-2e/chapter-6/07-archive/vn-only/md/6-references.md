@@ -1,6 +1,6 @@
 ## Tài liệu tham khảo
 
-“Huyết áp của nam giới và nữ giới.” StatCruch, 2013. Có sẵn trực tuyến tại [http://www.statcrunch.com/5.0/viewreport.php?reportid=11960](http://www.statcrunch.com/5.0/viewreport.php?reportid=11960) (truy cập ngày 14 tháng 5 năm 2013).
+“Huyết áp của nam giới và nữ giới.” StatCruch, 2013. Có sẵn trực tuyến tại [http://www.statcrunch.com/5,0/viewreport.php?reportid=11960](http://www.statcrunch.com/5.0/viewreport.php?reportid=11960) (truy cập ngày 14 tháng 5 năm 2013).
 
 “Việc sử dụng các công cụ dịch tễ học trong các quần thể bị ảnh hưởng bởi xung đột: Tài nguyên giáo dục truy cập mở dành cho các nhà hoạch định chính sách: Tính toán điểm z.” Trường Vệ sinh và Y học Nhiệt đới London, 2009. Có sẵn trực tuyến tại [http://conflict.lshtm.ac.uk/page_125.htm](http://conflict.lshtm.ac.uk/page_125.htm) (truy cập ngày 14 tháng 5 năm 2013).
 

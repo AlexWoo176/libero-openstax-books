@@ -142,19 +142,19 @@ x
 
 x
 ¯
- = 7 và *EBM* = 2.5
+ = 7 và *EBM* = 2,5
 
 The confidence interval is (7 – 2.5, 7 + 2.5), and calculating the values gives (4.5, 9.5).
 
-Khoảng tin cậy là (7 – 2.5, 7 + 2.5), và tính toán các giá trị cho kết quả (4.5, 9.5).
+Khoảng tin cậy là (7 – 2,5, 7 + 2,5), và tính toán các giá trị cho kết quả (4,5, 9,5).
 
 If the confidence level (*CL*) is 95%, then we say that, "We estimate with 95% confidence that the true value of the population mean is between 4.5 and 9.5."
 
-Nếu mức tin cậy (*CL*) là 95%, thì chúng ta nói rằng, "Chúng ta ước tính với độ tin cậy 95% rằng giá trị thực của số trung bình quần thể nằm trong khoảng từ 4.5 đến 9.5."
+Nếu mức tin cậy (*CL*) là 95%, thì chúng ta nói rằng, "Chúng ta ước tính với độ tin cậy 95% rằng giá trị thực của số trung bình quần thể nằm trong khoảng từ 4,5 đến 9,5."
 
 Suppose we have data from a sample. The sample mean is 15, and the error bound for the mean is 3.2.
 
-Giả sử chúng ta có dữ liệu từ một mẫu. Số trung bình mẫu là 15, và giới hạn sai số cho số trung bình là 3.2.
+Giả sử chúng ta có dữ liệu từ một mẫu. Số trung bình mẫu là 15, và giới hạn sai số cho số trung bình là 3,2.
 
 What is the confidence interval estimate for the population mean?
 
@@ -586,16 +586,16 @@ Tỷ lệ hấp thụ riêng (SAR) cho điện thoại di động đo lường l
 
 | SAR Data for a sample of 30 cell phones | Dữ liệu SAR cho một mẫu gồm 30 điện thoại di động |
 | --- | --- |
-| 1.11 | 1.11 |
-| 1.48 | 1.48 |
-| 1.43 | 1.43 |
-| 1.3 | 1.3 |
-| 1.09 | 1.09 |
-| 0.455 | 0.455 |
-| 1.41 | 1.41 |
-| 0.82 | 0.82 |
-| 0.78 | 0.78 |
-| 1.25 | 1.25 |
+| 1.11 | 1,11 |
+| 1.48 | 1,48 |
+| 1.43 | 1,43 |
+| 1.3 | 1,3 |
+| 1.09 | 1,09 |
+| 0.455 | 0,455 |
+| 1.41 | 1,41 |
+| 0.82 | 0,82 |
+| 0.78 | 0,78 |
+| 1.25 | 1,25 |
 
 #### Problem
 
@@ -611,16 +611,16 @@ Hãy tìm khoảng tin cậy 98% cho số trung bình thực (quần thể) củ
 
 | SAR Data for a sample of 20 cell phones | Dữ liệu SAR cho một mẫu gồm 20 điện thoại di động |
 | --- | --- |
-| 1.48 | 1.48 |
-| 0.8 | 0.8 |
-| 1.15 | 1.15 |
-| 1.36 | 1.36 |
-| 0.77 | 0.77 |
-| 0.462 | 0.462 |
-| 1.36 | 1.36 |
-| 1.39 | 1.39 |
-| 1.3 | 1.3 |
-| 0.7 | 0.7 |
+| 1.48 | 1,48 |
+| 0.8 | 0,8 |
+| 1.15 | 1,15 |
+| 1.36 | 1,36 |
+| 0.77 | 0,77 |
+| 0.462 | 0,462 |
+| 1.36 | 1,36 |
+| 1.39 | 1,39 |
+| 1.3 | 1,3 |
+| 0.7 | 0,7 |
 
 Notice the difference in the confidence intervals calculated in [Example 8.3](8-1-a-single-population-mean-using-the-normal-distribution#example3) and the following [Try It](8-1-a-single-population-mean-using-the-normal-distribution#fs-idp77326048) exercise. These intervals are different for several reasons: they were calculated from different samples, the samples were different sizes, and the intervals were calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.
 
@@ -695,6 +695,7 @@ x
 
 x
 ¯
+ = 68
 - *EBM* = 
 
 (
@@ -726,7 +727,7 @@ z
 n
 
 )
-- *EBM*
+- *EBM* = 
 
 (
 
@@ -770,7 +771,7 @@ z
 2
 
  = *z*_0.05 = 1.645.
-- *σ* = 3; Mức độ tin cậy là 90% (*CL*=0.90); 
+- *σ* = 3; Mức độ tin cậy là 90% (*CL*=0,90); 
 
 z
 
@@ -782,7 +783,7 @@ z
 α
 2
 
- = *z*_0.05 = 1.645.
+ = *z*_0,05 = 1,645.
 Summary: Effect of Changing the Sample Size
 
 Tóm tắt: Ảnh hưởng của việc thay đổi Kích thước mẫu
@@ -824,7 +825,7 @@ Giả sử chúng ta biết rằng một khoảng tin cậy là **(67,18, 68,82)
 #### Tính giới hạn sai số:
 
 - If we know that the sample mean is 68: *EBM* = 68.82 – 68 = 0.82.
-- Nếu chúng ta biết số trung bình mẫu là 68: *EBM* = 68.82 – 68 = 0.82.
+- Nếu chúng ta biết số trung bình mẫu là 68: *EBM* = 68,82 – 68 = 0,82.
 - If we don't know the sample mean: *EBM* = 
 
 (68.82−67.18)
@@ -846,7 +847,7 @@ Giả sử chúng ta biết rằng một khoảng tin cậy là **(67,18, 68,82)
 
 2
 
- = 0.82.
+ = 0,82.
 #### Calculate the Sample Mean:
 
 #### Tính số trung bình mẫu:
@@ -868,7 +869,7 @@ x
 
 x
 ¯
- = 68.82 – 0.82 = 68
+ = 68,82 – 0,82 = 68
 - If we don't know the error bound: 
 
 x
@@ -1068,7 +1069,7 @@ The population standard deviation for the age of Foothill College students is 15
 - From the problem, we know that *σ* = 15 and *EBM* = 2.
 - Từ bài toán, chúng ta biết rằng *σ* = 15 và *EBM* = 2.
 - *z* = *z*_0.025 = 1.96, because the confidence level is 95%.
-- *z* = *z*_0.025 = 1.96, vì mức độ tin cậy là 95%.
+- *z* = *z*_0,025 = 1,96, vì mức độ tin cậy là 95%.
 - *n* = 
 
 z
@@ -1194,7 +1195,7 @@ M
 2
 2
 
- = 216.09 sử dụng phương trình kích thước mẫu.
+ = 216,09 sử dụng phương trình kích thước mẫu.
 - Use *n* = 217: Always round the answer UP to the next higher integer to ensure that the sample size is large enough.
 - Sử dụng *n* = 217: Luôn làm tròn kết quả LÊN số nguyên cao hơn tiếp theo để đảm bảo rằng kích thước mẫu đủ lớn.
 Therefore, 217 Foothill College students should be surveyed in order to be 95% confident that we are within two years of the true population mean age of Foothill College students.

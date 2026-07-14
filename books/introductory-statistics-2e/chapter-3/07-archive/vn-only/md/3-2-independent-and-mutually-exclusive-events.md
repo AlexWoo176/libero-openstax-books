@@ -8,8 +8,8 @@ Các biến cố độc lập và xung khắc
 
 Hai biến cố là độc lập nếu các điều kiện sau đây đúng:
 
-- *P**A**B**P**A*
-- *P**B**A**P**B*
+- *P*(*A*|*B*) = *P*(*A*)
+- *P*(*B*|*A*) = *P*(*B*)
 - *P*(*A* và *B*) = *P*(*A*)*P*(*B*)
 Hai biến cố *A* và *B* là Các biến cố độc lập nếu việc biết một biến cố đã xảy ra không ảnh hưởng đến khả năng biến cố kia xảy ra. Ví dụ, kết quả của hai lần gieo một con xúc xắc cân đối là các biến cố độc lập. Kết quả của lần gieo thứ nhất không làm thay đổi xác suất cho kết quả của lần gieo thứ hai. Để chứng minh hai biến cố là độc lập, bạn chỉ cần chứng minh **một** trong các điều kiện trên. Nếu hai biến cố KHÔNG độc lập, thì chúng ta nói rằng chúng là Các biến cố phụ thuộc.
 
@@ -93,17 +93,17 @@ Gieo một con xúc xắc cân đối, sáu mặt. Không gian mẫu là {1, 2, 
 *C* và *E* có phải là các biến cố xung khắc không? (Trả lời có hoặc không.) Tại sao có hoặc tại sao không?
 
 - Tìm *P*(*C*|*A*). Đây là một xác suất có điều kiện. Hãy nhớ rằng biến cố *C* là {3, 5} và biến cố *A* là {1, 3, 5}. Để tìm *P*(*C*|*A*), hãy tìm xác suất của *C* bằng cách sử dụng không gian mẫu *A*. Bạn đã thu hẹp không gian mẫu từ không gian mẫu ban đầu {1, 2, 3, 4, 5, 6} xuống còn {1, 3, 5}. Vì vậy, *P*(*C*|*A*) = 232323.
-Gọi biến cố *A* = học tiếng Tây Ban Nha. Gọi biến cố *B* = học tiếng Đức. Khi đó *A* VÀ *B* = học tiếng Tây Ban Nha và tiếng Đức. Giả sử *P*(*A*) = 0.4 và *P*(*B*) = 0.2. *P*(*A* VÀ *B*) = 0.08. Các biến cố *A* và *B* có độc lập không? Gợi ý: Bạn phải chứng minh MỘT trong các điều sau:
+Gọi biến cố *A* = học tiếng Tây Ban Nha. Gọi biến cố *B* = học tiếng Đức. Khi đó *A* VÀ *B* = học tiếng Tây Ban Nha và tiếng Đức. Giả sử *P*(*A*) = 0,4 và *P*(*B*) = 0,2. *P*(*A* VÀ *B*) = 0,08. Các biến cố *A* và *B* có độc lập không? Gợi ý: Bạn phải chứng minh MỘT trong các điều sau:
 
-- *P**A**B**P**A*
-- *P**B**A**P**B*
+- *P*(*A*|*B*) = *P*(*A*)
+- *P*(*B*|*A*) = *P*(*B*)
 - *P*(*A* biến cố "và" *B*) = *P*(*A*)*P*(*B*)
-Gọi biến cố *G* = học một lớp toán. Gọi biến cố *H* = học một lớp khoa học. Khi đó, *G* VÀ *H* = học một lớp toán và một lớp khoa học. Giả sử *P*(*G*) = 0.6, *P*(*H*) = 0.5, và *P*(*G* VÀ *H*) = 0.3. *G* và *H* có độc lập không?
+Gọi biến cố *G* = học một lớp toán. Gọi biến cố *H* = học một lớp khoa học. Khi đó, *G* VÀ *H* = học một lớp toán và một lớp khoa học. Giả sử *P*(*G*) = 0,6, *P*(*H*) = 0,5, và *P*(*G* VÀ *H*) = 0,3. *G* và *H* có độc lập không?
 
 Nếu *G* và *H* độc lập, thì bạn phải chứng minh **MỘT** trong các điều sau:
 
-- *P**G**H**P**G*
-- *P**H**G**P**H*
+- *P*(*G*|*H*) = *P*(*G*)
+- *P*(*H*|*G*) = *P*(*H*)
 - *P*(*G* biến cố "và" *H*) = *P*(*G*)*P*(*H*)
 **Lựa chọn bạn đưa ra phụ thuộc vào thông tin bạn có.** Bạn có thể chọn bất kỳ phương pháp nào ở đây vì bạn đã có thông tin cần thiết.
 
@@ -129,14 +129,14 @@ Trong một chiếc túi, có sáu viên bi đỏ và bốn viên bi xanh. Các 
 
 Gọi biến cố *C* = tham gia một lớp tiếng Anh. Gọi biến cố *D* = tham gia một lớp diễn thuyết.
 
-Giả sử *P*(*C*) = 0.75, *P*(*D*) = 0.3, *P*(*C*|*D*) = 0.75 và *P*(*C* và *D*) = 0.225.
+Giả sử *P*(*C*) = 0,75, *P*(*D*) = 0,3, *P*(*C*|*D*) = 0,75 và *P*(*C* và *D*) = 0,225.
 
 Hãy biện minh cho câu trả lời của bạn cho các câu hỏi sau bằng số liệu.
 
 1. *C* và *D* có độc lập không?
 1. *C* và *D* có xung khắc không?
 1. *P*(*D*|*C*) là bao nhiêu?
-Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0.40, *P*(*D*) = 0.30 và *P*(*B* và *D*) = 0.20.
+Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0,40, *P*(*D*) = 0,30 và *P*(*B* và *D*) = 0,20.
 
 1. Tìm *P*(*B*|*D*).
 1. Tìm *P*(*D*|*B*).
@@ -171,16 +171,16 @@ Các biến cố cổ vũ cho đội khách và mặc đồ màu xanh có độc
 Trong một lớp học đại học cụ thể, 60% sinh viên là nữ. Năm mươi phần trăm tổng số sinh viên trong lớp có tóc dài. Bốn mươi lăm phần trăm sinh viên là nữ và có tóc dài. Trong số các sinh viên nữ, 75% có tóc dài. Gọi *W* là biến cố một sinh viên là nữ. Gọi *L* là biến cố một sinh viên có tóc dài. Một sinh viên được chọn ngẫu nhiên. Các biến cố là nữ và có tóc dài có độc lập không?
 
 - Các xác suất sau đây được đưa ra trong ví dụ này:
-- *P**W**P**L*
-- *P*(*W* và *L*) = 0.45
-- *P*(*L*|*W*) = 0.75
+- *P*(*W*) = 0,60; *P*(*L*) = 0,50
+- *P*(*W* và *L*) = 0,45
+- *P*(*L*|*W*) = 0,75
 **Lựa chọn bạn đưa ra phụ thuộc vào thông tin bạn có.** Bạn có thể sử dụng điều kiện đầu tiên hoặc cuối cùng trong danh sách cho ví dụ này. Bạn chưa biết *P*(*W*|*L*), vì vậy bạn không thể sử dụng điều kiện thứ hai.
 
 Các biến cố là phụ nữ và có tóc dài không độc lập; việc biết một sinh viên là nữ sẽ làm thay đổi xác suất sinh viên đó có tóc dài.
 
 Mark đang quyết định chọn tuyến đường nào để đi làm. Các lựa chọn của anh ấy là *I* = đường liên bang và *F* = đường Fifth Street.
 
-- *P*(*I*) = 0.44 và *P*(*F*) = 0.56
+- *P*(*I*) = 0,44 và *P*(*F*) = 0,56
 - *P*(*I* và *F*) = 0 vì Mark sẽ chỉ chọn một tuyến đường để đi làm.
 Xác suất *P*(*I* hoặc *F*) là bao nhiêu?
 

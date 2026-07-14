@@ -259,13 +259,13 @@ Các sinh viên trong một lớp học nghiên cứu xã hội đưa ra giả t
 
 | MDG Region | Khu vực MDG | Adult Literacy Rate (%) | Tỷ lệ biết chữ ở người lớn (%) |
 | --- | --- | --- | --- |
-| Developed Regions | Các khu vực phát triển | 99.0 | 99.0 |
-| Commonwealth of Independent States | Cộng đồng các quốc gia độc lập | 99.5 | 99.5 |
-| Northern Africa | Bắc Phi | 67.3 | 67.3 |
-| Sub-Saharan Africa | Châu Phi cận Sahara | 62.5 | 62.5 |
-| Latin America and the Caribbean | Mỹ Latinh và vùng Caribe | 91.0 | 91.0 |
-| Eastern Asia | Đông Á | 93.8 | 93.8 |
-| Southern Asia | Nam Á | 61.9 | 61.9 |
-| South-Eastern Asia | Đông Nam Á | 91.9 | 91.9 |
-| Western Asia | Tây Á | 84.5 | 84.5 |
-| Oceania | Châu Đại Dương | 66.4 | 66.4 |
+| Developed Regions | Các khu vực phát triển | 99.0 | 99,0 |
+| Commonwealth of Independent States | Cộng đồng các quốc gia độc lập | 99.5 | 99,5 |
+| Northern Africa | Bắc Phi | 67.3 | 67,3 |
+| Sub-Saharan Africa | Châu Phi cận Sahara | 62.5 | 62,5 |
+| Latin America and the Caribbean | Mỹ Latinh và vùng Caribe | 91.0 | 91,0 |
+| Eastern Asia | Đông Á | 93.8 | 93,8 |
+| Southern Asia | Nam Á | 61.9 | 61,9 |
+| South-Eastern Asia | Đông Nam Á | 91.9 | 91,9 |
+| Western Asia | Tây Á | 84.5 | 84,5 |
+| Oceania | Châu Đại Dương | 66.4 | 66,4 |

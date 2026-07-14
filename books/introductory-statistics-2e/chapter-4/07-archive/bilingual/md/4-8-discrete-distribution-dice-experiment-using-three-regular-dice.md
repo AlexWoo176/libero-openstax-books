@@ -92,7 +92,7 @@ Phân phối lý thuyếtXây dựng biểu đồ hàm phân phối xác suất 
 
 1. *x**x*
 *y**y*
-*P*(*x*) = *P*(*y*)*P**x**P**y*
+*P*(*x*) = *P*(*y*)*P*(*x*) = *P*(*y*)
 
 00
 
@@ -145,7 +145,7 @@ Sử dụng dữ liệu từ phần [Phân phối lý thuyết](4-8-discrete-dis
 1. *P*(*x* = 3) = _________________
 1. *P*(*x* = 3) = _________________
 1. *P*(0 < *x* < 3) =  _________________
-1. *P**x*
+1. *P*(0 < *x* < 3) =  _________________
 1. *P*(*x* ≥ 2) =  _________________
 1. *P*(*x* ≥ 2) =  _________________
 Use the data from the [Organize the Data](4-8-discrete-distribution-dice-experiment-using-three-regular-dice#OrgData2) section to calculate the following answers. Round your answers to four decimal places.
@@ -155,7 +155,7 @@ Sử dụng dữ liệu từ phần [Tổ chức dữ liệu](4-8-discrete-distr
 1. *RF*(x = 3) =  _________________
 1. *RF*(x = 3) =  _________________
 1. *RF*(0 < *x* < 3) =  _________________
-1. *RF**x*
+1. *RF*(0 < *x* < 3) =  _________________
 1. *RF*(*x* ≥ 2) =  _________________
 1. *RF*(*x* ≥ 2) =  _________________
 Discussion QuestionFor questions 1 and 2, consider the graphs, the probabilities, the relative frequencies, the means, and the standard deviations.

@@ -16,7 +16,7 @@
 
 The graph in [Figure 3.11](3-homework#ch03_M02-fig001) displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.
 
-Biểu đồ trong [Hình 3.11](3-homework#ch03_M02-fig001) hiển thị quy mô mẫu và tỷ lệ phần trăm của những người thuộc các nhóm tuổi và giới tính khác nhau đã được thăm dò ý kiến về sự tán thành của họ đối với các hành động của Thị trưởng Ford khi đương nhiệm. Tổng số người trong mẫu của tất cả các nhóm tuổi là 1.045.
+Biểu đồ trong [Hình 3.11](3-homework#ch03_M02-fig001) hiển thị quy mô mẫu và tỷ lệ phần trăm của những người thuộc các nhóm tuổi và giới tính khác nhau đã được thăm dò ý kiến về sự tán thành của họ đối với các hành động của Thị trưởng Ford khi đương nhiệm. Tổng số người trong mẫu của tất cả các nhóm tuổi là 1,045.
 
 1. Define three events in the graph.
 1. Xác định ba biến cố trong biểu đồ.
@@ -274,11 +274,11 @@ Let *P*(*C*|*D*) = 0.6.
 
 Hãy xem xét kịch bản sau đây:
 
-Cho *P*(*C*) = 0.4.
+Cho *P*(*C*) = 0,4.
 
-Cho *P*(*D*) = 0.5.
+Cho *P*(*D*) = 0,5.
 
-Cho *P*(*C*|*D*) = 0.6.
+Cho *P*(*C*|*D*) = 0,6.
 
 1. Find *P*(*C* AND *D*).
 1. Tìm *P*(*C* VÀ *D*).
@@ -297,20 +297,20 @@ Cho *P*(*C*|*D*) = 0.6.
 1. Rewrite the basic Addition Rule *P*(*Y* OR *Z*) = *P*(*Y*) + *P*(*Z*) - *P*(*Y* AND *Z*) using the information that *Y* and *Z* are independent events.
 1. Viết lại Quy tắc cộng cơ bản *P*(*Y* HOẶC *Z*) = *P*(*Y*) + *P*(*Z*) - *P*(*Y* VÀ *Z*) bằng cách sử dụng thông tin rằng *Y* và *Z* là các biến cố độc lập.
 1. Use the rewritten rule to find *P*(*Z*) if *P*(*Y* OR *Z*) = 0.71 and *P*(*Y*) = 0.42.
-1. Sử dụng quy tắc đã viết lại để tìm *P*(*Z*) nếu *P*(*Y* HOẶC *Z*) = 0.71 và *P*(*Y*) = 0.42.
+1. Sử dụng quy tắc đã viết lại để tìm *P*(*Z*) nếu *P*(*Y* HOẶC *Z*) = 0,71 và *P*(*Y*) = 0,42.
 *G* and *H* are mutually exclusive events. *P*(*G*) = 0.5 *P*(*H*) = 0.3
 
-*G* và *H* là các biến cố xung khắc. *P*(*G*) = 0.5 *P*(*H*) = 0.3
+*G* và *H* là các biến cố xung khắc. *P*(*G*) = 0,5 *P*(*H*) = 0,3
 
 1. Explain why the following statement MUST be false: *P*(*H*|*G*) = 0.4.
-1. Giải thích tại sao phát biểu sau đây PHẢI sai: *P*(*H*|*G*) = 0.4.
+1. Giải thích tại sao phát biểu sau đây PHẢI sai: *P*(*H*|*G*) = 0,4.
 1. Find *P*(*H* OR *G*).
 1. Tìm *P*(*H* HOẶC *G*).
 1. Are *G* and *H* independent or dependent events? Explain in a complete sentence.
 1. *G* và *H* là các biến cố độc lập hay các biến cố phụ thuộc? Hãy giải thích bằng một câu hoàn chỉnh.
 According to the 2019 U.S. Census, approximately 331,449,281 people live in the United States. Of these people, 67,800,000 speak a language other than English at home. Of those who speak another language at home, 61.6% speak Spanish.
 
-Theo Tổng điều tra dân số Hoa Kỳ năm 2019, có khoảng 331.449.281 người sống tại Hoa Kỳ. Trong số này, 67.800.000 người nói một ngôn ngữ khác ngoài tiếng Anh tại nhà. Trong số những người nói ngôn ngữ khác tại nhà, 61,6% nói tiếng Tây Ban Nha.
+Theo Tổng điều tra dân số Hoa Kỳ năm 2019, có khoảng 331.449.281 người sống tại Hoa Kỳ. Trong số này, 67,800.000 người nói một ngôn ngữ khác ngoài tiếng Anh tại nhà. Trong số những người nói ngôn ngữ khác tại nhà, 61,6% nói tiếng Tây Ban Nha.
 
 Let: *E* = speaks English at home; *E′* = speaks another language at home; *S* = speaks Spanish;
 
@@ -322,10 +322,10 @@ Hoàn thành mỗi phát biểu xác suất bằng cách ghép với câu trả 
 
 | Probability Statements | Các phát biểu về xác suất | Answers | Các câu trả lời |
 | --- | --- | --- | --- |
-| a. 𝑃⁡(𝐸 ′)⁢  = P⁡(E′)⁢ = P(E′) = | a. | i. 0.7954 | i. 0.7954 |
-| b. 𝑃⁡(𝐸)⁢  = P⁡(E)⁢ = P(E) = | b. | ii. 0.616 | ii. 0.616 |
-| c. 𝑃⁡(𝑆⁢  ∩ ⁢𝐸 ′)⁢  =P⁡(S⁢ ∩ ⁢E′)⁢ =P(S ∩ E′) = | c. | iii. 0.2046 | iii. 0.2046 |
-| d. 𝑃⁡(𝑆 | 𝐸 ′)⁢  = P⁡(S | E′)⁢ = P(S | E′) = | d. | iv. 0.1260 | iv. 0.1260 |
+| a. 𝑃⁡(𝐸 ′)⁢  = P⁡(E′)⁢ = P(E′) = | a. 𝑃⁡(𝐸 ′)⁢  = P⁡(E′)⁢ = P(E′) = | i. 0.7954 | i. 0,7954 |
+| b. 𝑃⁡(𝐸)⁢  = P⁡(E)⁢ = P(E) = | b. 𝑃⁡(𝐸)⁢  = P⁡(E)⁢ = P(E) = | ii. 0.616 | ii. 0,616 |
+| c. 𝑃⁡(𝑆⁢  ∩ ⁢𝐸 ′)⁢  =P⁡(S⁢ ∩ ⁢E′)⁢ =P(S ∩ E′) = | c. 𝑃⁡(𝑆⁢  ∩ ⁢𝐸 ′)⁢  =P⁡(S⁢ ∩ ⁢E′)⁢ =P(S ∩ E′) = | iii. 0.2046 | iii. 0,2046 |
+| d. 𝑃⁡(𝑆 | 𝐸 ′)⁢  = P⁡(S | E′)⁢ = P(S | E′) = | d. 𝑃⁡(𝑆 | 𝐸 ′)⁢  = P⁡(S | E′)⁢ = P(S | E′) = | iv. 0.1260 | iv. 0,1260 |
 
 1994, the U.S. government held a lottery to issue 55,000 Green Cards (permits for non-citizens to work legally in the U.S.). Renate Deutsch, from Germany, was one of approximately 6.5 million people who entered this lottery. Let *G* = won green card.
 

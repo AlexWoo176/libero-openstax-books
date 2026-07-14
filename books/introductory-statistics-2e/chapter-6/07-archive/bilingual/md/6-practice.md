@@ -315,7 +315,7 @@ Figure
 Hình 
 6.17
 1. *P*(__________ < *x* < __________) = __________
-1. *P**x*
+1. *P*(__________ < *x* < __________) = __________
 Find the 70^th percentile of the distribution for the time a wearable fitness device lasts.
 
 Tìm bách phân vị thứ 70^th của phân phối cho thời gian hoạt động của một thiết bị thể dục đeo tay.

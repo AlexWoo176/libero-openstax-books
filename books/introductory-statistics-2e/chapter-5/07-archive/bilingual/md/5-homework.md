@@ -39,11 +39,11 @@ Số ca sinh được phân phối xấp xỉ đều trong suốt cả năm. Có
 1. Find the probability that a person is born at the exact moment week 19 ends.  That is, find *P*(*x* = 19) = _________
 1. Tìm xác suất một người được sinh ra đúng vào thời điểm kết thúc tuần thứ 19. Nghĩa là, tìm *P*(*x* = 19) = _________
 1. *P*(2 < *x* < 31) = _________
-1. *P**x*
+1. *P*(2 < *x* < 31) = _________
 1. Find the probability that a person is born after week 40.
 1. Tìm xác suất để một người được sinh ra sau tuần thứ 40.
 1. *P*(12 < *x*|*x* < 28) = _________
-1. *P**x**x*
+1. *P*(12 < *x*|*x* < 28) = _________
 1. Find the 70^th percentile.
 1. Tìm bách phân vị thứ 70^th.
 1. Find the minimum for the upper quarter.
@@ -63,11 +63,11 @@ Một trình tạo số ngẫu nhiên chọn một số từ một đến chín 
 1. *σ* = _________
 1. *σ* = _________
 1. *P*(3.5 < *x* < 7.25) = _________
-1. *P**x*
+1. *P*(3,5 < *x* < 7,25) = _________
 1. *P*(*x* > 5.67)
-1. *P*(*x* > 5.67)
+1. *P*(*x* > 5,67)
 1. *P*(*x* > 5|*x* > 3) = _________
-1. *P**x**x*
+1. *P*(*x* > 5|*x* > 3) = _________
 1. Find the 90^th percentile.
 1. Tìm bách phân vị thứ 90^th.
 According to a study by Dr. John McDougall of his live-in weight loss program, the people who follow his program lose between six and 15 pounds a month until they approach trim body weight. Let’s suppose that the weight loss is uniformly distributed. We are interested in the weight loss of a randomly selected individual following the program for one month.
@@ -159,9 +159,9 @@ Tìm bách phân vị thứ 30 cho thời gian chờ đợi (tính bằng phút)
 1. two
 1. hai
 1. 2.4
-1. 2.4
+1. 2,4
 1. 2.75
-1. 2.75
+1. 2,75
 1. three
 1. ba
 The probability of waiting more than seven minutes given a person has waited more than four minutes is?
@@ -169,13 +169,13 @@ The probability of waiting more than seven minutes given a person has waited mor
 Xác suất chờ đợi lâu hơn bảy phút với điều kiện một người đã chờ đợi lâu hơn bốn phút là bao nhiêu?
 
 1. 0.125
-1. 0.125
+1. 0,125
 1. 0.25
-1. 0.25
+1. 0,25
 1. 0.5
-1. 0.5
+1. 0,5
 1. 0.75
-1. 0.75
+1. 0,75
 The time (in minutes) until the next bus departs a major bus depot follows a distribution with *f*(*x*) = 120120120 where *x* goes from 25 to 45 minutes.
 
 Thời gian (tính bằng phút) cho đến khi chuyến xe buýt tiếp theo rời bến xe buýt chính tuân theo một phân phối với *f*(*x*) = 120120120 trong đó *x* chạy từ 25 đến 45 phút.
@@ -347,9 +347,9 @@ The decay rate is:
 Tỷ lệ suy giảm là:
 
 1. 0.3333
-1. 0.3333
+1. 0,3333
 1. 0.5000
-1. 0.5000
+1. 0,5000
 1. 2
 1. 2
 1. 3
@@ -359,28 +359,28 @@ What is the probability that a smartphone will fail within two years of the date
 Xác suất để một chiếc điện thoại thông minh bị hỏng trong vòng hai năm kể từ ngày mua là bao nhiêu?
 
 1. 0.8647
-1. 0.8647
+1. 0,8647
 1. 0.4866
-1. 0.4866
+1. 0,4866
 1. 0.2212
-1. 0.2212
+1. 0,2212
 1. 0.9997
-1. 0.9997
+1. 0,9997
 What is the median lifetime of these phones (in years)?
 
 Trung vị tuổi thọ của những chiếc điện thoại này (tính bằng năm) là bao nhiêu?
 
 1. 0.1941
-1. 0.1941
+1. 0,1941
 1. 1.3863
-1. 1.3863
+1. 1,3863
 1. 2.0794
-1. 2.0794
+1. 2,0794
 1. 5.5452
-1. 5.5452
+1. 5,5452
 Let *X* ~ *Exp*(0.1).
 
-Cho  ~ (0.1).
+Cho  ~ (0,1).
 
 1. decay rate = ________
 1. tốc độ phân rã = ________
@@ -438,7 +438,7 @@ Trong giải bóng chày nhà nghề, no-hitter là một trận đấu mà cầ
 1. Xác suất để có nhiều hơn 3 trận không-hit trong một mùa giải là bao nhiêu?
 During the years 1998–2012, a total of 29 earthquakes of magnitude greater than 6.5 have occurred in Papua New Guinea. Assume that the time spent waiting between earthquakes is exponential.
 
-Trong những năm 1998–2012, tổng cộng có 29 trận động đất có cường độ lớn hơn 6.5 đã xảy ra ở Papua New Guinea. Giả sử rằng thời gian chờ đợi giữa các trận động đất tuân theo phân phối mũ.
+Trong những năm 1998–2012, tổng cộng có 29 trận động đất có cường độ lớn hơn 6,5 đã xảy ra ở Papua New Guinea. Giả sử rằng thời gian chờ đợi giữa các trận động đất tuân theo phân phối mũ.
 
 1. What is the probability that the next earthquake occurs within the next three months?
 1. Xác suất để trận động đất tiếp theo xảy ra trong vòng ba tháng tới là bao nhiêu?

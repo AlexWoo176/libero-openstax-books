@@ -114,7 +114,7 @@ Gọi *X* = số nam giới trong ủy ban gồm bốn người. Nam giới là 
 
 Find *P*(*x* = 2). *P*(*x* = 2) = 0.4545 (calculator or computer)
 
-Tìm *P*(*x* = 2). *P*(*x* = 2) = 0.4545 (máy tính hoặc máy tính cầm tay)
+Tìm *P*(*x* = 2). *P*(*x* = 2) = 0,4545 (máy tính hoặc máy tính cầm tay)
 
 Currently, the TI-83+ and TI-84 do not have hypergeometric probability functions. There are a number of computer packages, including Microsoft Excel, that do.
 

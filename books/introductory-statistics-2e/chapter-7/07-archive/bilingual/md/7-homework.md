@@ -38,9 +38,9 @@ x
 x
 ¯
 1. Find the probability that an individual had between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.
-1. Tìm xác suất để một cá nhân có số tiền từ $0.80 đến $1.00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
+1. Tìm xác suất để một cá nhân có số tiền từ $0,80 đến $1,00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
 1. Find the probability that the average of the 25 students was between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.
-1. Tìm xác suất để số trung bình của 25 sinh viên nằm trong khoảng từ $0.80 đến $1.00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
+1. Tìm xác suất để số trung bình của 25 sinh viên nằm trong khoảng từ $0,80 đến $1,00. Vẽ đồ thị cho tình huống này và tô bóng vùng cần xác định.
 1. Explain why there is a difference in part e and part f.
 1. Giải thích lý do tại sao có sự khác biệt trong phần e và phần f.
 Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.
@@ -404,7 +404,7 @@ X
 1. How is it possible for the standard deviation to be greater than the average?
 1. Làm thế nào để độ lệch chuẩn có thể lớn hơn số trung bình?
 1. Why is it more likely that the average of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?
-1. Tại sao khả năng số trung bình của 1.000 cư dân nằm trong khoảng từ $2.000 đến $2.100 lại cao hơn so với khoảng từ $2.100 đến $2.200?
+1. Tại sao khả năng số trung bình của 1.000 cư dân nằm trong khoảng từ $2.000 đến $2,100 lại cao hơn so với khoảng từ $2,100 đến $2,200?
 Which of the following is NOT TRUE about the distribution for averages?
 
 Phát biểu nào sau đây KHÔNG ĐÚNG về phân phối của các số trung bình?
@@ -464,7 +464,27 @@ X
 
 X
 ¯
-*N*
+ ~ *N*
+
+(
+
+4.59, 
+
+0.10
+
+16
+
+)
+
+(
+
+4.59, 
+
+0.10
+
+16
+
+)
 1. X
 ¯
 
@@ -611,7 +631,7 @@ Giả sử trọng lượng của các hộp ngũ cốc đã mở trong một gi
 1. Tìm bách phân vị thứ 35^th cho tổng trọng lượng của các hộp ngũ cốc mở.
 Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.
 
-Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6.500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
+Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6,500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
 
 1. In words, *X* = ______________
 1. Bằng lời, *X* = ______________
@@ -728,41 +748,41 @@ Giá đóng cửa cổ phiếu của 35 nhà sản xuất chất bán dẫn tạ
 60.25; 
 29.25
 
-8.625; 
-30.25; 
-27.625; 
-46.75; 
-32.875; 
-18.25; 
+8,625; 
+30,25; 
+27,625; 
+46,75; 
+32,875; 
+18,25; 
 5; 
-0.125; 
-2.9375; 
-6.875; 
-28.25; 
-24.25; 
+0,125; 
+2,9375; 
+6,875; 
+28,25; 
+24,25; 
 21; 
-1.5; 
-30.25; 
+1,5; 
+30,25; 
 71; 
-43.5; 
-49.25; 
-2.5625; 
+43,5; 
+49,25; 
+2,5625; 
 31; 
-16.5; 
-9.5; 
-18.5; 
+16,5; 
+9,5; 
+18,5; 
 18; 
 9; 
-10.5; 
-16.625; 
-1.25; 
+10,5; 
+16,625; 
+1,25; 
 18; 
-12.87; 
+12,87; 
 7; 
-12.875; 
-2.875; 
-60.25; 
-29.25
+12,875; 
+2,875; 
+60,25; 
+29,25
 
 1. In words, *Î§* = ______________
 1. Bằng lời, *Î§* = ______________
@@ -778,11 +798,11 @@ x
 
 x
 ¯
-
+ = _____
 *s_x* = _____*s_x* = _____
 *n* = _____*n* = _____
 1. Construct a histogram of the distribution of the averages. Start at *x* = –0.0005. Use bar widths of ten.
-1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = –0.0005. Sử dụng độ rộng cột là mười.
+1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = –0,0005. Sử dụng độ rộng cột là mười.
 1. In words, describe the distribution of stock prices.
 1. Bằng lời, mô tả phân phối của giá cổ phiếu.
 1. Randomly average five stock prices together. (Use a random number generator.) Continue averaging five pieces together until you have ten averages. List those ten averages.
@@ -804,7 +824,7 @@ x
  = _____
 *s_x* = _____*s_x* = _____
 1. Construct a histogram of the distribution of the averages. Start at *x* = -0.0005. Use bar widths of ten.
-1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = -0.0005. Sử dụng độ rộng cột là mười.
+1. Xây dựng một biểu đồ histogram của phân phối các giá trị trung bình. Bắt đầu tại *x* = -0,0005. Sử dụng độ rộng cột là mười.
 1. Does this histogram look like the graph in part c?
 1. Biểu đồ histogram này có giống với đồ thị trong phần c không?
 1. In one or two complete sentences, explain why the graphs either look the same or look different?
@@ -908,13 +928,13 @@ The 90^th percentile sample average wait time (in minutes) for a sample of 100 r
 Số trung bình mẫu của thời gian chờ đợi tại bách phân vị thứ 90 (tính bằng phút) cho một mẫu gồm 100 hành khách là:
 
 1. 315.0
-1. 315.0
+1. 315,0
 1. 40.3
-1. 40.3
+1. 40,3
 1. 38.5
-1. 38.5
+1. 38,5
 1. 65.2
-1. 65.2
+1. 65,2
 Would you be surprised, based upon numerical calculations, if the sample average wait time (in minutes) for 100 riders was less than 30 minutes?
 
 Dựa trên các tính toán số học, bạn có ngạc nhiên không nếu thời gian chờ đợi trung bình mẫu (tính bằng phút) cho 100 hành khách là dưới 30 phút?
@@ -938,9 +958,9 @@ Xác suất xấp xỉ để giá trung bình cho 16 trạm xăng là trên $4,6
 1. almost zero
 1. gần bằng không
 1. 0.1587
-1. 0.1587
+1. 0,1587
 1. 0.0943
-1. 0.0943
+1. 0,0943
 1. unknown
 1. không xác định
 Find the probability that the average price for 30 gas stations is less than $4.55.
@@ -948,13 +968,13 @@ Find the probability that the average price for 30 gas stations is less than $4.
 Tìm xác suất để giá trung bình cho 30 trạm xăng là dưới $4,55.
 
 1. 0.6554
-1. 0.6554
+1. 0,6554
 1. 0.3446
-1. 0.3446
+1. 0,3446
 1. 0.0142
-1. 0.0142
+1. 0,0142
 1. 0.9858
-1. 0.9858
+1. 0,9858
 1. 0
 1. 0
 Suppose in a local Kindergarten through 12^th grade (K - 12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate following using the normal approximation to the binomial distribtion.
@@ -1052,13 +1072,14 @@ x
 x
 ¯
  < 60) = _____
-1. *P*
+1. *P*(
 
 x
 ¯
 
 x
 ¯
+ < 60) = _____
 1. Find the 30^th percentile for the mean.
 1. Tìm bách phân vị thứ 30 cho số trung bình.
 1. *P*(56 < 
@@ -1069,13 +1090,14 @@ x
 x
 ¯
  < 62) = _____
-1. *P*
+1. *P*(56 < 
 
 x
 ¯
 
 x
 ¯
+ < 62) = _____
 1. *P*(18 < 
 
 x
@@ -1084,19 +1106,20 @@ x
 x
 ¯
  < 58) = _____
-1. *P*
+1. *P*(18 < 
 
 x
 ¯
 
 x
 ¯
+ < 58) = _____
 1. *Σx* ~ _____(_____,_____)
 1. *Σx* ~ _____(_____,_____)
 1. Find the minimum value for the upper quartile for the sum.
 1. Tìm giá trị tối thiểu cho tứ phân vị thứ ba của tổng.
 1. *P*(1,400 < *Σx* < 1,550) = _____
-1. *P**Σx*
+1. *P*(1,400 < *Σx* < 1,550) = _____
 Suppose that the length of research papers is uniformly distributed from ten to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.
 
 Giả sử độ dài của các bài nghiên cứu được phân phối đều từ mười đến 25 trang. Chúng ta khảo sát một lớp học, trong đó 55 bài nghiên cứu đã được nộp cho giáo sư. 55 bài nghiên cứu này được coi là một tập hợp ngẫu nhiên của tất cả các bài nghiên cứu. Chúng ta quan tâm đến độ dài trung bình của các bài nghiên cứu.
@@ -1141,14 +1164,14 @@ X
 1. *ΣX* ~ _____(_____,_____)
 1. *ΣX* ~ _____(_____,_____)
 1. Without doing any calculations, do you think that it’s likely that the professor will need to read a total of more than 1,050 pages? Why?
-1. Không cần thực hiện bất kỳ phép tính nào, bạn có nghĩ rằng giáo sư có khả năng sẽ cần đọc tổng cộng hơn 1.050 trang không? Tại sao?
+1. Không cần thực hiện bất kỳ phép tính nào, bạn có nghĩ rằng giáo sư có khả năng sẽ cần đọc tổng cộng hơn 1,050 trang không? Tại sao?
 1. Calculate the probability that the professor will need to read a total of more than 1,050 pages.
-1. Tính xác suất để giáo sư sẽ cần đọc tổng cộng hơn 1.050 trang.
+1. Tính xác suất để giáo sư sẽ cần đọc tổng cộng hơn 1,050 trang.
 1. Why is it so unlikely that the average length of the papers will be less than 12 pages?
 1. Tại sao lại rất khó có khả năng độ dài trung bình của các bài báo sẽ ít hơn 12 trang?
 Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.
 
-Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6.500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
+Mức lương của giáo viên trong một khu học chánh tiểu học cụ thể tuân theo phân phối chuẩn với số trung bình là $44.000 và độ lệch chuẩn là $6,500. Chúng ta khảo sát ngẫu nhiên mười giáo viên từ khu học chánh đó.
 
 1. Find the 90^th percentile for an individual teacher’s salary.
 1. Tìm bách phân vị thứ 90 cho mức lương của một giáo viên cá nhân.
@@ -1223,32 +1246,32 @@ Các túi kẹo M&M lớn có trọng lượng tịnh được công bố là 39
 
 | Red | Đỏ | Orange | Cam | Yellow | Vàng | Brown | Nâu | Blue | Xanh dương | Green | Xanh lá |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0.751 | 0.751 | 0.735 | 0.735 | 0.883 | 0.883 | 0.696 | 0.696 | 0.881 | 0.881 | 0.925 | 0.925 |
-| 0.841 | 0.841 | 0.895 | 0.895 | 0.769 | 0.769 | 0.876 | 0.876 | 0.863 | 0.863 | 0.914 | 0.914 |
-| 0.856 | 0.856 | 0.865 | 0.865 | 0.859 | 0.859 | 0.855 | 0.855 | 0.775 | 0.775 | 0.881 | 0.881 |
-| 0.799 | 0.799 | 0.864 | 0.864 | 0.784 | 0.784 | 0.806 | 0.806 | 0.854 | 0.854 | 0.865 | 0.865 |
-| 0.966 | 0.966 | 0.852 | 0.852 | 0.824 | 0.824 | 0.840 | 0.840 | 0.810 | 0.810 | 0.865 | 0.865 |
-| 0.859 | 0.859 | 0.866 | 0.866 | 0.858 | 0.858 | 0.868 | 0.868 | 0.858 | 0.858 | 1.015 | 1.015 |
-| 0.857 | 0.857 | 0.859 | 0.859 | 0.848 | 0.848 | 0.859 | 0.859 | 0.818 | 0.818 | 0.876 | 0.876 |
-| 0.942 | 0.942 | 0.838 | 0.838 | 0.851 | 0.851 | 0.982 | 0.982 | 0.868 | 0.868 | 0.809 | 0.809 |
-| 0.873 | 0.873 | 0.863 | 0.863 |  |  |  |  | 0.803 | 0.803 | 0.865 | 0.865 |
-| 0.809 | 0.809 | 0.888 | 0.888 |  |  |  |  | 0.932 | 0.932 | 0.848 | 0.848 |
-| 0.890 | 0.890 | 0.925 | 0.925 |  |  |  |  | 0.842 | 0.842 | 0.940 | 0.940 |
-| 0.878 | 0.878 | 0.793 | 0.793 |  |  |  |  | 0.832 | 0.832 | 0.833 | 0.833 |
-| 0.905 | 0.905 | 0.977 | 0.977 |  |  |  |  | 0.807 | 0.807 | 0.845 | 0.845 |
-|  |  | 0.850 | 0.850 |  |  |  |  | 0.841 | 0.841 | 0.852 | 0.852 |
-|  |  | 0.830 | 0.830 |  |  |  |  | 0.932 | 0.932 | 0.778 | 0.778 |
-|  |  | 0.856 | 0.856 |  |  |  |  | 0.833 | 0.833 | 0.814 | 0.814 |
-|  |  | 0.842 | 0.842 |  |  |  |  | 0.881 | 0.881 | 0.791 | 0.791 |
-|  |  | 0.778 | 0.778 |  |  |  |  | 0.818 | 0.818 | 0.810 | 0.810 |
-|  |  | 0.786 | 0.786 |  |  |  |  | 0.864 | 0.864 | 0.881 | 0.881 |
-|  |  | 0.853 | 0.853 |  |  |  |  | 0.825 | 0.825 |  |  |
-|  |  | 0.864 | 0.864 |  |  |  |  | 0.855 | 0.855 |  |  |
-|  |  | 0.873 | 0.873 |  |  |  |  | 0.942 | 0.942 |  |  |
-|  |  | 0.880 | 0.880 |  |  |  |  | 0.825 | 0.825 |  |  |
-|  |  | 0.882 | 0.882 |  |  |  |  | 0.869 | 0.869 |  |  |
-|  |  | 0.931 | 0.931 |  |  |  |  | 0.912 | 0.912 |  |  |
-|  |  |  |  |  |  |  |  | 0.887 | 0.887 |  |  |
+| 0.751 | 0,751 | 0.735 | 0,735 | 0.883 | 0,883 | 0.696 | 0,696 | 0.881 | 0,881 | 0.925 | 0,925 |
+| 0.841 | 0,841 | 0.895 | 0,895 | 0.769 | 0,769 | 0.876 | 0,876 | 0.863 | 0,863 | 0.914 | 0,914 |
+| 0.856 | 0,856 | 0.865 | 0,865 | 0.859 | 0,859 | 0.855 | 0,855 | 0.775 | 0,775 | 0.881 | 0,881 |
+| 0.799 | 0,799 | 0.864 | 0,864 | 0.784 | 0,784 | 0.806 | 0,806 | 0.854 | 0,854 | 0.865 | 0,865 |
+| 0.966 | 0,966 | 0.852 | 0,852 | 0.824 | 0,824 | 0.840 | 0,840 | 0.810 | 0,810 | 0.865 | 0,865 |
+| 0.859 | 0,859 | 0.866 | 0,866 | 0.858 | 0,858 | 0.868 | 0,868 | 0.858 | 0,858 | 1.015 | 1,015 |
+| 0.857 | 0,857 | 0.859 | 0,859 | 0.848 | 0,848 | 0.859 | 0,859 | 0.818 | 0,818 | 0.876 | 0,876 |
+| 0.942 | 0,942 | 0.838 | 0,838 | 0.851 | 0,851 | 0.982 | 0,982 | 0.868 | 0,868 | 0.809 | 0,809 |
+| 0.873 | 0,873 | 0.863 | 0,863 |  |  |  |  | 0.803 | 0,803 | 0.865 | 0,865 |
+| 0.809 | 0,809 | 0.888 | 0,888 |  |  |  |  | 0.932 | 0,932 | 0.848 | 0,848 |
+| 0.890 | 0,890 | 0.925 | 0,925 |  |  |  |  | 0.842 | 0,842 | 0.940 | 0,940 |
+| 0.878 | 0,878 | 0.793 | 0,793 |  |  |  |  | 0.832 | 0,832 | 0.833 | 0,833 |
+| 0.905 | 0,905 | 0.977 | 0,977 |  |  |  |  | 0.807 | 0,807 | 0.845 | 0,845 |
+|  |  | 0.850 | 0,850 |  |  |  |  | 0.841 | 0,841 | 0.852 | 0,852 |
+|  |  | 0.830 | 0,830 |  |  |  |  | 0.932 | 0,932 | 0.778 | 0,778 |
+|  |  | 0.856 | 0,856 |  |  |  |  | 0.833 | 0,833 | 0.814 | 0,814 |
+|  |  | 0.842 | 0,842 |  |  |  |  | 0.881 | 0,881 | 0.791 | 0,791 |
+|  |  | 0.778 | 0,778 |  |  |  |  | 0.818 | 0,818 | 0.810 | 0,810 |
+|  |  | 0.786 | 0,786 |  |  |  |  | 0.864 | 0,864 | 0.881 | 0,881 |
+|  |  | 0.853 | 0,853 |  |  |  |  | 0.825 | 0,825 |  |  |
+|  |  | 0.864 | 0,864 |  |  |  |  | 0.855 | 0,855 |  |  |
+|  |  | 0.873 | 0,873 |  |  |  |  | 0.942 | 0,942 |  |  |
+|  |  | 0.880 | 0,880 |  |  |  |  | 0.825 | 0,825 |  |  |
+|  |  | 0.882 | 0,882 |  |  |  |  | 0.869 | 0,869 |  |  |
+|  |  | 0.931 | 0,931 |  |  |  |  | 0.912 | 0,912 |  |  |
+|  |  |  |  |  |  |  |  | 0.887 | 0,887 |  |  |
 
 The bag contained 465 candies and he listed weights in the table came from randomly selected candies. Count the weights.
 
@@ -1282,12 +1305,12 @@ Công ty Screw Right tuyên bố các loại ốc vít
 
  inch của họ nằm trong khoảng ±0,23 so với đường kính trung bình được công bố là 0,750 inch với độ lệch chuẩn là 0,115 inch. Các dữ liệu sau đây đã được ghi lại.
 
-| 0.757 | 0.757 | 0.723 | 0.723 | 0.754 | 0.754 | 0.737 | 0.737 | 0.757 | 0.757 | 0.741 | 0.741 | 0.722 | 0.722 | 0.741 | 0.741 | 0.743 | 0.743 | 0.742 | 0.742 |
+| 0.757 | 0,757 | 0.723 | 0,723 | 0.754 | 0,754 | 0.737 | 0,737 | 0.757 | 0,757 | 0.741 | 0,741 | 0.722 | 0,722 | 0.741 | 0,741 | 0.743 | 0,743 | 0.742 | 0,742 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0.740 | 0.740 | 0.758 | 0.758 | 0.724 | 0.724 | 0.739 | 0.739 | 0.736 | 0.736 | 0.735 | 0.735 | 0.760 | 0.760 | 0.750 | 0.750 | 0.759 | 0.759 | 0.754 | 0.754 |
-| 0.744 | 0.744 | 0.758 | 0.758 | 0.765 | 0.765 | 0.756 | 0.756 | 0.738 | 0.738 | 0.742 | 0.742 | 0.758 | 0.758 | 0.757 | 0.757 | 0.724 | 0.724 | 0.757 | 0.757 |
-| 0.744 | 0.744 | 0.738 | 0.738 | 0.763 | 0.763 | 0.756 | 0.756 | 0.760 | 0.760 | 0.768 | 0.768 | 0.761 | 0.761 | 0.742 | 0.742 | 0.734 | 0.734 | 0.754 | 0.754 |
-| 0.758 | 0.758 | 0.735 | 0.735 | 0.740 | 0.740 | 0.743 | 0.743 | 0.737 | 0.737 | 0.737 | 0.737 | 0.725 | 0.725 | 0.761 | 0.761 | 0.758 | 0.758 | 0.756 | 0.756 |
+| 0.740 | 0,740 | 0.758 | 0,758 | 0.724 | 0,724 | 0.739 | 0,739 | 0.736 | 0,736 | 0.735 | 0,735 | 0.760 | 0,760 | 0.750 | 0,750 | 0.759 | 0,759 | 0.754 | 0,754 |
+| 0.744 | 0,744 | 0.758 | 0,758 | 0.765 | 0,765 | 0.756 | 0,756 | 0.738 | 0,738 | 0.742 | 0,742 | 0.758 | 0,758 | 0.757 | 0,757 | 0.724 | 0,724 | 0.757 | 0,757 |
+| 0.744 | 0,744 | 0.738 | 0,738 | 0.763 | 0,763 | 0.756 | 0,756 | 0.760 | 0,760 | 0.768 | 0,768 | 0.761 | 0,761 | 0.742 | 0,742 | 0.734 | 0,734 | 0.754 | 0,754 |
+| 0.758 | 0,758 | 0.735 | 0,735 | 0.740 | 0,740 | 0.743 | 0,743 | 0.737 | 0,737 | 0.737 | 0,737 | 0.725 | 0,725 | 0.761 | 0,761 | 0.758 | 0,758 | 0.756 | 0,756 |
 
 The screws were randomly selected from the local home repair store.
 

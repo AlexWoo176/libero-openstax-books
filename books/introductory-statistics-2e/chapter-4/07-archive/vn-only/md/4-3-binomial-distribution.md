@@ -73,23 +73,23 @@ nếu "số" bị bỏ qua, kết quả là bảng xác suất nhị thức.
 
 **Để tính *P*(*x* ≤ giá trị): binomcdf(*n*, *p*, số)** nếu "số" bị bỏ qua, kết quả là bảng xác suất nhị thức lũy tích.
 
-**Đối với bài toán này: Sau khi bạn đã ở trong `2^nd DISTR`, hãy nhấn phím mũi tên xuống đến `binomcdf`. Nhấn `ENTER`. Nhập 20,0.41,12). Kết quả là *P*(*x* ≤ 12) = 0.9738.**
+**Đối với bài toán này: Sau khi bạn đã ở trong `2^nd DISTR`, hãy nhấn phím mũi tên xuống đến `binomcdf`. Nhấn `ENTER`. Nhập 20,0,41,12). Kết quả là *P*(*x* ≤ 12) = 0,9738.**
 
-Nếu bạn muốn tìm *P*(*x* = 12), hãy sử dụng pdf (binompdf). Nếu bạn muốn tìm *P*(*x* > 12), hãy sử dụng 1 - binomcdf(20,0.41,12).
+Nếu bạn muốn tìm *P*(*x* = 12), hãy sử dụng pdf (binompdf). Nếu bạn muốn tìm *P*(*x* > 12), hãy sử dụng 1 - binomcdf(20,0,41,12).
 
-Xác suất để tối đa 12 công nhân có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm là 0.9738.
+Xác suất để tối đa 12 công nhân có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm là 0,9738.
 
-Đồ thị của *X* ~ *B*(20, 0.41) như sau:
+Đồ thị của *X* ~ *B*(20, 0,41) như sau:
 
 *Hình 
 4.3*
 
 Trục *y* chứa xác suất của *x*, trong đó *X* = số lượng công nhân chỉ có bằng tốt nghiệp trung học.
 
-Số lượng công nhân trưởng thành mà bạn kỳ vọng có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm chính là số trung bình, *μ* = *np* = (20)(0.41) = 8.2.
+Số lượng công nhân trưởng thành mà bạn kỳ vọng có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm chính là số trung bình, *μ* = *np* = (20)(0,41) = 8,2.
 
 Công thức tính phương sai là σ^2 = *npq*. Độ lệch chuẩn là *σ* = √𝑛⁢𝑝⁢𝑞n⁢p⁢qnpq. 
-*σ* = √(20)⁢(0.41)⁢(0.59)(20)⁢(0.41)⁢(0.59)(20)(0.41)(0.59) = 2.20.
+*σ* = √(20)⁢(0.41)⁢(0.59)(20)⁢(0.41)⁢(0.59)(20)(0.41)(0.59) = 2,20.
 
 Khoảng 32% sinh viên tham gia một chương trình tình nguyện cộng đồng bên ngoài trường học. Nếu 30 sinh viên được chọn ngẫu nhiên, hãy tìm xác suất để tối đa 14 người trong số họ tham gia một chương trình tình nguyện cộng đồng bên ngoài trường học. Sử dụng máy tính TI-83+ hoặc TI-84 để tìm câu trả lời.
 
@@ -113,7 +113,7 @@ xác suất để 25 người trưởng thành trong mẫu thích tiết kiệm 
 xác suất để có tối đa 20 người trưởng thành thích tiết kiệm
 xác suất để có hơn 30 người trưởng thành thích tiết kiệm
 1. Sử dụng các công thức, hãy tính (i) số trung bình và (ii) độ lệch chuẩn của *X*.
-Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1.5%). Giả sử chúng ta lấy mẫu ngẫu nhiên 200 người. Gọi *X* = số người sẽ mắc ung thư.
+Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1,5%). Giả sử chúng ta lấy mẫu ngẫu nhiên 200 người. Gọi *X* = số người sẽ mắc ung thư.
 
 #### Bài toán
 
@@ -121,7 +121,7 @@ Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1.5%). Giả 
 1. Sử dụng các công thức, hãy tính (i) số trung bình và (ii) độ lệch chuẩn của *X*.
 1. Sử dụng máy tính của bạn để tìm xác suất có tối đa tám người mắc bệnh ung thư
 1. Khả năng năm hay sáu người mắc bệnh ung thư sẽ cao hơn? Hãy biện luận câu trả lời của bạn bằng số liệu.
-Trong một mùa giải NBA nhất định, một cầu thủ của đội Los Angeles Clippers có tỷ lệ ném bóng thành công cao nhất giải đấu. Cầu thủ này ghi điểm với 61.3% số cú ném của mình. Giả sử bạn chọn một mẫu ngẫu nhiên gồm 80 cú ném được thực hiện bởi cầu thủ này trong mùa giải. Gọi *X* = số cú ném ghi được điểm.
+Trong một mùa giải NBA nhất định, một cầu thủ của đội Los Angeles Clippers có tỷ lệ ném bóng thành công cao nhất giải đấu. Cầu thủ này ghi điểm với 61,3% số cú ném của mình. Giả sử bạn chọn một mẫu ngẫu nhiên gồm 80 cú ném được thực hiện bởi cầu thủ này trong mùa giải. Gọi *X* = số cú ném ghi được điểm.
 
 1. Phân phối xác suất cho *X* là gì?
 1. Sử dụng các công thức, hãy tính (i) số trung bình và (ii) độ lệch chuẩn của *X*.

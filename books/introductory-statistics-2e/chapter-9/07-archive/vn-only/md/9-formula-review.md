@@ -16,7 +16,7 @@ Nếu *α* > *p*-giá trị, thì bác bỏ *H_0*.
 
 *β* = xác suất của sai lầm loại II = *P*(sai lầm loại II) = xác suất không bác bỏ giả thuyết không khi giả thuyết không là sai.
 
-Nếu không có *α* được xác định trước, thì sử dụng *α* = 0.05.
+Nếu không có *α* được xác định trước, thì sử dụng *α* = 0,05.
 
 - Trung bình tổng thể đơn lẻ, phương sai (hoặc độ lệch chuẩn) tổng thể **đã biết**: **Kiểm định chuẩn**.
 - Trung bình tổng thể đơn lẻ, phương sai (hoặc độ lệch chuẩn) tổng thể **chưa biết**: **Kiểm định *t* của Student**.

@@ -104,6 +104,7 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
@@ -117,6 +118,7 @@ x
 
 x
 ¯
+ = ____
 
 Table 
 7.5
@@ -139,6 +141,7 @@ x
 
 x
 ¯
+ = _______
 
 *s*_
 
@@ -147,7 +150,14 @@ x
 
 x
 ¯
- = _______*s* = _______
+ = _______
+
+x
+¯
+
+x
+¯
+ = _______
 1. Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size *n* = 10. Record the samples in [Table 7.6](7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl003). As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
 
 Sample 1Mẫu 1
@@ -170,6 +180,7 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
@@ -183,6 +194,7 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
@@ -196,6 +208,7 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
@@ -209,6 +222,7 @@ x
 
 x
 ¯
+ = ____
 
 Table 
 7.6
@@ -231,7 +245,7 @@ x
 
 x
 ¯
-
+ = _______
 *s*_
 
 x
@@ -239,7 +253,14 @@ x
 
 x
 ¯
- = ______*s* = ______
+ = ______*s*_
+
+x
+¯
+
+x
+¯
+ = ______
 1. For the original population, construct a histogram. Make intervals with a bar width of one day. Sketch the graph using a ruler and pencil. Scale the axes.
 
 ![This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency.](../../../assets/img-7-5-1.webp)
@@ -295,14 +316,14 @@ x
 
 x
 ¯
- ~ _____(_____,_____)*n*
+ ~ _____(_____,_____)*n* = 5: 
 
 x
 ¯
 
 x
 ¯
-
+ ~ _____(_____,_____)
 *n* = 10: 
 
 x
@@ -310,13 +331,14 @@ x
 
 x
 ¯
- ~ _____(_____,_____)*n*
+ ~ _____(_____,_____)*n* = 10: 
 
 x
 ¯
 
 x
 ¯
+ ~ _____(_____,_____)
 1. Are the sample means for *n* = 5 and *n* = 10 “close” to the theoretical mean, *μ_x*? Explain why or why not.
 1. Các số trung bình mẫu cho *n* = 5 và *n* = 10 có "gần" với số trung bình lý thuyết, *μ_x* không? Giải thích tại sao có hoặc tại sao không.
 1. Which of the two distributions of sample means has the smaller standard deviation? Why?

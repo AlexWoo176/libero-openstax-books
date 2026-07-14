@@ -48,16 +48,16 @@ Có, vì chúng giống nhau trong một phân phối liên tục: *P*(*x* = 1) 
 
 1 – *P*(*x* < 3) hoặc *P*(*x* > 3)
 
-1 – 0.543 = 0.457
+1 – 0,543 = 0,457
 
-0.0013
+0,0013
 
-56.03
+56,03
 
-0.1186
+0,1186
 
 1. Các câu trả lời có thể khác nhau.
-1. 3, 0.1979
+1. 3, 0,1979
 1. Các câu trả lời có thể khác nhau.
 1. 0,70, 4,78 năm
 c
@@ -116,7 +116,7 @@ c
 d
 
 1. *X**N*
-1. 0.5404
+1. 0,5404
 1. Không, xác suất một nam giới châu Á cao trên 72 inch là 0,0082
 1. *X**N*
 1. Xác suất một người tiêu thụ hơn 40% lượng calo từ chất béo là 0,3446.
@@ -129,14 +129,14 @@ d
 1. *X* = phân phối số ngày một loại phiên tòa hình sự cụ thể sẽ diễn ra
 1. *X**N*
 1. Xác suất một phiên tòa được chọn ngẫu nhiên sẽ kéo dài hơn 24 ngày là 0,3336.
-1. 22.77
-1. số trung bình = 5.51, *s* = 2.15
+1. 22,77
+1. số trung bình = 5,51, *s* = 2,15
 1. Các câu trả lời có thể khác nhau.
 1. Các câu trả lời có thể khác nhau.
 1. Các câu trả lời có thể khác nhau.
 1. *X**N*
-1. 0.6029
-1. Tần suất tương đối lũy tích cho giá trị nhỏ hơn 6.1 phút là 0.64.
+1. 0,6029
+1. Tần suất tương đối lũy tích cho giá trị nhỏ hơn 6.1 phút là 0,64.
 1. Các câu trả lời cho phần f và phần g không hoàn toàn giống nhau, vì phân phối chuẩn chỉ là một phép xấp xỉ so với phân phối thực tế.
 1. Các câu trả lời cho phần f và phần g gần giống nhau, vì phân phối chuẩn là một phép xấp xỉ tuyệt vời khi kích thước mẫu lớn hơn 30.
 1. Phép xấp xỉ sẽ kém chính xác hơn, vì kích thước mẫu nhỏ hơn đồng nghĩa với việc dữ liệu không khớp với đường cong chuẩn tốt bằng.
@@ -147,24 +147,28 @@ d
 1. Các câu trả lời sẽ khác nhau.
 1. Các câu trả lời sẽ khác nhau.
 1. *X* ~ *N*(60136, 10468)
-1. 0.7440
-1. Tần suất tương đối lũy tích là 43/60 = 0.717.
+1. 0,7440
+1. Tần suất tương đối lũy tích là 43/60 = 0,717.
 1. Các câu trả lời cho phần f và phần g không giống nhau, vì phân phối chuẩn chỉ là một phép xấp xỉ.
-- *n* = 100; *p* = 0.1;  *q* = 0.9
-- *μ* = *np* = (100)(0.10) = 10
-- *σ*
+- *n* = 100; *p* = 0,1;  *q* = 0,9
+- *μ* = *np* = (100)(0,10) = 10
+- *σ* = 
 
 npq
 
 npq
 
+ = 
+
 (100)(0.1)(0.9)
 
 (100)(0.1)(0.9)
+
+ = 3
 1. *z* = ±1:   *x_1* = *μ* + *zσ* = 10 + 1(3) = 13  và  *x*2 = *μ* – *zσ* = 10 – 1(3) = 7.  68% số xe bị lỗi sẽ nằm trong khoảng từ bảy đến 13.
 1. *z* = ±2:   *x_1* = *μ* + *zσ* = 10 + 2(3) = 16 và *x*2 = *μ* – *zσ* = 10 – 2(3) = 4. 95 % số xe bị lỗi sẽ nằm trong khoảng từ bốn đến 16
-1. *z* = ±3:   *x_1* = *μ* + *zσ* = 10 + 3(3) = 19 và  *x*2 = *μ* – *zσ* = 10 – 3(3) = 1.  99.7% số xe bị lỗi sẽ nằm trong khoảng từ một đến 19.
-- *n**p*
+1. *z* = ±3:   *x_1* = *μ* + *zσ* = 10 + 3(3) = 19 và  *x*2 = *μ* – *zσ* = 10 – 3(3) = 1.  99,7% số xe bị lỗi sẽ nằm trong khoảng từ một đến 19.
+- *n* = 190; *p* = 
 
 1
 5
@@ -172,8 +176,8 @@ npq
 1
 5
 
-*q*
-- *μ* = *np* = (190)(0.2) = 38
+ = 0,2; *q* = 0,8
+- *μ* = *np* = (190)(0,2) = 38
 - *σ* = 
 
 npq
@@ -186,7 +190,7 @@ npq
 
 (190)(0.2)(0.8)
 
- = 5.5136
-1. Đối với bài toán này: *P*(34 < *x* < 54) = normalcdf(34,54,48,5.5136) = 0.7641
-1. Đối với bài toán này: *P*(54 < *x* < 64) = normalcdf(54,64,48,5.5136) = 0.0018
-1. Đối với bài toán này: *P*(*x* > 64) = normalcdf(64,10^99,48,5.5136) = 0.0000012 (xấp xỉ 0)
+ = 5,5136
+1. Đối với bài toán này: *P*(34 < *x* < 54) = normalcdf(34,54,48,5,5136) = 0,7641
+1. Đối với bài toán này: *P*(54 < *x* < 64) = normalcdf(54,64,48,5,5136) = 0,0018
+1. Đối với bài toán này: *P*(*x* > 64) = normalcdf(64,10^99,48,5,5136) = 0,0000012 (xấp xỉ 0)

@@ -27,7 +27,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______
 1. Vẽ một đường cong trơn đi qua đỉnh các cột của biểu đồ histogram. Viết một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong. (Hãy giữ nó đơn giản. Đồ thị đi thẳng qua, có hình chữ V, có bướu ở giữa hay ở một trong hai đầu, v.v.?)
 Phân tích phân phối

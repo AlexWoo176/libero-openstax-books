@@ -180,7 +180,7 @@ Người dùng tin nhắn văn bản nhận hoặc gửi trung bình 41,5 tin nh
 1. Xác suất để một người dùng tin nhắn nhận hoặc gửi nhiều hơn hai tin nhắn mỗi giờ là bao nhiêu?
 Atlanta’s Hartsfield-Jackson International Airport is the busiest airport in the world. On average there are 2,700 arrivals and departures each day.
 
-Sân bay quốc tế Hartsfield-Jackson của Atlanta là sân bay bận rộn nhất thế giới. Trung bình có 2.700 chuyến bay đến và đi mỗi ngày.
+Sân bay quốc tế Hartsfield-Jackson của Atlanta là sân bay bận rộn nhất thế giới. Trung bình có 2,700 chuyến bay đến và đi mỗi ngày.
 
 1. How many airplanes arrive and depart the airport per hour?
 1. Có bao nhiêu máy bay đến và đi tại sân bay mỗi giờ?

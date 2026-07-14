@@ -161,16 +161,16 @@ Tổng xác suất của một biến cố và biến cố đối của nó là 
 
 *P*(*E* HOẶC *M*) có nghĩa là gì khi diễn đạt bằng lời?
 
-*E* và *F* là các biến cố xung khắc. *P*(*E*) = 0.4; *P*(*F*) = 0.5. Tìm *P*(*E*∣*F*).
+*E* và *F* là các biến cố xung khắc. *P*(*E*) = 0,4; *P*(*F*) = 0,5. Tìm *P*(*E*∣*F*).
 
-*J* và *K* là các biến cố độc lập. *P*(*J*|*K*) = 0.3. Tìm *P*(*J*).
+*J* và *K* là các biến cố độc lập. *P*(*J*|*K*) = 0,3. Tìm *P*(*J*).
 
-*U* và *V* là các biến cố xung khắc. *P*(*U*) = 0.26; *P*(*V*) = 0.37. Tìm:
+*U* và *V* là các biến cố xung khắc. *P*(*U*) = 0,26; *P*(*V*) = 0,37. Tìm:
 
 1. *P*(*U* VÀ *V*) =
 1. *P*(*U*|*V*) =
 1. *P*(*U* biến cố "hoặc" *V*) =
-*Q* và *R* là các biến cố độc lập. *P*(*Q*) = 0.4 và *P*(*Q* VÀ *R*) = 0.1. Tìm *P*(*R*).
+*Q* và *R* là các biến cố độc lập. *P*(*Q*) = 0,4 và *P*(*Q* VÀ *R*) = 0,1. Tìm *P*(*R*).
 
 *Sử dụng thông tin sau để trả lời mười bài tập tiếp theo.* Một nhà hàng địa phương biết rằng xác suất một khách hàng gọi pizza là 87%. Nhà hàng cũng biết rằng xác suất một khách hàng gọi salad là 32%. Trong số những khách hàng gọi pizza, 55% trong số họ cũng gọi salad.
 

@@ -55,7 +55,7 @@ Gọi *X* = số nam giới trong ủy ban gồm bốn người. Nam giới là 
 
 *X* nhận các giá trị 0, 1, 2, 3, 4, trong đó *r = 6*, *b = 5*, và *n = 4*. *X ~ H*(6, 5, 4)
 
-Tìm *P*(*x* = 2). *P*(*x* = 2) = 0.4545 (máy tính hoặc máy tính cầm tay)
+Tìm *P*(*x* = 2). *P*(*x* = 2) = 0,4545 (máy tính hoặc máy tính cầm tay)
 
 Hiện tại, TI-83+ và TI-84 không có các hàm xác suất siêu bội. Có một số gói phần mềm máy tính, bao gồm Microsoft Excel, có các hàm này.
 

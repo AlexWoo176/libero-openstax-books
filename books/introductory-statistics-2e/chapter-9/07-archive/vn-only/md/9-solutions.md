@@ -6,7 +6,7 @@ Biến ngẫu nhiên là số con trung bình mà một gia đình người Mỹ
 
 Biến ngẫu nhiên là tỷ lệ những người được chọn ngẫu nhiên tại Quảng trường Thời đại đang đi tham quan thành phố.
 
-1. *H_0**p*
+1. *H_0*: *p* = 0,42
 1. *H_a*: *p* < 0,42
 1. *H_0*: *μ* = 15
 1. *H_a*: *μ* ≠ 15
@@ -22,9 +22,9 @@ Sai lầm loại I: Thủ thuật sẽ diễn ra tốt đẹp, nhưng các bác 
 
 Sai lầm loại II: Thủ thuật sẽ không diễn ra tốt đẹp, nhưng các bác sĩ nghĩ rằng nó sẽ diễn ra tốt đẹp.
 
-0.019
+0,019
 
-0.998
+0,998
 
 Một phân phối chuẩn hoặc một phân phối *t* của Student
 
@@ -55,8 +55,8 @@ các giá trị trung bình
 thời gian trung bình ở tù của 26 người phạm tội trộm cắp lần đầu
 
 1. 3
-1. 1.5
-1. 1.8
+1. 1,5
+1. 1,8
 1. 26
 X
 ¯
@@ -102,14 +102,14 @@ một kiểm định đuôi trái
 Đây là kiểm định hai đuôi.
 
 1. *H_0*: *μ* = 34; *H_a*: *μ* ≠ 34
-1. *H_0**p**H_a**p*
+1. *H_0*: *p* ≤ 0,60; *H_a*: *p* > 0,60
 1. *H_0*: *μ* ≥ 100.000; *H_a*: *μ* < 100.000
-1. *H_0**p**H_a**p*
-1. *H_0**p**H_a**p*
+1. *H_0*: *p* = 0,29; *H_a*: *p* ≠ 0,29
+1. *H_0*: *p* = 0,05; *H_a*: *p* < 0,05
 1. *H_0*: *μ* ≤ 10; *H_a*: *μ* > 10
-1. *H_0**p**H_a**p*
+1. *H_0*: *p* = 0,50; *H_a*: *p* ≠ 0,50
 1. *H_0*: *μ* = 6; *H_a*: *μ* ≠ 6
-1. *H_0**p**H_a**p*
+1. *H_0*: *p* ≥ 0,11; *H_a*: *p* < 0,11
 1. *H_0*: *μ* ≤ 20.000; *H_a*: *μ* > 20.000
 c‌
 
@@ -166,7 +166,7 @@ X
 Quyết định: Không bác bỏ giả thuyết không.
 Lý do quyết định: *p*-giá trị lớn hơn 0,01.
 Kết luận: Có đủ bằng chứng để ủng hộ khẳng định rằng chi phí trung bình của báo hàng ngày là 1 đô la. Chi phí trung bình có thể là 1 đô la.
-1. ($0.84, $1.06)
+1. ($0,84, $1,06)
 1. *H_0*: *μ* = 10
 1. *H_a*: *μ* ≠ 10
 1. Gọi 
@@ -185,12 +185,12 @@ X
 Quyết định: Không bác bỏ giả thuyết không.
 Lý do quyết định: *p*-giá trị lớn hơn 0,05.
 Kết luận: Ở mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng số ngày nghỉ ốm trung bình không phải là mười.
-1. (4.9443, 11.806)
-1. *H_0**p*
+1. (4,9443, 11,806)
+1. *H_0*: *p* ≥ 0,6
 1. *H_a*: *p* < 0,6
 1. Gọi *P′* = tỷ lệ sinh viên cảm thấy được làm giàu kiến thức hơn nhờ việc học môn Thống kê Cơ bản.
 1. phân phối chuẩn cho một tỷ lệ đơn
-1. 1.13
+1. 1,13
 1. *p*-giá trị = 0,1299
 1. Câu trả lời có thể thay đổi.
 1. Mức ý nghĩa α: 0,05
@@ -217,12 +217,12 @@ X
 Quyết định: Bác bỏ giả thuyết không.
 Lý do cho quyết định: *p*-giá trị lớn hơn 0,05
 Kết luận: Không có đủ bằng chứng để kết luận rằng chỉ số IQ trung bình của cá hồi nâu không phải là bốn.
-1. (3.8865,5.9468)
-1. *H_0**p*
+1. (3,8865,5,9468)
+1. *H_0*: *p* ≥ 0,13
 1. *H_a*: *p* < 0,13
 1. Gọi *P′* = tỷ lệ người Mỹ đã nhìn thấy hoặc cảm nhận được thiên thần
 1. phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. ’2.688
+1. ’2,688
 1. *p*-giá trị = 0,0036
 1. Kiểm tra lời giải của sinh viên.
 1. Mức ý nghĩa α: 0,05
@@ -243,19 +243,19 @@ X
  = thời gian trung bình tính bằng giây mà Terri hoàn thành Vòng 4.
 1. Phân phối *t* của Student
 1. *t* = 1,209
-1. 0.8792
+1. 0,8792
 1. Kiểm tra lời giải của sinh viên.
 1. Mức ý nghĩa α: 0,05
 Quyết định: Không bác bỏ giả thuyết không.
 Lý do cho quyết định: *p*-giá trị lớn hơn 0,05.
 Kết luận: Không có đủ bằng chứng để kết luận rằng thời gian trung bình mỗi vòng của Terri ít hơn 129 giây.
-1. (128.63, 130.37)
-1. *H_0**p*
+1. (128,63, 130,37)
+1. *H_0*: *p* = 0,60
 1. *H_a*: *p* < 0,60
 1. Gọi *P′* = tỷ lệ thành viên gia đình rơi nước mắt tại buổi họp mặt.
 1. phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. ’1.71
-1. 0.0438
+1. ’1,71
+1. 0,0438
 1. Kiểm tra lời giải của sinh viên.
 1. Mức ý nghĩa α: 0,05
 Quyết định: Bác bỏ giả thuyết không.
@@ -275,14 +275,14 @@ X
 ¯
  = số lượng bong bóng trung bình mỗi lần thổi.
 1. Phân phối *t* của Student
-1. ’2.667
-1. *p*-giá trị = 0.00486
+1. ’2,667
+1. *p*-giá trị = 0,00486
 1. Kiểm tra lời giải của sinh viên.
-1. Mức ý nghĩa α: 0.05
+1. Mức ý nghĩa α: 0,05
 Quyết định: Bác bỏ giả thuyết không.
-Lý do quyết định: *p*-giá trị nhỏ hơn 0.05.
+Lý do quyết định: *p*-giá trị nhỏ hơn 0,05.
 Kết luận: Có đủ bằng chứng để kết luận rằng số lượng bong bóng trung bình mỗi lần thổi ít hơn 22.
-1. (18.501, 21.499)
+1. (18,501, 21,499)
 1. *H_0*: *μ* ≤ 1
 1. *H_a*: *μ* > 1
 1. Gọi 
@@ -294,105 +294,105 @@ X
 ¯
  = chi phí trung bình tính bằng đô la của món mì ống và phô mai tại một thị trấn nhất định.
 1. Phân phối Student (phân phối *t*)
-1. *t* = 0.340
-1. *p*-giá trị = 0.36756
+1. *t* = 0,340
+1. *p*-giá trị = 0,36756
 1. Kiểm tra lời giải của sinh viên.
-1. Mức ý nghĩa α: 0.05
+1. Mức ý nghĩa α: 0,05
 Quyết định: Không bác bỏ giả thuyết không.
-Lý do quyết định: *p*-giá trị lớn hơn 0.05
+Lý do quyết định: *p*-giá trị lớn hơn 0,05
 Kết luận: Chi phí trung bình có thể là 1 đô la hoặc ít hơn. Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng giá trung bình của một hộp mì ống và phô mai là hơn 1 đô la.
-1. (0.8291, 1.241)
-1. *H_0**p*
-1. *H_a*: *p* > 0.01
+1. (0,8291, 1,241)
+1. *H_0*: *p* = 0,01
+1. *H_a*: *p* > 0,01
 1. Gọi *P′* = tỷ lệ lỗi được tạo ra
 1. Phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. 2.13
-1. 0.0165
+1. 2,13
+1. 0,0165
 1. Kiểm tra lời giải của sinh viên.
-1. Mức ý nghĩa α: 0.05
+1. Mức ý nghĩa α: 0,05
 Quyết định: Bác bỏ giả thuyết không
-Lý do quyết định: *p*-giá trị nhỏ hơn 0.05.
-Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng tỷ lệ lỗi được tạo ra lớn hơn 0.01.
-1. Khoảng tin cậy: (0, 0.094).
-Khoảng tin cậy “plus-4s” là (0.004, 0.144).
-1. *H_0**p*
-1. *H_a*: *p* < 0.50
+Lý do quyết định: *p*-giá trị nhỏ hơn 0,05.
+Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng tỷ lệ lỗi được tạo ra lớn hơn 0,01.
+1. Khoảng tin cậy: (0, 0,094).
+Khoảng tin cậy “plus-4s” là (0,004, 0,144).
+1. *H_0*: *p* = 0,50
+1. *H_a*: *p* < 0,50
 1. Gọi *P′* = tỷ lệ bạn bè có xỏ khuyên tai.
 1. phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. ’1.70
-1. *p*-giá trị = 0.0448
+1. ’1,70
+1. *p*-giá trị = 0,0448
 1. Kiểm tra lời giải của sinh viên.
-1. Mức ý nghĩa α: 0.05
+1. Mức ý nghĩa α: 0,05
 Quyết định: Bác bỏ giả thuyết không
-Lý do quyết định: *p*-giá trị nhỏ hơn 0.05. (Tuy nhiên, chúng rất gần nhau.)
+Lý do quyết định: *p*-giá trị nhỏ hơn 0,05. (Tuy nhiên, chúng rất gần nhau.)
 Kết luận: Có đủ bằng chứng để ủng hộ khẳng định rằng ít hơn 50% bạn bè của anh ấy có xỏ khuyên tai.
-1. Khoảng tin cậy: (0.245, 0.515): Khoảng tin cậy “plus-4s” là (0.259, 0.519).
-1. *H_0**p*
-1. *H_a*: *p* < 0.40
+1. Khoảng tin cậy: (0,245, 0,515): Khoảng tin cậy “plus-4s” là (0,259, 0,519).
+1. *H_0*: *p* = 0,40
+1. *H_a*: *p* < 0,40
 1. Gọi *P′* = tỷ lệ bạn học sợ nói trước đám đông.
 1. phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. ’1.01
-1. *p*-giá trị = 0.1563
+1. ’1,01
+1. *p*-giá trị = 0,1563
 1. Kiểm tra lời giải của sinh viên.
-1. Mức ý nghĩa α: 0.05
+1. Mức ý nghĩa α: 0,05
 Quyết định: Không bác bỏ giả thuyết không.
-Lý do quyết định: *p*-giá trị lớn hơn 0.05.
+Lý do quyết định: *p*-giá trị lớn hơn 0,05.
 Kết luận: Không có đủ bằng chứng để ủng hộ khẳng định rằng ít hơn 40% học sinh tại trường sợ nói trước đám đông.
-1. Khoảng tin cậy: (0.3241, 0.4240): Khoảng tin cậy “plus-4s” là (0.3257, 0.4250).
-1. *H_0**p*
-1. *H_a*: *p* < 0.12
+1. Khoảng tin cậy: (0,3241, 0,4240): Khoảng tin cậy “plus-4s” là (0,3257, 0,4250).
+1. *H_0*: *p* = 0,12
+1. *H_a*: *p* < 0,12
 1. Gọi P'=P'= là tỷ lệ cư dân NYC hút thuốc.
 1. Phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. 0.2207
-1. *p*-giá trị = 0.5873
+1. 0,2207
+1. *p*-giá trị = 0,5873
 1. Câu trả lời có thể khác nhau
-1. Mức ý nghĩa α 0.05
+1. Mức ý nghĩa α 0,05
 Quyết định: Không bác bỏ giả thuyết không.
-Lý do cho quyết định: *p*-giá trị lớn hơn 0.05.
-Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng tỷ lệ cư dân NYC hút thuốc thấp hơn 0.14.
-1. Khoảng tin cậy: Khoảng tin cậy: (0.0502, 0.2070): Khoảng tin cậy "cộng 4" (xem [Khoảng tin cậy](8-introduction)) là (0.0676, 0.2297).
-1. *H_0**p*
-1. *H_a*: *p* < 0.12
+Lý do cho quyết định: *p*-giá trị lớn hơn 0,05.
+Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng tỷ lệ cư dân NYC hút thuốc thấp hơn 0,14.
+1. Khoảng tin cậy: Khoảng tin cậy: (0,0502, 0,2070): Khoảng tin cậy "cộng 4" (xem [Khoảng tin cậy](8-introduction)) là (0,0676, 0,2297).
+1. *H_0*: *p* = 0,12
+1. *H_a*: *p* < 0,12
 1. Gọi P'=P'= là tỷ lệ cư dân NYC hút thuốc.
 1. Phân phối chuẩn cho một tỷ lệ đơn lẻ
-1. 0.2207
-1. *p*-giá trị = 0.5873
+1. 0,2207
+1. *p*-giá trị = 0,5873
 1. Câu trả lời có thể khác nhau
-1. Mức ý nghĩa α 0.05
+1. Mức ý nghĩa α 0,05
 Quyết định: Không bác bỏ giả thuyết không.
-Lý do cho quyết định: *p*-giá trị nhỏ hơn 0.05.
+Lý do cho quyết định: *p*-giá trị nhỏ hơn 0,05.
 Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng mức lương trung bình của các y tá đã đăng ký tại California vượt quá 69,110 đô la.
 1. ($68,757, $73,485)
 c‌
 
 c‌
 
-1. *H_0**p**H_a**p*
-1. *p*-giá trị = 0.0114
-1. Mức ý nghĩa α = 0.05
+1. *H_0*: *p* = 0,488 *H_a*: *p* ≠ 0,488
+1. *p*-giá trị = 0,0114
+1. Mức ý nghĩa α = 0,05
 1. Bác bỏ giả thuyết không.
-1. Có đủ bằng chứng để kết luận rằng tỷ lệ phần trăm các gia đình sở hữu cổ phiếu không phải là 48.8%.
+1. Có đủ bằng chứng để kết luận rằng tỷ lệ phần trăm các gia đình sở hữu cổ phiếu không phải là 48,8%.
 1. Cuộc khảo sát có vẻ không chính xác.
-1. *H_0**p**H_a**p*
-1. *p*-giá trị = 0.9203.
-1. Mức ý nghĩa α = 0.05.
+1. *H_0*: *p* = 0,517 *H_a*: *p* ≠ 0,517
+1. *p*-giá trị = 0,9203.
+1. Mức ý nghĩa α = 0,05.
 1. Không bác bỏ giả thuyết không.
 1. Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng tỷ lệ các ngôi nhà ở Kentucky được sưởi ấm bằng khí đốt tự nhiên khác với tỷ lệ các ngôi nhà được sưởi ấm bằng khí đốt tự nhiên trên toàn quốc.
 1. Tuy nhiên, chúng ta không thể khái quát hóa kết quả này cho toàn quốc. Thứ nhất, tổng thể của mẫu chỉ là tiểu bang Kentucky. Thứ hai, hợp lý khi giả định rằng các ngôi nhà ở cực bắc và cực nam sẽ có mức sử dụng cực cao và cực thấp tương ứng. Chúng ta sẽ cần mở rộng cơ sở mẫu của mình để bao gồm các khả năng này nếu muốn khái quát hóa tuyên bố này cho toàn quốc.
-1. *H_0*: *μ* ≥ 11.52  *H_a*: *μ* < 11.52
-1. *p*-giá trị = 0.000002, gần bằng 0.
-1. Mức ý nghĩa α = 0.05.
+1. *H_0*: *μ* ≥ 11,52  *H_a*: *μ* < 11,52
+1. *p*-giá trị = 0,000002, gần bằng 0.
+1. Mức ý nghĩa α = 0,05.
 1. Bác bỏ giả thuyết không.
-1. Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng lượng mưa trung bình vào mùa hè ở vùng đông bắc Hoa Kỳ thấp hơn 11.52 inch.
+1. Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng lượng mưa trung bình vào mùa hè ở vùng đông bắc Hoa Kỳ thấp hơn 11,52 inch.
 1. Chúng ta sẽ đưa ra kết luận tương tự nếu mức ý nghĩa α là 1% vì *p*-giá trị gần bằng 0.
-1. *H_0*: *μ* ≤ 5.8	*H_a*: *μ* > 5.8
-1. *p*-giá trị = 0.9987
-1. Mức ý nghĩa α = 0.05
+1. *H_0*: *μ* ≤ 5,8	*H_a*: *μ* > 5,8
+1. *p*-giá trị = 0,9987
+1. Mức ý nghĩa α = 0,05
 1. Không bác bỏ giả thuyết không.
-1. Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng một phụ nữ đi khám bác sĩ trung bình hơn 5.8 lần một năm.
+1. Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng một phụ nữ đi khám bác sĩ trung bình hơn 5,8 lần một năm.
 1. *H_0*: *μ* ≥ 150	*H_a*: *μ* < 150
-1. *p*-giá trị = 0.0622
-1. Mức ý nghĩa α = 0.01
+1. *p*-giá trị = 0,0622
+1. Mức ý nghĩa α = 0,01
 1. Không bác bỏ giả thuyết không.
 1. Tại mức ý nghĩa 1%, không có đủ bằng chứng để kết luận rằng sinh viên năm nhất học ít hơn 2.5 giờ mỗi ngày, tính trung bình.
 1. Tuyên bố của nhóm học thuật sinh viên có vẻ chính xác.

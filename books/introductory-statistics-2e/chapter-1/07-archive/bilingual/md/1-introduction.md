@@ -6,7 +6,7 @@ We encounter statistics in our daily lives more often than we probably realize a
 *Hình 
 1.1
  
-Chúng ta bắt gặp thống kê học trong cuộc sống hàng ngày thường xuyên hơn chúng ta nghĩ và từ nhiều nguồn khác nhau, chẳng hạn như tin tức. (nguồn: chỉnh sửa từ tác phẩm “New office” của Phil Whitehouse/ Flickr, CC BY 2.0)*
+Chúng ta bắt gặp thống kê học trong cuộc sống hàng ngày thường xuyên hơn chúng ta nghĩ và từ nhiều nguồn khác nhau, chẳng hạn như tin tức. (nguồn: chỉnh sửa từ tác phẩm “New office” của Phil Whitehouse/ Flickr, CC BY 2,0)*
 
 By the end of this chapter, the student should be able to:
 

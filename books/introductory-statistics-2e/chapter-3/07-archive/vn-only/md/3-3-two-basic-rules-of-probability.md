@@ -22,14 +22,14 @@ Nếu *A* và *B* là Xung khắc (Loại trừ lẫn nhau), thì *P*(*A* VÀ *B
 
 Klaus đang cố gắng chọn nơi để đi nghỉ mát. Hai lựa chọn của anh ấy là: A = New Zealand và B = Alaska
 
-- Klaus chỉ đủ khả năng cho một kỳ nghỉ. Xác suất anh ấy chọn *A* là *P*(*A*) = 0.6 và xác suất anh ấy chọn *B* là *P*(*B*) = 0.35.
+- Klaus chỉ đủ khả năng cho một kỳ nghỉ. Xác suất anh ấy chọn *A* là *P*(*A*) = 0,6 và xác suất anh ấy chọn *B* là *P*(*B*) = 0,35.
 - *P*(*A* và *B*) = 0 vì Klaus chỉ đủ khả năng cho một kỳ nghỉ
-- Do đó, xác suất anh ấy chọn New Zealand hoặc Alaska là *P*(*A* hoặc *B*) = *P*(*A*) + *P*(*B*) = 0.6 + 0.35 = 0.95. Lưu ý rằng xác suất anh ấy không chọn đi nghỉ ở bất cứ đâu phải là 0.05.
+- Do đó, xác suất anh ấy chọn New Zealand hoặc Alaska là *P*(*A* hoặc *B*) = *P*(*A*) + *P*(*B*) = 0,6 + 0,35 = 0,95. Lưu ý rằng xác suất anh ấy không chọn đi nghỉ ở bất cứ đâu phải là 0,05.
 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65
 
 - 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A AND B)
 - 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A OR B)
-Carlos chơi bóng đá ở trường đại học. Cậu ấy ghi bàn 65% số lần sút. Carlos sẽ thực hiện hai cú sút liên tiếp trong trận đấu tới. *A* = biến cố Carlos thành công trong lần sút đầu tiên. *P*(*A*) = 0.65. *B* = biến cố Carlos thành công trong lần sút thứ hai. *P*(*B*) = 0.65. Carlos có xu hướng sút theo chuỗi. Xác suất cậu ấy ghi bàn thứ hai **VỚI ĐIỀU KIỆN** cậu ấy đã ghi bàn thứ nhất là 0.90.
+Carlos chơi bóng đá ở trường đại học. Cậu ấy ghi bàn 65% số lần sút. Carlos sẽ thực hiện hai cú sút liên tiếp trong trận đấu tới. *A* = biến cố Carlos thành công trong lần sút đầu tiên. *P*(*A*) = 0,65. *B* = biến cố Carlos thành công trong lần sút thứ hai. *P*(*B*) = 0,65. Carlos có xu hướng sút theo chuỗi. Xác suất cậu ấy ghi bàn thứ hai **VỚI ĐIỀU KIỆN** cậu ấy đã ghi bàn thứ nhất là 0,90.
 
 #### Bài tập
 
@@ -41,7 +41,7 @@ c. *A* và *B* có độc lập không?
 
 d. *A* và *B* có xung khắc không?
 
-Helen chơi bóng rổ. Đối với các quả ném phạt, cô ấy thực hiện thành công 75% số lần ném. Bây giờ Helen phải thực hiện hai quả ném phạt. *C* = biến cố Helen thực hiện thành công quả ném đầu tiên. *P*(*C*) = 0.75. *D* = biến cố Helen thực hiện thành công quả ném thứ hai. *P*(*D*) = 0.75. Xác suất Helen thực hiện thành công quả ném phạt thứ hai với điều kiện cô ấy đã thực hiện thành công quả đầu tiên là 0.85. Xác suất Helen thực hiện thành công cả hai quả ném phạt là bao nhiêu?
+Helen chơi bóng rổ. Đối với các quả ném phạt, cô ấy thực hiện thành công 75% số lần ném. Bây giờ Helen phải thực hiện hai quả ném phạt. *C* = biến cố Helen thực hiện thành công quả ném đầu tiên. *P*(*C*) = 0,75. *D* = biến cố Helen thực hiện thành công quả ném thứ hai. *P*(*D*) = 0,75. Xác suất Helen thực hiện thành công quả ném phạt thứ hai với điều kiện cô ấy đã thực hiện thành công quả đầu tiên là 0,85. Xác suất Helen thực hiện thành công cả hai quả ném phạt là bao nhiêu?
 
 Một đội bơi cộng đồng có **150** thành viên. **Bảy mươi lăm** thành viên là vận động viên bơi lội trình độ nâng cao. **Bốn mươi bảy** thành viên là vận động viên bơi lội trình độ trung cấp. Số còn lại là vận động viên bơi lội mới bắt đầu. **Bốn mươi** vận động viên bơi lội trình độ nâng cao tập luyện bốn lần một tuần. **Ba mươi** vận động viên bơi lội trình độ trung cấp tập luyện bốn lần một tuần. **Mười** vận động viên bơi lội mới bắt đầu tập luyện bốn lần một tuần. Giả sử một thành viên của đội bơi được chọn ngẫu nhiên.
 
@@ -103,7 +103,7 @@ Tham khảo thông tin trong [Ví dụ 3.18](3-3-two-basic-rules-of-probability#
 1. Xác suất để một phụ nữ bị ung thư vú và có kết quả xét nghiệm dương tính là bao nhiêu? Tìm *P*(*B* VÀ *P*) = *P*(*P*|*B*)*P*(*B*).
 1. Xác suất để một phụ nữ không bị ung thư vú là bao nhiêu? Tìm *P*(*B′*) = 1 - *P*(*B*).
 1. Xác suất để một phụ nữ có kết quả xét nghiệm dương tính với ung thư vú là bao nhiêu? Tìm *P*(*P*) = 1 - *P*(*N*).
-Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0.40, *P*(*D*) = 0.30 và *P*(*D*|*B*) = 0.5.
+Một sinh viên đi đến thư viện. Gọi các biến cố *B* = sinh viên mượn một cuốn sách và *D* = sinh viên mượn một đĩa DVD. Giả sử rằng *P*(*B*) = 0,40, *P*(*D*) = 0,30 và *P*(*D*|*B*) = 0,5.
 
 1. Tìm *P*(*B′*).
 1. Tìm *P*(*D* VÀ *B*).

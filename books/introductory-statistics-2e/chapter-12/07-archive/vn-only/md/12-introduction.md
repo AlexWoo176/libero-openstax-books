@@ -1,7 +1,7 @@
 *Hình 
 12.1
  
-Hồi quy tuyến tính và tương quan có thể giúp bạn xác định liệu mức lương của một thợ cơ khí ô tô có liên quan đến kinh nghiệm làm việc của anh ta hay không. (nguồn ảnh: chỉnh sửa từ tác phẩm “USPS commissions local repair-shop for some needed work on its older trucks” của Joshua Rothhaas/ Flickr, CC BY 2.0)*
+Hồi quy tuyến tính và tương quan có thể giúp bạn xác định liệu mức lương của một thợ cơ khí ô tô có liên quan đến kinh nghiệm làm việc của anh ta hay không. (nguồn ảnh: chỉnh sửa từ tác phẩm “USPS commissions local repair-shop for some needed work on its older trucks” của Joshua Rothhaas/ Flickr, CC BY 2,0)*
 
 Đến cuối chương này, sinh viên sẽ có thể:
 

@@ -69,13 +69,13 @@ x
 
 x
 ¯
- = 7 và *EBM* = 2.5
+ = 7 và *EBM* = 2,5
 
-Khoảng tin cậy là (7 – 2.5, 7 + 2.5), và tính toán các giá trị cho kết quả (4.5, 9.5).
+Khoảng tin cậy là (7 – 2,5, 7 + 2,5), và tính toán các giá trị cho kết quả (4,5, 9,5).
 
-Nếu mức tin cậy (*CL*) là 95%, thì chúng ta nói rằng, "Chúng ta ước tính với độ tin cậy 95% rằng giá trị thực của số trung bình quần thể nằm trong khoảng từ 4.5 đến 9.5."
+Nếu mức tin cậy (*CL*) là 95%, thì chúng ta nói rằng, "Chúng ta ước tính với độ tin cậy 95% rằng giá trị thực của số trung bình quần thể nằm trong khoảng từ 4,5 đến 9,5."
 
-Giả sử chúng ta có dữ liệu từ một mẫu. Số trung bình mẫu là 15, và giới hạn sai số cho số trung bình là 3.2.
+Giả sử chúng ta có dữ liệu từ một mẫu. Số trung bình mẫu là 15, và giới hạn sai số cho số trung bình là 3,2.
 
 Ước lượng khoảng tin cậy cho số trung bình quần thể là bao nhiêu?
 
@@ -293,16 +293,16 @@ Tỷ lệ hấp thụ riêng (SAR) cho điện thoại di động đo lường l
 
 | Dữ liệu SAR cho một mẫu gồm 30 điện thoại di động |
 | --- |
-| 1.11 |
-| 1.48 |
-| 1.43 |
-| 1.3 |
-| 1.09 |
-| 0.455 |
-| 1.41 |
-| 0.82 |
-| 0.78 |
-| 1.25 |
+| 1,11 |
+| 1,48 |
+| 1,43 |
+| 1,3 |
+| 1,09 |
+| 0,455 |
+| 1,41 |
+| 0,82 |
+| 0,78 |
+| 1,25 |
 
 #### Bài toán
 
@@ -312,16 +312,16 @@ Hãy tìm khoảng tin cậy 98% cho số trung bình thực (quần thể) củ
 
 | Dữ liệu SAR cho một mẫu gồm 20 điện thoại di động |
 | --- |
-| 1.48 |
-| 0.8 |
-| 1.15 |
-| 1.36 |
-| 0.77 |
-| 0.462 |
-| 1.36 |
-| 1.39 |
-| 1.3 |
-| 0.7 |
+| 1,48 |
+| 0,8 |
+| 1,15 |
+| 1,36 |
+| 0,77 |
+| 0,462 |
+| 1,36 |
+| 1,39 |
+| 1,3 |
+| 0,7 |
 
 Hãy chú ý sự khác biệt trong các khoảng tin cậy được tính toán trong [Ví dụ 8.3](8-1-a-single-population-mean-using-the-normal-distribution#example3) và bài tập [Thử sức](8-1-a-single-population-mean-using-the-normal-distribution#fs-idp77326048) sau đây. Các khoảng này khác nhau vì một số lý do: chúng được tính toán từ các mẫu khác nhau, các mẫu có kích thước khác nhau, và các khoảng được tính toán cho các mức độ tin cậy khác nhau. Mặc dù các khoảng này khác nhau, chúng không đưa ra thông tin mâu thuẫn. Ảnh hưởng của những thay đổi loại này là chủ đề của phần tiếp theo trong chương này.
 
@@ -359,7 +359,8 @@ Giữ nguyên mọi thứ ngoại trừ kích thước mẫu. Sử dụng mức 
 
 x
 ¯
-- *EBM*
+ = 68
+- *EBM* = 
 
 (
 
@@ -390,7 +391,7 @@ z
 n
 
 )
-- *σ* = 3; Mức độ tin cậy là 90% (*CL*=0.90); 
+- *σ* = 3; Mức độ tin cậy là 90% (*CL*=0,90); 
 
 z
 
@@ -402,7 +403,7 @@ z
 α
 2
 
- = *z*_0.05 = 1.645.
+ = *z*_0,05 = 1,645.
 Tóm tắt: Ảnh hưởng của việc thay đổi Kích thước mẫu
 
 - Việc tăng kích thước mẫu làm cho biên sai số giảm xuống, khiến khoảng tin cậy hẹp hơn.
@@ -423,7 +424,7 @@ Giả sử chúng ta biết rằng một khoảng tin cậy là **(67,18, 68,82)
 
 #### Tính giới hạn sai số:
 
-- Nếu chúng ta biết số trung bình mẫu là 68: *EBM* = 68.82 – 68 = 0.82.
+- Nếu chúng ta biết số trung bình mẫu là 68: *EBM* = 68,82 – 68 = 0,82.
 - Nếu chúng ta không biết số trung bình mẫu: *EBM* = 
 
 (68.82−67.18)
@@ -434,7 +435,7 @@ Giả sử chúng ta biết rằng một khoảng tin cậy là **(67,18, 68,82)
 
 2
 
- = 0.82.
+ = 0,82.
 #### Tính số trung bình mẫu:
 
 - Nếu chúng ta biết biên sai số:
@@ -445,7 +446,7 @@ x
 
 x
 ¯
- = 68.82 – 0.82 = 68
+ = 68,82 – 0,82 = 68
 - Nếu chúng ta không biết biên sai số: 
 
 x
@@ -545,7 +546,7 @@ z
 Độ lệch chuẩn quần thể cho độ tuổi của sinh viên Foothill College là 15 năm. Nếu chúng ta muốn tự tin 95% rằng số trung bình mẫu độ tuổi nằm trong khoảng hai năm so với số trung bình quần thể thực sự về độ tuổi của sinh viên Foothill College, thì cần phải khảo sát bao nhiêu sinh viên Foothill College được chọn ngẫu nhiên?
 
 - Từ bài toán, chúng ta biết rằng *σ* = 15 và *EBM* = 2.
-- *z* = *z*_0.025 = 1.96, vì mức độ tin cậy là 95%.
+- *z* = *z*_0,025 = 1,96, vì mức độ tin cậy là 95%.
 - *n* = 
 
 z
@@ -608,7 +609,7 @@ M
 2
 2
 
- = 216.09 sử dụng phương trình kích thước mẫu.
+ = 216,09 sử dụng phương trình kích thước mẫu.
 - Sử dụng *n* = 217: Luôn làm tròn kết quả LÊN số nguyên cao hơn tiếp theo để đảm bảo rằng kích thước mẫu đủ lớn.
 Do đó, cần khảo sát 217 sinh viên Foothill College để tự tin 95% rằng chúng ta nằm trong khoảng hai năm so với số trung bình quần thể thực sự về độ tuổi của sinh viên Foothill College.
 

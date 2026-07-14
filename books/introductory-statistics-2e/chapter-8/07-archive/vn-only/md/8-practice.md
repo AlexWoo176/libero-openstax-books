@@ -9,6 +9,7 @@ Xác định các thông tin sau:
 
 x
 ¯
+ = _____
 1. *σ* = _____
 1. *n* = _____
 Bằng lời, hãy định nghĩa các biến ngẫu nhiên *X* và 
@@ -35,6 +36,7 @@ Xác định các thông tin sau:
 
 x
 ¯
+ = _____
 1. *σ* = _____
 1. *n* = _____
 Bằng lời, hãy định nghĩa các biến ngẫu nhiên *X* và 
@@ -65,6 +67,7 @@ Xác định các thông tin sau:
 
 x
 ¯
+ = _____
 1. *σ* = ______
 1. *n* = ______
 Bằng lời, hãy định nghĩa biến ngẫu nhiên *X*.
@@ -99,6 +102,7 @@ x
 
 x
 ¯
+ = _____
 
 *n* = _____
 
@@ -171,11 +175,14 @@ Xác định các thông tin sau:
 
 x
 ¯
+ = _____
 1. s
 x
 
 s
 x
+
+ =_______
 1. *n* =_______
 1. *n* – 1 =_______
 Định nghĩa các biến ngẫu nhiên *X* và 
@@ -202,11 +209,14 @@ Xác định các thông tin sau:
 
 x
 ¯
+ = _____
 1. s
 x
 
 s
 x
+
+ =_______
 1. *n* =_______
 1. *n* – 1 =_______
 Định nghĩa biến ngẫu nhiên *X* bằng lời.
@@ -243,11 +253,14 @@ Tính các giá trị sau:
 
 x
 ¯
+ = _____
 1. s
 x
 
 s
 x
+
+ =_______
 1. *n* =______
 Định nghĩa biến ngẫu nhiên 
 
@@ -350,7 +363,7 @@ Xây dựng khoảng tin cậy 95% cho tỷ lệ quần thể các hộ gia đì
 
 Liệt kê hai khó khăn mà công ty có thể gặp phải khi thu thập kết quả ngẫu nhiên nếu cuộc khảo sát này được thực hiện qua email.
 
-*Sử dụng thông tin sau để trả lời năm bài tập tiếp theo:* Trong số 1.050 người trưởng thành được chọn ngẫu nhiên, 360 người tự nhận mình là lao động chân tay, 280 người tự nhận mình là người làm công ăn lương không phải lao động chân tay, 250 người tự nhận mình là quản lý cấp trung, và 160 người tự nhận mình là giám đốc điều hành. Trong cuộc khảo sát, 82% lao động chân tay thích xe tải, 62% người làm công ăn lương không phải lao động chân tay thích xe tải, 54% quản lý cấp trung thích xe tải, và 26% giám đốc điều hành thích xe tải.
+*Sử dụng thông tin sau để trả lời năm bài tập tiếp theo:* Trong số 1,050 người trưởng thành được chọn ngẫu nhiên, 360 người tự nhận mình là lao động chân tay, 280 người tự nhận mình là người làm công ăn lương không phải lao động chân tay, 250 người tự nhận mình là quản lý cấp trung, và 160 người tự nhận mình là giám đốc điều hành. Trong cuộc khảo sát, 82% lao động chân tay thích xe tải, 62% người làm công ăn lương không phải lao động chân tay thích xe tải, 54% quản lý cấp trung thích xe tải, và 26% giám đốc điều hành thích xe tải.
 
 Chúng ta quan tâm đến việc tìm khoảng tin cậy 95% cho tỷ lệ phần trăm các giám đốc điều hành thích xe tải. Định nghĩa các biến ngẫu nhiên *X* và *P*′ bằng lời.
 

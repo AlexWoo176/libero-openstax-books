@@ -57,7 +57,7 @@ Phân phối lý thuyếtXây dựng biểu đồ hàm phân phối xác suất 
 
 1. *x*
 *y*
-*P**x**P**y*
+*P*(*x*) = *P*(*y*)
 
 0
 
@@ -92,12 +92,12 @@ Sử dụng dữ liệu
 Sử dụng dữ liệu từ phần [Phân phối lý thuyết](4-8-discrete-distribution-dice-experiment-using-three-regular-dice#TheoDist2) để tính toán các câu trả lời sau. Làm tròn câu trả lời của bạn đến bốn chữ số thập phân.
 
 1. *P*(*x* = 3) = _________________
-1. *P**x*
+1. *P*(0 < *x* < 3) =  _________________
 1. *P*(*x* ≥ 2) =  _________________
 Sử dụng dữ liệu từ phần [Tổ chức dữ liệu](4-8-discrete-distribution-dice-experiment-using-three-regular-dice#OrgData2) để tính toán các câu trả lời sau. Làm tròn câu trả lời của bạn đến bốn chữ số thập phân.
 
 1. *RF*(x = 3) =  _________________
-1. *RF**x*
+1. *RF*(0 < *x* < 3) =  _________________
 1. *RF*(*x* ≥ 2) =  _________________
 Câu hỏi thảo luậnĐối với câu hỏi 1 và 2, hãy xem xét các biểu đồ, xác suất, tần suất tương đối, số trung bình và độ lệch chuẩn.
 

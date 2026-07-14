@@ -36,7 +36,7 @@ The standard deviation, *σ*, is the same as the mean. *μ* = *σ*
 
 The distribution notation is *X* ~ *Exp*(*m*). Therefore, *X* ~ *Exp*(0.25).
 
-Ký hiệu phân phối là *X* ~ *Exp*(*m*). Do đó, *X* ~ *Exp*(0.25).
+Ký hiệu phân phối là *X* ~ *Exp*(*m*). Do đó, *X* ~ *Exp*(0,25).
 
 The probability density function is *f*(*x*) = *me*^-*mx*. The number *e* = 2.71828182846... It is a number that is used often in mathematics. Scientific calculators have the key "*e^x*." If you enter one for *x*, the calculator will display the value *e*.
 
@@ -118,7 +118,7 @@ Phân phối của *X* xấp xỉ phân phối mũ với số trung bình, *μ* 
 
 Draw the appropriate exponential graph. You should label the x– and y–axes, the decay rate, and the mean. Shade the area that represents the probability that one student has less than $.40 in their pocket or purse. (Shade *P*(*x* < 0.40)).
 
-Vẽ biểu đồ hàm mũ thích hợp. Bạn nên dán nhãn các trục x và y, tốc độ phân rã và số trung bình. Tô bóng vùng biểu diễn xác suất một sinh viên có ít hơn 0,40 đô la trong túi hoặc ví của họ. (Tô bóng *P*(*x* < 0.40)).
+Vẽ biểu đồ hàm mũ thích hợp. Bạn nên dán nhãn các trục x và y, tốc độ phân rã và số trung bình. Tô bóng vùng biểu diễn xác suất một sinh viên có ít hơn 0,40 đô la trong túi hoặc ví của họ. (Tô bóng *P*(*x* < 0,40)).
 
 On the average, a certain computer part lasts ten years. The length of time the computer part lasts is exponentially distributed.
 
@@ -172,7 +172,7 @@ d. Xác suất để một linh kiện máy tính hoạt động trong khoảng 
 
 On the home screen, enter *e*^(–0.1*9) – *e*^(–0.1*11).
 
-Trên màn hình chính, nhập *e*^(–0.1*9) – *e*^(–0.1*11).
+Trên màn hình chính, nhập *e*^(–0,1*9) – *e*^(–0,1*11).
 
 On average, a pair of running shoes can last 18 months if used every day. The length of time running shoes last is exponentially distributed. What is the probability that a pair of running shoes last more than 15 months? On average, how long would six pairs of running shoes last if they are used one after the other? Eighty percent of running shoes last at most how long if used every day?
 
@@ -232,7 +232,7 @@ Giả sử rằng trên một đoạn đường cao tốc nhất định, ô tô
 
 In [Example 5.7](5-3-the-exponential-distribution#fs-idp58220144) recall that the amount of time between customers is exponentially distributed with a mean of two minutes (*X* ~ *Exp* (0.5)). Suppose that five minutes have elapsed since the last customer arrived. Since an unusually long amount of time has now elapsed, it would seem to be more likely for a customer to arrive within the next minute. With the exponential distribution, this is not the case–the additional time spent waiting for the next customer does not depend on how much time has already elapsed since the last customer. This is referred to as the **memoryless property**. Specifically, the **memoryless property** says that
 
-Trong [Ví dụ 5.7](5-3-the-exponential-distribution#fs-idp58220144), hãy nhớ lại rằng khoảng thời gian giữa các khách hàng tuân theo phân phối mũ với số trung bình là hai phút (*X* ~ *Exp* (0.5)). Giả sử rằng đã năm phút trôi qua kể từ khi khách hàng cuối cùng đến. Vì một khoảng thời gian dài bất thường đã trôi qua, có vẻ như khả năng một khách hàng đến trong phút tiếp theo sẽ cao hơn. Với phân phối mũ, điều này không xảy ra – thời gian chờ đợi thêm cho khách hàng tiếp theo không phụ thuộc vào việc đã bao nhiêu thời gian trôi qua kể từ khi khách hàng trước đó đến. Điều này được gọi là **tính chất không nhớ**. Cụ thể, **tính chất không nhớ** nói rằng
+Trong [Ví dụ 5.7](5-3-the-exponential-distribution#fs-idp58220144), hãy nhớ lại rằng khoảng thời gian giữa các khách hàng tuân theo phân phối mũ với số trung bình là hai phút (*X* ~ *Exp* (0,5)). Giả sử rằng đã năm phút trôi qua kể từ khi khách hàng cuối cùng đến. Vì một khoảng thời gian dài bất thường đã trôi qua, có vẻ như khả năng một khách hàng đến trong phút tiếp theo sẽ cao hơn. Với phân phối mũ, điều này không xảy ra – thời gian chờ đợi thêm cho khách hàng tiếp theo không phụ thuộc vào việc đã bao nhiêu thời gian trôi qua kể từ khi khách hàng trước đó đến. Điều này được gọi là **tính chất không nhớ**. Cụ thể, **tính chất không nhớ** nói rằng
 
 *P* (*X* > *r* + *t* | *X* > *r*) = *P* (*X* > *t*) for all *r* ≥ 0 and *t* ≥ 0
 
@@ -252,7 +252,7 @@ Ví dụ, nếu năm phút đã trôi qua kể từ khi khách hàng cuối cùn
 
 The exponential distribution is often used to model the longevity of an electrical or mechanical device. In [Example 5.9](5-3-the-exponential-distribution#fs-idp51839440), the lifetime of a certain computer part has the exponential distribution with a mean of ten years (*X* ~ *Exp*(0.1)). The **memoryless property** says that knowledge of what has occurred in the past has no effect on future probabilities. In this case it means that an old part is not any more likely to break down at any particular time than a brand new part. In other words, the part stays as good as new until it suddenly breaks. For example, if the part has already lasted ten years, then the probability that it lasts another seven years is *P*(*X* > 17|*X* > 10) = *P*(*X* > 7) = 0.4966.
 
-Phân phối mũ thường được sử dụng để mô hình hóa tuổi thọ của một thiết bị điện hoặc cơ khí. Trong [Ví dụ 5.9](5-3-the-exponential-distribution#fs-idp51839440), tuổi thọ của một linh kiện máy tính nhất định có phân phối mũ với trung bình là mười năm (*X* ~ *Exp*(0.1)). **Tính chất không nhớ** cho biết rằng việc biết những gì đã xảy ra trong quá khứ không có ảnh hưởng gì đến các xác suất trong tương lai. Trong trường hợp này, điều đó có nghĩa là một linh kiện cũ không có khả năng bị hỏng tại bất kỳ thời điểm cụ thể nào cao hơn so với một linh kiện hoàn toàn mới. Nói cách khác, linh kiện vẫn tốt như mới cho đến khi nó đột ngột bị hỏng. Ví dụ, nếu linh kiện đã hoạt động được mười năm, thì xác suất để nó hoạt động thêm bảy năm nữa là *P*(*X* > 17|*X* > 10) = *P*(*X* > 7) = 0.4966.
+Phân phối mũ thường được sử dụng để mô hình hóa tuổi thọ của một thiết bị điện hoặc cơ khí. Trong [Ví dụ 5.9](5-3-the-exponential-distribution#fs-idp51839440), tuổi thọ của một linh kiện máy tính nhất định có phân phối mũ với trung bình là mười năm (*X* ~ *Exp*(0,1)). **Tính chất không nhớ** cho biết rằng việc biết những gì đã xảy ra trong quá khứ không có ảnh hưởng gì đến các xác suất trong tương lai. Trong trường hợp này, điều đó có nghĩa là một linh kiện cũ không có khả năng bị hỏng tại bất kỳ thời điểm cụ thể nào cao hơn so với một linh kiện hoàn toàn mới. Nói cách khác, linh kiện vẫn tốt như mới cho đến khi nó đột ngột bị hỏng. Ví dụ, nếu linh kiện đã hoạt động được mười năm, thì xác suất để nó hoạt động thêm bảy năm nữa là *P*(*X* > 17|*X* > 10) = *P*(*X* > 7) = 0,4966.
 
 Refer to [Example 5.7](5-3-the-exponential-distribution#fs-idp58220144) where the time a postal clerk spends with a customer has an exponential distribution with a mean of four minutes. Suppose a customer has spent four minutes with a postal clerk. What is the probability that the customer will spend at least an additional three minutes with the postal clerk?
 
@@ -262,11 +262,11 @@ The decay parameter of *X* is *m* = 141414
 = 0.25, so *X* ∼ *Exp*(0.25).
 
 Tham số phân rã của *X* là *m* = 141414
-= 0.25, vì vậy *X* ∼ *Exp*(0.25).
+= 0,25, vì vậy *X* ∼ *Exp*(0,25).
 
 The cumulative distribution function is *P*(*X* < *x*) = 1 – *e*^–0.25*x*.
 
-Hàm phân phối tích lũy là *P*(*X* < *x*) = 1 – *e*^–0.25*x*.
+Hàm phân phối tích lũy là *P*(*X* < *x*) = 1 – *e*^–0,25*x*.
 
 We want to find *P*(*X* > 7|*X* > 4). The **memoryless property** says that *P*(*X* > 7|*X* > 4) = *P* (*X* > 3), so we just need to find the probability that a customer spends more than three minutes with a postal clerk.
 
@@ -274,7 +274,7 @@ Chúng ta muốn tìm *P*(*X* > 7|*X* > 4). **Tính chất không nhớ** cho bi
 
 This is *P*(*X* > 3) = 1 – *P* (*X* < 3) = 1 – (1 – *e*^–0.25⋅3) = *e*^–0.75 ≈ 0.4724.
 
-Đây là *P*(*X* > 3) = 1 – *P* (*X* < 3) = 1 – (1 – *e*^–0.25⋅3) = *e*^–0.75 ≈ 0.4724.
+Đây là *P*(*X* > 3) = 1 – *P* (*X* < 3) = 1 – (1 – *e*^–0,25⋅3) = *e*^–0,75 ≈ 0,4724.
 
 *Figure 
 5.31*
@@ -284,7 +284,7 @@ This is *P*(*X* > 3) = 1 – *P* (*X* < 3) = 1 – (1 – *e*^–0.25⋅3) = *e*
 
 1–(1–e^(–0.25*3)) = e^(–0.25*3).
 
-1–(1–e^(–0.25*3)) = e^(–0.25*3).
+1–(1–e^(–0,25*3)) = e^(–0,25*3).
 
 Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years. If a bulb has already lasted 12 years, find the probability that it will last a total of over 19 years.
 

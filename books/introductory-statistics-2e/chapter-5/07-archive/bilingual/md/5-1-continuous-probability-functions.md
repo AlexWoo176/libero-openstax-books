@@ -95,7 +95,7 @@ Gán nhãn cho biểu đồ với *f*(*x*) và *x*. Chia tỷ lệ các trục *
 
 To calculate the probability that *x* is between two values, look at the following graph. Shade the region between *x* = 2.3 and *x* = 12.7. Then calculate the shaded area of a rectangle.
 
-Để tính xác suất mà *x* nằm giữa hai giá trị, hãy nhìn vào biểu đồ sau đây. Tô bóng vùng nằm giữa *x* = 2.3 và *x* = 12.7. Sau đó tính diện tích phần được tô bóng của hình chữ nhật.
+Để tính xác suất mà *x* nằm giữa hai giá trị, hãy nhìn vào biểu đồ sau đây. Tô bóng vùng nằm giữa *x* = 2,3 và *x* = 12,7. Sau đó tính diện tích phần được tô bóng của hình chữ nhật.
 
 *Figure 
 5.10*
@@ -106,4 +106,4 @@ To calculate the probability that *x* is between two values, look at the followi
 Consider the function *f*(*x*) = 181818
  for 0 ≤ *x* ≤ 8. Draw the graph of *f*(*x*) and find *P*(2.5 < *x* < 7.5).
 
-Xét hàm số *f*(*x*) = 181818 cho 0 ≤ *x* ≤ 8. Vẽ biểu đồ của *f*(*x*) và tìm *P*(2.5 < *x* < 7.5).
+Xét hàm số *f*(*x*) = 181818 cho 0 ≤ *x* ≤ 8. Vẽ biểu đồ của *f*(*x*) và tìm *P*(2,5 < *x* < 7,5).

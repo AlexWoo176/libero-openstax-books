@@ -57,6 +57,7 @@ x
 
 x
 ¯
+ = _____
 
 s
 x
@@ -72,6 +73,7 @@ x
 s
 x
 
+ = _____
 *n* = _____*n* = _____
 1. In words, define the random variable 
 

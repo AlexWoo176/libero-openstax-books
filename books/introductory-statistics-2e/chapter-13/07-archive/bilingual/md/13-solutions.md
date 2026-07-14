@@ -20,7 +20,7 @@ Biến phản hồi là một giá trị định lượng.
 
 4,939.2
 
-4,939.2
+4,939,2
 
 2
 
@@ -28,11 +28,11 @@ Biến phản hồi là một giá trị định lượng.
 
 2,469.6
 
-2,469.6
+2,469,6
 
 3.7416
 
-3.7416
+3,7416
 
 3
 
@@ -44,7 +44,7 @@ Biến phản hồi là một giá trị định lượng.
 
 0.825
 
-0.825
+0,825
 
 Because a one-way ANOVA test is always right-tailed, a high *F* statistic corresponds to a low *p*-value, so it is likely that we will reject the null hypothesis.
 
@@ -60,11 +60,11 @@ mười
 
 *SS* = 237.33; *MS* = 23.73
 
-*SS* = 237.33; *MS* = 23.73
+*SS* = 237,33; *MS* = 23,73
 
 0.1614
 
-0.1614
+0,1614
 
 two
 
@@ -72,15 +72,15 @@ hai
 
 *SS* = 5,700.4;
 
-*SS* = 5,700.4;
+*SS* = 5,700,4;
 
 *MS* = 2,850.2
 
-*MS* = 2,850.2
+*MS* = 2,850,2
 
 3.6101
 
-3.6101
+3,6101
 
 Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.
 
@@ -184,11 +184,11 @@ hoặc
 
 4.11
 
-4.11
+4,11
 
 0.7159
 
-0.7159
+0,7159
 
 No, at the 10% level of significance, we do not reject the null hypothesis and state that the data do not show that the variation in drive times for the first worker is less than the variation in drive times for the second worker.
 
@@ -196,7 +196,7 @@ Không, ở mức ý nghĩa 10%, chúng ta không bác bỏ giả thuyết khôn
 
 2.8674
 
-2.8674
+2,8674
 
 Reject the null hypothesis. There is enough evidence to say that the variance of the grades for the first student is higher than the variance in the grades for the second student.
 
@@ -204,7 +204,7 @@ Bác bỏ giả thuyết không. Có đủ bằng chứng để nói rằng phư
 
 0.7414
 
-0.7414
+0,7414
 
 *SS*_between = 26
 
@@ -216,7 +216,7 @@ Bác bỏ giả thuyết không. Có đủ bằng chứng để nói rằng phư
 
 *SS*_trong = 441
 
-*F* = 0.2653
+*F* = 0,2653
 
 *df*(*denom*) = 15
 
@@ -231,9 +231,9 @@ Bác bỏ giả thuyết không. Có đủ bằng chứng để nói rằng phư
 1. *F* distribution
 1. Phân phối *F*
 1. 0.67
-1. 0.67
+1. 0,67
 1. 0.5305
-1. 0.5305
+1. 0,5305
 1. Answers may vary.
 1. Các câu trả lời có thể khác nhau.
 1. Decision: Do not reject null hypothesis; Conclusion: There is insufficient evidence to conclude that the means are different.
@@ -247,12 +247,12 @@ Bác bỏ giả thuyết không. Có đủ bằng chứng để nói rằng phư
 1. *F* distribtuion
 1. Phân phối *F*
 1. *F* = 15.28
-1. *F* = 15.28
+1. *F* = 15,28
 1. *p*-value = 0.0005
-1. p-giá trị = 0.0005
+1. p-giá trị = 0,0005
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the Null Hypothesis.Quyết định: Bác bỏ Giả thuyết không.
 Reason for decision: *p*-value < alphaLý do quyết định: p-giá trị < Mức ý nghĩa α
 Conclusion: There is sufficient evidence to conclude that the mean lengths of the magazines are different.Kết luận: Có đủ bằng chứng để kết luận rằng độ dài trung bình của các tạp chí là khác nhau.
@@ -265,12 +265,12 @@ Conclusion: There is sufficient evidence to conclude that the mean lengths of th
 1. *F*_2,13
 1. *F*_2,13
 1. 0.64
-1. 0.64
+1. 0,64
 1. 0.5437
-1. 0.5437
+1. 0,5437
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ Giả thuyết không.
 Reason for decision: *p*-value > alphaLý do quyết định: p-giá trị > Mức ý nghĩa α
 Conclusion: The mean scores of different class delivery are not different.Kết luận: Điểm trung bình của các hình thức giảng dạy khác nhau không có sự khác biệt.
@@ -283,12 +283,12 @@ Conclusion: The mean scores of different class delivery are not different.Kết 
 1. *F*_2,12
 1. *F*_2,12
 1. 3.13
-1. 3.13
+1. 3,13
 1. 0.0807
-1. 0.0807
+1. 0,0807
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ Giả thuyết không.
 Reason for decision: *p*-value > alphaLý do quyết định: p-giá trị > Mức ý nghĩa α
 Conclusion: There is not sufficient evidence  to conclude that the mean numbers of daily visitors are different.Kết luận: Không có đủ bằng chứng để kết luận rằng số lượng khách truy cập hàng ngày trung bình là khác nhau.
@@ -310,11 +310,11 @@ Define *μ*_1, *μ*_2, *μ*_3, as the population mean number of eggs laid by the
 
 *F* statistic = 8.6657;
 
-Thống kê *F* = 8.6657;
+Thống kê *F* = 8,6657;
 
 *p*-value = 0.0004
 
-p-giá trị *p* = 0.0004
+p-giá trị *p* = 0,0004
 
 *Figure 
 13.9*
@@ -324,7 +324,7 @@ p-giá trị *p* = 0.0004
 
 **Decision:**  Since the *p*-value is less than the level of significance of 0.01, we reject the null hypothesis.
 
-**Quyết định:** Vì p-giá trị *p* nhỏ hơn mức ý nghĩa 0.01, chúng ta bác bỏ giả thuyết không.
+**Quyết định:** Vì p-giá trị *p* nhỏ hơn mức ý nghĩa 0,01, chúng ta bác bỏ giả thuyết không.
 
 **Conclusion:** We have good evidence that the average number of eggs laid during the first 14 days of life for these three strains of fruitflies are different.
 
@@ -332,7 +332,7 @@ p-giá trị *p* = 0.0004
 
 Interestingly, if you perform a two sample *t*-test to compare the RS and NS groups they are significantly different (*p* = 0.0013). Similarly, SS and NS are significantly different (*p* = 0.0006). However, the two selected groups, RS and SS are *not* significantly different (*p* = 0.5176). Thus we appear to have good evidence that selection either for resistance or for susceptibility involves a reduced rate of egg production (for these specific strains) as compared to flies that were not selected for resistance or susceptibility to DDT. Here, genetic selection has apparently involved a loss of fecundity.
 
-Thật thú vị, nếu bạn thực hiện kiểm định *t* hai mẫu để so sánh các nhóm RS và NS, chúng khác biệt đáng kể (*p* = 0.0013). Tương tự, SS và NS khác biệt đáng kể (*p* = 0.0006). Tuy nhiên, hai nhóm được chọn là RS và SS *không* khác biệt đáng kể (*p* = 0.5176). Do đó, chúng ta dường như có bằng chứng tốt rằng việc chọn lọc cho khả năng kháng hoặc khả năng nhạy cảm liên quan đến tỷ lệ đẻ trứng giảm (đối với các chủng cụ thể này) so với những con ruồi không được chọn lọc cho khả năng kháng hoặc nhạy cảm với DDT. Ở đây, chọn lọc di truyền dường như liên quan đến sự mất khả năng sinh sản.
+Thật thú vị, nếu bạn thực hiện kiểm định *t* hai mẫu để so sánh các nhóm RS và NS, chúng khác biệt đáng kể (*p* = 0,0013). Tương tự, SS và NS khác biệt đáng kể (*p* = 0,0006). Tuy nhiên, hai nhóm được chọn là RS và SS *không* khác biệt đáng kể (*p* = 0,5176). Do đó, chúng ta dường như có bằng chứng tốt rằng việc chọn lọc cho khả năng kháng hoặc khả năng nhạy cảm liên quan đến tỷ lệ đẻ trứng giảm (đối với các chủng cụ thể này) so với những con ruồi không được chọn lọc cho khả năng kháng hoặc nhạy cảm với DDT. Ở đây, chọn lọc di truyền dường như liên quan đến sự mất khả năng sinh sản.
 
 1. H
 0
@@ -439,9 +439,9 @@ a
 1. *F*_4, 4
 1. *F*_4, 4
 1. 3.00
-1. 3.00
+1. 3,00
 1. 2(0.1563) = 0.3126. Using the TI-83+/84+ function 2-SampFtest, you get the test statistic as 2.9986 and *p*-value directly as 0.3127. If you input the lists in a different order, you get a test statistic of 0.3335 but the *p*-value is the same because this is a two-tailed test.
-1. 2(0.1563) = 0.3126. Sử dụng hàm 2-SampFtest trên máy tính TI-83+/84+, bạn nhận được thống kê kiểm định là 2.9986 và p-giá trị trực tiếp là 0.3127. Nếu bạn nhập các danh sách theo thứ tự khác, bạn sẽ nhận được thống kê kiểm định là 0.3335 nhưng p-giá trị vẫn như cũ vì đây là kiểm định hai phía.
+1. 2(0,1563) = 0,3126. Sử dụng hàm 2-SampFtest trên máy tính TI-83+/84+, bạn nhận được thống kê kiểm định là 2,9986 và p-giá trị trực tiếp là 0,3127. Nếu bạn nhập các danh sách theo thứ tự khác, bạn sẽ nhận được thống kê kiểm định là 0,3335 nhưng p-giá trị vẫn như cũ vì đây là kiểm định hai phía.
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
 1. Decision: Do not reject the null hypothesis; Conclusion: There is insufficient evidence to conclude that the variances are different.
@@ -531,12 +531,12 @@ Các câu trả lời có thể khác nhau. Câu trả lời mẫu: Các tạp c
 1. *F*_7,6
 1. *F*_7,6
 1. 0.8117
-1. 0.8117
+1. 0,8117
 1. 0.7825
-1. 0.7825
+1. 0,7825
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ Giả thuyết không.
 Reason for decision: *p*-value > alphaLý do quyết định: p-giá trị > Mức ý nghĩa α
 Conclusion: There is not sufficient evidence to conclude that the variances are different.Kết luận: Không có đủ bằng chứng để kết luận rằng các phương sai là khác nhau.
@@ -556,13 +556,13 @@ Mặc dù có sự khác biệt về độ phân tán, việc sử dụng các k
 
 | Source of Variation | Nguồn biến thiên | Sum of Squares (*SS*) | Tổng các bình phương (*SS*) | Degrees of Freedom (*df*) | Bậc tự do (*df*) | Mean Square (*MS*) | Bình phương trung bình (*MS*) | *F* | *F* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Factor (Between) | Nhân tố (Giữa các nhóm) | 37.748 | 37.748 | 4 – 1 = 3 | 4 – 1 = 3 | 12.5825 | 12.5825 | 26.272 | 26.272 |
-| Error (Within) | Sai số (Trong nội bộ nhóm) | 11.015 | 11.015 | 27 – 4 = 23 | 27 – 4 = 23 | 0.4789 | 0.4789 |  |  |
-| Total | Tổng | 48.763 | 48.763 | 27 – 1 = 26 | 27 – 1 = 26 |  |  |  |  |
+| Factor (Between) | Nhân tố (Giữa các nhóm) | 37.748 | 37,748 | 4 – 1 = 3 | 4 – 1 = 3 | 12.5825 | 12,5825 | 26.272 | 26,272 |
+| Error (Within) | Sai số (Trong nội bộ nhóm) | 11.015 | 11,015 | 27 – 4 = 23 | 27 – 4 = 23 | 0.4789 | 0,4789 |  |  |
+| Total | Tổng | 48.763 | 48,763 | 27 – 1 = 26 | 27 – 1 = 26 |  |  |  |  |
 
 *P*(*F* > 26.272) = 0;
 
-*P*(*F* > 26.272) = 0;
+*P*(*F* > 26,272) = 0;
 
 Reject the null hypothesis for any alpha. There is sufficient evidence to conclude that the mean silver content among the four coinages are different. From the strip chart, it appears that the first and second coinages had higher silver contents than the third and fourth.
 
@@ -580,7 +580,7 @@ Here is a stripchart of the number of wins for the 14 teams in the AL for the 20
 
 While the spread seems similar, there may be some question about the normality of the data, given the wide gaps in the middle near the 0.500 mark of 82 games (teams play 162 games each season in MLB). However, one-way ANOVA is robust.
 
-Mặc dù độ phân tán có vẻ tương tự, có thể có một số câu hỏi về tính chuẩn của dữ liệu, do các khoảng trống lớn ở giữa gần mốc 0.500 của 82 trận đấu (các đội chơi 162 trận mỗi mùa trong MLB). Tuy nhiên, ANOVA một chiều rất mạnh mẽ.
+Mặc dù độ phân tán có vẻ tương tự, có thể có một số câu hỏi về tính chuẩn của dữ liệu, do các khoảng trống lớn ở giữa gần mốc 0,500 của 82 trận đấu (các đội chơi 162 trận mỗi mùa trong MLB). Tuy nhiên, ANOVA một chiều rất mạnh mẽ.
 
 Here is the ANOVA table for the data:
 
@@ -588,14 +588,14 @@ Here is the ANOVA table for the data:
 
 | Source of Variation | Nguồn biến thiên | Sum of Squares (*SS*) | Tổng các bình phương (*SS*) | Degrees of Freedom (*df*) | Bậc tự do (*df*) | Mean Square (*MS*) | Bình phương trung bình (*MS*) | *F* | *F* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Factor (Between) | Nhân tố (Giữa các nhóm) | 344.16 | 344.16 | 3 – 1 = 2 | 3 – 1 = 2 | 172.08 | 172.08 |  |  |
-| Error (Within) | Sai số (Trong nội bộ nhóm) | 1,219.55 | 1,219.55 | 14 – 3 = 11 | 14 – 3 = 11 | 110.87 | 110.87 | 1.5521 | 1.5521 |
-| Total | Tổng | 1,563.71 | 1,563.71 | 14 – 1 = 13 | 14 – 1 = 13 |  |  |  |  |
+| Factor (Between) | Nhân tố (Giữa các nhóm) | 344.16 | 344,16 | 3 – 1 = 2 | 3 – 1 = 2 | 172.08 | 172,08 |  |  |
+| Error (Within) | Sai số (Trong nội bộ nhóm) | 1,219.55 | 1,219,55 | 14 – 3 = 11 | 14 – 3 = 11 | 110.87 | 110,87 | 1.5521 | 1,5521 |
+| Total | Tổng | 1,563.71 | 1,563,71 | 14 – 1 = 13 | 14 – 1 = 13 |  |  |  |  |
 
 *P*(*F* > 1.5521) = 0.2548
 
 Since the *p*-value is so large, there is not good evidence against the null hypothesis of equal means. We decline to reject the null hypothesis. Thus, for 2012, there is not any have any good evidence of a significant difference in mean number of wins between the divisions of the American League.
 
-*P*(*F* > 1.5521) = 0.2548
+*P*(*F* > 1,5521) = 0,2548
 
 Vì p-giá trị *p* quá lớn, không có bằng chứng tốt để chống lại giả thuyết không về các giá trị trung bình bằng nhau. Chúng ta từ chối bác bỏ giả thuyết không. Do đó, đối với năm 2012, không có bất kỳ bằng chứng tốt nào về sự khác biệt đáng kể về số trận thắng trung bình giữa các phân khu của Liên đoàn Mỹ.

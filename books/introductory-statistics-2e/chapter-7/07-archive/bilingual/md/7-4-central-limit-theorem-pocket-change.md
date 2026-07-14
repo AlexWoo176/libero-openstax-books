@@ -57,7 +57,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______*s* = _______
 1. Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.
@@ -98,7 +98,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______*s* = _______
 1. Draw a smooth curve through tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.
@@ -138,7 +138,7 @@ x
 
 x
 ¯
-
+ = _______
 *s* = _______*s* = _______
 1. Draw a smooth curve through tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.
 1. Vẽ một đường cong mượt mà đi qua đỉnh của các cột trong biểu đồ histogram. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng chung của đường cong.

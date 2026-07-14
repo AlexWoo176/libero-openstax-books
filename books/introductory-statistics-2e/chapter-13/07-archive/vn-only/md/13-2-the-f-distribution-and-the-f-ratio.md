@@ -376,12 +376,12 @@ Ba kế hoạch ăn kiêng khác nhau sẽ được kiểm định về số tru
 
 | Kế hoạch 1: *n*_1 = 4 | Kế hoạch 2: *n*_2 = 3 | Kế hoạch 3: *n*_3 = 3 |
 | --- | --- | --- |
-| 5 | 3.5 | 8 |
-| 4.5 | 7 | 4 |
-| 4 |  | 3.5 |
-| 3 | 4.5 |  |
+| 5 | 3,5 | 8 |
+| 4,5 | 7 | 4 |
+| 4 |  | 3,5 |
+| 3 | 4,5 |  |
 
-*s*_1 = 16.5, *s*_2 =15, *s*_3 = 15.5
+*s*_1 = 16,5, *s*_2 =15, *s*_3 = 15,5
 
 Sau đây là các tính toán cần thiết để điền vào bảng ANOVA một chiều. Bảng được sử dụng để thực hiện kiểm định giả thuyết.
 
@@ -394,27 +394,27 @@ Bảng ANOVA một chiều: Các công thức cho `*SS*(Total)`, `*SS*(Factor) =
 | Nhân tố 
 (Giữa các nhóm) | *SS*(Nhân tố) 
 = *SS*(Giữa các nhóm) 
-= 2.2458 | *k* – 1 
+= 2,2458 | *k* – 1 
 = 3 nhóm – 1 
 = 2 | *MS*(Nhân tố) 
 = *SS*(Nhân tố)/(*k* – 1)
- = 2.2458/2 
-= 1.1229 | *F* =
+ = 2,2458/2 
+= 1,1229 | *F* =
  *MS*(Nhân tố)/*MS*(Sai số) 
-= 1.1229/2.9792 
-= 0.3769 |
+= 1,1229/2,9792 
+= 0,3769 |
 | Sai số 
 (Trong nội bộ nhóm) | *SS*(Sai số) 
 = *SS*(Trong nội bộ) 
-= 20.8542 | *n* – *k* 
+= 20,8542 | *n* – *k* 
 = 10 dữ liệu tổng cộng – 3 nhóm 
 = 7 | *MS*(Sai số) 
 = *SS*(Sai số)/(*n* – *k*) 
-= 20.8542/7 
-= 2.9792 |  |
+= 20,8542/7 
+= 2,9792 |  |
 | Tổng | *SS*(Tổng) 
-= 2.2458 + 20.8542 
-= 23.1 | *n* – 1 
+= 2,2458 + 20,8542 
+= 23,1 | *n* – 1 
 = 10 dữ liệu tổng cộng – 1 
 = 9 |  |  |
 

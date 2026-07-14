@@ -177,7 +177,7 @@ Sử dụng bảng từ phần [Phân phối lý thuyết](4-7-discrete-distribu
 - *P*(*x* = 3) = _______________________
 - *P*(*x* = 3) = _______________________
 - *P*(1 < *x* < 4) = _______________________
-- *P**x*
+- *P*(1 < *x* < 4) = _______________________
 - *P*(*x* ≥ 8) = _______________________
 - *P*(*x* ≥ 8) = _______________________
 Use the data from the [Organize the Data](4-7-discrete-distribution-playing-card-experiment#OrgData) section to calculate the following answers. Round your answers to four decimal places.
@@ -187,7 +187,7 @@ Sử dụng dữ liệu từ phần [Tổ chức dữ liệu](4-7-discrete-distr
 - *RF*(*x* = 3) = _______________________
 - *RF*(*x* = 3) = _______________________
 - *RF*(1 < *x* < 4) = _______________________
-- *RF**x*
+- *RF*(1 < *x* < 4) = _______________________
 - *RF*(*x* ≥ 8) = _______________________
 - *RF*(*x* ≥ 8) = _______________________
 Discussion QuestionsFor questions 1 and 2, think about the shapes of the two graphs, the probabilities, the relative frequencies, the means, and the standard deviations.

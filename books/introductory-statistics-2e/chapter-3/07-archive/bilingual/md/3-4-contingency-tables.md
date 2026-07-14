@@ -192,19 +192,19 @@ Anna has to buy a new car. She has two choices, car A and car B. Anna can afford
 𝑃⁡(𝐴)⁢  = ⁢0.25P⁡(A)⁢ = ⁢0.25P(A) = 0.25𝑃⁡(𝐵)⁢  = ⁢0.65P⁡(B)⁢ = ⁢0.65P(B) = 0.65
 
 - 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A AND B)
-- 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A VÀ B)
+- 𝑃⁡(𝐴 𝐴⁢𝑁⁢𝐷 𝐵)P⁡(A A⁢N⁢D B)P(A AND B)
 - 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A OR B)
-- 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A HOẶC B)
+- 𝑃⁡(𝐴 𝑂⁢𝑅 𝐵)P⁡(A O⁢R B)P(A OR B)
 [Table 3.10](3-4-contingency-tables#Ch03_M04_tbl007) contains the number of crimes per 100,000 inhabitants in the United States over the span of several years.
 
 [Bảng 3.10](3-4-contingency-tables#Ch03_M04_tbl007) chứa số lượng tội phạm trên 100.000 dân tại Hoa Kỳ trong khoảng thời gian vài năm.
 
 | Year | Năm | Robbery | Cướp tài sản | Burglary | Trộm cắp | Vandalism | Phá hoại | Vehicle | Phương tiện | Total | Tổng |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 1 | 145.7 | 145.7 | 732.1 | 732.1 | 29.7 | 29.7 | 314.7 | 314.7 |  |  |
-| 2 | 2 | 133.1 | 133.1 | 717.7 | 717.7 | 29.1 | 29.1 | 259.2 | 259.2 |  |  |
-| 3 | 3 | 119.3 | 119.3 | 701 | 701 | 27.7 | 27.7 | 239.1 | 239.1 |  |  |
-| 4 | 4 | 113.7 | 113.7 | 702.2 | 702.2 | 26.8 | 26.8 | 229.6 | 229.6 |  |  |
+| 1 | 1 | 145.7 | 145,7 | 732.1 | 732,1 | 29.7 | 29,7 | 314.7 | 314,7 |  |  |
+| 2 | 2 | 133.1 | 133,1 | 717.7 | 717,7 | 29.1 | 29,1 | 259.2 | 259,2 |  |  |
+| 3 | 3 | 119.3 | 119,3 | 701 | 701 | 27.7 | 27,7 | 239.1 | 239,1 |  |  |
+| 4 | 4 | 113.7 | 113,7 | 702.2 | 702,2 | 26.8 | 26,8 | 229.6 | 229,6 |  |  |
 | Total | Tổng |  |  |  |  |  |  |  |  |  |  |
 
 #### Problem
@@ -213,7 +213,7 @@ Anna has to buy a new car. She has two choices, car A and car B. Anna can afford
 
 TOTAL each column and each row. Total data = 4,520.7
 
-TỔNG mỗi cột và mỗi hàng. Tổng dữ liệu = 4.520,7
+TỔNG mỗi cột và mỗi hàng. Tổng dữ liệu = 4,520,7
 
 1. Find *P*(Year 2 AND Robbery).
 1. Tìm *P*(Năm 2 VÀ Cướp tài sản).

@@ -131,14 +131,14 @@ x
 
 x
 ¯
-, sẽ nằm trong phạm vi hai độ lệch chuẩn của số trung bình quần thể *μ*. Đối với ví dụ về Apple Music của chúng ta, hai độ lệch chuẩn là (2)(0.1) = 0.2. Số trung bình mẫu 
+, sẽ nằm trong phạm vi hai độ lệch chuẩn của số trung bình quần thể *μ*. Đối với ví dụ về Apple Music của chúng ta, hai độ lệch chuẩn là (2)(0,1) = 0,2. Số trung bình mẫu 
 
 x
 ¯
 
 x
 ¯
- có khả năng nằm trong phạm vi 0.2 đơn vị so với *μ*.
+ có khả năng nằm trong phạm vi 0,2 đơn vị so với *μ*.
 
 Because 
 
@@ -186,14 +186,14 @@ x
 
 x
 ¯
- nằm trong phạm vi 0.2 đơn vị so với *μ* (giá trị chưa biết), nên *μ* có khả năng nằm trong phạm vi 0.2 đơn vị so với 
+ nằm trong phạm vi 0,2 đơn vị so với *μ* (giá trị chưa biết), nên *μ* có khả năng nằm trong phạm vi 0,2 đơn vị so với 
 
 x
 ¯
 
 x
 ¯
- trong 95% các mẫu. Số trung bình quần thể *μ* nằm trong một khoảng có số dưới được tính bằng cách lấy số trung bình mẫu trừ đi hai độ lệch chuẩn (2)(0.1) và số trên được tính bằng cách lấy số trung bình mẫu cộng với hai độ lệch chuẩn. Nói cách khác, *μ* nằm giữa 
+ trong 95% các mẫu. Số trung bình quần thể *μ* nằm trong một khoảng có số dưới được tính bằng cách lấy số trung bình mẫu trừ đi hai độ lệch chuẩn (2)(0,1) và số trên được tính bằng cách lấy số trung bình mẫu cộng với hai độ lệch chuẩn. Nói cách khác, *μ* nằm giữa 
 
 x
 ¯
@@ -287,7 +287,7 @@ x
 
 We say that we are **95% confident** that the unknown population mean number of songs downloaded from Apple Music per month is between 1.8 and 2.2. **The 95% confidence interval is (1.8, 2.2).**
 
-Chúng ta nói rằng chúng ta **tin cậy 95%** rằng số trung bình quần thể chưa biết về số bài hát được tải xuống từ Apple Music mỗi tháng nằm trong khoảng từ 1.8 đến 2.2. **Khoảng tin cậy 95% là (1.8, 2.2).**
+Chúng ta nói rằng chúng ta **tin cậy 95%** rằng số trung bình quần thể chưa biết về số bài hát được tải xuống từ Apple Music mỗi tháng nằm trong khoảng từ 1.8 đến 2,2. **Khoảng tin cậy 95% là (1,8, 2,2).**
 
 The 95% confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean *μ* or our sample produced an 
 
@@ -298,14 +298,14 @@ x
 ¯
  that is not within 0.2 units of the true mean *μ*. The first possibility happens for 95% of well-chosen samples. It is important to remember that the second possibility happens for 5% of samples, even though correct procedures are followed.
 
-Khoảng tin cậy 95% ngụ ý hai khả năng. Hoặc là khoảng (1.8, 2.2) chứa số trung bình thực tế *μ*, hoặc mẫu của chúng ta tạo ra một 
+Khoảng tin cậy 95% ngụ ý hai khả năng. Hoặc là khoảng (1,8, 2,2) chứa số trung bình thực tế *μ*, hoặc mẫu của chúng ta tạo ra một 
 
 x
 ¯
 
 x
 ¯
- không nằm trong phạm vi 0.2 đơn vị so với số trung bình thực tế *μ*. Khả năng thứ nhất xảy ra đối với 95% các mẫu được chọn tốt. Điều quan trọng cần nhớ là khả năng thứ hai xảy ra đối với 5% các mẫu, ngay cả khi các quy trình chính xác đã được tuân thủ.
+ không nằm trong phạm vi 0,2 đơn vị so với số trung bình thực tế *μ*. Khả năng thứ nhất xảy ra đối với 95% các mẫu được chọn tốt. Điều quan trọng cần nhớ là khả năng thứ hai xảy ra đối với 5% các mẫu, ngay cả khi các quy trình chính xác đã được tuân thủ.
 
 Remember that a confidence interval is created for an unknown population parameter like the population mean, *μ*. Confidence intervals for some parameters have the form:
 

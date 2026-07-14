@@ -4,7 +4,7 @@ Phân phối chuẩn tắc
 
 Phân phối chuẩn tắc là một phân phối chuẩn của **các giá trị chuẩn hóa được gọi là** Các điểm chuẩn z. **Một điểm *z* được đo bằng đơn vị của độ lệch chuẩn.** Ví dụ, nếu số trung bình của một phân phối chuẩn là năm và độ lệch chuẩn là hai, giá trị 11 sẽ cao hơn số trung bình ba lần độ lệch chuẩn (hoặc nằm về phía bên phải của số trung bình). Phép tính như sau:
 
-*x**μ**z**σ*
+*x* = *μ* + (*z*)(*σ*) = 5 + (3)(2) = 11
 
 Điểm *z* là ba.
 
@@ -52,9 +52,9 @@ x–μ
 
 6
 
- = –0.67 (làm tròn đến hai chữ số thập phân)
+ = –0,67 (làm tròn đến hai chữ số thập phân)
 
-**Điều này có nghĩa là *x* = 1 thấp hơn hoặc nằm về phía bên trái của số trung bình *μ* = 5 là 0.67 lần độ lệch chuẩn (–0.67*σ*). Lưu ý rằng:** 5 + (–0.67)(6) xấp xỉ bằng một (Điều này tuân theo công thức tổng quát *μ* + (–0.67)σ = 1)
+**Điều này có nghĩa là *x* = 1 thấp hơn hoặc nằm về phía bên trái của số trung bình *μ* = 5 là 0,67 lần độ lệch chuẩn (–0.67*σ*). Lưu ý rằng:** 5 + (–0,67)(6) xấp xỉ bằng một (Điều này tuân theo công thức tổng quát *μ* + (–0,67)σ = 1)
 
 Tóm lại, khi *z* dương, *x* cao hơn hoặc nằm về phía bên phải của *μ* và khi *z* âm, *x* nằm về phía bên trái hoặc thấp hơn *μ*. Hoặc, khi *z* dương, *x* lớn hơn *μ*, và khi *z* âm, *x* nhỏ hơn *μ*.
 
@@ -64,7 +64,7 @@ Một số bác sĩ tin rằng một người có thể giảm trung bình năm 
 
 #### Bài toán
 
-a. Giả sử một người **giảm** mười pound trong một tháng. Điểm *z* khi *x* = 10 pound là *z* = 2.5 (hãy kiểm chứng). Điểm *z* này cho bạn biết rằng *x* = 10 cách ________ độ lệch chuẩn về phía ________ (phải hoặc trái) của số trung bình _____ (Số trung bình là bao nhiêu?).
+a. Giả sử một người **giảm** mười pound trong một tháng. Điểm *z* khi *x* = 10 pound là *z* = 2,5 (hãy kiểm chứng). Điểm *z* này cho bạn biết rằng *x* = 10 cách ________ độ lệch chuẩn về phía ________ (phải hoặc trái) của số trung bình _____ (Số trung bình là bao nhiêu?).
 
 #### Bài toán
 
@@ -80,7 +80,7 @@ c. Giả sử các biến ngẫu nhiên *X* và *Y* có các phân phối chuẩ
 
 Điền vào chỗ trống.
 
-Jerome đạt trung bình 16 điểm một trận đấu với độ lệch chuẩn là bốn điểm. *X* ~ *N*(16,4). Giả sử Jerome ghi được mười điểm trong một trận đấu. Điểm *z* khi *x* = 10 là –1.5. Điểm số này cho bạn biết rằng *x* = 10 cách _____ độ lệch chuẩn về phía ______(phải hoặc trái) của số trung bình______(Số trung bình là bao nhiêu?).
+Jerome đạt trung bình 16 điểm một trận đấu với độ lệch chuẩn là bốn điểm. *X* ~ *N*(16,4). Giả sử Jerome ghi được mười điểm trong một trận đấu. Điểm *z* khi *x* = 10 là –1,5. Điểm số này cho bạn biết rằng *x* = 10 cách _____ độ lệch chuẩn về phía ______(phải hoặc trái) của số trung bình______(Số trung bình là bao nhiêu?).
 
 Quy tắc thực nghiệmNếu *X* là một biến ngẫu nhiên và có phân phối chuẩn với số trung bình *μ* và độ lệch chuẩn *σ*, thì Quy tắc thực nghiệm phát biểu như sau:
 
@@ -90,7 +90,7 @@ Quy tắc thực nghiệmNếu *X* là một biến ngẫu nhiên và có phân 
 - Các điểm *z* cho +1*σ* và –1*σ* lần lượt là +1 và –1.
 - Các điểm *z* cho +2*σ* và –2*σ* lần lượt là +2 và –2.
 - Các điểm *z* cho +3*σ* và –3*σ* lần lượt là +3 và –3.
-Quy tắc thực nghiệm còn được gọi là quy tắc 68-95-99.7.
+Quy tắc thực nghiệm còn được gọi là quy tắc 68-95-99,7.
 
 *Hình 
 6.3*
@@ -109,7 +109,7 @@ Sử dụng thông tin trong [Ví dụ 6.3](6-1-the-standard-normal-distribution
 1. Giả sử chiều cao của một nam giới từ 15 đến 18 tuổi ở Chile từ năm 2009 đến 2010 có điểm *z* là *z* = –2. Chiều cao của nam giới đó là bao nhiêu? Điểm *z* (*z* = –2) cho bạn biết rằng chiều cao của nam giới đó nằm cách số trung bình ________ lần độ lệch chuẩn về phía __________ (phải hoặc trái).
 #### Bài toán
 
-Từ năm 1984 đến 1985, chiều cao trung bình của nam giới từ 15 đến 18 tuổi ở Chile là 172,36 cm, và độ lệch chuẩn là 6,34 cm. Gọi *Y* = chiều cao của nam giới từ 15 đến 18 tuổi từ năm 1984 đến 1985. Khi đó *Y* ~ *N*(172.36, 6.34).
+Từ năm 1984 đến 1985, chiều cao trung bình của nam giới từ 15 đến 18 tuổi ở Chile là 172,36 cm, và độ lệch chuẩn là 6,34 cm. Gọi *Y* = chiều cao của nam giới từ 15 đến 18 tuổi từ năm 1984 đến 1985. Khi đó *Y* ~ *N*(172,36, 6.34).
 
 Chiều cao trung bình của nam giới từ 15 đến 18 tuổi ở Chile từ năm 2009 đến 2010 là 170 cm với độ lệch chuẩn là 6,28 cm. Chiều cao của nam giới được biết là tuân theo phân phối chuẩn. Gọi *X* = chiều cao của một nam giới từ 15 đến 18 tuổi ở Chile từ năm 2009 đến 2010. Khi đó *X* ~ *N*(170, 6.28).
 
@@ -128,7 +128,7 @@ Giả sử *X* có phân phối chuẩn với số trung bình là 25 và độ 
 
 #### Bài toán
 
-Từ năm 1984 đến 1985, chiều cao trung bình của nam giới từ 15 đến 18 tuổi ở Chile là 172,36 cm, và độ lệch chuẩn là 6,34 cm. Gọi *Y* = chiều cao của nam giới từ 15 đến 18 tuổi từ năm 1984 đến 1985. Khi đó *Y* ~ *N*(172.36, 6.34).
+Từ năm 1984 đến 1985, chiều cao trung bình của nam giới từ 15 đến 18 tuổi ở Chile là 172,36 cm, và độ lệch chuẩn là 6,34 cm. Gọi *Y* = chiều cao của nam giới từ 15 đến 18 tuổi từ năm 1984 đến 1985. Khi đó *Y* ~ *N*(172,36, 6.34).
 
 1. Khoảng 68% các giá trị *y* nằm giữa hai giá trị nào? Những giá trị này là ________________. Các điểm *z* lần lượt là ________________.
 1. Khoảng 95% các giá trị *y* nằm giữa hai giá trị nào? Những giá trị này là ________________. Các điểm *z* lần lượt là ________________.

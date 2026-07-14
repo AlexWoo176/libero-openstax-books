@@ -61,7 +61,7 @@ Câu trả lời có thể khác nhau.
 1. Reject the null hypothesis
 1. Bác bỏ giả thuyết không
 1. *p*-value < 0.05
-1. *p*-giá trị < 0.05
+1. *p*-giá trị < 0,05
 1. At the 5% level of significance, the evidence supports the claim that life expectancy in the 1900s was different between White people and non-White people.
 1. Tại mức ý nghĩa 5%, bằng chứng ủng hộ khẳng định rằng tuổi thọ trung bình trong những năm 1900 có sự khác biệt giữa người da trắng và người không phải da trắng.
 The difference in mean speeds of the fastball pitches of the two pitchers
@@ -70,7 +70,7 @@ Sự khác biệt về tốc độ trung bình của các cú ném bóng nhanh c
 
 –2.46
 
-–2.46
+–2,46
 
 At the 1% significance level, we can reject the null hypothesis. There is sufficient data to conclude that the mean speed of Rodriguez’s fastball is faster than Wesley’s.
 
@@ -108,7 +108,7 @@ Chỉ số dưới: 1 = Gamma, 2 = Zeta
 
 0.0062
 
-0.0062
+0,0062
 
 There is sufficient evidence to reject the null hypothesis. The data support that the melting point for Alloy Zeta is different from the melting point of Alloy Gamma.
 
@@ -120,7 +120,7 @@ Có đủ bằng chứng để bác bỏ giả thuyết không. Dữ liệu ủn
 
 0.1018
 
-0.1018
+0,1018
 
 proportions
 
@@ -154,7 +154,7 @@ sự khác biệt trung bình của các lỗi hệ thống
 
 0.0067
 
-0.0067
+0,0067
 
 With a *p*-value 0.0067, we can reject the null hypothesis. There is enough evidence to support that the software patch is effective in reducing the number of system failures.
 
@@ -162,7 +162,7 @@ Với p-giá trị *p* là 0,0067, chúng ta có thể bác bỏ giả thuyết 
 
 0.0021
 
-0.0021
+0,0021
 
 *Figure 
 10.19*
@@ -172,7 +172,7 @@ Với p-giá trị *p* là 0,0067, chúng ta có thể bác bỏ giả thuyết 
 
 *H_0*: *μ_d* ≥ 0
 
-*H_0**μ_d*
+*H_0*: *μ_d* ≥ 0
 
 *H_a*: *μ_d* < 0
 
@@ -180,7 +180,7 @@ Với p-giá trị *p* là 0,0067, chúng ta có thể bác bỏ giả thuyết 
 
 0.0699
 
-0.0699
+0,0699
 
 We decline to reject the null hypothesis. There is not sufficient evidence to support that the medication is effective.
 
@@ -247,12 +247,12 @@ X
 1. Student’s-*t*
 1. *t* của Student
 1. test statistic: -0.2480
-1. thống kê kiểm định: -0.2480
+1. thống kê kiểm định: -0,2480
 1. *p*-value: 0.4019
-1. *p*-giá trị: 0.4019
+1. *p*-giá trị: 0,4019
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not rejectQuyết định: Không bác bỏ
 Reason for Decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng số lượng tuyển sinh trung bình tại các trường đại học bốn năm cao hơn so với các trường cao đẳng hai năm.
@@ -317,12 +317,12 @@ X
 1. *t*_108
 1. *t*_108
 1. test statistic: *t* = –0.82
-1. thống kê kiểm định: *t* = –0.82
+1. thống kê kiểm định: *t* = –0,82
 1. *p*-value: 0.2061
-1. *p*-giá trị: 0.2061
+1. *p*-giá trị: 0,2061
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for Decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng mức lương khởi điểm trung bình của kỹ sư cơ khí thấp hơn so với kỹ sư điện.
@@ -381,14 +381,14 @@ X
 
  là sự khác biệt giữa thời gian trung bình để hoàn thành một vòng đua trong các cuộc đua và trong các buổi tập luyện.
 1. *t*_20.32
-1. *t*_20.32
+1. *t*_20,32
 1. test statistic: –4.70
-1. thống kê kiểm định: –4.70
+1. thống kê kiểm định: –4,70
 1. *p*-value: 0.0001
-1. *p*-giá trị: 0.0001
+1. *p*-giá trị: 0,0001
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng thời gian trung bình để hoàn thành một vòng đua trong các cuộc đua khác với thời gian trong các buổi tập luyện.
@@ -399,14 +399,14 @@ Conclusion: At the 5% significance level, there is sufficient evidence to conclu
 1. is the difference between the mean times for completing a lap in races and in practices.
 1. là sự khác biệt giữa thời gian trung bình để hoàn thành một vòng đua trong các cuộc đua và trong các buổi tập luyện.
 1. *t*_40.94
-1. *t*_40.94
+1. *t*_40,94
 1. test statistic: –5.08
-1. thống kê kiểm định: –5.08
+1. thống kê kiểm định: –5,08
 1. *p*-value: zero
 1. *p*-giá trị: bằng không
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng thời gian trung bình để hoàn thành một vòng đua trong các cuộc đua khác với thời gian trong các buổi tập luyện.
@@ -467,12 +467,12 @@ Chỉ số dưới: 1 = nam, 2 = nữ
 1. normal
 1. chuẩn
 1. test statistic: *z* = 2.50
-1. thống kê kiểm định: *z* = 2.50
+1. thống kê kiểm định: *z* = 2,50
 1. *p*-value: 0.0062
-1. *p*-giá trị: 0.0062
+1. *p*-giá trị: 0,0062
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean cost of auto insurance for teenage boys is greater than that for girls.Kết luận: Ở mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng chi phí trung bình cho bảo hiểm ô tô của các nam thanh thiếu niên cao hơn so với các nữ thanh thiếu niên.
@@ -489,17 +489,17 @@ Chỉ số dưới: 1 = sedan không hybrid, 2 = sedan hybrid
 1. normal
 1. chuẩn
 1. test statistic: 6.36
-1. thống kê kiểm định: 6.36
+1. thống kê kiểm định: 6,36
 1. *p*-value: 0
 1. *p*-giá trị: 0
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean miles per gallon of non-hybrid sedans is less than that of hybrid sedans.Kết luận: Ở mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng số dặm trung bình trên mỗi gallon của xe sedan không phải hybrid thấp hơn so với xe sedan hybrid.
 1. *H_0*: *µ_d* = 0
-1. *H_0**µ_d*
+1. *H_0*: *µ_d* = 0
 1. *H_a*: *µ_d* < 0
 1. *H_a*: *µ_d* < 0
 1. The random variable *X_d* is the average difference between husband’s and wife’s satisfaction level.
@@ -507,30 +507,30 @@ Conclusion: At the 5% significance level, there is sufficient evidence to conclu
 1. *t*_9
 1. *t*_9
 1. test statistic: *t* = –1.86
-1. thống kê kiểm định: *t* = –1.86
+1. thống kê kiểm định: *t* = –1,86
 1. *p*-value: 0.0479
-1. *p*-giá trị: 0.0479
+1. *p*-giá trị: 0,0479
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis, but run another test.Quyết định: Bác bỏ giả thuyết không, nhưng cần thực hiện một kiểm định khác.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: This is a weak test because alpha and the *p*-value are close. However, there is insufficient evidence to conclude that the mean difference is negative.Kết luận: Đây là một kiểm định yếu vì mức ý nghĩa α và *p*-giá trị khá gần nhau. Tuy nhiên, không có đủ bằng chứng để kết luận rằng mức chênh lệch trung bình là âm.
 1. *H_0*: *P_W* = *P_B*
-1. *H_0**P_W**P_B*
+1. *H_0*: *P_W* = *P_B*
 1. *H_a*: *P_W* ≠ *P_B*
-1. *H_a**P_W**P_B*
+1. *H_a*: *P_W* ≠ *P_B*
 1. The random variable is the difference in the proportions of White and Black people with conferred degrees in a given year, aged 21 to 24.
 1. Biến ngẫu nhiên là sự khác biệt về tỷ lệ người da trắng và người da đen được cấp bằng trong một năm nhất định, ở độ tuổi từ 21 đến 24.
 1. normal for two proportions
 1. chuẩn cho hai tỷ lệ
 1. test statistic: –0.1944
-1. thống kê kiểm định: –0.1944
+1. thống kê kiểm định: –0,1944
 1. *p*-value: 0.8458
-1. *p*-giá trị: 0.8458
+1. *p*-giá trị: 0,8458
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black people with conferred physical science degrees, aged 21 to 24, are different. Kết luận: Ở mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng tỷ lệ người da trắng và người da đen được cấp bằng khoa học vật lý, ở độ tuổi từ 21 đến 24, là khác nhau.
@@ -539,20 +539,20 @@ Subscripts: 1 = Cabrillo College, 2 = Lake Tahoe College
 Chỉ số dưới: 1 = Cao đẳng Cabrillo, 2 = Cao đẳng Lake Tahoe
 
 1. *H_0*: *p_1* = *p_2*
-1. *H_0**p_1**p_2*
+1. *H_0*: *p_1* = *p_2*
 1. *H_a*: *p_1* ≠ *p_2*
-1. *H_a**p_1**p_2*
+1. *H_a*: *p_1* ≠ *p_2*
 1. The random variable is the difference between the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College.
 1. Biến ngẫu nhiên là sự khác biệt giữa tỷ lệ sinh viên gốc Tây Ban Nha/Latino tại trường Cao đẳng Cabrillo và trường Cao đẳng Lake Tahoe.
 1. normal for two proportions
 1. chuẩn cho hai tỷ lệ
 1. test statistic: 4.29
-1. thống kê kiểm định: 4.29
+1. thống kê kiểm định: 4,29
 1. *p*-value: 0.00002
-1. *p*-giá trị: 0.00002
+1. *p*-giá trị: 0,00002
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: There is sufficient evidence to conclude that the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College are different.Kết luận: Có đủ bằng chứng để kết luận rằng tỷ lệ sinh viên gốc Tây Ban Nha/Latino tại trường Cao đẳng Cabrillo và trường Cao đẳng Lake Tahoe là khác nhau.
@@ -596,7 +596,7 @@ Graph: two-tailed
 
 *p*-value : 0.0033
 
-*p*-giá trị : 0.0033
+*p*-giá trị : 0,0033
 
 Decision: Reject the null hypothesis.
 
@@ -621,7 +621,8 @@ Phân phối:
 *H_0*: *p_1* = *p_2*
 *H_a*: *p_1* > *p_2*
 
-*H_0**p_1**p_2**H_a**p_1**p_2*
+*H_0*: *p_1* = *p_2*
+*H_a*: *p_1* > *p_2*
 
 A higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.
 
@@ -639,7 +640,7 @@ Graph: right-tailed
 
 *p*-value: 0.2354
 
-*p*-giá trị: 0.2354
+*p*-giá trị: 0,2354
 
 Decision: Do not reject the *H_0*.
 
@@ -654,9 +655,9 @@ Subscripts: 1: men; 2: women
 Chỉ số dưới: 1: nam; 2: nữ
 
 1. *H_0*: *p_1* ≤ *p_2*
-1. *H_0**p_1**p_2*
+1. *H_0*: *p_1* ≤ *p_2*
 1. *H_a*: *p_1* > *p_2*
-1. *H_a**p_1**p_2*
+1. *H_a*: *p_1* > *p_2*
 1. P
 ′
 
@@ -710,19 +711,19 @@ P
 1. normal for two proportions
 1. phân phối chuẩn cho hai tỷ lệ
 1. test statistic: 0.22
-1. thống kê kiểm định: 0.22
+1. thống kê kiểm định: 0,22
 1. *p*-value: 0.4133
-1. *p*-giá trị: 0.4133
+1. *p*-giá trị: 0,4133
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Do not reject the null hypothesis.Quyết định: Không bác bỏ giả thuyết không.
 Reason for Decision: *p*-value > alphaLý do cho quyết định: *p*-giá trị > Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women.Kết luận: Tại mức ý nghĩa 5%, không có đủ bằng chứng để kết luận rằng tỷ lệ nam giới thích mua sắm thiết bị điện tử cao hơn tỷ lệ nữ giới.
 1. *H_0*: *p_1* = *p_2*
-1. *H_0**p_1**p_2*
+1. *H_0*: *p_1* = *p_2*
 1. *H_a*: *p_1* ≠ *p_2*
-1. *H_a**p_1**p_2*
+1. *H_a*: *p_1* ≠ *p_2*
 1. P
 ′
 
@@ -776,17 +777,17 @@ P
 1. normal for two proportions
 1. phân phối chuẩn cho hai tỷ lệ
 1. test statistic: –4.82
-1. thống kê kiểm định: –4.82
+1. thống kê kiểm định: –4,82
 1. *p*-value: zero
 1. *p*-giá trị: bằng không
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportions of men and women with at least one pierced ear is different.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng tỷ lệ nam giới và nữ giới có ít nhất một lỗ xỏ khuyên tai là khác nhau.
 1. *H_0*: *µ_d* = 0
-1. *H_0**µ_d*
+1. *H_0*: *µ_d* = 0
 1. *H_a*: *µ_d* > 0
 1. *H_a*: *µ_d* > 0
 1. The random variable *X_d* is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.
@@ -794,18 +795,18 @@ Conclusion: At the 5% significance level, there is sufficient evidence to conclu
 1. *t*_9
 1. *t*_9
 1. test statistic: 4.8963
-1. thống kê kiểm định: 4.8963
+1. thống kê kiểm định: 4,8963
 1. *p*-value: 0.0004
-1. *p*-giá trị: 0.0004
+1. *p*-giá trị: 0,0004
 1. Answers may vary.
 1. Câu trả lời có thể khác nhau.
-1. Alpha: 0.05Mức ý nghĩa α: 0.05
+1. Alpha: 0.05Mức ý nghĩa α: 0,05
 Decision: Reject the null hypothesis.Quyết định: Bác bỏ giả thuyết không.
 Reason for Decision: *p*-value < alphaLý do cho quyết định: *p*-giá trị < Mức ý nghĩa α
 Conclusion: At the 5% level of significance, there is sufficient evidence to conclude that the mean difference in work times on days when eating breakfast and on days when not eating breakfast has increased.Kết luận: Tại mức ý nghĩa 5%, có đủ bằng chứng để kết luận rằng sự khác biệt trung bình về thời gian làm việc vào những ngày ăn sáng và những ngày không ăn sáng đã tăng lên.
 *p*-value = 0.1494
 
-*p*-giá trị = 0.1494
+*p*-giá trị = 0,1494
 
 At the 5% significance level, there is insufficient evidence to conclude that the medication lowered cholesterol levels after 12 weeks.
 
@@ -853,7 +854,7 @@ Phân phối: *t*_12
 
 *H_0*: *μ**_d* = 0   *H_a*: *μ**_d* > 0
 
-*H_0**μ* = 0   : *_d*
+*H_0*: *μ**_d* = 0   *H_a*: *μ**_d* > 0
 
 The mean of the differences of new female breast cancer cases in the south between Year 2 and Year 1 is greater than zero. The estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1.
 
@@ -865,7 +866,7 @@ Graph: right-tailed
 
 *p*-value: 0.0004
 
-*p*-giá trị: 0.0004
+*p*-giá trị: 0,0004
 
 *Figure 
 10.22*
@@ -887,7 +888,7 @@ Kiểm định: các mẫu ghép đôi hoặc mẫu cặp (*t*-kiểm định)
 
 Difference data: {–0.9, –3.7, –3.2, –0.5, 0.6, –1.9, –0.5, 0.2, 0.6, 0.4, 1.7, –2.4, 1.8}
 
-Dữ liệu chênh lệch: {–0.9, –3.7, –3.2, –0.5, 0.6, –1.9, –0.5, 0.2, 0.6, 0.4, 1.7, –2.4, 1.8}
+Dữ liệu chênh lệch: {–0,9, –3,7, –3,2, –0,5, 0,6, –1,9, –0,5, 0,2, 0,6, 0,4, 1,7, –2,4, 1,8}
 
 Random Variable: 
 
@@ -933,7 +934,7 @@ Graph: left-tailed.
 
 *p*-value: 0.1207
 
-*p*-giá trị: 0.1207
+*p*-giá trị: 0,1207
 
 Decision: Do not reject *H_0*.
 

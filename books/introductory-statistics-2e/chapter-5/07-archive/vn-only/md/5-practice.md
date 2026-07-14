@@ -56,11 +56,11 @@ Tìm xác suất để *x* rơi vào vùng được tô bóng.
 
 *Sử dụng thông tin sau để trả lời mười câu hỏi tiếp theo.* Dữ liệu dưới đây là diện tích (tính bằng 1.000 feet vuông) của 28 ngôi nhà.
 
-| 1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0 |
+| 1,5 | 2,4 | 3,6 | 2,6 | 1,6 | 2,4 | 2,0 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0 |
-| 2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5 |
-| 2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6 |
+| 3,5 | 2,5 | 1,8 | 2,4 | 2,5 | 3,5 | 4,0 |
+| 2,6 | 1,6 | 2,2 | 1,8 | 3,8 | 2,5 | 1,5 |
+| 2,8 | 1,8 | 4,5 | 1,9 | 1,9 | 3,1 | 1,6 |
 
 Số trung bình mẫu = 2,50 và độ lệch chuẩn mẫu = 0,8302.
 
@@ -161,9 +161,9 @@ Tìm tứ phân vị thứ ba về độ tuổi của các xe trong bãi. Điề
 ![Blank graph with vertical and horizontal axes.](../../../assets/img-5-12.webp)
 Hình 
 5.48
-1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0.75.
+1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0,75.
 1. Tứ phân vị thứ ba là _______
-*Sử dụng thông tin sau để trả lời mười bài tập tiếp theo.* Một nhân viên chăm sóc khách hàng phải dành các khoảng thời gian khác nhau cho mỗi khách hàng để giải quyết các vấn đề khác nhau. Khoảng thời gian dành cho mỗi khách hàng có thể được mô hình hóa bằng phân phối sau: *X* ~ *Exp*(0.2)
+*Sử dụng thông tin sau để trả lời mười bài tập tiếp theo.* Một nhân viên chăm sóc khách hàng phải dành các khoảng thời gian khác nhau cho mỗi khách hàng để giải quyết các vấn đề khác nhau. Khoảng thời gian dành cho mỗi khách hàng có thể được mô hình hóa bằng phân phối sau: *X* ~ *Exp*(0,2)
 
 Đây là loại phân phối nào?
 
@@ -185,7 +185,7 @@ Tìm *P*(*x* > 6).
 
 Tìm bách phân vị thứ 70^th.
 
-*Sử dụng thông tin sau để trả lời bảy bài tập tiếp theo.* Một phân phối được cho là *X* ~ *Exp*(0.75).
+*Sử dụng thông tin sau để trả lời bảy bài tập tiếp theo.* Một phân phối được cho là *X* ~ *Exp*(0,75).
 
 *m* là gì?
 
@@ -203,7 +203,7 @@ Tìm trung vị.
 
 Giá trị nào lớn hơn, số trung bình hay trung vị?
 
-*Sử dụng thông tin sau để trả lời 16 bài tập tiếp theo.* Carbon-14 là một nguyên tố phóng xạ với chu kỳ bán rã khoảng 5.730 năm. Carbon-14 được cho là phân rã theo hàm mũ. Tốc độ phân rã là 0,000121. Chúng ta bắt đầu với một gam carbon-14. Chúng ta quan tâm đến thời gian (tính bằng năm) để carbon-14 phân rã.
+*Sử dụng thông tin sau để trả lời 16 bài tập tiếp theo.* Carbon-14 là một nguyên tố phóng xạ với chu kỳ bán rã khoảng 5,730 năm. Carbon-14 được cho là phân rã theo hàm mũ. Tốc độ phân rã là 0,000121. Chúng ta bắt đầu với một gam carbon-14. Chúng ta quan tâm đến thời gian (tính bằng năm) để carbon-14 phân rã.
 
 Điều gì đang được đo lường ở đây?
 
@@ -215,7 +215,7 @@ Tốc độ phân rã (*m*) là bao nhiêu?
 
 Phân phối của *X* là ______.
 
-Tìm lượng (phần trăm của một gam) carbon-14 còn lại sau ít hơn 5.730 năm. Điều này có nghĩa là, hãy tìm *P*(*x* < 5.730).
+Tìm lượng (phần trăm của một gam) carbon-14 còn lại sau ít hơn 5,730 năm. Điều này có nghĩa là, hãy tìm *P*(*x* < 5,730).
 
 1. Sketch the graph, and shade the area of interest.
 
@@ -231,7 +231,7 @@ Tìm tỷ lệ phần trăm carbon-14 còn lại sau hơn 10.000 năm.
 ![Blank graph with horizontal and vertical axes.](../../../assets/img-5-14.webp)
 
 Hình 
-5.50
+5,50
 1. Tìm xác suất. *P*(*x* > 10,000) = ________
 Ba mươi phần trăm (30%) carbon-14 sẽ phân rã trong bao nhiêu năm?
 
@@ -240,5 +240,5 @@ Ba mươi phần trăm (30%) carbon-14 sẽ phân rã trong bao nhiêu năm?
 ![This is a blank graph template. The vertical and horizontal axes are unlabeled.](../../../assets/img-5-15.webp)
 
 Hình 
-5.51
-1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0.30.
+5,51
+1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0,30.

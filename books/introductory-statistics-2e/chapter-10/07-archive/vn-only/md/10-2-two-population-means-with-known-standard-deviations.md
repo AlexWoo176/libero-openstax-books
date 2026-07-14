@@ -34,8 +34,8 @@ X
 
 | Sáp | Số tháng trung bình mẫu mà sáp đánh bóng sàn duy trì được | Độ lệch chuẩn quần thể |
 | --- | --- | --- |
-| 1 | 3 | 0.33 |
-| 2 | 2.9 | 0.36 |
+| 1 | 3 | 0,33 |
+| 2 | 2,9 | 0,36 |
 
 #### Bài tập
 
@@ -48,12 +48,12 @@ Số vòng quay mỗi phút trung bình của hai loại động cơ cạnh tran
 | 1 | 1,500 | 50 |
 | 2 | 1,600 | 60 |
 
-Một công dân quan tâm muốn biết liệu các thượng nghị sĩ Đảng Dân chủ Hoa Kỳ có lớn tuổi hơn các thượng nghị sĩ Đảng Cộng hòa Hoa Kỳ, xét theo giá trị trung bình hay không. Trong một năm nhất định, số tuổi trung bình của 30 thượng nghị sĩ Đảng Cộng hòa được chọn ngẫu nhiên là 61 tuổi 247 ngày (61.675 tuổi) với độ lệch chuẩn là 10.17 năm. Số tuổi trung bình của 30 thượng nghị sĩ Đảng Dân chủ được chọn ngẫu nhiên là 61 tuổi 257 ngày (61.704 tuổi) với độ lệch chuẩn là 9.55 năm.
+Một công dân quan tâm muốn biết liệu các thượng nghị sĩ Đảng Dân chủ Hoa Kỳ có lớn tuổi hơn các thượng nghị sĩ Đảng Cộng hòa Hoa Kỳ, xét theo giá trị trung bình hay không. Trong một năm nhất định, số tuổi trung bình của 30 thượng nghị sĩ Đảng Cộng hòa được chọn ngẫu nhiên là 61 tuổi 247 ngày (61,675 tuổi) với độ lệch chuẩn là 10.17 năm. Số tuổi trung bình của 30 thượng nghị sĩ Đảng Dân chủ được chọn ngẫu nhiên là 61 tuổi 257 ngày (61,704 tuổi) với độ lệch chuẩn là 9,55 năm.
 
 #### Bài tập
 
 Dữ liệu có chỉ ra rằng các thượng nghị sĩ Đảng Dân chủ lớn tuổi hơn các thượng nghị sĩ Đảng Cộng hòa, xét theo giá trị trung bình không? Hãy kiểm định ở mức ý nghĩa 5%.
 
-Số tuổi trung bình của 10 giáo sư được chọn ngẫu nhiên tại trường đại học A là 46.672 với độ lệch chuẩn là 8.53. Số tuổi trung bình của 10 giáo sư được chọn ngẫu nhiên tại trường đại học B là 47.531 với độ lệch chuẩn là 7.83.
+Số tuổi trung bình của 10 giáo sư được chọn ngẫu nhiên tại trường đại học A là 46,672 với độ lệch chuẩn là 8,53. Số tuổi trung bình của 10 giáo sư được chọn ngẫu nhiên tại trường đại học B là 47,531 với độ lệch chuẩn là 7,83.
 
 Dữ liệu có chỉ ra rằng trường đại học A có các giáo sư lớn tuổi hơn trường đại học B, xét theo giá trị trung bình không? Hãy kiểm định ở mức ý nghĩa 5%.

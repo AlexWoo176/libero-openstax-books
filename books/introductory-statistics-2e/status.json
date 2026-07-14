@@ -4,47 +4,47 @@
   "chapters": {
     "chapter-1": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T19:09:31Z"
+      "last_updated": "2026-07-14T08:29:07Z"
     },
     "chapter-2": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:21:22Z"
+      "last_updated": "2026-07-14T08:29:23Z"
     },
     "chapter-3": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T03:49:58Z"
+      "last_updated": "2026-07-14T08:29:43Z"
     },
     "chapter-4": {
-      "status": "translated",
-      "last_updated": "2026-07-10T04:31:34Z"
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T08:30:06Z"
     },
     "chapter-5": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T04:25:02Z"
+      "last_updated": "2026-07-14T08:30:22Z"
     },
     "chapter-6": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T04:27:05Z"
+      "last_updated": "2026-07-14T08:30:25Z"
     },
     "chapter-7": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T04:30:49Z"
+      "last_updated": "2026-07-14T08:30:30Z"
     },
     "chapter-8": {
       "status": "archive_completed",
-      "last_updated": "2026-07-10T05:31:18Z"
+      "last_updated": "2026-07-14T08:30:37Z"
     },
     "chapter-9": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:21:30Z"
+      "last_updated": "2026-07-14T08:30:42Z"
     },
     "chapter-10": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:21:39Z"
+      "last_updated": "2026-07-14T08:30:47Z"
     },
     "chapter-11": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:21:47Z"
+      "last_updated": "2026-07-14T08:30:52Z"
     },
     "chapter-_book-level": {
       "status": "archive_completed",
@@ -52,19 +52,23 @@
     },
     "chapter-12": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:21:54Z"
+      "last_updated": "2026-07-14T08:30:56Z"
     },
     "chapter-13": {
       "status": "archive_completed",
-      "last_updated": "2026-07-12T20:22:03Z"
+      "last_updated": "2026-07-14T08:31:01Z"
+    },
+    "chapter-all": {
+      "status": "archive_failed",
+      "last_updated": "2026-07-13T10:24:54Z"
     }
   },
   "build": {
     "status": "completed",
-    "timestamp": "2026-07-12T20:22:29Z",
+    "timestamp": "2026-07-14T08:31:33Z",
     "total_pages": 199,
     "first_page": "/_book-level/a-review-exercises-ch-3-13.html",
-    "mode": "vn-only",
+    "mode": "bilingual",
     "copy_to_web": true
   }
 }

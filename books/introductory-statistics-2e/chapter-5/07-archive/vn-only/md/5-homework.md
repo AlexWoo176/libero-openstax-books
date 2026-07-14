@@ -18,9 +18,9 @@ Số ca sinh được phân phối xấp xỉ đều trong suốt cả năm. Có
 1. *μ* = _________
 1. σ = _________
 1. Tìm xác suất một người được sinh ra đúng vào thời điểm kết thúc tuần thứ 19. Nghĩa là, tìm *P*(*x* = 19) = _________
-1. *P**x*
+1. *P*(2 < *x* < 31) = _________
 1. Tìm xác suất để một người được sinh ra sau tuần thứ 40.
-1. *P**x**x*
+1. *P*(12 < *x*|*x* < 28) = _________
 1. Tìm bách phân vị thứ 70^th.
 1. Tìm giá trị tối thiểu cho một phần tư phía trên.
 Một trình tạo số ngẫu nhiên chọn một số từ một đến chín theo cách phân phối đều.
@@ -30,9 +30,9 @@ Một trình tạo số ngẫu nhiên chọn một số từ một đến chín 
 1. *f*(*x*) = _________
 1. *μ* = _________
 1. *σ* = _________
-1. *P**x*
-1. *P*(*x* > 5.67)
-1. *P**x**x*
+1. *P*(3,5 < *x* < 7,25) = _________
+1. *P*(*x* > 5,67)
+1. *P*(*x* > 5|*x* > 3) = _________
 1. Tìm bách phân vị thứ 90^th.
 Theo một nghiên cứu của Tiến sĩ John McDougall về chương trình giảm cân nội trú của ông, những người tuân theo chương trình này giảm từ sáu đến 15 pound mỗi tháng cho đến khi họ đạt được trọng lượng cơ thể cân đối. Giả sử rằng mức giảm cân được phân phối đều. Chúng ta quan tâm đến mức giảm cân của một cá nhân được chọn ngẫu nhiên theo chương trình trong một tháng.
 
@@ -78,15 +78,15 @@ Thời gian chờ trung bình (tính bằng phút) là bao nhiêu?
 Tìm bách phân vị thứ 30 cho thời gian chờ đợi (tính bằng phút).
 
 1. hai
-1. 2.4
-1. 2.75
+1. 2,4
+1. 2,75
 1. ba
 Xác suất chờ đợi lâu hơn bảy phút với điều kiện một người đã chờ đợi lâu hơn bốn phút là bao nhiêu?
 
-1. 0.125
-1. 0.25
-1. 0.5
-1. 0.75
+1. 0,125
+1. 0,25
+1. 0,5
+1. 0,75
 Thời gian (tính bằng phút) cho đến khi chuyến xe buýt tiếp theo rời bến xe buýt chính tuân theo một phân phối với *f*(*x*) = 120120120 trong đó *x* chạy từ 25 đến 45 phút.
 
 1. Định nghĩa biến ngẫu nhiên. *X* = ________
@@ -174,23 +174,23 @@ Chi phí bảo trì tất cả cho một chiếc ô tô trong năm đầu tiên 
 
 Tỷ lệ suy giảm là:
 
-1. 0.3333
-1. 0.5000
+1. 0,3333
+1. 0,5000
 1. 2
 1. 3
 Xác suất để một chiếc điện thoại thông minh bị hỏng trong vòng hai năm kể từ ngày mua là bao nhiêu?
 
-1. 0.8647
-1. 0.4866
-1. 0.2212
-1. 0.9997
+1. 0,8647
+1. 0,4866
+1. 0,2212
+1. 0,9997
 Trung vị tuổi thọ của những chiếc điện thoại này (tính bằng năm) là bao nhiêu?
 
-1. 0.1941
-1. 1.3863
-1. 2.0794
-1. 5.5452
-Cho  ~ (0.1).
+1. 0,1941
+1. 1,3863
+1. 2,0794
+1. 5,5452
+Cho  ~ (0,1).
 
 1. tốc độ phân rã = ________
 1. *μ* = ________
@@ -219,7 +219,7 @@ Trong giải bóng chày nhà nghề, no-hitter là một trận đấu mà cầ
 1. Xác suất để toàn bộ một mùa giải trôi qua với một trận không-hit (no-hitter) duy nhất là bao nhiêu?
 1. Nếu toàn bộ một mùa giải trôi qua mà không có trận không-hit nào, xác suất để không có trận không-hit nào trong mùa giải tiếp theo là bao nhiêu?
 1. Xác suất để có nhiều hơn 3 trận không-hit trong một mùa giải là bao nhiêu?
-Trong những năm 1998–2012, tổng cộng có 29 trận động đất có cường độ lớn hơn 6.5 đã xảy ra ở Papua New Guinea. Giả sử rằng thời gian chờ đợi giữa các trận động đất tuân theo phân phối mũ.
+Trong những năm 1998–2012, tổng cộng có 29 trận động đất có cường độ lớn hơn 6,5 đã xảy ra ở Papua New Guinea. Giả sử rằng thời gian chờ đợi giữa các trận động đất tuân theo phân phối mũ.
 
 1. Xác suất để trận động đất tiếp theo xảy ra trong vòng ba tháng tới là bao nhiêu?
 1. Với việc sáu tháng đã trôi qua mà không có trận động đất nào ở Papua New Guinea, xác suất để ba tháng tới sẽ không có động đất là bao nhiêu?

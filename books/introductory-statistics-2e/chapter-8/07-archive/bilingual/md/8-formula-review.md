@@ -354,11 +354,13 @@ upper value−lower value
 
 2
 
-−
+error bound = upper value−point estimate OR error bound = 
+
+upper value−lower value
 
 2
 
-−
+upper value−lower value
 
 2
 
@@ -684,7 +686,7 @@ n
 
 *q*′ = 1 – *p*′
 
-*q**p*
+*q*′ = 1 – *p*′
 
 p
 ′

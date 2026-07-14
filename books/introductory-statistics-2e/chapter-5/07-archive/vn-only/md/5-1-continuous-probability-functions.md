@@ -45,9 +45,9 @@ Giả sử chúng ta muốn tìm *P*(*x* = 15). Trên đồ thị x-y, *x* = 15 
 
 Gán nhãn cho biểu đồ với *f*(*x*) và *x*. Chia tỷ lệ các trục *x* và *y* với các giá trị *x* và *y* tối đa. *f*(*x*) = 120120120, 0 ≤ *x* ≤ 20.
 
-Để tính xác suất mà *x* nằm giữa hai giá trị, hãy nhìn vào biểu đồ sau đây. Tô bóng vùng nằm giữa *x* = 2.3 và *x* = 12.7. Sau đó tính diện tích phần được tô bóng của hình chữ nhật.
+Để tính xác suất mà *x* nằm giữa hai giá trị, hãy nhìn vào biểu đồ sau đây. Tô bóng vùng nằm giữa *x* = 2,3 và *x* = 12,7. Sau đó tính diện tích phần được tô bóng của hình chữ nhật.
 
 *Hình 
 5.10*
 
-Xét hàm số *f*(*x*) = 181818 cho 0 ≤ *x* ≤ 8. Vẽ biểu đồ của *f*(*x*) và tìm *P*(2.5 < *x* < 7.5).
+Xét hàm số *f*(*x*) = 181818 cho 0 ≤ *x* ≤ 8. Vẽ biểu đồ của *f*(*x*) và tìm *P*(2,5 < *x* < 7,5).

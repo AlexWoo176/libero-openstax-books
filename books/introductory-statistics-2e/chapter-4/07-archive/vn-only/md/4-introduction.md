@@ -1,7 +1,7 @@
 *Hình 
 4.1
  
-Bạn có thể sử dụng xác suất và biến ngẫu nhiên rời rạc để tính toán khả năng sét đánh xuống mặt đất năm lần trong một trận giông bão kéo dài nửa giờ. (nguồn: chỉnh sửa từ tác phẩm “CG lightning strike” của Axel Rouvin/ Flickr, CC BY 2.0)*
+Bạn có thể sử dụng xác suất và biến ngẫu nhiên rời rạc để tính toán khả năng sét đánh xuống mặt đất năm lần trong một trận giông bão kéo dài nửa giờ. (nguồn: chỉnh sửa từ tác phẩm “CG lightning strike” của Axel Rouvin/ Flickr, CC BY 2,0)*
 
 Đến cuối chương này, sinh viên sẽ có thể:
 

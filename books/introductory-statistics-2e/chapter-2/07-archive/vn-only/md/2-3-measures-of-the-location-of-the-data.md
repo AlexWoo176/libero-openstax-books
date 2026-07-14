@@ -19,35 +19,35 @@ Bách phân vị chủ yếu được sử dụng với các quần thể rất 
 
 Trung vị là một con số đo lường "trung tâm" của dữ liệu. Bạn có thể coi trung vị là "giá trị ở giữa", nhưng nó không nhất thiết phải là một trong các giá trị quan sát được. Đó là một con số chia dữ liệu đã sắp xếp thành hai nửa. Một nửa các giá trị bằng hoặc nhỏ hơn trung vị, và một nửa các giá trị bằng hoặc lớn hơn. Ví dụ, hãy xem xét dữ liệu sau.
 
-1; 11.5; 6; 7.2; 4; 8; 9; 10; 6.8; 8.3; 2; 2; 10; 1
+1; 11,5; 6; 7,2; 4; 8; 9; 10; 6,8; 8,3; 2; 2; 10; 1
 
 Sắp xếp từ nhỏ nhất đến lớn nhất:
 
-1; 1; 2; 2; 4; 6; 6.8; 7.2; 8; 8.3; 9; 10; 10; 11.5
+1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5
 
-Vì có 14 quan sát, trung vị nằm giữa giá trị thứ bảy, 6.8, và giá trị thứ tám, 7.2. Để tìm trung vị, hãy cộng hai giá trị này lại và chia cho hai.
+Vì có 14 quan sát, trung vị nằm giữa giá trị thứ bảy, 6,8, và giá trị thứ tám, 7,2. Để tìm trung vị, hãy cộng hai giá trị này lại và chia cho hai.
 
 Trung vị là bảy. Một nửa các giá trị nhỏ hơn bảy và một nửa các giá trị lớn hơn bảy.
 
 Tứ phân vị là các con số chia dữ liệu thành bốn phần bằng nhau. Tứ phân vị có thể hoặc không thể là một phần của dữ liệu. Để tìm các tứ phân vị, trước tiên hãy tìm trung vị hoặc tứ phân vị thứ hai. Tứ phân vị thứ nhất, *Q*_1, là giá trị ở giữa của nửa dưới dữ liệu, và tứ phân vị thứ ba, *Q*_3, là giá trị ở giữa, hay trung vị, của nửa trên dữ liệu. Để nắm bắt ý tưởng này, hãy xem xét cùng một tập dữ liệu:
 
-1; 1; 2; 2; 4; 6; 6.8; 7.2; 8; 8.3; 9; 10; 10; 11.5
+1; 1; 2; 2; 4; 6; 6,8; 7,2; 8; 8,3; 9; 10; 10; 11,5
 
-Trung vị hay **tứ phân vị thứ hai** là bảy. Nửa dưới của dữ liệu là 1, 1, 2, 2, 4, 6, 6.8. Giá trị ở giữa của nửa dưới là hai.
+Trung vị hay **tứ phân vị thứ hai** là bảy. Nửa dưới của dữ liệu là 1, 1, 2, 2, 4, 6, 6,8. Giá trị ở giữa của nửa dưới là hai.
 
-1; 1; 2; 2; 4; 6; 6.8
+1; 1; 2; 2; 4; 6; 6,8
 
 Con số hai, vốn là một phần của dữ liệu, là Tứ phân vị thứ nhất. Một phần tư toàn bộ tập hợp các giá trị bằng hoặc nhỏ hơn hai và ba phần tư các giá trị lớn hơn hai.
 
-Nửa trên của dữ liệu là 7.2, 8, 8.3, 9, 10, 10, 11.5. Giá trị ở giữa của nửa trên là chín.
+Nửa trên của dữ liệu là 7,2, 8, 8,3, 9, 10, 10, 11,5. Giá trị ở giữa của nửa trên là chín.
 
 Tứ phân vị thứ ba, *Q*3, là chín. Ba phần tư (75%) tập dữ liệu đã sắp xếp nhỏ hơn chín. Một phần tư (25%) tập dữ liệu đã sắp xếp lớn hơn chín. Tứ phân vị thứ ba là một phần của tập dữ liệu trong ví dụ này.
 
 Khoảng tứ phân vị là một con số cho biết độ phân tán của nửa giữa hoặc 50% ở giữa của dữ liệu. Đó là hiệu số giữa tứ phân vị thứ ba (*Q*_3) và tứ phân vị thứ nhất (*Q*_1).
 
-*IQR**Q* – _1
+*IQR* = *Q*_3 – *Q*_1
 
-*IQR* có thể giúp xác định các **giá trị ngoại lệ** tiềm năng. **Một giá trị được nghi ngờ là giá trị ngoại lệ tiềm năng nếu nó nhỏ hơn (1.5)(*IQR*) dưới tứ phân vị thứ nhất hoặc lớn hơn (1.5)(*IQR*) trên tứ phân vị thứ ba**. Các giá trị ngoại lệ tiềm năng luôn cần được điều tra thêm.
+*IQR* có thể giúp xác định các **giá trị ngoại lệ** tiềm năng. **Một giá trị được nghi ngờ là giá trị ngoại lệ tiềm năng nếu nó nhỏ hơn (1,5)(*IQR*) dưới tứ phân vị thứ nhất hoặc lớn hơn (1,5)(*IQR*) trên tứ phân vị thứ ba**. Các giá trị ngoại lệ tiềm năng luôn cần được điều tra thêm.
 
 Một giá trị ngoại lệ tiềm năng là một điểm dữ liệu khác biệt đáng kể so với các điểm dữ liệu còn lại. Những điểm dữ liệu đặc biệt này có thể là sai số, một loại bất thường nào đó, hoặc chúng có thể là chìa khóa để hiểu về dữ liệu.
 
@@ -74,10 +74,10 @@ $40,500
 #### Bài tập
 
 Điểm kiểm tra cho một lớp thống kê đại học được tổ chức vào ban ngày là:
-99; 56; 78; 55.5; 32; 90; 80; 81; 56; 59; 45; 77; 84.5; 84; 70; 72; 68; 32; 79; 90
+99; 56; 78; 55,5; 32; 90; 80; 81; 56; 59; 45; 77; 84,5; 84; 70; 72; 68; 32; 79; 90
 
 Điểm kiểm tra cho một lớp thống kê đại học được tổ chức vào buổi tối là:
-98; 78; 68; 83; 81; 89; 88; 76; 65; 45; 98; 90; 80; 84.5; 85; 79; 78; 98; 90; 79; 81; 25.5
+98; 78; 68; 83; 81; 89; 88; 76; 65; 45; 98; 90; 80; 84,5; 85; 79; 78; 98; 90; 79; 81; 25,5
 
 Đối với hai tập dữ liệu này, hãy tìm các giá trị sau:
 
@@ -97,13 +97,13 @@ Năm mươi sinh viên ngành thống kê được hỏi về thời gian họ n
 
 | SỐ GIỜ NGỦ MỖI ĐÊM TRONG TUẦN HỌC (GIỜ) | TẦN SỐ | TẦN SUẤT TƯƠNG ĐỐI | TẦN SUẤT TƯƠNG ĐỐI LŨY TÍCH |
 | --- | --- | --- | --- |
-| 4 | 2 | 0.04 | 0.04 |
-| 5 | 5 | 0.10 | 0.14 |
-| 6 | 7 | 0.14 | 0.28 |
-| 7 | 12 | 0.24 | 0.52 |
-| 8 | 14 | 0.28 | 0.80 |
-| 9 | 7 | 0.14 | 0.94 |
-| 10 | 3 | 0.06 | 1.00 |
+| 4 | 2 | 0,04 | 0,04 |
+| 5 | 5 | 0,10 | 0,14 |
+| 6 | 7 | 0,14 | 0,28 |
+| 7 | 12 | 0,24 | 0,52 |
+| 8 | 14 | 0,28 | 0,80 |
+| 9 | 7 | 0,14 | 0,94 |
+| 10 | 3 | 0,06 | 1,00 |
 
 **Tìm bách phân vị thứ 28**. Hãy chú ý đến số 0,28 trong cột "tần suất tương đối lũy tích". Hai mươi tám phần trăm của 50 giá trị dữ liệu là 14 giá trị. Có 14 giá trị nhỏ hơn bách phân vị thứ 28. Chúng bao gồm hai số 4, năm số 5 và bảy số 6. Bách phân vị thứ 28 nằm giữa số 6 cuối cùng và số 7 đầu tiên. **Bách phân vị thứ 28 là 6,5.**
 
@@ -115,10 +115,10 @@ Bốn mươi tài xế xe buýt được hỏi họ dành bao nhiêu giờ mỗi
 
 | Khoảng thời gian dành cho lộ trình (giờ) | Tần số | Tần suất tương đối | Tần suất tương đối lũy tích |
 | --- | --- | --- | --- |
-| 2 | 12 | 0.30 | 0.30 |
-| 3 | 14 | 0.35 | 0.65 |
-| 4 | 10 | 0.25 | 0.90 |
-| 5 | 4 | 0.10 | 1.00 |
+| 2 | 12 | 0,30 | 0,30 |
+| 3 | 14 | 0,35 | 0,65 |
+| 4 | 10 | 0,25 | 0,90 |
+| 5 | 4 | 0,10 | 1,00 |
 
 ### Công thức tìm bách phân vị thứ *k*
 
@@ -244,7 +244,7 @@ Nếu bạn là hiệu trưởng, liệu bạn có lý do chính đáng để mu
 
 Tuy nhiên, hiệu trưởng cần phải cẩn thận. Giá trị 300 có vẻ là một giá trị ngoại lệ tiềm năng.
 
-*Q* + 1.5() = 60 + (1.5)(40) = 120.
+*Q* + 1,5() = 60 + (1,5)(40) = 120.
 
 Giá trị 300 lớn hơn 120 nên nó là một giá trị ngoại lệ tiềm năng. Nếu chúng ta loại bỏ nó và tính toán năm giá trị, chúng ta sẽ nhận được các giá trị sau:
 

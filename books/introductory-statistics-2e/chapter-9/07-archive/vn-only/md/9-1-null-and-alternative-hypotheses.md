@@ -29,11 +29,11 @@ Các ký hiệu toán học được sử dụng trong *H_0* và *H_a*:
 
 Một thử nghiệm y tế được tiến hành để kiểm tra xem một loại thuốc mới có làm giảm cholesterol xuống 25% hay không. Hãy nêu giả thuyết không và đối thuyết.
 
-Chúng ta muốn kiểm tra xem điểm trung bình (GPA) của sinh viên tại các trường đại học Mỹ có khác 2.0 (trên thang điểm 4.0) hay không. Giả thuyết không và đối thuyết là:
+Chúng ta muốn kiểm tra xem điểm trung bình (GPA) của sinh viên tại các trường đại học Mỹ có khác 2,0 (trên thang điểm 4,0) hay không. Giả thuyết không và đối thuyết là:
 
-*H_0*: *μ* = 2.0
+*H_0*: *μ* = 2,0
 
-*H_a*: *μ* ≠ 2.0
+*H_a*: *μ* ≠ 2,0
 
 Chúng ta muốn kiểm tra xem chiều cao trung bình của học sinh lớp tám có phải là 66 inch hay không. Hãy nêu giả thuyết không và đối thuyết. Điền ký hiệu đúng (=, ≠, ≥, <, ≤, >) cho giả thuyết không và đối thuyết.
 
@@ -50,11 +50,11 @@ Chúng ta muốn kiểm tra xem có mất ít hơn 45 phút để dạy một gi
 1. *H_0*: *μ* __ 45
 1. *H_a*: *μ* __ 45
 Trong một số của tạp chí U. S. News and World Report, một bài báo về tiêu chuẩn trường học đã nêu rằng khoảng một nửa số học sinh ở Pháp, Đức và Israel tham gia các kỳ thi nâng cao (advanced placement exams) và một phần ba trong số đó đỗ. Cùng bài báo đó nêu rằng 6,6% học sinh Hoa Kỳ tham gia các kỳ thi nâng cao và 4,4% đỗ. Hãy kiểm tra xem tỷ lệ học sinh Hoa Kỳ tham gia các kỳ thi nâng cao có nhiều hơn 6,6% hay không. Hãy nêu giả thuyết không và đối thuyết.
-H0: p ≤ 0.066
-Ha: p > 0.066
+H0: p ≤ 0,066
+Ha: p > 0,066
 
 Trong một bài kiểm tra lái xe của tiểu bang, khoảng 40% đỗ ngay lần thử đầu tiên. Chúng ta muốn kiểm tra xem có nhiều hơn 40% đỗ ngay lần thử đầu tiên hay không. Điền ký hiệu đúng (=, ≠, ≥, <, ≤, >) cho giả thuyết không và đối thuyết.
 
 1. *H_0**p*
-1. *H_a*: *p* __ 0.40
+1. *H_a*: *p* __ 0,40
 Hãy mang đến lớp một tờ báo, một vài tạp chí tin tức và một số bài báo trên Internet. Theo nhóm, hãy tìm các bài báo mà từ đó nhóm của bạn có thể viết giả thuyết không và đối thuyết. Thảo luận về các giả thuyết của bạn với cả lớp.

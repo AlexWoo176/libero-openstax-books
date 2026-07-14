@@ -72,11 +72,11 @@ $250,120
 
 1,326 acres
 
-1.326 mẫu Anh
+1,326 mẫu Anh
 
 1,125 hours, or when *x* = 1,125
 
-1.125 giờ, hoặc khi *x* = 1.125
+1,125 giờ, hoặc khi *x* = 1,125
 
 Answers may vary.
 
@@ -104,7 +104,7 @@ y
 
 y
 ^
- = –3.448.225 + 1750*x*
+ = –3,448.225 + 1750*x*
 
 There was an increase in flu cases diagnosed until 1993. From 1993 through 2002, the number of flu cases diagnosed declined each year. It is not appropriate to use a linear regression line to fit to the data.
 
@@ -120,12 +120,12 @@ Chúng ta không biết liệu dữ liệu trước năm 1981 có được thu t
 
 Regression equation: *ŷ* (#Flu Cases) = –3,448,225 + 1749.777 (year)
 
-Phương trình hồi quy: *ŷ* (Số ca cúm) = –3.448.225 + 1749,777 (năm)
+Phương trình hồi quy: *ŷ* (Số ca cúm) = –3,448.225 + 1749,777 (năm)
 
 |  |  | Coefficients | Các hệ số |
 | --- | --- | --- | --- |
 | Intercept | Hệ số chặn | –3,448,225 | –3,448,225 |
-| *X* Variable 1 | *X* Biến 1 | 1,749.777 | 1,749.777 |
+| *X* Variable 1 | *X* Biến 1 | 1,749.777 | 1,749,777 |
 
 Yes, there appears to be an outlier at (6, 58).
 
@@ -210,13 +210,13 @@ Sử dụng bảng các giá trị tới hạn cho hệ số tương quan, với
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
 1. *ŷ* = 17.21757 – 0.01412*x*
-1. *ŷ* = 17.21757 – 0.01412*x*
+1. *ŷ* = 17,21757 – 0,01412*x*
 1. *r* = – 0.2752 
 For seven *df* and alpha = 0.05, using LinRegTTest *p*-value = 0.4736  so we do not reject; there is a not a significant linear relationship between page and discount.
 Using the table of critical values for the correlation coefficient, with seven *df*, the critical value is 0.666.  The correlation coefficient *xi* = –0.2752 is not less than  0.666 so we do not reject.
-1. *r* = – 0.2752 
-Đối với bảy *df* và mức ý nghĩa α = 0.05, sử dụng LinRegTTest *p*-giá trị = 0.4736 nên chúng ta không bác bỏ; không có mối quan hệ tuyến tính đáng kể giữa trang và chiết khấu.
-Sử dụng bảng các giá trị tới hạn cho hệ số tương quan, với bảy *df*, giá trị tới hạn là 0.666. Hệ số tương quan *xi* = –0.2752 không nhỏ hơn 0.666 nên chúng ta không bác bỏ.
+1. *r* = – 0,2752 
+Đối với bảy *df* và mức ý nghĩa α = 0,05, sử dụng LinRegTTest *p*-giá trị = 0,4736 nên chúng ta không bác bỏ; không có mối quan hệ tuyến tính đáng kể giữa trang và chiết khấu.
+Sử dụng bảng các giá trị tới hạn cho hệ số tương quan, với bảy *df*, giá trị tới hạn là 0,666. Hệ số tương quan *xi* = –0,2752 không nhỏ hơn 0,666 nên chúng ta không bác bỏ.
 1. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.
 1. Không có mối tương quan tuyến tính đáng kể nên có vẻ như không có mối quan hệ nào giữa trang và số tiền chiết khấu.
 As the page number increases by one page, the discount decreases by $0.01412
@@ -230,9 +230,9 @@ Khi số trang tăng thêm một trang, mức chiết khấu giảm 0,01412 đô
 1. no
 1. không
 1. *ŷ* = 47.03 – 0.0216*x*
-1. *ŷ* = 47.03 – 0.0216*x*
+1. *ŷ* = 47,03 – 0,0216*x*
 1. –0.4280 The r-value indicates that there is not a significant correlation between the year the state entered the union and the number of letters in the name.
-1. –0.4280 Giá trị r chỉ ra rằng không có mối tương quan đáng kể giữa năm tiểu bang gia nhập liên bang và số lượng chữ cái trong tên.
+1. –0,4280 Giá trị r chỉ ra rằng không có mối tương quan đáng kể giữa năm tiểu bang gia nhập liên bang và số lượng chữ cái trong tên.
 1. No, the relationship does not appear to be linear; the correlation is not significant.
 1. Không, mối quan hệ dường như không phải là tuyến tính; mối tương quan không đáng kể.
 a. and b. Check student’s solution.
@@ -253,18 +253,18 @@ e. Cặp có thứ tự (66, 6) tạo ra phần dư lớn nhất là 6,0. Điề
 
 f. If there are 70% returning birds, we would expect to see y = –.2789(70) + 30.9816 = 0.114 or 11.4% new birds in the colony.
 
-f. Nếu có 70% chim quay trở lại, chúng ta dự kiến sẽ thấy y = –.2789(70) + 30.9816 = 0,114 hoặc 11,4% chim mới trong đàn.
+f. Nếu có 70% chim quay trở lại, chúng ta dự kiến sẽ thấy y = –.2789(70) + 30,9816 = 0,114 hoặc 11,4% chim mới trong đàn.
 
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
 1. Check student’s solution.
 1. Kiểm tra lời giải của sinh viên.
 1. We have a slope of –1.4946 with a *y*-intercept of 193.88. The slope, in context, indicates that for each additional minute added to the swim time, the heart rate will decrease by 1.5 beats per minute. If the student is not swimming at all, the *y*-intercept indicates that his heart rate will be 193.88 beats per minute. While the slope has meaning (the longer it takes to swim 2,000 meters, the less effort the heart puts out), the *y*-intercept does not make sense. If the athlete is not swimming (resting), then his heart rate should be very low.
-1. Chúng ta có hệ số góc là –1.4946 với *y*-giao điểm là 193.88. Hệ số góc, trong ngữ cảnh này, chỉ ra rằng với mỗi phút cộng thêm vào thời gian bơi, nhịp tim sẽ giảm 1.5 nhịp mỗi phút. Nếu sinh viên không bơi chút nào, *y*-giao điểm chỉ ra rằng nhịp tim của cậu ấy sẽ là 193.88 nhịp mỗi phút. Mặc dù hệ số góc có ý nghĩa (càng mất nhiều thời gian để bơi 2,000 mét, tim càng ít tốn sức), *y*-giao điểm lại không hợp lý. Nếu vận động viên không bơi (đang nghỉ ngơi), thì nhịp tim của cậu ấy nên rất thấp.
+1. Chúng ta có hệ số góc là –1,4946 với *y*-giao điểm là 193,88. Hệ số góc, trong ngữ cảnh này, chỉ ra rằng với mỗi phút cộng thêm vào thời gian bơi, nhịp tim sẽ giảm 1,5 nhịp mỗi phút. Nếu sinh viên không bơi chút nào, *y*-giao điểm chỉ ra rằng nhịp tim của cậu ấy sẽ là 193,88 nhịp mỗi phút. Mặc dù hệ số góc có ý nghĩa (càng mất nhiều thời gian để bơi 2,000 mét, tim càng ít tốn sức), *y*-giao điểm lại không hợp lý. Nếu vận động viên không bơi (đang nghỉ ngơi), thì nhịp tim của cậu ấy nên rất thấp.
 1. Since only 1.5% of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.
-1. Vì chỉ 1.5% sự biến thiên nhịp tim được giải thích bởi phương trình hồi quy này, chúng ta phải kết luận rằng mối liên hệ này không được giải thích bằng một mối quan hệ tuyến tính.
+1. Vì chỉ 1,5% sự biến thiên nhịp tim được giải thích bởi phương trình hồi quy này, chúng ta phải kết luận rằng mối liên hệ này không được giải thích bằng một mối quan hệ tuyến tính.
 1. The point (34.72, 124) generates the largest residual of –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes –2.953 with the y-intercept changing to 247.1616. While the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the *y*-intercept becomes more meaningful.
-1. Điểm (34.72, 124) tạo ra phần dư lớn nhất là –11.82. Điều này có nghĩa là nhịp tim quan sát được của chúng ta thấp hơn gần 12 nhịp so với nhịp dự đoán là 136 nhịp mỗi phút. Khi điểm này bị loại bỏ, hệ số góc trở thành –2.953 với y-giao điểm thay đổi thành 247.1616. Mặc dù mối liên hệ tuyến tính vẫn rất yếu, chúng ta thấy rằng cặp dữ liệu bị loại bỏ có thể được coi là một điểm ảnh hưởng theo nghĩa là *y*-giao điểm trở nên có ý nghĩa hơn.
+1. Điểm (34,72, 124) tạo ra phần dư lớn nhất là –11,82. Điều này có nghĩa là nhịp tim quan sát được của chúng ta thấp hơn gần 12 nhịp so với nhịp dự đoán là 136 nhịp mỗi phút. Khi điểm này bị loại bỏ, hệ số góc trở thành –2,953 với y-giao điểm thay đổi thành 247,1616. Mặc dù mối liên hệ tuyến tính vẫn rất yếu, chúng ta thấy rằng cặp dữ liệu bị loại bỏ có thể được coi là một điểm ảnh hưởng theo nghĩa là *y*-giao điểm trở nên có ý nghĩa hơn.
 If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of *y* = 0.002*x* + 0.309 with a correlation coefficient of 0.533 and a coefficient of determination of 0.284. There is not enough evidence to state that there is a strong linear correlation between tuition costs and future salaries, even when the service academies are removed.
 
 Nếu chúng ta loại bỏ hai học viện dịch vụ (học phí là 0,00 đô la), chúng ta xây dựng một phương trình hồi quy mới là *y* = 0,002*x* + 0,309 với hệ số tương quan là 0,533 và hệ số xác định là 0,284. Không có đủ bằng chứng để khẳng định rằng có mối tương quan tuyến tính mạnh giữa chi phí học phí và mức lương tương lai, ngay cả khi các học viện dịch vụ được loại bỏ.
@@ -274,40 +274,40 @@ Nếu chúng ta loại bỏ hai học viện dịch vụ (học phí là 0,00 đ
 1. yes
 1. có
 1. *ŷ* = −266.8863+0.1656x
-1. *ŷ* = −266.8863+0.1656x
+1. *ŷ* = −266,8863+0.1656x
 1. 0.9448; Yes
-1. 0.9448; Có
+1. 0,9448; Có
 1. 62.8233; 62.3265
-1. 62.8233; 62.3265
+1. 62,8233; 62,3265
 1. yes
 1. có
 1. no; (Year 9, 62.7)
 1. không; (Năm 9, 62.7)
 1. 72.5937; no
-1. 72.5937; không
+1. 72,5937; không
 1. slope = 0.1656.
 As the year increases by one, the percent of workers paid hourly rates tends to increase by 0.1656.
-1. hệ số góc = 0.1656.
-Khi năm tăng thêm một, tỷ lệ phần trăm công nhân được trả lương theo giờ có xu hướng tăng thêm 0.1656.
+1. hệ số góc = 0,1656.
+Khi năm tăng thêm một, tỷ lệ phần trăm công nhân được trả lương theo giờ có xu hướng tăng thêm 0,1656.
 1. Size (ounces)Kích thước (ounce)
 Cost ($)Chi phí ($)
 cents/ozxu/oz
 
 1616
-3.993.99
-24.9424.94
+3.993,99
+24.9424,94
 
 3232
-4.994.99
-15.5915.59
+4.994,99
+15.5915,59
 
 6464
-5.995.99
-9.369.36
+5.995,99
+9.369,36
 
 200200
-10.9910.99
-5.505.50
+10.9910,99
+5.505,50
 
 Table 
 12.39
@@ -321,13 +321,13 @@ Bảng
 1. There is a linear relationship for the sizes 16 through 64, but that linear trend does not continue to the 200-oz size.
 1. Có một mối quan hệ tuyến tính cho các kích cỡ từ 16 đến 64, nhưng xu hướng tuyến tính đó không tiếp tục đến kích cỡ 200-oz.
 1. *ŷ* =  20.2368 – 0.0819x
-1. *ŷ* = 20.2368 – 0.0819x
+1. *ŷ* = 20,2368 – 0.0819x
 1. *r* = –0.8086
-1. *r* = –0.8086
+1. *r* = –0,8086
 1. 40-oz: 16.96 cents/oz
-1. 40-oz: 16.96 xu/oz
+1. 40-oz: 16,96 xu/oz
 1. 90-oz: 12.87 cents/oz
-1. 90-oz: 12.87 xu/oz
+1. 90-oz: 12,87 xu/oz
 1. The relationship is not linear; the least squares line is not appropriate.
 1. Mối quan hệ không phải là tuyến tính; đường bình phương tối thiểu không phù hợp.
 1. no outliers
@@ -335,7 +335,7 @@ Bảng
 1. No, you would be extrapolating. The 300-oz size is outside the range of *x*.
 1. Không, bạn sẽ đang ngoại suy. Kích cỡ 300-oz nằm ngoài phạm vi của *x*.
 1. slope = –0.08194; for each additional ounce in size, the cost per ounce decreases by 0.082 cents.
-1. hệ số góc = –0.08194; với mỗi ounce kích cỡ tăng thêm, chi phí mỗi ounce giảm 0.082 xu.
+1. hệ số góc = –0,08194; với mỗi ounce kích cỡ tăng thêm, chi phí mỗi ounce giảm 0,082 xu.
 1. Size is *x*, the independent variable, price is *y*, the dependent variable.
 1. Kích cỡ là *x*, biến độc lập, giá là *y*, biến phụ thuộc.
 1. Answers may vary.
@@ -343,17 +343,17 @@ Bảng
 1. The relationship does not appear to be linear.
 1. Mối quan hệ dường như không phải là tuyến tính.
 1. *ŷ* = –745.252 + 54.75569*x*
-1. *ŷ* = –745.252 + 54.75569*x*
+1. *ŷ* = –745,252 + 54,75569*x*
 1. *r* = 0.8944, yes it is significant
-1. *r* = 0.8944, có, nó đáng kể
+1. *r* = 0,8944, có, nó đáng kể
 1. 32-terabyte: $1006.93, 50-terabyte: $1992.53
-1. 32-terabyte: $1006.93, 50-terabyte: $1992.53
+1. 32-terabyte: $1006,93, 50-terabyte: $1992,53
 1. No, the relationship does not appear to be linear. However, *r* is significant.
 1. Không, mối quan hệ dường như không phải là tuyến tính. Tuy nhiên, *r* là đáng kể.
 1. no, the 60-terabyte hard drive
 1. không, ổ cứng 60-terabyte
 1. For each additional terabyte, the price increases by $54.76
-1. Với mỗi terabyte tăng thêm, giá tăng thêm $54.76
+1. Với mỗi terabyte tăng thêm, giá tăng thêm $54,76
 1. Let rank be the independent variable and area be the dependent variable.
 1. Hãy để thứ hạng là biến độc lập và diện tích là biến phụ thuộc.
 1. Answers may vary.
@@ -361,11 +361,11 @@ Bảng
 1. There appears to be a linear relationship, with one outlier.
 1. Có vẻ như có một mối quan hệ tuyến tính, với một giá trị ngoại lệ.
 1. *ŷ* (area) = 24177.06 + 1010.478*x*
-1. *ŷ* (diện tích) = 24177.06 + 1010.478*x*
+1. *ŷ* (diện tích) = 24177,06 + 1010,478*x*
 1. *r* = 0.50047, *r* is not significant so there is no relationship between the variables.
-1. *r* = 0.50047, *r* không đáng kể nên không có mối quan hệ nào giữa các biến.
+1. *r* = 0,50047, *r* không đáng kể nên không có mối quan hệ nào giữa các biến.
 1. Alabama: 46407.576  Colorado: 62575.224
-1. Alabama: 46407.576 Colorado: 62575.224
+1. Alabama: 46407,576 Colorado: 62575,224
 1. Alabama estimate is closer than Colorado estimate.
 1. Ước tính cho Alabama gần hơn ước tính cho Colorado.
 1. If the outlier is removed, there is a linear relationship.
@@ -373,7 +373,7 @@ Bảng
 1. There is one outlier (Hawaii).
 1. Có một giá trị ngoại lệ (Hawaii).
 1. rank 51: 75711.4; no
-1. hạng 51: 75711.4; không
+1. hạng 51: 75711,4; không
 1. AlabamaAlabama
 77
 18191819
@@ -448,8 +448,8 @@ Table
 Bảng
 12.40
 1. *ŷ* = –87065.3 + 7828.532x
-1. *ŷ* = –87065.3 + 7828.532x
+1. *ŷ* = –87065,3 + 7828.532x
 1. Alabama: 85,162.404; the prior estimate was closer. Alaska is an outlier.
-1. Alabama: 85,162.404; ước tính trước đó gần hơn. Alaska là một giá trị ngoại lệ.
+1. Alabama: 85,162,404; ước tính trước đó gần hơn. Alaska là một giá trị ngoại lệ.
 1. yes, with the exception of Hawaii
 1. có, ngoại trừ Hawaii

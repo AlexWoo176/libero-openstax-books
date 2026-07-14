@@ -150,19 +150,19 @@ nếu "số" bị bỏ qua, kết quả là bảng xác suất nhị thức.
 
 **Để tính *P*(*x* ≤ giá trị): binomcdf(*n*, *p*, số)** nếu "số" bị bỏ qua, kết quả là bảng xác suất nhị thức lũy tích.
 
-**Đối với bài toán này: Sau khi bạn đã ở trong `2^nd DISTR`, hãy nhấn phím mũi tên xuống đến `binomcdf`. Nhấn `ENTER`. Nhập 20,0.41,12). Kết quả là *P*(*x* ≤ 12) = 0.9738.**
+**Đối với bài toán này: Sau khi bạn đã ở trong `2^nd DISTR`, hãy nhấn phím mũi tên xuống đến `binomcdf`. Nhấn `ENTER`. Nhập 20,0,41,12). Kết quả là *P*(*x* ≤ 12) = 0,9738.**
 
 If you want to find *P*(*x* = 12), use the pdf (binompdf). If you want to find *P*(*x* > 12), use 1 - binomcdf(20,0.41,12).
 
-Nếu bạn muốn tìm *P*(*x* = 12), hãy sử dụng pdf (binompdf). Nếu bạn muốn tìm *P*(*x* > 12), hãy sử dụng 1 - binomcdf(20,0.41,12).
+Nếu bạn muốn tìm *P*(*x* = 12), hãy sử dụng pdf (binompdf). Nếu bạn muốn tìm *P*(*x* > 12), hãy sử dụng 1 - binomcdf(20,0,41,12).
 
 The probability that at most 12 workers have a high school diploma but do not pursue any further education is 0.9738.
 
-Xác suất để tối đa 12 công nhân có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm là 0.9738.
+Xác suất để tối đa 12 công nhân có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm là 0,9738.
 
 The graph of *X* ~ *B*(20, 0.41) is as follows:
 
-Đồ thị của *X* ~ *B*(20, 0.41) như sau:
+Đồ thị của *X* ~ *B*(20, 0,41) như sau:
 
 *Figure 
 4.3*
@@ -176,13 +176,13 @@ Trục *y* chứa xác suất của *x*, trong đó *X* = số lượng công nh
 
 The number of adult workers that you expect to have a high school diploma but not pursue any further education is the mean, *μ* = *np* = (20)(0.41) = 8.2.
 
-Số lượng công nhân trưởng thành mà bạn kỳ vọng có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm chính là số trung bình, *μ* = *np* = (20)(0.41) = 8.2.
+Số lượng công nhân trưởng thành mà bạn kỳ vọng có bằng tốt nghiệp trung học nhưng không theo đuổi bất kỳ chương trình giáo dục nào thêm chính là số trung bình, *μ* = *np* = (20)(0,41) = 8,2.
 
 The formula for the variance is σ^2 = *npq*. The standard deviation is *σ* = √𝑛⁢𝑝⁢𝑞n⁢p⁢qnpq. 
 *σ* = √(20)⁢(0.41)⁢(0.59)(20)⁢(0.41)⁢(0.59)(20)(0.41)(0.59) = 2.20.
 
 Công thức tính phương sai là σ^2 = *npq*. Độ lệch chuẩn là *σ* = √𝑛⁢𝑝⁢𝑞n⁢p⁢qnpq. 
-*σ* = √(20)⁢(0.41)⁢(0.59)(20)⁢(0.41)⁢(0.59)(20)(0.41)(0.59) = 2.20.
+*σ* = √(20)⁢(0.41)⁢(0.59)(20)⁢(0.41)⁢(0.59)(20)(0.41)(0.59) = 2,20.
 
 About 32% of students participate in a community volunteer program outside of school. If 30 students are selected at random, find the probability that at most 14 of them participate in a community volunteer program outside of school. Use the TI-83+ or TI-84 calculator to find the answer.
 
@@ -220,7 +220,7 @@ the probability that more than 30 adults prefer savingxác suất để có hơn
 1. Sử dụng các công thức, hãy tính (i) số trung bình và (ii) độ lệch chuẩn của *X*.
 The lifetime risk of developing cancer is about one in 67 (1.5%). Suppose we randomly sample 200 people. Let *X* = the number of people who will develop cancer.
 
-Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1.5%). Giả sử chúng ta lấy mẫu ngẫu nhiên 200 người. Gọi *X* = số người sẽ mắc ung thư.
+Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1,5%). Giả sử chúng ta lấy mẫu ngẫu nhiên 200 người. Gọi *X* = số người sẽ mắc ung thư.
 
 #### Problem
 
@@ -236,7 +236,7 @@ Nguy cơ mắc ung thư suốt đời là khoảng một trên 67 (1.5%). Giả 
 1. Khả năng năm hay sáu người mắc bệnh ung thư sẽ cao hơn? Hãy biện luận câu trả lời của bạn bằng số liệu.
 During a certain NBA season, a player for the Los Angeles Clippers had the highest field goal completion rate in the league. This player scored with 61.3% of his shots. Suppose you choose a random sample of 80 shots made by this player during the season. Let *X* = the number of shots that scored points.
 
-Trong một mùa giải NBA nhất định, một cầu thủ của đội Los Angeles Clippers có tỷ lệ ném bóng thành công cao nhất giải đấu. Cầu thủ này ghi điểm với 61.3% số cú ném của mình. Giả sử bạn chọn một mẫu ngẫu nhiên gồm 80 cú ném được thực hiện bởi cầu thủ này trong mùa giải. Gọi *X* = số cú ném ghi được điểm.
+Trong một mùa giải NBA nhất định, một cầu thủ của đội Los Angeles Clippers có tỷ lệ ném bóng thành công cao nhất giải đấu. Cầu thủ này ghi điểm với 61,3% số cú ném của mình. Giả sử bạn chọn một mẫu ngẫu nhiên gồm 80 cú ném được thực hiện bởi cầu thủ này trong mùa giải. Gọi *X* = số cú ném ghi được điểm.
 
 1. What is the probability distribution for *X*?
 1. Phân phối xác suất cho *X* là gì?

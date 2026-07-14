@@ -18,12 +18,12 @@ Trong một kiểm định giả thuyết cho các mẫu ghép cặp hoặc mẫ
 
 | Đối tượng: | A | B | C | D | E | F | G | H |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Trước | 6.6 | 6.5 | 9.0 | 10.3 | 11.3 | 8.1 | 6.3 | 11.6 |
-| Sau | 6.8 | 2.4 | 7.4 | 8.5 | 8.1 | 6.1 | 3.4 | 2.0 |
+| Trước | 6,6 | 6,5 | 9,0 | 10.3 | 11,3 | 8,1 | 6,3 | 11,6 |
+| Sau | 6,8 | 2,4 | 7,4 | 8,5 | 8,1 | 6,1 | 3,4 | 2,0 |
 
 Đối với máy tính TI-83+ và TI-84, bạn có thể tính các hiệu số trước (**sau - trước**) và đưa các hiệu số vào một danh sách hoặc bạn có thể đưa dữ liệu **sau** vào danh sách thứ nhất và dữ liệu **trước** vào danh sách thứ hai. Sau đó, chuyển đến danh sách thứ ba và di chuyển lên trên tên danh sách. Nhập tên danh sách thứ 1 - tên danh sách thứ 2. Máy tính sẽ thực hiện phép trừ và bạn sẽ có các hiệu số trong danh sách thứ ba.
 
-Sử dụng danh sách các hiệu số của bạn làm dữ liệu. Nhấn `STAT` và di chuyển sang `TESTS`. Nhấn `2:T-Test`. Di chuyển sang `Data` và nhấn `ENTER`. Di chuyển xuống và nhập `0` cho μ0μ0, tên của danh sách nơi bạn đã đặt dữ liệu, và `1` cho Freq:. Di chuyển xuống `μ`: và di chuyển sang `<` μ0μ0. Nhấn `ENTER`. Di chuyển xuống `Calculate` và nhấn `ENTER`. p-giá trị *p* là 0.0094, và thống kê kiểm định là -3.04. Thực hiện lại các hướng dẫn này ngoại trừ việc di chuyển đến `Draw` (thay vì `Calculate`). Nhấn `ENTER`.
+Sử dụng danh sách các hiệu số của bạn làm dữ liệu. Nhấn `STAT` và di chuyển sang `TESTS`. Nhấn `2:T-Test`. Di chuyển sang `Data` và nhấn `ENTER`. Di chuyển xuống và nhập `0` cho μ0μ0, tên của danh sách nơi bạn đã đặt dữ liệu, và `1` cho Freq:. Di chuyển xuống `μ`: và di chuyển sang `<` μ0μ0. Nhấn `ENTER`. Di chuyển xuống `Calculate` và nhấn `ENTER`. p-giá trị *p* là 0,0094, và thống kê kiểm định là -3,04. Thực hiện lại các hướng dẫn này ngoại trừ việc di chuyển đến `Draw` (thay vì `Calculate`). Nhấn `ENTER`.
 
 Một nghiên cứu đã được thực hiện để điều tra xem một chế độ ăn kiêng mới hiệu quả như thế nào trong việc giảm cholesterol. Kết quả cho các đối tượng được chọn ngẫu nhiên được hiển thị trong bảng. Các hiệu số có phân phối chuẩn. Mức cholesterol của các đối tượng có thấp hơn trung bình sau khi ăn kiêng không? Hãy kiểm định ở mức 5%.
 
@@ -47,7 +47,7 @@ Sử dụng dữ liệu hiệu số, tính số trung bình mẫu và độ lệ
 
 x¯d=21.3,sd=46.7x¯ &#175; d=21.3,sd=46.7
 
-Dữ liệu được đưa ra ở đây cho thấy phân phối thực sự bị lệch phải. Hiệu số 90 có thể là một giá trị ngoại lệ cực đoan? Nó đang kéo số trung bình mẫu thành 21.3 (dương). Số trung bình của ba giá trị dữ liệu còn lại thực sự là âm.
+Dữ liệu được đưa ra ở đây cho thấy phân phối thực sự bị lệch phải. Hiệu số 90 có thể là một giá trị ngoại lệ cực đoan? Nó đang kéo số trung bình mẫu thành 21,3 (dương). Số trung bình của ba giá trị dữ liệu còn lại thực sự là âm.
 
 Sử dụng dữ liệu hiệu số, đây trở thành một kiểm định cho một __________ (điền vào chỗ trống).
 
@@ -67,14 +67,14 @@ d
 
 Phân phối cho kiểm định giả thuyết là *t_3*.
 
-*H_0**μ_d**H_a**μ_d*
+*H_0*: *μ_d* ≤ 0, *H_a*: *μ_d* > 0
 
 **Đồ thị:**
 
 *Hình 
 10.11*
 
-**Tính p-giá trị *p*:** p-giá trị *p* là 0.2150
+**Tính p-giá trị *p*:** p-giá trị *p* là 0,2150
 
 **Quyết định:** Nếu mức ý nghĩa là 5%, quyết định là không bác bỏ giả thuyết không, vì α < p-giá trị *p*.
 
@@ -112,7 +112,7 @@ x
 
 d
 
- = 3.71, 
+ = 3,71, 
 
 s
 d
@@ -120,7 +120,7 @@ d
 s
 d
 
- = 4.5.
+ = 4,5.
 
 **Biến ngẫu nhiên:** 
 
@@ -145,24 +145,9 @@ d
 *Hình 
 10.12*
 
-**Tính p-giá trị:** p-giá trị là 0.0716 (sử dụng trực tiếp dữ liệu).
+**Tính p-giá trị:** p-giá trị là 0,0716 (sử dụng trực tiếp dữ liệu).
 
-(thống kê kiểm định = 2.18. p-giá trị = 0.0719 sử dụng 
-
-(
-
-x
-¯
-
-d
-
-=3.71, 
-s
-d
-
-=4.5.
-
-)
+(thống kê kiểm định = 2,18. p-giá trị = 0,0719 sử dụng 
 
 (
 
@@ -179,7 +164,22 @@ d
 
 )
 
-**Quyết định:** Giả sử *α* = 0.05. Vì *α* < p-giá trị, không bác bỏ *H_0*.
+(
+
+x
+¯
+
+d
+
+=3.71, 
+s
+d
+
+=4.5.
+
+)
+
+**Quyết định:** Giả sử *α* = 0,05. Vì *α* < p-giá trị, không bác bỏ *H_0*.
 
 **Kết luận:** Tại mức ý nghĩa 5%, từ dữ liệu mẫu, không có đủ bằng chứng để kết luận rằng có sự khác biệt giữa tay yếu hơn và tay thuận của các em học sinh trong việc đẩy tạ.
 

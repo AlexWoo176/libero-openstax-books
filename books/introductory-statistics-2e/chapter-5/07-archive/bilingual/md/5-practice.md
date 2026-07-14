@@ -114,11 +114,11 @@ Tìm xác suất để *x* rơi vào vùng được tô bóng.
 
 *Sử dụng thông tin sau để trả lời mười câu hỏi tiếp theo.* Dữ liệu dưới đây là diện tích (tính bằng 1.000 feet vuông) của 28 ngôi nhà.
 
-| 1.5 | 1.5 | 2.4 | 2.4 | 3.6 | 3.6 | 2.6 | 2.6 | 1.6 | 1.6 | 2.4 | 2.4 | 2.0 | 2.0 |
+| 1.5 | 1,5 | 2.4 | 2,4 | 3.6 | 3,6 | 2.6 | 2,6 | 1.6 | 1,6 | 2.4 | 2,4 | 2.0 | 2,0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3.5 | 3.5 | 2.5 | 2.5 | 1.8 | 1.8 | 2.4 | 2.4 | 2.5 | 2.5 | 3.5 | 3.5 | 4.0 | 4.0 |
-| 2.6 | 2.6 | 1.6 | 1.6 | 2.2 | 2.2 | 1.8 | 1.8 | 3.8 | 3.8 | 2.5 | 2.5 | 1.5 | 1.5 |
-| 2.8 | 2.8 | 1.8 | 1.8 | 4.5 | 4.5 | 1.9 | 1.9 | 1.9 | 1.9 | 3.1 | 3.1 | 1.6 | 1.6 |
+| 3.5 | 3,5 | 2.5 | 2,5 | 1.8 | 1,8 | 2.4 | 2,4 | 2.5 | 2,5 | 3.5 | 3,5 | 4.0 | 4,0 |
+| 2.6 | 2,6 | 1.6 | 1,6 | 2.2 | 2,2 | 1.8 | 1,8 | 3.8 | 3,8 | 2.5 | 2,5 | 1.5 | 1,5 |
+| 2.8 | 2,8 | 1.8 | 1,8 | 4.5 | 4,5 | 1.9 | 1,9 | 1.9 | 1,9 | 3.1 | 3,1 | 1.6 | 1,6 |
 
 The sample mean = 2.50 and the sample standard deviation = 0.8302.
 
@@ -299,12 +299,12 @@ Figure
 Hình 
 5.48
 1. Find the value *k* such that *P*(*x* < *k*) = 0.75.
-1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0.75.
+1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0,75.
 1. The third quartile is _______
 1. Tứ phân vị thứ ba là _______
 *Use the following information to answer the next ten exercises.* A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: *X* ~ *Exp*(0.2)
 
-*Sử dụng thông tin sau để trả lời mười bài tập tiếp theo.* Một nhân viên chăm sóc khách hàng phải dành các khoảng thời gian khác nhau cho mỗi khách hàng để giải quyết các vấn đề khác nhau. Khoảng thời gian dành cho mỗi khách hàng có thể được mô hình hóa bằng phân phối sau: *X* ~ *Exp*(0.2)
+*Sử dụng thông tin sau để trả lời mười bài tập tiếp theo.* Một nhân viên chăm sóc khách hàng phải dành các khoảng thời gian khác nhau cho mỗi khách hàng để giải quyết các vấn đề khác nhau. Khoảng thời gian dành cho mỗi khách hàng có thể được mô hình hóa bằng phân phối sau: *X* ~ *Exp*(0,2)
 
 What type of distribution is this?
 
@@ -348,7 +348,7 @@ Tìm bách phân vị thứ 70^th.
 
 *Use the following information to answer the next seven exercises.* A distribution is given as *X* ~ *Exp*(0.75).
 
-*Sử dụng thông tin sau để trả lời bảy bài tập tiếp theo.* Một phân phối được cho là *X* ~ *Exp*(0.75).
+*Sử dụng thông tin sau để trả lời bảy bài tập tiếp theo.* Một phân phối được cho là *X* ~ *Exp*(0,75).
 
 What is *m*?
 
@@ -384,7 +384,7 @@ Giá trị nào lớn hơn, số trung bình hay trung vị?
 
 *Use the following information to answer the next 16 exercises.* Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.
 
-*Sử dụng thông tin sau để trả lời 16 bài tập tiếp theo.* Carbon-14 là một nguyên tố phóng xạ với chu kỳ bán rã khoảng 5.730 năm. Carbon-14 được cho là phân rã theo hàm mũ. Tốc độ phân rã là 0,000121. Chúng ta bắt đầu với một gam carbon-14. Chúng ta quan tâm đến thời gian (tính bằng năm) để carbon-14 phân rã.
+*Sử dụng thông tin sau để trả lời 16 bài tập tiếp theo.* Carbon-14 là một nguyên tố phóng xạ với chu kỳ bán rã khoảng 5,730 năm. Carbon-14 được cho là phân rã theo hàm mũ. Tốc độ phân rã là 0,000121. Chúng ta bắt đầu với một gam carbon-14. Chúng ta quan tâm đến thời gian (tính bằng năm) để carbon-14 phân rã.
 
 What is being measured here?
 
@@ -408,7 +408,7 @@ Phân phối của *X* là ______.
 
 Find the amount (percent of one gram) of carbon-14 lasting less than 5,730 years. This means, find *P*(*x* < 5,730).
 
-Tìm lượng (phần trăm của một gam) carbon-14 còn lại sau ít hơn 5.730 năm. Điều này có nghĩa là, hãy tìm *P*(*x* < 5.730).
+Tìm lượng (phần trăm của một gam) carbon-14 còn lại sau ít hơn 5,730 năm. Điều này có nghĩa là, hãy tìm *P*(*x* < 5,730).
 
 1. Sketch the graph, and shade the area of interest.
 
@@ -431,7 +431,7 @@ Tìm tỷ lệ phần trăm carbon-14 còn lại sau hơn 10.000 năm.
 Figure 
 5.50
 Hình 
-5.50
+5,50
 1. Find the probability. *P*(*x* > 10,000) = ________
 1. Tìm xác suất. *P*(*x* > 10,000) = ________
 Thirty percent (30%) of carbon-14 will decay within how many years?
@@ -445,6 +445,6 @@ Ba mươi phần trăm (30%) carbon-14 sẽ phân rã trong bao nhiêu năm?
 Figure 
 5.51
 Hình 
-5.51
+5,51
 1. Find the value *k* such that *P*(*x* < *k*) = 0.30.
-1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0.30.
+1. Tìm giá trị *k* sao cho *P*(*x* < *k*) = 0,30.

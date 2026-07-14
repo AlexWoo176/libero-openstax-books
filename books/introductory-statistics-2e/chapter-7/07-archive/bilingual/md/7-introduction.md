@@ -6,7 +6,7 @@ If you want to figure out the distribution of the change people carry in their p
 *Hình 
 7.1
  
-Nếu bạn muốn tìm ra phân phối của số tiền lẻ mà mọi người mang theo trong túi, sử dụng định lý giới hạn trung tâm và giả định mẫu của bạn đủ lớn, bạn sẽ thấy rằng phân phối đó là phân phối chuẩn và có hình chuông. (nguồn: sửa đổi từ tác phẩm “american coins” của Paula R. Lively/ Flickr, CC BY 2.0)*
+Nếu bạn muốn tìm ra phân phối của số tiền lẻ mà mọi người mang theo trong túi, sử dụng định lý giới hạn trung tâm và giả định mẫu của bạn đủ lớn, bạn sẽ thấy rằng phân phối đó là phân phối chuẩn và có hình chuông. (nguồn: sửa đổi từ tác phẩm “american coins” của Paula R. Lively/ Flickr, CC BY 2,0)*
 
 By the end of this chapter, the student should be able to:
 
@@ -70,11 +70,11 @@ Số trung bình là
 
 5
 
- = 3.4. Con số 3.4 là một số trung bình khi gieo năm con xúc xắc cân đối. Người này sẽ gieo năm con xúc xắc đó thêm chín lần nữa và tính thêm chín số trung bình nữa để có tổng cộng mười số trung bình.
+ = 3,4. Con số 3,4 là một số trung bình khi gieo năm con xúc xắc cân đối. Người này sẽ gieo năm con xúc xắc đó thêm chín lần nữa và tính thêm chín số trung bình nữa để có tổng cộng mười số trung bình.
 
 Your instructor will pass out the dice to several people. Roll your dice ten times. For each roll, record the faces, and find the mean. Round to the nearest 0.5.
 
-Giảng viên của bạn sẽ phát xúc xắc cho một vài người. Hãy gieo xúc xắc của bạn mười lần. Với mỗi lần gieo, hãy ghi lại các mặt và tìm số trung bình. Làm tròn đến 0.5 gần nhất.
+Giảng viên của bạn sẽ phát xúc xắc cho một vài người. Hãy gieo xúc xắc của bạn mười lần. Với mỗi lần gieo, hãy ghi lại các mặt và tìm số trung bình. Làm tròn đến 0,5 gần nhất.
 
 Your instructor (and possibly you) will produce one graph (it might be a histogram) for one die, one graph for two dice, one graph for five dice, and one graph for ten dice. Since the "mean" when you roll one die is just the face on the die, what distribution do these **means** appear to be representing?
 

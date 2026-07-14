@@ -138,7 +138,7 @@ a+b
 
  = 3
 
-*μ_X*
+*μ_X* =
 
 a+b
 
@@ -148,13 +148,17 @@ a+b
 
 2
 
-1 + 5
-
-2
+ = 
 
 1 + 5
 
 2
+
+1 + 5
+
+2
+
+ = 3
 
 *σ_X* = 
 
@@ -348,7 +352,7 @@ For problems c and d, let *ΣX* = the sum of the 75 stress scores. Then, *ΣX* ~
 75
 
 )
-(1.15)]
+(1,15)]
 
 #### Problem
 
@@ -580,7 +584,7 @@ x
 1. Tìm bách phân vị thứ 85 cho tổng của 144 thời gian vượt mức được sử dụng bởi khách hàng.
 In the United States, a robbery occurs every two minutes, on average, according to a number of studies. Suppose the standard deviation is 0.5 minutes and the sample size is 100.
 
-Tại Hoa Kỳ, trung bình cứ hai phút lại xảy ra một vụ cướp, theo một số nghiên cứu. Giả sử độ lệch chuẩn là 0.5 phút và kích thước mẫu là 100.
+Tại Hoa Kỳ, trung bình cứ hai phút lại xảy ra một vụ cướp, theo một số nghiên cứu. Giả sử độ lệch chuẩn là 0,5 phút và kích thước mẫu là 100.
 
 #### Problem
 
@@ -591,14 +595,14 @@ Tại Hoa Kỳ, trung bình cứ hai phút lại xảy ra một vụ cướp, th
 1. Find the median, the first quartile, and the third quartile for the sum of sample times of robberies in the United States.
 1. Tìm trung vị, tứ phân vị thứ nhất và tứ phân vị thứ ba cho tổng thời gian mẫu của các vụ cướp ở Hoa Kỳ.
 1. Find the probability that a robbery occurs on the average between 1.75 and 1.85 minutes.
-1. Tìm xác suất để một vụ cướp xảy ra trung bình từ 1.75 đến 1.85 phút.
+1. Tìm xác suất để một vụ cướp xảy ra trung bình từ 1,75 đến 1,85 phút.
 1. Find the value that is two standard deviations above the sample mean.
 1. Tìm giá trị cao hơn số trung bình mẫu hai độ lệch chuẩn.
 1. Find the *IQR* for the sum of the sample times.
 1. Tìm khoảng tứ phân vị (IQR) cho tổng thời gian mẫu.
 Based on data from the National Health Survey, females between the ages of 18 and 24 have an average systolic blood pressures (in mm Hg) of 114.8 with a standard deviation of 13.1. Systolic blood pressure for females between the ages of 18 to 24 follow a normal distribution.
 
-Dựa trên dữ liệu từ Khảo sát Sức khỏe Quốc gia, phụ nữ trong độ tuổi từ 18 đến 24 có huyết áp tâm thu trung bình (tính bằng mm Hg) là 114.8 với độ lệch chuẩn là 13.1. Huyết áp tâm thu cho phụ nữ trong độ tuổi từ 18 đến 24 tuân theo phân phối chuẩn.
+Dựa trên dữ liệu từ Khảo sát Sức khỏe Quốc gia, phụ nữ trong độ tuổi từ 18 đến 24 có huyết áp tâm thu trung bình (tính bằng mm Hg) là 114,8 với độ lệch chuẩn là 13,1. Huyết áp tâm thu cho phụ nữ trong độ tuổi từ 18 đến 24 tuân theo phân phối chuẩn.
 
 1. If one female from this population is randomly selected, find the probability that their systolic blood pressure is greater than 120.
 1. Nếu một phụ nữ từ quần thể này được chọn ngẫu nhiên, hãy tìm xác suất để huyết áp tâm thu của họ lớn hơn 120.
@@ -612,23 +616,23 @@ Dựa trên dữ liệu từ Khảo sát Sức khỏe Quốc gia, phụ nữ tro
 
 A study was done regarding attendance at Broadway shows in New York City. The age range of the attendees was 14 to 61. The mean age was 30.9 years with a standard deviation of nine years.
 
-Một nghiên cứu đã được thực hiện liên quan đến việc tham dự các buổi biểu diễn Broadway ở Thành phố New York. Độ tuổi của những người tham dự từ 14 đến 61. Độ tuổi trung bình là 30.9 tuổi với độ lệch chuẩn là chín năm.
+Một nghiên cứu đã được thực hiện liên quan đến việc tham dự các buổi biểu diễn Broadway ở Thành phố New York. Độ tuổi của những người tham dự từ 14 đến 61. Độ tuổi trung bình là 30,9 tuổi với độ lệch chuẩn là chín năm.
 
 1. In a sample of 25 attendees, what is the probability that the mean age is less than 35?
 1. Trong một mẫu gồm 25 người tham dự, xác suất để độ tuổi trung bình nhỏ hơn 35 là bao nhiêu?
 1. Is it likely that the mean age of the sample group could be more than 50 years? Interpret the results.
 1. Liệu có khả năng độ tuổi trung bình của nhóm mẫu có thể lớn hơn 50 tuổi không? Hãy giải thích kết quả.
 1. In a sample of 49 attendees, what is the probability that the sum of the ages is no less than 1,600?
-1. Trong một mẫu gồm 49 người tham dự, xác suất để tổng độ tuổi không nhỏ hơn 1.600 là bao nhiêu?
+1. Trong một mẫu gồm 49 người tham dự, xác suất để tổng độ tuổi không nhỏ hơn 1,600 là bao nhiêu?
 1. Is it likely that the sum of the ages of the 49 attendees is at most 1,595? Interpret the results.
-1. Liệu có khả năng tổng độ tuổi của 49 người tham dự là tối đa 1.595 không? Hãy giải thích kết quả.
+1. Liệu có khả năng tổng độ tuổi của 49 người tham dự là tối đa 1,595 không? Hãy giải thích kết quả.
 1. Find the 95th percentile for the sample mean age of 65 attendees. Interpret the results.
 1. Tìm bách phân vị thứ 95 cho độ tuổi trung bình mẫu của 65 người tham dự. Hãy giải thích kết quả.
 1. Find the 90th percentile for the sum of the ages of 65 attendees. Interpret the results.
 1. Tìm bách phân vị thứ 90 cho tổng độ tuổi của 65 người tham dự. Hãy giải thích kết quả.
 According to Boeing data, the 757 airliner carries 200 passengers and has doors with a height of 72 inches. Assume for a certain population of men we have a mean height of 69.0 inches and a standard deviation of 2.8 inches.
 
-Theo dữ liệu của Boeing, máy bay 757 chở 200 hành khách và có cửa với chiều cao 72 inch. Giả sử đối với một quần thể nam giới nhất định, chúng ta có chiều cao trung bình là 69.0 inch và độ lệch chuẩn là 2.8 inch.
+Theo dữ liệu của Boeing, máy bay 757 chở 200 hành khách và có cửa với chiều cao 72 inch. Giả sử đối với một quần thể nam giới nhất định, chúng ta có chiều cao trung bình là 69,0 inch và độ lệch chuẩn là 2,8 inch.
 
 1. What doorway height would allow 95% of men to enter the aircraft without bending?
 1. Chiều cao cửa ra vào nào sẽ cho phép 95% nam giới bước vào máy bay mà không cần cúi người?
@@ -666,7 +670,7 @@ npq
 
 npq
 
-. Hãy nhớ rằng *q* = 1 – *p*. Để có được phép xấp xỉ tốt nhất, hãy cộng 0.5 vào *x* hoặc trừ 0.5 khỏi *x* (sử dụng *x* + 0.5 hoặc *x* – 0.5). Số 0.5 được gọi là Hệ số hiệu chỉnh liên tục và được sử dụng trong ví dụ sau.
+. Hãy nhớ rằng *q* = 1 – *p*. Để có được phép xấp xỉ tốt nhất, hãy cộng 0,5 vào *x* hoặc trừ 0,5 khỏi *x* (sử dụng *x* + 0,5 hoặc *x* – 0,5). Số 0,5 được gọi là Hệ số hiệu chỉnh liên tục và được sử dụng trong ví dụ sau.
 
 Suppose in a local Kindergarten through 12^th grade (K - 12) school district, 53 percent of the population favor a charter school for grades K through 5. A simple random sample of 300 is surveyed.
 
@@ -691,54 +695,54 @@ npq
 
 . The mean is 159 and the standard deviation is 8.6447. The random variable for the normal distribution is *Y*. *Y* ~ *N*(159, 8.6447). See [The Normal Distribution](6-introduction) for help with calculator instructions.
 
-Gọi *X* = số người ủng hộ một trường bán công cho các lớp từ K đến 5. *X* ~ *B*(*n, p*) trong đó *n* = 300 và *p* = 0.53. Vì *np* > 5 và *nq* > 5, hãy sử dụng xấp xỉ chuẩn cho phân phối nhị thức. Các công thức cho số trung bình và độ lệch chuẩn là *μ* = *np* và *σ* = 
+Gọi *X* = số người ủng hộ một trường bán công cho các lớp từ K đến 5. *X* ~ *B*(*n, p*) trong đó *n* = 300 và *p* = 0,53. Vì *np* > 5 và *nq* > 5, hãy sử dụng xấp xỉ chuẩn cho phân phối nhị thức. Các công thức cho số trung bình và độ lệch chuẩn là *μ* = *np* và *σ* = 
  
 npq
 
  
 npq
 
-. Số trung bình là 159 và độ lệch chuẩn là 8.6447. Biến ngẫu nhiên cho phân phối chuẩn là *Y*. *Y* ~ *N*(159, 8.6447). Xem [Phân phối chuẩn](6-introduction) để được trợ giúp về hướng dẫn sử dụng máy tính.
+. Số trung bình là 159 và độ lệch chuẩn là 8,6447. Biến ngẫu nhiên cho phân phối chuẩn là *Y*. *Y* ~ *N*(159, 8,6447). Xem [Phân phối chuẩn](6-introduction) để được trợ giúp về hướng dẫn sử dụng máy tính.
 
 For part a, you **include 150** so *P*(*X* ≥ 150) has normal approximation *P*(*Y* ≥ 149.5) = 0.8641.
 
-Đối với phần a, bạn **bao gồm 150** nên *P*(*X* ≥ 150) có xấp xỉ chuẩn là *P*(*Y* ≥ 149.5) = 0.8641.
+Đối với phần a, bạn **bao gồm 150** nên *P*(*X* ≥ 150) có xấp xỉ chuẩn là *P*(*Y* ≥ 149,5) = 0,8641.
 
 `normalcdf`(149.5,10^99,159,8.6447) = 0.8641.
 
-`normalcdf`(149.5,10^99,159,8.6447) = 0.8641.
+`normalcdf`(149,5,10^99,159,8,6447) = 0,8641.
 
 For part b, you **include 160** so *P*(*X* ≤ 160) has normal appraximation *P*(*Y* ≤ 160.5) = 0.5689.
 
-Đối với phần b, bạn **bao gồm 160** nên *P*(*X* ≤ 160) có xấp xỉ chuẩn *P*(*Y* ≤ 160.5) = 0.5689.
+Đối với phần b, bạn **bao gồm 160** nên *P*(*X* ≤ 160) có xấp xỉ chuẩn *P*(*Y* ≤ 160,5) = 0,5689.
 
 `normalcdf`(0,160.5,159,8.6447) = 0.5689
 
-`normalcdf`(0,160.5,159,8.6447) = 0.5689
+`normalcdf`(0,160,5,159,8,6447) = 0,5689
 
 For part c, you **exclude 155** so *P*(*X* > 155) has normal approximation *P*(*y* > 155.5) = 0.6572.
 
-Đối với phần c, bạn **loại trừ 155** nên *P*(*X* > 155) có xấp xỉ chuẩn *P*(*y* > 155.5) = 0.6572.
+Đối với phần c, bạn **loại trừ 155** nên *P*(*X* > 155) có xấp xỉ chuẩn *P*(*y* > 155,5) = 0,6572.
 
 `normalcdf`(155.5,10^99,159,8.6447) = 0.6572.
 
-`normalcdf`(155.5,10^99,159,8.6447) = 0.6572.
+`normalcdf`(155,5,10^99,159,8,6447) = 0,6572.
 
 For part d, you **exclude 147** so *P*(*X* < 147) has normal approximation *P*(*Y* < 146.5) = 0.0741.
 
-Đối với phần d, bạn **loại trừ 147** nên *P*(*X* < 147) có xấp xỉ chuẩn *P*(*Y* < 146.5) = 0.0741.
+Đối với phần d, bạn **loại trừ 147** nên *P*(*X* < 147) có xấp xỉ chuẩn *P*(*Y* < 146,5) = 0,0741.
 
 `normalcdf`(0,146.5,159,8.6447) = 0.0741
 
-`normalcdf`(0,146.5,159,8.6447) = 0.0741
+`normalcdf`(0,146,5,159,8,6447) = 0,0741
 
 For part e,*P*(*X* = 175) has normal approximation *P*(174.5 < *Y* < 175.5) = 0.0083.
 
-Đối với phần e, *P*(*X* = 175) có xấp xỉ chuẩn *P*(174.5 < *Y* < 175.5) = 0.0083.
+Đối với phần e, *P*(*X* = 175) có xấp xỉ chuẩn *P*(174,5 < *Y* < 175,5) = 0,0083.
 
 `normalcdf`(174.5,175.5,159,8.6447) = 0.0083
 
-`normalcdf`(174.5,175.5,159,8.6447) = 0.0083
+`normalcdf`(174,5,175,5,159,8,6447) = 0,0083
 
 **Because of calculators and computer software** that let you calculate binomial probabilities for large values of *n* easily, it is not necessary to use the the normal approximation to the binomial distribution, provided that you have access to these technology tools. Most school labs have Microsoft Excel, an example of computer software that calculates binomial probabilities. Many students have access to the TI-83 or 84 series calculators, and they easily calculate probabilities for the binomial distribution. If you type in "binomial probability distribution calculation" in an Internet browser, you can find at least one online calculator for the binomial.
 
@@ -746,27 +750,27 @@ For part e,*P*(*X* = 175) has normal approximation *P*(174.5 < *Y* < 175.5) = 0.
 
 For [Example 7.12](7-3-using-the-central-limit-theorem#eip-831), the probabilities are calculated using the following binomial distribution: (*n* = 300 and *p* = 0.53). Compare the binomial and normal distribution answers. See [Discrete Random Variables](4-introduction) for help with calculator instructions for the binomial.
 
-Đối với [Ví dụ 7.12](7-3-using-the-central-limit-theorem#eip-831), các xác suất được tính toán bằng cách sử dụng phân phối xác suất nhị thức sau: (*n* = 300 và *p* = 0.53). So sánh các câu trả lời của phân phối nhị thức và phân phối chuẩn. Xem [Biến ngẫu nhiên rời rạc](4-introduction) để được trợ giúp về hướng dẫn sử dụng máy tính cho phân phối nhị thức.
+Đối với [Ví dụ 7.12](7-3-using-the-central-limit-theorem#eip-831), các xác suất được tính toán bằng cách sử dụng phân phối xác suất nhị thức sau: (*n* = 300 và *p* = 0,53). So sánh các câu trả lời của phân phối nhị thức và phân phối chuẩn. Xem [Biến ngẫu nhiên rời rạc](4-introduction) để được trợ giúp về hướng dẫn sử dụng máy tính cho phân phối nhị thức.
 
 *P*(*X* ≥ 150) :`1 - binomialcdf`(300,0.53,149) = 0.8641
 
-*P**X*`1 - binomialcdf`
+*P*(*X* ≥ 150) :`1 - binomialcdf`(300,0,53,149) = 0,8641
 
 *P*(*X* ≤ 160) :`binomialcdf`(300,0.53,160) = 0.5684
 
-*P**X*`binomialcdf`
+*P*(*X* ≤ 160) :`binomialcdf`(300,0,53,160) = 0,5684
 
 *P*(*X* > 155) :`1 - binomialcdf`(300,0.53,155) = 0.6576
 
-*P**X*`1 - binomialcdf`
+*P*(*X* > 155) :`1 - binomialcdf`(300,0,53,155) = 0,6576
 
 *P*(*X* < 147) :`binomialcdf`(300,0.53,146) = 0.0742
 
-*P**X*`binomialcdf`
+*P*(*X* < 147) :`binomialcdf`(300,0,53,146) = 0,0742
 
 *P*(*X* = 175) :(You use the binomial pdf.)`binomialpdf`(300,0.53,175) = 0.0083
 
-*P*(*X* = 175) :(Bạn sử dụng hàm mật độ xác suất nhị thức.)`binomialpdf`(300,0.53,175) = 0.0083
+*P*(*X* = 175) :(Bạn sử dụng hàm mật độ xác suất nhị thức.)`binomialpdf`(300,0,53,175) = 0,0083
 
 In a city, 46 percent of the population favor the incumbent, Dawn Morgan, for mayor. A simple random sample of 500 is taken. Using the continuity correction factor, find the probability that at least 250 favor Dawn Morgan for mayor.
 

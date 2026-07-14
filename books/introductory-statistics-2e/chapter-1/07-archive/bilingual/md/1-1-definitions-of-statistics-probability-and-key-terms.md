@@ -30,14 +30,14 @@ Trong lớp học của bạn, hãy thử bài tập này. Yêu cầu các thàn
 9
 
 5; 
-5.5; 
+5,5; 
 6; 
 6; 
 6; 
-6.5; 
-6.5; 
-6.5; 
-6.5; 
+6,5; 
+6,5; 
+6,5; 
+6,5; 
 7; 
 7; 
 8; 
@@ -155,7 +155,7 @@ Một nghiên cứu đã được thực hiện tại một trường cao đẳn
 1. the cumulative GPA of one student who graduated from the college last year
 1. điểm trung bình tích lũy (GPA) của một sinh viên đã tốt nghiệp trường đại học vào năm ngoái
 1. 3.65, 2.80, 1.50, 3.90
-1. 3.65, 2.80, 1.50, 3.90
+1. 3,65, 2,80, 1,50, 3,90
 1. a group of students who graduated from the college last year, randomly selected
 1. một nhóm sinh viên đã tốt nghiệp trường đại học vào năm ngoái, được chọn ngẫu nhiên
 1. the average cumulative GPA of students who graduated from the college last year
@@ -197,7 +197,7 @@ Một cuộc khảo sát các vận động viên tại một trường đại h
 1. a group of athletes randomly selected
 1. một nhóm vận động viên được chọn ngẫu nhiên
 1. 1.82, 1.76, 1.69, 1.93
-1. 1.82, 1.76, 1.69, 1.93
+1. 1,82, 1,76, 1,69, 1,93
 #### Problem
 
 #### Bài tập

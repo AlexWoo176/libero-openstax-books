@@ -64,12 +64,14 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
 
 x
 ¯
+ = ____
 
 Bảng 
 7.5
@@ -80,8 +82,14 @@ x
 
 x
 ¯
+ = _______
 
-*s* = _______
+x
+¯
+
+x
+¯
+ = _______
 1. Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size *n* = 10. Record the samples in [Table 7.6](7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl003). As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
 
 Mẫu 1
@@ -97,24 +105,28 @@ x
 
 x
 ¯
+ = ____
 
 x
 ¯
 
 x
 ¯
+ = ____
 
 x
 ¯
 
 x
 ¯
+ = ____
 
 x
 ¯
 
 x
 ¯
+ = ____
 
 Bảng 
 7.6
@@ -125,8 +137,15 @@ x
 
 x
 ¯
+ = _______
+*s*_
 
-*s* = ______
+x
+¯
+
+x
+¯
+ = ______
 1. For the original population, construct a histogram. Make intervals with a bar width of one day. Sketch the graph using a ruler and pencil. Scale the axes.
 
 ![This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency.](../../../assets/img-7-5-1.webp)
@@ -162,21 +181,22 @@ Hình
 1. So sánh ba biểu đồ histogram mà bạn đã tạo, một cho quần thể và hai cho các số trung bình mẫu. Trong ba đến năm câu, hãy mô tả những điểm tương đồng và khác biệt.
 1. State the theoretical (according to the clt) distributions for the sample means.
 
-*n*
+*n* = 5: 
 
 x
 ¯
 
 x
 ¯
-
-*n*
-
-x
-¯
+ ~ _____(_____,_____)
+*n* = 10: 
 
 x
 ¯
+
+x
+¯
+ ~ _____(_____,_____)
 1. Các số trung bình mẫu cho *n* = 5 và *n* = 10 có "gần" với số trung bình lý thuyết, *μ_x* không? Giải thích tại sao có hoặc tại sao không.
 1. Phân phối nào trong hai phân phối của các số trung bình mẫu có độ lệch chuẩn nhỏ hơn? Tại sao?
 1. Khi *n* thay đổi, tại sao hình dạng của phân phối dữ liệu lại thay đổi? Sử dụng một đến hai câu hoàn chỉnh để giải thích điều gì đã xảy ra.

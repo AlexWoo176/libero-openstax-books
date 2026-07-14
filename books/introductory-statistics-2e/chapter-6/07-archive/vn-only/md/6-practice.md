@@ -157,7 +157,7 @@ Tìm xác suất để một thiết bị thể dục đeo tay sẽ hoạt độ
 1. Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
 ![Empty normal distribution curve.](../../../assets/img-6-6.webp)Hình 
 6.17
-1. *P**x*
+1. *P*(__________ < *x* < __________) = __________
 Tìm bách phân vị thứ 70^th của phân phối cho thời gian hoạt động của một thiết bị thể dục đeo tay.
 
 1. Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70%.

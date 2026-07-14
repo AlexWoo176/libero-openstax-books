@@ -23,11 +23,11 @@ a
 a
 
 1. 0.5242
-1. 0.5242
+1. 0,5242
 1. 0.03%
-1. 0.03%
+1. 0,03%
 1. 6.86%
-1. 6.86%
+1. 6,86%
 1. 823,088823,856823,088823,856823,088823,856
 1. 823,088823,856823,088823,856823,088823,856
 1. quantitative discrete
@@ -180,7 +180,7 @@ qualitative, Oakland A’s
 
 quantitative discrete, 11,234 students
 
-dữ liệu định lượng rời rạc, 11.234 sinh viên
+dữ liệu định lượng rời rạc, 11,234 sinh viên
 
 qualitative, Crest
 
@@ -265,27 +265,27 @@ Cumulative Relative FrequencyTần suất tương đối lũy tích
 
 00
 2727
-0.45000.4500
-0.45000.4500
+0.45000,4500
+0.45000,4500
 
 11
 1818
-0.30000.3000
-0.75000.7500
+0.30000,3000
+0.75000,7500
 
 33
 1111
-0.18330.1833
-0.93330.9333
+0.18330,1833
+0.93330,9333
 
 66
 33
-0.05000.0500
-0.98330.9833
+0.05000,0500
+0.98330,9833
 
 77
 11
-0.01670.0167
+0.01670,0167
 11
 
 Table 
@@ -296,12 +296,12 @@ Table
 Bảng 
 1.41
 1. 5.00%
-1. 5.00%
+1. 5,00%
 1. 93.33%
-1. 93.33%
+1. 93,33%
 The sum of the travel times is 1,173.1. Divide the sum by 50 to calculate the mean value: 23.462. Because each state’s travel time was measured to the nearest tenth, round this calculation to the nearest hundredth: 23.46.
 
-Tổng thời gian di chuyển là 1.173,1. Chia tổng này cho 50 để tính giá trị trung bình: 23,462. Vì thời gian di chuyển của mỗi tiểu bang được đo đến hàng phần mười gần nhất, hãy làm tròn kết quả tính toán này đến hàng phần trăm gần nhất: 23,46.
+Tổng thời gian di chuyển là 1,173,1. Chia tổng này cho 50 để tính giá trị trung bình: 23,462. Vì thời gian di chuyển của mỗi tiểu bang được đo đến hàng phần mười gần nhất, hãy làm tròn kết quả tính toán này đến hàng phần trăm gần nhất: 23,46.
 
 b
 

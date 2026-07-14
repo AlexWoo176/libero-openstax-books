@@ -16,7 +16,7 @@ Số trung bình các khóa học tiếng Anh mà sinh viên nam và nữ đại
 
 A student at a four-year college claims that mean enrollment at four–year colleges is higher than at two–year colleges in the United States. Two surveys are conducted. Of the 35 two–year colleges surveyed, the mean enrollment was 5,068 with a standard deviation of 4,777. Of the 35 four-year colleges surveyed, the mean enrollment was 5,466 with a standard deviation of 8,191.
 
-Một sinh viên tại một trường đại học bốn năm tuyên bố rằng số lượng tuyển sinh trung bình tại các trường đại học bốn năm cao hơn so với các trường cao đẳng hai năm ở Hoa Kỳ. Hai cuộc khảo sát được thực hiện. Trong số 35 trường cao đẳng hai năm được khảo sát, số lượng tuyển sinh trung bình là 5.068 với độ lệch chuẩn là 4.777. Trong số 35 trường đại học bốn năm được khảo sát, số lượng tuyển sinh trung bình là 5.466 với độ lệch chuẩn là 8.191.
+Một sinh viên tại một trường đại học bốn năm tuyên bố rằng số lượng tuyển sinh trung bình tại các trường đại học bốn năm cao hơn so với các trường cao đẳng hai năm ở Hoa Kỳ. Hai cuộc khảo sát được thực hiện. Trong số 35 trường cao đẳng hai năm được khảo sát, số lượng tuyển sinh trung bình là 5,068 với độ lệch chuẩn là 4,777. Trong số 35 trường đại học bốn năm được khảo sát, số lượng tuyển sinh trung bình là 5,466 với độ lệch chuẩn là 8,191.
 
 At Rachel’s 11^th birthday party, eight guests were timed to see how long (in seconds) they could hold their breath in a relaxed position. After a two-minute rest, they timed themselves while jumping. The children thought that the mean difference between their jumping and relaxed times would be zero. Test their hypothesis.
 
@@ -205,21 +205,34 @@ larger dimension
 )
  was the same in the Whitney Exhibit for works from 1900 to 1919 as for works from 1920 to 1942. Thirty-seven early works were sampled, averaging 1.74 with a standard deviation of 0.11. Sixty-five of the later works were sampled, averaging 1.746 with a standard deviation of 0.1064. Do you think that there is a significant difference in the Golden Ratio calculation?
 
+Elizabeth Mjelde, một giáo sư lịch sử nghệ thuật, rất quan tâm đến việc liệu giá trị từ công thức Tỷ lệ Vàng,
+ 
+
 (
+
+larger + smaller dimension
+
+larger dimension
 
 )
 
 (
 
+larger + smaller dimension
+
+larger dimension
+
 )
+
+ có giống nhau trong Triển lãm Whitney đối với các tác phẩm từ năm 1900 đến 1919 so với các tác phẩm từ năm 1920 đến 1942 hay không. Ba mươi bảy tác phẩm thời kỳ đầu đã được lấy mẫu, cho kết quả trung bình là 1,74 với độ lệch chuẩn là 0,11. Sáu mươi lăm tác phẩm thời kỳ sau đã được lấy mẫu, cho kết quả trung bình là 1,746 với độ lệch chuẩn là 0,1064. Bạn có nghĩ rằng có sự khác biệt đáng kể trong việc tính toán Tỷ lệ Vàng không?
 
 A recent year was randomly picked from 1985 to the present. In that year, there were 2,051 Hispanic/Latino students at Cabrillo College out of a total of 12,328 students. At Lake Tahoe College, there were 321 Hispanic/Latino students out of a total of 2,441 students. In general, do you think that the percent of Hispanic/Latino students at the two colleges is basically the same or different?
 
-Một năm gần đây đã được chọn ngẫu nhiên từ năm 1985 đến nay. Trong năm đó, có 2.051 sinh viên gốc Tây Ban Nha/Latino tại Cao đẳng Cabrillo trong tổng số 12.328 sinh viên. Tại Cao đẳng Lake Tahoe, có 321 sinh viên gốc Tây Ban Nha/Latino trong tổng số 2.441 sinh viên. Nói chung, bạn có nghĩ rằng tỷ lệ sinh viên gốc Tây Ban Nha/Latino tại hai trường cao đẳng về cơ bản là giống nhau hay khác nhau?
+Một năm gần đây đã được chọn ngẫu nhiên từ năm 1985 đến nay. Trong năm đó, có 2.051 sinh viên gốc Tây Ban Nha/Latino tại Cao đẳng Cabrillo trong tổng số 12,328 sinh viên. Tại Cao đẳng Lake Tahoe, có 321 sinh viên gốc Tây Ban Nha/Latino trong tổng số 2,441 sinh viên. Nói chung, bạn có nghĩ rằng tỷ lệ sinh viên gốc Tây Ban Nha/Latino tại hai trường cao đẳng về cơ bản là giống nhau hay khác nhau?
 
 *Use the following information to answer the next three exercises.* Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021,  there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.
 
-*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo.* Một số cá nhân tiếp xúc với vi-rút COVID-19 đã bị mất vị giác. Trong một mẫu bệnh nhân COVID trong năm 2022, có 629 trường hợp được báo cáo mất vị giác trong tổng số 1.021 trường hợp được báo cáo. Năm 2021, có 486 trường hợp được báo cáo mất vị giác trong một mẫu gồm 712 trường hợp. Tỷ lệ mất vị giác năm 2022 có cao hơn tỷ lệ năm 2021 không? Sử dụng mức ý nghĩa 1%, hãy thực hiện kiểm định giả thuyết thích hợp.
+*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo.* Một số cá nhân tiếp xúc với vi-rút COVID-19 đã bị mất vị giác. Trong một mẫu bệnh nhân COVID trong năm 2022, có 629 trường hợp được báo cáo mất vị giác trong tổng số 1,021 trường hợp được báo cáo. Năm 2021, có 486 trường hợp được báo cáo mất vị giác trong một mẫu gồm 712 trường hợp. Tỷ lệ mất vị giác năm 2022 có cao hơn tỷ lệ năm 2021 không? Sử dụng mức ý nghĩa 1%, hãy thực hiện kiểm định giả thuyết thích hợp.
 
 - “2022” subscript: 2022 group.
 - Chỉ số dưới “2022”: nhóm 2022.
@@ -263,7 +276,7 @@ Giá trị *p* là 0,0022. Ở mức ý nghĩa 1%, kết luận thích hợp là
 1. Có đủ bằng chứng để kết luận rằng tỷ lệ người dân ở Hoa Kỳ vào năm 2022 bị mất vị giác cao hơn tỷ lệ người dân ở Hoa Kỳ vào năm 2021 bị mất vị giác.
 Researchers conducted a study to find out if there is a difference in the use of eReaders by different age groups.  Randomly selected participants were divided into two age groups.  In the 16- to 29-year-old group, 7% of the 628 surveyed use eReaders, while 11% of the 2,309 participants 30 years old and older use eReaders.
 
-Các nhà nghiên cứu đã thực hiện một nghiên cứu để tìm hiểu xem có sự khác biệt trong việc sử dụng thiết bị đọc sách điện tử (eReader) theo các nhóm tuổi khác nhau hay không. Những người tham gia được chọn ngẫu nhiên đã được chia thành hai nhóm tuổi. Trong nhóm từ 16 đến 29 tuổi, 7% trong số 628 người được khảo sát sử dụng eReader, trong khi 11% trong số 2.309 người tham gia từ 30 tuổi trở lên sử dụng eReader.
+Các nhà nghiên cứu đã thực hiện một nghiên cứu để tìm hiểu xem có sự khác biệt trong việc sử dụng thiết bị đọc sách điện tử (eReader) theo các nhóm tuổi khác nhau hay không. Những người tham gia được chọn ngẫu nhiên đã được chia thành hai nhóm tuổi. Trong nhóm từ 16 đến 29 tuổi, 7% trong số 628 người được khảo sát sử dụng eReader, trong khi 11% trong số 2,309 người tham gia từ 30 tuổi trở lên sử dụng eReader.
 
 Adults aged 18 years old and older were randomly selected for a survey on working from home. The researchers wanted to determine if the proportion of women who work from home is less than the proportion of men who work from home. The results are shown in [Table 10.30](10-homework#fs-idp62517488). Test at the 1% level of significance.
 
@@ -285,7 +298,7 @@ Hai người dùng máy tính đang thảo luận về máy tính bảng. Tỷ l
 
 A group of friends debated whether more people aged 21-30 use wearable fitness devices than people aged 31-40. They consulted a research study of wearable fitness devices use among adults. The results of the survey indicate that of the 973 randomly sampled people in their twenties, 379 use wearable fitness devices. For people in their thirties, 404 of the 1,304 who were randomly sampled use wearable fitness devices. Test at the 5% level of significance.
 
-Một nhóm bạn tranh luận về việc liệu có nhiều người trong độ tuổi 21-30 sử dụng thiết bị theo dõi sức khỏe đeo tay hơn những người trong độ tuổi 31-40 hay không. Họ đã tham khảo một nghiên cứu về việc sử dụng thiết bị theo dõi sức khỏe đeo tay ở người trưởng thành. Kết quả khảo sát cho thấy trong số 973 người được chọn ngẫu nhiên ở độ tuổi hai mươi, có 379 người sử dụng thiết bị theo dõi sức khỏe đeo tay. Đối với những người ở độ tuổi ba mươi, có 404 trong số 1.304 người được chọn ngẫu nhiên sử dụng thiết bị theo dõi sức khỏe đeo tay. Hãy kiểm định ở mức ý nghĩa 5%.
+Một nhóm bạn tranh luận về việc liệu có nhiều người trong độ tuổi 21-30 sử dụng thiết bị theo dõi sức khỏe đeo tay hơn những người trong độ tuổi 31-40 hay không. Họ đã tham khảo một nghiên cứu về việc sử dụng thiết bị theo dõi sức khỏe đeo tay ở người trưởng thành. Kết quả khảo sát cho thấy trong số 973 người được chọn ngẫu nhiên ở độ tuổi hai mươi, có 379 người sử dụng thiết bị theo dõi sức khỏe đeo tay. Đối với những người ở độ tuổi ba mươi, có 404 trong số 1,304 người được chọn ngẫu nhiên sử dụng thiết bị theo dõi sức khỏe đeo tay. Hãy kiểm định ở mức ý nghĩa 5%.
 
 While her husband spent 2½ hours picking out new speakers, a statistician decided to determine whether the percent of men who enjoy shopping for electronic equipment is higher than the percent of women who enjoy shopping for electronic equipment. The population was Saturday afternoon shoppers. Out of 67 men, 24 said they enjoyed the activity. Eight of the 24 women surveyed claimed to enjoy the activity. Interpret the results of the survey.
 
@@ -430,7 +443,7 @@ Phân phối cho kiểm định là:
 1. *t_6*
 1. *t_6*
 1. *N*(−10.2, 8.4)
-1. *N*(−10.2, 8.4)
+1. *N*(−10.2, 8,4)
 1. N(−10.2, 
 
 8.4
@@ -458,13 +471,13 @@ If *α* = 0.05, the *p*-value and the conclusion are
 Nếu *α* = 0,05, thì p-giá trị *p* và kết luận là
 
 1. 0.0014; There is sufficient evidence to conclude that the blood pressure decreased after the training.
-1. 0.0014; Có đủ bằng chứng để kết luận rằng huyết áp đã giảm sau khi tập luyện.
+1. 0,0014; Có đủ bằng chứng để kết luận rằng huyết áp đã giảm sau khi tập luyện.
 1. 0.0014; There is sufficient evidence to conclude that the blood pressure increased after the training.
-1. 0.0014; Có đủ bằng chứng để kết luận rằng huyết áp đã tăng sau khi tập luyện.
+1. 0,0014; Có đủ bằng chứng để kết luận rằng huyết áp đã tăng sau khi tập luyện.
 1. 0.0155; There is sufficient evidence to conclude that the blood pressure decreased after the training.
-1. 0.0155; Có đủ bằng chứng để kết luận rằng huyết áp đã giảm sau khi tập luyện.
+1. 0,0155; Có đủ bằng chứng để kết luận rằng huyết áp đã giảm sau khi tập luyện.
 1. 0.0155; There is sufficient evidence to conclude that the blood pressure increased after the training.
-1. 0.0155; Có đủ bằng chứng để kết luận rằng huyết áp đã tăng sau khi tập luyện.
+1. 0,0155; Có đủ bằng chứng để kết luận rằng huyết áp đã tăng sau khi tập luyện.
 A golf instructor is interested in determining if her new technique for improving players’ golf scores is effective. She takes four new students. She records their 18-hole scores before learning the technique and then after having taken her class. She conducts a hypothesis test. The data are as follows.
 
 Một huấn luyện viên golf quan tâm đến việc xác định xem kỹ thuật mới của cô ấy để cải thiện điểm số golf của người chơi có hiệu quả hay không. Cô ấy chọn bốn học viên mới. Cô ấy ghi lại điểm số 18 lỗ của họ trước khi học kỹ thuật và sau khi đã tham gia lớp học của cô ấy. Cô ấy thực hiện một kiểm định giả thuyết. Dữ liệu như sau.
@@ -525,16 +538,16 @@ Một chính trị gia đã yêu cầu nhân viên của họ xác định xem t
 
 | Northeastern States | Các bang miền Đông Bắc | Year 1 | Năm 1 | Year 2 | Năm 2 |
 | --- | --- | --- | --- | --- | --- |
-| Connecticut | Connecticut | 17.3 | 17.3 | 16.4 | 16.4 |
-| Delaware | Delaware | 17.4 | 17.4 | 13.7 | 13.7 |
-| Maine | Maine | 19.3 | 19.3 | 16.1 | 16.1 |
-| Maryland | Maryland | 16.0 | 16.0 | 15.5 | 15.5 |
-| Massachusetts | Massachusetts | 17.6 | 17.6 | 18.2 | 18.2 |
-| New Hampshire | New Hampshire | 15.4 | 15.4 | 13.5 | 13.5 |
-| New Jersey | New Jersey | 19.2 | 19.2 | 18.7 | 18.7 |
-| New York | New York | 18.5 | 18.5 | 18.7 | 18.7 |
-| Ohio | Ohio | 18.2 | 18.2 | 18.8 | 18.8 |
-| Pennsylvania | Pennsylvania | 16.5 | 16.5 | 16.9 | 16.9 |
-| Rhode Island | Rhode Island | 20.7 | 20.7 | 22.4 | 22.4 |
-| Vermont | Vermont | 14.7 | 14.7 | 12.3 | 12.3 |
-| West Virginia | West Virginia | 15.5 | 15.5 | 17.3 | 17.3 |
+| Connecticut | Connecticut | 17.3 | 17,3 | 16.4 | 16,4 |
+| Delaware | Delaware | 17.4 | 17,4 | 13.7 | 13,7 |
+| Maine | Maine | 19.3 | 19,3 | 16.1 | 16,1 |
+| Maryland | Maryland | 16.0 | 16,0 | 15.5 | 15,5 |
+| Massachusetts | Massachusetts | 17.6 | 17,6 | 18.2 | 18,2 |
+| New Hampshire | New Hampshire | 15.4 | 15,4 | 13.5 | 13,5 |
+| New Jersey | New Jersey | 19.2 | 19,2 | 18.7 | 18,7 |
+| New York | New York | 18.5 | 18,5 | 18.7 | 18,7 |
+| Ohio | Ohio | 18.2 | 18,2 | 18.8 | 18,8 |
+| Pennsylvania | Pennsylvania | 16.5 | 16,5 | 16.9 | 16,9 |
+| Rhode Island | Rhode Island | 20.7 | 20,7 | 22.4 | 22,4 |
+| Vermont | Vermont | 14.7 | 14,7 | 12.3 | 12,3 |
+| West Virginia | West Virginia | 15.5 | 15,5 | 17.3 | 17,3 |

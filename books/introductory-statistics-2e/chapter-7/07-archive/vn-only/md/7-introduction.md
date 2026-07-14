@@ -1,7 +1,7 @@
 *Hình 
 7.1
  
-Nếu bạn muốn tìm ra phân phối của số tiền lẻ mà mọi người mang theo trong túi, sử dụng định lý giới hạn trung tâm và giả định mẫu của bạn đủ lớn, bạn sẽ thấy rằng phân phối đó là phân phối chuẩn và có hình chuông. (nguồn: sửa đổi từ tác phẩm “american coins” của Paula R. Lively/ Flickr, CC BY 2.0)*
+Nếu bạn muốn tìm ra phân phối của số tiền lẻ mà mọi người mang theo trong túi, sử dụng định lý giới hạn trung tâm và giả định mẫu của bạn đủ lớn, bạn sẽ thấy rằng phân phối đó là phân phối chuẩn và có hình chuông. (nguồn: sửa đổi từ tác phẩm “american coins” của Paula R. Lively/ Flickr, CC BY 2,0)*
 
 Đến cuối chương này, sinh viên sẽ có thể:
 
@@ -33,9 +33,9 @@ Số trung bình là
 
 5
 
- = 3.4. Con số 3.4 là một số trung bình khi gieo năm con xúc xắc cân đối. Người này sẽ gieo năm con xúc xắc đó thêm chín lần nữa và tính thêm chín số trung bình nữa để có tổng cộng mười số trung bình.
+ = 3,4. Con số 3,4 là một số trung bình khi gieo năm con xúc xắc cân đối. Người này sẽ gieo năm con xúc xắc đó thêm chín lần nữa và tính thêm chín số trung bình nữa để có tổng cộng mười số trung bình.
 
-Giảng viên của bạn sẽ phát xúc xắc cho một vài người. Hãy gieo xúc xắc của bạn mười lần. Với mỗi lần gieo, hãy ghi lại các mặt và tìm số trung bình. Làm tròn đến 0.5 gần nhất.
+Giảng viên của bạn sẽ phát xúc xắc cho một vài người. Hãy gieo xúc xắc của bạn mười lần. Với mỗi lần gieo, hãy ghi lại các mặt và tìm số trung bình. Làm tròn đến 0,5 gần nhất.
 
 Giảng viên của bạn (và có thể là cả bạn) sẽ tạo ra một biểu đồ (có thể là biểu đồ histogram) cho một con xúc xắc, một biểu đồ cho hai con xúc xắc, một biểu đồ cho năm con xúc xắc và một biểu đồ cho mười con xúc xắc. Vì "số trung bình" khi bạn gieo một con xúc xắc chỉ là mặt trên con xúc xắc đó, các **số trung bình** này dường như đại diện cho phân phối nào?
 

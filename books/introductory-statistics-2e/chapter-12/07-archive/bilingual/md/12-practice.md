@@ -243,11 +243,11 @@ Bạn dự đoán doanh số bán hàng vào ngày thứ 90 là bao nhiêu?
 
 *Use the following information to answer the next three exercises*. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:
 
-*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo*. Một công ty cảnh quan được thuê để cắt cỏ cho một số khu đất lớn. Tổng diện tích của các khu đất này cộng lại là 1.350 mẫu Anh. Tốc độ cắt cỏ của một người được tính như sau:
+*Sử dụng thông tin sau để trả lời ba bài tập tiếp theo*. Một công ty cảnh quan được thuê để cắt cỏ cho một số khu đất lớn. Tổng diện tích của các khu đất này cộng lại là 1,350 mẫu Anh. Tốc độ cắt cỏ của một người được tính như sau:
 
 *ŷ* = 1350 – 1.2*x* where *x* is the number of hours and *ŷ* represents the number of acres left to mow.
 
-*ŷ* = 1350 – 1.2*x* trong đó *x* là số giờ và *ŷ* đại diện cho số mẫu Anh còn lại cần cắt.
+*ŷ* = 1350 – 1,2*x* trong đó *x* là số giờ và *ŷ* đại diện cho số mẫu Anh còn lại cần cắt.
 
 How many acres will be left to mow after 20 hours of work?
 

@@ -150,7 +150,7 @@ x
 1. *p*-value = ______
 1. Giá trị *p* = ______
 1. Test at *α* = 0.05. State your decision and conclusion.
-1. Kiểm định tại *α* = 0.05. Nêu quyết định và kết luận của bạn.
+1. Kiểm định tại *α* = 0,05. Nêu quyết định và kết luận của bạn.
 1. Decision: Why did you make this decision?Quyết định: Tại sao bạn đưa ra quyết định này?
 Conclusion (write a complete sentence).Kết luận (viết thành một câu hoàn chỉnh).
 Based on the results of your study, is there a need to investigate any of the food groups’ prices? Why or why not?Dựa trên kết quả nghiên cứu của bạn, có cần thiết phải điều tra giá cả của bất kỳ nhóm thực phẩm nào không? Tại sao có hoặc tại sao không?
