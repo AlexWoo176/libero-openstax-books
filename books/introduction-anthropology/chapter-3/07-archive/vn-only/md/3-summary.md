@@ -1,0 +1,3 @@
+## Tóm tắt
+
+Ngành nhân học tập trung vào khái niệm văn hoá. Những gì chúng ta tạo ra, những gì chúng ta làm và những gì chúng ta suy nghĩ tạo nên các yếu tố cơ bản của văn hoá. Những yếu tố này kết hợp thành các tập hợp như biểu tượng, nghi thức và cấu trúc xã hội. Kể từ thế kỷ 19, các nhà nhân học đã phát triển nhiều phương thức phân tích khác nhau để hiểu về văn hoá, một số phương thức xem xét sự thay đổi theo thời gian và những phương thức khác xem xét các chức năng của văn hoá tại một thời điểm cụ thể. Mặc dù là một công cụ vô cùng hữu ích để hiểu về đời sống xã hội của con người, khái niệm văn hoá vẫn chứa đựng nhiều nghịch lý. Mặc dù bền vững và thống nhất, văn hoá vẫn luôn chịu sự thay đổi, tính di động, sự tranh luận và tính biến đổi không ngừng.

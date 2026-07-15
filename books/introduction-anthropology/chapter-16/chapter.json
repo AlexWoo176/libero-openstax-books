@@ -1,0 +1,74 @@
+{
+  "book": "introduction-anthropology",
+  "chapter": 16,
+  "title_en": "",
+  "title_vi": "",
+  "status": "archive_completed",
+  "qa": {
+    "integrity": "pending",
+    "glossary": "pending",
+    "html_structure": "pending",
+    "untranslated": "pending",
+    "review_gate": "pending",
+    "review_gate_forced": true
+  },
+  "archive": {
+    "bilingual": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    },
+    "vn-only": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    }
+  },
+  "phases": {
+    "scrape": {
+      "status": "completed",
+      "timestamp": "2026-07-15T06:52:50Z",
+      "pages_downloaded": 9,
+      "pages_skipped": 0
+    },
+    "prep": {
+      "status": "completed",
+      "timestamp": "2026-07-15T06:53:36Z",
+      "files_processed": 9,
+      "files_skipped": 0
+    },
+    "translate": {
+      "status": "completed",
+      "timestamp": "2026-07-15T06:56:01Z",
+      "files_processed": 9,
+      "files_skipped": 0,
+      "provider": "gemini-api"
+    },
+    "review_integrity": {
+      "status": "completed",
+      "timestamp": "2026-07-15T06:56:52Z"
+    },
+    "review_glossary": {
+      "status": "failed",
+      "timestamp": "2026-07-15T06:57:06Z",
+      "error": "Glossary check failed"
+    },
+    "archive": {
+      "status": "completed",
+      "timestamp": "2026-07-15T06:57:24Z",
+      "formats": {
+        "bilingual": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "vn-only": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "review_gate_forced": true
+      }
+    }
+  }
+}

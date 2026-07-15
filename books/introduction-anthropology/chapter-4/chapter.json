@@ -1,0 +1,52 @@
+{
+  "book": "introduction-anthropology",
+  "chapter": 4,
+  "phases": {
+    "translate": {
+      "status": "completed",
+      "timestamp": "2026-07-14T17:25:11Z",
+      "files_processed": 1,
+      "files_skipped": 0,
+      "provider": "gemini-api"
+    },
+    "archive": {
+      "status": "completed",
+      "timestamp": "2026-07-14T17:25:30Z",
+      "formats": {
+        "bilingual": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "vn-only": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "review_gate_forced": true
+      }
+    },
+    "prep": {
+      "status": "completed",
+      "timestamp": "2026-07-14T17:25:01Z",
+      "files_processed": 12,
+      "files_skipped": 0
+    }
+  },
+  "status": "archive_completed",
+  "qa": {
+    "review_gate_forced": true
+  },
+  "archive": {
+    "bilingual": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    },
+    "vn-only": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "book": "introduction-anthropology",
+  "chapter": 12,
+  "title_en": "",
+  "title_vi": "",
+  "status": "archive_completed",
+  "qa": {
+    "integrity": "passed",
+    "glossary": "failed",
+    "html_structure": "pending",
+    "untranslated": "pending",
+    "review_gate": "failed",
+    "math_encoding": "passed",
+    "review_gate_forced": true
+  },
+  "archive": {
+    "bilingual": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    },
+    "vn-only": {
+      "html": true,
+      "md": true,
+      "pdf": false
+    }
+  },
+  "phases": {
+    "scrape": {
+      "status": "completed",
+      "timestamp": "2026-07-15T02:54:57Z",
+      "pages_downloaded": 9,
+      "pages_skipped": 0
+    },
+    "prep": {
+      "status": "completed",
+      "timestamp": "2026-07-15T02:55:16Z",
+      "files_processed": 9,
+      "files_skipped": 0
+    },
+    "translate": {
+      "status": "completed",
+      "timestamp": "2026-07-15T03:12:03Z",
+      "files_processed": 7,
+      "files_skipped": 2,
+      "files_failed": 0,
+      "provider": "gemini-api"
+    },
+    "review": {
+      "status": "failed",
+      "timestamp": "2026-07-15T03:15:30Z",
+      "error": "Review gate failed check(s)",
+      "checks": {
+        "integrity": "passed",
+        "glossary": "failed",
+        "review_gate": "failed"
+      }
+    },
+    "archive": {
+      "status": "completed",
+      "timestamp": "2026-07-15T03:15:42Z",
+      "formats": {
+        "bilingual": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "vn-only": {
+          "html": true,
+          "md": true,
+          "pdf": false
+        },
+        "review_gate_forced": true
+      }
+    }
+  }
+}

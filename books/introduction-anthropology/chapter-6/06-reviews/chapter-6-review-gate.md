@@ -1,0 +1,273 @@
+# QA Review Gate Report: Chapter 6
+
+- **Book:** introduction-anthropology
+- **Gate Status:** ❌ FAILED
+- **Verified At:** 2026-07-15 00:39
+
+## Checkers Status
+
+- **Structural Integrity:** PASSED
+- **Glossary Consistency:** FAILED
+- **Math & Encoding Integrity:** FAILED
+
+## Glossary Consistency Violations Details
+
+### File: `6-1-the-emergence-and-development-of-language.html`
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'coevolution' ('sự đồng tiến hóa / đồng tiến hóa') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'sex' ('tình dục') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'open-ended' ('không giới hạn') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'open-ended' ('không giới hạn') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'hominin' ('hominin / tông người / người tiền sử') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'genome' ('hệ gen / bộ gen') is missing in Vietnamese block
+- Term 'genome' ('hệ gen / bộ gen') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'invention' ('sự phát minh') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'hominin' ('hominin / tông người / người tiền sử') is missing in Vietnamese block
+- Term 'innovation' ('sự đổi mới') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'hominin' ('hominin / tông người / người tiền sử') is missing in Vietnamese block
+- Term 'hominin' ('hominin / tông người / người tiền sử') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'hominin' ('hominin / tông người / người tiền sử') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+
+### File: `6-2-language-and-the-mind.html`
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'myth' ('thần thoại') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'universalism' ('chủ nghĩa phổ quát') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'spirit' ('tinh thần') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'universalism' ('chủ nghĩa phổ quát') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'place' ('địa điểm') is missing in Vietnamese block
+- Term 'king' ('nhà vua') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'attribution' ('Ghi công') is missing in Vietnamese block
+
+### File: `6-3-language-community-and-culture.html`
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term 'household' ('hộ gia đình') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'language ideologies' ('ngôn ngữ hệ tư tưởng') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'attribution' ('Ghi công') is missing in Vietnamese block
+
+### File: `6-4-performativity-and-ritual.html`
+- Term 'performativity' ('khả năng trình diễn') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'performativity' ('khả năng trình diễn') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'performativity' ('khả năng trình diễn') is missing in Vietnamese block
+- Term 'magic' ('ảo thuật') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term 'magic' ('ảo thuật') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'performativity' ('khả năng trình diễn') is missing in Vietnamese block
+- Term 'performativity' ('khả năng trình diễn') is missing in Vietnamese block
+
+### File: `6-5-language-and-power.html`
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'language ideologies' ('ngôn ngữ hệ tư tưởng') is missing in Vietnamese block
+- Term 'place' ('địa điểm') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'money' ('tiền bạc') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'racism' ('phân biệt chủng tộc') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'colonialism' ('chủ nghĩa thực dân') is missing in Vietnamese block
+- Term 'reservations' ('đặt chỗ') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'king' ('nhà vua') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term 'authority' ('thẩm quyền') is missing in Vietnamese block
+- Term 'introduction' ('Giới thiệu') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+
+### File: `6-bibliography.html`
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'introduction' ('Giới thiệu') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'mirror neurons' ('tế bào thần kinh phản chiếu') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'politics' ('chính trị') is missing in Vietnamese block
+- Term 'spears' ('lao / giáo / cây thương') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'theory' ('lý thuyết') is missing in Vietnamese block
+- Term 'gender' ('giới tính') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'incantation' ('câu thần chú') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'introduction' ('Giới thiệu') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'gender' ('giới tính') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'systems' ('hệ thống') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'racism' ('phân biệt chủng tộc') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language revitalization' ('phục hồi ngôn ngữ') is missing in Vietnamese block
+- Term 'hypothesis' ('giả thuyết') is missing in Vietnamese block
+- Term 'gender' ('giới tính') is missing in Vietnamese block
+- Term 'hypothesis' ('giả thuyết') is missing in Vietnamese block
+- Term 'Sapir-Whorf hypothesis' ('Giả thuyết Sapir-Whorf') is missing in Vietnamese block
+- Term 'ethnography' ('dân tộc chí / dân tộc học') is missing in Vietnamese block
+- Term 'norm' ('chuẩn mực') is missing in Vietnamese block
+- Term 'communication' ('giao tiếp') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'king' ('nhà vua') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'syncretism' ('sự pha trộn') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'vernacular' ('ngôn ngữ bản địa') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'place' ('địa điểm') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'space' ('không gian') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'ideology' ('hệ tư tưởng') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'hypothesis' ('giả thuyết') is missing in Vietnamese block
+- Term 'Sapir-Whorf hypothesis' ('Giả thuyết Sapir-Whorf') is missing in Vietnamese block
+- Term 'technology' ('công nghệ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'art' ('nghệ thuật') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'hypothesis' ('giả thuyết') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'speech community' ('cộng đồng ngôn ngữ') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language acquisition' ('tiếp thu ngôn ngữ') is missing in Vietnamese block
+- Term 'dialect' ('phương ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'tribe' ('bộ lạc') is missing in Vietnamese block
+- Term 'linguistic anthropology' ('nhân học ngôn ngữ') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'politics' ('chính trị') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'gender' ('giới tính') is missing in Vietnamese block
+- Term 'symbol' ('biểu tượng') is missing in Vietnamese block
+- Term 'metaphor' ('ẩn dụ') is missing in Vietnamese block
+- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term 'gender' ('giới tính') is missing in Vietnamese block
+- Term 'sex' ('tình dục') is missing in Vietnamese block
+
+### File: `6-introduction.html`
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'family' ('gia đình') is missing in Vietnamese block
+- Term 'table' ('Bảng') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+
+### File: `6-summary.html`
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+
+## Math & Encoding Integrity Failures Details
+
+### File: `6-bibliography.html`
+- Detected mojibake or encoding corruption in file contents.

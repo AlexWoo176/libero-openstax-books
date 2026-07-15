@@ -1,0 +1,102 @@
+{
+  "book": "introduction-anthropology",
+  "status": "build_completed",
+  "chapters": {
+    "chapter-preface": {
+      "status": "review_failed",
+      "last_updated": "2026-07-15T08:53:47Z"
+    },
+    "chapter-1": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:25:17Z"
+    },
+    "chapter-2": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:25:22Z"
+    },
+    "chapter-3": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:25:26Z"
+    },
+    "chapter-4": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:25:30Z"
+    },
+    "chapter-5": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:25:35Z"
+    },
+    "chapter-6": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T17:39:40Z"
+    },
+    "chapter-7": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-14T18:04:58Z"
+    },
+    "chapter-8": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T01:27:25Z"
+    },
+    "chapter-9": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T01:47:45Z"
+    },
+    "chapter-10": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T02:13:41Z"
+    },
+    "chapter-11": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T02:32:18Z"
+    },
+    "chapter-12": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T03:15:42Z"
+    },
+    "chapter-13": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T03:40:12Z"
+    },
+    "chapter-14": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T03:58:35Z"
+    },
+    "chapter-15": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T06:48:31Z"
+    },
+    "chapter-16": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T06:57:24Z"
+    },
+    "chapter-17": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T07:09:00Z"
+    },
+    "chapter-18": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T07:37:59Z"
+    },
+    "chapter-19": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T07:58:19Z"
+    },
+    "chapter-20": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T08:13:36Z"
+    },
+    "_book-level": {
+      "status": "archive_completed",
+      "last_updated": "2026-07-15T08:22:54Z"
+    }
+  },
+  "build": {
+    "status": "completed",
+    "timestamp": "2026-07-15T08:36:30Z",
+    "total_pages": 203,
+    "first_page": "/_book-level/index.html",
+    "mode": "bilingual",
+    "copy_to_web": true
+  }
+}

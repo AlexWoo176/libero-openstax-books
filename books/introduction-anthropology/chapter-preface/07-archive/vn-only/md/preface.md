@@ -1,0 +1,203 @@
+## Về OpenStax
+
+OpenStax là một phần của Đại học Rice, một tổ chức từ thiện phi lợi nhuận 501(c)(3). Sứ mệnh của chúng tôi là làm cho nền giáo dục tuyệt vời trở nên dễ tiếp cận với tất cả mọi người. Thông qua quan hệ đối tác với các tổ chức từ thiện và liên minh với các công ty tài nguyên giáo dục khác, chúng tôi đang phá bỏ những rào cản phổ biến nhất đối với việc học tập. Bởi vì chúng tôi tin rằng mọi người đều nên và có thể tiếp cận với tri thức.
+
+### Về các tài nguyên của OpenStax
+
+#### Tùy chỉnh
+
+*Nhập môn Nhân học* được cấp phép theo giấy phép Creative Commons Ghi công-Phi thương mại-Chia sẻ tương tự 4.0 (CC BY NC-SA), nghĩa là bạn có thể phân phối, phối lại và xây dựng dựa trên nội dung này cho mục đích phi thương mại, miễn là bạn ghi công cho OpenStax và những người đóng góp nội dung, đồng thời phân phối tất cả các tác phẩm phái sinh theo cùng một giấy phép.
+
+Vì sách của chúng tôi được cấp phép mở, bạn có thể tự do sử dụng toàn bộ cuốn sách hoặc chỉ chọn những phần phù hợp nhất với nhu cầu khóa học của mình. Hãy thoải mái phối lại nội dung bằng cách chỉ định cho sinh viên của bạn các chương và mục cụ thể trong giáo trình, theo thứ tự mà bạn muốn. Bạn thậm chí có thể cung cấp một liên kết trực tiếp trong giáo trình của mình tới các phần trong chế độ xem web của cuốn sách.
+
+Giảng viên cũng có tùy chọn tạo phiên bản tùy chỉnh cho cuốn sách OpenStax của họ. Phiên bản tùy chỉnh này có thể được cung cấp cho sinh viên dưới dạng in ấn chi phí thấp hoặc kỹ thuật số thông qua hiệu sách của trường. Hãy truy cập phần Tài nguyên dành cho Giảng viên trên trang sách của bạn tại OpenStax.org để biết thêm thông tin.
+
+#### Ghi công hình ảnh
+
+Trong cuốn *Nhập môn Nhân học*, hình ảnh chứa thông tin ghi công về tiêu đề, người tạo hoặc chủ sở hữu quyền, nền tảng lưu trữ và giấy phép trong phần chú thích. Đối với bất kỳ hình ảnh nào được cấp phép mở, người dùng hoặc tổ chức phi thương mại có thể tái sử dụng hình ảnh đó miễn là họ cung cấp cùng thông tin ghi công cho nguồn gốc ban đầu. (Các thực thể thương mại nên liên hệ với OpenStax để thảo luận về quyền tái sử dụng và cấp phép.) Để tối đa hóa khả năng đọc và luồng nội dung, một số hình ảnh không bao gồm thông tin ghi công trong văn bản. Nếu bạn tái sử dụng hình ảnh từ văn bản này mà không có thông tin ghi công, hãy sử dụng thông tin ghi công sau: Bản quyền Đại học Rice, OpenStax, theo giấy phép CC BY NC-SA 4.0.
+
+#### Đính chính
+
+Tất cả sách giáo khoa OpenStax đều trải qua quy trình phản biện nghiêm ngặt. Tuy nhiên, giống như bất kỳ sách giáo khoa chuyên nghiệp nào, đôi khi vẫn xảy ra sai sót và các quan điểm mới làm nổi bật những lĩnh vực cần sửa đổi. Các hướng dẫn về phong cách viết và các khuôn khổ ngữ cảnh khác cũng thay đổi thường xuyên. Vì sách của chúng tôi dựa trên nền tảng web, chúng tôi có thể thực hiện cập nhật định kỳ khi thấy cần thiết về mặt sư phạm. Nếu bạn có đề xuất sửa lỗi, hãy gửi qua liên kết trên trang sách của bạn tại OpenStax.org. Các chuyên gia về chủ đề sẽ xem xét tất cả các đề xuất đính chính. OpenStax cam kết duy trì sự minh bạch về tất cả các cập nhật, vì vậy bạn cũng sẽ tìm thấy danh sách các thay đổi đính chính trước đây trên trang sách của mình tại OpenStax.org.
+
+#### Định dạng
+
+Bạn có thể truy cập miễn phí sách giáo khoa này ở chế độ xem web hoặc PDF thông qua OpenStax.org, và với chi phí thấp dưới dạng bản in.
+
+### Về cuốn *Nhập môn Nhân học*
+
+*Nhập môn Nhân học* là một văn bản bốn lĩnh vực, dựa trên nội dung nền tảng về nhân học văn hóa, khảo cổ học, nhân chủng học sinh học và nhân học ngôn ngữ. Cách tiếp cận này làm cho văn bản trở nên hữu ích cho cả các khóa học nhập môn chung và văn hóa cũng như cho các khóa học nhập môn trong một số phân ngành nhân học. Trên nền tảng vững chắc này, hai chủ đề đương đại được làm nổi bật: bất bình đẳng xã hội và thế giới tự nhiên. Các dân tộc chí và ví dụ trong suốt văn bản giải quyết tác động của hai chủ đề này đối với các xã hội loài người trong suốt lịch sử và trên toàn cầu.
+
+#### Phạm vi và nội dung bao quát
+
+*Nhập môn Nhân học* chứa tất cả các tài liệu nền tảng cần thiết cho các khóa học nhập môn về nhân học. Các phương pháp và lý thuyết từ cả bốn lĩnh vực được giới thiệu trong hai chương đầu tiên và được lồng ghép trong các cuộc thảo luận sau đó. Khái niệm cốt lõi về văn hóa cũng được khám phá chi tiết trong chương riêng của nó và được tham chiếu lặp đi lặp lại trong các ví dụ trong suốt văn bản. Sự tiến hóa và đa dạng hóa của loài người được đặc biệt chú trọng trong hai chương, “Tiến hóa sinh học và bằng chứng về con người sơ khai” và “Tiến hóa thể chất và văn hóa trong chi *Homo*.” Bề rộng của ngành học được thể hiện rõ qua sự đa dạng của các ví dụ và dân tộc chí cũng như các chương cụ thể dành riêng cho các lĩnh vực đang phát triển của nhân học, chẳng hạn như “Nhân học y tế” và “Quan hệ giữa con người và động vật.” Một câu chuyện hấp dẫn và lôi cuốn sẽ giữ được sự quan tâm của sinh viên.
+
+#### Giải quyết các vấn đề xã hội
+
+Các chủ đề trung tâm của *Nhập môn Nhân học*—bất bình đẳng xã hội và thế giới tự nhiên—kết nối tài liệu nền tảng của văn bản với hai trong số những vấn đề đương đại cấp bách nhất mà các xã hội trên thế giới đang phải đối mặt.
+
+- Trong việc giải quyết bất bình đẳng xã hội, văn bản thúc đẩy người đọc xem xét sự gia tăng và tác động của bất bình đẳng xã hội dựa trên các hình thức nhận dạng và sự khác biệt (như giới tính, sắc tộc, chủng tộc và giai cấp) cũng như sự áp bức và phân biệt đối xử. Các yếu tố đóng góp và nguy hiểm của bất bình đẳng kinh tế xã hội được giải quyết đầy đủ, và vai trò của bất bình đẳng trong rối loạn chức năng xã hội, sự gián đoạn và thay đổi được ghi nhận. *Nhân học* tập trung vào trải nghiệm sống của nhiều người và cung cấp nhiều cơ hội cho giảng viên và sinh viên thảo luận và giải quyết các quan niệm định sẵn, quan niệm sai lầm, cũng như các giải pháp và kết quả tiềm năng.
+- Để minh họa mối quan hệ cơ bản giữa con người và môi trường của họ, thế giới tự nhiên được coi là cả bối cảnh cho sự tồn tại của con người và là ảnh hưởng chính đến văn hóa, kinh tế và chính trị của con người. Trọng tâm này làm cho văn bản trở nên phù hợp một cách độc đáo với thời đại đương đại khi biến đổi khí hậu và suy thoái môi trường đóng vai trò ngày càng tăng trong quản trị, các mối quan hệ liên văn hóa và cuộc sống hàng ngày của nhân loại.
+#### Làm sáng tỏ một lĩnh vực đang phát triển và phù hợp
+
+Văn bản giới thiệu bối cảnh lịch sử của ngành học, với sự tập trung mạnh mẽ vào nhân học như một lĩnh vực sống động và đang phát triển. Một cuộc khám phá sâu sắc và phản tư về nguồn gốc các phương pháp và mục tiêu của nhân học được trình bày trong một số chương, bao gồm “Phương pháp: Các phương pháp nghiên cứu văn hóa và khảo cổ học” và “Nhân chủng học bản địa.” Có một cuộc thảo luận đáng kể về những nỗ lực gần đây nhằm làm cho lĩnh vực này trở nên đa dạng hơn—về những người thực hành, về các câu hỏi được đặt ra và về các ứng dụng của nghiên cứu nhân học để giải quyết các thách thức đương đại. Các tác giả đóng góp cho văn bản này đến từ nhiều nền tảng và khu vực địa lý khác nhau, mang lại sự cân bằng và phong phú cho câu chuyện, các ví dụ và nền tảng lý thuyết của văn bản. Các nhà nghiên cứu được nêu bật trong các phần Chân dung nhân học, nhiều người trong số họ vẫn đang sống và làm việc, cũng là đại diện cho sự đa dạng ngày càng tăng của lĩnh vực này.
+
+*Các chương độc đáo:* Năm trong số 20 chương của văn bản giới thiệu cho sinh viên các chuyên ngành hiện tại và đang phát triển trong ngành. Các chương này cung cấp cái nhìn hấp dẫn và chuyên sâu về các lĩnh vực nghiên cứu hiếm khi được đề cập trong các văn bản nhập môn, những lĩnh vực đặc biệt liên ngành trong mục tiêu và thực tiễn của chúng. Chúng nhấn mạnh thêm rằng nhân học là một lĩnh vực đang phát triển và phù hợp, cung cấp những hiểu biết sâu sắc về các câu hỏi sâu xa nhất của nhân loại và các hướng đi phía trước trong việc giải quyết những thách thức khó khăn nhất. Các chương này là:
+
+- “Nhân học về Thực phẩm,” bao gồm tài liệu về hiện vật thực phẩm, ẩm thực cổ đại và tái tạo thực phẩm, thực phẩm như di sản văn hóa, đơn thuốc thực phẩm và cấm ăn uống, và toàn cầu hóa thực phẩm.
+- “Nhân học về Truyền thông,” giải quyết các chủ đề như nhân học thị giác và phim dân tộc học, nhiếp ảnh và sự đại diện, phương tiện truyền thông tin tức và lĩnh vực công cộng, vai trò của truyền thông trong sự phát triển của bản sắc quốc gia, và truyền thông kỹ thuật số.
+- “Nhân học y tế,” với tài liệu về lịch sử nhân học y tế, sự xây dựng xã hội về sức khỏe, các phương pháp nhân học y tế phổ biến và các cách tiếp cận lý thuyết, và nhân học y tế ứng dụng.
+- “Quan hệ giữa Con người và Động vật,” bao gồm các cuộc thảo luận về dân tộc học đa loài, sự đồng cảm giữa con người và động vật, các mối quan hệ giữa con người và động vật giữa những người thực hành các chiến lược sinh kế khác nhau, biểu tượng động vật trong truyền thống truyền miệng và tôn giáo, và nuôi thú cưng.
+- “Nhân chủng học bản địa,” thông qua lăng kính trải nghiệm của các dân tộc bản địa Bắc Mỹ, giải quyết các thách thức lịch sử và đương đại mà người bản địa đang phải đối mặt, bao gồm các vấn đề về hãng, quyền và bản sắc, cũng như khám phá các nền văn hóa vật chất, quan điểm và thế giới quan của người bản địa.
+#### Các tính năng làm phong phú và thu hút
+
+Một số hộp tính năng làm nổi bật bản chất sống động và ứng dụng của nhân học và cung cấp cho sinh viên thực hành sử dụng các phương pháp được thảo luận trong suốt văn bản.
+
+- **Chân dung nhân học.** Mỗi chương đều chứa hồ sơ của một hoặc nhiều nhà nhân học, nhiều người trong số đó là đương đại và một số là nhân vật lịch sử, những người đã có những đóng góp đáng kể cho ngành học này. Những nhà nhân học được giới thiệu này đại diện cho sự đa dạng về chủng tộc và sắc tộc cũng như một mẫu nghiên cứu rộng rãi về các mối quan tâm và quan điểm nghiên cứu.
+- **Phác họa dân tộc chí.** Các phác họa dân tộc chí được trích từ chính công việc thực địa của các tác giả được phân bổ xuyên suốt cuốn sách. Những đoạn văn hấp dẫn này cung cấp một cái nhìn sâu sắc về công việc thực tế của nhân học, mang đến cho độc giả cảm nhận về những niềm vui và thách thức khi thực hiện nghiên cứu tại thực địa.
+- **Điền dã thực địa nhỏ/Hoạt động ứng dụng.** Mỗi chương kết thúc bằng một hoạt động thực địa đơn giản để giúp sinh viên thực hành tư duy và nghiên cứu như một nhà nhân học. Những bài tập này cung cấp cho họ kinh nghiệm thực tế trong việc áp dụng các phương pháp và lý thuyết đã thảo luận trong chương vào các nghiên cứu thực tế được thực hiện trong chính cộng đồng của họ.
+#### Cơ sở sư phạm
+
+Một khuôn khổ sư phạm hiệu quả giúp sinh viên cấu trúc việc học và ghi nhớ thông tin.
+
+- **Đề cương chương.** Mỗi chương mở đầu bằng một đề cương và phần giới thiệu, giúp sinh viên làm quen với tài liệu sẽ theo sau. Xuyên suốt chương, tài liệu được chia thành các mục nội dung dễ quản lý nằm trong mỗi tiêu đề chính lớn hơn.
+- **Mục tiêu học tập.** Mỗi mục chính bắt đầu bằng một bộ các mục tiêu học tập rõ ràng và súc tích. Những mục tiêu này được thiết kế để giúp giảng viên quyết định nội dung nào cần đưa vào hoặc giao bài và để hướng dẫn kỳ vọng của sinh viên. Sau khi hoàn thành mục và các bài tập cuối chương liên quan, sinh viên sẽ có thể chứng minh sự nắm vững các mục tiêu học tập.
+- **Tóm tắt chương.** Tóm tắt chương chắt lọc thông tin được trình bày trong mỗi chương thành các điểm chính, súc tích.
+- **Thuật ngữ chính.** Các thuật ngữ chính được in đậm và theo sau là định nghĩa trong văn bản. Các định nghĩa của thuật ngữ chính cũng được liệt kê trong bảng chú giải thuật ngữ ở cuối mỗi chương.
+- **Câu hỏi tư duy phản biện.** Mỗi** no-selfclose ** chương kết thúc với 8 đến 10 câu hỏi tư duy phản biện được thiết kế để giúp sinh viên đánh giá việc học của mình và áp dụng nó vào cuộc sống hàng ngày.
+- **Tài liệu đọc thêm.** Tính năng này giúp sinh viên khám phá sâu hơn nội dung chương bằng cách cung cấp các liên kết được chọn lọc đến các nguồn thông tin khác.
+### Về các tác giả
+
+#### Các tác giả đóng góp chính
+
+**Jennifer Hasty** là giáo sư thỉnh giảng về nghiên cứu châu Phi tại Đại học Pennsylvania. Cô nghiên cứu về truyền thông và chính trị ở Tây Phi và Hoa Kỳ. Cuốn sách *Báo chí và Văn hóa Chính trị ở Ghana* của cô khám phá các lực lượng văn hóa và lịch sử định hình thực tiễn báo chí trong thời kỳ dân chủ hóa gần đây. Ngoài việc làm nhà báo cho một số tổ chức truyền thông Ghana, cô còn làm quay phim đám cưới ở khu vực đô thị Philadelphia và DJ đài phát thanh cộng đồng ở phía bắc New Mexico. Cô hiện đang viết một cuốn sách về tham nhũng ở Ghana. Các chương do cô viết hoặc đồng viết trong văn bản này bao gồm:
+
+Chương 1: Nhân học là gì?
+
+Chương 2: Phương pháp: Văn hóa và Khảo cổ học
+
+Chương 3: Lý thuyết khái niệm văn hóa: Các lý thuyết về thay đổi văn hóa
+
+Chương 6: Tư tưởng nhân học
+
+Chương 7: Công việc, Cuộc sống và Giá trị: Nhân học kinh tế
+
+Chương 8: Thẩm quyền, Quyết định và Quyền lực: Nhân học chính trị
+
+Chương 12: Giới và Tính dục
+
+**David G. Lewis** là thành viên của các Bộ lạc Liên minh Grand Ronde ở Oregon. Ông có bằng Tiến sĩ từ Đại học Oregon (2009) và là trợ lý giáo sư về nhân học và nghiên cứu sắc tộc tại Đại học Bang Oregon. David đã thực hiện nghiên cứu về lịch sử bộ lạc Oregon trong khoảng 25 năm và đã xuất bản nhiều bài báo trên tạp chí và các chương sách. Ngoài ra, ông đã nghiên cứu và viết hơn 470 bài luận cho blog của mình, [*Quartux Journal*](https://openstax.org/r/QuartuxJournal), ghi lại những điều chỉnh của bộ lạc đối với chủ nghĩa thực dân ở phương Tây. David thực hiện nhiều bài thuyết trình hàng năm với các nhóm cộng đồng, tại các hội nghị và tại các trường đại học, giáo dục về các bộ lạc trong khu vực; tư vấn cho chính quyền địa phương và các tổ chức về sự đa dạng, đặt tên địa điểm và công nhận đất đai; và giám tuyển các triển lãm bảo tàng tại các hội lịch sử và bảo tàng địa phương. Các chương do ông viết hoặc đồng viết trong văn bản này bao gồm:
+
+Chương 2: Phương pháp: Văn hóa và Khảo cổ học
+
+Chương 3: Lý thuyết khái niệm văn hóa: Các lý thuyết về thay đổi văn hóa
+
+Chương 19: Nhân chủng học bản địa
+
+Tiến sĩ **Marjorie M. Snipes** đã lấy bằng Tiến sĩ về nhân học văn hóa từ Đại học Wisconsin–Madison (1996) và hiện là giáo sư nhân học tại Đại học West Georgia, nơi cô giảng dạy lý thuyết nhân học, phương pháp thực địa dân tộc chí, nhân học tôn giáo, và động vật và văn hóa. Công việc thực địa tiến sĩ của cô ở vùng tây bắc Andes của Argentina tập trung vào tôn giáo và bản sắc trong một xã hội nông mục, đặc biệt là tìm hiểu các mối quan hệ mà những người chăn gia súc tạo dựng với động vật của họ và với nhau. Trong số các ấn phẩm gần đây của cô có *Inside Anthropology* (2021, Kendall Hunt) và *Di sản trí tuệ của Victor và Edith Turner* (2018, Lexington). Các chương do cô viết hoặc đồng viết trong văn bản này bao gồm:
+
+Chương 10: Tác động toàn cầu của di cư con người
+
+Chương 11: Hình thành gia đình thông qua quan hệ họ hàng
+
+Chương 13: Tôn giáo và Văn hóa
+
+Chương 14: Nhân học về Thực phẩm
+
+Chương 18: Quan hệ giữa Con người và Động vật
+
+Chương 20: Nhân học thực địa
+
+#### Các tác giả đóng góp
+
+Tiến sĩ Todd A. Barnhardt, Tiến sĩ
+
+Tiến sĩ M. Anne Basham, Gateway Community College và Giám đốc Điều hành, Biodiversity Outreach Network
+
+Sharon Gursky, Đại học Texas A&M
+
+Laura Jarvis-Seibert
+
+Saira A. Mehmood
+
+Tiến sĩ Sydney Yeager, Rollins College
+
+#### Đội ngũ phản biện
+
+Janet Altamirano, Đại học Texas A&M–Kingsville
+
+Tiến sĩ M. Anne Basham, Gateway Community College
+
+Jack Bish, Đại học Wisconsin–Madison
+
+Heidi Bludau, Đại học Monmouth
+
+Ryan Collins, Đại học Dartmouth
+
+Alejandra Dashe, Paradise Valley Community College
+
+Bridget Fitzpatrick, Normandale Community College
+
+Leslie Fitzpatrick, Đại học Mercyhurst
+
+Tony Fitzpatrick, Đại học Wyoming
+
+Paul Hanson, Đại học Case Western Reserve
+
+David Hicks, Đại học Stony Brook
+
+Michael Hollis, Đại học St. Edward
+
+Stewart Jobrack, Đại học Bang Ohio tại Mansfield
+
+Barry Kass, Orange County Community College
+
+Phineas Kelly, Đại học Wyoming
+
+Elizabeth Kickham, Đại học Bang Idaho
+
+Jonathan Marion, Đại học Arkansas
+
+Annie Melzer, Đại học Bắc Kentucky
+
+Kerith Miller, Đại học Arizona
+
+Mackie O’Hara, Đại học Bang Ohio
+
+Jenell Paris, Đại học Messiah
+
+Caroline Rivera, Đại học Florida Gulf Coast
+
+Megan Schmidt-Sane, Đại học Case Western Reserve
+
+Max Stein, Đại học Florida Gulf Coast
+
+Fay Stevens, Đại học Notre Dame
+
+Antoaneta Tileva, Đại học American
+
+Kristen Verostick, Đại học Rowan
+
+### Tài nguyên bổ sung
+
+#### Đáp án cho các câu hỏi trong sách
+
+Các Câu hỏi tư duy phản biện ở cuối chương nhằm mục đích kích thích sự phản tư của sinh viên hoặc được sử dụng trong thảo luận trên lớp; do đó, đáp án hoặc lời giải dành cho sinh viên không được cung cấp. Các phản hồi mẫu và kỹ thuật sử dụng câu hỏi được cung cấp trong Hướng dẫn dành cho giảng viên cho một số Câu hỏi tư duy phản biện chọn lọc. Giảng viên có thể chia sẻ những nội dung này với sinh viên tùy theo quyết định của mình. Những Câu hỏi tư duy phản biện này cũng được đưa vào Slide bài giảng.
+
+#### Tài nguyên dành cho sinh viên và giảng viên
+
+Chúng tôi đã biên soạn các tài nguyên bổ sung cho cả sinh viên và giảng viên, bao gồm hướng dẫn dành cho giảng viên, ngân hàng đề thi và slide bài giảng. Tài nguyên dành cho giảng viên yêu cầu một tài khoản giảng viên đã được xác minh, bạn có thể đăng ký khi đăng nhập hoặc tạo tài khoản trên OpenStax.org. Hãy tận dụng các tài nguyên này để bổ sung cho cuốn sách OpenStax của bạn.
+
+**Hướng dẫn toàn diện dành cho giảng viên.** Mỗi thành phần của hướng dẫn dành cho giảng viên được thiết kế để cung cấp sự hướng dẫn tối đa nhằm truyền tải nội dung một cách thú vị và năng động. Hướng dẫn dành cho giảng viên bao gồm đề cương chương chứa các kết quả học tập cho từng mục, đề cương mục và tóm tắt mục. Các thuật ngữ chính của chương cũng được liệt kê. Ngoài ra, mỗi chương còn bao gồm các chiến lược để sử dụng Điền dã thực địa nhỏ/Hoạt động ứng dụng và Chân dung nhân học. Có các câu trả lời mẫu và chiến lược để sử dụng các câu hỏi tư duy phản biện chọn lọc trong chương. Mỗi chương cũng bao gồm các liên kết đến các trang web và tổ chức liên quan đến nội dung trong chương cũng như nội dung mở rộng các ví dụ trong chương.
+
+**Ngân hàng đề thi.** Với gần 1.100 câu hỏi trắc nghiệm, điền vào chỗ trống và trả lời ngắn trong ngân hàng đề thi, giảng viên có thể tùy chỉnh các bài kiểm tra để hỗ trợ nhiều mục tiêu khóa học khác nhau. Ngân hàng đề thi có sẵn ở định dạng Word.
+
+**Slide bài giảng PowerPoint.** Các slide bài giảng PowerPoint toàn diện cung cấp cấu trúc cho các bài giảng trên lớp. Hình ảnh chương, kết quả học tập của bài học và nội dung dạng gạch đầu dòng cung cấp điểm khởi đầu để giảng viên xây dựng bài giảng của mình.
+
+#### Trung tâm cộng đồng
+
+OpenStax hợp tác với Viện Nghiên cứu Quản lý Tri thức trong Giáo dục (ISKME) để cung cấp các Trung tâm cộng đồng trên OER Commons—một nền tảng để giảng viên chia sẻ các tài nguyên do cộng đồng tạo ra nhằm hỗ trợ sách OpenStax, hoàn toàn miễn phí. Thông qua các Trung tâm cộng đồng của chúng tôi, giảng viên có thể tải lên tài liệu của riêng mình hoặc tải xuống các tài nguyên để sử dụng trong các khóa học của riêng họ, bao gồm các tài liệu bổ trợ, tài liệu giảng dạy, đa phương tiện và nội dung khóa học liên quan. Chúng tôi khuyến khích giảng viên tham gia các trung tâm cho các môn học phù hợp nhất với việc giảng dạy và nghiên cứu của bạn như một cơ hội để làm phong phú thêm các khóa học của bạn và tham gia cùng các giảng viên khác. Để đến với các Trung tâm cộng đồng, hãy truy cập [www.oercommons.org/hubs/openstax](https://www.oercommons.org/hubs/openstax).
+
+#### Đối tác công nghệ
+
+Với tư cách là đồng minh trong việc làm cho các tài liệu học tập chất lượng cao trở nên dễ tiếp cận, các đối tác công nghệ của chúng tôi cung cấp các công cụ chi phí thấp tùy chọn được tích hợp với sách OpenStax. Để truy cập các tùy chọn công nghệ cho văn bản của bạn, hãy truy cập trang sách của bạn trên OpenStax.org.

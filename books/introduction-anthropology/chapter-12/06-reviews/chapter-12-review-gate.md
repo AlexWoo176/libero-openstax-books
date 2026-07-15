@@ -1,0 +1,225 @@
+# QA Review Gate Report: Chapter 12
+
+- **Book:** introduction-anthropology
+- **Gate Status:** ❌ FAILED
+- **Verified At:** 2026-07-15 10:15
+
+## Checkers Status
+
+- **Structural Integrity:** PASSED
+- **Glossary Consistency:** FAILED
+- **Math & Encoding Integrity:** PASSED
+
+## Glossary Consistency Violations Details
+
+### File: `12-1-sex-gender-and-sexuality-in-anthropology.html`
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'species' ('loài / giống loài') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'primatology' ('nghiên cứu linh trưởng') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'problems' ('Bài tập') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'invention' ('sự phát minh') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'hominids' ('Hominids / họ người') is missing in Vietnamese block
+- Term 'hominins' ('người tiền sử') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'problems' ('Bài tập') is missing in Vietnamese block
+- Term 'EGO' ('CÁI TÔI') is missing in Vietnamese block
+
+### File: `12-2-performing-gender-categories.html`
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'sexuality' ('tính dục') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'household' ('hộ gia đình') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'extensive' ('quảng canh') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'multiple gender' ('nhiều giới tính') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'multiple gender' ('nhiều giới tính') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'spirit' ('tinh thần') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'spirit' ('tinh thần') is missing in Vietnamese block
+- Term 'spirit' ('tinh thần') is missing in Vietnamese block
+- Term 'spirit' ('tinh thần') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'multiple gender' ('nhiều giới tính') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+
+### File: `12-3-the-power-of-gender-patriarchy-and-matriarchy.html`
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'authority' ('thẩm quyền') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'ethnography' ('dân tộc chí / dân tộc học') is missing in Vietnamese block
+- Term 'interviews' ('cuộc phỏng vấn / các cuộc phỏng vấn') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
+
+### File: `12-4-sexuality-and-queer-anthropology.html`
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'ethnography' ('dân tộc chí / dân tộc học') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'gay' ('đồng tính nam') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term 'gay' ('đồng tính nam') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'gender nonbinary' ('giới phi nhị nguyên') is missing in Vietnamese block
+- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'patriarchy' ('chế độ phụ hệ') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'feminist anthropology' ('nhân học nữ quyền') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'gay' ('đồng tính nam') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+
+### File: `12-bibliography.html`
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'intersex' ('liên giới tính') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'interview' ('phỏng vấn') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'politics' ('chính trị') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sexuality' ('tính dục') is missing in Vietnamese block
+- Term 'interview' ('phỏng vấn') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'sexuality' ('tính dục') is missing in Vietnamese block
+- Term 'politics' ('chính trị') is missing in Vietnamese block
+- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'queer anthropology' ('nhân học queer') is missing in Vietnamese block
+- Term 'power' ('quyền lực') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'family' ('gia đình') is missing in Vietnamese block
+- Term 'marriage' ('kết hôn') is missing in Vietnamese block
+- Term 'anthropology' ('nhân học') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'gay' ('đồng tính nam') is missing in Vietnamese block
+- Term 'performance' ('hiệu suất') is missing in Vietnamese block
+- Term 'gender' ('giới') is missing in Vietnamese block
+- Term 'sexuality' ('tính dục') is missing in Vietnamese block
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term 'money' ('tiền bạc') is missing in Vietnamese block
+- Term 'intersex' ('liên giới tính') is missing in Vietnamese block
+- Term 'kinship' ('quan hệ họ hàng') is missing in Vietnamese block
+- Term 'features' ('đặc trưng') is missing in Vietnamese block
+
+### File: `12-introduction.html`
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+
+### File: `12-summary.html`
+- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
