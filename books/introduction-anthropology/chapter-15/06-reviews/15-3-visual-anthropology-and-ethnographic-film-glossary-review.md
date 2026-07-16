@@ -1,16 +1,34 @@
-# Glossary Consistency Review: 15-3-visual-anthropology-and-ethnographic-film.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-3-visual-anthropology-and-ethnographic-film.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-3-visual-anthropology-and-ethnographic-film.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **2**
+- Thuật ngữ dịch đúng: **2**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **9**
+- Tỉ lệ đúng: **2/2 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00002` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00003` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00005` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00006` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `(no-id)` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
+| `Visual anthropology` | `nhân học thị giác` | `Nhân học thị giác` | ✅ |
+| `Ethnographic film` | `phim dân tộc học` | `Phim dân tộc học` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `Mead` | no-emphasis |
+| `Bateson` | no-emphasis |
+| `Flaherty` | no-emphasis |
+| `Inuit` | no-emphasis |
+| `Boas` | no-emphasis |
+| `Marshall` | no-emphasis |
+| `Asch` | no-emphasis |
+| `Spray` | no-emphasis |
+| `Velez` | no-emphasis |

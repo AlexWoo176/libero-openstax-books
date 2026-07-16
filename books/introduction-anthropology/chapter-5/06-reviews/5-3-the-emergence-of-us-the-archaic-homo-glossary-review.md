@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-5/05-translated/5-3-the-emergence-of-us-the-archaic-homo.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-15 00:12
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -49,7 +49,7 @@
 | `Lieberman` | no-emphasis |
 | `FOXP2` | no-emphasis |
 | `Shanidar Cave` | no-emphasis |
-| `Shanidar 1â9` | no-emphasis |
+| `Shanidar 1–9` | no-emphasis |
 | `Shanidar 10` | no-emphasis |
 | `Shanidar 4` | no-emphasis |
 | `cave paintings` | no-emphasis |

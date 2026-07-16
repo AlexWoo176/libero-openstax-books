@@ -1,17 +1,33 @@
-# Glossary Consistency Review: 16-3-an-anthropological-view-of-sport-throughout-time.html
+# Báo cáo Kiểm tra Thuật ngữ: 16-3-an-anthropological-view-of-sport-throughout-time.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 16
-- **Checked At:** 2026-07-15 13:57
+**File kiểm tra:** `chapter-16/05-translated/16-3-an-anthropological-view-of-sport-throughout-time.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **2**
+- Thuật ngữ dịch đúng: **1**
+- Thuật ngữ dịch sai / không nhất quán: **1**
+- Bỏ qua (no-emphasis / không có trong glossary): **3**
+- Tỉ lệ đúng: **1/2 = 50%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Danh sách Vi phạm
+
+| ID | Thuật ngữ EN (term_en) | Bản dịch chuẩn (glossary) | Bản dịch hiện tại trong HTML | Vị trí (id thẻ) | Phản biện | Đề xuất sửa | Phản hồi Translate Agent | Trạng thái |
+|---|---|---|---|---|---|---|---|---|
+| G-001 | `rezball` | `quả bóng rez` | `rezball` | `term-00005` | Bản dịch không khớp glossary chuẩn | Sửa thành: `quả bóng rez` | | Mới |
+
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `section` | `Mục` | `para-00002` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00002` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00006` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00010` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `rezball` | `quả bóng rez` | `para-00010` | Term 'rezball' ('quả bóng rez') is missing in Vietnamese block |
-| `reservations` | `đặt chỗ` | `para-00010` | Term 'reservations' ('đặt chỗ') is missing in Vietnamese block |
+| `performance` | `hiệu suất / trình diễn / biểu diễn` | `trình diễn` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `Jaiswal` | no-emphasis |
+| `Bryant` | no-emphasis |
+| `Payton` | no-emphasis |

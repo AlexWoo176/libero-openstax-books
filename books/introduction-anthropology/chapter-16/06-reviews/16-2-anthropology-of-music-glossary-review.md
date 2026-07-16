@@ -1,28 +1,48 @@
-# Glossary Consistency Review: 16-2-anthropology-of-music.html
+# Báo cáo Kiểm tra Thuật ngữ: 16-2-anthropology-of-music.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 16
-- **Checked At:** 2026-07-15 13:57
+**File kiểm tra:** `chapter-16/05-translated/16-2-anthropology-of-music.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **1**
+- Thuật ngữ dịch đúng: **1**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **24**
+- Tỉ lệ đúng: **1/1 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00002` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `evolution` | `sự tiến hóa` | `para-00002` | Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block |
-| `rituals` | `nghi lễ` | `para-00002` | Term 'rituals' ('nghi lễ') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00003` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00009` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `resistance` | `sức chống cự` | `para-00009` | Term 'resistance' ('sức chống cự') is missing in Vietnamese block |
-| `king` | `nhà vua` | `para-00010` | Term 'king' ('nhà vua') is missing in Vietnamese block |
-| `figure` | `Hình` | `para-00036` | Term 'figure' ('Hình') is missing in Vietnamese block |
-| `cultural practices` | `các hoạt động văn hóa` | `para-00037` | Term 'cultural practices' ('các hoạt động văn hóa') is missing in Vietnamese block |
-| `figure` | `Hình` | `para-00039` | Term 'figure' ('Hình') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00039` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `cultural practices` | `các hoạt động văn hóa` | `para-00014` | Term 'cultural practices' ('các hoạt động văn hóa') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00014` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00015` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `power` | `quyền lực` | `para-00015` | Term 'power' ('quyền lực') is missing in Vietnamese block |
-| `chief` | `trưởng` | `(no-id)` | Term 'chief' ('trưởng') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `(no-id)` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
+| `Cultural appropriation` | `sự chiếm đoạt văn hóa` | `Sự chiếm đoạt văn hóa` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `music artifacts` | no-emphasis |
+| `Densmore` | no-emphasis |
+| `Brown` | no-emphasis |
+| `Tubman` | no-emphasis |
+| `Simone` | no-emphasis |
+| `Franklin` | no-emphasis |
+| `Cooke` | no-emphasis |
+| `Dylan` | no-emphasis |
+| `Hurston` | no-emphasis |
+| `Boas` | no-emphasis |
+| `Benedict` | no-emphasis |
+| `Mead` | no-emphasis |
+| `Hughes` | no-emphasis |
+| `Campbell` | no-emphasis |
+| `Ramones` | no-emphasis |
+| `Clash` | no-emphasis |
+| `Green Day` | no-emphasis |
+| `Blink-182` | no-emphasis |
+| `Morris` | no-emphasis |
+| `Steely Dan` | no-emphasis |
+| `Eminem` | no-emphasis |
+| `Winehouse` | no-emphasis |
+| `Lil Nas X` | no-emphasis |
+| `Cyrus` | no-emphasis |

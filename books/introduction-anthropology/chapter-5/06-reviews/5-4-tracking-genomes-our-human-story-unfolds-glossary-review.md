@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-5/05-translated/5-4-tracking-genomes-our-human-story-unfolds.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-15 00:12
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

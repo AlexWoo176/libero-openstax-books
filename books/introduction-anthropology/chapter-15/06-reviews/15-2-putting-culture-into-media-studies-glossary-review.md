@@ -1,27 +1,19 @@
-# Glossary Consistency Review: 15-2-putting-culture-into-media-studies.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-2-putting-culture-into-media-studies.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-2-putting-culture-into-media-studies.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **1**
+- Thuật ngữ dịch đúng: **1**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **0**
+- Tỉ lệ đúng: **1/1 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `culture` | `văn hoá` | `page_d6491a08-47f5-416f-9f02-28c1f5176aa2_titlecreatedbycookbook` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `page_d6491a08-47f5-416f-9f02-28c1f5176aa2_titlecreatedbycookbook` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `section` | `Mục` | `para-00002` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00003` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00003` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00004` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `kinship` | `quan hệ họ hàng` | `para-00004` | Term 'kinship' ('quan hệ họ hàng') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00006` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `pastoral societies` | `xã hội chăn nuôi` | `para-00006` | Term 'pastoral societies' ('xã hội chăn nuôi') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00007` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00008` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00010` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `(no-id)` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
+| `cosmopolitanism` | `chủ nghĩa quốc tế` | `chủ nghĩa quốc tế` | ✅ |

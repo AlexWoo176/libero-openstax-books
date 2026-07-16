@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-5/05-translated/5-2-tools-and-brains-homo-habilis-homo-ergaster-and-homo-erectus.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-15 00:12
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

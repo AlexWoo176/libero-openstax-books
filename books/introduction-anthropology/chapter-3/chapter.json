@@ -32,11 +32,27 @@
       "timestamp": "2026-07-14T17:24:49Z",
       "files_processed": 11,
       "files_skipped": 0
+    },
+    "review": {
+      "status": "failed",
+      "timestamp": "2026-07-16T02:29:17Z",
+      "error": "Review gate failed check(s)",
+      "checks": {
+        "integrity": "passed",
+        "glossary": "failed",
+        "translation_qa": "failed",
+        "review_gate": "failed"
+      }
     }
   },
-  "status": "archive_completed",
+  "status": "review_failed",
   "qa": {
-    "review_gate_forced": true
+    "review_gate_forced": true,
+    "integrity": "passed",
+    "glossary": "failed",
+    "math_encoding": "passed",
+    "translation_qa": "failed",
+    "review_gate": "failed"
   },
   "archive": {
     "bilingual": {

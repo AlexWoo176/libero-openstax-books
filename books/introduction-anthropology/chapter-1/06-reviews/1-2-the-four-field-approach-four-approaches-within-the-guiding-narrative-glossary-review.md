@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-1/05-translated/1-2-the-four-field-approach-four-approaches-within-the-guiding-narrative.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-14 23:45
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

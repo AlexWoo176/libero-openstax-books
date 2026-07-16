@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-2/05-translated/2-2-conservation-and-naturalism.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-14 23:45
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

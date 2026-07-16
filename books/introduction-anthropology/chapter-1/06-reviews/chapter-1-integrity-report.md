@@ -1,6 +1,6 @@
 # Báo cáo Kiểm tra Tính toàn vẹn Dịch thuật — Chương 1
 
-**Thời gian:** 2026-07-14 23:44
+**Thời gian:** 2026-07-16 09:40
 **Sách:** books/introduction-anthropology
 
 ## Bảng tổng quan
@@ -15,7 +15,7 @@
 | `1-6-cross-cultural-comparison-and-cultural-relativism.html` | 10.2 KB | 23.4 KB | 2.29× | Không | ✅ ĐẠT |
 | `1-7-reaching-for-an-insiders-point-of-view.html` | 17.3 KB | 39.9 KB | 2.31× | Không | ✅ ĐẠT |
 | `1-bibliography.html` | 8.6 KB | 21.9 KB | 2.55× | Không | ✅ ĐẠT |
-| `1-critical-thinking-questions.html` | 7.6 KB | 7.7 KB | 1.01× | Không | ✅ ĐẠT |
+| `1-critical-thinking-questions.html` | 7.6 KB | 10.8 KB | 1.43× | Không | ✅ ĐẠT |
 | `1-introduction.html` | 10.2 KB | 19.9 KB | 1.94× | Không | ✅ ĐẠT |
 | `1-key-terms.html` | 6.0 KB | 13.3 KB | 2.23× | Không | ✅ ĐẠT |
 | `1-summary.html` | 2.7 KB | 6.0 KB | 2.21× | Không | ✅ ĐẠT |

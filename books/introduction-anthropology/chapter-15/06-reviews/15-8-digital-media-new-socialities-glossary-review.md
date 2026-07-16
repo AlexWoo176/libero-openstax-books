@@ -1,45 +1,37 @@
-# Glossary Consistency Review: 15-8-digital-media-new-socialities.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-8-digital-media-new-socialities.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-8-digital-media-new-socialities.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **4**
+- Thuật ngữ dịch đúng: **4**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **10**
+- Tỉ lệ đúng: **4/4 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00002` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `rituals` | `nghi lễ` | `para-00002` | Term 'rituals' ('nghi lễ') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00002` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00003` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `class` | `lớp học` | `para-00004` | Term 'class' ('lớp học') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00004` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00005` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `communication` | `giao tiếp` | `para-00006` | Term 'communication' ('giao tiếp') is missing in Vietnamese block |
-| `resistance` | `sức chống cự` | `para-00006` | Term 'resistance' ('sức chống cự') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00006` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00008` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `money` | `tiền bạc` | `para-00009` | Term 'money' ('tiền bạc') is missing in Vietnamese block |
-| `class` | `lớp học` | `para-00009` | Term 'class' ('lớp học') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00009` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `money` | `tiền bạc` | `para-00011` | Term 'money' ('tiền bạc') is missing in Vietnamese block |
-| `sex` | `giới tính (sinh học)` | `para-00011` | Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00011` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `ritual` | `nghi thức` | `para-00013` | Term 'ritual' ('nghi thức') is missing in Vietnamese block |
-| `sex` | `giới tính (sinh học)` | `para-00015` | Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00015` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `innovation` | `sự đổi mới` | `para-00017` | Term 'innovation' ('sự đổi mới') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00017` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `mass media` | `phương tiện truyền thông đại chúng` | `para-00018` | Term 'mass media' ('phương tiện truyền thông đại chúng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00018` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00026` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00027` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `(no-id)` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `attribution` | `Ghi công` | `(no-id)` | Term 'attribution' ('Ghi công') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
+| `sociality` | `tính xã hội` | `tính xã hội` | ✅ |
+| `media ideologies` | `hệ tư tưởng truyền thông` | `hệ tư tưởng truyền thông` | ✅ |
+| `sakawa` | `sakawa` | `sakawa` | ✅ |
+| `Faustian bargain` | `Thỏa thuận với quỷ dữ` | `thỏa thuận với quỷ dữ` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `media anthropologists` | no-emphasis |
+| `Boyd` | no-emphasis |
+| `Gershon` | no-emphasis |
+| `Sreberny` | no-emphasis |
+| `Khiabany` | no-emphasis |
+| `RamÃ­rez` | no-emphasis |
+| `Bahia` | no-emphasis |
+| `Digital media` | no-emphasis |
+| `Asamoah` | no-emphasis |
+| `Taussig` | no-emphasis |

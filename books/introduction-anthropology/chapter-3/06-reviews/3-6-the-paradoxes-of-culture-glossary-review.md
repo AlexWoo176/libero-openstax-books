@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-3/05-translated/3-6-the-paradoxes-of-culture.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-14 23:36
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

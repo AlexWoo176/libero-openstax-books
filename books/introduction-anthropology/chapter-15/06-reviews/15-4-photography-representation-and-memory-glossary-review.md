@@ -1,20 +1,38 @@
-# Glossary Consistency Review: 15-4-photography-representation-and-memory.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-4-photography-representation-and-memory.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-4-photography-representation-and-memory.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **4**
+- Thuật ngữ dịch đúng: **4**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **11**
+- Tỉ lệ đúng: **4/4 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `class` | `lớp học` | `para-00003` | Term 'class' ('lớp học') is missing in Vietnamese block |
-| `theory` | `lý thuyết` | `para-00006` | Term 'theory' ('lý thuyết') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00007` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00008` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00009` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `food` | `đồ ăn` | `para-00013` | Term 'food' ('đồ ăn') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00015` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00017` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `(no-id)` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
+| `the gaze` | `ánh nhìn` | `ánh nhìn` | ✅ |
+| `voyeuristic` | `nhìn trộm` | `có tính nhìn trộm` | ✅ |
+| `male gaze` | `cái nhìn của nam giới` | `Cái nhìn của nam giới` | ✅ |
+| `imperial gaze` | `ánh nhìn hoàng gia` | `ánh nhìn hoàng gia` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `Lutz` | no-emphasis |
+| `Collins` | no-emphasis |
+| `Gaze theory` | no-emphasis |
+| `Mulvey` | no-emphasis |
+| `Jenkins` | no-emphasis |
+| `Hornberger` | no-emphasis |
+| `Ghana` | no-emphasis |
+| `Buckley` | no-emphasis |
+| `jikko` | no-emphasis |
+| `juuntuwaay` | no-emphasis |
+| `jamano` | no-emphasis |

@@ -1,29 +1,29 @@
-# Glossary Consistency Review: 15-6-community-development-and-broadcast-media.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-6-community-development-and-broadcast-media.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-6-community-development-and-broadcast-media.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **3**
+- Thuật ngữ dịch đúng: **3**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **3**
+- Tỉ lệ đúng: **3/3 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `media` | `phương tiện truyền thông` | `page_83113311-e1b9-4833-80be-860eab695a07_titlecreatedbycookbook` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00002` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00002` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00004` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00004` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00005` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `performance` | `hiệu suất` | `para-00005` | Term 'performance' ('hiệu suất') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00007` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `class` | `lớp học` | `para-00008` | Term 'class' ('lớp học') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00008` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00009` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `kinship` | `quan hệ họ hàng` | `para-00009` | Term 'kinship' ('quan hệ họ hàng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00009` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00010` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00010` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `bands` | `nhóm nhỏ` | `para-00010` | Term 'bands' ('nhóm nhỏ') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
+| `the medium is the message` | `phương tiện chính là thông điệp` | `phương tiện chính là thông điệp` | ✅ |
+| `community radio` | `đài phát thanh cộng đồng` | `đài phát thanh cộng đồng` | ✅ |
+| `Indigenous media` | `Truyền thông bản địa` | `Truyền thông bản địa` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `McLuhan` | no-emphasis |
+| `Pardue` | no-emphasis |
+| `Fisher` | no-emphasis |

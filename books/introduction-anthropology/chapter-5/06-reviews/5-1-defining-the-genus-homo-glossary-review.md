@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-5/05-translated/5-1-defining-the-genus-homo.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-15 00:12
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết
@@ -33,7 +33,7 @@
 | `H. habilis` | no-emphasis |
 | `type specimen` | no-emphasis |
 | `Olduvai Gorge` | no-emphasis |
-| `Brocaâs area` | không có trong glossary |
+| `Broca’s area` | không có trong glossary |
 | `Brodmann areas` | no-emphasis |
 | `Homo erectus` | no-emphasis |
 | `modern humans` | no-emphasis |

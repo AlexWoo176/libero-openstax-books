@@ -1,18 +1,29 @@
-# Glossary Review Summary: Chapter 16
+# Tổng kết Kiểm tra Thuật ngữ — Chương 16
 
-- **Book:** introduction-anthropology
-- **Verified At:** 2026-07-15 13:57
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái:** Đang mở
 
-## Overview
+## Tổng quan
 
-| File Name | Checked Terms | Violations | Status | Report Link |
-|---|---|---|---|---|
-| `16-1-anthropology-of-the-arts.html` | 139 | 21 | ❌ FAIL | [16-1-anthropology-of-the-arts-glossary-review.md](file:///path/to/report) |
-| `16-2-anthropology-of-music.html` | 89 | 18 | ❌ FAIL | [16-2-anthropology-of-music-glossary-review.md](file:///path/to/report) |
-| `16-3-an-anthropological-view-of-sport-throughout-time.html` | 27 | 7 | ❌ FAIL | [16-3-an-anthropological-view-of-sport-throughout-time-glossary-review.md](file:///path/to/report) |
-| `16-4-anthropology-representation-and-performance.html` | 106 | 29 | ❌ FAIL | [16-4-anthropology-representation-and-performance-glossary-review.md](file:///path/to/report) |
-| `16-bibliography.html` | 49 | 31 | ❌ FAIL | [16-bibliography-glossary-review.md](file:///path/to/report) |
-| `16-critical-thinking-questions.html` | 1 | 0 | ✅ PASS | - |
-| `16-introduction.html` | 20 | 5 | ❌ FAIL | [16-introduction-glossary-review.md](file:///path/to/report) |
-| `16-key-terms.html` | 1 | 0 | ✅ PASS | - |
-| `16-summary.html` | 16 | 2 | ❌ FAIL | [16-summary-glossary-review.md](file:///path/to/report) |
+| Hạng mục | Số lượng |
+|---|---|
+| Tổng file HTML | 9 |
+| Tổng thuật ngữ kiểm tra | 11 |
+| Thuật ngữ dịch đúng | 8 |
+| Thuật ngữ dịch sai | 3 |
+| Bỏ qua | 45 |
+| **Tỉ lệ đúng** | **73%** |
+
+## Chi tiết theo file
+
+| File | Tổng | Đúng | Sai | Bỏ qua | Tỉ lệ | Review |
+|---|---|---|---|---|---|---|
+| `16-1-anthropology-of-the-arts.html` | 7 | 5 | 2 | 4 | 71% | [Xem](16-1-anthropology-of-the-arts-glossary-review.md) |
+| `16-2-anthropology-of-music.html` | 1 | 1 | 0 | 24 | 100% | — |
+| `16-3-an-anthropological-view-of-sport-throughout-time.html` | 2 | 1 | 1 | 3 | 50% | [Xem](16-3-an-anthropological-view-of-sport-throughout-time-glossary-review.md) |
+| `16-4-anthropology-representation-and-performance.html` | 1 | 1 | 0 | 14 | 100% | — |
+| `16-bibliography.html` | 0 | 0 | 0 | 0 | N/A | — |
+| `16-critical-thinking-questions.html` | 0 | 0 | 0 | 0 | N/A | — |
+| `16-introduction.html` | 0 | 0 | 0 | 0 | N/A | — |
+| `16-key-terms.html` | 0 | 0 | 0 | 0 | N/A | — |
+| `16-summary.html` | 0 | 0 | 0 | 0 | N/A | — |

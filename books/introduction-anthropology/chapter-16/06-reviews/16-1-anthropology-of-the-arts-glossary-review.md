@@ -1,31 +1,39 @@
-# Glossary Consistency Review: 16-1-anthropology-of-the-arts.html
+# Báo cáo Kiểm tra Thuật ngữ: 16-1-anthropology-of-the-arts.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 16
-- **Checked At:** 2026-07-15 13:56
+**File kiểm tra:** `chapter-16/05-translated/16-1-anthropology-of-the-arts.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **7**
+- Thuật ngữ dịch đúng: **5**
+- Thuật ngữ dịch sai / không nhất quán: **2**
+- Bỏ qua (no-emphasis / không có trong glossary): **4**
+- Tỉ lệ đúng: **5/7 = 71%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Danh sách Vi phạm
+
+| ID | Thuật ngữ EN (term_en) | Bản dịch chuẩn (glossary) | Bản dịch hiện tại trong HTML | Vị trí (id thẻ) | Phản biện | Đề xuất sửa | Phản hồi Translate Agent | Trạng thái |
+|---|---|---|---|---|---|---|---|---|
+| G-001 | `Tattooing` | `xăm hình` | `Xăm mình` | `term-00009` | Bản dịch không khớp glossary chuẩn | Sửa thành: `xăm hình` | | Mới |
+| G-002 | `Scarification` | `xăm mình` | `Nghệ thuật sẹo` | `term-00010` | Bản dịch không khớp glossary chuẩn | Sửa thành: `xăm mình` | | Mới |
+
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00004` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `assessments` | `Bài đánh giá` | `para-00006` | Term 'assessments' ('Bài đánh giá') is missing in Vietnamese block |
-| `interviews` | `cuộc phỏng vấn / các cuộc phỏng vấn` | `para-00006` | Term 'interviews' ('cuộc phỏng vấn / các cuộc phỏng vấn') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00010` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00012` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00012` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00014` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `ethnographic film` | `phim dân tộc học` | `para-00016` | Term 'ethnographic film' ('phim dân tộc học') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00019` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `nature` | `thiên nhiên` | `para-00021` | Term 'nature' ('thiên nhiên') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00022` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00022` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `features` | `đặc trưng` | `para-00023` | Term 'features' ('đặc trưng') is missing in Vietnamese block |
-| `money` | `tiền bạc` | `para-00023` | Term 'money' ('tiền bạc') is missing in Vietnamese block |
-| `tattooing` | `xăm hình` | `para-00025` | Term 'tattooing' ('xăm hình') is missing in Vietnamese block |
-| `tattooing` | `xăm hình` | `para-00027` | Term 'tattooing' ('xăm hình') is missing in Vietnamese block |
-| `scarification` | `xăm mình` | `para-00028` | Term 'scarification' ('xăm mình') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00032` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `(no-id)` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `(no-id)` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
+| `art` | `nghệ thuật` | `nghệ thuật` | ✅ |
+| `Iconographic study` | `nghiên cứu biểu tượng` | `Nghiên cứu biểu tượng` | ✅ |
+| `sociodemographic` | `nhân khẩu học xã hội` | `nhân khẩu học xã hội` | ✅ |
+| `meme` | `meme` | `meme` | ✅ |
+| `body painting` | `vẽ tranh trên cơ thể` | `vẽ tranh trên cơ thể` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `Plattner` | no-emphasis |
+| `Curtis` | no-emphasis |
+| `Flaherty` | no-emphasis |
+| `da Vinci` | no-emphasis |

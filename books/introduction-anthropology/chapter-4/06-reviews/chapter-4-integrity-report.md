@@ -1,6 +1,6 @@
 # Báo cáo Kiểm tra Tính toàn vẹn Dịch thuật — Chương 4
 
-**Thời gian:** 2026-07-14 23:35
+**Thời gian:** 2026-07-16 09:40
 **Sách:** books/introduction-anthropology
 
 ## Bảng tổng quan
@@ -15,7 +15,7 @@
 | `4-6-origin-of-and-classification-of-primates.html` | 17.6 KB | 38.9 KB | 2.21× | Không | ✅ ĐẠT |
 | `4-7-our-ancient-past-the-earliest-hominins.html` | 36.4 KB | 73.3 KB | 2.01× | Không | ✅ ĐẠT |
 | `4-bibliography.html` | 6.4 KB | 13.8 KB | 2.17× | Không | ✅ ĐẠT |
-| `4-critical-thinking-questions.html` | 7.3 KB | 7.4 KB | 1.01× | Không | ✅ ĐẠT |
+| `4-critical-thinking-questions.html` | 7.3 KB | 8.8 KB | 1.20× | Không | ✅ ĐẠT |
 | `4-introduction.html` | 6.8 KB | 13.4 KB | 1.97× | Không | ✅ ĐẠT |
 | `4-key-terms.html` | 14.9 KB | 15.2 KB | 1.02× | Không | ✅ ĐẠT |
 | `4-summary.html` | 2.7 KB | 6.1 KB | 2.29× | Không | ✅ ĐẠT |

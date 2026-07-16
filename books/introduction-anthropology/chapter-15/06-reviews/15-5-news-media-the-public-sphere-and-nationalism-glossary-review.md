@@ -1,33 +1,29 @@
-# Glossary Consistency Review: 15-5-news-media-the-public-sphere-and-nationalism.html
+# Báo cáo Kiểm tra Thuật ngữ: 15-5-news-media-the-public-sphere-and-nationalism.html
 
-- **Book:** introduction-anthropology
-- **Chapter:** 15
-- **Checked At:** 2026-07-15 13:48
+**File kiểm tra:** `chapter-15/05-translated/15-5-news-media-the-public-sphere-and-nationalism.html`
+**File glossary:** `data/introduction-anthropology/glossary.csv`
+**Thời gian:** 2026-07-16 09:37
+**Trạng thái Toàn cục:** Đang mở
 
-## Violations Found
+## Tổng kết
+- Tổng thuật ngữ glossary xuất hiện trong file: **4**
+- Thuật ngữ dịch đúng: **4**
+- Thuật ngữ dịch sai / không nhất quán: **0**
+- Bỏ qua (no-emphasis / không có trong glossary): **2**
+- Tỉ lệ đúng: **4/4 = 100%**
 
-| Term | Expected Translation | Block ID | Detail |
+## Thuật ngữ dịch đúng (tham khảo)
+
+| Thuật ngữ EN | Bản dịch chuẩn | Bản dịch trong HTML | Xác nhận |
 |---|---|---|---|
-| `media` | `phương tiện truyền thông` | `page_71a2f3a2-b117-4941-8b3a-df1e6df954c5_titlecreatedbycookbook` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `section` | `Mục` | `para-00001` | Term 'section' ('Mục') is missing in Vietnamese block |
-| `money` | `tiền bạc` | `para-00002` | Term 'money' ('tiền bạc') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00002` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `authority` | `thẩm quyền` | `para-00003` | Term 'authority' ('thẩm quyền') is missing in Vietnamese block |
-| `invention` | `sự phát minh` | `para-00005` | Term 'invention' ('sự phát minh') is missing in Vietnamese block |
-| `fieldwork` | `công việc thực địa` | `para-00013` | Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00017` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00018` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00018` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `culture` | `văn hoá` | `para-00019` | Term 'culture' ('văn hoá') is missing in Vietnamese block |
-| `communication` | `giao tiếp` | `para-00019` | Term 'communication' ('giao tiếp') is missing in Vietnamese block |
-| `class` | `lớp học` | `para-00019` | Term 'class' ('lớp học') is missing in Vietnamese block |
-| `mass media` | `phương tiện truyền thông đại chúng` | `para-00019` | Term 'mass media' ('phương tiện truyền thông đại chúng') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00019` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `communication` | `giao tiếp` | `para-00020` | Term 'communication' ('giao tiếp') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00020` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `place` | `địa điểm` | `para-00021` | Term 'place' ('địa điểm') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `para-00021` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `broadcast media` | `truyền thông quảng bá` | `para-00021` | Term 'broadcast media' ('truyền thông quảng bá') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
-| `media` | `phương tiện truyền thông` | `(no-id)` | Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block |
+| `public sphere` | `lĩnh vực công cộng` | `lĩnh vực công cộng` | ✅ |
+| `State media` | `truyền thông nhà nước` | `Truyền thông nhà nước` | ✅ |
+| `Independent media` | `truyền thông độc lập` | `Truyền thông độc lập` | ✅ |
+| `soli` | `soli` | `soli` | ✅ |
+
+## Bỏ qua
+
+| Thuật ngữ | Lý do |
+|---|---|
+| `Habermas` | no-emphasis |
+| `Postill` | no-emphasis |

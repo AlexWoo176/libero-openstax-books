@@ -2,166 +2,134 @@
 
 - **Book:** introduction-anthropology
 - **Gate Status:** ❌ FAILED
-- **Verified At:** 2026-07-15 08:47
+- **Verified At:** 2026-07-16 09:29
 
 ## Checkers Status
 
 - **Structural Integrity:** PASSED
 - **Glossary Consistency:** FAILED
 - **Math & Encoding Integrity:** PASSED
+- **Translation Quality QA:** FAILED
 
 ## Glossary Consistency Violations Details
 
 ### File: `9-1-theories-of-inequity-and-inequality.html`
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'hierarchy' ('hệ thống phân cấp') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'exercises' ('Bài tập thực hành') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'oppression' ('sự áp bức') is missing in Vietnamese block
-- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
-- Term 'language' ('ngôn ngữ') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'systematic oppression' ('sự đàn áp có hệ thống') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'theory' ('lý thuyết') is missing in Vietnamese block
-- Term 'species' ('loài / giống loài') is missing in Vietnamese block
-- Term 'features' ('đặc trưng') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'hierarchy' ('hệ thống phân cấp') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'theory' ('lý thuyết') is missing in Vietnamese block
-- Term 'power' ('quyền lực') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
-- Term 'theory' ('lý thuyết') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'systemic oppression' ('sự áp bức có hệ thống') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'communication' ('giao tiếp') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'ethnography' ('dân tộc chí / dân tộc học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'resistance' ('sức chống cự') is missing in Vietnamese block
-- Term 'oppression' ('sự áp bức') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'diaspora' ('cộng đồng người di cư') is missing in Vietnamese block
-- Term 'displacement' ('sự dịch chuyển') is missing in Vietnamese block
-- Term 'diaspora' ('cộng đồng người di cư') is missing in Vietnamese block
-- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'theory' ('lý thuyết') is missing in Vietnamese block
-- Term 'resistance' ('sức chống cự') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `9-2-systems-of-inequality.html`
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'invention' ('sự phát minh') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
-- Term 'ethnography' ('dân tộc chí / dân tộc học') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'agency' ('hãng') is missing in Vietnamese block
-- Term 'descent' ('xuống') is missing in Vietnamese block
+- Term 'sex' ('giới tính (sinh học)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'money' ('tiền bạc') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'art' ('nghệ thuật') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'art' ('nghệ thuật') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'pandemic' ('dịch bệnh') is missing in Vietnamese block
-- Term 'money' ('tiền bạc') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'cultural capital' ('vốn văn hóa') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'health' ('sức khỏe') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'gender' ('giới tính') is missing in Vietnamese block
-- Term 'oppression' ('sự áp bức') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'oppression' ('sự áp bức') is missing in Vietnamese block
-- Term 'gender' ('giới tính') is missing in Vietnamese block
-- Term 'place' ('địa điểm') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'gender' ('giới tính') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'cultural capital' ('vốn văn hóa') is missing in Vietnamese block
-- Term 'gender' ('giới tính') is missing in Vietnamese block
-- Term 'attribution' ('Ghi công') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'patriarchy' ('chế độ phụ hệ') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'patriarchy' ('chế độ phụ hệ') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'art' ('nghệ thuật') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `9-3-intersections-of-inequality.html`
 - Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'features' ('đặc trưng') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'oppression' ('sự áp bức') is missing in Vietnamese block
-- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'extensive' ('quảng canh') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'resistance' ('sức chống cự') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'resistance' ('sức chống cự') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'section' ('Mục') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'misogynoir' ('sự kỳ thị phụ nữ da đen') is missing in Vietnamese block
-- Term 'queer' ('đồng tính luyến ái') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'money' ('tiền bạc') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'economic capital' ('vốn kinh tế') is missing in Vietnamese block
-- Term 'none' ('không có') is missing in Vietnamese block
-- Term 'money' ('tiền bạc') is missing in Vietnamese block
-- Term 'health' ('sức khỏe') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'displacement' ('sự dịch chuyển') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'structural inequalities' ('bất bình đẳng cấu trúc') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'colonialism' ('chủ nghĩa thực dân') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `9-4-studying-in-addressing-inequities-within-anthropology.html`
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'Indigenous peoples' ('Người bản địa') is missing in Vietnamese block
-- Term 'power' ('quyền lực') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'politics' ('chính trị') is missing in Vietnamese block
-- Term 'theory' ('lý thuyết') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'gis (geographic information system)' ('GIS (geographic information system)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
-### File: `9-bibliography.html`
-- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
-- Term 'resistance' ('sức chống cự') is missing in Vietnamese block
-- Term 'misogynoir' ('sự kỳ thị phụ nữ da đen') is missing in Vietnamese block
-- Term 'sex' ('tình dục') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'theory' ('lý thuyết') is missing in Vietnamese block
-- Term 'sexuality' ('tình dục') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'anthropology' ('nhân học') is missing in Vietnamese block
-- Term 'political economy' ('kinh tế chính trị') is missing in Vietnamese block
-- Term 'place' ('địa điểm') is missing in Vietnamese block
-- Term 'failed state' ('trạng thái thất bại') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'illness' ('sự ốm yếu') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'anthropology' ('nhân học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'gender' ('giới tính') is missing in Vietnamese block
+## Translation Quality QA Failures Details
 
-### File: `9-introduction.html`
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'class' ('lớp học') is missing in Vietnamese block
-- Term 'immigrant' ('người nhập cư') is missing in Vietnamese block
+### File: `9-2-systems-of-inequality.html`
+- English Word Leak: Detected English stopwords (are) inside VN block ID 'para-00003': "Phân biệt chủng tộc được hiểu rõ nhất là quyền lực..."
+- English Word Leak: Detected English stopwords (the, and) inside VN block ID 'para-00006': "Các nhà nhân học da đen, bao gồm Williams S. Willi..."
+- English Word Leak: Detected English stopwords (the, of) inside VN block ID 'para-00008': "Một số học giả cũng đã xem xét bản sắc chủng tộc d..."
+- English Word Leak: Detected English stopwords (the) inside VN block ID 'para-00009': "Đặc quyền của người da trắng được khái niệm hóa nh..."
+- English Word Leak: Detected English stopwords (of, and) inside VN block ID 'para-00012': "Việc tránh nói về chủng tộc, hay từ chối chủng tộc..."
+- English Word Leak: Detected English stopwords (the, of, with) inside VN block ID 'para-00017': "Ngoài giai cấp, Hoa Kỳ cũng sử dụng khái niệm “cổ ..."
+- English Word Leak: Detected English stopwords (the, of) inside VN block ID 'para-00021': "Chủ nghĩa tư bản và các hệ thống giai cấp cũng có ..."
+- English Word Leak: Detected English stopwords (the) inside VN block ID 'para-00030': "Bài báo năm 1972 của ông “Skeletons in the Anthrop..."
+
+### File: `9-3-intersections-of-inequality.html`
+- English Word Leak: Detected English stopwords (of) inside VN block ID 'para-00011': "Thành tựu trong lĩnh vực: Tiến sĩ Moses từng là ch..."
+- English Word Leak: Detected English stopwords (are) inside VN block ID 'para-00012': "Tầm quan trọng của công việc của bà: Tiến sĩ Moses..."

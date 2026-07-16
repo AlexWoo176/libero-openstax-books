@@ -1,15 +1,15 @@
-# Structural Integrity Verification Report: Chapter preface
+# Báo cáo Kiểm tra Tính toàn vẹn Dịch thuật — Chương preface
 
-- **Book:** introduction-anthropology
-- **Verified At:** 2026-07-15 15:22
+**Thời gian:** 2026-07-16 09:40
+**Sách:** books/introduction-anthropology
 
-## Overview
+## Bảng tổng quan
 
-| File Name | Clean Size | Translated Size | Status | Issues Found |
-|---|---|---|---|---|
-| `index.html` | 947.2 KB | 871.7 KB | ✅ PASS | None |
-| `preface.html` | 23.8 KB | 55.4 KB | ✅ PASS | None |
+| File | Size Gốc | Size Dịch | Tỉ lệ (Dịch/Gốc) | Tag Thiếu | Trạng thái |
+|---|---|---|---|---|---|
+| `index.html` | 947.2 KB | 871.7 KB | 0.92× | Không | ✅ ĐẠT |
+| `preface.html` | 23.8 KB | 55.4 KB | 2.33× | Không | ✅ ĐẠT |
 
-## Verification Details
+## Chi tiết lỗi cấu trúc và nội dung
 
-All structural components verified successfully. No failures encountered.
+Không phát hiện lỗi cấu trúc lớn ở bất kỳ file nào.

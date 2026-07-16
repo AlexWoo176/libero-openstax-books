@@ -3,14 +3,16 @@
   "chapter": 20,
   "title_en": "",
   "title_vi": "",
-  "status": "archive_completed",
+  "status": "review_failed",
   "qa": {
-    "integrity": "pending",
-    "glossary": "pending",
+    "integrity": "failed",
+    "glossary": "failed",
     "html_structure": "pending",
     "untranslated": "pending",
-    "review_gate": "pending",
-    "review_gate_forced": true
+    "review_gate": "failed",
+    "review_gate_forced": true,
+    "math_encoding": "passed",
+    "translation_qa": "failed"
   },
   "archive": {
     "bilingual": {
@@ -64,6 +66,17 @@
           "pdf": false
         },
         "review_gate_forced": true
+      }
+    },
+    "review": {
+      "status": "failed",
+      "timestamp": "2026-07-16T02:30:08Z",
+      "error": "Review gate failed check(s)",
+      "checks": {
+        "integrity": "failed",
+        "glossary": "failed",
+        "translation_qa": "failed",
+        "review_gate": "failed"
       }
     }
   }

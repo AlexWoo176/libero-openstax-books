@@ -2,7 +2,7 @@
 
 **File kiểm tra:** `chapter-4/05-translated/4-3-its-all-in-the-genes-the-foundation-of-evolution.html`
 **File glossary:** `data/introduction-anthropology/glossary.csv`
-**Thời gian:** 2026-07-14 23:44
+**Thời gian:** 2026-07-16 09:37
 **Trạng thái Toàn cục:** Đang mở
 
 ## Tổng kết

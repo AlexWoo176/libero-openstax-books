@@ -2,199 +2,109 @@
 
 - **Book:** introduction-anthropology
 - **Gate Status:** ❌ FAILED
-- **Verified At:** 2026-07-15 10:58
+- **Verified At:** 2026-07-16 09:29
 
 ## Checkers Status
 
 - **Structural Integrity:** PASSED
 - **Glossary Consistency:** FAILED
 - **Math & Encoding Integrity:** PASSED
+- **Translation Quality QA:** FAILED
 
 ## Glossary Consistency Violations Details
 
 ### File: `14-1-food-as-a-material-artifact.html`
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'species' ('loài / giống loài') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'household' ('hộ gia đình') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'extensive' ('quảng canh') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'genome' ('hệ gen / bộ gen') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'band' ('ban nhạc') is missing in Vietnamese block
-- Term 'band' ('ban nhạc') is missing in Vietnamese block
-- Term 'nation' ('Quốc gia') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'species' ('loài / giống loài') is missing in Vietnamese block
-- Term 'band' ('ban nhạc') is missing in Vietnamese block
-- Term 'band' ('ban nhạc') is missing in Vietnamese block
-- Term 'cultivation' ('canh tác') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `14-2-a-biocultural-approach-to-food.html`
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'oppression' ('sự áp bức') is missing in Vietnamese block
-- Term 'illness' ('sự ốm yếu') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'systems' ('hệ thống') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'foodways' ('ẩm thực') is missing in Vietnamese block
-- Term 'foodways' ('ẩm thực') is missing in Vietnamese block
-- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'foodways' ('ẩm thực') is missing in Vietnamese block
-- Term 'cultural anthropology' ('nhân học văn hóa') is missing in Vietnamese block
-- Term 'biological anthropology' ('nhân chủng học sinh học') is missing in Vietnamese block
-- Term 'species' ('loài / giống loài') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'foodways' ('ẩm thực') is missing in Vietnamese block
-- Term 'foodways' ('ẩm thực') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'farmer' ('Farmer') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'art' ('nghệ thuật') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term 'zoo' ('vườn bách thú / sở thú') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `14-3-food-and-cultural-identity.html`
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'sociocultural construction' ('sự xây dựng văn hóa xã hội') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'ritual' ('nghi thức') is missing in Vietnamese block
-- Term 'household' ('hộ gia đình') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'family' ('gia đình') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'species' ('loài / giống loài') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'marriage' ('kết hôn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'magic' ('ma thuật') is missing in Vietnamese block
-- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'type' ('Loại / Phân loại') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'ritual' ('nghi thức') is missing in Vietnamese block
-- Term 'deity' ('thần thánh') is missing in Vietnamese block
-- Term 'place' ('địa điểm') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'ritual' ('nghi thức') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `14-4-the-globalization-of-food.html`
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'section' ('Mục') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'health' ('sức khỏe') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'table' ('Bảng') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'locavore' ('người ăn địa phương') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'table' ('Bảng') is missing in Vietnamese block
-- Term 'features' ('đặc trưng') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'fieldwork' ('công việc thực địa') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
 - Term 'table' ('Bảng') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'animal' ('động vật') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term 'table' ('Bảng') is missing in Vietnamese block
 
 ### File: `14-bibliography.html`
-- Term 'myth' ('thần thoại') is missing in Vietnamese block
 - Term 'index' ('Chỉ mục') is missing in Vietnamese block
-- Term 'ethnology' ('dân tộc học') is missing in Vietnamese block
-- Term 'archaeology' ('khảo cổ học') is missing in Vietnamese block
-- Term 'health' ('sức khỏe') is missing in Vietnamese block
-- Term 'Indians' ('người Ấn Độ') is missing in Vietnamese block
-- Term 'band' ('ban nhạc') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'anthropology' ('nhân học') is missing in Vietnamese block
-- Term 'media' ('phương tiện truyền thông') is missing in Vietnamese block
-- Term 'art' ('nghệ thuật') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'health' ('sức khỏe') is missing in Vietnamese block
-- Term 'anthropology' ('nhân học') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'nature' ('thiên nhiên') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'archaeology' ('khảo cổ học') is missing in Vietnamese block
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'material culture' ('văn hóa vật chất') is missing in Vietnamese block
-- Term 'tribe' ('bộ lạc') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
 
 ### File: `14-introduction.html`
-- Term 'culture' ('văn hoá') is missing in Vietnamese block
-- Term 'cultural identity' ('bản sắc văn hóa') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 - Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+- Term '(credit a: ...; credit b: ...)' ('(nguồn ảnh a: ...; nguồn ảnh b: ...)') is missing in Vietnamese block
 
 ### File: `14-summary.html`
-- Term 'evolution' ('sự tiến hóa') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
 - Term 'table' ('Bảng') is missing in Vietnamese block
-- Term 'food' ('đồ ăn') is missing in Vietnamese block
+
+## Translation Quality QA Failures Details
+
+### File: `14-1-food-as-a-material-artifact.html`
+- English Word Leak: Detected English stopwords (of) inside VN block ID 'para-00013': "Các nghiên cứu ban đầu về ẩm thực của Eastern Band..."
+- English Word Leak: Detected English stopwords (of, the) inside VN block ID 'para-00014': "Được sử dụng như một loại thực phẩm bổ sung bởi ng..."
+- English Word Leak: Detected English stopwords (of) inside VN block ID 'para-00015': "Tỏi rừng, từ lâu được coi là một trong những loại ..."
+- English Word Leak: Detected English stopwords (of, the) inside VN block ID 'para-00017': "Trong khi những tranh cãi xung quanh việc thu thập..."
+
+### File: `14-2-a-biocultural-approach-to-food.html`
+- English Word Leak: Detected English stopwords (of) inside VN block ID 'para-00006': "Người Haudenosaunee (hay còn gọi là Iroquois hoặc ..."
+- English Word Leak: Detected English stopwords (and, of) inside VN block ID 'para-00011': "Vào thế kỷ thứ năm TCN, sử gia Hy Lạp Herodotus đã..."
+- English Word Leak: Detected English stopwords (of) inside VN block ID 'para-00012': "Sự tiết độ này được quy về hai điều: chất lượng và..."
+- English Word Leak: Detected English stopwords (the) inside VN block ID 'para-00016': "Chế độ ăn Địa Trung Hải dựa trên các truyền thống ..."
+- English Word Leak: Detected English stopwords (of, the) inside VN block ID 'para-00024': "Lĩnh vực nhân học: Armelagos đã áp dụng phương phá..."
+
+### File: `14-4-the-globalization-of-food.html`
+- English Word Leak: Detected English stopwords (of, the) inside VN block ID 'para-00005': "Thực phẩm từ lâu đã là một loại hàng hóa quốc tế, ..."
